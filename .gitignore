@@ -1,0 +1,16 @@
+# Auto-generated files
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+
+# Output from theme generator
+theme/
+*.kt.bak
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp

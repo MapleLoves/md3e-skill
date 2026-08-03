@@ -16,7 +16,7 @@ This skill covers **both MD3E and baseline M3** — many components only have M3
 
 ## Features
 
-- **Complete API reference**: Full `androidx.compose.material3` package documentation (10,000+ lines)
+- **Complete API reference**: Full `androidx.compose.material3` package documentation (~8,000 lines)
 - **Design tokens**: All color roles, type scale, shape scale, motion system values
 - **Component catalog**: Every M3/M3E component organized by category with usage guidance
 - **M3 vs M3E diff**: Clear comparison and migration guide
@@ -62,7 +62,7 @@ md3e/
 │   ├── m3-vs-m3e-diff.md             # Differences + migration guide + IO2026 updates
 │   ├── expressive-design-tactics.md  # 7 expressive design tactics with guidance
 │   ├── design-research.md            # Color science, readability, motion patterns, a11y
-│   └── m3-content/                   # Mirror of m3.material.io (260 files)
+│   └── m3-content/                   # Mirror of m3.material.io (256 files)
 │       ├── components/               # 37 components × overview/specs/guidelines/a11y
 │       ├── styles/                   # color, motion, shape, typography, spacing...
 │       └── foundations/              # layout, design tokens, watches, XR, a11y
@@ -122,3 +122,13 @@ This skill is for reference and educational purposes. The actual behavior of Mat
 ## License
 
 [Apache License 2.0](./LICENSE) — same as the Material Design components and AndroidX libraries.
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to report issues, propose changes,
+and submit pull requests.
+
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for the version history (SemVer).
+

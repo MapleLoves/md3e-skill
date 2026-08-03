@@ -1,0 +1,157 @@
+# 发布与同步流程
+
+本文件记录 md3e-skill 仓库的 Git 推送、本地技能同步、发布包生成、GitHub Release 发布的完整流程。
+
+> 工作区（源）：`<repo>`
+> 安装位置（目标）：`C:\Users\<you>\.codebuddy\skills\md3e`
+> 仓库地址：https://github.com/mfskys/md3e-skill
+> 邮箱（noreply）：`62318499+mfskys@users.noreply.github.com`
+
+---
+
+## 0. 前置检查
+
+确认本地 Git 配置使用 noreply 邮箱（避免 GH007 邮箱隐私拦截）：
+
+```powershell
+cd <repo>
+git config user.email "62318499+mfskys@users.noreply.github.com"
+git config user.name  "mfskys"
+```
+
+---
+
+## 1. 提交并推送代码到 GitHub
+
+```powershell
+cd <repo>
+git add .
+git commit -m "描述本次改动"
+git push origin main
+```
+
+- 提交邮箱必须是 noreply 邮箱，否则 GitHub 会以 `GH007` 拒绝推送。
+- 首次关联远程仓库时用 `git push -u origin main`，之后只需 `git push`。
+
+---
+
+## 2. 打 Tag 并推送（为 Release 准备）
+
+```powershell
+cd <repo>
+git tag v1.0.0              # 首次发布
+# 升级版本示例：
+#   git tag v1.1.0          # 新功能
+#   git tag v1.0.1          # 修 bug
+git push origin v1.0.0
+```
+
+- Tag 是 Git 对某次 commit 的版本标记，Release 必须依赖一个 Tag。
+- 推送 Tag 之后，Tag 出现在 GitHub，但还**不是** Release。
+
+---
+
+## 3. 生成发布包（md3e.zip）
+
+发布包放在仓库外的 `<workspace>\dist\` 目录，避免污染仓库：
+
+```powershell
+if (-not (Test-Path '<workspace>\dist')) { New-Item -ItemType Directory -Path '<workspace>\dist' -Force }
+Compress-Archive -Path '<repo>\*' -DestinationPath '<workspace>\dist\md3e.zip' -Force
+```
+
+- 生成位置：`<workspace>\dist\md3e.zip`
+- 用 `-Force` 覆盖旧包，每次发布前重新生成。
+- 这个 zip 用于上传到 GitHub Release 的 "Attach binaries"，方便用户一键下载。
+
+---
+
+## 4. 创建 GitHub Release
+
+1. 打开：https://github.com/mfskys/md3e-skill/releases/new
+2. 填写：
+   - **Choose a tag**：选刚推的 `v1.0.0`（或新版本号）
+   - **Release title**：`MD3E Skill v1.0.0`
+   - **Release description**：粘贴下方模板
+   - **Attach binaries**：把 `<workspace>\dist\md3e.zip` 拖进去
+   - **Set as the latest**：勾上
+3. 点 **Publish release**
+
+### Release 描述模板
+
+```markdown
+首次发布 — Material Design 3 Expressive (MD3E) AI 技能包
+
+适用于 Android Jetpack Compose，兼容 CodeBuddy / Cursor / Windsurf 等支持 Skill 格式的 AI 编程助手。
+
+## 功能
+- 完整 androidx.compose.material3 API 参考（约 8000 行）
+- 256 个 m3.material.io 官方设计规范文件
+- 48 个色彩角色、15 种排版、5 级形状、弹簧动效系统
+- 全组件目录 + M3/M3E 差异对比 + 迁移指南
+- 7 大表现力设计策略 + 设计研究文档
+- 4 个 Kotlin 代码模板 + 主题生成器脚本
+- 中英双语 README
+
+## 安装
+将 `md3e/` 目录复制到 AI 助手的技能文件夹：
+- CodeBuddy: `.codebuddy/skills/md3e/`
+
+仓库: https://github.com/mfskys/md3e-skill
+```
+
+升级版本时改写 "新版本" 段落，列出本次新增/修复内容。
+
+---
+
+## 5. 同步到本地 CodeBuddy 技能目录
+
+源码改动后，需要同步到本地安装位置才能生效：
+
+```powershell
+$dest = Join-Path $env:USERPROFILE '.codebuddy\skills\md3e'
+New-Item -ItemType Directory -Path $dest -Force | Out-Null
+Copy-Item -Path '<repo>\*' -Destination $dest -Recurse -Force
+```
+
+- 安装位置：`C:\Users\<you>\.codebuddy\skills\md3e\`
+- 这是**用户级**技能目录，对所有项目生效。
+- 每次 `md3e/` 内容有更新，重新执行此命令即可覆盖更新。
+- 同步后新开一个对话即可使用最新版本。
+
+---
+
+## 完整发布流程（一键顺序执行）
+
+```powershell
+cd <repo>
+
+# 1. 提交代码
+git add .
+git commit -m "release: v1.0.0"
+git push origin main
+
+# 2. 打 Tag
+git tag v1.0.0
+git push origin v1.0.0
+
+# 3. 生成发布包
+$dist = '<workspace>\dist'
+if (-not (Test-Path $dist)) { New-Item -ItemType Directory -Path $dist -Force }
+Compress-Archive -Path '<repo>\*' -DestinationPath "$dist\md3e.zip" -Force
+
+# 4. 同步到本地技能目录
+$dest = Join-Path $env:USERPROFILE '.codebuddy\skills\md3e'
+New-Item -ItemType Directory -Path $dest -Force | Out-Null
+Copy-Item -Path '<repo>\*' -Destination $dest -Recurse -Force
+
+Write-Host "完成。接下来去 https://github.com/mfskys/md3e-skill/releases/new 创建 Release。"
+```
+
+---
+
+## 版本号约定（SemVer）
+
+- `v1.0.0` → `v1.1.0`：新增功能（向下兼容）
+- `v1.0.0` → `v1.0.1`：修 bug（向下兼容）
+- `v1.0.0` → `v2.0.0`：破坏性改动（不向下兼容）

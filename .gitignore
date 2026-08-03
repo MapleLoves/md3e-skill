@@ -7,7 +7,12 @@ Thumbs.db
 
 # Output from theme generator
 theme/
+output/
 *.kt.bak
+
+# Release artifacts
+dist/
+*.zip
 
 # IDE
 .idea/

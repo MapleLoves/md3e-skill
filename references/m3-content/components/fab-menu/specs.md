@@ -1,22 +1,12 @@
-# FAB menu
-
-> 来源: https://m3.material.io/components/fab-menu/specs
-
+---
+source: https://m3.material.io/components/fab-menu/specs
+title: "FAB menu"
+captured: 2026-09-14
 ---
 
 # FAB menu
 
-The floating action button (FAB) menu opens from a FAB to display multiple related actions
-
-## FAB menu
-
-  * Variants
-  * Configurations
-  * Tokens & specs
-  * Anatomy
-  * Color
-  * States
-  * Measurements
+> The floating action button (FAB) menu opens from a FAB to display multiple related actions
 
 ## Variants
 
@@ -24,38 +14,42 @@ The floating action button (FAB) menu opens from a FAB to display multiple relat
 
 There’s one variant of FAB menu
 
-Variant|  M3| M3 Expressive
----|---|---
-FAB menu| \--| Available
+| Variant | M3 | M3 Expressive |
+| --- | --- | --- |
+| FAB menu | \-- | Available |
 
 ## Configurations
 
-![3 color configurations of FAB menus.](https://lh3.googleusercontent.com/ysJ9Ea896_EYwed_YofScZMv_HuE8BH4IJVkWyw4v2Xw-KInaEtXmOyWaaQNTTAZw0oLB9neXbgOnHTv2rPWRCii81v_hwh0ZkDiyQp2seY=s0)
+![3 color configurations of FAB menus.](https://lh3.googleusercontent.com/ysJ9Ea896_EYwed_YofScZMv_HuE8BH4IJVkWyw4v2Xw-KInaEtXmOyWaaQNTTAZw0oLB9neXbgOnHTv2rPWRCii81v_hwh0ZkDiyQp2seY=w40)![3 color configurations of FAB menus.](https://lh3.googleusercontent.com/ysJ9Ea896_EYwed_YofScZMv_HuE8BH4IJVkWyw4v2Xw-KInaEtXmOyWaaQNTTAZw0oLB9neXbgOnHTv2rPWRCii81v_hwh0ZkDiyQp2seY=s0)
 
 Three color sets:
 
-  1. Primary
+1.  Primary
 
-  2. Secondary
+2.  Secondary
 
-  3. Tertiary
+3.  Tertiary
 
-Category| Configuration|  M3| M3 Expressive
----|---|---|---
-Color| Primary set, secondary set, tertiary set| \--| Available
+| Category | Configuration | M3 | M3 Expressive |
+| --- | --- | --- | --- |
+| Color | Primary set, secondary set, tertiary set | \-- | Available |
 
 ## Tokens & specs
 
-Use the table's menu to switch token sets. The FAB menu has a common token set and six color sets, three for each element (close button and menu item). [Learn about design tokens](</m3/pages/design-tokens/overview/>)
+Use the table's menu to switch token sets. The FAB menu has a common token set and six color sets, three for each element (close button and menu item). [Learn about design tokens](/m3/pages/design-tokens/overview/)
+
+Token
 
 Value
 
+Close
+
 ## Anatomy
 
-![2 elements of a FAB menu.](https://lh3.googleusercontent.com/CsC2u7L3QL6svcrFzmZM2foCzJxzUjF93lwZuZ-oJW7RK-lKsp4Ei0iNdLiNhbFST2y9U34PClKaRDJVJK8dT582gl98nYYhiCGKAwXNSKO6=s0)
+![2 elements of a FAB menu.](https://lh3.googleusercontent.com/CsC2u7L3QL6svcrFzmZM2foCzJxzUjF93lwZuZ-oJW7RK-lKsp4Ei0iNdLiNhbFST2y9U34PClKaRDJVJK8dT582gl98nYYhiCGKAwXNSKO6=w40)![2 elements of a FAB menu.](https://lh3.googleusercontent.com/CsC2u7L3QL6svcrFzmZM2foCzJxzUjF93lwZuZ-oJW7RK-lKsp4Ei0iNdLiNhbFST2y9U34PClKaRDJVJK8dT582gl98nYYhiCGKAwXNSKO6=s0)
 
-  1. Close button
-  2. Menu item
+1.  Close button
+2.  Menu item
 
 ![5 FAB menus showing the range of 2–6 items.](https://lh3.googleusercontent.com/KIWWfbv6JG0LIK8rzUSHcalH5BrNbW8_o8_U3uLqVkUDcdZNw4VS_nwoQ33DaomQXt95s6R_EY49aEQsWTQhxxDn2aYrDvU4ZSv4_arxasPc=w40)![5 FAB menus showing the range of 2–6 items.](https://lh3.googleusercontent.com/KIWWfbv6JG0LIK8rzUSHcalH5BrNbW8_o8_U3uLqVkUDcdZNw4VS_nwoQ33DaomQXt95s6R_EY49aEQsWTQhxxDn2aYrDvU4ZSv4_arxasPc=s0)
 
@@ -63,40 +57,40 @@ The FAB menu can have up to six items
 
 ## Color
 
-Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. [Learn more about design tokens](</m3/pages/design-tokens/overview>)
+Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. [Learn more about design tokens](/m3/pages/design-tokens/overview)
 
 ![12 colors of the FAB menu.](https://lh3.googleusercontent.com/tZxH6WCjbJBIqPlpd4_nt_npacUlh9WWyrIqJWs6Z1BCdGKbGFPt_BaW0CrG9HHNVQzBFYxxGU4hYm8LnEeWldCP9dezTNn3BwRy0uvJR2FoEw=w40)
 
-  1. On primary container
-  2. Primary container
-  3. On primary
-  4. Primary
-  5. On secondary container
-  6. Secondary container
-  7. On secondary
-  8. Secondary
-  9. On tertiary container
-  10. Tertiary container
-  11. On tertiary
-  12. Tertiary
+1.  On primary container
+2.  Primary container
+3.  On primary
+4.  Primary
+5.  On secondary container
+6.  Secondary container
+7.  On secondary
+8.  Secondary
+9.  On tertiary container
+10.  Tertiary container
+11.  On tertiary
+12.  Tertiary
 
 ## States
 
-States are visual representations used to communicate the status of a component or interactive element. [Learn more about interaction states](</m3/pages/interaction-states>)
+States are visual representations used to communicate the status of a component or interactive element. [Learn more about interaction states](/m3/pages/interaction-states)
 
 ### Close button
 
 ![4 states of the FAB menu close button.](https://lh3.googleusercontent.com/IBxWcDPavbWf55MsedxQZnCouJM3OZfbOudsfZQNrILcXhsyU_EI9iIEZ1UeKo-BwB7btsT0_0ZApQFHjZA4TOMjuOaY7TDtozX-qV09ssI=w40)
 
-Close button states in light and dark themes:
+Close button states in light and dark themes: 
 
-  1. Enabled
+1.  Enabled
 
-  2. Hovered
+2.  Hovered
 
-  3. Focused
+3.  Focused
 
-  4. Pressed
+4.  Pressed
 
 ### Menu item
 
@@ -104,17 +98,17 @@ Close button states in light and dark themes:
 
 Menu item states in light and dark themes:
 
-  1. Enabled
+1.  Enabled
 
-  2. Hovered
+2.  Hovered
 
-  3. Focused
+3.  Focused
 
-  4. Pressed
+4.  Pressed
 
 ## Measurements
 
-FAB menu items share the same measurements as the medium  button Buttons let people take action and make choices with one tap.  [More on buttons](</m3/pages/common-buttons/overview>) specs.
+FAB menu items share the same measurements as the medium button Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) specs. 
 
 The close button should always be 56dp.
 
@@ -150,7 +144,7 @@ The large FAB placement has 16dp margins
 
 The close button is placed higher to align with the top of the large FAB
 
-On web, the FAB menu opens from the FAB, and inherits its states and specs from the baseline  menu Menus display a list of choices on a temporary surface.  [More on menus](</m3/pages/menus/overview/>) component.
+On web, the FAB menu opens from the FAB, and inherits its states and specs from the baseline  menu Menus display a list of choices on a temporary surface. [More on menus](/m3/pages/menus/overview/) component. 
 
 The gap between the FAB and menu can vary, but 4dp is recommended.
 
@@ -158,8 +152,8 @@ The gap between the FAB and menu can vary, but 4dp is recommended.
 
 Spacing and interaction on FAB menu for web:
 
-  1. Enabled
+1.  Enabled
 
-  2. Hovered
+2.  Hovered
 
-  3. Selected
+3.  Selected

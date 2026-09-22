@@ -1,34 +1,25 @@
-# Carousel – Material Design 3
-
-> 来源: https://m3.material.io/components/carousel/accessibility
-
+---
+source: https://m3.material.io/components/carousel/accessibility
+title: "Carousel"
+captured: 2026-09-14
 ---
 
 # Carousel
 
-Carousels show a collection of items that can be scrolled on and off the screen
-
-## Carousel
-
-  * Use cases
-  * Requirements on scrolling pages
-  * Interaction & style
-  * Keyboard navigation
-  * Labeling elements
-  * Reduced motion
+> Carousels show a collection of items that can be scrolled on and off the screen
 
 ## Use cases
 
 Users should be able to do the following with assistive technology:
 
-  * Navigate to the carousel container
-  * Navigate between different carousel items
-  * Activate a carousel item
-  * Skip over the carousel items
+-   Navigate to the carousel container
+-   Navigate between different carousel items
+-   Activate a carousel item
+-   Skip over the carousel items
 
 ## Requirements on scrolling pages
 
-On vertically-scrolling pages, carousels require an accessible way to view all the items without horizontally scrolling. (This requirement doesn't apply to  full-screen carousels The full-screen carousel layout shows one edge-to-edge large item at a time and scrolls vertically.  .)
+On vertically-scrolling pages, carousels require an accessible way to view all the items without horizontally scrolling. (This requirement doesn't apply to full-screen carousels The full-screen carousel layout shows one edge-to-edge large item at a time and scrolls vertically. .)
 
 Material recommends adding a **Show all** button below the carousel, which opens a dedicated vertically-scrolling page of all carousel items.
 
@@ -46,7 +37,7 @@ Carousels with headers should use an arrow to view all carousel items
 
 ![Measurements of an arrow icon button added next to a carousel header.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwut172a-4.png?alt=media&token=79318ca5-9f6e-4973-ba50-09469633894b)
 
-Headers should align with the leading edge, and the arrow icon should have a size of 48dp
+Headers should align with the leading edge, and the arrow icon should have a size of 48dp 
 
 Avoid customizing the accessibility solution when possible. However, if your product needs an alternative solution, consider adding a **Show all** button in nearby navigation, or add alternative control buttons close to the carousel.
 
@@ -74,7 +65,7 @@ Touch: Tap
 
 ### Cursor
 
-The  hover state A hover state communicates when a user has placed a cursor above an interactive element.  [More on hover state](</m3/pages/interaction-states/applying-states#71c347c2-dd75-485b-892e-04d2900bd844>) provides a visual cue that the carousel item is interactive.
+The hover state A hover state communicates when a user has placed a cursor above an interactive element. [More on hover state](/m3/pages/interaction-states/applying-states#71c347c2-dd75-485b-892e-04d2900bd844) provides a visual cue that the carousel item is interactive.
 
 When the carousel item is clicked (in both active and inactive states), a ripple appears for interaction feedback.
 
@@ -100,11 +91,10 @@ Avoid focusing on the carousel container
 
 ## Keyboard navigation
 
-Keys| Actions
----|---
-**Tab  **or **Arrows**|  Moves to the previous or next carousel item
-
-**Space** or **Enter**|  Activates the  focused A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice.  [More on focused state](</m3/pages/interaction-states/applying-states#bc6d6853-48ef-490e-8076-448e89e69f0f>) carousel item
+| Keys | Actions |
+| --- | --- |
+| **Tab** or **Arrows** | Moves to the previous or next carousel item |
+| **Space** or **Enter** | Activates the focused A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice. [More on focused state](/m3/pages/interaction-states/applying-states#bc6d6853-48ef-490e-8076-448e89e69f0f) carousel item |
 
 ## Labeling elements
 
@@ -126,10 +116,10 @@ When reduced motion settings are turned on, the parallax effect should be remove
 
 Make sure carousels with reduced motion reach the edges of the window to avoid clipping visuals.
 
-  1. Default carousel for multi-scroll
-  2. Carousel with reduced motion settings turned on
+1.  Default carousel for multi-scroll
+2.  Carousel with reduced motion settings turned on
 
-For  hero carousels The hero carousel layout shows at least one large and one small item at a time.  with reduced motion, the small carousel item is only partially shown on screen.
+For hero carousels The hero carousel layout shows at least one large and one small item at a time. with reduced motion, the small carousel item is only partially shown on screen.
 
-  1. Default carousel for single-scroll
-  2. Carousel with reduced motion settings turned on
+1.  Default carousel for single-scroll
+2.  Carousel with reduced motion settings turned on

@@ -1,30 +1,22 @@
-# Checkbox – Material Design 3
-
-> 来源: https://m3.material.io/components/checkbox/accessibility
-
+---
+source: https://m3.material.io/components/checkbox/accessibility
+title: "Checkbox"
+captured: 2026-09-14
 ---
 
 # Checkbox
 
-Checkboxes let users select one or more items from a list, or turn an item on or off
-
-## Checkbox
-
-  * Use cases
-  * Interaction & style
-  * Avoid applying density by default
-  * Keyboard navigation
-  * Labeling elements
+> Checkboxes let users select one or more items from a list, or turn an item on or off
 
 ## Use cases
 
 People should be able to use assistive technology to:
 
-  * Navigate to a checkbox
+-   Navigate to a checkbox   
 
-  * Toggle the checkbox on and off
+-   Toggle the checkbox on and off
 
-  * Get appropriate feedback based on input type documented under [Interaction & style](</m3/pages/checkbox/accessibility#6a2f55e5-2fa0-4204-b6d1-62362dda89c7>)
+-   Get appropriate feedback based on input type documented under [Interaction & style](/m3/pages/checkbox/accessibility#6a2f55e5-2fa0-4204-b6d1-62362dda89c7)
 
 ## Interaction & style
 
@@ -34,9 +26,9 @@ Users should be able to select either the text label or the checkbox to select a
 
 A checkbox selected via the text label
 
-The parent checkbox has three states: selected, unselected, and indeterminate.
+The parent checkbox has three states: selected, unselected, and indeterminate. 
 
-Checkboxes can be selected or unselected regardless of the state of the other checkboxes in a group.
+Checkboxes can be selected or unselected regardless of the state of the other checkboxes in a group. 
 
 If some, but not all, child checkboxes are checked, the parent checkbox becomes indeterminate. Selecting an indeterminate parent checkbox will check all of its child checkboxes.
 
@@ -52,18 +44,18 @@ To ensure that this density setting can be easily reverted when it's active, kee
 
 ## Keyboard navigation
 
-Keys| Actions
----|---
-**Tab**|  Moves focus to  enabled An enabled state communicates an interactive component or element.  [More on enabled state](</m3/pages/interaction-states/applying-states#39b2fc90-01db-41b5-b6f8-47be61ed1479>) chip or chip group
-**Space** or **Enter**|  Activates, selects, or deselects the focused chip
-**Backspace** or **Delete**|  Removes currently  focused A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice.  [More on focused state](</m3/pages/interaction-states/applying-states#bc6d6853-48ef-490e-8076-448e89e69f0f>) input chip
-**Arrows**|  Moves focus between chips
+| Keys | Actions |
+| --- | --- |
+| **Tab** | Moves focus to enabled An enabled state communicates an interactive component or element. [More on enabled state](/m3/pages/interaction-states/applying-states#39b2fc90-01db-41b5-b6f8-47be61ed1479) chip or chip group |
+| **Space** or **Enter** | Activates, selects, or deselects the focused chip |
+| **Backspace** or **Delete** | Removes currently  focused A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice. [More on focused state](/m3/pages/interaction-states/applying-states#bc6d6853-48ef-490e-8076-448e89e69f0f) input chip |
+| **Arrows** | Moves focus between chips |
 
 ## Labeling elements
 
 If the UI text is correctly linked to the checkbox, assistive tech (such as a screen reader) will read the UI text followed by the component’s role.
 
-The  accessibility Accessible design makes products usable for people with all kinds of abilities.  [More on accessibility](</m3/pages/overview/principles>) label for an individual checkbox is typically the same as its adjacent text label.
+The accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/overview/principles) label for an individual checkbox is typically the same as its adjacent text label.
 
 ![Accessibility labels of a checkbox.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vlqi0-3.png?alt=media&token=991b19e5-257d-4db0-9f2b-bc0ab092eeda)
 

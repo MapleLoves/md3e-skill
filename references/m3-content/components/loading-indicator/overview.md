@@ -1,59 +1,59 @@
-# Loading indicator
-
-> 来源: https://m3.material.io/components/loading-indicator/overview
-
+---
+source: https://m3.material.io/components/loading-indicator/overview
+title: "Loading indicator"
+captured: 2026-09-14
 ---
 
 # Loading indicator
 
-Loading indicators show the progress of a process for a short wait time
+> Loading indicators show the progress of a process for a short wait time
 
-## Loading indicator
+-   Recommended as a replacement for indeterminate circular progress indicators Circular progress indicators display progress by animating along an invisible circular track in a clockwise direction. [More on circular progress indicators](/m3/pages/progress-indicators/guidelines)
 
-  * Availability & resources
-  * M3 Expressive update
+-   Always reflect an ongoing process and are never simply decorative
 
-  * Recommended as a replacement for indeterminate  circular progress indicators Circular progress indicators display progress by animating along an invisible circular track in a clockwise direction.  [More on circular progress indicators](</m3/pages/progress-indicators/guidelines>)
+-   Used for pull-to-refresh interactions
 
-  * Always reflect an ongoing process and are never simply decorative
+-   Not used for processes that transition from indeterminate to determinate  
 
-  * Used for pull-to-refresh interactions
+-   Capture attention through motion
 
-  * Not used for processes that transition from indeterminate to determinate
+1.  Loading indicator
 
-  * Capture attention through motion
-
-  1. Loading indicator
-
-  2. Contained loading indicator
+2.  Contained loading indicator
 
 ## Availability & resources
 
-Type| Resource| Status
----|---|---
-Design
-[ Design Kit (Figma)](<https://www.figma.com/community/file/1035203688168086460>)| Available
-Implementation
-[ android Jetpack Compose: Expressive](<https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#LoadingIndicator\(androidx.compose.ui.Modifier,androidx.compose.ui.graphics.Color,kotlin.collections.List\)>)| Available
-[ android Android Views (MDC-Android): Expressive](<https://github.com/material-components/material-components-android/blob/master/docs/components/LoadingIndicator.md>)| Available
-language Web: Expressive| Unavailable
+| Type | Resource | Status |
+| --- | --- | --- |
+| Design |
+| [Design Kit (Figma)](https://www.figma.com/community/file/1035203688168086460) | Available |
+| Implementation |
+| [Jetpack Compose: Expressive](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#LoadingIndicator\(androidx.compose.ui.Modifier,androidx.compose.ui.graphics.Color,kotlin.collections.List\)) | Available |
+| [Android Views (MDC-Android): Expressive](https://github.com/material-components/material-components-android/blob/master/docs/components/LoadingIndicator.md) | Available |
+|
+Web: Expressive
+
+ | Unavailable |
+
+Close
 
 ## M3 Expressive update
 
 **May 2025**
 
-The loading indicator is designed to show progress that loads in under five seconds. It should replace most uses of the indeterminate circular progress indicator. [More on M3 Expressive](<https://m3.material.io/blog/building-with-m3-expressive>)
+The loading indicator is designed to show progress that loads in under five seconds. It should replace most uses of the indeterminate circular progress indicator. [More on M3 Expressive](https://m3.material.io/blog/building-with-m3-expressive)
 
 New component added to catalog.
 
 Loading indicators:
 
-  * Are used in pull-to-refresh functionality
+-   Are used in pull-to-refresh functionality
 
-  * Can be contained or uncontained
+-   Can be contained or uncontained
 
-  * Use shape and motion to capture attention
+-   Use shape and motion to capture attention
 
-  * Can scale in size
+-   Can scale in size
 
 Loading indicators are used in the pull-to-refresh behavior

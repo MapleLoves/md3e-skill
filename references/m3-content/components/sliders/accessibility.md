@@ -1,28 +1,20 @@
-# Sliders – Material Design 3
-
-> 来源: https://m3.material.io/components/sliders/accessibility
-
+---
+source: https://m3.material.io/components/sliders/accessibility
+title: "Sliders"
+captured: 2026-09-14
 ---
 
 # Sliders
 
-Sliders allow users to make selections from a range of values
-
-## Sliders
-
-  * Use cases
-  * Interaction & style
-  * Color contrast
-  * Keyboard navigation
-  * Labeling elements
+> Sliders allow users to make selections from a range of values
 
 ## Use cases
 
 People should be able to do the following using assistive technology:
 
-  * Navigate to a slider
-  * Select a range by controlling a handle along a track
-  * Get appropriate feedback based on input type
+-   Navigate to a slider 
+-   Select a range by controlling a handle along a track
+-   Get appropriate feedback based on input type
 
 ## Interaction & style
 
@@ -40,7 +32,7 @@ The slider handle changes width during interaction
 
 ### Focus and navigation
 
-Initial focus lands directly on the handle, since it’s the primary interactive element of the slider.
+Initial focus lands directly on the handle, since it’s the primary interactive element of the slider.
 
 The slider value can then be adjusted using the arrow keys or other keyboard navigation options.
 
@@ -62,18 +54,12 @@ Icons make it easier to identify the ends of the slider on a low-contrast backgr
 
 ## Keyboard navigation
 
-Keys
-| Actions
-
----|---
-Tab
-| Moves focus to the slider handle
-Arrows
-| Increase and decrease the value by one value or one stop indicator
-Space & Arrows
-| Increase and decrease the value by one interval or one stop indicator
-Home or End
-| Set the slider to the first and last values on the slider
+| Keys | Actions |
+| --- | --- |
+| Tab | Moves focus to the slider handle |
+| Arrows | Increase and decrease the value by one value or one stop indicator |
+| Space & Arrows | Increase and decrease the value by one interval or one stop indicator |
+| Home or End | Set the slider to the first and last values on the slider |
 
 ## Labeling elements
 

@@ -1,20 +1,12 @@
-# Snackbar - Material Design 3
-
-> 来源: https://m3.material.io/components/snackbar/guidelines
-
+---
+source: https://m3.material.io/components/snackbar/guidelines
+title: "Snackbar"
+captured: 2026-09-14
 ---
 
 # Snackbar
 
-Snackbars show short updates about app processes at the bottom of the screen
-
-## Snackbar
-
-  * Usage
-  * Anatomy
-  * Placement
-  * Responsive layout
-  * Behavior
+> Snackbars show short updates about app processes at the bottom of the screen
 
 ![Snackbar at the bottom of a mobile device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6a9x4e1-1.png?alt=media&token=a139356b-4222-4b76-9c80-cfefdb00ced0)
 
@@ -34,7 +26,7 @@ A snackbar can contain a single action. "Dismiss" or "cancel" actions are option
 
 ### Similar components
 
-Dialogs Dialogs provide important prompts in a user flow.  [More on dialogs](</m3/pages/dialogs/overview>) are also designed to show important messages.
+Dialogs Dialogs provide important prompts in a user flow. [More on dialogs](/m3/pages/dialogs/overview) are also designed to show important messages.
 
 Choose the right component based on the importance of the message. This component messaging strategy can help avoid overusing snackbars.
 
@@ -45,10 +37,10 @@ Dialogs require immediate action
 **When to use snackbars**
 Snackbars communicate messages that are minimally interruptive and don’t require user action.
 
-Component| Priority| User action
----|---|---
-Snackbar| Low priority| Optional: Snackbars disappear automatically
-Dialog| High priority| Required: Dialogs block app usage until the user takes a dialog action or exits the dialog (if available)
+| Component | Priority | User action |
+| --- | --- | --- |
+| Snackbar | Low priority | Optional: Snackbars disappear automatically |
+| Dialog | High priority | Required: Dialogs block app usage until the user takes a dialog action or exits the dialog (if available) |
 
 ### Accessibility requirements for web
 
@@ -56,9 +48,9 @@ On web, auto-dismissing snackbars are inaccessible for people with low vision or
 
 #### 1\. Add inline feedback
 
-Information in auto-dismissing snackbars must also be communicated using another accessible method inline or near the action that triggered the snackbar.
+Information in auto-dismissing snackbars must also be communicated using another accessible method inline or near the action that triggered the snackbar. 
 
-For example, update the label on a "Save"  button Buttons let people take action and make choices with one tap.  [More on buttons](</m3/pages/common-buttons/overview>) to “Saved”, and trigger an auto-dismissing snackbar that communicates the same message.
+For example, update the label on a "Save" button Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) to “Saved”, and trigger an auto-dismissing snackbar that communicates the same message. 
 
 #### 2\. Make the snackbar actionable
 
@@ -72,14 +64,14 @@ Also communicate snackbar information near the action that triggered the snackba
 
 ![4 elements of a snackbar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoy0ibw-6.png?alt=media&token=e4018d28-38b2-4af5-b7b0-d6f07688ee41)
 
-  1. Container
-  2. Supporting text
-  3. Action (optional)
-  4. Close button (optional)
+1.  Container
+2.  Supporting text
+3.  Action (optional)
+4.  Close button (optional)
 
 ### Text label
 
-Snackbars contain a text label that directly relates to the process being performed. In  compact window sizes Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/breakpoints/compact>) , the text label can contain up to two lines of text.
+Snackbars contain a text label that directly relates to the process being performed. In compact breakpoints Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) , the text label can contain up to two lines of text.
 
 ![Snackbar on a mobile device reading: "Saved in Vacation album".](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoy1q93-7.png?alt=media&token=cc87fff5-d0bc-4790-a163-98557189a683)
 
@@ -177,7 +169,7 @@ A dismiss action is unnecessary, as snackbar disappears on their own by default
 
 ### At the bottom of a UI
 
-Snackbars should be placed at the bottom of a UI, in front of the main content. In some cases, snackbars can be nudged upwards to avoid overlapping with other UI elements near the bottom, such as  FABs Floating action buttons (FABs) help people take primary actions.  [More on FABs](</m3/pages/fab/overview>) or  docked toolbars Docked toolbars (formerly bottom app bars) are placed at the bottom of the page.  .
+Snackbars should be placed at the bottom of a UI, in front of the main content. In some cases, snackbars can be nudged upwards to avoid overlapping with other UI elements near the bottom, such as FABs Floating action buttons (FABs) help people take primary actions. [More on FABs](/m3/pages/fab/overview) or docked toolbars Docked toolbars (formerly bottom app bars) are placed at the bottom of the page. .
 
 Avoid placing a snackbar in front of frequently used touch targets or navigation.
 
@@ -207,9 +199,9 @@ close Don’t
 
 Don’t let the snackbar fully cover elements in focus
 
-Snackbars can span the entire width of the screen only when a UI does not use persistent navigation components like app bars or  navigation bars Navigation bars let people switch between UI views on smaller devices.  [More on navigation bars](</m3/pages/navigation-bar/overview>) .
+Snackbars can span the entire width of the screen only when a UI does not use persistent navigation components like app bars or navigation bars Navigation bars let people switch between UI views on smaller devices. [More on navigation bars](/m3/pages/navigation-bar/overview) .
 
-Snackbars that span the entire width of a UI can push up  FABs Floating action buttons (FABs) help people take primary actions.  [More on FABs](</m3/pages/fab/overview>) when they appear.
+Snackbars that span the entire width of a UI can push up FABs Floating action buttons (FABs) help people take primary actions. [More on FABs](/m3/pages/fab/overview) when they appear.
 
 ![Snackbar spanning the width of a mobile device is placed in front of the navigation components and FAB.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6aa171j-26.png?alt=media&token=0ca0a009-f201-4574-9c7f-1b37050bc6b5)
 
@@ -217,7 +209,7 @@ exclamation Caution Snackbars can span the entire width of a UI. However, they s
 
 **Snackbars and floating action buttons (FABs)**
 
-Snackbars should appear above  FABs Floating action buttons (FABs) help people take primary actions.  [More on FABs](</m3/pages/fab/overview>) .
+Snackbars should appear above FABs Floating action buttons (FABs) help people take primary actions. [More on FABs](/m3/pages/fab/overview) .
 
 ![Snackbar placed above a FAB on a mobile device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6aa25mm-27.png?alt=media&token=b110ee1b-9457-4f9a-a789-13eee60b7ef5)
 
@@ -237,21 +229,21 @@ Don’t place a snackbar behind a FAB
 
 ## Responsive layout
 
-### Compact window size
+### Compact breakpoint
 
-In  compact window sizes Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/breakpoints/compact>) , snackbars should expand vertically from 48dp to 64dp to accommodate one or two lines of text, while maintaining a  fixed distance from the leading, trailing, and bottom edges of the screen.
+In compact breakpoints Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) , snackbars should expand vertically from 48dp to 64dp to accommodate one or two lines of text, while maintaining a  fixed distance from the leading, trailing, and bottom edges of the screen.
 
 ![Snackbar with its label text extending to the second line and maintaining fixed distance from the edges of a mobile device.  ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxktk5oy-28.png?alt=media&token=62ea237a-9fb2-4b02-af6a-6a1d860be406)
 
-### Medium & expanded window sizes
+### Medium & expanded breakpoints
 
-On  medium Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation.  [More on medium window size class](</m3/pages/breakpoints/medium>) and  expanded window sizes Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop.  [More on expanded window size class](</m3/pages/breakpoints/expanded>) , like tablet and desktop, snackbars should scale horizontally to accommodate longer text strings, keeping in mind that the ideal line length for text is typically between 40-60 characters.
+On medium Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) and expanded breakpoints Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) , like tablet and desktop, snackbars should scale horizontally to accommodate longer text strings, keeping in mind that the ideal line length for text is typically between 40-60 characters.
 
-Snackbars use a flexible distance from the trailing edge of the screen. Whenever possible, snackbars on medium and large displays should aim for a single line of text with an  optional  button Buttons let people take action and make choices with one tap.  [More on buttons](</m3/pages/common-buttons/overview>) .
+Snackbars use a flexible distance from the trailing edge of the screen. Whenever possible, snackbars on medium and large displays should aim for a single line of text with an  optional button Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) .
 
 ![A horizontally expanded snackbar placed at the bottom of screen on a medium-size device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoztb40-29.png?alt=media&token=6f2bb46d-080a-4fdf-b1ef-136b1a0e52d0)
 
-In wider  layouts Layout is the visual arrangement of elements on the screen.  [More on layout](</m3/pages/understanding-layout/overview>) , snackbars can be left-aligned or center-aligned if they are consistently placed on the same spot at the bottom of the screen.
+In wider layouts Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/understanding-layout/overview) , snackbars can be left-aligned or center-aligned if they are consistently placed on the same spot at the bottom of the screen.
 
 ![A left-aligned snackbar placed at the bottom of screen on a medium-size device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwozw4lz-30.png?alt=media&token=1e5ae92c-43f8-4c9c-ab67-b51993825dd7)
 
@@ -286,7 +278,7 @@ Snackbars with actions should remain on the screen until the user takes an actio
 
 ### Consecutive snackbars
 
-Consecutive snackbars must appear one at a time.
+Consecutive snackbars must appear one at a time. 
 
 Snackbars without actions appear and disappear automatically, while those with actions remain on screen until dismissed. However, a snackbar with updated information can immediately replace an outdated snackbar.
 

@@ -1,21 +1,12 @@
-# Design – Material Design 3
-
-> 来源: https://m3.material.io/foundations/xr/design/interaction
-
+---
+source: https://m3.material.io/foundations/xr/design/interaction
+title: "Design for immersive XR"
+captured: 2026-09-14
 ---
 
 # Design for immersive XR
 
-Resources and guidance for immersive extended reality (XR) devices
-
-[Overview](<foundations/xr/design/overview>)[Interaction](<foundations/xr/design/interaction>)[Layout](<foundations/xr/design/layout>)[Accessibility](<foundations/xr/design/accessibility>)
-
-## Design for immersive XR
-
-  * Natural interactions
-  * Multimodal inputs
-  * Motion
-  * Feedback
+> Resources and guidance for immersive extended reality (XR) devices
 
 XR interactions should be flexible, comfortable, and intuitive. People expect to interact with digital objects just like they do with physical ones.
 
@@ -25,53 +16,53 @@ A person should be able to switch between hands, eyes, voice, or controllers dep
 
 Natural interactions like gestures allow people to navigate, select, and move content using their hands. Gestures should be:
 
-  * Easy to learn
+-   Easy to learn
 
-  * Follow familiar patterns, such as press, pinch, and swipe on mobile
+-   Follow familiar patterns, such as press, pinch, and swipe on mobile
 
-  * Comfortable to use repeatedly
+-   Comfortable to use repeatedly 
 
 Support one-handed interactions for essential actions. Don’t require large, repetitive arm movements, as they can cause fatigue.
 
-[More on Android XR gestures](<https://developer.android.com/design/ui/xr/guides/foundations#understanding-system>)
+ [More on Android XR gestures](https://developer.android.com/design/ui/xr/guides/foundations#understanding-system)
 
 A person can select items by pinching with the index finger and thumb
 
 ### System navigation
 
-People should be able to open a navigation menu anywhere, anytime.
+People should be able to open a navigation menu anywhere, anytime.  
 
 On Android XR, the system-level navigation menu includes:
 
-  * Go back: Operates the same as the [back gesture](<https://developer.android.com/guide/components/activities/tasks-and-back-stack>) on Android phones
+-   Go back: Operates the same as the [back gesture](https://developer.android.com/guide/components/activities/tasks-and-back-stack) on Android phones
 
-  * Launcher: Goes to the home screen
+-   Launcher: Goes to the home screen
 
-  * Recents: People can open, close, and switch apps
+-   Recents: People can open, close, and switch apps  
 
 A navigation menu should always be available using a simple gesture, so people don’t get lost
 
 ## Multimodal inputs
 
-XR apps should support flexible, multimodal inputs, such as hand and eye tracking, voice, keyboard and mouse, and controllers.
+XR apps should support flexible, multimodal inputs, such as hand and eye tracking, voice, keyboard and mouse, and controllers.  
 
-[More on Android XR multimodal inputs](<https://developer.android.com/design/ui/xr/guides/foundations#design-multimodal>)
+[More on Android XR multimodal inputs](https://developer.android.com/design/ui/xr/guides/foundations#design-multimodal)
 
 ### Hand & eye tracking
 
 Tracking allows people to interact with the virtual world without a controller.
 
-Hand tracking
+ Hand tracking
 
-  * Direct: People can touch, grab, or push virtual objects in arm's reach
+-   Direct: People can touch, grab, or push virtual objects in arm's reach
 
-  * Ray-based: A ray, like a laser pointer, extends from the hand to target distant items, then a pinch selects it
+-   Ray-based: A ray, like a laser pointer, extends from the hand to target distant items, then a pinch selects it
 
 Eye tracking
 
-  * Enables gaze and dwell interactions
+-   Enables gaze and dwell interactions
 
-  * Looking at an object triggers a hover state
+-   Looking at an object triggers a hover state
 
 Distant elements can be moved using hand and eye tracking
 
@@ -79,13 +70,13 @@ Distant elements can be moved using hand and eye tracking
 
 XR apps should also support voice and physical inputs including:
 
-  * Voice for hands-free text entry on virtual keyboards
+-   Voice for hands-free text entry on virtual keyboards
 
-  * Voice commands for common actions like **Open Settings** or **Go back**
+-   Voice commands for common actions like **Open Settings** or **Go back**
 
-  * Mouse & keyboard inputs for precision and text-heavy workflows
+-   Mouse & keyboard inputs for precision and text-heavy workflows
 
-  * Six degrees of freedom (6DoF) controllers for gaming or complex 3D manipulation
+-   Six degrees of freedom (6DoF) controllers for gaming or complex 3D manipulation
 
 ## Motion
 
@@ -93,13 +84,13 @@ In XR, motion sickness can happen when visual cues disconnect from the inner ear
 
 To keep people comfortable:
 
-  * Use [standard easing](</m3/pages/motion-easing-and-duration/tokens-specs#601d5552-a6e6-4d74-9886-ff8f24b9ec35>) and [long duration](</m3/pages/motion-easing-and-duration/tokens-specs#48bf653e-46f9-48f5-87e0-eaf8ea3fe716>) motion tokens
+-   Use [standard easing](https://m3.material.io/m3/pages/motion-easing-and-duration/tokens-specs#601d5552-a6e6-4d74-9886-ff8f24b9ec35) and [long duration](https://m3.material.io/styles/motion/easing-and-duration/tokens-specs#48bf653e-46f9-48f5-87e0-eaf8ea3fe716) motion tokens
 
-  * Maintain a stable horizon line
+-   Maintain a stable horizon line
 
-  * Limit continuous motion. To switch locations, use teleportation or instant jump instead.
+-   Limit continuous motion. To switch locations, use teleportation or instant jump instead.
 
-  * Use tunnel vision or vignetting to reduce the field of view while in motion
+-   Use tunnel vision or vignetting to reduce the field of view while in motion
 
 exclamation Caution
 
@@ -111,7 +102,7 @@ Since virtual objects lack physical resistance, use visual, audio, and sensory f
 
 ### Visual cues
 
-Use hover icons, focus indicators, ripples, text labels, and elevation changes to show an object’s interaction  state States show the interaction status of a component or UI element.  [More on states](</m3/pages/interaction-states/overview>) .
+Use hover icons, focus indicators, ripples, text labels, and elevation changes to show an object’s interaction state States show the interaction status of a component or UI element. [More on states](/m3/pages/interaction-states/overview) .  
 
 To indicate an item is targeted, use [spatial elevation](<https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation >) or a highlight state.
 

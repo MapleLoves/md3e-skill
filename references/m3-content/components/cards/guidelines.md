@@ -1,20 +1,12 @@
-# Cards – Material Design 3
-
-> 来源: https://m3.material.io/components/cards/guidelines
-
+---
+source: https://m3.material.io/components/cards/guidelines
+title: "Cards"
+captured: 2026-09-14
 ---
 
 # Cards
 
-Cards display content and actions about a single subject
-
-## Cards
-
-  * Usage
-  * Anatomy
-  * Cards in a collection
-  * Adaptive design
-  * Behavior
+> Cards display content and actions about a single subject
 
 ![3 variants of cards: elevated, filled, and outlined.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwujy207-1.png?alt=media&token=8f53bf0b-4e76-4d15-a467-e79d95d585c8)
 
@@ -22,7 +14,7 @@ Cards display content and actions about a single subject
 
 Use a card to display content and actions on a single topic.
 
-Cards should be easy to scan for relevant and actionable information.
+Cards should be easy to scan for relevant and actionable information. 
 
 Elements like text and images should be placed on cards in a way that clearly indicates hierarchy.
 
@@ -40,7 +32,7 @@ Card text and image show a clear hierarchy
 
 Use cards to display related information on a single subject
 
-Cards can be displayed together in a grid, vertical list, or  carousel Carousels show a collection of items that can be scrolled on and off the screen.  [More on carousels](</m3/pages/carousel/overview>) .
+Cards can be displayed together in a grid, vertical list, or carousel Carousels show a collection of items that can be scrolled on and off the screen. [More on carousels](/m3/pages/carousel/overview) .
 
 ![4 cards together in a grid layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk08jk-5.png?alt=media&token=f64f5002-eb4a-4af2-bf74-481bd4c3e36c)
 
@@ -56,19 +48,19 @@ Don't force content into cards when spacing, headlines, or dividers would create
 
 There are three card variants:
 
-  * Elevated Elevated cards have a drop shadow, providing more separation from the background than filled cards, but less than outlined cards
+-   Elevated Elevated cards have a drop shadow, providing more separation from the background than filled cards, but less than outlined cards
 
-  * Filled Filled cards provide subtle separation from the background. This has less emphasis than elevated or outlined cards.
+-   Filled Filled cards provide subtle separation from the background. This has less emphasis than elevated or outlined cards.
 
-  * Outlined Outlined cards have a visual boundary around their container. This can provide greater emphasis than the other types.
+-   Outlined Outlined cards have a visual boundary around their container. This can provide greater emphasis than the other types.
 
 Each provides the same legibility and functionality, so the variant you use depends on style alone.
 
 ![3 variants of cards.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk16p3-7.png?alt=media&token=4bbc3151-4713-4962-85d3-2655c3656413)
 
-  1. Elevated card
-  2. Filled card
-  3. Outlined card
+1.  Elevated card
+2.  Filled card 
+3.  Outlined card
 
 ![Example elevated card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk25nc-8.png?alt=media&token=c16cb758-7e06-4e65-a635-1d19c85413c7)
 
@@ -88,17 +80,17 @@ The card container is the only required element in a card. Card layouts can vary
 
 ![Diagram labeling the 6 parts of card anatomy.](https://lh3.googleusercontent.com/-eiTnWJl-s5HUIjPs1tfHU9HJp4izquC1-CiHPmdGA3Eq1YAw82dWNDHWYoQN1aUiXKSQm1jkq8uHW8i2aR_xg8kUxVMmHW-tyV93R8gmc0=w40)
 
-  1. Container
+1.  Container
 
-  2. Image
+2.  Image
 
-  3. Button
+3.  Button
 
-  4. Supporting text
+4.  Supporting text
 
-  5. Subhead
+5.  Subhead
 
-  6. Headline
+6.  Headline
 
 ### Container
 
@@ -122,7 +114,7 @@ Cards can contain a headline, subhead, supporting text, media, and actions
 
 ### Dividers
 
-[Dividers](</m3/pages/divider/specs>) can separate regions in cards or indicate areas of a card that can expand.
+[Dividers](/m3/pages/divider/specs) can separate regions in cards or indicate areas of a card that can expand.
 
 ![A divider running the entire width of the card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk5dl8-14.png?alt=media&token=167906e1-0d38-4e3b-9b6a-ae34e30896c8)
 
@@ -164,7 +156,7 @@ Headline, subhead, and supporting text in a card
 
 #### Layering text, icons, and images
 
-It isn’t recommended to place text or icons on images. If it’s necessary, ensure the background image provides sufficient contrast for the text to meet  accessibility Accessible design makes products usable for people with all kinds of abilities.  [More on accessibility](</m3/pages/cards/accessibility>) standards.
+It isn’t recommended to place text or icons on images. If it’s necessary, ensure the background image provides sufficient contrast for the text to meet accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/cards/accessibility) standards.
 
 Add a translucent scrim or bounding shape beneath the text or icon to help ensure proper contrast.
 
@@ -191,13 +183,13 @@ Cards can be one large touch target triggering an expanded detail screen.
 Cards can include a primary action area that expands into a full-screen view
 
 **Buttons**
-Cards can include  buttons Buttons let people take action and make choices with one tap.  [More on buttons](</m3/pages/common-buttons/overview>) for actions such as **Learn more** or **Add to cart**.
+Cards can include buttons Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) for actions such as **Learn more** or **Add to cart**.
 
 **Icon buttons**
-Cards can include  icon buttons Icon buttons help people take minor actions with one tap.  [More on icon buttons](</m3/pages/icon-buttons/overview>) for actions such as **Save** , **Heart** , or **Leave a 4-star review**.
+Cards can include icon buttons Icon buttons help people take minor actions with one tap. [More on icon buttons](/m3/pages/icon-buttons/overview) for actions such as **Save**, **Heart**, or **Leave a 4-star review**.
 
 **Selection controls**
-Cards can also include  chips Chips help people enter information, make selections, filter content, or trigger actions.  [More on chips](</m3/pages/chips/overview>) ,  sliders Sliders let users make selections from a range of values.  [More on sliders](</m3/pages/sliders/overview>) ,  checkboxes Checkboxes let users select one or more items from a list, or turn an item on or off.  [More on checkboxes](</m3/pages/checkbox/overview>) , and other selection controls.
+Cards can also include chips Chips help people enter information, make selections, filter content, or trigger actions. [More on chips](/m3/pages/chips/overview) , sliders Sliders let users make selections from a range of values. [More on sliders](/m3/pages/sliders/overview) , checkboxes Checkboxes let users select one or more items from a list, or turn an item on or off. [More on checkboxes](/m3/pages/checkbox/overview) , and other selection controls.
 
 **Linked text**
 There can be a link in the supporting text on a card.
@@ -227,9 +219,9 @@ Overflow menus are usually located in the upper-right or lower-right corner of a
 
 ## Cards in a collection
 
-Multiple cards can be grouped together into collections displayed in a grid,  list Lists are continuous, vertical indexes of text and images.  [More on lists](</m3/pages/lists/overview>) , or  carousel Carousels show a collection of items that can be scrolled on and off the screen.  [More on carousels](</m3/pages/carousel/overview>) .
+Multiple cards can be grouped together into collections displayed in a grid, list Lists are continuous, vertical indexes of text and images. [More on lists](/m3/pages/lists/overview) , or carousel Carousels show a collection of items that can be scrolled on and off the screen. [More on carousels](/m3/pages/carousel/overview) . 
 
-By default, cards in a collection are coplanar. They share the same resting elevation unless they're picked up or  dragged A dragged state communicates when a user presses and moves an element.  [More on dragged state](</m3/pages/interaction-states/applying-states#198c29c7-771e-4264-91e9-70c32b8902ec>) .
+By default, cards in a collection are coplanar. They share the same resting elevation unless they're picked up or dragged A dragged state communicates when a user presses and moves an element. [More on dragged state](/m3/pages/interaction-states/applying-states#198c29c7-771e-4264-91e9-70c32b8902ec) .
 
 ![9 cards in a grid layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukhv18-26.png?alt=media&token=db2e3965-ccbc-474e-bbba-22ad76c67a3b)
 
@@ -237,16 +229,16 @@ Multiple cards can be grouped into collections with a shared resting elevation
 
 #### Filtering and sorting
 
-Card collections can be filtered in a variety of ways, including by date or alphabetical order. If a collection can be filtered, the filter must apply to each card in the collection.
+Card collections can be filtered in a variety of ways, including by date or alphabetical order. If a collection can be filtered, the filter must apply to each card in the collection. 
 
 Filter or sorting options should be placed outside of the card collection.
 
 ![A sort-by-date option placed above a card collection.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukig38-27.png?alt=media&token=0bbb40be-5f28-4052-bdcb-ef201193bf6a)
 
 Card collections can be filtered in a variety of ways, including by date:
-1\. A sort-by-date option is placed outside of the card collection
+1\. A sort-by-date option is placed outside of the card collection 
 
-Organize card collections so that they'e easy to use. Their  layout Layout is the visual arrangement of elements on the screen.  [More on layout](</m3/pages/understanding-layout/overview>) affects how they are perceived.
+Organize card collections so that they'e easy to use. Their layout Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/understanding-layout/overview) affects how they are perceived.
 
 ![A template for an 8-card collection layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukiwuu-28.png?alt=media&token=140d478a-a331-4060-9e2a-f3c1c0b6eb37)
 
@@ -276,13 +268,13 @@ Cards can be shown in a vertical list
 
 ### Carousel
 
-Cards can be displayed together in a horizontal row or  carousel Carousels show a collection of items that can be scrolled on and off the screen.  [More on carousels](</m3/pages/carousel/overview>) .
+Cards can be displayed together in a horizontal row or carousel Carousels show a collection of items that can be scrolled on and off the screen. [More on carousels](/m3/pages/carousel/overview) .
 
 Cards displayed together in a horizontal row or carousel
 
 ## Adaptive design
 
-As cards scale to adapt to different [window size classes](</m3/pages/breakpoints>), their position and alignment can also change.
+As cards scale to adapt to different [breakpoints](/m3/pages/breakpoints), their position and alignment can also change.
 
 Cards and their elements can align left, right, or center as the layout scales.
 
@@ -292,9 +284,9 @@ Card position and alignment changes as the screen size changes
 
 ### Ergonomics
 
-Adjust the  layout Layout is the visual arrangement of elements on the screen.  [More on layout](</m3/pages/understanding-layout/overview>) of cards to meet the ergonomic needs of large screens.
+Adjust the layout Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/understanding-layout/overview) of cards to meet the ergonomic needs of large screens. 
 
-For example, a horizontally-oriented card in a  compact window size Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/breakpoints/compact>) may become a larger, vertically-oriented card in an  expanded window size Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop.  [More on expanded window size class](</m3/pages/breakpoints/expanded>) , with more space for images and text on the larger screen.
+For example, a horizontally-oriented card in a compact breakpoint Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) may become a larger, vertically-oriented card in an expanded breakpoint Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) , with more space for images and text on the larger screen.
 
 ![Card sizes change from mobile to tablet, with larger images in the tablet layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuklb57-35.png?alt=media&token=888f14f9-99d5-4ab6-8dae-282257f1f47e)
 
@@ -302,9 +294,9 @@ Adjust the card layout so content remains the main focus on large screens
 
 ### Visual presentation
 
-To adjust the presentation of content-focused components, begin with spacing.
+To adjust the presentation of content-focused components, begin with spacing. 
 
-Allow components like  lists Lists are continuous, vertical indexes of text and images.  [More on lists](</m3/pages/lists/overview>) , cards, and images to optimize space while filling the region of a screen that suits a device breakpoint’s ergonomic needs.
+Allow components like lists Lists are continuous, vertical indexes of text and images. [More on lists](/m3/pages/lists/overview) , cards, and images to optimize space while filling the region of a screen that suits a device breakpoint’s ergonomic needs.
 
 ![2 cards with optimized space: 1 narrow rectangle, 1 wide square.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukluzj-36.png?alt=media&token=ecf624d2-b9a0-4222-8159-044022c2bce0)
 
@@ -316,9 +308,9 @@ Example of the same card with two different orientations and element positioning
 
 ### Column-based layouts
 
-In mobile layouts, components such as  lists Lists are continuous, vertical indexes of text and images.  [More on lists](</m3/pages/lists/overview>) or cards are stretched to fit the full width of the screen without compromising visual quality or user experience. When designing for large screens with an  expanded window size Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop.  [More on expanded window size class](</m3/pages/applying-layout/expanded>) , use multiple columns to display content.
+In mobile layouts, components such as lists Lists are continuous, vertical indexes of text and images. [More on lists](/m3/pages/lists/overview) or cards are stretched to fit the full width of the screen without compromising visual quality or user experience. When designing for large screens with an expanded breakpoint Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) , use multiple columns to display content.
 
-Avoid extending UI elements across the screen when possible. On larger screens, rearrange groups of related cards into horizontal rows or  carousels Carousels show a collection of items that can be scrolled on and off the screen.  [More on carousels](</m3/pages/carousel/overview>) , to allow for better content organization.
+Avoid extending UI elements across the screen when possible. On larger screens, rearrange groups of related cards into horizontal rows or carousels Carousels show a collection of items that can be scrolled on and off the screen. [More on carousels](/m3/pages/carousel/overview) , to allow for better content organization.
 
 ![3 related cards in a carousel.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukn6ma-38.png?alt=media&token=98eabd10-f4cd-457d-a7fc-d4767ce3ef57)
 
@@ -326,7 +318,7 @@ When designing for large screens, use multiple columns to display content
 
 ### Small screens
 
-On smaller screens with the  compact window size Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/applying-layout/compact>) , consider swapping cards for  lists Lists are continuous, vertical indexes of text and images.  [More on lists](</m3/pages/lists/overview>) , which can display images and text in a more compact form.
+On smaller screens with the compact breakpoint Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) , consider swapping cards for lists Lists are continuous, vertical indexes of text and images. [More on lists](/m3/pages/lists/overview) , which can display images and text in a more compact form. 
 
 Make sure that controls, actions, and other component-specific elements are maintained.
 
@@ -336,7 +328,7 @@ Certain devices or user contexts require different components to meet platform e
 
 ### Expanding
 
-Cards can use a [container transform](</m3/pages/motion-transitions/transition-patterns#b67cba74-6240-4663-a423-d537b6d21187>) transition pattern to reveal additional content. Reserve this pattern for hero moments that are meant to be expressive.
+Cards can use a [container transform](/m3/pages/motion-transitions/transition-patterns#b67cba74-6240-4663-a423-d537b6d21187) transition pattern to reveal additional content. Reserve this pattern for hero moments that are meant to be expressive.
 
 A card expands to fill the full screen using a parent-child transition
 
@@ -350,7 +342,7 @@ Don’t scroll within a card to reveal information
 
 ### Navigation
 
-Cards can use a [forward and backward](</m3/pages/motion-transitions/transition-patterns#df9c7d76-1454-47f3-ad1c-268a31f58bad>) transition pattern to navigate between screens at consecutive levels of hierarchy. This pattern has a simpler motion style compared to container transform, which makes it suitable for common navigation transitions.
+Cards can use a [forward and backward](/m3/pages/motion-transitions/transition-patterns#df9c7d76-1454-47f3-ad1c-268a31f58bad) transition pattern to navigate between screens at consecutive levels of hierarchy. This pattern has a simpler motion style compared to container transform, which makes it suitable for common navigation transitions.
 
 Cards can use a forward and backward transition pattern to navigate between screens
 
@@ -358,12 +350,12 @@ Cards can use a forward and backward transition pattern to navigate between scre
 
 #### Swipe
 
-A swipe  gesture Gestures are all the ways people interact with UI elements using touch.  [More on gestures](</m3/pages/gestures>) can be performed on a single card at a time, anywhere on that card.
+A swipe gesture Gestures are all the ways people interact with UI elements using touch. [More on gestures](/m3/pages/gestures) can be performed on a single card at a time, anywhere on that card.
 
 It can be used to:
 
-  * Dismiss a card
-  * Change the  state States show the interaction status of a component or UI element.  [More on states](</m3/pages/interaction-states/overview>) of a card, such as flagging or archiving it
+-   Dismiss a card
+-   Change the state States show the interaction status of a component or UI element. [More on states](/m3/pages/interaction-states/overview) of a card, such as flagging or archiving it
 
 check Do
 
@@ -375,7 +367,7 @@ Cards shouldn’t contain content that can be swiped, such as an image carousel 
 
 #### Pick up & move
 
-The pick-up-and-move  gesture Gestures are all the ways people interact with UI elements using touch.  [More on gestures](</m3/pages/gestures>) allows users to move and reorder cards in a collection.
+The pick-up-and-move gesture Gestures are all the ways people interact with UI elements using touch. [More on gestures](/m3/pages/gestures) allows users to move and reorder cards in a collection.
 
 check Do
 
@@ -387,7 +379,7 @@ Don’t let cards bump other elements out of the way. When a card is picked up, 
 
 #### Scrolling
 
-Card content that’s taller than the maximum card height is truncated and doesn’t scroll, but can be displayed by expanding the height of a card.
+Card content that’s taller than the maximum card height is truncated and doesn’t scroll, but can be displayed by expanding the height of a card.  
 
 A card can expand beyond the maximum height of the screen, in which case the card scrolls within the screen.
 

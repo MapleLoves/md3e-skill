@@ -1,28 +1,20 @@
-# Top app bar – Material Design 3
-
-> 来源: https://m3.material.io/components/app-bars/accessibility
-
+---
+source: https://m3.material.io/components/app-bars/accessibility
+title: "App bars"
+captured: 2026-09-14
 ---
 
 # App bars
 
-App bars are placed at the top of the screen to help people navigate through a product.
-
-## App bars
-
-  * Use cases
-  * Interaction & style
-  * Color
-  * Keyboard navigation
-  * Labeling elements
+> App bars are placed at the top of the screen to help people navigate through a product.
 
 ## Use cases
 
 People should be able to do the following using assistive technology:
 
-  * Understand what page they’re currently visiting
-  * Take actions or navigate to a new page destination
-  * Maintain access to app bar actions when the content is scrolled
+-   Understand what page they’re currently visiting
+-   Take actions or navigate to a new page destination
+-   Maintain access to app bar actions when the content is scrolled
 
 ## Interaction & style
 
@@ -64,10 +56,10 @@ Use **Space** or **Enter** to activate actions
 
 On search app bars, use the default color roles when possible.
 
-  * Search container: **surface container**
-  * Search label: **on surface variant**
+-   Search container: **surface container**
+-   Search label: **on surface variant**
 
-On darker backgrounds, search bar containers can use the **surface bright** role to maintain strong visual contrast.
+On darker backgrounds, search bar containers can use the **surface bright** role to maintain strong visual contrast. 
 
 If mapping to other color roles, make sure the text and container have 3:1 contrast to ensure readability.
 
@@ -85,10 +77,7 @@ Avoid using custom color roles for the search bar container and search label tex
 
 ## Keyboard navigation
 
-Keys| Actions
----|---
-Tab| Move focus to the next interactive element
-Space or Enter| Activate the focused element
+<table style="width:100%" class="fr-table-selection-hover"><tbody><tr><th>Keys</th><td>Actions</td></tr><tr><th>Tab</th><td>Move focus to the next interactive element</td></tr><tr><th>Space or Enter</th><td>Activate the focused element</td></tr></tbody></table>
 
 ## Labeling elements
 
@@ -100,7 +89,7 @@ Screen readers will read the UI text followed by the component’s role.
 
 An app bar’s accessibility label can incorporate its UI text as well as additional context
 
-Label icon buttons according to their [accessibility guidelines](</m3/pages/icon-buttons/accessibility>).
+Label icon buttons according to their [accessibility guidelines](/m3/pages/icon-buttons/accessibility).
 
 ![The app bar icon button has the accessibility role “Button”.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlos0avb-09.png?alt=media&token=ea50a8f1-f6ec-4c0d-9693-c381e6b86ed0)
 

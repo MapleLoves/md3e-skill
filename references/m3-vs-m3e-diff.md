@@ -3,21 +3,27 @@
 Material 3 Expressive (M3E) is an **expansion** of Material Design 3, not a replacement. This
 document covers what changed, what's new, and what stayed the same.
 
+> **Version baseline (2026-09-14):** full M3E component set ships only on the **alpha line**
+> (`material3` **1.5.0-alpha28**). Stable **1.4.0** = M3 + `MotionScheme` + partial Expressive.
+> Since **1.4.0-beta01**, all public `ExperimentalMaterial3ExpressiveApi` APIs were **removed from
+> the stable line**. Details: `references/version-baseline.md`, `references/m3e/compose-api.md`.
+
 ---
 
 ## Summary
 
 | Aspect | M3 (baseline) | M3E (expressive) |
 |--------|---------------|-------------------|
-| Theme composable | `MaterialTheme` | `MaterialExpressiveTheme` |
+| Theme composable | `MaterialTheme` | `MaterialExpressiveTheme` (1.5.0-alpha18+) |
 | Color scheme | `lightColorScheme()` / `darkColorScheme()` | + `expressiveLightColorScheme()` |
 | Color roles | 30 roles | + 18 Fixed roles + 7 surface container roles = 48+ |
-| Motion | Easing curves + duration tokens | `MotionScheme` (spring physics) |
+| Motion | Easing curves + duration tokens | `MotionScheme` (spring physics), stable since 1.4.0 |
 | Shapes | 5-size scale (uniform usage) | 5-size scale (varied, mixed, morphing) |
 | Typography | 15 styles (static) | 15 styles (variable fonts, emphasis) |
-| Experimental API | `@ExperimentalMaterial3Api` | + `@ExperimentalMaterial3ExpressiveApi` |
+| Experimental API | `@ExperimentalMaterial3Api` | `@ExperimentalMaterial3ExpressiveApi` (removed from stable 1.4.0-beta01; still used on 1.5.0-alpha for some APIs) |
 | Min Compose version | 1.0+ | 1.5.0-alpha+ (for full M3E) |
 | Target Android | Any | Android 16 (visual style), but works on lower |
+| Icons | `material-icons-core` was transitive | **Must declare explicitly since 1.4.0**; prefer Material Symbols |
 
 ---
 
@@ -51,19 +57,19 @@ primary/secondary/tertiary).
 
 | Component | Purpose |
 |-----------|---------|
-| `HorizontalFloatingToolbar` | Contextual toolbar floating above content (horizontal) |
-| `VerticalFloatingToolbar` | Contextual toolbar floating above content (vertical) |
-| `ButtonGroup` | Connected button row with overflow menu and compression animation |
-| `SplitButtonLayout` | Button split into primary action + overflow trigger |
-| `WideNavigationRail` | Expanded navigation rail for medium/expanded screens |
-| `ModalWideNavigationRail` | Modal variant of wide navigation rail |
+| `HorizontalFloatingToolbar` / `VerticalFloatingToolbar` (`FloatingToolbar`) | Contextual toolbar floating above content (1.5.0-alpha22+) |
+| `ButtonGroup` | Connected button row with overflow menu and compression animation (1.4.0-alpha22+) |
+| `SplitButton` | Primary action + overflow trigger (**use `SplitButton`, not `SplitButtonLayout`** — layout deprecated alpha25) |
+| `WideNavigationRail` / `ModalWideNavigationRail` | Expanded navigation rail for medium/expanded screens |
 | `ToggleFloatingActionButton` | FAB that morphs between two states |
 | `FloatingActionButtonMenu` | FAB that expands into a vertical menu |
-| `FlexibleBottomAppBar` | Bottom app bar with flexible content arrangement |
-| `MediumFlexibleTopAppBar` | Medium-height top app bar with flexible layout |
-| `LargeFlexibleTopAppBar` | Large-height top app bar with flexible layout |
-| Expressive list items | Non-interactive list item variants following M3E specs |
-| Expressive TimePicker | Redesigned time picker with expressive styling |
+| `FlexibleBottomAppBar` | Bottom app bar with flexible content arrangement (graduated 1.5.0-alpha23) |
+| `MediumFlexibleTopAppBar` / `LargeFlexibleTopAppBar` / `TwoRowsTopAppBar` | Flexible top app bars (graduated 1.5.0-alpha23) |
+| `ToggleButton` / `FilledTonalToggleButton` | Toggle buttons (`TonalToggleButton` renamed → `FilledTonalToggleButton` alpha25) |
+| Slot-based `SearchBar` + `SearchBarState` | Modern search API (stable 1.5.0-alpha24; old APIs deprecated) |
+| `AppBarWithSearch` | Replaces `TopSearchBar` |
+| Expressive list items / menus / TimePicker | Non-interactive list variants, vibrant menus, expressive TimePicker |
+| `carouselParallaxScrollEffect` | Global carousel parallax modifier (1.5.0-alpha28) |
 
 ### 1.5 Shape System
 
@@ -75,7 +81,7 @@ primary/secondary/tertiary).
 ### 1.6 Typography
 
 - **Variable fonts**: support for dynamic weight/width adjustments
-- **Default font family**: `Typography` now supports a `defaultFontFamily` merged with styles
+- **Font family**: M3 `Typography` has no `defaultFontFamily` parameter — set `fontFamily` on each `TextStyle` (or use a shared constant) instead
 - **Emphasis**: bolder weights and editorial-style layouts for attention guidance
 
 ### 1.7 Text Field Enhancements
@@ -182,10 +188,15 @@ val animSpec = MaterialTheme.motionScheme.defaultSpatialSpec()
 ### Notes
 
 - `MaterialExpressiveTheme` is backwards compatible — all M3 components work inside it
-- M3E experimental APIs require `@ExperimentalMaterial3ExpressiveApi` opt-in
-- Many M3E APIs have graduated to stable (TopAppBar, FloatingToolbar, ButtonGroup, SplitButton
-  as of 1.5.0-alpha22/23)
+- Some M3E APIs still use `@ExperimentalMaterial3ExpressiveApi` on the alpha line; on **stable
+  1.4.0-beta01+** those public experimental APIs were removed — stay on 1.5.0-alpha for full M3E
+- Graduated non-experimental (as of 1.5.0-alpha22/23): Flexible AppBar family, `FloatingToolbar`,
+  `ButtonGroup` stable APIs, slot `SearchBarState` (alpha24)
 - Dynamic color works the same in M3 and M3E
+- **Icons:** declare `material-icons-core` explicitly or switch to Material Symbols
+- **Alpha churn:** read release notes before every material3 alpha bump — see
+  `references/version-baseline.md` §4 (`LocalMotionScheme` removed, `ExposedDropdownMenu` import
+  change, Slider stateless overloads deprecated, etc.)
 
 ---
 

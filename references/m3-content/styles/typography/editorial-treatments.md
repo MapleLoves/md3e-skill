@@ -1,25 +1,16 @@
-# Typography – Material Design 3
-
-> 来源: https://m3.material.io/styles/typography/editorial-treatments
-
+---
+source: https://m3.material.io/styles/typography/editorial-treatments
+title: "Typography"
+captured: 2026-09-14
 ---
 
 # Typography
 
-Use typography to make content readable and beautiful
-
-[Overview](<styles/typography/overview>)[Fonts](<styles/typography/fonts>)[Type scale & tokens](<styles/typography/type-scale-tokens>)[Applying type](<styles/typography/applying-type>)[Editorial treatments](<styles/typography/editorial-treatments>)
-
-## Typography
-
-  * Editorial treatments
-  * Examples of editorial treatments
-  * Editorial treatment best practices
-  * Use variable axes to make editorial treatments
+> Use typography to make content readable and beautiful
 
 ## Editorial treatments
 
-Editorial treatments are standalone, showcase moments driven by type. They involve dynamic, attention-grabbing use of custom sizes, which can involve larger display type or a blockier look and feel. They should depart from purely functional layouts or basic stages in a user flow.
+Editorial treatments are standalone, showcase moments driven by type. They involve dynamic, attention-grabbing use of custom sizes, which can involve larger display type or a blockier look and feel. They should depart from purely functional layouts or basic stages in a user flow. 
 
 In the expressive system, editorial treatments can be combined with elements such as motion, shape, or color, to create product-wide hero moments.
 
@@ -37,7 +28,7 @@ Editorial treatments can dramatically take over the screen to mark a particular 
 
 Try matching the text to the tone of the product or a strong emotion, like a narrow, thin style for serenity, or a bolder, italicized style for liveliness.
 
-![Large type reading “Mesa Verde National Park” with a hiker in the foreground.](https://lh3.googleusercontent.com/_f96Z-GV-cAbQmpKCj-Keg6s4rM6TfNLrZzkjpFVRS2wnACMbvScj90pXQqDVkQsrXv3HuwAPI2GoFFbLjYhfTlFp66pmIY7VFy7BBxvwglCCA=s0)
+![Large type reading “Mesa Verde National Park” with a hiker in the foreground.](https://lh3.googleusercontent.com/_f96Z-GV-cAbQmpKCj-Keg6s4rM6TfNLrZzkjpFVRS2wnACMbvScj90pXQqDVkQsrXv3HuwAPI2GoFFbLjYhfTlFp66pmIY7VFy7BBxvwglCCA=w40)![Large type reading “Mesa Verde National Park” with a hiker in the foreground.](https://lh3.googleusercontent.com/_f96Z-GV-cAbQmpKCj-Keg6s4rM6TfNLrZzkjpFVRS2wnACMbvScj90pXQqDVkQsrXv3HuwAPI2GoFFbLjYhfTlFp66pmIY7VFy7BBxvwglCCA=s0)
 
 Use an exuberant cover image for a photo album, here shown with Roboto Flex
 
@@ -47,7 +38,7 @@ Express the voice of the user by letting them personalize the appearance of typo
 
 Use customization selectively to frame a user’s mood and make it stand out.
 
-![A text exchange in which one party is responding enthusiastically in extremely large letters.](https://lh3.googleusercontent.com/aIWtxiI3mObxA5vNa0tgNA8a89V2FRGKJIPDwOFDDjqkYNShmdmFAnqptxLK4bmFCFEPvZSZw9vJ2dWwT_R00KolfVj8le1Iu-yZexlmpimB9Q=s0)
+![A text exchange in which one party is responding enthusiastically in extremely large letters.](https://lh3.googleusercontent.com/aIWtxiI3mObxA5vNa0tgNA8a89V2FRGKJIPDwOFDDjqkYNShmdmFAnqptxLK4bmFCFEPvZSZw9vJ2dWwT_R00KolfVj8le1Iu-yZexlmpimB9Q=w40)
 
 A response with the right type treatment can convey ecstatic emotion. Here, the text is shown in Roboto Flex and PT Serif Caption.
 
@@ -55,7 +46,7 @@ A response with the right type treatment can convey ecstatic emotion. Here, the 
 
 Editorial treatments can also be used to help express moments of unique functionality within the product experience.
 
-![A slider to adjust bedroom lights. The characters increase in width and weight as the brightness is increased.](https://lh3.googleusercontent.com/MOKMcp4KQUKuarOagUBezjsmfRUftgg4bZuIe7ss8B-RpdEBvAAintWivpRfcCCukxxgqDKpP3EoaJLD6HfOEg3KMQBlEK2n-NRxLLWcqFEmJQ=w40)![A slider to adjust bedroom lights. The characters increase in width and weight as the brightness is increased.](https://lh3.googleusercontent.com/MOKMcp4KQUKuarOagUBezjsmfRUftgg4bZuIe7ss8B-RpdEBvAAintWivpRfcCCukxxgqDKpP3EoaJLD6HfOEg3KMQBlEK2n-NRxLLWcqFEmJQ=s0)
+![A slider to adjust bedroom lights. The characters increase in width and weight as the brightness is increased.](https://lh3.googleusercontent.com/MOKMcp4KQUKuarOagUBezjsmfRUftgg4bZuIe7ss8B-RpdEBvAAintWivpRfcCCukxxgqDKpP3EoaJLD6HfOEg3KMQBlEK2n-NRxLLWcqFEmJQ=w40)
 
 The increase in the bedroom light brightness prompts an algorithmic response in the width and weight axes
 
@@ -65,10 +56,10 @@ As there is intentionally much room for choice in developing editorial treatment
 
 These best practices include:
 
-  * Ensuring consistency between similar-looking editorial moments, creating tokens for each where needed
-  * Matching the emotional tone of text to the task at hand
-  * Not mixing multiple or clashing styles in the same layout
-  * Not mimicking personalization theming
+-   Ensuring consistency between similar-looking editorial moments, creating tokens for each where needed
+-   Matching the emotional tone of text to the task at hand
+-   Not mixing multiple or clashing styles in the same layout
+-   Not mimicking personalization theming
 
 ![A UI showing two instances of editorial treatments with consistent styling.](https://lh3.googleusercontent.com/Hq2u6GmGN0yhP8it7ZGnfq7l-Sz8WJI9dtf_X2yoQcR-bABUUYLFkSvA5u2Kwg8UsW4eFmWsLfHVvLYPYnvkGk5aHUKtOgxhqOrLE4hqQy33=w40)
 
@@ -92,7 +83,7 @@ Weight is the primary attribute that defines the overall thickness of a typeface
 
 If the typeface is variable, it provides a full, continuous range of stroke thicknesses, making the number of weights effectively unlimited.
 
-[Learn more about weight on Google Fonts](<https://fonts.google.com/knowledge/choosing_type/exploring_typefaces_with_multiple_weights_or_grades>)
+[Learn more about weight on Google Fonts](https://fonts.google.com/knowledge/choosing_type/exploring_typefaces_with_multiple_weights_or_grades)
 
 ![Many examples of Roboto Flex weights.](https://lh3.googleusercontent.com/_ZH0Kaelt3AZp6-KW-_8iAzJpqXcmjFDowWlVM8kdesekBF7fRPS7YoVYtNw7CBck4R4YUGb-tPiDMqwGJeK8qtEb9JscawmvErJ9mTZ09Q=w40)
 
@@ -114,7 +105,7 @@ Excessive weight at smaller sizes can make text harder to read
 
 Grade is a secondary modifier of a typeface’s optical weight, independent of the weight axis. Both weight and grade axes affect a letter’s thickness, but adjustments with grade are much more granular and don’t change any letter widths or line breaks.
 
-[Learn more about grade on Google Fonts](<https://fonts.google.com/knowledge/choosing_type/exploring_typefaces_with_multiple_weights_or_grades>)
+[Learn more about grade on Google Fonts](https://fonts.google.com/knowledge/choosing_type/exploring_typefaces_with_multiple_weights_or_grades)
 
 ![Three ampersands set in Roboto Flex without grade over Roboto Flex with 150 grade.](https://lh3.googleusercontent.com/3HqXaLryPKUIj1IaC5Rfnzdcj2s1OVUJKRqjKUBPXN3TB9Q4x_1sCfQcEmsNsb0CI5OHaSGT-IugniC48bWebADFxLnygmoQp10QlzBHNPc=w40)
 
@@ -134,7 +125,7 @@ Width is the result of how much horizontal space is taken up by a typeface’s c
 
 A narrow width allows more characters to fit per line while a wider width may offer more personality.
 
-[Learn more about width on Google Fonts](<https://fonts.google.com/knowledge/glossary/width>)
+[Learn more about width on Google Fonts](https://fonts.google.com/knowledge/glossary/width)
 
 ![The letter ‘N’, set in Roboto Flex, rendered in varying widths.](https://lh3.googleusercontent.com/fcsjvoTZQgt3S4tEgcJeKkFdxwB7j0kq4rPwSzLExgjzb5GXXaI46dDHnYhSnpdXubMSsV60bO7gd0FHWMHX1neKkRNqysx6pndBj6cYfMSzYg=w40)
 
@@ -158,7 +149,7 @@ Optical sizes are different versions of a typeface optimized for use at differen
 
 Small size designs focus on enhancing readability, while large size designs can show off the intricacies of the letter forms and offer many more weights and widths.
 
-[Learn about choosing typefaces that have optical sizes.](<https://fonts.google.com/knowledge/choosing_type/choosing_typefaces_that_have_optical_sizes>)
+[Learn about choosing typefaces that have optical sizes.](https://fonts.google.com/knowledge/choosing_type/choosing_typefaces_that_have_optical_sizes)
 
 ![The word hello at a small optical size overlaid over the word hello at a large optical size.](https://lh3.googleusercontent.com/q145wn11t-bnGKRS9FqXq2XgXL2_zm_vcdzXtRMQj6lhcDjnhss8l3-z4BdWwmrhezO-Nuy-Kyioo2GNnuAhDS0PE8v96c3rxursoJNbhyEK=w40)
 

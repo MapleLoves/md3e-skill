@@ -1,27 +1,20 @@
-# Breakpoints– Material Design 3
-
-> 来源: https://m3.material.io/foundations/layout/breakpoints/overview
-
+---
+source: https://m3.material.io/foundations/layout/breakpoints/overview
+title: "Breakpoints"
+captured: 2026-09-14
 ---
 
 # Breakpoints
 
-Breakpoints ensure layouts work across a wide range of devices
-
-[Overview](<foundations/layout/breakpoints/overview>)[Compact](<foundations/layout/breakpoints/compact>)[Medium](<foundations/layout/breakpoints/medium>)[Expanded](<foundations/layout/breakpoints/expanded>)[Large & extra-large](<foundations/layout/breakpoints/large-extra-large>)
-
-## Breakpoints
-
-  * Breakpoints overview
-  * Designing across breakpoints
+> Breakpoints ensure layouts work across a wide range of devices
 
 Material uses breakpoints to create adaptive designs that work across devices:
 
-  * There are five main  breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes).  [More on breakpoints](</m3/pages/breakpoints>) : compact, medium, expanded, large, and extra-large
+-   There are five main breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) : compact, medium, expanded, large, and extra-large
 
-  * Layouts typically transition from a single pane to two or three panes as window size increases
+-   Layouts typically transition from a single pane to two or three panes as window size increases
 
-  * When moving across breakpoints, decide which elements to reveal, divide, resize, reposition, or swap
+-   When moving across breakpoints, decide which elements to reveal, divide, resize, reposition, or swap
 
 ## Breakpoints overview
 
@@ -29,51 +22,51 @@ A breakpoint (previously window size class) is the window size at which a layout
 
 All devices fall into one of five Material breakpoints:
 
-  * Compact
+-   Compact
 
-  * Medium
+-   Medium
 
-  * Expanded
+-   Expanded
 
-  * Large
+-   Large
 
-  * Extra-large
+-   Extra-large
 
 Rather than designing for an ever-increasing number of display states, focusing on breakpoints ensures layouts work across a wide range of devices.
 
 ![3 breakpoints from small to expanded.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zlnnl-01.png?alt=media&token=8323cb81-b243-4b44-984a-2d4e4cf92b36)
 
-  1. Compact
+1.  Compact
 
-  2. Medium
+2.  Medium
 
-  3. Expanded
+3.  Expanded
 
 Large and extra-large breakpoints are used on devices like laptops, desktops, and external monitors.
 
 ![2 devices with large and extra-large breakpoints.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zmg9g-02.png?alt=media&token=c44180cc-7578-4aad-a6cc-83976bf6261f)
 
-  1. Large
+1.  Large
 
-  2. Extra-large
+2.  Extra-large
 
 **Design for breakpoints instead of specific devices because:**
 
-  * The amount of available window space is dynamic and changes based on user behavior, such as multi-window modes or unfolding a foldable device
+-   The amount of available window space is dynamic and changes based on user behavior, such as multi-window modes or unfolding a foldable device
 
-  * Devices fall into different breakpoints based on orientation
+-   Devices fall into different breakpoints based on orientation
 
-Breakpoint| Width (dp)| Common devices
----|---|---
-Compact| Under 600dp| Phone in portrait
-Medium| 600–839dp| Tablet in portraitFoldable in portrait (unfolded)
-Expanded| 840–1199dp| Phone in landscapeTablet in landscapeFoldable in landscape (unfolded)Desktop
-Large| 1200–1599dp| Desktop
-Extra-large| 1600dp+| DesktopUltra-wide monitors
+| Breakpoint | Width (dp) | Common devices |
+| --- | --- | --- |
+| Compact | Under 600dp | Phone in portrait |
+| Medium | 600–839dp | Tablet in portraitFoldable in portrait (unfolded) |
+| Expanded | 840–1199dp | Phone in landscapeTablet in landscapeFoldable in landscape (unfolded)Desktop |
+| Large | 1200–1599dp | Desktop |
+| Extra-large | 1600dp+ | DesktopUltra-wide monitors |
 
 ### Height breakpoints
 
-On Android, compact, medium, and expanded breakpoints are also available for [height](<https://developer.android.com/develop/ui/compose/layouts/adaptive/support-different-display-sizes#window_size_classes>). These can be used to adjust the layout when available vertical space is unusually small or large. However, since most layouts contain vertically scrolling content, it's rare that layouts need to adjust to available height.
+On Android, compact, medium, and expanded breakpoints are also available for [height](https://developer.android.com/develop/ui/compose/layouts/adaptive/support-different-display-sizes#window_size_classes). These can be used to adjust the layout when available vertical space is unusually small or large. However, since most layouts contain vertically scrolling content, it's rare that layouts need to adjust to available height.
 
 ## Designing across breakpoints
 
@@ -89,31 +82,31 @@ Each product view should have a layout for the breakpoints most appropriate for 
 
 Different components are recommended for performing the same function across the five layouts.
 
-Breakpoint| Panes| Navigation| Communication| Action
----|---|---|---|---
-Compact| 1| Navigation bar, modal expandednavigation rail| Simple dialogFull-screen dialog| Bottom sheet
-Medium| 1 (recommended) or 2| Navigation bar, modal expandednavigation rail| Simple dialog| Menu
-Expanded| 1 or 2 (recommended)| Modal or standard expandednavigation rail| Simple dialog| Menu
-Large| 1 or 2 (recommended)| Modal or standard expandednavigation rail| Simple dialog| Menu
-Extra-large| 1 to 3 (recommended)| Modal or standard expandednavigation rail| Simple dialog| Menu
+| Breakpoint | Panes | Navigation | Communication | Action |
+| --- | --- | --- | --- | --- |
+| Compact | 1 | Navigation bar, modal expandednavigation rail | Simple dialogFull-screen dialog | Bottom sheet |
+| Medium | 1 (recommended) or 2 | Navigation bar, modal expandednavigation rail | Simple dialog | Menu |
+| Expanded | 1 or 2 (recommended) | Modal or standard expandednavigation rail | Simple dialog | Menu |
+| Large | 1 or 2 (recommended) | Modal or standard expandednavigation rail | Simple dialog | Menu |
+| Extra-large | 1 to 3 (recommended) | Modal or standard expandednavigation rail | Simple dialog | Menu |
 
 Start by designing for one breakpoint, then adjust the layout for the next size by asking these five questions:
 
 ### 1\. What should be revealed?
 
-Parts of the UI that are hidden on smaller devices can be revealed in larger layouts.
+Parts of the UI that are hidden on smaller devices can be revealed in larger layouts. 
 
 For example:
 
-  * On mobile, the navigation rail is collapsed by default
+-   On mobile, the navigation rail is collapsed by default
 
-  * On an expanded device, the navigation rail can be open by default, revealing more actions and features
+-   On an expanded device, the navigation rail can be open by default, revealing more actions and features
 
 ![Email app layouts in compact and expanded windows.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zwt8a-05.png?alt=media&token=6d5c3d03-c7cb-4dc8-9b6c-742a14af6323)
 
 A product’s navigation rail can be revealed in an expanded layout
 
-The same can be applied to [panes](</m3/pages/scaffold/panes>). Larger layouts can simultaneously display an inbox pane and a pane containing a selected conversation. Additional space doesn’t just mean making the same thing bigger.
+The same can be applied to [panes](/m3/pages/scaffold/panes). Larger layouts can simultaneously display an inbox pane and a pane containing a selected conversation. Additional space doesn’t just mean making the same thing bigger.
 
 ![Messaging app layouts in compact and expanded windows.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zxlki-06.png?alt=media&token=23064bc7-1c9c-4863-a5f4-c9f61bcc2abe)
 
@@ -121,19 +114,19 @@ An expanded layout for a messaging app reveals a second pane with the selected c
 
 ### 2\. How should a screen be divided?
 
-When dividing a screen into layout panes, consider the breakpoint:
+When dividing a screen into layout panes, consider the breakpoint: 
 
-  * Compact and medium breakpoints: A single pane works best
+-   Compact and medium breakpoints:  A single pane works best
 
-  * Expanded and large breakpoints: Two panes are recommended
+-   Expanded and large breakpoints:  Two panes are recommended
 
-  * Extra-large breakpoints: Consider using three panes
+-   Extra-large breakpoints: Consider using three panes
 
 ![A compact and medium window have a single pane. A larger window has 2 panes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zyjaf-07.png?alt=media&token=eaf0259d-ade7-4ad8-b653-4b536f3d12da)
 
 Compact and medium breakpoints should use a single pane, while larger breakpoints can use two
 
-At medium breakpoints, two panes are useful when they contain low-density content with clear actions.
+At medium breakpoints, two panes are useful when they contain low-density content with clear actions.  
 
 Don’t use two panes in medium layouts with high information density, as it can reduce usability.
 
@@ -147,13 +140,13 @@ Rotating a device often changes the breakpoint. A layout can have two panes in l
 
 Single-pane layouts can focus attention on one action or view, creating a distraction-free environment for a specific goal such as:
 
-  * Playing a game
+-   Playing a game
 
-  * Watching a movie
+-   Watching a movie
 
-  * Video calls
+-   Video calls
 
-  * Creative applications
+-   Creative applications
 
 ![Video app in a single-pane landscape layout at an expanded breakpoint.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp401fhs-10.png?alt=media&token=0ccf4879-187a-4ede-99d1-d6ec706551c2)
 
@@ -165,13 +158,13 @@ UI elements that are small on compact screens can grow as breakpoints increase. 
 
 Consider resizing:
 
-  * Cards
+-   Cards
 
-  * Feeds
+-   Feeds
 
-  * Lists
+-   Lists
 
-  * Panes
+-   Panes
 
 Resizing can highlight imagery and improve text readability. This type of adaptation affects the scale of content and the relationship between objects on screen. For example, a vertical card on mobile can adjust its margins, orientation, text size, and density to better fit a tablet.
 
@@ -187,15 +180,15 @@ A UI and its components can reflow or reposition to make use of additional space
 
 Consider:
 
-  * Repositioning cards
+-   Repositioning cards
 
-  * Adding a second column of content
+-   Adding a second column of content
 
-  * Creating a more complex layout of photos
+-   Creating a more complex layout of photos
 
-  * Introducing more negative space
+-   Introducing more negative space
 
-  * Ensuring reachability for navigation and interactive elements
+-   Ensuring reachability for navigation and interactive elements
 
 Internal elements can be anchored to the left, right, or center as a parent container scales. Internal elements can also maintain fixed positions, such as a floating action button (FAB) in a navigation rail.
 
@@ -223,11 +216,11 @@ Swap a navigation bar in a compact layout for a navigation rail in a medium or e
 
 Likewise, a navigation rail can swap from collapsed to expanded at larger breakpoints.
 
-Use caution when swapping components. Make sure:
+Use caution when swapping components. Make sure: 
 
-  * The interchangeable components are functionally equivalent
+-   The interchangeable components are functionally equivalent
 
-  * The component swap serves a functional and ergonomic purpose
+-   The component swap serves a functional and ergonomic purpose
 
 Don’t swap a button for a chip. Be careful when changing between list items and cards.
 
@@ -245,9 +238,9 @@ Don’t arbitrarily swap components that aren’t functionally equivalent, such 
 
 ### Common swappable components
 
-Component type| Compact| Medium| Expanded
----|---|---|---
-Navigation|  Navigation bar Navigation bars let people switch between UI views on smaller devices.  [More on navigation bars](</m3/pages/navigation-bar/overview>) |  Collapsed navigation rail Collapsed navigation rails take up minimal space and are best for medium windows and larger.  [More on navigation rails](</m3/pages/navigation-rail/overview>) |  Collapsed navigation rail Collapsed navigation rails take up minimal space and are best for medium windows and larger.  [More on navigation rails](</m3/pages/navigation-rail/overview>)
-Navigation| Modal  expanded navigation rail Expanded navigation rails show text labels and an extended FAB, and can be default or modal.  [More on navigation rails](</m3/pages/navigation-rail/overview>) | Modal  expanded navigation rail Expanded navigation rails show text labels and an extended FAB, and can be default or modal.  [More on navigation rails](</m3/pages/navigation-rail/overview>) | Standard  expanded navigation rail Expanded navigation rails show text labels and an extended FAB, and can be default or modal.  [More on navigation rails](</m3/pages/navigation-rail/overview>)
-Communication| Basic or  full-screen dialog Full-screen dialogs fill the entire screen, displaying actions that require a series of tasks to complete. They're often used for creating a calendar entry.  [More on full-screen dialogs](</m3/pages/dialogs/overview>) |  Basic dialog Basic dialogs interrupt users with urgent information, details, or actions. They're often used for alerts, quick selection, or confirmation.  [More on basic dialogs](</m3/pages/dialogs/overview>) |  Basic dialog Basic dialogs interrupt users with urgent information, details, or actions. They're often used for alerts, quick selection, or confirmation.  [More on basic dialogs](</m3/pages/dialogs/overview>)
-Supplemental selection|  Bottom sheet Bottom sheets show secondary content anchored to the bottom of the screen.  [More on bottom sheets](</m3/pages/bottom-sheets/overview>) |  Menu Menus display a list of choices on a temporary surface.  [More on menus](</m3/pages/menus/overview>) |  Menu Menus display a list of choices on a temporary surface.  [More on menus](</m3/pages/menus/overview>)
+| Component type | Compact | Medium | Expanded |
+| --- | --- | --- | --- |
+| Navigation | Navigation bar Navigation bars let people switch between UI views on smaller devices. [More on navigation bars](/m3/pages/navigation-bar/overview) | Collapsed navigation rail Collapsed navigation rails take up minimal space and are best for medium windows and larger. [More on navigation rails](/m3/pages/navigation-rail/overview) | Collapsed navigation rail Collapsed navigation rails take up minimal space and are best for medium windows and larger. [More on navigation rails](/m3/pages/navigation-rail/overview) |
+| Navigation | Modal expanded navigation rail Expanded navigation rails show text labels and an extended FAB, and can be default or modal. [More on navigation rails](/m3/pages/navigation-rail/overview) | Modal expanded navigation rail Expanded navigation rails show text labels and an extended FAB, and can be default or modal. [More on navigation rails](/m3/pages/navigation-rail/overview) | Standard expanded navigation rail Expanded navigation rails show text labels and an extended FAB, and can be default or modal. [More on navigation rails](/m3/pages/navigation-rail/overview) |
+| Communication | Basic or full-screen dialog Full-screen dialogs fill the entire screen, displaying actions that require a series of tasks to complete. They're often used for creating a calendar entry. [More on full-screen dialogs](/m3/pages/dialogs/overview) | Basic dialog Basic dialogs interrupt users with urgent information, details, or actions. They're often used for alerts, quick selection, or confirmation. [More on basic dialogs](/m3/pages/dialogs/overview) | Basic dialog Basic dialogs interrupt users with urgent information, details, or actions. They're often used for alerts, quick selection, or confirmation. [More on basic dialogs](/m3/pages/dialogs/overview) |
+| Supplemental selection | Bottom sheet Bottom sheets show secondary content anchored to the bottom of the screen. [More on bottom sheets](/m3/pages/bottom-sheets/overview) | Menu Menus display a list of choices on a temporary surface. [More on menus](/m3/pages/menus/overview) | Menu Menus display a list of choices on a temporary surface. [More on menus](/m3/pages/menus/overview) |

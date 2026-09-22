@@ -1,23 +1,18 @@
-# Switch – Material Design 3
-
-> 来源: https://m3.material.io/components/switch/overview
-
+---
+source: https://m3.material.io/components/switch/overview
+title: "Switch"
+captured: 2026-09-14
 ---
 
 # Switch
 
-Switches toggle the selection of an item on and off
+> Switches toggle the selection of an item on and off
 
-## Switch
+-   Use switches (not radio buttons Radio buttons let people select one option from a set of options. [More on radio buttons](/m3/pages/radio-button/overview) ) if the items in a list Lists are continuous, vertical indexes of text and images. [More on lists](/m3/pages/lists/overview) can be independently controlled
 
-  * Availability & resources
-  * Differences from M2
+-   Switches are the best way to let people adjust settings
 
-  * Use switches (not  radio buttons Radio buttons let people select one option from a set of options.  [More on radio buttons](</m3/pages/radio-button/overview>) ) if the items in a  list Lists are continuous, vertical indexes of text and images.  [More on lists](</m3/pages/lists/overview>) can be independently controlled
-
-  * Switches are the best way to let people adjust settings
-
-  * Make sure the switch’s  selection Selection lets users choose specific items to act on.  [More on selection](</m3/pages/selection>) (on or off) is visible at a glance
+-   Make sure the switch’s selection Selection lets users choose specific items to act on. [More on selection](/m3/pages/selection) (on or off) is visible at a glance
 
 ![A switch in two states, off and on.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwa9bnl5-1.png?alt=media&token=8a4b85d3-5a30-49e2-b32d-927fc4c6fc2d)
 
@@ -25,25 +20,17 @@ Switches can be toggled on and off
 
 ## Availability & resources
 
-Type| Resource| Status
----|---|---
-Design
-[ Design Kit (Figma)](<https://www.figma.com/community/file/1035203688168086460>)| Available
-Implementation
-[ Flutter](<https://api.flutter.dev/flutter/material/ThemeData/useMaterial3.html>)| Available
-[ android Jetpack Compose](<https://developer.android.com/develop/ui/compose/components/switch>)| Available
-[ android Android Views (MDC-Android)](<https://github.com/material-components/material-components-android/blob/master/docs/components/Switch.md>)| Available
-[ language Web](<https://github.com/material-components/material-web/blob/main/docs/components/switch.md>)| Available
+Close
 
 ## Differences from M2
 
-  * Accessibility: Visual presentation is more accessible
+-   Accessibility: Visual presentation is more accessible
 
-  * Color: New color mappings meet Material's non-text-contrast requirements in addition to compatibility with  dynamic color Dynamic color takes a single color from a user's wallpaper or in-app content and creates an accessible color scheme assigned to elements in the UI.  [More on dynamic color](</m3/pages/dynamic/choosing-a-source>)
+-   Color: New color mappings meet Material's non-text-contrast requirements in addition to compatibility with dynamic color Dynamic color takes a single color from a user's wallpaper or in-app content and creates an accessible color scheme assigned to elements in the UI. [More on dynamic color](/m3/pages/dynamic/choosing-a-source)
 
-  * Icons: Ability to have an optional icon within the switch handle
+-   Icons: Ability to have an optional icon within the switch handle
 
-  * Layout: Track is taller and wider
+-   Layout: Track is taller and wider
 
 ![M2 switches in off and on states.](https://lh3.googleusercontent.com/8Q9gMTX5nAY3wJyezAw1JEzmJ6MbTAT3FkVUc7BIO9RUJ485PUwFFlXz7pAutMPh1eI0ScCnGFUd3nuAEfSb_Uo89uV3wfTPotf3njzsUwfo=s0)
 

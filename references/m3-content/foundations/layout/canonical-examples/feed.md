@@ -1,20 +1,12 @@
-# Canonical layouts – Material Design 3
-
-> 来源: https://m3.material.io/foundations/layout/canonical-examples/feed
-
+---
+source: https://m3.material.io/foundations/layout/canonical-examples/feed
+title: "Canonical layout examples"
+captured: 2026-09-14
 ---
 
 # Canonical layout examples
 
-Canonical layout examples are designs for common screen layouts across all breakpoints
-
-[Overview](<foundations/layout/canonical-examples/overview>)[Feed](<foundations/layout/canonical-examples/feed>)[List-detail](<foundations/layout/canonical-examples/list-detail>)[Supporting pane](<foundations/layout/canonical-examples/supporting-pane>)
-
-## Canonical layout examples
-
-  * Usage
-  * Dividing space
-  * Across breakpoints
+> Canonical layout examples are designs for common screen layouts across all breakpoints
 
 A feed layout uses a grid composition to enable quick content browsing and discovery. Key use cases include news, photos, and social media.
 
@@ -40,17 +32,17 @@ A feed composition is flexible enough to allow for content with varying proporti
 
 Feeds can organize content of different sizes, like using small and large cards
 
-Use size and position to establish relationships among content elements.
+Use size and position to establish relationships among content elements.  
 
 Feed items should reflow when the amount of available space changes like:
 
-  * Rotating or unfolding a device
+-   Rotating or unfolding a device
 
-  * Entering multi-window mode
+-   Entering multi-window mode
 
-The order of items is determined by their position.
+The order of items is determined by their position.   
 
-[More on adaptive design for cards](</m3/pages/cards/guidelines#99e8d17d-5bde-4bb9-8784-0ca403325b10>)
+[More on adaptive design for cards](/m3/pages/cards/guidelines#99e8d17d-5bde-4bb9-8784-0ca403325b10)
 
 ![Lead article image is prominent in a 2-pane news feed.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp528i2s-04.png?alt=media&token=55ef6a71-99cd-4d90-8502-51e3b3cf96a2)
 
@@ -64,11 +56,11 @@ A feed layout should stack vertically, like a list of cards with individual ite
 
 ![Cards in 2 feed layouts, compact and expanded.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp52hmfv-05.png?alt=media&token=0275ea27-06e7-447c-a0dc-d5f6decd6ed1)
 
-In compact windows, the cards in a feed stack vertically, filling the full width:
+In compact windows, the cards in a feed stack vertically, filling the full width: 
 
-  1. Compact breakpoint
+1.  Compact breakpoint
 
-  2. Expanded breakpoint
+2.  Expanded breakpoint
 
 ### Medium
 

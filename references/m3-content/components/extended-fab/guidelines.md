@@ -1,20 +1,12 @@
-# Extended FAB – Material Design 3
-
-> 来源: https://m3.material.io/components/extended-fab/guidelines
-
+---
+source: https://m3.material.io/components/extended-fab/guidelines
+title: "Extended FABs"
+captured: 2026-09-14
 ---
 
 # Extended FABs
 
-Extended floating action buttons (extended FABs) help people take primary actions
-
-## Extended FABs
-
-  * Usage
-  * Anatomy
-  * Placement
-  * Responsive layout
-  * Behavior
+> Extended floating action buttons (extended FABs) help people take primary actions
 
 ![Vibrant extended FAB on an email screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dfvsl8-01.png?alt=media&token=6a727ef8-a86c-46f7-9ed3-ab9fb62554b3)
 
@@ -22,7 +14,7 @@ Extended FABs are more prominent than regular FABs
 
 ## Usage
 
-Use an extended FAB on screens with long, scrolling views that require persistent access to an action, such as a checkout screen.
+Use an extended FAB on screens with long, scrolling views that require persistent access to an action, such as a checkout screen. 
 
 Use it when label text helps understand the main action, or to add further emphasis to the button.
 
@@ -40,7 +32,7 @@ Use an extended FAB to emphasize a page’s primary action
 
 ### Additional emphasis
 
-The extended FAB can provide more emphasis and clarity to a product’s primary action.
+The extended FAB can provide more emphasis and clarity to a product’s primary action. 
 
 Since it has room for both a text label and icon, the extended FAB can be effective where an icon alone is ambiguous. However, the relationship between an extended FAB's icon and label should be clear.
 
@@ -48,9 +40,9 @@ Since it has room for both a text label and icon, the extended FAB can be effect
 
 An extended FAB can be effective where an icon alone is too vague
 
-Like the regular FAB, only one extended FAB should be used per screen.
+Like the regular FAB, only one extended FAB should be used per screen. 
 
-Multiple FABs compete for attention.
+Multiple FABs compete for attention. 
 
 If additional high-level actions are required, consider adding more buttons elsewhere on the page.
 
@@ -66,7 +58,7 @@ close Don’t
 
 Don’t use multiple extended FABs in one screen as it disrupts visual hierarchy
 
-The extended FAB shouldn't be used as an option in a set of actions.
+The extended FAB shouldn't be used as an option in a set of actions. 
 
 Instead, use filled buttons for a similar level of emphasis.
 
@@ -86,11 +78,11 @@ Don’t use the extended FAB to convey an option in a set of actions
 
 There are three variants of extended FABs: small, medium, and large.
 
-Choose an appropriately-sized extended FAB to add the right amount of emphasis for an action.
+Choose an appropriately-sized extended FAB to add the right amount of emphasis for an action. 
 
 In compact windows with one prominent action, the large extended FAB can be appropriate.
 
-In larger window sizes, use a medium or large extended FAB.
+In larger breakpoints, use a medium or large extended FAB.
 
 ![1 large, 1 medium, and 1 small extended FAB on 3 different screen sizes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dhk1cf-10.png?alt=media&token=bc0b1322-7722-4911-a73b-3653406c566e)
 
@@ -100,13 +92,13 @@ There are three sizes of extended FABs
 
 ![3 extended FAB elements.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dhlqdv-11.png?alt=media&token=c9b49131-63fe-42cb-8611-388802055d3b)
 
-  1. Container
-  2. Label text
-  3. Icon (optional)
+1.  Container 
+2.  Label text 
+3.  Icon (optional)
 
 ### Container
 
-The extended FAB container is a rounded rectangle that hugs its contents.
+The extended FAB container is a rounded rectangle that hugs its contents. 
 
 The extended FAB grows and shrinks with text length.
 
@@ -174,7 +166,7 @@ close Don’t
 
 Don’t place extended FABs on cards or inside other containers
 
-Avoid putting other floating components, like the  floating toolbar Floating toolbars float on top of page content and can provide contextual, dynamic actions.  [More on toolbars](</m3/pages/toolbars/overview>) , on screen with the extended FAB.
+Avoid putting other floating components, like the floating toolbar Floating toolbars float on top of page content and can provide contextual, dynamic actions. [More on toolbars](/m3/pages/toolbars/overview) , on screen with the extended FAB.
 
 ![The extended FAB is next to a floating toolbar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dif190-21.png?alt=media&token=c974e34b-8309-4170-a095-61b8a2faaf76)
 
@@ -184,9 +176,9 @@ Floating toolbars can be paired with FABs, but not extended FABs
 
 ## Responsive layout
 
-The FAB and extended FAB can transform into each other depending on available space and layout.
+The FAB and extended FAB can transform into each other depending on available space and layout. 
 
-In a  collapsed navigation rail Collpased navigation rails take up minimal space and are best for medium windows and wider.  [More on navigation rails](</m3/pages/navigation-rail/overview>) , a FAB would be used. When the rail is expanded, the FAB can transform into an extended FAB.
+In a collapsed navigation rail Collpased navigation rails take up minimal space and are best for medium windows and wider. [More on navigation rails](/m3/pages/navigation-rail/overview) , a FAB would be used. When the rail is expanded, the FAB can transform into an extended FAB. 
 
 ![Example of extended FAB transforming into standard FAB.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0djhpqm-23.png?alt=media&token=f160b11a-c68f-4ced-9409-72e84d507e7c)
 
@@ -204,9 +196,9 @@ Icons should be placed to the left of labels for left-to-right (LTR) languages
 
 Icons should be placed to the right of labels for RTL languages
 
-### Window sizes
+### Breakpoints
 
-In  compact Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/applying-layout/compact>) and  medium window sizes Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation.  [More on medium window size class](</m3/pages/applying-layout/medium>) , the extended FAB should be placed at the bottom of the screen, either center-aligned or aligned to the trailing edge of the window.
+In compact Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) and medium breakpoints Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) , the extended FAB should be placed at the bottom of the screen, either center-aligned or aligned to the trailing edge of the window.
 
 ![Extended FAB center-aligned on a mobile screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0djn9nf-26.png?alt=media&token=6d717050-1200-42ec-aa29-b05dd1dffe34)
 
@@ -216,10 +208,11 @@ The extended FAB can be center-aligned
 
 The extended FAB can be aligned to the trailing edge of the window
 
-In  expanded Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop.  [More on expanded window size class](</m3/pages/applying-layout/expanded>) and larger window sizes, the extended FAB should appear either:
+In expanded Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) and larger breakpoints, the extended FAB should appear either:
 
-  * At the bottom right edge of the window, in both LTR and RTL languages
-  * Within the navigation rail
+-   At the bottom right edge of the window, in both LTR and RTL languages
+
+-   Within the navigation rail
 
 ![Extended FAB at bottom right of screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0djp9q0-28.png?alt=media&token=4d585d98-9d3a-4356-abca-5d160c2ea1b5)
 
@@ -233,13 +226,13 @@ The extended FAB can be at the top of the expanded navigation rail
 
 ### Appearing
 
-The extended FAB surface expands when appearing on screen using an [enter and exit](</m3/pages/motion-transitions/transition-patterns#e1c2a650-d7a4-4a6d-9025-e6b7845291ed>) transition pattern.
+The extended FAB surface expands when appearing on screen using an [enter and exit](/m3/pages/motion-transitions/transition-patterns#e1c2a650-d7a4-4a6d-9025-e6b7845291ed) transition pattern.
 
 An extended FAB expands when appearing on screen
 
 ### Expanding
 
-The extended FAB can expand and adapt to any shape using a [container transform](</m3/pages/motion-transitions/transition-patterns>) transition pattern.
+The extended FAB can expand and adapt to any shape using a [container transform](/m3/pages/motion-transitions/transition-patterns) transition pattern. 
 
 This includes a surface that is part of the app structure, or a surface that spans the entire screen.
 
@@ -259,8 +252,8 @@ An extended FAB collapses and expands when scrolling
 
 When the FAB switches to an extended FAB, the following transitions occur:
 
-  * The FAB shape changes
-  * FAB icon moves to the left
-  * FAB text label fades in
+-   The FAB shape changes
+-   FAB icon moves to the left
+-   FAB text label fades in
 
 FAB switches to an extended FAB

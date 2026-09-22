@@ -1,31 +1,22 @@
-# Grids & Spacing – Material Design 3
-
-> 来源: https://m3.material.io/foundations/layout/grids-spacing/density
-
+---
+source: https://m3.material.io/foundations/layout/grids-spacing/density
+title: "Grids & spacing"
+captured: 2026-09-14
 ---
 
 # Grids & spacing
 
-Grids and spacing organize content and actions for any layout
+> Grids and spacing organize content and actions for any layout
 
-[Overview](<foundations/layout/grids-spacing/overview>)[Grids](<foundations/layout/grids-spacing/grids>)[Spacing](<foundations/layout/grids-spacing/spacing>)[Density](<foundations/layout/grids-spacing/density>)
+-   Information density is the consideration of the amount of information visible on the screen
 
-## Grids & spacing
+-   The default target size should be at least 48x48 CSS pixels
 
-  * Information density
-  * Component scaling
-  * Targets
-  * Pixel density
+-   People can change density as long as the density controls are accessible
 
-  * Information density is the consideration of the amount of information visible on the screen
+-   Apply density thoughtfully; not every layout needs it
 
-  * The default target size should be at least 48x48 CSS pixels
-
-  * People can change density as long as the density controls are accessible
-
-  * Apply density thoughtfully; not every layout needs it
-
-  * Layout and component scaling (component adaptation or component density) can allow people to scan, view, or compare more information at once
+-   Layout and component scaling (component adaptation or component density) can allow people to scan, view, or compare more information at once
 
 Information density can change based on context and preference
 
@@ -33,15 +24,15 @@ Consider whether components should scale
 
 **Information density**
 
-  * Information density can be achieved through layout and design decisions without using component scaling
+-   Information density can be achieved through layout and design decisions without using component scaling
 
-  * Some people may not benefit from increased density
+-   Some people may not benefit from increased density
 
 **Component scaling**
 
-  * Components can adapt and change dimensions to help people scan, view, or compare different amounts of information
+-   Components can adapt and change dimensions to help people scan, view, or compare different amounts of information
 
-  * Don't apply component scaling by default if it would result in a target below 48x48 CSS pixels
+-   Don't apply component scaling by default if it would result in a target below 48x48 CSS pixels
 
 Information density and component scaling can be used together to provide more information and additional user control
 
@@ -51,7 +42,7 @@ Information density refers to the amount of content (such as text, images, or vi
 
 A layout’s spacing dimensions, including margins, spacers, and padding, can change to increase or decrease its information density. High density layouts are useful when people need to scan, view, or compare a lot of information, such as in a data table. Increasing the layout density of lists, tables, and long forms makes more content available on-screen.
 
-Consider density settings in the context of a device. Although a person may prefer a denser layout for desktop, they may not for mobile. Density shouldn’t automatically change across  breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes).  [More on breakpoints](</m3/pages/breakpoints>) or orientation unless a person changes it.
+Consider density settings in the context of a device. Although a person may prefer a denser layout for desktop, they may not for mobile. Density shouldn’t automatically change across breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) or orientation unless a person changes it.
 
 ![2 layouts: 1 with low density and 1 with high density.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5bjd4j-03.png?alt=media&token=f2d98641-43b3-4be6-813e-b788a638eadf)
 
@@ -105,9 +96,9 @@ Don't increase the density in components that alert a person of changes, such as
 
 ### Avoid applying component scaling by default
 
-People should be able to **opt  in** to dense layouts and components.
+People should be able to **opt in** to dense layouts and components.
 
-To ensure density settings can be easily reverted, settings interactions must use default target sizes (48x48 CSS pixels).
+To ensure density settings can be easily reverted, settings interactions must use default target sizes (48x48 CSS pixels).  
 
 Don't scale layouts below 48x48dp by default.
 
@@ -156,7 +147,7 @@ Density-independent pixels, written as dp, are flexible units that scale to have
 A dp is equal to one physical pixel on a screen with a density of 160.
 
 To calculate dp:
-dp = (width in pixels * 160) / screen density
+dp = (width in pixels \* 160) / screen density
 
 ![Screen with grid representing a low number of pixels.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp57upl7-18.png?alt=media&token=d73cdac2-1ff8-4a67-8808-f40ba6ffc395)
 
@@ -166,8 +157,8 @@ Low-density screen displayed with density independence
 
 High-density screen displayed with density independence
 
-Screen physical width| Screen density| Screen width in pixels| Screen width in dps
----|---|---|---
-1.5 in| 120| 180 px| 240dp
-1.5 in| 160| 240 px
-1.5 in| 240| 360 px
+| Screen physical width | Screen density | Screen width in pixels | Screen width in dps |
+| --- | --- | --- | --- |
+| 1.5 in | 120 | 180 px | 240dp |
+| 1.5 in | 160 | 240 px |
+| 1.5 in | 240 | 360 px |

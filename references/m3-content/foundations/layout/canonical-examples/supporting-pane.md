@@ -1,32 +1,24 @@
-# Canonical layouts – Material Design 3
-
-> 来源: https://m3.material.io/foundations/layout/canonical-examples/supporting-pane
-
+---
+source: https://m3.material.io/foundations/layout/canonical-examples/supporting-pane
+title: "Canonical layout examples"
+captured: 2026-09-14
 ---
 
 # Canonical layout examples
 
-Canonical layout examples are designs for common screen layouts across all breakpoints
+> Canonical layout examples are designs for common screen layouts across all breakpoints
 
-[Overview](<foundations/layout/canonical-examples/overview>)[Feed](<foundations/layout/canonical-examples/feed>)[List-detail](<foundations/layout/canonical-examples/list-detail>)[Supporting pane](<foundations/layout/canonical-examples/supporting-pane>)
+The supporting pane layout organizes content into primary and secondary areas.   
 
-## Canonical layout examples
-
-  * Usage
-  * Dividing space
-  * Across breakpoints
-
-The supporting pane layout organizes content into primary and secondary areas.
-
-The primary area contains the main content and occupies the majority of the space. The secondary area contains supporting content.
+The primary area contains the main content and occupies the majority of the space. The secondary area contains supporting content.  
 
 Key use cases for supporting pane layouts include:
 
-  * Productivity
+-   Productivity
 
-  * Document editing and commenting
+-   Document editing and commenting
 
-  * Content and media browsing
+-   Content and media browsing
 
 ![A video app has the main content in the primary area and “up next” content is listed in the secondary area.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp54jbnh-01.png?alt=media&token=409de525-30e4-43b6-9864-a7e9d59c137e)
 
@@ -34,9 +26,9 @@ Supporting pane layouts organize content into primary and secondary areas
 
 ## Usage
 
-Use the supporting pane layout when the secondary content is only meaningful in relation to the primary content.
+Use the supporting pane layout when the secondary content is only meaningful in relation to the primary content.   
 
-For content with a parent-child relationship, use a [list-detail layout](</m3/pages/canonical-layouts/list-detail/>) instead.
+For content with a parent-child relationship, use a [list-detail layout](/m3/pages/canonical-layouts/list-detail/) instead.
 
 ![The supporting pane has vertically stacked cards.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp54n3m1-02.png?alt=media&token=db669416-4a28-46b3-8f50-8ee0148c932c)
 
@@ -44,7 +36,7 @@ Supporting panes provide contextual info for the primary area
 
 ## Dividing space
 
-The window is divided between a focus pane and a supporting pane.
+The window is divided between a focus pane and a supporting pane.  
 
 Depending on the breakpoint, the supporting pane may appear below or beside the focus pane.
 
@@ -52,16 +44,16 @@ Depending on the breakpoint, the supporting pane may appear below or beside the 
 
 Supporting panes can appear beside or below the primary area
 
-Supporting pane placement| Pane width| Breakpoint
----|---|---
-Below| Flexible| Compact or Medium
-Leading or trailing| Fixed (360 dp)| Expanded
+| Supporting pane placement | Pane width | Breakpoint |
+| --- | --- | --- |
+| Below | Flexible | Compact or Medium |
+| Leading or trailing | Fixed (360 dp) | Expanded |
 
 ## Across breakpoints
 
 ### Compact
 
-The supporting pane should appear below the focus pane.
+The supporting pane should appear below the focus pane. 
 
 A bottom sheet can be useful for keeping focus on the primary pane while providing access to supporting information.
 

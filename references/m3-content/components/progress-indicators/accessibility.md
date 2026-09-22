@@ -1,25 +1,19 @@
-# Progress indicators – Material Design 3
-
-> 来源: https://m3.material.io/components/progress-indicators/accessibility
-
+---
+source: https://m3.material.io/components/progress-indicators/accessibility
+title: "Progress indicators"
+captured: 2026-09-14
 ---
 
 # Progress indicators
 
-Progress indicators show the status of a process in real time
-
-## Progress indicators
-
-  * Use cases
-  * Interaction & style
-  * Labeling elements
+> Progress indicators show the status of a process in real time
 
 ## Use cases
 
 People should be able to do the following using the assistive technology:
 
-  * Navigate to the progress indicator
-  * Understand what progress the indicator is communicating
+-   Navigate to the progress indicator
+-   Understand what progress the indicator is communicating
 
 ## Interaction & style
 
@@ -29,7 +23,7 @@ The active indicator, which displays progress, provides visual contrast of at le
 
 The progress indicator and stop indicator provide visual contrast of at least 3:1 against most background colors
 
-When integrated into another component, such as a button, make sure that the active indicator provides visual contrast of at least 3:1 against the other component.
+When integrated into another component, such as a button, make sure that the active indicator provides visual contrast of at least 3:1 against the other component. 
 
 For the active indicator, use the same color as the label text or icon. The track should be removed.
 
@@ -65,7 +59,7 @@ Avoid removing the stop indicator if any adjacent containers or surfaces are bel
 
 Since the progress indicator is a visual cue, it needs an accessibility label to describe the kind and amount of progress made.
 
-Use the **progress bar  **accessibility role, and write an accessibility label that describes the purpose of the progress indicator. The label should include the process, such as "loading,” and the affected content, such as a page, article, or episode. For example: "Loading news article" or "Refreshing page."
+Use the **progress bar** accessibility role, and write an accessibility label that describes the purpose of the progress indicator. The label should include the process, such as "loading,” and the affected content, such as a page, article, or episode. For example: "Loading news article" or "Refreshing page."
 
 ![Determinate linear progress indicator has an accessibility label of “loading news article” and role of “progressbar”.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlepereg-06.png?alt=media&token=71630831-8fa7-41a6-acb2-ae63c344ab9f)
 

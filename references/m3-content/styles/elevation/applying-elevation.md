@@ -1,20 +1,12 @@
-# Elevation – Material Design 3
-
-> 来源: https://m3.material.io/styles/elevation/applying-elevation
-
+---
+source: https://m3.material.io/styles/elevation/applying-elevation
+title: "Elevation"
+captured: 2026-09-14
 ---
 
 # Elevation
 
-Elevation is the distance between two surfaces on the z-axis
-
-[Overview](<styles/elevation/overview>)[Applying elevation](<styles/elevation/applying-elevation>)[Tokens](<styles/elevation/tokens>)
-
-## Elevation
-
-  * Depicting elevation
-  * Shadows
-  * Scrims
+> Elevation is the distance between two surfaces on the z-axis
 
 Material 3’s elevation system is deliberately limited to just a handful of levels. This creative constraint means you need to make thoughtful decisions about your UI’s elevation story.
 
@@ -28,15 +20,15 @@ Elevation can be depicted using shadows or other visual cues, such as surface fi
 
 To successfully depict elevation, a surface must show:
 
-  * Surface edges, contrasting the surface from its surroundings
-  * Overlap with other surfaces, either at rest or in motion
-  * Distance from other surfaces
+-   Surface edges, contrasting the surface from its surroundings
+-   Overlap with other surfaces, either at rest or in motion
+-   Distance from other surfaces
 
 ![3 images. The first shows a violet square overlapping a white square. The second shows 2 overlapping squares with the same color, but with shadows beneath the top square. The third shows a violet square overlapping a dark gray square.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyl9cz5-2.png?alt=media&token=731fe08f-ab2d-4a21-9ee1-2e963425c39a)
 
-  1. Two overlapping surfaces with distinct tonal values
-  2. Two overlapping surfaces with the same tonal values separated via shadow
-  3. Two overlapping surfaces with the same tonal values separated via scrim
+1.  Two overlapping surfaces with distinct tonal values
+2.  Two overlapping surfaces with the same tonal values separated via shadow
+3.  Two overlapping surfaces with the same tonal values separated via scrim
 
 ### Tonal difference
 
@@ -44,17 +36,17 @@ Tonal difference between surfaces helps to express the tactile quality of Materi
 
 By default, Material 3's surfaces use tonal difference to indicate separation. Other methods can be used to indicate edges, such as:
 
-  * Giving surfaces a drop shadow
+-   Giving surfaces a drop shadow
 
-  * Placing a scrim behind a surface
+-   Placing a scrim behind a surface
 
 ![Elevation, scrim, and tonal differences used to indicate separation.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwynetr7-3.png?alt=media&token=d733e384-21d7-432c-a68d-917f362b91a2)
 
-  1. A FAB's elevation helps separate it from body content
+1.  A FAB's elevation helps separate it from body content
 
-  2. A scrim appears below a modal to communicate importance
+2.  A scrim appears below a modal to communicate importance
 
-  3. Tonal differences between a navigation bar and body content indicate separate surfaces
+3.  Tonal differences between a navigation bar and body content indicate separate surfaces
 
 For interactive components, edges must create sufficient contrast between surfaces (by meeting or exceeding accessible contrast ratios) for them to be seen as separate from one another.
 
@@ -74,12 +66,12 @@ You can pick from a range of surface and surface container color roles. These ro
 
 Any overlapping containment areas or components should have different color roles in order to visually communicate separation.
 
-[More on surface color roles](</m3/pages/color-roles/tab-1#89f972b1-e372-494c-aabc-69aea34ed591>)
+[More on surface color roles](/m3/pages/color-roles/tab-1#89f972b1-e372-494c-aabc-69aea34ed591)
 
 ![Diagram of email home screen with "1" indicating the list item background color and "2" indicating the navigation bar background color.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwynjnhh-6.png?alt=media&token=9e184a9c-6448-4ef4-9bea-c512f807b8d9)
 
-  1. Surface
-  2. Surface container
+1.  Surface
+2.  Surface container
 
 ## Shadows
 
@@ -117,7 +109,7 @@ Elevation encourages interaction
 
 A scrim can bring focus to specific elements by increasing the visual contrast of a large layered surface. Use the scrim beneath elements like modals and expanded navigation menus.
 
-Scrims use the scrim  color role Color roles are assigned to UI elements based on emphasis, container type, and relationship with other elements. This ensures proper contrast and usage in any color scheme.  at an opacity of 32%.
+Scrims use the scrim color role Color roles are assigned to UI elements based on emphasis, container type, and relationship with other elements. This ensures proper contrast and usage in any color scheme. at an opacity of 32%.
 
 ![Large screen news app with a navigation rail separated from the body content by a scrim.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwynlv1e-11.png?alt=media&token=a29315d8-497f-4376-8018-f661ea795b3a)
 

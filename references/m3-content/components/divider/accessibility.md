@@ -1,12 +1,12 @@
-# Divider – Material Design 3
-
-> 来源: https://m3.material.io/components/divider/accessibility
-
+---
+source: https://m3.material.io/components/divider/accessibility
+title: "Divider"
+captured: 2026-09-14
 ---
 
 # Divider
 
-Dividers are thin lines that group content in lists or other containers
+> Dividers are thin lines that group content in lists or other containers
 
 Dividers are decorative elements, which have no contrast minimums.
 

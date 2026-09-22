@@ -1,27 +1,19 @@
-# Elevation – Material Design 3
-
-> 来源: https://m3.material.io/styles/elevation/overview
-
+---
+source: https://m3.material.io/styles/elevation/overview
+title: "Elevation"
+captured: 2026-09-14
 ---
 
 # Elevation
 
-Elevation is the distance between two surfaces on the z-axis
+> Elevation is the distance between two surfaces on the z-axis
 
-[Overview](<styles/elevation/overview>)[Applying elevation](<styles/elevation/applying-elevation>)[Tokens](<styles/elevation/tokens>)
-
-## Elevation
-
-  * Availability & resources
-  * Differences from M2
-  * All surfaces and components have elevation values
-
-  * Elevation is applied to all surfaces and components
-  * Tokens codify the distance on the z-axis to ensure components appear consistently relative to each other
-  * Tokens have no shadows or color; each platform determines the specific shadows and values to use at each elevation level
-  * Elevation can be shown as tonal surface colors or shadows
-  * Avoid changing the default elevation of Material 3 components
-  * Stick to using a small amount of elevation levels
+-   Elevation is applied to all surfaces and components
+-   Tokens codify the distance on the z-axis to ensure components appear consistently relative to each other
+-   Tokens have no shadows or color; each platform determines the specific shadows and values to use at each elevation level
+-   Elevation can be shown as tonal surface colors or shadows
+-   Avoid changing the default elevation of Material 3 components
+-   Stick to using a small amount of elevation levels
 
 Elevation is measured as the distance between components along the z-axis in density-independent pixels (dps).
 
@@ -29,30 +21,25 @@ Elevation is measured as the distance between components along the z-axis in den
 
 Elevation represents the distance between elements. The product applies color to represent elevation.
 
-  1. One surface at 1dp elevation and another surface at 8dp elevation, as viewed from the front
+1.  One surface at 1dp elevation and another surface at 8dp elevation, as viewed from the front
 
-  2. The difference in elevation between the two surfaces is 7dp, as viewed from the side
+2.  The difference in elevation between the two surfaces is 7dp, as viewed from the side
 
 ## Availability & resources
 
-| Resource| Status
----|---|---
-Design| [Design Kit (Figma)](<https://www.figma.com/community/file/1035203688168086460>)
-| Available
-Implementation| [Flutter](<https://api.flutter.dev/flutter/material/ElevationOverlay-class.html>)
-| Available
-| [Jetpack Compose](<https://developer.android.com/develop/ui/compose/designsystems/material3?_gl=1*zh4ff1*_up*MQ..*_ga*MTQ4NTEwOTIzLjE3NDA0MDY2Njk.*_ga_6HH9YJMN9M*MTc0MDQwNjY2OC4xLjAuMTc0MDQwNjY2OC4wLjAuNjU3NTAyNDY.#elevation>)
-| Available
-| [MDC - Android](<https://github.com/material-components/material-components-android/blob/d56070586102b66486f7f8697de077c3d7689922/docs/theming/Color.md#using-surface-colors>)
-| Available
-| [MWC - Web](<https://github.com/material-components/material-web/blob/919fe12badcfee4dcd72c390c0869dd8f996b51c/docs/components/elevation.md>)
-| Available
+|  | Resource | Status |
+| --- | --- | --- |
+| Design | [Design Kit (Figma)](https://www.figma.com/community/file/1035203688168086460) | Available |
+| Implementation | [Flutter](https://api.flutter.dev/flutter/material/ElevationOverlay-class.html) | Available |
+|  | [Jetpack Compose](https://developer.android.com/develop/ui/compose/designsystems/material3?_gl=1*zh4ff1*_up*MQ..*_ga*MTQ4NTEwOTIzLjE3NDA0MDY2Njk.*_ga_6HH9YJMN9M*MTc0MDQwNjY2OC4xLjAuMTc0MDQwNjY2OC4wLjAuNjU3NTAyNDY.#elevation) | Available |
+|  | [MDC - Android](https://github.com/material-components/material-components-android/blob/d56070586102b66486f7f8697de077c3d7689922/docs/theming/Color.md#using-surface-colors) | Available |
+|  | [MWC - Web](https://github.com/material-components/material-web/blob/919fe12badcfee4dcd72c390c0869dd8f996b51c/docs/components/elevation.md) | Available |
 
 ## Differences from M2
 
-  * Shadows: Instead of applying shadows by default to all levels, use shadows only when required to create additional protection against a background or to encourage interaction
-  * Color: New color mappings and compatibility with dynamic color
-  * Levels: Elevation is now described in terms of levels
+-   Shadows: Instead of applying shadows by default to all levels, use shadows only when required to create additional protection against a background or to encourage interaction
+-   Color: New color mappings and compatibility with dynamic color
+-   Levels: Elevation is now described in terms of levels
 
 ![Diagram of 2 concentric squares. The inner square is at 12dp and has a larger shadow than the outer square, which is at 3dp.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykc8yv-2.png?alt=media&token=7c4a4e4e-ff37-47d2-a375-579c3f945893)
 
@@ -66,11 +53,11 @@ M3: Using color instead of shadows to communicate elevation
 
 Surfaces at different elevations do the following:
 
-  1. Allow surfaces to move in front of and behind other surfaces, such as content scrolling behind app bars
+1.  Allow surfaces to move in front of and behind other surfaces, such as content scrolling behind app bars
 
-  2. Reflect spatial relationships, such as how a FAB's shadow indicates it's separate from a card collection
+2.  Reflect spatial relationships, such as how a FAB's shadow indicates it's separate from a card collection
 
-  3. Focus attention on the highest elevation, such as a dialog temporarily appearing in front of other surfaces
+3.  Focus attention on the highest elevation, such as a dialog temporarily appearing in front of other surfaces
 
 Elevation can be depicted using shadows or other visual cues, such as surface fills with a tone difference
 

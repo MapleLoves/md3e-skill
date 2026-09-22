@@ -1,19 +1,12 @@
-# Accessibility overview – Material Design 3
-
-> 来源: https://m3.material.io/foundations/overview/principles
-
+---
+source: https://m3.material.io/foundations/overview/principles
+title: "Overview"
+captured: 2026-09-14
 ---
 
 # Overview
 
-Accessible design enables users with diverse abilities to navigate, understand, and enjoy a UI
-
-[Principles](<foundations/overview/principles>)[Assistive technology](<foundations/overview/assistive-technology>)
-
-## Overview
-
-  * Accessibility & Material Design
-  * Principles for accessible design
+> Accessible design enables users with diverse abilities to navigate, understand, and enjoy a UI
 
 ## Accessibility & Material Design
 
@@ -29,7 +22,7 @@ The following principles for accessible design are approaches that can help **an
 
 Universal default experiences rarely meet everyone’s needs. Introducing customizable features in a default experience allows room for individual adaptation. Honoring the shifting needs of any person can mean giving more freedom to choose things for themselves.
 
-Because a person's experience throughout their day, or year, or life can continue to change, it helps to support varying preferences and choices that allow individuals to address how their changing conditions, individual knowledge, and varying needs are met.
+Because a person's experience throughout their day, or year, or life can continue to change, it helps to support varying preferences and choices that allow individuals to address how their changing conditions, individual knowledge, and varying needs are met. 
 
 ![silhouette of person's head made out of colorful liquid](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fl6qr2chf-l1yxwqsj-Google_AvatarProject-12_Final%201%20\(1\).png?alt=media&token=c3170438-686d-468a-8986-abd14605ce2b)
 
@@ -37,13 +30,13 @@ Because a person's experience throughout their day, or year, or life can continu
 
 Before defining solutions, invest time in understanding the needs of users with a wide range of abilities and life experiences. Formal and informal research can open new ways of thinking, reduce biases, and encourage creative ways to make access available, especially to those who fall outside prevailing norms.
 
-Accessible design processes anticipate as many potential product or experience outcomes as possible upfront. When user problems do arise, exploring the unanticipated outcomes can become a research foundation for learning, adapting, and recovering thoughtfully.
+Accessible design processes anticipate as many potential product or experience outcomes as possible upfront. When user problems do arise, exploring the unanticipated outcomes can become a research foundation for learning, adapting, and recovering thoughtfully. 
 
 ![cube floating above a circular hole](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fl6qr36jq-l1yxvjzc-Google_AvatarProject-4_Final%201%20\(1\).png?alt=media&token=376d8bc6-34aa-4433-abda-6050fb280a41)
 
-### Requirements as a starting point
+### Requirements as a starting point 
 
-The minimum requirements established by [_WCAG_](<https://www.w3.org/WAI/standards-guidelines/wcag/>) support specific human needs. However, these requirements can produce creative solutions with broad benefits.
+The minimum requirements established by [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) support specific human needs. However, these requirements can produce creative solutions with broad benefits.
 
 History has shown that features originating from responses to specific access needs (dark mode, text-to-speech, speech-to-text) are a result of creative problem-solving within specified constraints. Seeing the requirements as opportunities, rather than constraints, has been shown to lead to solutions that ultimately serve many.
 

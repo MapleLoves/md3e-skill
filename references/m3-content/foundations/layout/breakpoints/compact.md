@@ -1,23 +1,14 @@
-# Breakpoints– Material Design 3
-
-> 来源: https://m3.material.io/foundations/layout/breakpoints/compact
-
+---
+source: https://m3.material.io/foundations/layout/breakpoints/compact
+title: "Breakpoints"
+captured: 2026-09-14
 ---
 
 # Breakpoints
 
-Breakpoints ensure layouts work across a wide range of devices
+> Breakpoints ensure layouts work across a wide range of devices
 
-[Overview](<foundations/layout/breakpoints/overview>)[Compact](<foundations/layout/breakpoints/compact>)[Medium](<foundations/layout/breakpoints/medium>)[Expanded](<foundations/layout/breakpoints/expanded>)[Large & extra-large](<foundations/layout/breakpoints/large-extra-large>)
-
-## Breakpoints
-
-  * Navigation
-  * Panes
-  * Spacing
-  * Special considerations
-
-Layouts for compact  breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes).  [More on breakpoints](</m3/pages/breakpoints>) are for **screen widths smaller than 600dp.**
+Layouts for compact breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) are for **screen widths smaller than 600dp.**
 
 ![Messaging app at a compact breakpoint.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40sit1-01.png?alt=media&token=3d76ba96-6280-4b8b-a919-fd862be5b400)
 
@@ -39,7 +30,7 @@ Use a single pane in compact layouts.
 
 ![The single pane consumes most of the area in a compact window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40uzbp-03.png?alt=media&token=d9808393-8b19-4eb0-a251-2124305c919a)
 
-  1. Single-pane layouts work best for compact breakpoints
+1.  Single-pane layouts work best for compact breakpoints
 
 ## Spacing
 
@@ -53,15 +44,15 @@ In compact layouts, use 16dp margins
 
 A compact layout will need to transition dynamically to a medium or expanded layout when:
 
-  * A foldable device is unfolded
+-   A foldable device is unfolded
 
-  * A mobile device is rotated from portrait to landscape
+-   A mobile device is rotated from portrait to landscape
 
-  * A tablet exits split-screen mode
+-   A tablet exits split-screen mode
 
-  * A product is resized to be larger in multi-window mode
+-   A product is resized to be larger in multi-window mode
 
-  * A free-form window is resized
+-   A free-form window is resized
 
 ![2 mobile layouts showing a messaging app with a 1-pane list and an expanded navigation rail.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40wssg-05.png?alt=media&token=2a61b218-8ae0-46c9-89c1-5e8ad487d518)
 

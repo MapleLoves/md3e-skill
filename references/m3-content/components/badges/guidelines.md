@@ -1,19 +1,12 @@
-# Badge – Material Design 3
-
-> 来源: https://m3.material.io/components/badges/guidelines
-
+---
+source: https://m3.material.io/components/badges/guidelines
+title: "Badges"
+captured: 2026-09-14
 ---
 
 # Badges
 
-Badges show notifications, counts, or status information on navigation items and icons
-
-## Badges
-
-  * Usage
-  * Anatomy
-  * Container
-  * Placement
+> Badges show notifications, counts, or status information on navigation items and icons
 
 ![Diagram of 4 badges in different configurations on a navigation bar's destination icons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0wmkr4-01.png?alt=media&token=2a5ee969-d4fd-499e-8716-f5c028e7dc71)
 
@@ -25,29 +18,29 @@ Badges are used to indicate a notification, item count, or other information rel
 
 There are two variants:
 
-  1. Small badge
+1.  Small badge
 
-  2. Large badge
+2.  Large badge
 
 ![Diagram of 4 badges in different configurations on a navigation bar's destination icons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0wmphl-02.png?alt=media&token=1f32b375-fb78-43fe-a17e-8b92081ed44b)
 
 Navigation bar with four badges
 
-A **small badge** is a simple circle, used to indicate an unread notification.
+A **small badge** is a simple circle, used to indicate an unread notification.  
 
 A **large badge** contains label text communicating item count information.
 
-![A small badge is a circle with no characters.](https://lh3.googleusercontent.com/Xnibw8kAnTzaV0TmLVU5oOfL5xZTO6E8gxqFFo843YlClRZ3TI3eTR7cGtDL76c7_3oQ6xVKU3l7NV0PxnLeYgRw3ATNSz91ytruFjCWBNSIhw=s0)
+![A small badge is a circle with no characters.](https://lh3.googleusercontent.com/Xnibw8kAnTzaV0TmLVU5oOfL5xZTO6E8gxqFFo843YlClRZ3TI3eTR7cGtDL76c7_3oQ6xVKU3l7NV0PxnLeYgRw3ATNSz91ytruFjCWBNSIhw=w40)![A small badge is a circle with no characters.](https://lh3.googleusercontent.com/Xnibw8kAnTzaV0TmLVU5oOfL5xZTO6E8gxqFFo843YlClRZ3TI3eTR7cGtDL76c7_3oQ6xVKU3l7NV0PxnLeYgRw3ATNSz91ytruFjCWBNSIhw=s0)
 
 Small badge
 
-![A large badge holds 4 characters and expands its container's width but not height.](https://lh3.googleusercontent.com/UiES3FVbu4QTgh3y8L-WfQz6q2u2ao86ZpjIGDu6CxAIgDLxmu7zM-RC33uLQPuDaUJtgI1qqck8tM_bdeOfiZYNPg-PBiIsJD-7QV6gyc3a=s0)
+![A large badge holds 4 characters and expands its container's width but not height.](https://lh3.googleusercontent.com/UiES3FVbu4QTgh3y8L-WfQz6q2u2ao86ZpjIGDu6CxAIgDLxmu7zM-RC33uLQPuDaUJtgI1qqck8tM_bdeOfiZYNPg-PBiIsJD-7QV6gyc3a=w40)![A large badge holds 4 characters and expands its container's width but not height.](https://lh3.googleusercontent.com/UiES3FVbu4QTgh3y8L-WfQz6q2u2ao86ZpjIGDu6CxAIgDLxmu7zM-RC33uLQPuDaUJtgI1qqck8tM_bdeOfiZYNPg-PBiIsJD-7QV6gyc3a=s0)
 
 Large badge
 
 ### With other components
 
-Badges are most commonly used within other components, such as  navigation bar Navigation bars let people switch between UI views on smaller devices.  [More on navigation bars](</m3/pages/navigation-bar/overview>) ,  navigation rail Navigation rails let people switch between UI views on mid-sized devices.  [More on navigation rails](</m3/pages/navigation-rail/overview>) ,  app bars App bars display navigation, actions, and text at the top of a screen.  [More on app bars](</m3/pages/app-bars/overview>) , and  tabs Tabs organize content across different screens and views.  [More on tabs](</m3/pages/tabs/overview>) .
+Badges are most commonly used within other components, such as navigation bar Navigation bars let people switch between UI views on smaller devices. [More on navigation bars](/m3/pages/navigation-bar/overview) , navigation rail Navigation rails let people switch between UI views on mid-sized devices. [More on navigation rails](/m3/pages/navigation-rail/overview) , app bars App bars display navigation, actions, and text at the top of a screen. [More on app bars](/m3/pages/app-bars/overview) , and tabs Tabs organize content across different screens and views. [More on tabs](/m3/pages/tabs/overview) .
 
 ![Navigation bar with 3 icon buttons. 2 icons buttons have badges and 1 doesn't.
 ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvm8dp3k-5.png?alt=media&token=9e000d82-46f1-40c5-a9a7-e6b6046e04ae)
@@ -58,17 +51,17 @@ In navigation bars, hide the badge once the destination has been selected
 
 ![Small and large badges on 2 icon buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvm8fkil-7.png?alt=media&token=3f431e5e-5e88-41bd-bbcd-052f2e6202fd)
 
-  1. Small badge
-  2. Large badge container
-  3. Large badge label
+1.  Small badge
+2.  Large badge container
+3.  Large badge label
 
 ## Container
 
-There are two container options for the badge:
+There are two container options for the badge: 
 
-  * Small badge Small badges are a simple circle used to indicate an unread notification.  with no text
+-   Small badge Small badges are a simple circle used to indicate an unread notification. with no text
 
-  * Large badge Large badges contain label text communicating item count information.  with text
+-   Large badge Large badges contain label text communicating item count information. with text
 
 ![A small badge on a navigation item.
 ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0womos-07.png?alt=media&token=50e7d36f-b594-4edc-84bd-980b95aa1331)
@@ -79,7 +72,7 @@ A small badge uses only shape to indicate a status change or new notification
 
 A large badge displays a number within a container to indicate a quantifiable status change related to a destination
 
-Badge containers are anchored inside the icon bounding box. As the number count increases for  large badges Large badges contain label text communicating item count information.  , their width expands, but keeps the same placement.
+Badge containers are anchored inside the icon bounding box. As the number count increases for large badges Large badges contain label text communicating item count information. , their width expands, but keeps the same placement.
 
 Badges use a color intended to stand out against labels, icons, and navigation elements. Use the default color mapping to avoid color conflict issues.
 
@@ -109,7 +102,7 @@ Avoid using custom color roles for the badge container and label text. If custom
 
 ### Label text
 
-Label  large badges Large badges contain label text communicating item count information.  with counts or a status. The maximum number of characters within large badge label text is four, including a + to indicate more.
+Label large badges Large badges contain label text communicating item count information. with counts or a status. The maximum number of characters within large badge label text is four, including a + to indicate more.
 
 ![4 icons with increasing number badges. The badges represent quantities, using a "+" symbol for quantities over 999.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme8ks60f-13.png?alt=media&token=55a2ca2d-c2a3-4849-ab90-d860253ad5c2)
 

@@ -1,30 +1,22 @@
-# Radio button – Material Design 3
-
-> 来源: https://m3.material.io/components/radio-button/accessibility
-
+---
+source: https://m3.material.io/components/radio-button/accessibility
+title: "Radio button"
+captured: 2026-09-14
 ---
 
 # Radio button
 
-Radio buttons let people select one option from a set of options
-
-## Radio button
-
-  * Use cases
-  * Interaction & style
-  * Initial focus
-  * Keyboard navigation
-  * Labeling elements
+> Radio buttons let people select one option from a set of options
 
 ## Use cases
 
 People should be able to do the following with assistive technology:
 
-  * Navigate to a radio button
+-   Navigate to a radio button
 
-  * Select a radio button
+-   Select a radio button
 
-  * Get appropriate feedback based on  input Inputs are devices that provide interactive control of an app. Common inputs are a mouse, keyboard, and touchpad.  type
+-   Get appropriate feedback based on input Inputs are devices that provide interactive control of an app. Common inputs are a mouse, keyboard, and touchpad. type
 
 ## Interaction & style
 
@@ -44,9 +36,9 @@ To ensure this density setting can be easily reverted when it's active, keep all
 
 ## Initial focus
 
-When outside the radio group, **Tab** moves focus directly to the selected radio button, or the first one if none are selected.
+When outside the radio group, **Tab** moves focus directly to the selected radio button, or the first one if none are selected. 
 
-**Shift+Tab** instead focuses on the last radio if none are selected.
+**Shift+Tab** instead focuses on the last radio if none are selected. 
 
 Use the **arrows** to navigate between options.
 
@@ -60,24 +52,24 @@ Arrows move to next element in a list
 
 ## Keyboard navigation
 
-Keys| Actions
----|---
-**Tab**|  Moves focus into the group to the selected radio button, or the first if none are selected
-**Shift** \+ **Tab**|  Moves focus into the group to the selected radio button, or the last if none are selected
-**Arrows**|  Moves focus and selects the previous or next radio button. Wraps focus and selection between the first and last radio buttons.
-**Space**|  Selects a focused radio button. If already selected, does nothing.
+| Keys | Actions |
+| --- | --- |
+| **Tab** | Moves focus into the group to the selected radio button, or the first if none are selected |
+| **Shift** + **Tab** | Moves focus into the group to the selected radio button, or the last if none are selected |
+| **Arrows** | Moves focus and selects the previous or next radio button. Wraps focus and selection between the first and last radio buttons. |
+| **Space** | Selects a focused radio button. If already selected, does nothing. |
 
 ## Labeling elements
 
 If the UI text is correctly linked to the radio button, assistive tech such as a screenreader will read the UI text, followed by the component’s role.
 
-The  accessibility Accessible design makes products usable for people with all kinds of abilities.  [More on accessibility](</m3/pages/overview/principles>) label for a group of radio buttons is typically the same as its title. The role is **Radio group**.
+The accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/overview/principles) label for a group of radio buttons is typically the same as its title. The role is **Radio group**.
 
 ![Accessibility tags for a radio button group.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd3jpo7w-04.png?alt=media&token=1f68a095-10b8-4914-9273-7f58c99a7f5e)
 
 Label the radio group based on the category title
 
-The  accessibility Accessible design makes products usable for people with all kinds of abilities.  [More on accessibility](</m3/pages/overview/principles>) label for an individual radio button is typically the same as its adjacent text label.
+The accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/overview/principles) label for an individual radio button is typically the same as its adjacent text label.
 
 ![Accessibility tags for a radio button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0z56zm-05.png?alt=media&token=eff0ba7d-34fe-434b-b962-755ddac009ad)
 

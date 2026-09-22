@@ -1,25 +1,16 @@
-# Icons – Material Design 3
-
-> 来源: https://m3.material.io/styles/icons/designing-icons
-
+---
+source: https://m3.material.io/styles/icons/designing-icons
+title: "Icons"
+captured: 2026-09-14
 ---
 
 # Icons
 
-Icons are small symbols to easily identify actions and categories
-
-[Overview](<styles/icons/overview>)[Designing icons](<styles/icons/designing-icons>)[Applying icons](<styles/icons/applying-icons>)
-
-## Icons
-
-  * Design principles
-  * Icon sizes and layout
-  * Grid and keyline shapes
-  * Icon metrics
+> Icons are small symbols to easily identify actions and categories
 
 ## Design principles
 
-Icons are an essential element of any interface, packing an informative punch into a small form factor. They’re designed to be simple, modern, friendly, and sometimes quirky. To ensure consistency and readability, their limited size means that each icon must strictly adhere to guidance while still expressing essential characteristics.
+Icons are an essential element of any interface, packing an informative punch into a small form factor. They’re designed to be simple, modern, friendly, and sometimes quirky. To ensure consistency and readability, their limited size means that each icon must strictly adhere to guidance while still expressing essential characteristics. 
 
 ![Front view of boat icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhi79a8-1.png?alt=media&token=451212d1-7de5-44e4-98e2-7f9985913116)
 
@@ -61,7 +52,7 @@ Avoid mixing styles for one icon set
 
 ### Standard (Baseline) icon size
 
-Standard icons are displayed as 24dp x 24dp. For pixel-perfect accuracy, create icons for viewing at 100% scale.
+Standard icons are displayed as 24dp x 24dp. For pixel-perfect accuracy, create icons for viewing at 100% scale. 
 
 ![Icon at 100% scale on a 24dp grid.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhid657-7.png?alt=media&token=497fdf34-12ee-4ffb-9cad-6045cc3ee1f0)
 
@@ -73,7 +64,7 @@ Standard icons are displayed as 24dp x 24dp. For pixel-perfect accuracy, create 
 
 ### Additional optical icon sizes
 
-Icons support additional sizes: 20dp, 40dp, and 48dp, with 20dp primarily for desktop, dense layouts, and small scale visuals, and 40dp and 48dp optimized for display or headline type, plus larger screen sizes.
+Icons support additional sizes: 20dp, 40dp, and 48dp, with 20dp primarily for desktop, dense layouts, and small scale visuals, and 40dp and 48dp optimized for display or headline type, plus larger screen sizes.  
 
 ![Four document icons shown at increasing scales.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhidx2o-9.png?alt=media&token=f2d1ca4b-09ee-43e2-b621-989695fdcdd5)
 
@@ -81,7 +72,7 @@ Supported icon sizes: 20dp, 24dp, 40dp, and 48dp
 
 ### Standard (Baseline) icon layout
 
-Icon content should remain inside of the **live area** , which is the region of an image that is unlikely to be hidden from view (such as an area where sidebars appear upon scrolling).
+Icon content should remain inside of the **live area**, which is the region of an image that is unlikely to be hidden from view (such as an area where sidebars appear upon scrolling).
 
 If additional visual weight is needed, content may extend into the padding between the live area and the **trim area** (the complete size of a graphic). No parts of the icon should extend outside of the trim area.
 
@@ -119,13 +110,13 @@ No parts of the icon should extend outside of the trim area
 
 ### Icon design template
 
-If your design requires an icon that isn’t covered by the over 2,000 variations in [Google Font’s icon library](<https://fonts.google.com/icons>), you may want to create your own. [Download this 24dp keyline template](<https://storage.googleapis.com/material-io-design/downloads/gm_icon_template.ai.zip>)* (ZIP file) to design custom icons in Adobe Illustrator.
+If your design requires an icon that isn’t covered by the over 2,000 variations in [Google Font’s icon library](https://fonts.google.com/icons), you may want to create your own. [Download this 24dp keyline template](https://storage.googleapis.com/material-io-design/downloads/gm_icon_template.ai.zip)\* (ZIP file) to design custom icons in Adobe Illustrator.
 
-_*This template is available under_[ _Apache 2.0_](<https://www.apache.org/licenses/LICENSE-2.0.html>) _. By downloading this file, you agree to the_[ _Google Terms of Service_](<https://policies.google.com/terms>) _. The_[ _Google Privacy Policy_](<https://policies.google.com/privacy>) _describes how data is handled in this service._
+*\*This template is available under* [*Apache 2.0*](https://www.apache.org/licenses/LICENSE-2.0.html)*. By downloading this file, you agree to the* [*Google Terms of Service*](https://policies.google.com/terms)*. The* [*Google Privacy Policy*](https://policies.google.com/privacy) *describes how data is handled in this service.*
 
 ### Icon grid and keyline
 
-The icon grid establishes clear rules for the consistent, but flexible, positioning of graphic elements.
+The icon grid establishes clear rules for the consistent, but flexible, positioning of graphic elements. 
 
 Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain consistent visual proportions across system icons.
 
@@ -187,18 +178,18 @@ Don’t place the icon on a coordinate that isn’t “on pixel”
 
 ![Diagram of a calendar icon on a grid highlighting six different elements.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhird2l-27.png?alt=media&token=c1bdaf8d-d963-42ad-95d5-33b07c5b7fd3)
 
-  1. Corner
-  2. Stroke terminal
-  3. Counter stroke
-  4. Stroke
-  5. Counter area
-  6. Bounding area
+1.  Corner
+2.  Stroke terminal
+3.  Counter stroke
+4.  Stroke
+5.  Counter area
+6.  Bounding area
 
 ### Corners
 
 Corner radii are 2dp by default. For the outlined style symbols, interior corners are square, not rounded. For shapes 2dp wide or less, stroke corners shouldn’t be rounded.
 
-For the rounded style symbols, both exterior and interior corner radii are rounded and for the sharp style symbols, both exterior and interior corners radii reduce from 2dp to 0dp.
+For the rounded style symbols, both exterior and interior corner radii are rounded and for the sharp style symbols, both exterior and interior corners radii reduce from 2dp to 0dp. 
 
 ![Credit card symbol placed on grid with 2dp rounded exterior corners highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhiwgza-28.png?alt=media&token=f8095345-1164-4158-a4b8-a488954399de)
 
@@ -222,7 +213,7 @@ Don’t use inconsistent corner radii
 
 ### Weight and stroke
 
-The recommended stroke weight for icons is 2dp or the regular weight (400), which includes curves, angles, and both interior and exterior strokes. Material Symbols can provide a range of weights between thin (100) and bold (700).
+The recommended stroke weight for icons is 2dp or the regular weight (400), which includes curves, angles, and both interior and exterior strokes. Material Symbols can provide a range of weights between thin (100) and bold (700). 
 
 ![Regular stroke weight timer icon placed on a grid.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhitcv2-32.png?alt=media&token=af72e2dc-24cc-4270-85a2-29674981fd86)
 

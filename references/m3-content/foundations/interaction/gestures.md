@@ -1,29 +1,24 @@
-# Gestures – Material Design 3
-
-> 来源: https://m3.material.io/foundations/interaction/gestures
-
+---
+source: https://m3.material.io/foundations/interaction/gestures
+title: "Gestures"
+captured: 2026-09-14
 ---
 
 # Gestures
 
-Gestures are all the ways people interact with UI elements using touch
+> Gestures are all the ways people interact with UI elements using touch
 
-## Gestures
+-   Gestures help people navigate, take action, or transform content
 
-  * Resources
-  * Types of gestures
+-   UI elements should respond to gestures in real time
 
-  * Gestures help people navigate, take action, or transform content
-
-  * UI elements should respond to gestures in real time
-
-  * Tap, scroll, and swipe are common gestures
+-   Tap, scroll, and swipe are common gestures
 
 ## Resources
 
-Type| Link| Status
----|---|---
-Design| [Design Kit (Figma)](<http://goo.gle/m3-design-kit>)| Available
+| Type | Link | Status |
+| --- | --- | --- |
+| Design | [Design Kit (Figma)](http://goo.gle/m3-design-kit) | Available |
 
 ## Types of gestures
 
@@ -55,29 +50,29 @@ Vertical scrolling reveals more content
 
 People can navigate horizontally to:
 
-  * Switch between peer views like tabs
+-   Switch between peer views like tabs
 
-  * Complete actions
+-   Complete actions
 
 Swiping a list item can reveal additional actions
 
 ### Predictive back
 
-On Android, a person can swipe left or right on certain components as a way to navigate to a previous destination. This gesture is called [predictive back](<https://github.com/material-components/material-components-android/blob/master/docs/foundations/PredictiveBack.md>).
+On Android, a person can swipe left or right on certain components as a way to navigate to a previous destination. This gesture is called [predictive back](https://github.com/material-components/material-components-android/blob/master/docs/foundations/PredictiveBack.md).
 
 Before completing the swipe, the person can decide to continue to the previous view or stay in the current view.
 
 Compatible components are:
 
-  * Bottom sheet Bottom sheets show secondary content anchored to the bottom of the screen.  [More on bottom sheets](</m3/pages/bottom-sheets/overview>)
+-   Bottom sheet Bottom sheets show secondary content anchored to the bottom of the screen. [More on bottom sheets](/m3/pages/bottom-sheets/overview)
 
-  * Navigation bar Navigation bars let people switch between UI views on smaller devices.  [More on navigation bars](</m3/pages/navigation-bar/overview>)
+-   Navigation bar Navigation bars let people switch between UI views on smaller devices. [More on navigation bars](/m3/pages/navigation-bar/overview)
 
-  * Navigation rail Navigation rails let people switch between UI views on mid-sized devices.  [More on navigation rails](</m3/pages/navigation-rail/overview>)
+-   Navigation rail Navigation rails let people switch between UI views on mid-sized devices. [More on navigation rails](/m3/pages/navigation-rail/overview)
 
-  * Search bar The search bar is a persistent and prominent search field at the top of the screen.  [More on search bars](</m3/pages/search/overview>)
+-   Search bar The search bar is a persistent and prominent search field at the top of the screen. [More on search bars](/m3/pages/search/overview)
 
-  * Side sheet Side sheets show secondary content anchored to the side of the screen.  [More on side sheets](</m3/pages/side-sheets/overview>)
+-   Side sheet Side sheets show secondary content anchored to the side of the screen. [More on side sheets](/m3/pages/side-sheets/overview)
 
 A predictive back swipe on a bottom sheet goes back to the previous screen
 

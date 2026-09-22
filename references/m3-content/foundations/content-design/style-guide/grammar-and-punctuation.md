@@ -1,33 +1,36 @@
-# Style guide – Material Design 3
-
-> 来源: https://m3.material.io/foundations/content-design/style-guide/grammar-and-punctuation
-
+---
+source: https://m3.material.io/foundations/content-design/style-guide/grammar-and-punctuation
+title: "Style guide"
+captured: 2026-09-14
 ---
 
 # Style guide
 
-UI text should be understandable by anyone, anywhere
+> UI text should be understandable by anyone, anywhere
 
-[UX writing best practices](<foundations/content-design/style-guide/ux-writing-best-practices>)[Word choice](<foundations/content-design/style-guide/word-choice>)[Grammar and punctuation](<foundations/content-design/style-guide/grammar-and-punctuation>)
-
-This style guide is specific to English-language UX writing. Google generally follows [Associated Press (AP) style](<http://www.apstylebook.com>).
+This style guide is specific to English-language UX writing. Google generally follows [Associated Press (AP) style](http://www.apstylebook.com).
 
 ### Skip periods and unnecessary punctuation
 
-To help readers scan text, avoid using periods and other unnecessary punctuation.
+To help readers scan text, avoid using periods and other unnecessary punctuation. 
 
 Avoid using periods to end single sentences, particularly in:
 
-  * Labels
-  * Tooltip text
-  * Bulleted lists
-  * Dialog body text
-  * Hyperlinked text
+-   Labels
+
+-   Tooltip text
+
+-   Bulleted lists
+
+-   Dialog body text
+
+-   Hyperlinked text
 
 Use periods on:
 
-  * Multiple sentences
-  * Long or complex sentences, if it suits the context
+-   Multiple sentences
+
+-   Long or complex sentences, if it suits the context
 
 ![Example of a period removed at the end of a short sentence on a snackbar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvw1bx75-1_do.png?alt=media&token=49473808-3f5e-4f13-9e4b-68acf3e173d2)
 
@@ -81,13 +84,11 @@ Don’t skip serial commas before “and”
 
 Use commas for numbers over 1,000. Don’t use commas when identifying something, such as a:
 
-  * Street address
+-   Street address
+-   Radio frequency
+-   Year
 
-  * Radio frequency
-
-  * Year
-
-For numbers over 1 million, comma use depends on context. “Million” can be abbreviated with “M” and the value can be rounded when the intent is to give people a sense of the volume, rather than the exact numbers.
+For numbers over 1 million, comma use depends on context. “Million” can be abbreviated with with “M” and the value can be rounded when the intent is to give people a sense of the volume, rather than the exact numbers.
 
 ![Music app showing song with 23 million views, which is abbreviated to 23M](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8oz05jn-21.png?alt=media&token=9b1c6786-ebd5-42ae-854c-d788d5f790e2)
 
@@ -181,13 +182,15 @@ Avoid ampersands in email subject lines
 
 Dashes and hyphens can interrupt a sentence and lead to a fragmented experience, so they should be used with caution. There are three kinds of dashes:
 
-  * Em dash: —
-  * En dash: –
-  * Hyphen: -
+-   Em dash: —
 
-Em dashes are best avoided in UX writing, as they indicate a break in the flow of a sentence that could be simplified using a comma, period, or new sentence.
+-   En dash: –
 
-Use an en dash without spaces to indicate a range, such as 9 AM–Noon. [](<http://go/time-guidelines>)
+-   Hyphen: -
+
+Em dashes are best avoided in UX writing, as they indicate a break in the flow of a sentence that could be simplified using a comma, period, or new sentence. 
+
+Use an en dash without spaces to indicate a range, such as 9 AM–Noon.
 
 ![En dash used for time range.](https://lh3.googleusercontent.com/_uEKiaxHVr36LuimHph9UhsY6X7un_odiopV67BWVRIDx7n3H65LyW0EJgt4Tl3dKhFvdRjE23csT99bJpEgV2U9w9_UUl3GG5RxaWq2R_M=w40)
 
@@ -197,31 +200,20 @@ Use an en dash without spaces for ranges
 
 Hyphens can help readers better understand how words relate to each other by binding closely related words. They can also be used to represent negative numbers, such as -100. Spaces should never be used surrounding hyphens.
 
-Refer to the [Associated Press (AP) style guidelines](<http://www.apstylebook.com>) if you are unsure whether an adjective or noun phrase needs a hyphen.
+Refer to the [Associated Press (AP) style guidelines](http://www.apstylebook.com) if you are unsure whether an adjective or noun phrase needs a hyphen.
 
-**Rule**
-| **Examples**| **Why**
----|---|---
-**Hyphenate adjective phrases
-**|  Case-by-case basis
-Best-in-class performance
-Once-in-a-lifetime opportunity| When multiple words are used together as an adjective, they should be hyphenated
-Cell phone number
-Chocolate chip cookie| However, proper nouns and common, easily understood adjective phrases don't need to be, such as "cell phone number" or "chocolate chip cookie"
-**Hyphenate noun phrases**
-A noun phrase is two or more words acting as a noun. These phrases are hyphenated in certain cases:| Sign-off
-Drive-through
-Go-ahead| Hyphenate a noun phrase if it contains a verb followed by an adverb
-Higher-up
-Most-read| Hyphenate an adjective phrase that is functioning as a noun
-Jack-of-all-trades
-Stick-in-the-mud| Some noun phrases, especially long or complicated ones, are always hyphenated
-**Don't hyphenate verb phrases**
-A verb phrase is two or more words acting as a verb. These should not be hyphenated.| Look out for falling rocksPlease drive in and drop off your carCheck in to the room when you arrive| Don't hyphenate a verb followed by an adverb or preposition if it's functioning as a verb phrase. For example, "check in" would not need a hyphen when used as a verb, such as "check in to the room," rather than as a noun, like "the next check-in." Also, note that since "in" is a part of the verb, it can't be combined with "to" to form "into," since check into doesn't mean the same as check in to.
+| **Rule** | **Examples** | **Why** |
+| --- | --- | --- |
+| **Hyphenate adjective phrases** | Case-by-case basis Best-in-class performance Once-in-a-lifetime opportunity | When multiple words are used together as an adjective, they should be hyphenated  |
+| Cell phone number Chocolate chip cookie | However, proper nouns and common, easily understood adjective phrases don't need to be, such as "cell phone number" or "chocolate chip cookie" |
+| **Hyphenate noun phrases** A noun phrase is two or more words acting as a noun. These phrases are hyphenated in certain cases: | Sign-off Drive-through Go-ahead | Hyphenate a noun phrase if it contains a verb followed by an adverb |
+| Higher-up Most-read | Hyphenate an adjective phrase that is functioning as a noun |
+| Jack-of-all-trades Stick-in-the-mud | Some noun phrases, especially long or complicated ones, are always hyphenated |
+| **Don't hyphenate verb phrases** A verb phrase is two or more words acting as a verb. These should not be hyphenated. | Look out for falling rocksPlease drive in and drop off your carCheck in to the room when you arrive | Don't hyphenate a verb followed by an adverb or preposition if it's functioning as a verb phrase. For example, "check in" would not need a hyphen when used as a verb, such as "check in to the room," rather than as a noun, like "the next check-in." Also, note that since "in" is a part of the verb, it can't be combined with "to" to form "into," since check into doesn't mean the same as check in to. |
 
 ### Use italics sparingly
 
-Italics typically aren't easy to read. When emphasizing text, use bold weight instead.
+Italics typically aren't easy to read. When emphasizing text, use bold weight instead.  
 
 However, italics can provide unique emphasis when applied to a single word or phrase, like a name or title.
 
@@ -237,7 +229,7 @@ close Don’t
 
 Don’t italicize a sentence
 
-### Don’t use caps blocks
+### Don’t use caps blocks 
 
 Avoid using caps blocks altogether; they're not accessible.
 

@@ -1,18 +1,12 @@
-# Accessibility writing & text – Material Design 3
-
-> 来源: https://m3.material.io/foundations/writing/text-resizing
-
+---
+source: https://m3.material.io/foundations/writing/text-resizing
+title: "Writing and text"
+captured: 2026-09-14
 ---
 
 # Writing and text
 
-Ensure text is helpful, clear, and resilient to change
-
-[Best practices](<foundations/writing/best-practices>)[Text truncation](<foundations/writing/text-truncation>)[Text resizing](<foundations/writing/text-resizing>)
-
-## Writing and text
-
-  * Text resizing
+> Ensure text is helpful, clear, and resilient to change
 
 ## Text resizing
 
@@ -24,9 +18,9 @@ UIs should support a minimum text increase of 200%.
 
 Most components behave the same when text is resized:
 
-  * Text and line height scale up proportionally, multiplied by scale value
-  * Padding remains constant at 1x the default size
-  * Spacing between elements in a component remain constant at 1x the default size
+-   Text and line height scale up proportionally, multiplied by scale value
+-   Padding remains constant at 1x the default size
+-   Spacing between elements in a component remain constant at 1x the default size
 
 ![Padding is the same on the top and bottom edges of the buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5gijr-8.png?alt=media&token=76c97c12-c912-435f-aca9-f06637257b7b)
 
@@ -38,7 +32,7 @@ Left and right padding remains constant at 24dp as the text size increases.
 
 When text resizing isn't controlled by the device OS, offer multipliers such as 1.5x or 2x to allow users to increase the text size. Using multipliers to scale text can result in values with decimals, but this approach is more feasible for implementation.
 
-To calculate a font's size using multipliers, take the **default  ****font size**  (density = 0) and **multiply it by the scale value**.
+To calculate a font's size using multipliers, take the **default** **font size** (density = 0) and **multiply it by the scale value**.
 
 ![Button with label text at 1x and 2x scale.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5h7wy-10.png?alt=media&token=821d0159-4996-4342-a717-15f3a5d3b375)
 
@@ -64,11 +58,11 @@ UI text displayed at 2x in which only text and line height is enlarged; the padd
 
 Large type is used regularly by people with low vision and those with difficulty processing written words. They tend to increase text size:
 
-  * To make it easier to read
+-   To make it easier to read
 
-  * To limit interruptions and focus on one task
+-   To limit interruptions and focus on one task
 
-  * To avoid overwhelming their senses
+-   To avoid overwhelming their senses
 
 Use these methods to design a product to handle large type properly.
 
@@ -86,10 +80,10 @@ Avoid common text resizing issues by increasing container size, reflowing layout
 
 ![ Side by side of 4 commonly found issues when resizing text up.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5iwyv-14.png?alt=media&token=b794a6a7-fe17-4365-95dd-8c85565c9d17)
 
-  1. Unresponsive container; unintentionally clipped text
-  2. Unresponsive text
-  3. Overlapping elements
-  4. Unwanted truncation
+1.  Unresponsive container; unintentionally clipped text
+2.  Unresponsive text
+3.  Overlapping elements
+4.  Unwanted truncation
 
 #### **Increase container size**
 
@@ -103,8 +97,8 @@ Consider reflowing the layout, especially when components grow very long. To acc
 
 ![ left: buttons placed side-by-side. Right: buttons stacked on top of one another.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5jdor-15.png?alt=media&token=82a605c0-5cc9-4d32-897e-d07133b39012)
 
-  1. UI displayed at 1x: buttons positioned side-by-side in a standard layout
-  2. UI displayed at 2x: buttons stacked to fit the limited horizontal width after text is resized
+1.  UI displayed at 1x: buttons positioned side-by-side in a standard layout
+2.  UI displayed at 2x: buttons stacked to fit the limited horizontal width after text is resized
 
 #### **Enable content to scroll**
 
@@ -122,12 +116,12 @@ Some components, such as app bars and navigation bars, position text in spaces w
 
 In this case, the text size in the component remains displayed at 1x while the scaled up text is displayed in a tooltip on touch & hold.
 
-Tooltips are the best choice for displaying enlarged text in:
+Tooltips are the best choice for displaying enlarged text in:  
 
-  * Top app bar
-  * Navigation bar
-  * Navigation rail
-  * Tabs, when fixed to the top of a screen and don’t move off-screen upon scrolling
+-   Top app bar
+-   Navigation bar
+-   Navigation rail
+-   Tabs, when fixed to the top of a screen and don’t move off-screen upon scrolling
 
 ![Tooltip on navigation rail displays scaled up label text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5lr50-17.png?alt=media&token=c1272c3a-bf9b-473d-a942-4bb2c3221ffd)
 

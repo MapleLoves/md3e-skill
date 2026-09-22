@@ -1,27 +1,18 @@
-# Lists – Material Design 3
-
-> 来源: https://m3.material.io/components/lists/guidelines
-
+---
+source: https://m3.material.io/components/lists/guidelines
+title: "Lists"
+captured: 2026-09-14
 ---
 
 # Lists
-
-Lists are continuous, vertical indexes of text and images
-
-## Lists
-
-  * Usage
-  * Anatomy
-  * Adaptive design
-  * Behavior
 
 ![3 list items show different layout options, with varying sizes of elements in the leading slot.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewlynz-01.png?alt=media&token=a7cf803c-b9cd-4c57-a8ea-c8c359aeb52c)
 
 Lists can include a range of layout combinations:
 
-  1. Leading images, videos, icons, or avatars
+1.  Leading images, videos, icons, or avatars
 
-  2. Trailing text, icons, or icon buttons
+2.  Trailing text, icons, or icon buttons
 
 ## Usage
 
@@ -47,28 +38,28 @@ Don’t vary the position of elements within a list.
 
 ![4 versions of the same list highlighting avatar and text alignment.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewmxat-04.png?alt=media&token=0bc12f22-822f-4dca-a55e-cf803c736160)
 
-  1. Sample list
-  2. Content placement in a row
-  3. Supporting visuals are aligned for easy scanning
-  4. Primary text is aligned for easy scanning
+1.  Sample list
+2.  Content placement in a row
+3.  Supporting visuals are aligned for easy scanning
+4.  Primary text is aligned for easy scanning
 
 List items can adapt to different lengths of text:
 
 **Label text only
-** A list item can contain a single line of label text. If the text doesn’t fit on one line, it can wrap or be truncated.
+**A list item can contain a single line of label text. If the text doesn’t fit on one line, it can wrap or be truncated.
 
 **Label text with supporting text
-** A list item can include supporting text below the label text. Both the label and supporting text can wrap or be truncated.
+**A list item can include supporting text below the label text. Both the label and supporting text can wrap or be truncated.
 
 ![3 lists show items with label text only, label text with 1-line of supporting text, and label text with 2-lines of supporting text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewpdzm-05.png?alt=media&token=83cc77fe-12ec-4e3f-a81a-3ca656b25f1a)
 
 Three examples of list item sizes:
 
-  1. Label text only
+1.  Label text only
 
-  2. Label text with supporting text on one line
+2.  Label text with supporting text on one line
 
-  3. Label text with supporting text that wraps to two lines
+3.  Label text with supporting text that wraps to two lines
 
 ## Anatomy
 
@@ -76,29 +67,29 @@ Three examples of list item sizes:
 
 Container and label text are required. All other elements are optional:
 
-  1. Container
+1.  Container
 
-  2. Label text
+2.  Label text
 
-  3. Supporting text
+3.  Supporting text
 
-  4. Trailing text
+4.  Trailing text
 
-  5. Trailing icon
+5.  Trailing icon
 
-  6. Trailing selection control - checkbox, radio button, switch
+6.  Trailing selection control - checkbox, radio button, switch
 
-  7. Leading avatar container
+7.  Leading avatar container
 
-  8. Leading avatar text
+8.  Leading avatar text
 
-  9. Leading icon
+9.  Leading icon
 
-  10. Leading media - image or video
+10.  Leading media - image or video
 
 ### Container
 
-List containers hold all list items and their elements. List item size is determined by the tallest element within the list item. [See layout measurements](</m3/pages/lists/specs#1824b94d-7d17-4a29-889f-d277037a1313>)
+List containers hold all list items and their elements. List item size is determined by the tallest element within the list item. [See layout measurements](/m3/pages/lists/specs#1824b94d-7d17-4a29-889f-d277037a1313)  
 
 When a list item features an image, consider customizing the container color to use a content-based color scheme. This should be applied to either the enabled state or for an interaction.
 
@@ -106,15 +97,15 @@ A list item can include a leading image and a vibrant color
 
 ### Label & supporting text
 
-Keep label text brief.
+Keep label text brief.   
 
 To ensure list items are scannable:
 
-  * Limit supporting text to one to three lines
+-   Limit supporting text to one to three lines
 
-  * Truncate supporting text, depending on screen size
+-   Truncate supporting text, depending on screen size
 
-[See adaptive guidance](</m3/pages/lists/guidelines#561cc637-aa43-4055-be1e-0716faeef7af>)
+[See adaptive guidance](/m3/pages/lists/guidelines#561cc637-aa43-4055-be1e-0716faeef7af)
 
 ![A list item with a leading image, concise label text “Art events”, and 2 lines of truncated supporting text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiex0v5m-08.png?alt=media&token=1cb8a712-4266-4e50-a3df-fe0b9d04e5e8)
 
@@ -131,9 +122,9 @@ A trailing icon is often used to communicate status or indicate an action, like 
 ![Leading icons should relate to the label text
 A list of items with leading and trailing icons on a mobile device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiexc5t2-9.png?alt=media&token=a485fa4a-9174-4c45-812c-23f19092eff9)
 
-  1. Leading icons should relate to the label text
+1.  Leading icons should relate to the label text
 
-  2. Trailing icons can communicate an action
+2.  Trailing icons can communicate an action
 
 ### Leading media
 
@@ -153,7 +144,8 @@ exclamation Caution
 
 Avoid placing visuals in the center of a row because it makes the list difficult to scan
 
-**Avatars**
+#### Avatars
+
 List items can include images in circular or expressive shapes to represent a person or entity.
 
 Use square or rectangular images for other content, such as products or videos.
@@ -162,7 +154,7 @@ Use square or rectangular images for other content, such as products or videos.
 
 Use an expressive, circular avatar to represent a person or entity
 
-**Primary & secondary actions**
+#### Primary & secondary actions
 
 Use spacing to draw attention to the most important aspect of the list item, usually the primary action area or key content.
 
@@ -192,31 +184,31 @@ Use trailing text for supplemental details, like a price, count, or date
 
 ### Selection controls
 
-Selection Selection lets users choose specific items to act on.  [More on selection](</m3/pages/selection>) controls display list item actions. Position controls at the leading or trailing end of a list item:
+Selection Selection lets users choose specific items to act on. [More on selection](/m3/pages/selection) controls display list item actions. Position controls at the leading or trailing end of a list item:
 
-  * Use  checkboxes Checkboxes let users select one or more items from a list, or turn an item on or off.  [More on checkboxes](</m3/pages/checkbox/overview>) to select multiple items
+-   Use  checkboxes Checkboxes let users select one or more items from a list, or turn an item on or off. [More on checkboxes](/m3/pages/checkbox/overview) to select multiple items
 
-  * Use  switches Switches toggle the state of an item on or off.  [More on switches](</m3/pages/switch/overview>) to toggle settings on or off
+-   Use  switches Switches toggle the state of an item on or off. [More on switches](/m3/pages/switch/overview) to toggle settings on or off
 
-  * Use  radio buttons Radio buttons let people select one option from a set of options.  [More on radio buttons](</m3/pages/radio-button/overview>) to select a single item
+-   Use radio buttons Radio buttons let people select one option from a set of options. [More on radio buttons](/m3/pages/radio-button/overview) to select a single item
 
 ![3 lists with different selection controls.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiexzfsy-16.png?alt=media&token=18466d3e-1b66-4ddf-b1d6-ff1a9fe21e12)
 
-List items with:
+List items with: 
 
-  1. Checkboxes
+1.  Checkboxes
 
-  2. Switches
+2.  Switches 
 
-  3. Radio buttons
+3.  Radio buttons
 
 ### Gaps & dividers
 
 Gaps or dividers can separate lists into items and groups:
 
-  * Use **gaps** for contained lists. Gaps leverage expressive shape and containment tactics.
+-   Use **gaps** for contained lists. Gaps leverage expressive shape and containment tactics.
 
-  * Limit **dividers** to uncontained or complex lists, only when a stronger visual separation is necessary.
+-   Limit **dividers** to uncontained or complex lists, only when a stronger visual separation is necessary.
 
 ![Filled list items in an inbox separated by gaps.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiezuscb-17_do.png?alt=media&token=84c1ee7c-a7e6-441c-ba3c-19442e4011f8)
 
@@ -234,7 +226,7 @@ Limit the use of **dividers** to uncontained lists
 
 ### Line length
 
-In fluid  layouts Layout is the visual arrangement of elements on the screen.  [More on layout](<m3/pages/layout-overview>) , avoid excessively long lines of text when expanding containers and text-heavy components. This often means changing  margins Margins are the spaces between the edge of a nested element and its parent element, such as the space between a button's label text and the edge of its container.  [More on margins](</m3/pages/grids-spacing/spacing>) and typography properties as the container scales.
+In fluid layouts Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/layout-overview/overview) , avoid excessively long lines of text when expanding containers and text-heavy components. This often means changing margins Margins are the spaces between the edge of a nested element and its parent element, such as the space between a button's label text and the edge of its container. [More on margins](/m3/pages/spacing/overview#753cb18a-b6ba-4727-87b3-cb1b7b497a9a) and typography properties as the container scales.
 
 ![4 list items with 2-line supporting text have adjusted margins to preserve readability.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiezxs4c-19_do.png?alt=media&token=2e5e3f61-38e3-4ca9-8506-7a04a16c1d4d)
 
@@ -258,35 +250,35 @@ close Don’t
 
 Don’t scale components without adjusting other affected areas of the screen, such as text length. This can result in line lengths that make reading difficult.
 
-A list in a  compact window Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window sizes](</m3/pages/breakpoints/compact>) can become part of a two-column layout in an  expanded window Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop.  [More on expanded window sizes](</m3/pages/breakpoints/expanded>) , adjusting the amount of information shown in each list item.
+A list with a compact breakpoint Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact)  can become part of a two-column layout at an expanded breakpoint Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) , adjusting the amount of information shown in each list item.
 
-Reduce the amount of information shown in compact window sizes
+Reduce the amount of information shown at compact breakpoints
 
 ### Adapt list elements & layout
 
-Lists can change their layout to adapt to different window sizes. This affects the size and placement of content.
+Lists can change their layout to adapt to different breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) . This affects the size and placement of content.
 
-For example, a list in a compact window can adjust  margins Margins are the spaces between the edge of a nested element and its parent element, such as the space between a button's label text and the edge of its container.  [More on margins](</m3/pages/grids-spacing/spacing>) , spacing, or density to better fit an expanded window.
+For example, a list at a compact breakpoint can adjust margins, spacing, or density to better fit an expanded window.
 
 On larger screens, lists can show more content, like supporting text and larger imagery
 
 ### Swap components
 
-Lists are just a compact composition of images, text, and actions. Other components, like cards and carousels, use the same elements but take up more space.
+Lists are just a compact composition of images, text, and actions. Other components, like cards and carousels, use the same elements but take up more space.   
 
-On large screens, consider swapping a list to a component with a similar purpose to take advantage of available space.
+At larger breakpoints, consider swapping a list to a component with a similar purpose to take advantage of available space.
 
 Information displayed in list items on mobile can change to cards on tablet and desktop
 
-### Compact window size
+### Compact breakpoints
 
 Lists should extend edge-to-edge in compact windows. Selecting a list item should open a page with the details.
 
 On small screens, people can navigate between lists and full-screen detailed views
 
-### Medium & expanded window sizes
+### Medium & expanded breakpoints
 
-Medium Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation.  [More on medium window size class](</m3/pages/applying-layout/medium>) and  expanded window sizes Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop.  [More on expanded window size class](</m3/pages/applying-layout/expanded>) , such as tablet and desktop screens, can display primary and secondary content in the same view.
+Medium Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) and expanded breakpoints Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) , such as tablet and desktop screens, can display primary and secondary content in the same view.
 
 For example, a list and the detailed information can appear side-by-side.
 
@@ -294,7 +286,7 @@ For example, a list and the detailed information can appear side-by-side.
 
 On larger screens, a list-detail view can be more appropriate
 
-On a larger window size, a list may transform into a carousel.
+At a larger breakpoint, a list may transform into a carousel.
 
 Lists can transform into carousels in expanded windows
 
@@ -302,7 +294,7 @@ Lists can also show more or less content as they scale up and down in size.
 
 For example, a list item can reveal more content when the component expands.
 
-List items reveal supporting text in expanded window sizes
+List items reveal supporting text at expanded breakpoints
 
 ## Behavior
 
@@ -310,67 +302,67 @@ List items reveal supporting text in expanded window sizes
 
 The selected state applies to the entire list item. For example, when an item with a checkbox is selected, both the list item and the checkbox show a selected state.
 
-**Single-select**
+#### Single-select
 
-Lists can feature a single-selection component such as a  radio button Radio buttons let people select one option from a set of options.  [More on radio buttons](</m3/pages/radio-button/overview>) .
+Lists can feature a single-selection component such as a radio button Radio buttons let people select one option from a set of options. [More on radio buttons](/m3/pages/radio-button/overview) .
 
 Single-select list items:
 
-  * Don’t support multi-actions
+-   Don’t support multi-actions
 
-  * Can’t have secondary nested actions
+-   Can’t have secondary nested actions
 
-  * Shouldn’t use checkboxes
+-   Shouldn’t use checkboxes
 
 ![A 3-item list with radio buttons, with 1 item selected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmielqxgm-29.png?alt=media&token=01482923-26aa-4237-9ed7-8bf0c4cb52ac)
 
 Use radio buttons to allow a single selection in a list
 
-**Multi-select**
+#### Multi-select
 
 Multi-select lists allow for multiple list items to be toggled on.
 
 Multi-select list items:
 
-  * Pair well with checkboxes and switches
+-   Pair well with checkboxes and switches
 
-  * Can’t have secondary nested actions
+-   Can’t have secondary nested actions
 
-  * Shouldn’t use radio buttons
+-   Shouldn’t use radio buttons
 
 ![A 3-item list with checkboxes and 2 items selected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmielw5u4-30.png?alt=media&token=452063d1-7f87-49ce-9bed-07fb0459add1)
 
 Use checkboxes or switches for multi-select lists
 
-**Single-action**
+#### Single-action
 
 In a single-action list, the entire list item performs one action, such as navigating to a new page.
 
 Single-action list items:
 
-  * Can’t have secondary nested actions
+-   Can’t have secondary nested actions
 
-  * Can’t be toggled into a persistent selected state
+-   Can’t be toggled into a persistent selected state
 
 ![A 3-item list where each item is a single tappable area.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmielzpxu-31.png?alt=media&token=1b8831f3-1559-4969-ab1e-485277328d1c)
 
 Use a single-action list for a primary action, like navigation
 
-**Multi-action**
+#### Multi-action
 
 Multi-action lists can support multiple nested actions within a list item.
 
 The primary action should take up the majority of the space in the leading and content positions.
 
-Place supplementary actions, like a bookmark or menu, in the trailing position.
+Place supplementary actions, like a bookmark or menu, in the trailing position.  
 
-[More on multi-action accessibility](</m3/pages/lists/accessibility#b69b89a9-7ca0-4249-b25b-2d0c85a41dc0>)
+[More on multi-action accessibility](/m3/pages/lists/accessibility#b69b89a9-7ca0-4249-b25b-2d0c85a41dc0)
 
 ![A 3-item song list where each item has 2 trailing icons: a bookmark and overflow menu.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiem2107-32.png?alt=media&token=0f04fe0b-b4d8-44cc-8907-2cbd0369be87)
 
 Place supplementary actions in the trailing position of a list item
 
-**Non-interactive**
+#### Non-interactive
 
 Non-interactive lists can organize information in a scannable way. They don’t perform any actions and can’t be selected.
 
@@ -380,10 +372,24 @@ Use non-interactive lists to make information easy to scan
 
 ### List interactions
 
-**Expand & collapse**
+#### Expand & collapse
 
-List items containing other list items can expand and collapse in a folder-like manner, to reveal or hide content.
+List items containing other list items can expand and collapse in a folder-like manner, to reveal or hide content. 
 
 Tapping a list item expands it vertically across the entire screen using a container transform transition pattern.
 
 To expand a list item, display a parent-child transition
+
+#### Swipe
+
+On Android, list items can reveal buttons on swipe. Use a mix of button styles for visual interest and hierarchy.  
+
+The primary action must be the final end-aligned option. A full swipe triggers this action, clearing the list item and all other actions off-screen. 
+
+Swipeable list items should include alternative ways to access hidden actions, such as a more icon.
+
+[More on swipe accessibility](/m3/pages/lists/accessibility#32f5115c-b15e-4af6-8c1a-4807bee2bf7a)
+
+![List of recipes with “Fresh baked breads” swiped to reveal a archive icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmshq8qm6-35-key03.png?alt=media&token=1e4721af-a5b3-4288-805d-a8970578e128)
+
+When a list item is swiped, it can be archived or reveal more actions

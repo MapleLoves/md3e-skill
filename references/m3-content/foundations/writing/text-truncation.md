@@ -1,18 +1,12 @@
-# Accessibility writing & text – Material Design 3
-
-> 来源: https://m3.material.io/foundations/writing/text-truncation
-
+---
+source: https://m3.material.io/foundations/writing/text-truncation
+title: "Writing and text"
+captured: 2026-09-14
 ---
 
 # Writing and text
 
-Ensure text is helpful, clear, and resilient to change
-
-[Best practices](<foundations/writing/best-practices>)[Text truncation](<foundations/writing/text-truncation>)[Text resizing](<foundations/writing/text-resizing>)
-
-## Writing and text
-
-  * Text truncation
+> Ensure text is helpful, clear, and resilient to change
 
 ## Text truncation
 
@@ -28,8 +22,8 @@ Content, understandability, and functionality must not be lost when users modify
 
 ### Text wrapping
 
-  * “Wrapped” text extends from one line to another, increasing the height of the text container
-  * Text should be wrapped when it’s critical, to ensure understandability, or when there’s space in the component
+-   “Wrapped” text extends from one line to another, increasing the height of the text container
+-   Text should be wrapped when it’s critical, to ensure understandability, or when there’s space in the component
 
 ![Body copy  text wrapped  inside a dialogue with an option to expand content.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5ao0k-18.png?alt=media&token=9823f564-5494-43f3-85ad-21af8dd5b024)
 
@@ -45,7 +39,7 @@ Don’t cut off text without providing a way for users to view it
 
 ### Height and width of components
 
-  * Some components can extend vertically or horizontally for more text
+-   Some components can extend vertically or horizontally for more text
 
 ![Layout of UI- cards of different sizes organized in a stacked grid.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5bfye-20.png?alt=media&token=fa20bfc7-0b26-4ed1-a256-8cb933dbacb4)
 
@@ -61,10 +55,10 @@ Avoid setting text size limits that don’t fit the space in a component. Use al
 
 ### Ellipses with hover or link
 
-  * Truncated text can be replaced with an ellipsis if the text is available through a tooltip or link
-  * Links can be used when they’re contained in the text that’s truncated, and when the link displays what's been truncated
-  * If there's an ellipsis, but no way to show the truncated text, it is not accessible
-  * Note that this option can add difficulty for some people
+-   Truncated text can be replaced with an ellipsis if the text is available through a tooltip or link
+-   Links can be used when they’re contained in the text that’s truncated, and when the link displays what's been truncated
+-   If there's an ellipsis, but no way to show the truncated text, it is not accessible
+-   Note that this option can add difficulty for some people
 
 check Do
 

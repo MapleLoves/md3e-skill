@@ -1,21 +1,12 @@
-# Tabs – Material Design 3
-
-> 来源: https://m3.material.io/components/tabs/guidelines
-
+---
+source: https://m3.material.io/components/tabs/guidelines
+title: "Tabs"
+captured: 2026-09-14
 ---
 
 # Tabs
 
-Tabs organize content across different screens and views
-
-## Tabs
-
-  * Usage
-  * Anatomy
-  * Choosing the tab variant
-  * Placement
-  * Responsive layout
-  * Behavior
+> Tabs organize content across different screens and views
 
 ## Usage
 
@@ -27,22 +18,22 @@ Tab labels can include icons and text. Text labels should be short.
 
 There are two variants of tabs:
 
-  1. Primary tabs
+1.  Primary tabs
 
-  2. Secondary tabs
+2.  Secondary tabs
 
-Primary tabs are placed at the top of the content  pane Panes are layout containers that house other components and elements within a single app. A pane can be: fixed, flexible, floating, or semi permanent.  [More on panes](</m3/pages/understanding-layout/parts-of-layout#667b32c0-56e2-4fc2-a618-4066c79a894e>) under an  app bar App bars display information and actions at the top of a screen.  [More on app bars](</m3/pages/app-bars/overview>) . They display the main content destinations.
+Primary tabs are placed at the top of the content pane Panes are layout containers that house other components and elements within a single app. A pane can be: fixed, flexible, floating, or semi permanent. [More on panes](/m3/pages/understanding-layout/parts-of-layout#667b32c0-56e2-4fc2-a618-4066c79a894e) under an app bar App bars display information and actions at the top of a screen. [More on app bars](/m3/pages/app-bars/overview) . They display the main content destinations.
 
 Secondary tabs are used within a content area to further separate related content and establish hierarchy.
 
 ![3 primary tabs above 3 secondary tabs.](https://lh3.googleusercontent.com/idzlIeuy-TH2VM7D0-YvIt28GrEONuzYVwq1Ov4RBs_p3MNmu4Ji52Zx-_b5-AtLHAGyXOiXeTMrQtrkiTwGcyThOwwaKtQc8NbP-UNUpDG_=s0)
 
-  1. Primary tabs
-  2. Secondary tabs
+1.  Primary tabs
+2.  Secondary tabs
 
 ### Related content
 
-Use tabs to group related content, not _sequential_ content.
+Use tabs to group related content, not *sequential* content.
 
 ![Scrolling up and down through content, then swiping left through tabs.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2k0jkg6-3.png?alt=media&token=45142db9-88cd-4311-b2b7-fcd6f1bf4666)
 
@@ -58,12 +49,12 @@ close Don’t Don’t use tabs to move through sequential content that needs to 
 
 ![Six components of tabs.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2k0lum1-5.png?alt=media&token=07a5972d-391d-41a3-9a79-eafe77cd8f25)
 
-  1. Container
-  2. Icon (optional)
-  3. Badge (optional)
-  4. Label
-  5. Divider
-  6. Active indicator
+1.  Container
+2.  Icon (optional)
+3.  Badge (optional)
+4.  Label
+5.  Divider
+6.  Active indicator
 
 ### Container
 
@@ -71,7 +62,7 @@ The container holds multiple tabs. Its contents can be fixed or scrollable.
 
 The container should always extend the full width of the window and be divided into equal sections, one for each tab.
 
-The container is defined by a  divider Dividers are thin lines that group content in lists or other containers.  [More on dividers](</m3/pages/divider/overview>) on the bottom edge to separate it from the content below. Content may scroll under the container.
+The container is defined by a divider Dividers are thin lines that group content in lists or other containers. [More on dividers](/m3/pages/divider/overview) on the bottom edge to separate it from the content below. Content may scroll under the container.
 
 ![Mobile screen with fixed tabs with a dotted border to illustrate the container area.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2k0mdfv-6.png?alt=media&token=6eab5596-fd3e-4c96-b8dc-3bdd18a576ae)
 
@@ -127,13 +118,13 @@ close Don’t
 
 Don’t truncate labels unless required, as truncated text can impede comprehension
 
-### Badges (optional)
+### Badges (optional) 
 
-Badges Badges show notifications, counts, or status information on navigation items and icons.  [More on badges](</m3/pages/badges/overview>) can be used on primary or secondary tabs to show notifications or updates related to a specific tab. Limit badge content to four characters, including a "+".
+Badges Badges show notifications, counts, or status information on navigation items and icons. [More on badges](/m3/pages/badges/overview) can be used on primary or secondary tabs to show notifications or updates related to a specific tab. Limit badge content to four characters, including a "+".
 
 Once the user views the relevant content in the tab, the badge value should update or the badge should disappear entirely.
 
-Small and large badges can both be used with tabs. Read the [badge guidance](</m3/pages/badges/overview>) for more details.
+Small and large badges can both be used with tabs. Read the [badge guidance](/m3/pages/badges/overview) for more details. 
 
 ![Mobile screen with tabs that use both icons and labels.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2k1yl6w-13.png?alt=media&token=b128a5c0-f67d-4194-bc94-d69b547ddc8c)
 
@@ -147,9 +138,9 @@ An underline and color change differentiate an active tab from the inactive ones
 
 ## Choosing the tab variant
 
-Primary tabs Primary tabs display an app's main content destinations. They're are placed at the top of the screen, often under a top app bar.  should be used when just one set of tabs are needed.
+Primary tabs Primary tabs display an app's main content destinations. They're are placed at the top of the screen, often under a top app bar. should be used when just one set of tabs are needed.
 
-Secondary tabs Secondary tabs display related content within a content area. They're always placed below primary tabs.  are necessary when a screen requires more than one level of tabs. These tabs use a simpler style of indicator, but their function is identical to primary tabs.
+Secondary tabs Secondary tabs display related content within a content area. They're always placed below primary tabs. are necessary when a screen requires more than one level of tabs. These tabs use a simpler style of indicator, but their function is identical to primary tabs.
 
 ![Mobile screen with primary tabs near the top of the screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2k20o4c-15.png?alt=media&token=1c7dd05f-a6bd-4c00-a290-5ebdd692a1fb)
 
@@ -159,7 +150,7 @@ Tabs can be joined with components like app bars, embedded in a specific UI regi
 
 Tabs are displayed in a single row, with each tab connected to the content it represents. As a set, all tabs are unified by a shared topic.
 
-Secondary tabs Secondary tabs display related content within a content area. They're always placed below primary tabs.  should always be placed below  primary tabs Primary tabs display an app's main content destinations. They're are placed at the top of the screen, often under a top app bar.  .
+Secondary tabs Secondary tabs display related content within a content area. They're always placed below primary tabs. should always be placed below primary tabs Primary tabs display an app's main content destinations. They're are placed at the top of the screen, often under a top app bar. .
 
 ![Mobile screen with secondary tabs below the primary tabs.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2k217y6-16.png?alt=media&token=3a2e7337-2872-4ea8-a56e-9292b857d1cf)
 
@@ -167,7 +158,7 @@ Secondary tabs are found within other content to assist users with greater detai
 
 ## Responsive layout
 
-For fixed tabs, the maximum width for each tab should be determined by the width of the widest tab. The group of tabs should use a fluid  margin Margins are the spaces between the edge of a nested element and its parent element, such as the space between a button's label text and the edge of its container.  [More on margins](</m3/pages/understanding-layout/spacing#38a538d7-991f-4c39-8449-195d32caf397>) and align to the center or leading edge of the body region.
+For fixed tabs, the maximum width for each tab should be determined by the width of the widest tab. The group of tabs should use a fluid margin Margins are the spaces between the edge of a nested element and its parent element, such as the space between a button's label text and the edge of its container. [More on margins](/m3/pages/understanding-layout/spacing#38a538d7-991f-4c39-8449-195d32caf397) and align to the center or leading edge of the body region.
 
 Avoid using more than four tabs at once. At five or more tabs, the container becomes cramped.
 
@@ -179,7 +170,7 @@ Tabs can grow in width in relation to the number of items contained within
 
 ### States
 
-By default, tabs inherit  enabled An enabled state communicates an interactive component or element.  [More on enabled state](</m3/pages/interaction-states/applying-states#39b2fc90-01db-41b5-b6f8-47be61ed1479>) states States show the interaction status of a component or UI element.  [More on states](</m3/pages/interaction-states/overview>) with one active state.The inactive and active states of a tab can inherit a  hover A hover state communicates when a user has placed a cursor above an interactive element.  [More on hover state](</m3/pages/interaction-states/applying-states#71c347c2-dd75-485b-892e-04d2900bd844>) ,  focus A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice.  [More on focused state](</m3/pages/interaction-states/applying-states#bc6d6853-48ef-490e-8076-448e89e69f0f>) , and  pressed A pressed state communicates a user tap.  [More on pressed state](</m3/pages/interaction-states/applying-states#c3690714-b741-492d-97b0-5fc1960e43e6>) states.
+By default, tabs inherit enabled An enabled state communicates an interactive component or element. [More on enabled state](/m3/pages/interaction-states/applying-states#39b2fc90-01db-41b5-b6f8-47be61ed1479) states States show the interaction status of a component or UI element. [More on states](/m3/pages/interaction-states/overview) with one active state.The inactive and active states of a tab can inherit a hover A hover state communicates when a user has placed a cursor above an interactive element. [More on hover state](/m3/pages/interaction-states/applying-states#71c347c2-dd75-485b-892e-04d2900bd844) , focus A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice. [More on focused state](/m3/pages/interaction-states/applying-states#bc6d6853-48ef-490e-8076-448e89e69f0f) , and pressed A pressed state communicates a user tap. [More on pressed state](/m3/pages/interaction-states/applying-states#c3690714-b741-492d-97b0-5fc1960e43e6) states.
 
 ![Four states of a tab.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2k2312r-18.png?alt=media&token=097ee5d4-3881-444a-8729-143cad991109)
 
@@ -203,7 +194,7 @@ To navigate between tabs, users can swipe left or right within the content area.
 
 Users can swipe between fixed tabs to see related content quickly
 
-Use caution when placing other swipeable content (such as interactive maps or  list Lists are continuous, vertical indexes of text and images.  [More on lists](</m3/pages/lists/overview>) items) in the content area.
+Use caution when placing other swipeable content (such as interactive maps or list Lists are continuous, vertical indexes of text and images. [More on lists](/m3/pages/lists/overview) items) in the content area.
 
 check Do
 

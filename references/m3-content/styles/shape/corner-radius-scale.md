@@ -1,20 +1,12 @@
-# Shape - Material Design 3
-
-> 来源: https://m3.material.io/styles/shape/corner-radius-scale
-
+---
+source: https://m3.material.io/styles/shape/corner-radius-scale
+title: "Shape"
+captured: 2026-09-14
 ---
 
 # Shape
 
-The M3 shape system includes original shapes, a corner radius scale, and built-in shape morphing
-
-[Overview & principles](<styles/shape/overview-principles>)[Corner radius scale](<styles/shape/corner-radius-scale>)[Shape morph](<styles/shape/shape-morph>)
-
-## Shape
-
-  * Shape tokens
-  * Symmetry
-  * Customizing shapes
+> The M3 shape system includes original shapes, a corner radius scale, and built-in shape morphing
 
 Material components use a corner radius scale to define all rectangular shapes, such as buttons, carousels, and dialogs.
 
@@ -24,72 +16,26 @@ M3 defines corner radii using a shape scale. This can be used to create both uni
 
 ## Shape tokens
 
-Material has shape corner tokens to define all corners, and corner-value tokens for individual corners. [Learn more about design tokens](</m3/pages/design-tokens/overview>)
+Material has shape corner tokens to define all corners, and corner-value tokens for individual corners. [Learn more about design tokens](/m3/pages/design-tokens/overview)
 
-Fully rounded
-
-Extra large top rounding
-
-Extra large rounding
-
-Large top rounding
-
-Large end rounding
-
-Large start rounding
-
-Large rounding
-
-Medium rounding
-
-Small rounding
-
-Extra small top rounding
-
-Extra small rounding
-
-No rounding
-
-Large increased rounding
-
-Extra large increased rounding
-
-Extra extra large rounding
-
-0  No corner value
-
-4dp  Extra small corner value
-
-8dp  Small corner value
-
-12dp  Medium corner value
-
-16dp  Large corner value
-
-20dp  Large increased corner value
-
-28dp  Extra large corner value
-
-32dp  Extra large increased corner value
-
-48dp  Extra extra large corner value
+Close
 
 ### Corner radius scale
 
-The Material 3 shape system uses a size-based scale with ten styles. Styles are assigned to components based on the desired amount of roundedness.
+The Material 3 shape system uses a size-based scale with ten styles. Styles are assigned to components based on the desired amount of roundedness. 
 
-  1. None - 0dp
-  2. Extra small - 4dp
-  3. Small - 8dp
-  4. Medium - 12dp
-  5. Large - 16dp
-  6. Large increased - 20dp
-  7. Extra large - 28dp
-  8. Extra large increased - 32dp
-  9. Extra extra large - 48dp
-  10. Full - fully rounded corners
+1.  None - 0dp
+2.  Extra small - 4dp
+3.  Small - 8dp
+4.  Medium - 12dp
+5.  Large - 16dp
+6.  Large increased - 20dp
+7.  Extra large - 28dp
+8.  Extra large increased - 32dp
+9.  Extra extra large - 48dp
+10.  Full - fully rounded corners
 
-[Apply shape styles using tokens](</m3/pages/design-tokens/overview>)
+[Apply shape styles using tokens](/m3/pages/design-tokens/overview)
 
 ![10 corner radii styles.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c881mj-1.png?alt=media&token=fcb5e003-c5d3-4208-af8a-8766b55ad7ee)
 
@@ -121,13 +67,13 @@ Generally, products should consistently use the Material 3 shape styles. However
 
 ### Style changes
 
-The corner radius shape style, like **medium** , can be customized to be a different size.
+The corner radius shape style, like **medium**, can be customized to be a different size.
 
 This applies the change to all components mapped to that shape style, unless they have an override.
 
 Customizing the corner size of the **medium** style applies the change to all components using this style, such as cards and small FABs
 
-### Component changes
+### Component changes 
 
 The style of a specific component, such as a button, can be changed by customizing which corner radius shape style it maps to.
 
@@ -135,9 +81,9 @@ For example, by default, buttons are mapped to the **full** corner radius shape 
 
 Remapping the shape for a component to a different style applies the change to just that component across the UI
 
-The shape style family can be customized from **rounded** to **cut**. This makes the corner a straight line instead of curved.
+The shape style family can be customized from **rounded** to **cut**. This makes the corner a straight line instead of curved.  
 
-Add extra padding to avoid cutting off content in information-dense components.
+Add extra padding to avoid cutting off content in information-dense components.   
 
 For example, a large cut corner on a card will clip content and images in the area more than a rounded corner of the same size.
 
@@ -163,14 +109,14 @@ When nesting rounded objects, avoid using the same corner radii for both objects
 
 Instead, adjust the corner radii to be proportional to each other; this is called optical roundness. To calculate optical roundness:
 
-  * Outer radius - padding = inner radius
-  * For example: 48dp - 14dp = 34dp
+-   Outer radius - padding = inner radius
+-   For example: 48dp - 14dp = 34dp
 
 ![3 parts of corner radii to adjust.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c9fged-6-1.png?alt=media&token=e35e86ab-c7d6-4ade-bba4-9c151eb561f8)
 
-  1. Padding
-  2. Outer radius
-  3. Inner radius
+1.  Padding
+2.  Outer radius
+3.  Inner radius
 
 ![Nested carousel with optical roundness.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c9h8uv-6.png?alt=media&token=896b2204-2886-49ac-82a3-bcd76cfce14e)
 
@@ -186,7 +132,7 @@ Avoid using the same corner radius value for nested objects
 
 ### Using the shape library
 
-The Material 3 shape library can be used to create more interesting containers. Use the shape library for mostly visual elements. Avoid applying unconventional shapes to text-heavy containers.
+The Material 3 shape library can be used to create more interesting containers. Use the shape library for mostly visual elements. Avoid applying unconventional shapes to text-heavy containers. 
 
 Shapes should be used sparingly to provide a stronger emphasis and moments of delight.
 

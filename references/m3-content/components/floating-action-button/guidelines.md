@@ -1,24 +1,16 @@
-# FAB – Material Design 3
-
-> 来源: https://m3.material.io/components/floating-action-button/guidelines
-
+---
+source: https://m3.material.io/components/floating-action-button/guidelines
+title: "Floating action buttons (FABs)"
+captured: 2026-09-14
 ---
 
 # Floating action buttons (FABs)
 
-Floating action buttons (FABs) help people take primary actions
-
-## FABs
-
-  * Usage
-  * Actions
-  * Anatomy
-  * Adaptive design
-  * Behaviors
+> Floating action buttons (FABs) help people take primary actions
 
 ![3 screens with various FAB sizes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapod2e-01.png?alt=media&token=2371fb7d-a6b0-4648-9023-ad1a1b7f96f1)
 
-FABs have multiple sizes that scale with the window size
+FABs have multiple sizes that scale with the breakpoint
 
 ## Usage
 
@@ -32,31 +24,31 @@ FABs can use dynamic color
 
 There are three FAB sizes:
 
-  1. FAB
+1.  FAB
 
-  2. Medium FAB (most recommended)
+2.  Medium FAB (most recommended)
 
-  3. Large FAB
+3.  Large FAB
 
-Choose the FAB size based on the visual hierarchy of your layout.
+Choose the FAB size based on the visual hierarchy of your layout. 
 
 Note: The small FAB is no longer recommended.
 
 ![3 FAB sizes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkappjdx-03.png?alt=media&token=a21e240b-8ff5-4959-a8e3-8d002d19ab0b)
 
-  1. FAB
-  2. Medium FAB
-  3. Large FAB
+1.  FAB 
+2.  Medium FAB
+3.  Large FAB
 
-The FAB is the smallest size, and is best used in  compact windows Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/breakpoints/compact>) where other actions may be present on screen.
+The FAB is the smallest size, and is best used in compact windows Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) where other actions may be present on screen.
 
-The medium FAB is recommended for most situations, and works best in compact and  medium windows Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation.  [More on medium window size class](</m3/pages/breakpoints/medium>) . Use it for important actions without taking up too much space.
+The medium FAB is recommended for most situations, and works best in compact and medium windows Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) . Use it for important actions without taking up too much space. 
 
-A large FAB is useful in any window size when the layout calls for a clear and prominent primary action, but is best suited for  expanded Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop.  [More on expanded window size class](</m3/pages/breakpoints/expanded>) and larger window sizes, where its size helps draw attention.
+A large FAB is useful in any window size when the layout calls for a clear and prominent primary action, but is best suited for expanded Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) and larger breakpoints, where its size helps draw attention.
 
 ![A medium FAB over an email app UI.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapq84r-04.png?alt=media&token=3ac65358-559c-4725-b887-7c7de2881712)
 
-Use a medium FAB in most window sizes
+Use a medium FAB in most breakpoints
 
 ![A large FAB over an email app UI.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapqn1b-05.png?alt=media&token=5e6372d1-3c98-40d6-b521-d103604d221f)
 
@@ -74,9 +66,9 @@ close Don’t
 
 Don't display multiple FABs on a single screen
 
-A FAB can transform into an  extended FAB Extended floating action buttons (extended FABs) help people take primary actions.  [More on extended FABs](</m3/pages/extended-fab/overview>) on larger screens, or it can transition into a FAB menu when selected. Use a FAB menu when there are many kinds of actions relevant to the FAB.
+A FAB can transform into an extended FAB Extended floating action buttons (extended FABs) help people take primary actions. [More on extended FABs](/m3/pages/extended-fab/overview) on larger screens, or it can transition into a FAB menu when selected. Use a FAB menu when there are many kinds of actions relevant to the FAB. 
 
-[More on FAB menus](</m3/pages/fab-menu>)
+[More on FAB menus](/m3/pages/fab-menu)
 
 ![A extended FAB saying “Share” with a less popular share icon.](https://lh3.googleusercontent.com/6gVz4SSpnVYq28cYhUlwX36JiaNZLx-0A1NhL4z0IUA-RwlUz5tsApAkIXx0RAVE780uol-6VkeZZq7jiXRPiGOzEUo_SGVtL7NG3ogNFwg=w40)![A extended FAB saying “Share” with a less popular share icon.](https://lh3.googleusercontent.com/6gVz4SSpnVYq28cYhUlwX36JiaNZLx-0A1NhL4z0IUA-RwlUz5tsApAkIXx0RAVE780uol-6VkeZZq7jiXRPiGOzEUo_SGVtL7NG3ogNFwg=s0)
 
@@ -92,10 +84,10 @@ A FAB can trigger an action on the current screen, or it can perform an action t
 
 A FAB promotes an important, constructive action such as:
 
-  * Create
-  * Favorite
-  * Share
-  * Start a process
+-   Create
+-   Favorite
+-   Share
+-   Start a process
 
 ![FABS for 12 common actions including, create, edit, and navigate.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaptzjv-10.png?alt=media&token=6feee690-87e8-42b2-b91e-6bc024c92add)
 
@@ -105,13 +97,13 @@ Use FABs for primary, positive actions
 
 Avoid using a FAB for minor or destructive actions, such as:
 
-  * Archive or trash
+-   Archive or trash
 
-  * Alerts or errors
+-   Alerts or errors
 
-  * Limited tasks like cutting text
+-   Limited tasks like cutting text
 
-  * Controls better suited to a toolbar, like to adjust volume or font color
+-   Controls better suited to a toolbar, like to adjust volume or font color
 
 ![FABs for 18 minor or destructive actions, such as cut, trash, and volume.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapug9u-11.png?alt=media&token=1fa984f4-3e7a-4960-ae4c-2c44611a7ec5)
 
@@ -123,8 +115,8 @@ Don’t use FABs for minor, overflow, unclear, or destructive actions
 
 ![2 elements of a FAB.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapv2og-12.png?alt=media&token=3686bf12-1656-4350-ae10-e8f104d287bb)
 
-  1. Container
-  2. Icon
+1.  Container
+2.  Icon
 
 ### Container
 
@@ -156,11 +148,11 @@ Don’t use confusing or open-ended icons to symbolize less common actions
 
 ## Adaptive design
 
-In  compact Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/breakpoints/compact>) and  medium window sizes Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation.  [More on medium window size class](</m3/pages/breakpoints/medium>) , the best place for the FAB is typically the lower right corner of a screen, since it’s easy to reach and is less likely to cover important content.
+In compact Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) and medium breakpoints Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) , the best place for the FAB is typically the lower right corner of a screen, since it’s easy to reach and is less likely to cover important content.
 
-In  expanded window sizes Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop.  [More on expanded window size class](</m3/pages/breakpoints/expanded>) , consider placing the FAB in the upper left corner, like in the  navigation rail Navigation rails let people switch between UI views on mid-sized devices.  [More on navigation rails](</m3/pages/navigation-rail/overview>) . This positions it as one of the first interactive elements people see when they land on the page.
+In expanded breakpoints Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) , consider placing the FAB in the upper left corner, like in the navigation rail Navigation rails let people switch between UI views on mid-sized devices. [More on navigation rails](/m3/pages/navigation-rail/overview) . This positions it as one of the first interactive elements people see when they land on the page.
 
-Adjust the size of the FAB based on the context. Use a medium FAB for mobile layouts, and large FAB for tablets and large screens.
+Adjust the size of the FAB based on the context. Use a medium FAB for mobile layouts, and large FAB for tablets and large screens. 
 
 ![Large screen layout showing FAB in upper left region of the screen, below navigation rail icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaq2b6m-16.png?alt=media&token=f8d3f99a-25ef-44c6-9dc8-78a71f64e587)
 
@@ -187,10 +179,10 @@ When a FAB animates on screen, it expands outward from a central point. The icon
 While FABs should be relevant to screen content, they aren't attached to the surface on which content appears. FABs move separately from other UI elements because of their relative importance.
 
 **Screen transitions
-** FABs can morph to launch related actions. When a screen changes its layout, the FAB should disappear and reappear during the transition.
+**FABs can morph to launch related actions. When a screen changes its layout, the FAB should disappear and reappear during the transition.
 
 **Reappearance
-** The FAB should only reappear if it's relevant to the new screen. It should reappear in the same position, if possible.
+**The FAB should only reappear if it's relevant to the new screen. It should reappear in the same position, if possible.
 
 FAB animating on screen
 
@@ -198,9 +190,9 @@ FAB animating on screen
 
 The FAB can expand and adapt to any shape using a container transform transition pattern. This includes a surface that's part of the app structure, or a surface that spans the entire screen.
 
-The FAB can also transition into a FAB menu.
+The FAB can also transition into a FAB menu. 
 
-[More on FAB menus](</m3/pages/fab-menu>)
+[More on FAB menus](/m3/pages/fab-menu)
 
 FABs can expand and adapt to any shape
 

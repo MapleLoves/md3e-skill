@@ -1,18 +1,12 @@
-# Global writing – Material Design 3
-
-> 来源: https://m3.material.io/foundations/content-design/global-writing/word-choice
-
+---
+source: https://m3.material.io/foundations/content-design/global-writing/word-choice
+title: "Global writing"
+captured: 2026-09-14
 ---
 
 # Global writing
 
-Global writing is easier to read, understand, and translate. This guidance is for all American English that is localized.
-
-[Overview](<foundations/content-design/global-writing/overview>)[Word choice](<foundations/content-design/global-writing/word-choice>)
-
-## Global writing
-
-  * Word choice
+> Global writing is easier to read, understand, and translate. This guidance is for all American English that is localized.
 
 ## Word choice
 
@@ -34,12 +28,12 @@ Don’t call out a specific country or culture’s holiday
 
 If it doesn’t make sense to use a global example, explain the reference in the message description so the translator can substitute a locale-specific example. Some instances where local references should be called out include:
 
-  * Locations
-  * Names (common first names and nicknames)
-  * Currencies
-  * Temperatures
-  * Date formats
-  * Providers (internet and cable)
+-   Locations
+-   Names (common first names and nicknames)
+-   Currencies
+-   Temperatures
+-   Date formats
+-   Providers (internet and cable)
 
 ![Empty state that references New York with message description about replacing New York with a well-known city in other languages](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvuo4v88-3.png?alt=media&token=8bbd61e8-8d45-4125-a33a-047e948827d8)
 
@@ -49,7 +43,7 @@ Help translators understand the context by adding message descriptions
 
 ### Use short, simple sentences
 
-Break text into shorter sentences. Use bullets or separate content into sections with headings.
+Break text into shorter sentences. Use bullets or separate content into sections with headings. 
 
 Other languages average at 1.5 times longer than English, so text that’s short may be long when translated.
 
@@ -93,7 +87,7 @@ Avoid using pronouns when it’s unclear what nouns they’re referring to, espe
 
 ### Clarify “this” and “that”
 
-Don’t start a sentence with "this" or "that" unless it's immediately followed by the noun. When the noun is unclear, the sentence is more difficult to translate.
+Don’t start a sentence with "this" or "that" unless it's immediately followed by the noun. When the noun is unclear, the sentence is more difficult to translate. 
 
 ![Form with clear writing that doesn’t use “this” or “that”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvuobsfb-9_do.png?alt=media&token=f0e3f5ac-e9e8-4851-9659-73264a34a79a)
 
@@ -113,13 +107,13 @@ Idiomatic or colloquial phrases can be confusing if the meaning isn’t clear. I
 
 Avoid polite expressions, such as “Please,” “Sorry,” and “Thank you,” especially in error messages. However, "please" may be used when asking the user to do something inconvenient.
 
-![Empty state with illustration that reads “Let’s go”](https://lh3.googleusercontent.com/fbOdPNZxbnWg8h1AtfrVzrHEfx87HqTbn1uV7XqiOCvs017tfdkalXYclDMLKuAlW2fhnxehv4sRAOflGxm7TFe7ckUfdhE57Pkwu57MUkZP=w40)![Empty state with illustration that reads “Let’s go”](https://lh3.googleusercontent.com/fbOdPNZxbnWg8h1AtfrVzrHEfx87HqTbn1uV7XqiOCvs017tfdkalXYclDMLKuAlW2fhnxehv4sRAOflGxm7TFe7ckUfdhE57Pkwu57MUkZP=s0)
+![Empty state with illustration that reads “Let’s go”](https://lh3.googleusercontent.com/fbOdPNZxbnWg8h1AtfrVzrHEfx87HqTbn1uV7XqiOCvs017tfdkalXYclDMLKuAlW2fhnxehv4sRAOflGxm7TFe7ckUfdhE57Pkwu57MUkZP=w40)
 
 check Do
 
 Clear, everyday language can be used in an expressive and whimsical way when paired with imagery
 
-![Empty state with illustration that reads “Let’s get this party started”](https://lh3.googleusercontent.com/hIGnwFcZ-4N3wxDr7EvS9-3j_B_l5DbU24maq8wmMOyakUI4sgTD9O-Ab5Ck8oxjJx0samUsMnB-Vlg40cWx6Yx3S9SHTgoqj9uGcQk-yDPv=w40)![Empty state with illustration that reads “Let’s get this party started”](https://lh3.googleusercontent.com/hIGnwFcZ-4N3wxDr7EvS9-3j_B_l5DbU24maq8wmMOyakUI4sgTD9O-Ab5Ck8oxjJx0samUsMnB-Vlg40cWx6Yx3S9SHTgoqj9uGcQk-yDPv=s0)
+![Empty state with illustration that reads “Let’s get this party started”](https://lh3.googleusercontent.com/hIGnwFcZ-4N3wxDr7EvS9-3j_B_l5DbU24maq8wmMOyakUI4sgTD9O-Ab5Ck8oxjJx0samUsMnB-Vlg40cWx6Yx3S9SHTgoqj9uGcQk-yDPv=w40)
 
 close Don’t
 

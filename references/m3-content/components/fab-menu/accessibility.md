@@ -1,27 +1,19 @@
-# FAB menu
-
-> 来源: https://m3.material.io/components/fab-menu/accessibility
-
+---
+source: https://m3.material.io/components/fab-menu/accessibility
+title: "FAB menu"
+captured: 2026-09-14
 ---
 
 # FAB menu
 
-The floating action button (FAB) menu opens from a FAB to display multiple related actions
-
-## FAB menu
-
-  * Use cases
-  * Interaction & style
-  * Initial focus
-  * Keyboard navigation
-  * Labeling elements
+> The floating action button (FAB) menu opens from a FAB to display multiple related actions
 
 ## Use cases
 
 People should be able to do the following using assistive technology:
 
-  * Navigate and interact with the FAB menu
-  * Ensure focus is correct when navigating through the menu
+-   Navigate and interact with the FAB menu
+-   Ensure focus is correct when navigating through the menu
 
 ## Interaction & style
 
@@ -31,7 +23,7 @@ FAB menu elements meet the minimum target size of 48dp.
 
 FAB menus have 48x48dp minimum width and sufficient spacing by default
 
-When the FAB menu can scroll, make sure the items scroll behind the close button.
+When the FAB menu can scroll, make sure the items scroll behind the close button. 
 
 The close button should always be easy to access and unobstructed.
 
@@ -57,29 +49,29 @@ Then the focus moves from the top menu item to the bottom.
 
 Focus lands on the close button. People can then navigate through all the items.
 
-  1. Close button
-  2. First menu item
-  3. Second menu item
-  4. Third menu item
+1.  Close button
+2.  First menu item
+3.  Second menu item
+4.  Third menu item
 
 ## Keyboard navigation
 
-**Keys**| **Actions**
----|---
-**Tab**|  Navigate to the next interactive element
-**Space** or **Enter**|  Activate the focused button or item
+| **Keys** | **Actions** |
+| --- | --- |
+| **Tab** | Navigate to the next interactive element |
+| **Space** or **Enter** | Activate the focused button or item |
 
 ## Labeling elements
 
 ### Android
 
-On Android, a FAB menu’s close button should include a state to tell screen readers what action will occur when it's toggled. The close button should be labeled:
+On Android, a FAB menu’s close button should include a state to tell screen readers what action will occur when it's toggled. The close button should be labeled: 
 
-  * Label: Toggle menu
+-   Label: Toggle menu
 
-  * Role: Button
+-   Role: Button
 
-  * State: Expanded or collapsed
+-   State: Expanded or collapsed
 
 ![Accessibility labels for the close button on an Android device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmmksaup-05.png?alt=media&token=0aabb7b0-89f8-49e9-9564-e07ee8b0c517)
 
@@ -87,16 +79,16 @@ On Android, the **close button** accessibility labels should include a toggle me
 
 FAB menu items should be labeled:
 
-  * Label: Match the item’s UI text, such as **Reply all  **
+-   Label: Match the item’s UI text, such as **Reply all** 
 
-  * Role: Button
+-   Role: Button
 
 ![Accessibility labels for a FAB menu item on an Android device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmmksh30-06.png?alt=media&token=469b8f96-0db8-4a1a-b379-e77aeed01160)
 
-Label FAB menu items to match their UI text, like **Reply all** , and use the button role
+Label FAB menu items to match their UI text, like **Reply all**, and use the button role  
 
 ### Web
 
-On web, a FAB menu is a combination of a  FAB Floating action buttons (FABs) help people take primary actions.  [More on FABs](</m3/pages/fab/overview>) and a  menu Menus display a list of choices on a temporary surface.  [More on menus](</m3/pages/menus/overview>) component. The FAB opens the menu. Follow the [accessibility guidelines for FABs](</m3/pages/fab/accessibility>) and [menus](</m3/pages/menus/accessibility>).
+On web, a FAB menu is a combination of a FAB Floating action buttons (FABs) help people take primary actions. [More on FABs](/m3/pages/fab/overview) and a menu Menus display a list of choices on a temporary surface. [More on menus](/m3/pages/menus/overview) component. The FAB opens the menu. Follow the [accessibility guidelines for FABs](/m3/pages/fab/accessibility) and [menus](/m3/pages/menus/accessibility).
 
 The FAB's accessibility label should describe the menu that the FAB will open.

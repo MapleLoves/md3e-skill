@@ -1,19 +1,12 @@
-# Progress indicators – Material Design 3
-
-> 来源: https://m3.material.io/components/progress-indicators/guidelines
-
+---
+source: https://m3.material.io/components/progress-indicators/guidelines
+title: "Progress indicators"
+captured: 2026-09-14
 ---
 
 # Progress indicators
 
-Progress indicators show the status of a process in real time
-
-## Progress indicators
-
-  * Usage
-  * Anatomy
-  * Placement
-  * Responsive layout
+> Progress indicators show the status of a process in real time
 
 Progress indicators communicate the status of an ongoing process
 
@@ -31,28 +24,27 @@ close Don’t
 
 Don’t show the progress of each activity in a group
 
-Choose a  loading Loading indicators show the progress of a process with a short wait time.  [More on loading indicators](</m3/pages/loading-indicator/overview>) or  progress indicator Progress indicators show the status of a process in real time.  [More on progress indicators](</m3/pages/progress-indicators/overview>) that corresponds to the expected wait time and kind of process.
+Choose a loading Loading indicators show the progress of a process with a short wait time. [More on loading indicators](/m3/pages/loading-indicator/overview) or progress indicator Progress indicators show the status of a process in real time. [More on progress indicators](/m3/pages/progress-indicators/overview) that corresponds to the expected wait time and kind of process. 
 
-If the wait is very long, consider allowing people to navigate away from the page while the process finishes up.
+If the wait is very long, consider allowing people to navigate away from the page while the process finishes up. 
 
-**Expected wait time**
-| **Recommendation**
----|---
-Instant (under 200ms)| No indicator
-Short (between 200ms and 5s)| Loading indicator
-Long (Over 5s)| Progress indicator
+| **Expected wait time** | **Recommendation** |
+| --- | --- |
+| Instant (under 200ms) | No indicator |
+| Short (between 200ms and 5s) | Loading indicator |
+| Long (Over 5s) | Progress indicator |
 
 **Instant (under 200ms):** Display the content immediately
 
 **Short (between 200ms and 5s):** Use a loading indicator
 
-**Long (over 5s):  **Use a progress indicator
+**Long (over 5s):** Use a progress indicator
 
 There are two variants of progress indicators:
 
-  1. Linear
+1.  Linear
 
-  2. Circular
+2.  Circular
 
 **Linear** indicators are best when placed on the edge of a container.
 
@@ -60,22 +52,22 @@ There are two variants of progress indicators:
 
 A process should be represented by the same variant of progress indicator throughout the product. For example, if refreshing uses a circular indicator in one place, it should use circular indicators everywhere.
 
-![1. A primary colored horizontal line fills a contrasting track from left to right. 2. A circle appears from 0 to 360 degrees.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlep5ivu-07.png?alt=media&token=4c51b00b-6b08-4638-a331-1e6340c7d5ea)
+![1\. A primary colored horizontal line fills a contrasting track from left to right. 2. A circle appears from 0 to 360 degrees.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlep5ivu-07.png?alt=media&token=4c51b00b-6b08-4638-a331-1e6340c7d5ea)
 
-  1. Linear indicator
-  2. Circular indicator
+1.  Linear indicator  
+2.  Circular indicator
 
 Progress indicators behave differently based on the time of progress being tracked:
 
-  * **Determinate** : Known progress and wait time
-  * **Indeterminate** : Unknown progress and wait time
+-   **Determinate**: Known progress and wait time
+-   **Indeterminate**: Unknown progress and wait time
 
-When using a **determinate** indicator, the indicator must accurately represent the progress of what it's measuring.
+When using a **determinate** indicator, the indicator must accurately represent the progress of what it's measuring. 
 
 Use **indeterminate** indicators to show that a process is happening, but the wait time is unknown.
 
-  1. Determinate progress indicators fill from 0% to 100%
-  2. Indeterminate progress indicators move along a fixed track, growing and shrinking in size
+1.  Determinate progress indicators fill from 0% to 100%
+2.  Indeterminate progress indicators move along a fixed track, growing and shrinking in size
 
 As more information about a process becomes available, a progress indicator should change from **indeterminate** to **determinate**.
 
@@ -83,13 +75,13 @@ A linear progress indicator changes from indeterminate to determinate while load
 
 ## Anatomy
 
-  1. Active indicator
-  2. Track
-  3. Stop indicator
+1.  Active indicator
+2.  Track
+3.  Stop indicator
 
 ### Active indicator
 
-The active indicator shows the progress that has been made so far.
+The active indicator shows the progress that has been made so far. 
 
 In indeterminate processes, it grows and shrinks along the track repeatedly.
 
@@ -171,7 +163,7 @@ Avoid applying progress indicators to every button in a list
 
 ### Right-to-left languages
 
-Linear progress indicators should be mirrored horizontally for products using right-to-left (RTL) languages.
+Linear progress indicators should be mirrored horizontally for products using right-to-left (RTL) languages. 
 
 Circular progress indicators don’t need to be mirrored.
 
@@ -181,7 +173,7 @@ Linear progress indicators can flow from right to left in right-to-left (RTL) la
 
 ### Large screens
 
-Circular progress indicators have flexible sizes. They can range from 24dp to 240dp, depending on the placement and the window size. Avoid exceeding the minimum and maximum sizes.
+Circular progress indicators have flexible sizes. They can range from 24dp to 240dp, depending on the placement and the breakpoint. Avoid exceeding the minimum and maximum sizes.
 
 Reserve very large progress indicators for large and extra-large windows, such as desktop.
 

@@ -1,22 +1,15 @@
-# Inputs – Material Design 3
-
-> 来源: https://m3.material.io/foundations/interaction/inputs
-
+---
+source: https://m3.material.io/foundations/interaction/inputs
+title: "Inputs"
+captured: 2026-09-14
 ---
 
 # Inputs
 
-Inputs are devices that provide interactive control of an app. Common inputs include a mouse, keyboard, or touchpad.
+> Inputs are devices that provide interactive control of an app. Common inputs include a mouse, keyboard, or touchpad.
 
-## Inputs
-
-  * External inputs for devices
-  * Mouse and cursor interactions
-  * Mouse wheel and trackpad gestures
-  * Physical keyboard
-
-  * Design for touch, keyboard, and mouse interactions
-  * Embrace multiple input methods and gestures within your app
+-   Design for touch, keyboard, and mouse interactions
+-   Embrace multiple input methods and gestures within your app
 
 ![Editing interface on a large screen device. The selected text is highlighted and the text cursor is visible.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvoasbb-1.png?alt=media&token=2706b8e6-4f43-4a00-9f8c-313bf1ca33d1)
 
@@ -30,21 +23,21 @@ People can use external inputs like a mouse, keyboard, or stylus with their phon
 
 #### **Mouse**
 
-  * Left and right click
-  * Mouse wheel
-  * Extra buttons
+-   Left and right click
+-   Mouse wheel
+-   Extra buttons
 
 #### **Trackpad**
 
-  * Left and right click
-  * Gestures
-  * Haptics
+-   Left and right click
+-   Gestures
+-   Haptics
 
 #### **Physical keyboard**
 
-  * Replaces virtual keyboard
-  * Media keys
-  * Modifier keys
+-   Replaces virtual keyboard
+-   Media keys
+-   Modifier keys
 
 ![Image of a mouse.](https://lh3.googleusercontent.com/EDnkwobNdIi9JnBJEISCm5eYhpIWsgVN2S_ZihqgFHsP7nILBYc1UC82xXCpptPSTQ9pgxBTFOGtAV0xHX_TzOrnyu-sstE1aqQhvG61pK4=s0)
 
@@ -56,28 +49,22 @@ People can use external inputs like a mouse, keyboard, or stylus with their phon
 
 Depending on the input device, designers and developers can implement behaviors that meet standard conventions and user expectations.
 
-Input device action| Anticipated behavior
----|---
-Mouse and trackpad movement
-| Show a mouse cursor on the screen
-Primary click
-| Treat mouse clicks differently than touch events
-Secondary click
-| Activate context menus
-Hover
-| Change component states
-Highlight| Allow text to be selected by the mouse cursor
-Mouse wheel and trackpad two finger drag| Scroll list vertically and horizontally
-Trackpad pinch
-| Zoom an element or page
-Physical keyboard
-| Hide and show on screen keyboard
+| Input device action | Anticipated behavior |
+| --- | --- |
+| Mouse and trackpad movement | Show a mouse cursor on the screen |
+| Primary click | Treat mouse clicks differently than touch events |
+| Secondary click | Activate context menus |
+| Hover | Change component states |
+| Highlight | Allow text to be selected by the mouse cursor |
+| Mouse wheel and trackpad two finger drag | Scroll list vertically and horizontally |
+| Trackpad pinch | Zoom an element or page |
+| Physical keyboard | Hide and show on screen keyboard |
 
 ## Mouse and cursor interactions
 
-When an external mouse input device is used, a mouse cursor should be shown, regardless of the device type.
+When an external mouse input device is used, a mouse cursor should be shown, regardless of the device type. 
 
-A mouse may be connected to tablets, laptops, phones, foldables, and more. On some devices, it's possible to use an external input device simultaneously with touch input.
+A mouse may be connected to tablets, laptops, phones, foldables, and more. On some devices, it's possible to use an external input device simultaneously with touch input. 
 
 On devices that don't specifically recognize mouse or stylus input, the mouse is treated as touch input.
 
@@ -85,7 +72,7 @@ On devices that don't specifically recognize mouse or stylus input, the mouse is
 
 A mouse click or stylus tap should demonstrate the same feedback as touch input. One example of this is showing the ripple for a pressed state.
 
-![A view of a display with a visible mouse cursor.](https://lh3.googleusercontent.com/Cb5WD95kLIK5F45ql60cUftzpvrvxGv8UxPGKAQCkKOdBFnZJ1zMtrQR8zKkTi7R4Gh_-jmKSWccF5DlfUXp12m7AwMcHfzXmvaj3T9JYDAZ=w40)![A view of a display with a visible mouse cursor.](https://lh3.googleusercontent.com/Cb5WD95kLIK5F45ql60cUftzpvrvxGv8UxPGKAQCkKOdBFnZJ1zMtrQR8zKkTi7R4Gh_-jmKSWccF5DlfUXp12m7AwMcHfzXmvaj3T9JYDAZ=s0)
+![A view of a display with a visible mouse cursor.](https://lh3.googleusercontent.com/Cb5WD95kLIK5F45ql60cUftzpvrvxGv8UxPGKAQCkKOdBFnZJ1zMtrQR8zKkTi7R4Gh_-jmKSWccF5DlfUXp12m7AwMcHfzXmvaj3T9JYDAZ=w40)
 
 A visible mouse cursor is seen when the external input is connected
 
@@ -93,7 +80,7 @@ A visible mouse cursor is seen when the external input is connected
 
 #### Context menus
 
-A secondary click (whether using a single button or two fingers on a trackpad) should activate a context menu. The context menu shows additional options for the object that's clicked. See [menus](</m3/pages/menus/overview>) for more usage and guidelines.
+A secondary click (whether using a single button or two fingers on a trackpad) should activate a context menu. The context menu shows additional options for the object that's clicked. See [menus](/m3/pages/menus/overview) for more usage and guidelines.
 
 ![A context menu pop up from a link with the options: Open link in new window, Save link as, Copy link location, and Inspect.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvoetuu-6.png?alt=media&token=a1d1943b-8906-4e9f-96bd-e23ba631d331)
 
@@ -101,14 +88,14 @@ The context menu should appear when right clicking with a mouse or trackpad
 
 ### Hover
 
-When using a mouse cursor, help users discover interactive objects by enabling visual changes. When the mouse rests on an interactive element, the hover state is a valuable cue for interaction. See [states](</m3/pages/interaction-states/applying-states#71c347c2-dd75-485b-892e-04d2900bd844>) for styles and guidelines.
+When using a mouse cursor, help users discover interactive objects by enabling visual changes. When the mouse rests on an interactive element, the hover state is a valuable cue for interaction. See [states](/m3/pages/interaction-states/applying-states#71c347c2-dd75-485b-892e-04d2900bd844) for styles and guidelines.
 
-Hovering with a cursor (or stylus) should also invoke tooltips when applicable. See [tooltips](</m3/pages/tooltips/overview>) for guidance.
+Hovering with a cursor (or stylus) should also invoke tooltips when applicable. See [tooltips](/m3/pages/tooltips/overview) for guidance.
 
 ![Icon button, floating action button, and menu items in their hovered and not hovered states.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvofwmm-7.png?alt=media&token=c01eebb6-93d7-4e40-8156-947c480b8840)
 
-  1. Components without a hover state
-  2. Components with a hover state change applied
+1.  Components without a hover state
+2.  Components with a hover state change applied
 
 ### Cursors
 
@@ -120,15 +107,15 @@ By default, external input control should be rendered as a pointer.
 
 ![A cursor rendered as a pointer.](https://lh3.googleusercontent.com/MW8dKSHxn8lhooyCbNv66f5sACoziJe1wryABcQYzei0NB1QJHHHVqdgbSGRxVZWTaKG6OQ4cAwu1HAwUEN_eDJNYFdK8kegwkE4wVpABLjK=w40)
 
-  1. A pointer provides a visible indicator for input controls
+1.  A pointer provides a visible indicator for input controls
 
 #### Hand
 
 The cursor should appear as a hand to indicate links or linked images.
 
-![A link cursor \(hand\) shown when hovering over a linked image.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvogkod-8.png?alt=media&token=d6119250-af14-4742-b20d-8f562a50274d)
+![A link cursor (hand) shown when hovering over a linked image.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvogkod-8.png?alt=media&token=d6119250-af14-4742-b20d-8f562a50274d)
 
-  1. The hand cursor is used for links and clickable images
+1.  The hand cursor is used for links and clickable images
 
 #### Resize arrows
 
@@ -136,35 +123,35 @@ The cursor should change to resize arrows on the boundaries of resizable element
 
 ![A cursor at the edge of the screen as resize arrows.](https://lh3.googleusercontent.com/aRwe1YYgXEjJUzdpUE4zmut0gi_yxDBXooTLnGjJBam3RQxVhs2a49MKfwHQ8twxxBhfI2BBaK0ND-BaR9fLS1czLbpsxQDpYvUMTnnkGlc=w40)
 
-  1. Resize arrows indicate an element can be resized
+1.  Resize arrows indicate an element can be resized
 
 #### I-beam
 
 The cursor should appear as an I-beam when hovering on text. When manipulating editable text, the following interactions apply:
 
-  * Single click places the cursor
+-   Single click places the cursor
 
-  * Double click selects a word
+-   Double click selects a word
 
-  * Triple click selects a paragraph
+-   Triple click selects a paragraph
 
-  * Single click deselects text and repositions the cursor
+-   Single click deselects text and repositions the cursor
 
 ![I-beam cursor hovering over selectable text.](https://lh3.googleusercontent.com/E5W_SctCrkKHCihIzCBXv5u805M6wtGVi3yUbX0aLhjAeI20kCi0iiEW7cC9D6ESJCGpjeIj7yxEtXpwaL20A8kzMlwF0yDx6HTcAfD2ZaQ=w40)
 
-  1. An I-beam cursor indicates selectable text
+1.  An I-beam cursor indicates selectable text
 
 ### Text selection
 
 When selecting text using a mouse, trackpad, or stylus:
 
-  * Highlight the selected area using a single color
+-   Highlight the selected area using a single color
 
-  * Don’t show touch controls next to the highlighted area
+-   Don’t show touch controls next to the highlighted area
 
 ![Highlighted text in a single color.](https://lh3.googleusercontent.com/eubJ_19rLe9XCTY6isagTFwSDbS7CJ7cX0Cq1RREujdf6UYnHObBD2JkGz243IXVgGvLHghQxkZ7dGF4VlOxz9_q1wjLdf7XgiJlIXPv17OW7Q=w40)
 
-  1. Selected text shows a visible highlight
+1.  Selected text shows a visible highlight
 
 ### Text selection with touch control
 
@@ -186,7 +173,7 @@ When using a stylus, cursors are usually not necessary, unless they communicate 
 
 ![A cursor rendered as a circle.](https://lh3.googleusercontent.com/3EzjVm189HykitEGTOdtrYA8VZNhYTSJwWcXtLiP2DzGuC2vxDeeR21k8ixi3Dl1BSlkS7Z0-BhYiHyDqKWJc73KpFG8lg-XWkQUL88MMUli=w40)
 
-  1. The circle cursor indicates the selected stylus tool and size
+1.  The circle cursor indicates the selected stylus tool and size
 
 ## Mouse wheel and trackpad gestures
 
@@ -208,7 +195,7 @@ When using a mouse, dragging upward selects text and images
 
 ### Horizontal scroll
 
-Mouse users should be able to scroll with a mouse wheel to navigate horizontally scrolling fields. Trackpad users should be able to scroll using a two-finger horizontal gesture.
+Mouse users should be able to scroll with a mouse wheel to navigate horizontally scrolling fields. Trackpad users should be able to scroll using a two-finger horizontal gesture. 
 
 Carousels can scroll horizontally using a scroll wheel or trackpad
 
@@ -236,9 +223,9 @@ When a physical keyboard is removed, show the virtual keyboard
 
 #### Enter key
 
-People typically expect the **E****nter** key on a physical keyboard to be enabled by developers to allow a common function like sending a message.
+People typically expect the **E****nter** key on a physical keyboard to be enabled by developers to allow a common function like sending a message. 
 
-The**  Enter **key typically triggers actions like sending a message
+The **Enter** key typically triggers actions like sending a message
 
 #### Spacebar control
 
@@ -248,7 +235,7 @@ Pressing **Space** usually pauses and plays media
 
 #### Tab focus
 
-When keyboard users navigate a page using **Tab** , the focus on interactive items must follow a logical order. On most pages, that means left to right, top to bottom.
+When keyboard users navigate a page using **Tab**, the focus on interactive items must follow a logical order. On most pages, that means left to right, top to bottom.
 
 When focused from a keyboard or other input device, the focus state includes a ring-like keyboard focus indicator.
 

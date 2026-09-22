@@ -1,24 +1,16 @@
-# Navigation bar – Material Design 3
-
-> 来源: https://m3.material.io/components/navigation-bar/guidelines
-
+---
+source: https://m3.material.io/components/navigation-bar/guidelines
+title: "Navigation bar"
+captured: 2026-09-14
 ---
 
 # Navigation bar
 
-Navigation bars let people switch between UI views on smaller devices
-
-## Navigation bar
-
-  * Usage
-  * Anatomy
-  * Placement
-  * Adaptive design
-  * Behavior
+> Navigation bars let people switch between UI views on smaller devices
 
 ![A nav bar with vertical items in a compact window, and horizontal items in a medium window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqgvk7-01.png?alt=media&token=48551963-9645-437c-acea-853e04e8cdaf)
 
-Navigation bars adapt to different window sizes
+Navigation bars adapt to different breakpoints
 
 ## Usage
 
@@ -34,8 +26,8 @@ Navigation bars can have three to five destinations
 
 Navigation bars should be used for:
 
-  * Three to five main pages in the product
-  * Mobile or tablet only
+-   Three to five main pages in the product
+-   Mobile or tablet only
 
 Navigation bars shouldn’t be used for accessing single tasks, such as viewing one email.
 
@@ -45,9 +37,9 @@ On mobile or tablet, navigation bars should be used for top-level destinations
 
 The navigation items can be **vertical** or **horizontal**.
 
-  * Use vertical items in  compact windows Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/breakpoints/compact>) , like mobile
+-   Use vertical items in compact windows Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) , like mobile
 
-  * Use horizontal items in  medium windows Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation.  [More on medium window size class](</m3/pages/breakpoints/medium>) , like tablets
+-   Use horizontal items in medium windows Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) , like tablets
 
 ![A nav bar with vertical items in a compact window, and horizontal items in a medium window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqhs7x-04.png?alt=media&token=d17a01b3-1f02-4654-99d8-9a0de7507ff9)
 
@@ -55,7 +47,7 @@ Vertical navigation items work best in compact windows. Horizontal items work be
 
 For products with more than five navigation items, don’t use a navigation bar; the elements may collide and there likely won’t be enough space for translated text.
 
-Instead, consider using  tabs Tabs organize content across different screens and views.  [More on tabs](</m3/pages/tabs/overview>) to organize similar content within a page, or hide the navigation behind a menu icon using a  modal expanded navigation rail Navigation rails let people switch between UI views on mid-sized devices.  [More on navigation rails](</m3/pages/navigation-rail/overview>) .
+Instead, consider using tabs Tabs organize content across different screens and views. [More on tabs](/m3/pages/tabs/overview) to organize similar content within a page, or hide the navigation behind a menu icon using a modal expanded navigation rail Navigation rails let people switch between UI views on mid-sized devices. [More on navigation rails](/m3/pages/navigation-rail/overview) .
 
 ![A nav bar with 7 items in a compact window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqi614-05-don't.png?alt=media&token=ba0b0a11-eec7-41a4-a49f-7209526b9819)
 
@@ -89,17 +81,17 @@ Navigation bar destinations have fixed positions. Don’t scroll them or modify 
 
 ![6 elements of the nav bar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm3t918of-10.png?alt=media&token=653b8745-255a-4063-969b-7b8915debdbd)
 
-  1. Container
+1.  Container
 
-  2. Icon
+2.  Icon
 
-  3. Label text
+3.  Label text
 
-  4. Active indicator
+4.  Active indicator
 
-  5. Large badge (optional)
+5.  Large badge (optional)
 
-  6. Small badge (optional)
+6.  Small badge (optional)
 
 ### Container
 
@@ -113,9 +105,9 @@ The navigation bar container holds all elements
 
 ### Navigation items
 
-Navigation items hold all elements for each destination: the icon, label text, and active indicator. They can be **vertical** , with the text below the icon and indicator, or **horizontal** , with the icon and text beside each other inside the indicator.
+Navigation items hold all elements for each destination: the icon, label text, and active indicator. They can be **vertical**, with the text below the icon and indicator, or **horizontal**, with the icon and text beside each other inside the indicator. 
 
-Vertical items are best in  compact windows Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/breakpoints/compact>) , and horizontal items are best in  medium windows Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation  [More on medium window size class](</m3/pages/breakpoints/medium>) .
+Vertical items are best in compact windows Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) , and horizontal items are best in medium windows Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation [More on medium breakpoints](/m3/pages/breakpoints/medium) .
 
 Horizontal items are centered in the nav bar with outer margins.
 
@@ -125,7 +117,7 @@ The navigation bar is divided into equal-width segments with padding from the wi
 
 ### Icons
 
-Navigation rail items must use icons that symbolize the content of their page. Browse [popular icon](<https://fonts.google.com/icons>).
+Navigation rail items must use icons that symbolize the content of their page. Browse [popular icon](https://fonts.google.com/icons).
 
 Use a filled icon for the active destination and outlined icons for inactive destinations. If an icon doesn’t have a filled version, apply **semibold** weight to the icon instead.
 
@@ -229,19 +221,19 @@ The search feature of the screen triggers the on-screen keyboard, temporarily co
 
 ## Adaptive design
 
-Adaptive design allows an interface to respond or change based on context, such as the user, device, and usage. More on [adaptive design](</m3/pages/layout-overview/adaptive-design>)
+Adaptive design allows an interface to respond or change based on context, such as the user, device, and usage. More on [adaptive design](/m3/pages/layout-overview/adaptive-design)
 
 ### Resizing
 
-Only use navigation bars for  compact Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/applying-layout/compact>) and  medium Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation.  [More on medium window size class](</m3/pages/applying-layout/medium>) window size classes.
+Only use navigation bars for compact Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) and medium Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium)  breakpoints. 
 
-**Compact** : For narrow windows, use a navigation bar or modal navigation rail.
+**Compact**: For narrow windows, use a navigation bar or modal navigation rail.
 
-**Medium** : Use a navigation bar or navigation rail. Decide based on whether horizontal or vertical space is more important.
+**Medium**: Use a navigation bar or navigation rail. Decide based on whether horizontal or vertical space is more important.
 
-**Expanded and extra-large** : Use a navigation rail instead. Decide based on available window space and the number of navigation destinations.
+**Expanded and extra-large**: Use a navigation rail instead. Decide based on available window space and the number of navigation destinations.
 
-Navigation bars are best suited for compact and medium window sizes
+Navigation bars are best suited for compact and medium breakpoints
 
 The navigation bar container spans 100% of the window width.
 
@@ -259,9 +251,9 @@ Don’t use navigation bars for desktop layouts. Instead, use a navigation rail 
 
 ### Presentation
 
-In medium window sizes, use horizontal nav items to better use available space.
+In medium breakpoints, use horizontal nav items to better use available space.
 
-Horizontal nav items should remain centered with the same padding at each window size.
+Horizontal nav items should remain centered with the same padding at each breakpoint.
 
 ![Horizontal nav items have the same width in medium and expanded windows. Only the padding changes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fpt5k2-30.png?alt=media&token=e135a58a-8738-4d8d-bdad-fb1c25a7962f)
 
@@ -271,10 +263,10 @@ A navigation bar in horizontal orientation keeps the same spacing between destin
 
 ### Navigation
 
-When selecting a navigation bar item not currently selected, the product navigates to that destination’s screen using a [top level](</m3/pages/motion-transitions/transition-patterns#f852afd2-396f-49fd-a265-5f6d96680e16>) transition pattern. It can either remember where you left off, or reset to the default view.
+When selecting a navigation bar item not currently selected, the product navigates to that destination’s screen using a [top level](/m3/pages/motion-transitions/transition-patterns#f852afd2-396f-49fd-a265-5f6d96680e16) transition pattern. It can either remember where you left off, or reset to the default view.
 
-  1. **Preserve state** : If someone has interacted with this destination, it returns to their scroll position, current tab, and in-line search status.
-  2. **Reset state** : Any prior user interactions are reset, including scroll position, tab selection, and in-line search.
+1.  **Preserve state**: If someone has interacted with this destination, it returns to their scroll position, current tab, and in-line search status.
+2.  **Reset state**: Any prior user interactions are reset, including scroll position, tab selection, and in-line search.
 
 Choose the behavior that best suits the product and user needs. For example, an app that requires frequent switching between sections should preserve each section’s state.
 
@@ -289,9 +281,9 @@ Selecting the already selected navigation item scrolls to the top of the screen
 
 ### Scrolling
 
-Upon scroll, the navigation bar can appear or disappear.
+Upon scroll, the navigation bar can appear or disappear. 
 
-Don’t hide the navigation bar on scroll when a [screen reader](<https://m3.material.io/foundations/overview/assistive-technology#ec6f3e84-a51c-4dc0-a353-6844f5bde698>) is active.
+Don’t hide the navigation bar on scroll when a [screen reader](https://m3.material.io/foundations/overview/assistive-technology#ec6f3e84-a51c-4dc0-a353-6844f5bde698) is active.
 
 Scrolling downward can hide the navigation bar; scrolling upward reveals it
 
@@ -303,6 +295,6 @@ The active indicator animation should only apply on one axis to better represent
 
 An active indicator appears when the item is selected.
 
-When a destination is tapped, the destination screens use a [top level](</m3/pages/motion-transitions/transition-patterns#f852afd2-396f-49fd-a265-5f6d96680e16>) transition pattern. In addition, the icon becomes filled and the active indicator expands from the center of the icon.
+When a destination is tapped, the destination screens use a [top level](/m3/pages/motion-transitions/transition-patterns#f852afd2-396f-49fd-a265-5f6d96680e16) transition pattern. In addition, the icon becomes filled and the active indicator expands from the center of the icon.
 
 Tapping a destination uses a top level transition pattern

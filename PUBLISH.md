@@ -39,11 +39,11 @@ git push origin main
 
 ```powershell
 cd <repo>
-git tag v1.0.0              # 首次发布
+git tag v1.2.0              # 首次发布
 # 升级版本示例：
-#   git tag v1.1.0          # 新功能
-#   git tag v1.0.1          # 修 bug
-git push origin v1.0.0
+#   git tag v1.3.0          # 新功能
+#   git tag v1.2.1          # 修 bug
+git push origin v1.2.0
 ```
 
 - Tag 是 Git 对某次 commit 的版本标记，Release 必须依赖一个 Tag。
@@ -70,8 +70,8 @@ Compress-Archive -Path '<repo>\*' -DestinationPath '<workspace>\dist\md3e.zip' -
 
 1. 打开：https://github.com/mfskys/md3e-skill/releases/new
 2. 填写：
-   - **Choose a tag**：选刚推的 `v1.0.0`（或新版本号）
-   - **Release title**：`MD3E Skill v1.0.0`
+   - **Choose a tag**：选刚推的 `v1.2.0`（或新版本号）
+   - **Release title**：`MD3E Skill v1.2.0`
    - **Release description**：粘贴下方模板
    - **Attach binaries**：把 `<workspace>\dist\md3e.zip` 拖进去
    - **Set as the latest**：勾上
@@ -128,12 +128,12 @@ cd <repo>
 
 # 1. 提交代码
 git add .
-git commit -m "release: v1.0.0"
+git commit -m "release: v1.2.0"
 git push origin main
 
 # 2. 打 Tag
-git tag v1.0.0
-git push origin v1.0.0
+git tag v1.2.0
+git push origin v1.2.0
 
 # 3. 生成发布包
 $dist = '<workspace>\dist'
@@ -152,6 +152,6 @@ Write-Host "完成。接下来去 https://github.com/mfskys/md3e-skill/releases/
 
 ## 版本号约定（SemVer）
 
-- `v1.0.0` → `v1.1.0`：新增功能（向下兼容）
-- `v1.0.0` → `v1.0.1`：修 bug（向下兼容）
-- `v1.0.0` → `v2.0.0`：破坏性改动（不向下兼容）
+- `v1.2.0` → `v1.3.0`：新增功能（向下兼容）
+- `v1.2.0` → `v1.2.1`：修 bug（向下兼容）
+- `v1.2.0` → `v2.0.0`：破坏性改动（不向下兼容）

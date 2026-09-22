@@ -126,27 +126,27 @@ MD3E supports three contrast levels accessible via system settings:
 
 | Style | Font Size / Line Height | Weight | Letter Spacing | Usage |
 |-------|------------------------|--------|----------------|-------|
-| `displayLarge` | 57 / 64 | Regular (400) | -0.25dp | Hero text, large numbers |
-| `displayMedium` | 45 / 52 | Regular (400) | 0dp | Large display |
-| `displaySmall` | 36 / 44 | Regular (400) | 0dp | Medium display |
-| `headlineLarge` | 32 / 40 | Regular (400) | 0dp | Large headline |
-| `headlineMedium` | 28 / 36 | Regular (400) | 0dp | Medium headline |
-| `headlineSmall` | 24 / 32 | Regular (400) | 0dp | Small headline |
-| `titleLarge` | 22 / 28 | Medium (500) | 0dp | Large title |
-| `titleMedium` | 16 / 24 | Medium (500) | 0.15dp | Medium title |
-| `titleSmall` | 14 / 20 | Medium (500) | 0.1dp | Small title |
-| `bodyLarge` | 16 / 24 | Regular (400) | 0.5dp | Primary body text |
-| `bodyMedium` | 14 / 20 | Regular (400) | 0.25dp | Secondary body text |
-| `bodySmall` | 12 / 16 | Regular (400) | 0.4dp | Tertiary body text |
-| `labelLarge` | 14 / 20 | Medium (500) | 0.1dp | Button text, labels |
-| `labelMedium` | 12 / 16 | Medium (500) | 0.5dp | Small labels |
-| `labelSmall` | 11 / 16 | Medium (500) | 0.5dp | Tiny labels, captions |
+| `displayLarge` | 57 / 64 | Regular (400) | -0.25sp | Hero text, large numbers |
+| `displayMedium` | 45 / 52 | Regular (400) | 0sp | Large display |
+| `displaySmall` | 36 / 44 | Regular (400) | 0sp | Medium display |
+| `headlineLarge` | 32 / 40 | Regular (400) | 0sp | Large headline |
+| `headlineMedium` | 28 / 36 | Regular (400) | 0sp | Medium headline |
+| `headlineSmall` | 24 / 32 | Regular (400) | 0sp | Small headline |
+| `titleLarge` | 22 / 28 | Medium (500) | 0sp | Large title |
+| `titleMedium` | 16 / 24 | Medium (500) | 0.15sp | Medium title |
+| `titleSmall` | 14 / 20 | Medium (500) | 0.1sp | Small title |
+| `bodyLarge` | 16 / 24 | Regular (400) | 0.5sp | Primary body text |
+| `bodyMedium` | 14 / 20 | Regular (400) | 0.25sp | Secondary body text |
+| `bodySmall` | 12 / 16 | Regular (400) | 0.4sp | Tertiary body text |
+| `labelLarge` | 14 / 20 | Medium (500) | 0.1sp | Button text, labels |
+| `labelMedium` | 12 / 16 | Medium (500) | 0.5sp | Small labels |
+| `labelSmall` | 11 / 16 | Medium (500) | 0.5sp | Tiny labels, captions |
 
 ### MD3E Typography Enhancements
 
 - **Variable fonts**: MD3E encourages variable fonts for dynamic weight/width adjustments
 - **Emphasis styles**: use heavier weights and larger sizes to create editorial-style hierarchy
-- **Default font family**: `Typography` now supports a default font family merged with styles
+- **Font family**: M3 `Typography` has no `defaultFontFamily` parameter — set `fontFamily` on each `TextStyle` (or use a shared constant) instead
 
 ### Compose API
 

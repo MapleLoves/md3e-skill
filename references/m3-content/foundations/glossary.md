@@ -1,12 +1,12 @@
-# Glossary – Material Design 3
-
-> 来源: https://m3.material.io/foundations/glossary
-
+---
+source: https://m3.material.io/foundations/glossary
+title: "Material A-Z"
+captured: 2026-09-14
 ---
 
 # Material A-Z
 
-Get to know the key terms and concepts behind Material, from A to Z
+> Get to know the key terms and concepts behind Material, from A to Z
 
 ### Adaptive design
 
@@ -14,7 +14,7 @@ A design approach in which the interface changes based on known user, device, or
 
 ### App bar
 
-A component that displays information and actions at the top of a screen. [Learn more about app bars](</m3/pages/app-bars/overview>)
+A component that displays information and actions at the top of a screen. [Learn more about app bars](/m3/pages/app-bars/overview)
 
 ### Banner
 
@@ -22,23 +22,23 @@ A component displaying a prominent message and related optional actions.
 
 ### Button
 
-A component helping people initiate actions such as sending an email, sharing a document, or liking a post. [Learn more about buttons](</m3/pages/all-buttons>)
+A component helping people initiate actions such as sending an email, sharing a document, or liking a post. [Learn more about buttons](https://m3.material.io/components/all-buttons)
 
 ### Bottom sheet
 
-A component containing supplementary content that’s anchored to the bottom of the screen. [Learn more about bottom sheets](</m3/pages/bottom-sheets/overview>)
+A component containing supplementary content that’s anchored to the bottom of the screen. [Learn more about bottom sheets](/m3/pages/bottom-sheets/overview)
 
 ### Card
 
-A component containing content and actions that relate information about a subject. [Learn more about cards](</m3/pages/cards/overview/>)
+A component containing content and actions that relate information about a subject. [Learn more about cards](/m3/pages/cards/overview/)
 
 ### Checkbox
 
-A component allowing users to select one or more items from a set. Checkboxes can turn an option on or off. [Learn more about checkboxes](</m3/pages/checkbox/overview>)
+A component allowing users to select one or more items from a set. Checkboxes can turn an option on or off. [Learn more about checkboxes](/m3/pages/checkbox/overview)
 
 ### Chip
 
-A component for helping people enter information, make selections, filter content, or trigger actions. Chips can show multiple interactive elements together in the same area, such as a list of selectable movie times, or a series of email contacts. [Learn more about chips](</m3/pages/chips/overview/>)
+A component for helping people enter information, make selections, filter content, or trigger actions. Chips can show multiple interactive elements together in the same area, such as a list of selectable movie times, or a series of email contacts. [Learn more about chips](/m3/pages/chips/overview/)
 
 ### Color: Baseline scheme
 
@@ -50,7 +50,7 @@ A customization feature in which a user-generated color scheme is mapped to an a
 
 Dynamic color is reflected in apps that accept user-generated schemes as inputs for color roles in an app. Dynamic color isn’t simply the output of the Material Theme Builder, or an algorithmic color scheme, but is the presence of a changeable color role that renders an app’s appearance dynamic in response to user input.
 
-### Color: Extended color
+### Color: Extended color 
 
 A color specified (in addition to key colors) in order to fill color roles for custom schemes. Extended color is a category for idiosyncratic color roles and applications, such as brand expression or conventional (semantic) meanings.
 
@@ -62,11 +62,11 @@ A key color is not an extracted color–it’s a derivation of the source color.
 
 Any mapping of color roles to specific tones from a tonal palette. Schemes consist of multiple color roles. A **dark scheme** informally describes a group of colors using the tones from a group of palettes that are mapped for a dark theme.
 
-Note: A **light scheme** is not the same as a **light theme.  **_See theme._
+Note: A **light scheme** is not the same as a **light theme.** *See theme.*
 
 ### Color: Source color
 
-The single color that’s extracted to define all five key colors is called a source color. While it may not be needed in code, it’s a useful distinction for understanding that a dynamic color scheme has its root in one initiating color, AKA hue, chroma, and tone. **Key colors** are defined in relationship to the **source color’s** _hue_.
+The single color that’s extracted to define all five key colors is called a source color. While it may not be needed in code, it’s a useful distinction for understanding that a dynamic color scheme has its root in one initiating color, AKA hue, chroma, and tone. **Key colors** are defined in relationship to the **source color’s** *hue*.
 
 ### Color: Tonal palette
 
@@ -74,23 +74,23 @@ A tonal palette comprises a 13-tone range that serves as the basis for mapping t
 
 ### Color: Tone
 
-A grouping of tones are colors with the same hue and chroma. Informally, tone means degrees of lightness.
+A grouping of tones are colors with the same hue and chroma. Informally, tone means degrees of lightness. 
 
-**In code** : Tone.of(hex code).get(tone) or Tone.of(hue, chroma).get(tone)
+**In code**: Tone.of(hex code).get(tone) or Tone.of(hue, chroma).get(tone) 
 
-**In design guidance** : “A change in a color’s tone can be used to distinguish interaction states or visual interest to component elements.”
+**In design guidance**: “A change in a color’s tone can be used to distinguish interaction states or visual interest to component elements.”
 
 ### Color: User-generated schemes
 
 An aspect of dynamic color that describes the colors derived and applied from an individual user’s wallpaper selection or Android preset colors.
 
-### Condition
+### Condition 
 
 A signal that determines when and how an adaptive layout or component should adapt.
 
-### Contrast
+### Contrast 
 
-Difference between colors. For accessibility, contrast refers strictly to the difference in tone. A difference of 40 in tone guarantees a [WCAG](<https://www.w3.org/WAI/standards-guidelines/wcag/>) contrast ratio ≥ 3.0; a difference of 50 in tone guarantees a contrast ratio ≥ 4.5.
+Difference between colors. For accessibility, contrast refers strictly to the difference in tone. A difference of 40 in tone guarantees a [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) contrast ratio ≥ 3.0; a difference of 50 in tone guarantees a contrast ratio ≥ 4.5.
 
 ### Customization
 
@@ -106,7 +106,7 @@ A component displaying sets of data across rows and columns.
 
 ### Date picker
 
-A component that lets users select a date, or a range of dates. [Learn more about date pickers](</m3/pages/date-pickers/overview>)
+A component that lets users select a date, or a range of dates. [Learn more about date pickers](/m3/pages/date-pickers/overview)
 
 ### Design attribute
 
@@ -120,13 +120,13 @@ Guidelines are descriptive written and illustrated docs that demonstrate usage a
 
 Specs are annotated designs and docs that specify the values and parameters that define a component or a feature’s coded capabilities.
 
-### Design System Package (DSP)
+### Design System Package (DSP) 
 
-An open-format folder structure created by Adobe to help teams share design system information across tools. [Learn more about the DSP format](<https://github.com/AdobeXD/design-system-package-dsp>)
+An open-format folder structure created by Adobe to help teams share design system information across tools. [Learn more about the DSP format](https://github.com/AdobeXD/design-system-package-dsp)
 
 ### Design tokens
 
-A design token represents a small, reusable design decision that’s part of a design system's visual style. Tokens replace static values with self-explanatory names. [Learn more on the design tokens page](</m3/pages/design-tokens/overview>)
+A design token represents a small, reusable design decision that’s part of a design system's visual style. Tokens replace static values with self-explanatory names. [Learn more on the design tokens page](/m3/pages/design-tokens/overview)
 
 ### Design tokens: Context
 
@@ -134,13 +134,13 @@ The set of conditions in which tokens can point to non-default values (for examp
 
 ### Design tokens: Role
 
-A shortened version of the system token name (for example, **Secondary container color** ; **Headline 1**).
+A shortened version of the system token name (for example, **Secondary container color**; **Headline 1**).
 
 ### Design tokens: Types
 
-  * **Reference tokens** : All available tokenized values. (for example, **md.ref.palette.secondary200**)
-  * **Component tokens** : Component tokens define the design attributes of elements in a component, such as the color of a button container
-  * **System tokens** : The choices or roles that make the system, from color to typography, elevation, and shape. (for example, **md.sys.color.secondary-container**)
+-   **Reference tokens**: All available tokenized values. (for example, **md.ref.palette.secondary200**)
+-   **Component tokens**: Component tokens define the design attributes of elements in a component, such as the color of a button container
+-   **System tokens**: The choices or roles that make the system, from color to typography, elevation, and shape. (for example, **md.sys.color.secondary-container**)
 
 ### Design tokens: Value
 
@@ -148,27 +148,27 @@ The information defining a design attribute, either stored in a token or hard-co
 
 ### Dialog
 
-A component providing important prompts in a user flow. They can require an action, communicate information, or help users accomplish a task. [Learn more about dialogs](</m3/pages/dialogs/overview/>)
+A component providing important prompts in a user flow. They can require an action, communicate information, or help users accomplish a task. [Learn more about dialogs](/m3/pages/dialogs/overview/)
 
 ### Divider
 
-A thin line that groups content in lists and layouts. [Learn more about dividers](</m3/pages/divider/overview>)
+A thin line that groups content in lists and layouts. [Learn more about dividers](/m3/pages/divider/overview)
 
-### Element
+### Element 
 
 The part of the component that a token or value applies to, such as the container or label text.
 
 ### Extended FAB
 
-A component for helping people take primary actions. They're wider than FABs to accommodate a text label and larger target area. [Learn more about extended FABs](</m3/pages/extended-fab/overview/>)
+A component for helping people take primary actions. They're wider than FABs to accommodate a text label and larger target area. [Learn more about extended FABs](/m3/pages/extended-fab/overview/)
 
 ### Floating action button (FAB)
 
-A component representing the most important action on a screen. They put key actions within reach. [Learn more about FABs](</m3/pages/fab/overview/>)
+A component representing the most important action on a screen. They put key actions within reach. [Learn more about FABs](/m3/pages/fab/overview/)
 
 ### HCT
 
-HCT is an abbreviation of hue, chroma, tone. It’s the name of the color space that enables dynamic color. HCT is based on CAM16 **hue** and **chroma** ; the L* construct for luminance from L*a*b* (CIELAB, 1976) is denoted as T for **tone**.
+HCT is an abbreviation of hue, chroma, tone. It’s the name of the color space that enables dynamic color. HCT is based on CAM16 **hue** and **chroma**; the L\* construct for luminance from L\*a\*b\* (CIELAB, 1976) is denoted as T for **tone**.
 
 ### Image list
 
@@ -180,7 +180,7 @@ Developer libraries supported by Material 3 include Android and Jetpack Compose,
 
 ### List
 
-A component comprised of continuous, vertical indexes of text or images. [Learn more about lists](</m3/pages/lists/overview>)
+A component comprised of continuous, vertical indexes of text or images. [Learn more about lists](/m3/pages/lists/overview)
 
 ### Material Components
 
@@ -188,7 +188,7 @@ Open-source UI elements created to help developers implement Material Design acr
 
 ### Material Design
 
-Material is an adaptable system of guidelines, components, and tools that support the best practices of user interface design. Backed by open-source code, Material streamlines collaboration between designers and developers, and helps teams quickly build beautiful products.
+Material is an adaptable system of guidelines, components, and tools that support the best practices of user interface design. Backed by open-source code, Material streamlines collaboration between designers and developers, and helps teams quickly build beautiful products. 
 
 Material was launched in 2014 and has evolved over the years.
 
@@ -196,9 +196,9 @@ Material was launched in 2014 and has evolved over the years.
 
 **Material Design 2** (M2): The second generation of Material Design, launched in 2018, introduced Material Theming and code for Material Components.
 
-**Material Design 3** (M3): The third generation of Material, launched in 2021, includes the Material You features like dynamic color.
+**Material Design 3** (M3): The third generation of Material, launched in 2021, includes the Material You features like dynamic color. 
 
-  * **Material You** : The new Material visual style and set of features embracing the personal and expressive needs of individual users, part of Material Design 3
+-   **Material You**: The new Material visual style and set of features embracing the personal and expressive needs of individual users, part of Material Design 3
 
 ### Material Theming
 
@@ -208,27 +208,27 @@ While a scheme represents selections or a subset of a single style group, **them
 
 ### Menu
 
-A component that displays a list of choices on a temporary surface. [Learn more about menus](</m3/pages/menus/overview>)
+A component that displays a list of choices on a temporary surface. [Learn more about menus](/m3/pages/menus/overview)
 
 ### Mode
 
-Binary setting provided by a system to help people use the device better. Examples: **Focus mode** , **airplane mode** , and **battery saver mode**.
+Binary setting provided by a system to help people use the device better. Examples: **Focus mode**, **airplane mode**, and **battery saver mode**.
 
 ### Navigation bar
 
-A component offering a persistent and convenient way to switch between primary destinations in an app. [Learn more about navigation bars](</m3/pages/navigation-bar/overview/>)
+A component offering a persistent and convenient way to switch between primary destinations in an app. [Learn more about navigation bars](/m3/pages/navigation-bar/overview/)
 
 ### Navigation drawer
 
-A component providing ergonomic access to destinations in an app. [Learn more about navigation drawers](</m3/pages/navigation-drawer/>)
+A component providing ergonomic access to destinations in an app. [Learn more about navigation drawers](/m3/pages/navigation-drawer/)
 
 ### Navigation rail
 
-A component providing access to primary destinations in apps when using tablet and desktop screens. [Learn more about navigation rails](</m3/pages/navigation-rail/overview/>)
+A component providing access to primary destinations in apps when using tablet and desktop screens. [Learn more about navigation rails](/m3/pages/navigation-rail/overview/)
 
 ### Progress indicator
 
-A component displaying an unspecified wait time or the length of a process. [Learn more about progress indicators](</m3/pages/progress-indicators/overview>)
+A component displaying an unspecified wait time or the length of a process. [Learn more about progress indicators](/m3/pages/progress-indicators/overview)
 
 ### Orbiter
 
@@ -240,11 +240,11 @@ The building blocks of a layout. Content and actions are grouped into panes, whi
 
 ### Radio button
 
-A component allowing users to select one option from a set. [Learn more about radio buttons](</m3/pages/radio-button/overview>)
+A component allowing users to select one option from a set. [Learn more about radio buttons](/m3/pages/radio-button/overview)
 
 ### Role
 
-Short nickname describing the purpose of a design token within a design system. Also known as slots. Examples: **On surface** ; **Body 1**.
+Short nickname describing the purpose of a design token within a design system. Also known as slots. Examples: **On surface**; **Body 1**.
 
 ### Side sheet
 
@@ -256,7 +256,7 @@ A component that allows users to make selections from a range of values.
 
 ### Snackbar
 
-A component that provides brief messages about app processes at the bottom of the screen. [Learn more about snackbars](</m3/pages/snackbar/overview/>)
+A component that provides brief messages about app processes at the bottom of the screen. [Learn more about snackbars](/m3/pages/snackbar/overview/)
 
 ### Spatial
 
@@ -264,19 +264,19 @@ Relates to the placement of UI in space through extended reality (XR).
 
 ### Style
 
-One or more properties, typically customizable, that define an aspect of a UI's appearance, such as [color](</m3/pages/color>), [typography](</m3/pages/typography/overview>), or shape.
+One or more properties, typically customizable, that define an aspect of a UI's appearance, such as [color](/m3/pages/color), [typography](/m3/pages/typography/overview), or shape.
 
 ### Switch
 
-A component that toggles the state of a single item on or off. [Learn more about switches](</m3/pages/switch/overview>)
+A component that toggles the state of a single item on or off. [Learn more about switches](/m3/pages/switch/overview)
 
 ### Tab
 
-A component used to organize content across different screens, data sets, and other interactions. [Learn more about tabs](</m3/pages/tabs/overview>)
+A component used to organize content across different screens, data sets, and other interactions. [Learn more about tabs](/m3/pages/tabs/overview)
 
 ### Text field
 
-A component that lets users enter and edit text. [Learn more about text fields](</m3/pages/text-fields/overview>)
+A component that lets users enter and edit text. [Learn more about text fields](/m3/pages/text-fields/overview)
 
 ### Theme
 
@@ -284,11 +284,11 @@ A set of styles, such as color, elevation, and type, that can be applied globall
 
 ### Time picker
 
-A component that helps users select and set a specific time. [Learn more about time pickers](</m3/pages/time-pickers/overview>)
+A component that helps users select and set a specific time. [Learn more about time pickers](/m3/pages/time-pickers/overview)
 
 ### Toolbar
 
-A component displaying navigation and key actions at the bottom of mobile screens. [Learn more about toolbar](</m3/pages/toolbars/overview>)
+A component displaying navigation and key actions at the bottom of mobile screens. [Learn more about toolbar](/m3/pages/toolbars/overview)
 
 ### Tooltip
 

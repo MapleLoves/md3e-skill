@@ -1,18 +1,12 @@
-# Alt text – Material Design 3
-
-> 来源: https://m3.material.io/foundations/content-design/alt-text
-
+---
+source: https://m3.material.io/foundations/content-design/alt-text
+title: "Alt text"
+captured: 2026-09-14
 ---
 
 # Alt text
 
-Effective alt text describes the meaning and context of images for screen reader users
-
-## Alt text
-
-  * How to write great alt text
-  * Context and nearby text
-  * Types of imagery
+> Effective alt text describes the meaning and context of images for screen reader users
 
 ## How to write great alt text
 
@@ -74,11 +68,11 @@ Avoid detailed descriptions that don’t contribute to the image’s meaning.
 
 ### Keep it short
 
-The recommended length for alt text is 140 characters.
+The recommended length for alt text is 140 characters. 
 
 If alt text is too long, it may be cut off by some screen readers, which is a poor user experience.
 
-![Relates idea of keeping alt text to a max of 140 characters.](https://lh3.googleusercontent.com/PRj_oYkwUTuzQUdGRjKqtfZ06uYy3M8Nql2VC6b06NAc25AnP4xAhLYDB4ygwCcFfjAbO7gxgQ7o100HwAtx3tXoJQvNTiAoz51wF8BJcYA=s0)
+![Relates idea of keeping alt text to a max of 140 characters.](https://lh3.googleusercontent.com/PRj_oYkwUTuzQUdGRjKqtfZ06uYy3M8Nql2VC6b06NAc25AnP4xAhLYDB4ygwCcFfjAbO7gxgQ7o100HwAtx3tXoJQvNTiAoz51wF8BJcYA=w40)
 
 check Do
 
@@ -86,11 +80,11 @@ Write brief alt text.
 
 **Alt text: A small happy dog hanging out the passenger window of a vintage car.**
 
-![Long alt text can be overwhelming and ineffective.](https://lh3.googleusercontent.com/SjjCRROpmvOai7hbb6xB8KkxbDqAtj4WysgXym1u1NAv0MmomIBNZuBU_Qj41hrWYZrCJIMNyedImnC0AO2JdIrwXlUODzQJkCkUZLQGuwXc=s0)
+![Long alt text can be overwhelming and ineffective.](https://lh3.googleusercontent.com/SjjCRROpmvOai7hbb6xB8KkxbDqAtj4WysgXym1u1NAv0MmomIBNZuBU_Qj41hrWYZrCJIMNyedImnC0AO2JdIrwXlUODzQJkCkUZLQGuwXc=w40)
 
 close Don’t
 
-Don’t write more than 140 characters of alt text.
+Don’t write more than 140 characters of alt text. 
 
 **Alt text: An aqua colored vintage car is driven by a woman in a cowboy hat. A poodle-mix dog sits in the passenger seat with its tongue out and paws out the window.**
 
@@ -118,7 +112,7 @@ Avoid writing “image of." The screen reader will announce it’s an image.
 
 ### Context matters
 
-Use adjacent text to establish the context and word choices for alt text. Adjacent text includes all of the text near an image, such as body text, captions, and headlines.
+Use adjacent text to establish the context and word choices for alt text. Adjacent text includes all of the text near an image, such as body text, captions, and headlines. 
 
 Don’t repeat the caption in alt text. It’s against best practices because the user will hear the same text twice, which is a poor experience.
 
@@ -188,7 +182,7 @@ Don’t write alt text with details that aren’t relevant to the context of the
 
 ### Captions should benefit all users
 
-A caption should be useful to someone who can see the image clearly, as well as a screen reader user.
+A caption should be useful to someone who can see the image clearly, as well as a screen reader user. 
 
 Good captions support the image rather than duplicating its information. A well-written caption makes it easier to write alt text.
 
@@ -214,13 +208,13 @@ Don’t repeat the caption as the alt text.
 
 Occasionally it benefits users to name the type of image. This can include:
 
-  * Chart
-  * Infographic
-  * Map
-  * Graph
-  * Screenshot
-  * Headshot
-  * Diagram
+-   Chart
+-   Infographic
+-   Map
+-   Graph
+-   Screenshot
+-   Headshot
+-   Diagram
 
 ![Map with alt text that begins with “map of.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7kr95-19.png?alt=media&token=365d9d72-d471-41a8-b631-da2d2b8a5648)
 
@@ -232,13 +226,13 @@ Be careful when using alt text that describes the type of image.
 
 ### Charts and graphs
 
-Alt text is particularly important for visualizations such as charts and graphs.
+Alt text is particularly important for visualizations such as charts and graphs. 
 
 Visualizations can either be editorial and meant to support a specific purpose or key takeaway, or more open-ended and used for general data analysis.
 
 Consider the core purpose of the chart or graph, and what information someone would need to use it.
 
-Link to the data that generated the chart or graph, if it’s available.
+Link to the data that generated the chart or graph, if it’s available.  
 
 ![Summary of interest in Manchester City, which is almost double that of Liverpool. Manchester interest peaks at 100 at 6pm. Liverpool peaks at 40 at 3am and 12:30pm.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2ch16f9-20.png?alt=media&token=b9137da9-a144-41d4-8740-28cfcc2896cc)
 
@@ -246,7 +240,7 @@ Summarize the main purpose of the data. Here, the chart involves interest in Man
 
 When possible, explain the key takeaways and meaning in context, rather than detailing every data point.
 
-A general formula for chart alt text would be: “Summary of [data type] + [reason for showing the chart].”
+A general formula for chart alt text would be: “Summary of \[data type\] + \[reason for showing the chart\].”
 
 ![Alt text that summarizes the meaning of the chart.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2ch1hb7-21_do.png?alt=media&token=bd84e22f-123c-44f2-b3b7-a8c80d8af77b)
 
@@ -280,9 +274,9 @@ In charts with an editorial focus, highlight the main takeaway and metrics
 
 **Charts for analysis**
 
-Charts for analysis are meant to be reviewed as a whole, and offer pieces of data to be analyzed. They can be dense, appear alongside related charts, and have many takeaways.
+Charts for analysis are meant to be reviewed as a whole, and offer pieces of data to be analyzed. They can be dense, appear alongside related charts, and have many takeaways. 
 
-For charts that have one or two key takeaways, include these insights in the alt text.
+For charts that have one or two key takeaways, include these insights in the alt text. 
 
 To avoid introducing unintentional bias in charts with many possible takeaways, highlight opportunities for exploration, such as a link to the data’s source. Emphasize key data points or mention that there isn’t a single takeaway.
 
@@ -306,7 +300,7 @@ Don’t summarize a chart used for analysis
 
 To improve the screen reader experience,  consider using interactive charts instead of static images, especially for complex visualizations that are used for analysis. For interactive charts, a tooltip can show additional detail for specific data points.
 
-See [Top Tips for Data Accessibility](<https://m3.material.io/blog/data-visualization-accessibility>) for more ways to make these visualizations accessible.
+See [Top Tips for Data Accessibility](https://m3.material.io/blog/data-visualization-accessibility) for more ways to make these visualizations accessible.
 
 ![Chart for analysis with alt text that describes general structure and provides link to data.](https://lh3.googleusercontent.com/a56fvmo9FI_dcrUww32YzJbtxXg8mf4oe2I87LeaK6f1v4vcFy9DIJTXVdCpl3VGAaqDuk_JTRLLj1q2rNMkeXpCYy9nX9tLOMo9G7_8TjTF=w40)
 

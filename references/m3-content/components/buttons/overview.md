@@ -1,113 +1,94 @@
-# Buttons – Material Design 3
-
-> 来源: https://m3.material.io/components/buttons/overview
-
+---
+source: https://m3.material.io/components/buttons/overview
+title: "Buttons"
+captured: 2026-09-14
 ---
 
 # Buttons
 
-Buttons prompt most actions in a UI.
+-   Two variants: default and toggle
 
-## Buttons
+-   Can contain an optional leading icon
 
-  * Availability & resources
-  * M3 Expressive update
-  * Differences from M2
+-   Five color options: elevated, filled, tonal, outlined, and text
 
-  * Two variants: default and toggle
+-   Five size recommendations: extra small, small, medium, large, and extra large
 
-  * Can contain an optional leading icon
+-   Two shape options: round and square
 
-  * Five color options: elevated, filled, tonal, outlined, and text
-
-  * Five size recommendations: extra small, small, medium, large, and extra large
-
-  * Two shape options: round and square
-
-  * Keep labels concise and use sentence case
+-   Keep labels concise and use sentence case
 
 ![5 variants of buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1qv5u-01.png?alt=media&token=70d30001-94b9-4bc2-a894-3b71a78dfb2e)
 
-  1. Elevated button
+1.  Elevated button
 
-  2. Filled button
+2.  Filled button
 
-  3. Filled tonal button
+3.  Filled tonal button
 
-  4. Outlined button
+4.  Outlined button
 
-  5. Text button
+5.  Text button
 
 ## Availability & resources
 
-Type| Resource| Status
----|---|---
-Design
-[ Design Kit (Figma) ](<https://www.figma.com/community/file/1035203688168086460>)| Available
-Implementation
-[ Flutter ](<https://api.flutter.dev/flutter/material/ThemeData/useMaterial3.html>)| Available
-[ android  Jetpack Compose ](<https://developer.android.com/develop/ui/compose/components/button>)| Available
-[ android  Jetpack Compose: Expressive ](<https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#Button\(kotlin.Function0,androidx.compose.ui.Modifier,kotlin.Boolean,androidx.compose.ui.graphics.Shape,androidx.compose.material3.ButtonColors,androidx.compose.material3.ButtonElevation,androidx.compose.foundation.BorderStroke,androidx.compose.foundation.layout.PaddingValues,androidx.compose.foundation.interaction.MutableInteractionSource,kotlin.Function1\)>)| Available
-[ android  Android Views (MDC-Android) ](<https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md>)| Available
-[ android  Android Views (MDC-Android): Expressive ](<https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md>)| Available
-[ language  Web ](<https://github.com/material-components/material-web/blob/main/docs/components/button.md>)| Available
-language  Web: Expressive | Unavailable
+Close
 
 ## M3 Expressive update
 
 **May 2025**
 
-Buttons now have a wider variety of shapes and sizes, toggle functionality, and can change shape when selected. [More on M3 Expressive](<https://m3.material.io/blog/building-with-m3-expressive>)
+Buttons now have a wider variety of shapes and sizes, toggle functionality, and can change shape when selected. [More on M3 Expressive](https://m3.material.io/blog/building-with-m3-expressive)
 
 Variants and naming:
 
-  * Default and toggle (selection)
+-   Default and toggle (selection)
 
-  * Color styles are now configurations (elevated, filled, tonal, outlined, text)
+-   Color styles are now configurations (elevated, filled, tonal, outlined, text)
 
-Shapes:
+Shapes: 
 
-  * Round and square
+-   Round and square
 
-  * Shape morphs when pressed
+-   Shape morphs when pressed
 
-  * Shape morphs when selected
+-   Shape morphs when selected
 
 Sizes:
 
-  * Extra small
+-   Extra small
 
-  * Small (existing, default)
+-   Small (existing, default)
 
-  * Medium
+-   Medium
 
-  * Large
+-   Large
 
-  * Extra large
+-   Extra large
 
 New padding for **small** buttons:
 
-  * 16dp (recommended to match padding of new sizes)
+-   16dp (recommended to match padding of new sizes)
 
-  * 24dp (no longer recommended)
+-   24dp (no longer recommended)
 
 ![4 button changes in the expressive update.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1tos0-03.png?alt=media&token=dd50e746-4e7b-41f5-8e51-1f26afb86139)
 
-  1. Five sizes
+1.  Five sizes
 
-  2. Toggle (selection)
+2.  Toggle (selection)
 
-  3. Two shapes
+3.  Two shapes
 
-  4. Two small padding widths
+4.  Two small padding widths
 
 ## Differences from M2
 
-  * Color: New color mappings and compatibility with dynamic color. Icons and labels now share the same color. Neutral text button is no longer recommended.
+-   Color: New color mappings and compatibility with dynamic color. Icons and labels now share the same color. Neutral text button is no longer recommended.
 
-  * Icons: Standard size for leading and trailing icons is now 20dp
+-   Icons: Standard size for leading and trailing icons is now 20dp
 
-  * Shape: Fully-rounded corner radius and additional height options
+-   Shape: Fully-rounded corner radius and additional height options
 
 ![Rectangular M2 buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1vatd-04.png?alt=media&token=9224dca7-f21c-4dff-812d-3dfb3fa035e6)
 

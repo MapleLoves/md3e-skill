@@ -1,19 +1,12 @@
-# Text fields – Material Design 3
-
-> 来源: https://m3.material.io/components/text-fields/guidelines
-
+---
+source: https://m3.material.io/components/text-fields/guidelines
+title: "Text fields"
+captured: 2026-09-14
 ---
 
 # Text fields
 
-Text fields let users enter text into a UI
-
-## Text fields
-
-  * Usage
-  * Choosing text fields
-  * Anatomy
-  * Adaptive design
+> Text fields let users enter text into a UI
 
 ![A side by side view of a filled and a outlined text field.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flyqb5o7k-1%20\(1\).png?alt=media&token=3e8505af-c89e-46f1-a165-4150245058a6)
 
@@ -29,9 +22,9 @@ Contact form using outlined text fields
 
 There are two variants of text fields:
 
-  1. Filled text fields
+1.  Filled text fields
 
-  2. Outlined text fields
+2.  Outlined text fields
 
 Both variants of text fields use a container to provide a visual cue for interaction and provide the same functionality.
 
@@ -45,7 +38,7 @@ Outlined text field
 
 ### Outlined text fields
 
-Outlined text fields have less visual emphasis than  filled text fields Filled text fields have more visual emphasis than outlined text fields. They're often used in dialogs and short forms where their style draws more attention.  . When they appear in places like forms (where many text fields are placed together), their reduced emphasis helps simplify the  layout Layout is the visual arrangement of elements on the screen.  [More on layout](</m3/pages/understanding-layout/overview>) .
+Outlined text fields have less visual emphasis than filled text fields Filled text fields have more visual emphasis than outlined text fields. They're often used in dialogs and short forms where their style draws more attention. . When they appear in places like forms (where many text fields are placed together), their reduced emphasis helps simplify the  layout Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/understanding-layout/overview) .
 
 ![App screen with 1 focused and 1 unfocused outlined text field.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31u7r0-4.png?alt=media&token=bb9357e8-b1d0-4ff8-890f-b21939e78de0)
 
@@ -59,11 +52,11 @@ Both variants of text field provide the same functionality. The variant of text 
 
 Choose the variant that:
 
-  * Works best with an app’s visual style
+-   Works best with an app’s visual style
 
-  * Best accommodates the UI's goals
+-   Best accommodates the UI's goals
 
-  * Is most distinct from other components (like  buttons Buttons let people take action and make choices with one tap.  [More on buttons](</m3/pages/common-buttons/overview>) ) and surrounding content
+-   Is most distinct from other components (like buttons Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) ) and surrounding content
 
 ![Mobile UI of a contact form with several filled text fields. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31v0nn-5.png?alt=media&token=205be2fa-2142-46e3-81fd-c69273b0601d)
 
@@ -75,9 +68,9 @@ The same mobile form using outlined text fields
 
 ### Using both text field variants on the same screen
 
-If both variants of text field are used in a UI, they should be used consistently within different sections, and not intermixed within the same region.
+If both variants of text field are used in a UI, they should be used consistently within different sections, and not intermixed within the same region. 
 
-For example, use  outlined text fields Outlined text fields have less visual emphasis than filled text fields. They're often used in long forms where their reduced emphasis helps simplify the layout.  in one section and  filled text fields Filled text fields have more visual emphasis than outlined text fields. They're often used in dialogs and short forms where their style draws more attention.  in another.
+For example, use outlined text fields Outlined text fields have less visual emphasis than filled text fields. They're often used in long forms where their reduced emphasis helps simplify the layout. in one section and filled text fields Filled text fields have more visual emphasis than outlined text fields. They're often used in dialogs and short forms where their style draws more attention. in another.
 
 ![Mobile UI of a contact form with several filled text fields, and an open dialog on top using an outlined text field. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31vnye-7_do.png?alt=media&token=776ccb86-55c6-4c1c-abd2-fe2e99551f3e)
 
@@ -97,54 +90,54 @@ When using both variants of text fields, don't use both next to each other or wi
 
 ![Diagram of filled text field indicating the 10 parts of its anatomy.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2j3kn4a-9.png?alt=media&token=182bc4ba-6100-4b86-9c88-ab946296064e)
 
-  1. Container
+1.  Container
 
-  2. Leading icon (optional)
+2.  Leading icon (optional)
 
-  3. Label text in empty field
+3.  Label text in empty field
 
-  4. Label text in populated field
+4.  Label text in populated field
 
-  5. Trailing icon (optional)
+5.  Trailing icon (optional)
 
-  6. Focused active Indicator
+6.  Focused active Indicator
 
-  7. Caret
+7.  Caret
 
-  8. Input text
+8.  Input text
 
-  9. Supporting text (optional)
+9.  Supporting text (optional)
 
-  10. Enabled active Indicator
+10.  Enabled active Indicator
 
 ### Outlined text field
 
 ![Diagram of an outlined text field indicating the 9 parts of its anatomy.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2j3kqed-10.png?alt=media&token=9dd5de19-42ba-4468-a2bc-843792fd7fc6)
 
-  1. Enabled container outline
+1.  Enabled container outline
 
-  2. Label text in empty field
+2.  Label text in empty field
 
-  3. Leading icon (optional)
+3.  Leading icon (optional)
 
-  4. Label text in populated field
+4.  Label text in populated field
 
-  5. Trailing icon (optional)
+5.  Trailing icon (optional)
 
-  6. Focused container outline
+6.  Focused container outline
 
-  7. Caret
+7.  Caret
 
-  8. Input text
+8.  Input text
 
-  9. Supporting text (optional)
+9.  Supporting text (optional)
 
 ### Containers
 
 Containers improve the discoverability of text fields by creating contrast between the text field and surrounding content.
 
 **Fill and stroke**
-A text field container has a fill and a stroke either around the entire container, or just the bottom edge. The color and thickness of a stroke can change to indicate when the text field is active.
+A text field container has a fill and a stroke either around the entire container, or just the bottom edge. The color and thickness of a stroke can change to indicate when the text field is active. 
 
 **Rounded corners**
 The container of an outlined text field has rounded corners, while the container of a filled text field has rounded top corners and square bottom corners.
@@ -175,7 +168,7 @@ Label text shouldn’t take up multiple lines
 
 ### Adjacent label
 
-A text field doesn't require a label if the field's purpose is indicated by a separate, adjacent label.
+A text field doesn't require a label if the field's purpose is indicated by a separate, adjacent label. 
 
 Adjacent labels should be aligned to the leading edge of the text field container.
 
@@ -185,17 +178,17 @@ Text fields with adjacent labels
 
 ### Required text indicator
 
-To show a field is required, display an asterisk (*) next to the label text, and explain that asterisks indicate required fields in one of two ways:
+To show a field is required, display an asterisk (\*) next to the label text, and explain that asterisks indicate required fields in one of two ways:
 
-  * Supporting text
+-   Supporting text
 
-  * A single note at the beginning of the form
+-   A single note at the beginning of the form
 
 Additional best practices include:
 
-  * Indicate all required fields
+-   Indicate all required fields
 
-  * If required text has a particular color, use the same color for the asterisk
+-   If required text has a particular color, use the same color for the asterisk
 
 ![Mobile UI of a contact form showing supporting text below the text field, indicating an input is required. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx322ilp-16.png?alt=media&token=43feb129-a6b6-4277-b1a8-044d68325b3d)
 
@@ -207,9 +200,9 @@ Input text is text a person has entered into a text field.
 
 Text fields can display input text in the following ways:
 
-  * **Single line** text fields display only one line of text
-  * **Multi-line** text fields grow to accommodate multiple lines of text
-  * **Text areas** are fixed-height fields
+-   **Single line** text fields display only one line of text
+-   **Multi-line** text fields grow to accommodate multiple lines of text
+-   **Text areas** are fixed-height fields
 
 ![Text field with populated input text. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx322ww5-17.png?alt=media&token=fa62d7da-ffa4-49f8-bb0f-fa7273b6c4d2)
 
@@ -249,15 +242,15 @@ If there is a character or word limit, include a character or word counter. They
 
 ![A side by side view of a text field with supporting text aligned with the trailing side, and a character counter aligned with the trailing side. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx324ofo-24.png?alt=media&token=309a0667-ded2-42a9-bd93-3b83d086f88f)
 
-  1. Supporting text
-  2. Character counter
+1.  Supporting text
+2.  Character counter
 
 ### Error text
 
 For text fields that validate their content such as passwords, replace supporting text with error text. Swapping supporting text with error text prevents new lines of text from bumping content and changing the layout.
 
-  * If only one error is possible, error text should describe how to avoid the error
-  * If multiple errors are possible, error text should describe how to avoid the most likely error
+-   If only one error is possible, error text should describe how to avoid the error
+-   If multiple errors are possible, error text should describe how to avoid the most likely error
 
 check Do
 
@@ -275,7 +268,7 @@ Long errors can wrap to multiple lines if there isn't enough space to clearly de
 
 ### Error icon
 
-It’s strongly recommended to show an error icon when the text field is in the error state.
+It’s strongly recommended to show an error icon when the text field is in the error state. 
 
 This highlights the error for people with visual impairments, and provides an additional sensory indicator.
 
@@ -285,41 +278,40 @@ The error icon is an important second visual indicator that a text field has an 
 
 ### Icons & images
 
-Icons in text fields are optional. Text field icons can:
+Icons in text fields are optional. Text field icons can: 
 
-  * Describe valid  input Inputs are devices that provide interactive control of an app. Common inputs are a mouse, keyboard, and touchpad.  methods such as a microphone icon
-  * Provide affordances to access additional functionality such as clearing the content of a field
-  * Express an error
+-   Describe valid input Inputs are devices that provide interactive control of an app. Common inputs are a mouse, keyboard, and touchpad. methods such as a microphone icon
+-   Provide affordances to access additional functionality such as clearing the content of a field
+-   Express an error
 
 Leading and trailing icons change their position based on LTR or RTL contexts.
 
 Images that are 24dp in height can be placed inside of text fields. This image height allows for optimal top and bottom padding within the field and is consistent with icon size recommendations.
 
-  1. **Icon signifier
-**Icon signifiers can describe the type of input a text field requires, and be touch targets for nested components. For example, a calendar icon may be tapped to reveal a  date picker Date pickers let people select a date, or a range of dates.  [More on date pickers](</m3/pages/date-pickers/overview>) .
-  2. **Valid or error icon
-** Iconography can indicate both valid and invalid inputs, making error states clear for colorblind users.
-  3. **Clear icon
-** Clear icons let a person clear an entire input field. They appear only when input text is present.
-  4. **Voice input icon
-** A microphone icon signifies that people can input characters using voice.
-  5. **Dropdown icon
-** A dropdown arrow indicates that a text field has a nested  selection Selection lets users choose specific items to act on.  [More on selection](</m3/pages/selection>) component.
-  6. **Image
-** An image can help contextualize the required input text such as a credit card number.
+1.  **Icon signifier** Icon signifiers can describe the type of input a text field requires, and be touch targets for nested components. For example, a calendar icon may be tapped to reveal a date picker Date pickers let people select a date, or a range of dates. [More on date pickers](/m3/pages/date-pickers/overview) .
+2.  **Valid or error icon
+    **Iconography can indicate both valid and invalid inputs, making error states clear for colorblind users. 
+3.  **Clear icon
+    **Clear icons let a person clear an entire input field. They appear only when input text is present.
+4.  **Voice input icon
+    **A microphone icon signifies that people can input characters using voice. 
+5.  **Dropdown icon
+    **A dropdown arrow indicates that a text field has a nested selection Selection lets users choose specific items to act on. [More on selection](/m3/pages/selection) component.
+6.  **Image
+    **An image can help contextualize the required input text such as a credit card number.
 
 ![Side by side view of text fields with different icons and images as trailing elements within the container. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx3270td-28.png?alt=media&token=10a8c64f-9569-41f4-b334-66537b8c7930)
 
-  1. Icon signifier
-  2. Valid or error icon
-  3. Clear icon
-  4. Voice input icon
-  5. Dropdown icon
-  6. Image
+1.  Icon signifier
+2.  Valid or error icon 
+3.  Clear icon 
+4.  Voice input icon
+5.  Dropdown icon
+6.  Image
 
 ### Read-only fields
 
-Read-only text fields display pre-filled text that people cannot edit.
+Read-only text fields display pre-filled text that people cannot edit. 
 
 A read-only text field is styled the same as a regular text field and is clearly labeled as read-only.
 
@@ -333,13 +325,13 @@ An outlined read-only text field
 
 ## Adaptive design
 
-As layouts adapt to larger screens and different  window size classes Window size classes are opinionated breakpoints where layouts need to change to optimize for available space, device conventions, and ergonomics.  [More on window size classes](</m3/pages/applying-layout/window-size-classes>) , apply flexible container dimensions to text fields. Set minimum and maximum values for  margins Margins are the spaces between the edge of a nested element and its parent element, such as the space between a button's label text and the edge of its container.  [More on margins](</m3/pages/understanding-layout/spacing#38a538d7-991f-4c39-8449-195d32caf397>) , padding, and container dimensions as layouts scale so that typography adjusts for better reading experiences.
+As layouts adapt to larger screens and different breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) , apply flexible container dimensions to text fields. Set minimum and maximum values for margins Margins are the spaces between the edge of a nested element and its parent element, such as the space between a button's label text and the edge of its container. [More on margins](/m3/pages/understanding-layout/spacing#38a538d7-991f-4c39-8449-195d32caf397) , padding, and container dimensions as layouts scale so that typography adjusts for better reading experiences.
 
 ![UI for creating a new album in a side by side view on mobile and tablet. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32c2h0-Full%20to%20max%20-%201P.png?alt=media&token=9b9c076b-53e3-4068-ae53-c050d0dbb37d)
 
-For compact window sizes, text fields can span the full width of the display. For medium and expanded window sizes, text fields should be bound by flexible margins or other containers.
+For compact breakpoints, text fields can span the full width of the display. For medium and expanded breakpoints, text fields should be bound by flexible margins or other containers.
 
-As text fields expand in fluid layouts, avoid maintaining fixed margins and typography properties. This can lead to extra long text fields.
+As text fields expand in fluid layouts, avoid maintaining fixed margins and typography properties. This can lead to extra long text fields. 
 
 For example, text fields should not span the full width of a large screen.
 

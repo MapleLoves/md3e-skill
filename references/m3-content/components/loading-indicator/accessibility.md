@@ -1,26 +1,18 @@
-# Loading indicator
-
-> 来源: https://m3.material.io/components/loading-indicator/accessibility
-
+---
+source: https://m3.material.io/components/loading-indicator/accessibility
+title: "Loading indicator"
+captured: 2026-09-14
 ---
 
 # Loading indicator
-
-Loading indicators show the progress of a process for a short wait time
-
-## Loading indicator
-
-  * Use cases
-  * Interaction & style
-  * Labeling elements
 
 ## Use cases
 
 People should be able to do the following with assistive technology:
 
-  * Navigate to the loading indicator
-  * Understand what progress the indicator is communicating
-  * Initiate a content refresh without relying on a gesture
+-   Navigate to the loading indicator
+-   Understand what progress the indicator is communicating
+-   Initiate a content refresh without relying on a gesture
 
 ## Interaction & style
 

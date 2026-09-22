@@ -1,26 +1,18 @@
-# Grids & Spacing – Material Design 3
-
-> 来源: https://m3.material.io/foundations/layout/grids-spacing/spacing
-
+---
+source: https://m3.material.io/foundations/layout/grids-spacing/spacing
+title: "Grids & spacing"
+captured: 2026-09-14
 ---
 
 # Grids & spacing
 
-Grids and spacing organize content and actions for any layout
+> Grids and spacing organize content and actions for any layout
 
-[Overview](<foundations/layout/grids-spacing/overview>)[Grids](<foundations/layout/grids-spacing/grids>)[Spacing](<foundations/layout/grids-spacing/spacing>)[Density](<foundations/layout/grids-spacing/density>)
+-   Spacing helps group content, direct attention, and shape the personality of a product
 
-## Grids & spacing
+-   A denser layout can feel more serious and focused, while a more spacious layout can feel calm and open
 
-  * Spacing to group content
-  * Spacing to direct attention
-  * Spacing as expression
-
-  * Spacing helps group content, direct attention, and shape the personality of a product
-
-  * A denser layout can feel more serious and focused, while a more spacious layout can feel calm and open
-
-  * Material’s spacing system can adapt to  breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes).  [More on breakpoints](</m3/pages/breakpoints>) and density settings. [More on the spacing system](</m3/pages/spacing/overview>)
+-   Material’s spacing system can adapt to breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) and density settings. [More on the spacing system](/m3/pages/spacing/overview)
 
 ![2 screens: 1 mobile with tight spacing, 1 desktop with wider spacing.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp51ef8p-01.png?alt=media&token=b9e641e7-464d-42c8-b459-a55c08a1e61c)
 
@@ -38,15 +30,15 @@ Placing a caption under an image creates an implicit group
 
 It can also indicate that an item is interactive, such as:
 
-  * List items between dividers
+-   List items between dividers
 
-  * A card displaying an image and its caption
+-   A card displaying an image and its caption
 
 ![A contact grouped in an outlined card with a photo and caption.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5334mv-03.png?alt=media&token=d9bd66c9-9edb-4d91-8cad-904d673eadd2)
 
 Outlines define clear boundaries to explicitly group elements
 
-**Implicit grouping**  uses close proximity and open space (rather than lines and shadows) to group related items.
+**Implicit grouping** uses close proximity and open space (rather than lines and shadows) to group related items.
 
 For example, the items in a carousel are placed close together, with space around the composition to separate them from other content.
 

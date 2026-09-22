@@ -1,14 +1,12 @@
-# Style guide – Material Design 3
-
-> 来源: https://m3.material.io/foundations/content-design/style-guide/ux-writing-best-practices
-
+---
+source: https://m3.material.io/foundations/content-design/style-guide/ux-writing-best-practices
+title: "Style guide"
+captured: 2026-09-14
 ---
 
 # Style guide
 
-UI text should be understandable by anyone, anywhere
-
-[UX writing best practices](<foundations/content-design/style-guide/ux-writing-best-practices>)[Word choice](<foundations/content-design/style-guide/word-choice>)[Grammar and punctuation](<foundations/content-design/style-guide/grammar-and-punctuation>)
+> UI text should be understandable by anyone, anywhere
 
 ### Explain consequences
 

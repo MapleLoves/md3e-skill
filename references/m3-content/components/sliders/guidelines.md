@@ -1,27 +1,19 @@
-# Sliders – Material Design 3
-
-> 来源: https://m3.material.io/components/sliders/guidelines
-
+---
+source: https://m3.material.io/components/sliders/guidelines
+title: "Sliders"
+captured: 2026-09-14
 ---
 
 # Sliders
 
-Sliders allow users to make selections from a range of values
-
-## Sliders
-
-  * Usage
-  * Anatomy
-  * Configurations
-  * Behaviors
+> Sliders allow users to make selections from a range of values
 
 Sliders can adjust values in real time, such as image attributes
 
 ## Usage
 
 Sliders are used to select values along a track. They’re ideal for adjusting settings such as volume and brightness, or changing the intensity of image filters.
-
-Sliders can use icons or labels to represent a numeric or relative scale.
+Sliders can use icons or labels to represent a numeric or relative scale. 
 
 ![Sound settings screen with continuous sliders labeled call volume and alarm volume.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmabg8tbj-02.png?alt=media&token=ada3febd-596c-46d4-ae20-0aa3b4228c1e)
 
@@ -31,7 +23,7 @@ Changes made with sliders must take effect immediately, so people can understand
 
 Selection changes are immediate
 
-There are three different variants of sliders: **standard** , **centered** , and **range:**
+There are three different variants of sliders: **standard**, **centered**, and **range:**
 
 Standard sliders select one value from a range of values. Use this when the slider should start from zero or the beginning of a sequence.
 
@@ -73,19 +65,19 @@ Because of the additional cognitive load of a range slider, avoid using it in ve
 
 ![6 elements of a slider.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7m553sk-04-1.png?alt=media&token=03f97ae2-c5e8-41b8-8416-ba8201534a1b)
 
-  1. Value indicator (optional)
-  2. Stop indicators (optional)
-  3. Active track
-  4. Handle
-  5. Inactive track
-  6. Inset icon (optional)
+1.  Value indicator (optional)
+2.  Stop indicators (optional)
+3.  Active track
+4.  Handle
+5.  Inactive track
+6.  Inset icon (optional)
 
 ### Track
 
 The track shows the full range of values that can be selected on the slider. It has two sections: active and inactive.
 
-  * The **active  **section of the track is from the minimum value to the handle. For range sliders, the active track is between the two handles.
-  * The **inactive** section of the track is from the handle to the maximum value, or outside the two handles of a range slider.
+-   The **active** section of the track is from the minimum value to the handle. For range sliders, the active track is between the two handles.
+-   The **inactive** section of the track is from the handle to the maximum value, or outside the two handles of a range slider.
 
 For left-to-right (LTR) languages, the values increase from left to right. For right-to-left (RTL) languages, this is reversed.
 
@@ -113,7 +105,7 @@ Two handles are used for sliders with range selection
 
 ### Value
 
-The value displays the specific value that corresponds with the handle’s placement.
+The value displays the specific value that corresponds with the handle’s placement. 
 
 A value appears when interacting with the corresponding handle. For range sliders, only one value should be shown at a time.
 
@@ -135,7 +127,7 @@ Use **Tab** to navigate to values that are shown outside the slider, like a text
 
 ### Stop indicators
 
-Stop indicators show which predetermined values can be chosen on the slider. The slider handle snaps to the closest stop.
+Stop indicators show which predetermined values can be chosen on the slider. The slider handle snaps to the closest stop. 
 
 Avoid having too many stop indicators on a slider, because it can become visually crowded and difficult to adjust the value.
 
@@ -207,11 +199,11 @@ The active and inactive tracks should always be the same size.
 
 ![5 sizes of sliders.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lkolpk-24.png?alt=media&token=f87a9fd7-2914-4706-bcce-9edf4814fbc1)
 
-  1. XS: 16dp
-  2. S: 24dp
-  3. M: 40dp
-  4. L: 56dp
-  5. XL: 96dp
+1.  XS: 16dp
+2.  S: 24dp
+3.  M: 40dp
+4.  L: 56dp
+5.  XL: 96dp
 
 XL sliders should be reserved for hero moments, where the slider itself is the most important element on the page.
 
@@ -225,15 +217,15 @@ XL sliders should be the focus of the page
 
 Select a value by dragging the handle.
 
-**Standard slider** : The handle drags smoothly
+**Standard slider**: The handle drags smoothly
 
 **Slider with stop indicators:** The handle snaps to the closest stop indicator while dragged
 
 ### Select jump
 
-Select a value by selecting part of the track.
+Select a value by selecting part of the track. 
 
-**Standard****  slider**: The handle moves to the selected location
+**Standard** **slider**: The handle moves to the selected location
 
 **Slider with stop indicators:** The handle moves to the closest stop indicator
 
@@ -241,12 +233,12 @@ Select a value by selecting part of the track.
 
 Select a value using the keyboard.
 
-**Tab:** Focus lands on handle
+**Tab:** Focus lands on handle 
 
-**Arrows:  **Selected value increases or decreases by one value or stop indicator
+**Arrows:** Selected value increases or decreases by one value or stop indicator
 
 **Space & arrows:** Selected value increases or decreases by a larger interval or stop indicator
 
-**Standard****  slider**: The handle moves one value
+**Standard** **slider**: The handle moves one value
 
-**Slider with stop indicators:  **The handle moves to the next stop indicator
+**Slider with stop indicators:** The handle moves to the next stop indicator

@@ -1,31 +1,22 @@
-# Watches – Material Design 3
-
-> 来源: https://m3.material.io/foundations/watches/foundations
-
+---
+source: https://m3.material.io/foundations/watches/foundations
+title: "Design for watches"
+captured: 2026-09-14
 ---
 
 # Design for watches
 
-Watches have special design considerations and interaction patterns
-
-[Overview](<foundations/watches/overview>)[Foundations](<foundations/watches/foundations>)[Styles](<foundations/watches/styles>)[Layout](<foundations/watches/layout>)
-
-## Design for watches
-
-  * Resources
-  * Anatomy
-  * Design principles
-  * Interaction patterns
+> Watches have special design considerations and interaction patterns
 
 ## Resources
 
-Type| Resource
----|---
-Design| [Get Started with M3 Expressive](<https://m3.material.io/get-started>)
-[UI Design for Wear OS](<https://developer.android.com/design/ui/wear/guides/get-started/design-for-wearables>)
-[Figma Design Kits for Wear OS](<https://developer.android.com/design/ui/wear/guides/get-started/design-kits>)
-Implementation| [Android Developers: Wear OS](<https://developer.android.com/training/wearables>)
-[Jetpack Compose for Wear OS](<https://developer.android.com/training/wearables/compose?version=3>)
+| Type | Resource |
+| --- | --- |
+| Design | [Get Started with M3 Expressive](https://m3.material.io/get-started) |
+| [UI Design for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/design-for-wearables) |
+| [Figma Design Kits for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/design-kits) |
+| Implementation | [Android Developers: Wear OS](https://developer.android.com/training/wearables) |
+| [Jetpack Compose for Wear OS](https://developer.android.com/training/wearables/compose?version=3) |
 
 ## Anatomy
 
@@ -43,7 +34,7 @@ Ongoing activities on the watch face show in-progress actions, like a stopwatch 
 
 ![A watch face with an entry point for an ongoing exercise activity.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4b9kvw-02.png?alt=media&token=f502f8d2-51ec-475a-a1ce-d5b8e9dde49b)
 
-**1\. Ongoing activities** , like timers, media players, or workouts, can be accessed from the watch face
+**1\. Ongoing activities**, like timers, media players, or workouts, can be accessed from the watch face
 
 ### Physical buttons
 
@@ -51,21 +42,21 @@ Wearable devices can have a variety input surfaces, which include physical butto
 
 ![3 watch faces with indications showing the locations of a rotating side button, system button, and multifuction button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4bb056-04.png?alt=media&token=c5f5729d-7062-4ad6-bb30-6623034e4d67)
 
-  1. Rotating side buttons: Used for volume control, or to scroll through options or lists
+1.  Rotating side buttons: Used for volume control, or to scroll through options or lists
 
-  2. System buttons: Dedicated to OS functions like powering on and off, and cannot be customized
+2.  System buttons: Dedicated to OS functions like powering on and off, and cannot be customized
 
-  3. Multifunction buttons: Used by apps for custom actions like starting and stopping a stopwatch
+3.  Multifunction buttons: Used by apps for custom actions like starting and stopping a stopwatch
 
 ## Design principles
 
-  * Tailor layouts for different screen sizes with [adaptive design](<https://developer.android.com/design/ui/wear/guides/foundations/adaptive-design>)
+-   Tailor layouts for different screen sizes with [adaptive design](https://developer.android.com/design/ui/wear/guides/foundations/adaptive-design)
 
-  * Design for short interactions to conserve battery
+-   Design for short interactions to conserve battery
 
-  * Focus on one or two tasks at a time rather than a full app experience
+-   Focus on one or two tasks at a time rather than a full app experience
 
-  * Test designs in situations that involve movement to make sure the design is usable at a glance
+-   Test designs in situations that involve movement to make sure the design is usable at a glance
 
 ![Calendar screen with date, time of dentist appointment, and more button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4bcxbd-05-do.png?alt=media&token=62f68437-1882-4aa9-8d93-83782f72253f)
 
@@ -95,9 +86,9 @@ Design for slow connections and offline use, such as exercising and commuting.
 
 The network state can be communicated through:
 
-  1. An offline icon
+1.  An offline icon
 
-  2. A dialog
+2.  A dialog
 
 ## Interaction patterns
 
@@ -107,7 +98,7 @@ Watches are often dependent on connected phones for functionality or complex int
 
 Consider how experiences can be consistent and complement the strengths of each device.
 
-[More on multidevice development for Android](<https://developer.android.com/multi-device-development>)
+[More on multidevice development for Android](https://developer.android.com/multi-device-development)
 
 ![A contact entry shown on a phone and a watch, with options to call or message.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4bg988-09-do.png?alt=media&token=555a5877-f868-49c2-b980-5236f0d8d605)
 
@@ -121,7 +112,7 @@ Watches can have always on displays, which allow ambient content to be shown whe
 
 This are especially helpful for ongoing experiences like a timer or a workout that should remain in view. Because they remain on the screen for long time periods, consider limiting the number of pixels that are illuminated.
 
-[More on always-on apps and system ambient mode in Wear OS](<https://developer.android.com/training/wearables/always-on>)
+[More on always-on apps and system ambient mode in Wear OS](https://developer.android.com/training/wearables/always-on)
 
 ![A watch face showing progress through a task and the current time.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4bgxlg-10.png?alt=media&token=e086af86-527b-474e-b1c1-602529e31f38)
 

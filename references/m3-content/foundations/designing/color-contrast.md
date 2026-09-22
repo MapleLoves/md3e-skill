@@ -1,18 +1,12 @@
-# Accessibility designing – Material Design 3
-
-> 来源: https://m3.material.io/foundations/designing/color-contrast
-
+---
+source: https://m3.material.io/foundations/designing/color-contrast
+title: "Designing"
+captured: 2026-09-14
 ---
 
 # Designing
 
-Implement intuitive, accessible layouts, considering structure, color, and flow
-
-[Overview](<foundations/designing/overview>)[Color contrast](<foundations/designing/color-contrast>)[Structure](<foundations/designing/structure>)[Flow](<foundations/designing/flow>)[Elements](<foundations/designing/elements>)
-
-## Designing
-
-  * Color & contrast
+> Implement intuitive, accessible layouts, considering structure, color, and flow
 
 ## Color & contrast
 
@@ -30,12 +24,10 @@ Contrast ratios represent how different one color is from another color, commonl
 
 **The W3C recommends the following contrasts for body text and image text**
 
-Text type| Color contrast ratio
----|---
-Large text (at 14 pt bold/18 pt regular and up) and graphics
-| At least 3:1 against the background
-Small text
-| At least 4.5:1 against the background
+| Text type | Color contrast ratio |
+| --- | --- |
+| Large text (at 14 pt bold/18 pt regular and up) and graphics | At least 3:1 against the background |
+| Small text | At least 4.5:1 against the background |
 
 Disabled states do not need to meet contrast requirements.
 
@@ -43,9 +35,9 @@ Disabled states do not need to meet contrast requirements.
 
 Some non-text elements, such as button containers, should meet a contrast ratio of 3:1 between their container color and the color of their background. Consider the following patterns for combining elements and tones, which are grounded in Material's research into contrast and functional changes when elements are combined.
 
-[Learn more about color contrast for accessibility](</m3/pages/color/how-the-system-works#e1e92a3b-8702-46b6-8132-58321aa600bd>)
+[Learn more about color contrast for accessibility](/m3/pages/color/how-the-system-works#e1e92a3b-8702-46b6-8132-58321aa600bd)
 
-Elements that are clustered with others, such as a group of buttons, require the user to distinguish each one from the group.
+Elements that are clustered with others, such as a group of buttons, require the user to distinguish each one from the group. 
 
 These elements benefit from 3:1 contrast between themselves and the background.
 

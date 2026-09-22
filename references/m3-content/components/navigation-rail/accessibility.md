@@ -1,35 +1,28 @@
-# Navigation rail – Material Design 3
-
-> 来源: https://m3.material.io/components/navigation-rail/accessibility
-
+---
+source: https://m3.material.io/components/navigation-rail/accessibility
+title: "Navigation rail"
+captured: 2026-09-14
 ---
 
 # Navigation rail
 
-Navigation rails let people switch between UI views on mid-sized devices
-
-## Navigation rail
-
-  * Use cases
-  * Interaction & style
-  * Keyboard navigation
-  * Labeling elements
+> Navigation rails let people switch between UI views on mid-sized devices
 
 ## Use cases
 
 People should be able to do the following using the assistive technology:
 
-  * Navigate between navigation destinations
-  * Select a particular navigation destination from a set
-  * Get appropriate feedback based on input type
+-   Navigate between navigation destinations
+-   Select a particular navigation destination from a set
+-   Get appropriate feedback based on input type
 
 ## Interaction & style
 
 When a navigation item is tapped, the active indicator appears, providing the following feedback to the user that it is selected:
 
-  * A ripple passes through the indicator
-  * The icon switches from outlined to filled
-  * The icon and text change color
+-   A ripple passes through the indicator
+-   The icon switches from outlined to filled
+-   The icon and text change color
 
 When hovered, the hover state appears, providing a visual cue that the destination is interactive.
 
@@ -73,7 +66,7 @@ An icon with no filled option should use the semibold weight when active
 
 When someone sets their device to show a larger text size, the navigation rail items should grow vertically to accommodate larger labels while retaining the default padding. It’s okay for scaled text to wrap in navigation items.
 
-To remain accessible, ensure the full label is always visible on-screen at up to 2x text sizing. Beyond this size, text can truncate.
+To remain accessible, ensure the full label is always visible on-screen at up to 2x text sizing. Beyond this size, text can truncate. 
 
 ![Nav rail with text scaled to 1.5x size. All labels are on one line.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm36brxfu-04.png?alt=media&token=a23060fe-42ba-4e21-8eec-36fe12115a0d)
 
@@ -115,11 +108,10 @@ Avoid using the same unfilled icon style for both selected and unselected items 
 
 ## Keyboard navigation
 
-Keys| Actions
----|---
-Tab / Arrows| Navigate between interactive elements
-Space / Enter
-| Selects an interactive element
+| Keys | Actions |
+| --- | --- |
+| Tab / Arrows | Navigate between interactive elements |
+| Space / Enter | Selects an interactive element |
 
 ## Labeling elements
 
@@ -131,4 +123,4 @@ Note: On Android Views (MDC-Android), a more descriptive accessibility label is 
 
 ![“Maps” is both the icon label text and the accessibility label.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuvxlx-11.png?alt=media&token=ec0c7c6d-3c55-4515-81d8-6c0a220e1f92)
 
-While the visible label text reads **Recent** , the accessibility label for this switch clarifies its function: **Recent images**
+While the visible label text reads **Recent**, the accessibility label for this switch clarifies its function: **Recent images**

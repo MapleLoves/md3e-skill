@@ -1,33 +1,26 @@
-# Icon buttons – Material Design 3
-
-> 来源: https://m3.material.io/components/icon-buttons/guidelines
-
+---
+source: https://m3.material.io/components/icon-buttons/guidelines
+title: "Icon buttons"
+captured: 2026-09-14
 ---
 
 # Icon buttons
 
-Icon buttons help people take actions with a single tap
-
-## Icon buttons
-
-  * Usage
-  * Anatomy
-  * Placement
-  * Behavior
+> Icon buttons help people take actions with a single tap
 
 Icon buttons can be a wide variety of sizes, shapes, and colors. When placed in a button group, adjacent icon buttons respond to one another when pressed.
 
 ## Usage
 
-Use icon buttons to display common actions. There are two variants: **default** and **toggle**.
+Use icon buttons to display common actions. There are two variants: **default** and **toggle**. 
 
-  * Default icon buttons can open other elements, such as a  menu Menus display a list of choices on a temporary surface.  [More on menus](</m3/pages/menus/overview>) or  search Search lets people enter a keyword or phrase to get relevant information.  [More on search](</m3/pages/search/overview>) .
+-   Default icon buttons can open other elements, such as a menu Menus display a list of choices on a temporary surface. [More on menus](/m3/pages/menus/overview) or search Search lets people enter a keyword or phrase to get relevant information. [More on search](/m3/pages/search/overview) .
 
-  * Toggle icon buttons can represent binary actions that can be toggled on and off, such as **favorite** or **bookmark**.
+-   Toggle icon buttons can represent binary actions that can be toggled on and off, such as **favorite** or **bookmark**.
 
-Icon buttons can be placed directly on the background or in most container components, such as  cards Cards display content and actions about a single subject.  [More on cards](</m3/pages/cards/overview>) ,  app bars App bars contain page navigation and information at the top of a screen  [More on app bars](</m3/pages/app-bars/overview>) , and  toolbars Toolbars display frequently used actions relevant to the current page.  [More on toolbars](</m3/pages/toolbars/overview>) .
+Icon buttons can be placed directly on the background or in most container components, such as cards Cards display content and actions about a single subject. [More on cards](/m3/pages/cards/overview) , app bars App bars contain page navigation and information at the top of a screen [More on app bars](/m3/pages/app-bars/overview) , and toolbars Toolbars display frequently used actions relevant to the current page. [More on toolbars](/m3/pages/toolbars/overview) .
 
-Multiple icon buttons can be placed in a  standard button group Standard button groups add interactions between adjacent buttons when they're pressed.  to add interaction and motion between the buttons when pressed. [More about standard button groups](</m3/pages/button-groups/overview>)
+Multiple icon buttons can be placed in a standard button group Standard button groups add interactions between adjacent buttons when they're pressed. to add interaction and motion between the buttons when pressed. [More about standard button groups](/m3/pages/button-groups/overview)
 
 ![Icon buttons in a toolbar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0dz7i-2.png?alt=media&token=5a110185-4604-4ade-839b-64d97ec3e9f7)
 
@@ -37,10 +30,10 @@ Icon buttons can be used within other components, such as in a toolbar or card
 
 There are four icon button color styles, in order of emphasis:
 
-  1. Filled
-  2. Tonal
-  3. Outlined
-  4. Standard
+1.  Filled
+2.  Tonal
+3.  Outlined
+4.  Standard
 
 For the highest emphasis, use the filled style. For the lowest emphasis, use standard.
 
@@ -90,17 +83,17 @@ Outlined buttons indicate that more content is available without grabbing attent
 
 Icon buttons are available in five different sizes:
 
-  * Extra small - 32dp
-  * Small - 40dp (default)
-  * Medium - 56dp
-  * Large - 96dp
-  * Extra large - 136dp
+-   Extra small - 32dp
+-   Small - 40dp (default)
+-   Medium - 56dp
+-   Large - 96dp
+-   Extra large - 136dp
 
 And three widths:
 
-  * Default
-  * Narrow
-  * Wide
+-   Default
+-   Narrow
+-   Wide
 
 Use size and width to provide emphasis and visual hierarchy in a page with multiple buttons. The main action should be the most visually prominent, whether through color or size, like starting and stopping a timer or playing and pausing a song.
 
@@ -108,7 +101,7 @@ Use size and width to provide emphasis and visual hierarchy in a page with multi
 
 Use different button colors and sizes to provide visual hierarchy and emphasize primary actions
 
-Not all icon buttons will need to emphasize a primary and secondary action.
+Not all icon buttons will need to emphasize a primary and secondary action. 
 
 When buttons have a similar importance, they should be the same size.
 
@@ -120,17 +113,17 @@ When everything should have the same emphasis, use icon buttons that are the sam
 
 ![Diagram of anatomy of outlined, standard, and filled icon buttons. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dw9g2n-11.png?alt=media&token=4b25bd9e-b8bd-41dd-bf61-840592be5a93)
 
-  1. Icon
+1.  Icon
 
-  2. Container
+2.  Container
 
 ### Icon
 
-Icons visually communicate the button’s action. Their meaning should be clear and unambiguous. [Browse popular icons](<https://fonts.google.com/icons>)
+Icons visually communicate the button’s action. Their meaning should be clear and unambiguous. [Browse popular icons](https://fonts.google.com/icons)
 
 Default icon buttons should use filled icons.
 
-Toggle buttons should use an outlined icon when unselected, and a filled version of the icon when selected.
+Toggle buttons should use an outlined icon when unselected, and a filled version of the icon when selected. 
 
 ![“Heart” icon in a restaurant app.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0tpl2-12.png?alt=media&token=b1823b3b-520b-4c87-856e-d1f2d28225a5)
 
@@ -148,7 +141,7 @@ Icons without a fill should be semibolded when selected
 
 ### Container
 
-The container provides increased contrast and hierarchy in places that need more visual separation from the background or other elements.
+The container provides increased contrast and hierarchy in places that need more visual separation from the background or other elements. 
 
 ![Container separating a video call preview with actions you can take.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0wdzg-13.png?alt=media&token=d8ee5c0a-ec56-4503-92b7-e149822a522b)
 
@@ -156,9 +149,9 @@ The container provides visual separation from the background image
 
 ## Placement
 
-Icon buttons are commonly used in other components, such as  app bars App bars contain page navigation and information at the top of a screen  [More on app bars](</m3/pages/app-bars/overview>) and  cards Cards display content and actions about a single subject.  [More on cards](</m3/pages/cards/overview>) .
+Icon buttons are commonly used in other components, such as app bars App bars contain page navigation and information at the top of a screen [More on app bars](/m3/pages/app-bars/overview) and cards Cards display content and actions about a single subject. [More on cards](/m3/pages/cards/overview) . 
 
-These buttons should be used for common, easily understandable actions.
+These buttons should be used for common, easily understandable actions. 
 
 Only use a few icon buttons at once.
 
@@ -166,7 +159,7 @@ Only use a few icon buttons at once.
 
 App bars often contain icon buttons
 
-In dense layouts, group popular actions by placing many icon buttons next to each other in components like a  toolbar Toolbars display frequently used actions relevant to the current page.  [More on toolbars](</m3/pages/toolbars/overview>) or  button group Button groups organize buttons and add interactions between them.  [More on button groups](</m3/pages/button-groups/overview>) .
+In dense layouts, group popular actions by placing many icon buttons next to each other in components like a toolbar Toolbars display frequently used actions relevant to the current page. [More on toolbars](/m3/pages/toolbars/overview) or button group Button groups organize buttons and add interactions between them. [More on button groups](/m3/pages/button-groups/overview) . 
 
 These components draw attention or add interaction between buttons.
 
@@ -184,11 +177,11 @@ The tooltip label text should be clear and concise
 
 ### Selection
 
-Toggle icon buttons allow a single choice to be selected or deselected, such as adding or removing something from favorites.
+Toggle icon buttons allow a single choice to be selected or deselected, such as adding or removing something from favorites. 
 
-When placed in a  button group Button groups organize buttons and add interactions between them  [More on button groups](</m3/pages/button-groups/overview>) , icon buttons change shape to help the selected button stand out.
+When placed in a button group Button groups organize buttons and add interactions between them [More on button groups](/m3/pages/button-groups/overview) , icon buttons change shape to help the selected button stand out.
 
-[More on button groups](</m3/pages/button-groups/overview>)
+[More on button groups](/m3/pages/button-groups/overview)
 
 check Do
 

@@ -1,19 +1,19 @@
-# Content design - Material Design 3 - Notifications
-
-> 来源: https://m3.material.io/foundations/content-design/notifications
-
+---
+source: https://m3.material.io/foundations/content-design/notifications
+title: "Notifications"
+captured: 2026-09-14
 ---
 
 # Notifications
 
-Notifications help people see information they need or want at the right time
+> Notifications help people see information they need or want at the right time
 
 Notifications should:
 
-  * Be about the user, not the product
-  * Be precise, timely, actionable, contextual, and relevant
-  * Give users easy controls to opt out
-  * Not be used to send unsolicited ads
+-   Be about the user, not the product
+-   Be precise, timely, actionable, contextual, and relevant
+-   Give users easy controls to opt out
+-   Not be used to send unsolicited ads
 
 ![](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw53k6lt-1.png?alt=media&token=f0fb34d7-3f8a-4111-8b7f-89033fb27a28)
 
@@ -35,7 +35,7 @@ Don't waste characters on app names, niceties, or unimportant information
 
 ### Tell users what they can do
 
-If you’re prompting someone to take action, make that clear. CTAs should be concise, specific, and actionable. If you know what motivates people to take action, add it.
+If you’re prompting someone to take action, make that clear. CTAs should be concise, specific, and actionable. If you know what motivates people to take action, add it. 
 
 ![Two notifications from Google maps that include actionable information in the header.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw53kq5j-4.png?alt=media&token=6137b006-1c0b-4cf2-94fc-128d12daa42f)
 
@@ -69,7 +69,7 @@ Don’t be so generic as to lose value
 
 Dynamic text are words that are implemented by engineering to change based on the user or context, like adding a user’s campaign name to headline or “good afternoon” when users log in at certain times.
 
-Try not to use dynamic text in notifications. It often breaks character limits, especially in headlines when translated. Text that gets truncated in the headline will not expand, even in expandable notifications. If you must use dynamic text in the headline, try to pair it with no more than one additional word. Create a backup notification that fits the character count when your primary notification won’t.
+Try not to use dynamic text in notifications. It often breaks character limits, especially in headlines when translated. Text that gets truncated in the headline will not expand, even in expandable notifications. If you must use dynamic text in the headline, try to pair it with no more than one additional word. Create a backup notification that fits the character count when your primary notification won’t. 
 
 ![Two notifications, one with dynamic text in the body, and the other with dynamic text in the header that’s formatted to always be short.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw53lep9-8.png?alt=media&token=74837af0-9c5a-4440-ae6a-1b31f806484a)
 
@@ -87,10 +87,10 @@ Don’t place dynamic text in a long notification title
 
 Stay within these suggested character counts so text doesn’t get cut off:
 
-  * Title: <29 chars
-  * Collapsed body: <40 chars
-  * Expanded  body: <80 chars; start with collapsed body and add to it
-  * Button: 1-2 buttons (1-2 words each)
+-   Title: <29 chars
+-   Collapsed body: <40 chars
+-   Expanded  body: <80 chars; start with collapsed body and add to it
+-   Button: 1-2 buttons (1-2 words each)
 
 There’s more room for text on later versions of Android, but these limits are still recommended to prevent truncation on smaller devices.
 
@@ -102,14 +102,14 @@ Keep notifications short and information-dense
 
 ### SMS messages
 
-SMS helps users get messages when they might not have access to their Google Account. It’s used for important or urgent communication only.
+SMS helps users get messages when they might not have access to their Google Account. It’s used for important or urgent communication only. 
 
 SMS breaks into multiple messages after a certain number of characters, resulting in increased costs. To avoid this, stick to the following character limits:
 
-  * Latin languages:  <160 characters
-  * Non-latin languages: <134 characters
+-   Latin languages:  <160 characters
+-   Non-latin languages: <134 characters
 
-If translation is needed, let translators know about the character limits in the message description.
+If translation is needed, let translators know about the character limits in the message description. 
 
 ![An SMS notification that’s brief and truncates sensitive information.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw53lzfr-11.png?alt=media&token=ea00548e-29b5-471d-8ac2-e47206c29e54)
 
@@ -129,7 +129,7 @@ Use emoji sparingly. Many don’t translate and aren’t universally understood 
 
 Since it’s not clear to users whether emoji mean we’re sympathizing with them or attempting to project our feelings onto them, don’t use emoji to accentuate bad news. In experiments, there was a strong negative reaction to negative emoji, such as frowning face, anguished face, and weary face.
 
-Gen Z adds another cultural nuance to emoji by [inventing new meanings](<https://www.textnow.com/blog/the-next-generation-of-emojis-gen-z-explained/>) that go beyond the official or literal [definitions](<https://emojipedia.org/>).
+Gen Z adds another cultural nuance to emoji by [inventing new meanings](https://www.textnow.com/blog/the-next-generation-of-emojis-gen-z-explained/) that go beyond the official or literal [definitions](https://emojipedia.org/).
 
 ![A notification about coffee with a coffee emoji at the end of the header.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw53mcby-13.png?alt=media&token=22d82f3d-5533-472a-96cc-6407c99ca119)
 

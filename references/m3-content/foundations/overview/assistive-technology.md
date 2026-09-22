@@ -1,18 +1,12 @@
-# Accessibility overview – Material Design 3
-
-> 来源: https://m3.material.io/foundations/overview/assistive-technology
-
+---
+source: https://m3.material.io/foundations/overview/assistive-technology
+title: "Overview"
+captured: 2026-09-14
 ---
 
 # Overview
 
-Accessible design enables users with diverse abilities to navigate, understand, and enjoy a UI
-
-[Principles](<foundations/overview/principles>)[Assistive technology](<foundations/overview/assistive-technology>)
-
-## Overview
-
-  * Assistive technology
+> Accessible design enables users with diverse abilities to navigate, understand, and enjoy a UI
 
 ## Assistive technology
 

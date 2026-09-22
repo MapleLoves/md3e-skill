@@ -1,19 +1,10 @@
-# Tooltips – Material Design 3
-
-> 来源: https://m3.material.io/components/tooltips/guidelines
-
+---
+source: https://m3.material.io/components/tooltips/guidelines
+title: "Tooltips"
+captured: 2026-09-14
 ---
 
 # Tooltips
-
-Tooltips display brief labels or messages
-
-## Tooltips
-
-  * Usage
-  * Anatomy
-  * Placement
-  * Behavior
 
 ![A plain tooltip labeling a button, and a rich tooltip announcing new settings available.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6qnzgx-01.png?alt=media&token=c4796854-42a4-4c7d-9431-f4328e29d320)
 
@@ -21,10 +12,10 @@ Plain and rich tooltips serve different purposes
 
 ## Usage
 
-A tooltip provides additional context for a UI element.
+A tooltip provides additional context for a UI element. 
 
 **Plain tooltips**
-Plain tooltips briefly describe a UI element. They're best used for labelling UI elements with no text, like icon-only  buttons Buttons let people take action and make choices with one tap.  [More on buttons](</m3/pages/common-buttons/overview>) and fields.
+Plain tooltips briefly describe a UI element. They're best used for labelling UI elements with no text, like icon-only buttons Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) and fields.
 
 **Rich tooltips**
 Rich tooltips provide additional context about a UI element. They can optionally contain a subhead, buttons, and hyperlinks.
@@ -33,8 +24,8 @@ Rich tooltips are best used for longer text like definitions or explanations.
 
 ![2 variants of tooltips.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6qs96y-02.png?alt=media&token=793c9573-a7f8-4a87-a6b5-a49f92a22c0b)
 
-  1. Plain tooltip
-  2. Rich tooltip
+1.  Plain tooltip
+2.  Rich tooltip
 
 ![Plain tooltip labeling an icon-only button in Google Meet as "Present now".](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6qu5gx-03-do.png?alt=media&token=54c7e12c-059a-40ad-b68f-e4f3b1946ff6)
 
@@ -66,8 +57,8 @@ Don't hide critical information within tooltips as it’s easy to miss. Use an i
 
 ![2 elements of a plain tooltip.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6r0a08-07.png?alt=media&token=2c7ae948-db69-4d73-afbd-3825d4d0435c)
 
-  1. Container
-  2. Supporting text
+1.  Container
+2.  Supporting text
 
 ### Supporting text
 
@@ -87,14 +78,14 @@ Avoid wrapping text to multiple lines or including many pieces of information
 
 ![4 elements of a rich tooltip.](https://lh3.googleusercontent.com/Qrg3y9UWvNZtKfeefdMriNm0BUWNB_4KL5lW4pDAdtSVGnRbdnJq_bOmpBVvYt7o6eS-pUOtaKvGpPpVvtZqoueoaGb3xCJjE1zXjuYvf1o3=w40)
 
-  1. Subhead (optional)
-  2. Container
-  3. Supporting text
-  4. Text button (optional)
+1.  Subhead (optional)
+2.  Container
+3.  Supporting text
+4.  Text button (optional)
 
 ### Subhead (optional)
 
-Keep subheads brief, ideally to one line. They should summarize or describe the message of the  rich tooltip Rich tooltips provide additional context about a UI element. They can optionally contain a subhead, buttons, and hyperlinks.  .
+Keep subheads brief, ideally to one line. They should summarize or describe the message of the rich tooltip Rich tooltips provide additional context about a UI element. They can optionally contain a subhead, buttons, and hyperlinks. .
 
 Subheads are important to include when the rich tooltip appears automatically, like when the page loads.
 
@@ -112,7 +103,7 @@ Avoid wrapping to more than one line
 
 ### Text buttons (optional)
 
-Rich tooltips can have up to two text  buttons Buttons let people take action and make choices with one tap.  [More on buttons](</m3/pages/common-buttons/overview>) . These should be brief and relevant to the message in the supporting text.
+Rich tooltips can have up to two text buttons Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) . These should be brief and relevant to the message in the supporting text.
 
 Keep buttons short so they can be side by side. Avoid stacking them when possible.
 
@@ -126,12 +117,12 @@ Avoid stacking buttons
 
 ### Plain tooltips
 
-By default, plain tooltips are positioned directly above the parent element.
+By default, plain tooltips are positioned directly above the parent element. 
 
-  * If there's a visual boundary, like a button, the distance is 4dp
-  * If there's no visual boundary, like with text baselines, the distance is 8dp
+-   If there's a visual boundary, like a button, the distance is 4dp
+-   If there's no visual boundary, like with text baselines, the distance is 8dp
 
-If the element is in an  app bar App bars contain page navigation and information at the top of a screen.  [More on app bars](</m3/pages/app-bars/overview>) , the plain tooltip appears below the element at the same distance.
+If the element is in an app bar App bars contain page navigation and information at the top of a screen. [More on app bars](/m3/pages/app-bars/overview) , the plain tooltip appears below the element at the same distance.
 
 ![Plain tooltip appearing 4dp below a button with a clear visual boundary.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6rg1hz-14.png?alt=media&token=c2d92bab-3dc6-4be2-9bac-836c1d2ada4b)
 
@@ -139,7 +130,7 @@ Plain tooltip with a 4dp distance between the target and tooltip
 
 ### Rich tooltips
 
-By default, rich tooltips are positioned to the bottom right of the parent element. They adjust position to avoid going off screen.  Tooltips shouldn't cover the parent element.
+By default, rich tooltips are positioned to the bottom right of the parent element. They adjust position to avoid going off screen.  Tooltips shouldn't cover the parent element. 
 
 **Dynamic positioning**
 The position of the tooltip adjusts in increments of 8dp to avoid going off-screen.
@@ -153,11 +144,11 @@ Four different rich tooltip locations based on dynamic positioning
 
 ## Behavior
 
-To show a tooltip,  hover A hover state communicates when a user has placed a cursor above an interactive element.  [More on hover state](</m3/pages/interaction-states/applying-states#71c347c2-dd75-485b-892e-04d2900bd844>) on the parent element on desktop, or tap and hold the element on mobile. Persistent  rich tooltips Rich tooltips provide additional context about a UI element. They can optionally contain a subhead, buttons, and hyperlinks.  only appear when clicked or tapped.
+To show a tooltip, hover A hover state communicates when a user has placed a cursor above an interactive element. [More on hover state](/m3/pages/interaction-states/applying-states#71c347c2-dd75-485b-892e-04d2900bd844) on the parent element on desktop, or tap and hold the element on mobile. Persistent rich tooltips Rich tooltips provide additional context about a UI element. They can optionally contain a subhead, buttons, and hyperlinks. only appear when clicked or tapped.
 
 ### Transient by default
 
-Both  plain Plain tooltips briefly describe a UI element. They're often used for labelling UI elements with no text, like icon-only buttons and fields.  and rich tooltips disappear 1.5 seconds after navigating away from the target region.
+Both plain Plain tooltips briefly describe a UI element. They're often used for labelling UI elements with no text, like icon-only buttons and fields. and rich tooltips disappear 1.5 seconds after navigating away from the target region.
 
 Triggering a new tooltip immediately closes any other open tooltip.
 
@@ -173,8 +164,8 @@ Only display one tooltip at a time
 
 Persistent rich tooltips appear when either:
 
-  * The parent element is clicked
-  * The page loads and a new feature is being explained
+-   The parent element is clicked
+-   The page loads and a new feature is being explained
 
 Persistent rich tooltips remain active even when leaving the target region. They only disappear once a person interacts with another UI element. Hovering doesn't trigger the tooltip.
 

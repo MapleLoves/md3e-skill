@@ -1,23 +1,12 @@
-# States – Material Design 3
-
-> 来源: https://m3.material.io/foundations/interaction/states/applying-states
-
+---
+source: https://m3.material.io/foundations/interaction/states/applying-states
+title: "States"
+captured: 2026-09-14
 ---
 
 # States
 
-States show the interaction status of a component or UI element
-
-[Overview](<foundations/interaction/states/overview>)[State layers](<foundations/interaction/states/state-layers>)[Applying states](<foundations/interaction/states/applying-states>)
-
-## States
-
-  * Enabled
-  * Disabled
-  * Hover
-  * Focused
-  * Pressed
-  * Dragged
+> States show the interaction status of a component or UI element
 
 ## Enabled
 
@@ -27,10 +16,10 @@ An enabled state communicates an interactive component or element. Enabled state
 
 Enabled states for:
 
-  1. Button
-  2. FAB
-  3. Switch
-  4. Text field
+1.  Button
+2.  FAB
+3.  Switch
+4.  Text field
 
 ## Disabled
 
@@ -44,35 +33,35 @@ Disabled button
 
 Disabled states **are** inherited by action, selection, and input components:
 
-  * Buttons
-  * Cards
-  * Checkboxes
-  * Chips
-  * List items
-  * Radio buttons
-  * Switches
-  * Text fields
+-   Buttons
+-   Cards
+-   Checkboxes
+-   Chips
+-   List items
+-   Radio buttons
+-   Switches
+-   Text fields
 
 ![Inoperable state of 4 components.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2qtg0r-3.png?alt=media&token=469e37f6-f896-42c0-8d8a-2024ad74a6ee)
 
 Disabled states for:
 
-  1. Checkbox
-  2. Icon button
-  3. Radio button
-  4. Segmented button
+1.  Checkbox
+2.  Icon button
+3.  Radio button
+4.  Segmented button
 
-Disabled states **aren't** inherited by communication, containment, navigation, and some actions components:
+Disabled states **aren't** inherited by communication, containment, navigation, and some actions components: 
 
-  * App bars
-  * Badges
-  * Dialogs
-  * Floating action buttons (FABs)
-  * Menus
-  * Navigation bar, drawer, and rail
-  * Sheets
-  * Tabs
-  * Tooltips
+-   App bars
+-   Badges
+-   Dialogs
+-   Floating action buttons (FABs)
+-   Menus
+-   Navigation bar, drawer, and rail
+-   Sheets
+-   Tabs
+-   Tooltips
 
 ![Screen erroneously showing edit FAB in inoperable state, though the edit function is unavailable.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2quyuj-4.png?alt=media&token=3366711f-aafa-4b7e-ab99-1a0f6c67378e)
 
@@ -90,8 +79,8 @@ There can be any number of disabled states in a layout.
 
 ![Disabled components on a screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flyml0ix7-6.png?alt=media&token=c6c1365d-7e53-471d-a1e4-8babbf37b298)
 
-  1. Disabled redo icon button
-  2. Disabled checklist icon button
+1.  Disabled redo icon button
+2.  Disabled checklist icon button
 
 ## Hover
 
@@ -105,34 +94,34 @@ Hovered button
 
 Hover states **are** inherited by action, selection, and input components:
 
-  * Buttons
-  * Cards
-  * Checkbox
-  * Chips
-  * Date and time pickers
-  * List items
-  * Slider
-  * Switch
-  * Text fields
+-   Buttons
+-   Cards
+-   Checkbox
+-   Chips
+-   Date and time pickers
+-   List items
+-   Slider
+-   Switch
+-   Text fields
 
 ![Hover state of 4 components.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2vxl8i-8.png?alt=media&token=4f810fc7-a579-445c-a178-ebc7a19caeb2)
 
 Hovered states for:
 
-  1. FAB
-  2. Icon button
-  3. Chip
-  4. Segmented buttons
+1.  FAB
+2.  Icon button
+3.  Chip
+4.  Segmented buttons
 
-Hover states **aren’t** inherited by communication, containment, or navigation components:
+Hover states **aren’t** inherited by communication, containment, or navigation components: 
 
-  * App bars
-  * Badges
-  * Dialogs
-  * Menus
-  * Navigation bar, drawer, and rail
-  * Sheets
-  * Tabs
+-   App bars
+-   Badges
+-   Dialogs
+-   Menus
+-   Navigation bar, drawer, and rail
+-   Sheets
+-   Tabs
 
 ![Mobile screen with the whole  app bar wrongly in hover state.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2vymng-9.png?alt=media&token=5cf648b1-7239-43fd-a65f-9198fd11f289)
 
@@ -166,33 +155,33 @@ Focused button
 
 Focus states **are** inherited by action, selection, and input components:
 
-  * Buttons
-  * Cards
-  * Checkbox
-  * Chips
-  * Date and time pickers
-  * List items
-  * Selection controls
-  * Text fields
+-   Buttons
+-   Cards
+-   Checkbox
+-   Chips
+-   Date and time pickers
+-   List items
+-   Selection controls
+-   Text fields
 
 ![Focus state of 4 components.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wb5y9-14.png?alt=media&token=292090a2-1e6f-4e36-84ba-5ebafeb0e3af)
 
 Focused states for:
 
-  1. FAB
-  2. Icon button
-  3. Chip
-  4. Segmented buttons
+1.  FAB
+2.  Icon button
+3.  Chip
+4.  Segmented buttons
 
 Focus states **aren’t** inherited by most communication, containment, or navigation components:
 
-  * App bars
-  * Badges
-  * Banner
-  * Card
-  * Dialogs
-  * Navigation bar, drawer, and rail
-  * Sheets
+-   App bars
+-   Badges
+-   Banner
+-   Card
+-   Dialogs
+-   Navigation bar, drawer, and rail
+-   Sheets
 
 ![Mobile screen showing  entire app bar in focus state, which is an error.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wctgk-15.png?alt=media&token=871fc6c8-7cf7-48d9-aed1-4f876be97c67)
 
@@ -244,33 +233,33 @@ Some components, such as buttons or cards, can inherit elevation to signify a pr
 
 Pressed button with elevation
 
-Pressed states **are** inherited by action, selection, and some containment components:
+Pressed states **are** inherited by action, selection, and some containment components: 
 
-  * Buttons
-  * Cards
-  * Checkbox
-  * Chips
-  * List items
-  * Text fields
+-   Buttons
+-   Cards
+-   Checkbox
+-   Chips
+-   List items
+-   Text fields
 
 ![Four components shown in pressed state.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wl23l-27.png?alt=media&token=b2dff0e0-1bf2-47fb-a689-040b778ffcf1)
 
 Pressed states for:
 
-  1. FAB
-  2. Icon button
-  3. Chip
-  4. Segmented button
+1.  FAB
+2.  Icon button
+3.  Chip
+4.  Segmented button
 
-Pressed states **aren’t** inherited by communication, navigation, or some containment components:
+Pressed states **aren’t** inherited by communication, navigation, or some containment components: 
 
-  * App bars
-  * Badges
-  * Bottom navigation
-  * Dialogs
-  * Menus
-  * Sheets
-  * Tabs
+-   App bars
+-   Badges
+-   Bottom navigation
+-   Dialogs
+-   Menus
+-   Sheets
+-   Tabs
 
 ![Mobile screen showing  entire app bar in pressed state is an error.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wo5k7-28.png?alt=media&token=93cc4266-18d2-497d-a0d9-55a73988142f)
 
@@ -304,28 +293,28 @@ Some components, such as list items, chips, or cards, can inherit elevation to s
 
 Dragged list item
 
-Dragged states **are** inherited by some containment and selection components:
+Dragged states **are** inherited by some containment and selection components: 
 
-  * Cards
-  * Chips
-  * List items
-  * Sliders
+-   Cards
+-   Chips
+-   List items
+-   Sliders
 
 ![A chip and a card both shown in dragged state.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wv77r-33.png?alt=media&token=a3ace83a-7173-47cb-9fc2-60646fe0dd47)
 
 Dragged states for:
 
-  1. Chip
-  2. Card
+1.  Chip
+2.  Card
 
-Dragged states **aren’t** inherited by action, communication, navigation, or some containment components:
+Dragged states **aren’t** inherited by action, communication, navigation, or some containment components: 
 
-  * App bars
-  * Badges
-  * Buttons
-  * Dialogs
-  * Menus
-  * Navigation bar, drawer, and rail
+-   App bars
+-   Badges
+-   Buttons
+-   Dialogs
+-   Menus
+-   Navigation bar, drawer, and rail
 
 ![Mobile screen with app bar in dragged state is an error.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2ww2lq-34.png?alt=media&token=33a7d3f2-493d-4137-a038-289ddac5488c)
 

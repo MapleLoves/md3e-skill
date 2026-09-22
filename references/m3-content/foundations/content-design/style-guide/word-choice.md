@@ -1,18 +1,12 @@
-# Style guide – Material Design 3
-
-> 来源: https://m3.material.io/foundations/content-design/style-guide/word-choice
-
+---
+source: https://m3.material.io/foundations/content-design/style-guide/word-choice
+title: "Style guide"
+captured: 2026-09-14
 ---
 
 # Style guide
 
-UI text should be understandable by anyone, anywhere
-
-[UX writing best practices](<foundations/content-design/style-guide/ux-writing-best-practices>)[Word choice](<foundations/content-design/style-guide/word-choice>)[Grammar and punctuation](<foundations/content-design/style-guide/grammar-and-punctuation>)
-
-## Style guide
-
-  * Pronouns
+> UI text should be understandable by anyone, anywhere
 
 ## Pronouns
 
@@ -50,7 +44,7 @@ Don’t mix different forms of address in the same screen. Instead, use “you�
 
 ### Use caution with “I” and “we”
 
-When written on behalf of a large, global company like Google, “we” or “I” may come across as robotic or disconcerting.
+When written on behalf of a large, global company like Google, “we” or “I” may come across as robotic or disconcerting. 
 
 Focus on the user’s point of view, rather than Google’s, and consider if it’s possible to rewrite a phrase without “we.”
 

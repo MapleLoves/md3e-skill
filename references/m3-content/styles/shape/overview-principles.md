@@ -1,32 +1,17 @@
-# Shape - Material Design 3
-
-> 来源: https://m3.material.io/styles/shape/overview-principles
-
+---
+source: https://m3.material.io/styles/shape/overview-principles
+title: "Shape"
+captured: 2026-09-14
 ---
 
 # Shape
 
-The M3 shape system includes original shapes, a corner radius scale, and built-in shape morphing
+> The M3 shape system includes original shapes, a corner radius scale, and built-in shape morphing
 
-[Overview & principles](<styles/shape/overview-principles>)[Corner radius scale](<styles/shape/corner-radius-scale>)[Shape morph](<styles/shape/shape-morph>)
-
-## Shape
-
-  * Availability & resources
-  * M3 Expressive update
-  * Shape library
-  * Use shapes and text in harmony
-  * Morph shapes to connect function and feeling
-  * Be bold and dare to embrace tension
-  * Shape is versatile, not semantic
-  * Use abstract shapes sparingly
-  * Emphasize aesthetic moments with shape
-  * Shape can be 2.5D
-
-  * Use abstract shapes thoughtfully to add emphasis and decorative flair
-  * Leverage Material shapes for built-in shape morphing
-  * Rectangular shapes are fully rounded in all corners by default
-  * Individual corners can be adjusted to create asymmetrical rectangular shapes
+-   Use abstract shapes thoughtfully to add emphasis and decorative flair
+-   Leverage Material shapes for built-in shape morphing
+-   Rectangular shapes are fully rounded in all corners by default
+-   Individual corners can be adjusted to create asymmetrical rectangular shapes
 
 ![Illustration of range of irregular shapes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c35amt-1.png?alt=media&token=ab563092-217d-4d71-986d-1b4d87b5ba3e)
 
@@ -34,29 +19,28 @@ Abstract shapes can help people express themselves
 
 ## Availability & resources
 
-Type| Resource| Status
----|---|---
-Design| [Shape library](<http://figma.com/community/file/1035203688168086460/material-3-design-kit>) (Figma Design Kit)
-| Available
-Implementation| [Jetpack Compose](<https://developer.android.com/reference/kotlin/androidx/compose/material3/MaterialShapes>) (Shape Library)| Available
-[Android Views (MDC-Android)](<https://github.com/material-components/material-components-android/blob/master/docs/theming/Shape.md>)| Available
+| Type | Resource | Status |
+| --- | --- | --- |
+| Design | [Shape library](http://figma.com/community/file/1035203688168086460/material-3-design-kit) (Figma Design Kit) | Available |
+| Implementation | [Jetpack Compose](https://developer.android.com/reference/kotlin/androidx/compose/material3/MaterialShapes) (Shape Library) | Available |
+| [Android Views (MDC-Android)](https://github.com/material-components/material-components-android/blob/master/docs/theming/Shape.md) | Available |
 
 ## M3 Expressive update
 
 **May 2025**
 
-Added 35 **new shapes** and **shape morphing** to [Material Shape Library](<https://www.figma.com/community/file/1035203688168086460>) (Figma Design Kit) and [Jetpack Compose](<https://developer.android.com/reference/kotlin/androidx/compose/material3/MaterialShapes>).
+Added 35 **new shapes** and **shape morphing** to [Material Shape Library](https://www.figma.com/community/file/1035203688168086460) (Figma Design Kit) and [Jetpack Compose](https://developer.android.com/reference/kotlin/androidx/compose/material3/MaterialShapes).
 
 Added new shape principles and a refreshed art direction.
 
 Added corner radii tokens:
 
-  * Large increased (20dp)
-  * Extra large increased (32dp)
-  * Extra extra large (48dp)
-  * Updated fully rounded corners to use **full**. Previously, this was defined using 50% of the component size.
+-   Large increased (20dp)
+-   Extra large increased (32dp)
+-   Extra extra large (48dp)
+-   Updated fully rounded corners to use **full**. Previously, this was defined using 50% of the component size.
 
-[More on M3 Expressive](<https://m3.material.io/blog/building-with-m3-expressive>)
+[More on M3 Expressive](https://m3.material.io/blog/building-with-m3-expressive)
 
 Overview of Material shapes
 
@@ -68,7 +52,7 @@ M3 has 35 shapes to easily apply to designs
 
 ## Use shapes and text in harmony
 
-Shapes are expressive elements of Material 3 that echo key visual attributes of [M3 typography](</m3/pages/typography/overview/>).
+Shapes are expressive elements of Material 3 that echo key visual attributes of [M3 typography](/m3/pages/typography/overview/). 
 
 Use shape and type together for products to feel cohesive and polished.
 
@@ -82,9 +66,9 @@ Shape morphing should respond to user interaction
 
 Shapes should morph to improve understanding and add moments of delight. Use shape morph to better communicate:
 
-  * Interaction states, like when a button is selected
-  * Actions in progress, like a friend typing, or a page loading
-  * Changes in the environment, like sound, temperature, or time of day
+-   Interaction states, like when a button is selected
+-   Actions in progress, like a friend typing, or a page loading
+-   Changes in the environment, like sound, temperature, or time of day
 
 Think about how shapes could react to different interactions, such as tapping, swiping, scrolling, releasing, and long pressing.
 
@@ -106,7 +90,7 @@ Shapes and motion can communicate actions in progress
 
 Avoid making shapes literal or assigning a specific function or meaning to a single shape.
 
-For example, the  loading indicator Loading indicators show the progress of a process with a short wait time.  [More on loading indicators](</m3/pages/loading-indicator/overview>) can be wavy, but the waveform is not a strict symbol of progression. Progress could just as easily be shown using rotating shapes or shape morph.
+For example, the loading indicator Loading indicators show the progress of a process with a short wait time. [More on loading indicators](/m3/pages/loading-indicator/overview) can be wavy, but the waveform is not a strict symbol of progression. Progress could just as easily be shown using rotating shapes or shape morph. 
 
 Plus, waveforms could be used in other places unrelated to progress, like button containers.
 
@@ -114,7 +98,7 @@ Plus, waveforms could be used in other places unrelated to progress, like button
 
 Be intentional when using shapes in product UI. Don’t compromise clarity for the sake of visual design.
 
-When incorporating diverse shapes, think about how they fit into the overall design and consider how they balance with the entire composition. Ensure that shapes resonate with the product's narrative. Consider the 'why' behind their inclusion and the value they contribute to the overall user experience.
+When incorporating diverse shapes, think about how they fit into the overall design and consider how they balance with the entire composition. Ensure that shapes resonate with the product's narrative. Consider the 'why' behind their inclusion and the value they contribute to the overall user experience. 
 
 ![8 shapes with icons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c73wle-8.png?alt=media&token=f1bf9874-6d8e-43c4-ae44-c0d4912ca58b)
 

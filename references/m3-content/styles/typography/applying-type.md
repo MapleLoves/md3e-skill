@@ -1,23 +1,12 @@
-# Typography – Material Design 3
-
-> 来源: https://m3.material.io/styles/typography/applying-type
-
+---
+source: https://m3.material.io/styles/typography/applying-type
+title: "Typography"
+captured: 2026-09-14
 ---
 
 # Typography
 
-Use typography to make content readable and beautiful
-
-[Overview](<styles/typography/overview>)[Fonts](<styles/typography/fonts>)[Type scale & tokens](<styles/typography/type-scale-tokens>)[Applying type](<styles/typography/applying-type>)[Editorial treatments](<styles/typography/editorial-treatments>)
-
-## Typography
-
-  * Applying type
-  * Roles
-  * Typesetting
-  * Ensuring readability
-  * Using Material Symbols with typography
-  * Accessibility
+> Use typography to make content readable and beautiful
 
 ## Applying type
 
@@ -55,11 +44,11 @@ Headlines can also make use of expressive typefaces, provided that appropriate l
 
 Expressive typefaces can be used for headlines styles as well, as shown here with Anton
 
-![The name Ana Russo in headline style in a contact card.](https://lh3.googleusercontent.com/9gDfz6o18x2TZ_CwtmIUlwZGMDuYtvEALaw7NNfPkyVjXC7ohfVQNHAGO6hsHOBjqyVGAde_h9ZqL4Z7axGvbY0nNZyuJ4aFeLBBdlRzJn0K1A=s0)
+![The name Ana Russo in headline style in a contact card.](https://lh3.googleusercontent.com/9gDfz6o18x2TZ_CwtmIUlwZGMDuYtvEALaw7NNfPkyVjXC7ohfVQNHAGO6hsHOBjqyVGAde_h9ZqL4Z7axGvbY0nNZyuJ4aFeLBBdlRzJn0K1A=w40)![The name Ana Russo in headline style in a contact card.](https://lh3.googleusercontent.com/9gDfz6o18x2TZ_CwtmIUlwZGMDuYtvEALaw7NNfPkyVjXC7ohfVQNHAGO6hsHOBjqyVGAde_h9ZqL4Z7axGvbY0nNZyuJ4aFeLBBdlRzJn0K1A=s0)
 
 Headline style used for short text on a small screen
 
-![Headline style set above body text.](https://lh3.googleusercontent.com/WgoT1XvqTt4wZhUpmGfNdEPfzpIwynAczo074zAPDqGDh1zgevOnEBr7NBzygCZwDOMFgAhQMxy6vqfG5v_pPpjsgSLlMKCJCUpxIKQgp8TW=s0)
+![Headline style set above body text.](https://lh3.googleusercontent.com/WgoT1XvqTt4wZhUpmGfNdEPfzpIwynAczo074zAPDqGDh1zgevOnEBr7NBzygCZwDOMFgAhQMxy6vqfG5v_pPpjsgSLlMKCJCUpxIKQgp8TW=w40)![Headline style set above body text.](https://lh3.googleusercontent.com/WgoT1XvqTt4wZhUpmGfNdEPfzpIwynAczo074zAPDqGDh1zgevOnEBr7NBzygCZwDOMFgAhQMxy6vqfG5v_pPpjsgSLlMKCJCUpxIKQgp8TW=s0)
 
 Dialog using a headline style
 
@@ -69,15 +58,15 @@ Titles are smaller than headline styles, and should be used for medium-emphasis 
 
 For titles, use caution when using expressive fonts, including display, handwritten, and script styles.
 
-![An article card using title style for the article title.](https://lh3.googleusercontent.com/5G71cITshP3sV3xndkrvWC-qCR4KIpdNQvZX02xhz0UbkMnoiizvlOGjADZw89VSYWhToOArHVkmgHQ4DZze2UAQ8xHQrlTEik7_Y7zyj70rEA=s0)
+![An article card using title style for the article title.](https://lh3.googleusercontent.com/5G71cITshP3sV3xndkrvWC-qCR4KIpdNQvZX02xhz0UbkMnoiizvlOGjADZw89VSYWhToOArHVkmgHQ4DZze2UAQ8xHQrlTEik7_Y7zyj70rEA=w40)
 
 A news article title using the title style to capture attention, as shown here with Bebas Neue
 
-![Top app bar using title style for the contact name, Aki Aro.](https://lh3.googleusercontent.com/ut0Cn4jh3w2EXk_xbcH6qxLhTDArU8B2ujqURlHJO2AIJhN_ROI9HLRP1JVeVIYq_uAqFsVNshblhlefeMzqXtIVZoTrp5J_Veo8AcNse9j8Mg=s0)
+![Top app bar using title style for the contact name, Aki Aro.](https://lh3.googleusercontent.com/ut0Cn4jh3w2EXk_xbcH6qxLhTDArU8B2ujqURlHJO2AIJhN_ROI9HLRP1JVeVIYq_uAqFsVNshblhlefeMzqXtIVZoTrp5J_Veo8AcNse9j8Mg=w40)
 
 App bar using title style
 
-![Title style stating ‘Top News’ above headlines.](https://lh3.googleusercontent.com/PmeB6Sb4pU6IWk4zdomBh172gtNSXDNKKxYmozS8wejGX-PrRleZViqtUiZAw1th1K3rQ3OQzw5BdCjP3junPZzB84HIGKB8uV9CglMC13k=s0)
+![Title style stating ‘Top News’ above headlines.](https://lh3.googleusercontent.com/PmeB6Sb4pU6IWk4zdomBh172gtNSXDNKKxYmozS8wejGX-PrRleZViqtUiZAw1th1K3rQ3OQzw5BdCjP3junPZzB84HIGKB8uV9CglMC13k=w40)
 
 Example of title style applied to a category header: Top News
 
@@ -89,7 +78,7 @@ Use typefaces intended for body styles, which are readable at smaller sizes and 
 
 Avoid expressive or decorative fonts for body text because these can be harder to read at small sizes.
 
-![Body-style typeface.](https://lh3.googleusercontent.com/4wCbM5DljexhIPLTZFvjaWRYHzSxV7CbB0EAR8C5Jd8_NEFVJUmsQVu4RZP4EohwY1Xn5waxFIw--co_wEViXOYg9GBUVTVLweYYEnQJ1hg=w40)![Body-style typeface.](https://lh3.googleusercontent.com/4wCbM5DljexhIPLTZFvjaWRYHzSxV7CbB0EAR8C5Jd8_NEFVJUmsQVu4RZP4EohwY1Xn5waxFIw--co_wEViXOYg9GBUVTVLweYYEnQJ1hg=s0)
+![Body-style typeface.](https://lh3.googleusercontent.com/4wCbM5DljexhIPLTZFvjaWRYHzSxV7CbB0EAR8C5Jd8_NEFVJUmsQVu4RZP4EohwY1Xn5waxFIw--co_wEViXOYg9GBUVTVLweYYEnQJ1hg=w40)
 
 Body styles must be readable for long passages
 
@@ -129,7 +118,7 @@ Take engineering considerations and the conventions of your platform into accoun
 
 Use this method for web products, and iOS products, where applicable. Note that some design tools also use bounding boxes for typesetting, but their methods vary and will need to be reconciled with the engineering implementation.
 
-In web UIs, the line height and bounding box height are the same. Text is vertically centered within the bounding box, following the “[half-leading](<https://www.w3.org/TR/css-inline-3/#leading-trim>)” behavior established by CSS.
+In web UIs, the line height and bounding box height are the same. Text is vertically centered within the bounding box, following the “[half-leading](https://www.w3.org/TR/css-inline-3/#leading-trim)” behavior established by CSS.
 
 The vertical position of the text isn’t controlled directly, but through the combination of the bounding box and font metrics.
 
@@ -153,12 +142,12 @@ Use line-height, padding, and container measurements for setting typography on t
 
 Vertical alignment using padding and bounding boxes:
 
-  1. **Line height**
-Measure the height of the bounding box.
-  2. **Centering**
-Ensure equal top and bottom padding around the inner edge of the bounding box by using center align
-  3. **Spacing**
-Use the height of the bounding box, and top and bottom padding to determine spacing
+1.  **Line height** 
+    Measure the height of the bounding box.
+2.  **Centering** 
+    Ensure equal top and bottom padding around the inner edge of the bounding box by using center align
+3.  **Spacing** 
+    Use the height of the bounding box, and top and bottom padding to determine spacing
 
 ![Diagram of using padding and bounding boxes to measure line height, alignment, and spacing,](https://lh3.googleusercontent.com/gR_zZUnknndcR-NJEotK-rshizgc54jUA7qzp0TDrYV1sNjprNeUNsoETn72KqcrWT61bX5nIXUDpVr035eFbh_KkJgB8uP1J-7ExXAZ6BS6=w40)
 
@@ -182,14 +171,14 @@ check Do
 
 Android screens rely on distance to baselines for spacing
 
-Vertical alignment using the baseline:
+Vertical alignment using the baseline: 
 
-  1. **Line height**
-Measure distance from the text baseline of one line to the text baseline of the next line
-  2. **Centering**
-Specify center alignment as a reference instead of measuring the distance to the text baseline
-  3. **Spacing**
-Use the distance from a reference point to the text baseline
+1.  **Line height** 
+    Measure distance from the text baseline of one line to the text baseline of the next line
+2.  **Centering** 
+    Specify center alignment as a reference instead of measuring the distance to the text baseline
+3.  **Spacing** 
+    Use the distance from a reference point to the text baseline
 
 ![Diagram of using distance to baseline to measure line height, alignment, and spacing.](https://lh3.googleusercontent.com/3yEErrAiImN-qxnPPc_ln0WeE416pEN7iHaRcQPlzMluvla5w0ZoK09oTGefSQrgIaj29bUZrFG1T0sVHpTdOWUxGge1g9wQZideSuhMrUoSHw=w40)
 
@@ -217,8 +206,8 @@ Use monospaced tabular numbers to keep values optically aligned for better scann
 
 ![Vertical view showing the spacing variation in proportional numbers versus monospacing of tabular numbers.](https://lh3.googleusercontent.com/BskG7G1_XEXDjk548Xw7DT4xxmlW8ePL0ZOQdihQTM6AsDSWbuh1FCaOKu_ZpCrhev8DeIHKo42vtcOG5zsrFOJ5aXdzxysJfoAfXNpQaFA=w40)
 
-  1. Proportional numbers
-  2. Monospaced tabular numbers
+1.  Proportional numbers
+2.  Monospaced tabular numbers
 
 ![Times displayed in tabular numbers.](https://lh3.googleusercontent.com/iHKpHXTPSACBPeqMQw5d7GXnBYWQAH9j4B-8UqXZXH37-TISFiAqYf-tgnbb1URd992HF0u8KH9ed0AdrRysgEbV6Dnk8dKCFtiUBH5npG0l=w40)
 
@@ -226,7 +215,7 @@ Use tabular numbers to prevent layout shifting when values change, such as in a 
 
 ## Using Material Symbols with typography
 
-Properly aligning typography with Material Symbols can improve cohesion and unity in your product. [Learn more about matching icons and text](</m3/pages/icons/applying-icons#f9db4adc-ca78-473f-85eb-a351b73c39ac>)
+Properly aligning typography with Material Symbols can improve cohesion and unity in your product. [Learn more about matching icons and text](/m3/pages/icons/applying-icons#f9db4adc-ca78-473f-85eb-a351b73c39ac)
 
 ## Accessibility
 
@@ -238,14 +227,14 @@ Support visual accessibility by choosing the appropriate **color contrast** betw
 
 Label styles should enable quick reading at small sizes, such as in buttons
 
-Text should achieve sufficient contrast between its color and that of its background.
+Text should achieve sufficient contrast between its color and that of its background. 
 
 Material aims for two main text contrast levels:
 
-  * 3:1 for large text
-  * 4.5:1 for small text
+-   3:1 for large text
+-   4.5:1 for small text
 
-[Learn more about contrast ratios](</m3/pages/designing/color-contrast#b248ecd2-9abd-4877-8f5e-ebfbb87e2048>)
+[Learn more about contrast ratios](/m3/pages/designing/color-contrast#b248ecd2-9abd-4877-8f5e-ebfbb87e2048)
 
 ![Large text should achieve a contrast ratio of 3:1.](https://lh3.googleusercontent.com/BQrWDyWcMYdh73-KDAcTBnrN6snUfkRYAk9jBe5H_H-sW2D7QoGhfd2JyDkshiNIegJcCCFFzUAxOCJ5nOL1CyynkzZIi0h80ORRJWlTH6bs=w40)
 
@@ -255,13 +244,13 @@ Large text should achieve a contrast ratio of 3:1
 
 Small text should achieve a contrast ratio of 4.5:1
 
-The default color for typography is **on surface** , although **on surface variant** is a strong alternative.
+The default color for typography is **on surface**, although **on surface variant** is a strong alternative.
 
 ![Diagram showing the default color for text is "on surface."](https://lh3.googleusercontent.com/ayTGM2gQl4WO4HvOrLK5f70D7Y0VT99OWKYt9hlElb-p0I_osOhWKGEW6bsvl-n-WRXm5dJLa6Q2EIEH2TyfG0lpBuvbxKv_jIIEAGHdUWDK=w40)
 
 Default typography colors
 
-For hyperlinked text appearing on top of a  surface color Color role used for the default color for backgrounds.  , use  primary High-emphasis fills, texts, and icons against surface.  . However,  tertiary Complementary fills, text, and icons against surface.  can be used to make links less prominent.
+For hyperlinked text appearing on top of a surface color Color role used for the default color for backgrounds. , use primary High-emphasis fills, texts, and icons against surface. . However, tertiary Complementary fills, text, and icons against surface. can be used to make links less prominent.
 
 Hyperlinked text must also be underlined.
 

@@ -4,6 +4,36 @@ All notable changes to this skill are documented here. The format is based on
 [Semantic Versioning](https://semver.org/lang/zh-CN/) and the skill follows the
 `MAJOR.MINOR.PATCH` scheme described in `PUBLISH.md`.
 
+## [1.2.0] - 2026-09-22
+
+Latest-content refresh from the verified knowledge base (baseline **2026-09-14**).
+
+### Added
+- `references/version-baseline.md` — version matrix, feature gates, BOM coverage, alpha-line
+  churn log (`material3` 1.5.0-alpha28 / stable 1.4.0; icons, MotionScheme, ColorScheme rules).
+- `references/m3e/` — five curated M3E notes (核对 2026-09-14): `design-system.md`,
+  `color-typography-shape.md`, `motion-physics.md`, `components.md`, `compose-api.md`,
+  plus English mirrors (`*.en.md`) for open-source accessibility.
+- SKILL.md workflow step for version pinning; icon guidance (Material Symbols / explicit
+  `material-icons-core`).
+
+### Changed
+- **`references/m3-content/` fully re-synced**: 249 pages replaced with clean browser-rendered
+  Markdown from m3.material.io (front matter `source` / `captured: 2026-09-14`); removed old
+  encoding artifacts and TOC noise. Navigation hub pages (`index`, `components`, `styles`, …) kept.
+- `m3-vs-m3e-diff.md` — baseline banner; SplitButton / FilledTonalToggleButton / slot SearchBar /
+  AppBarWithSearch; experimental-API removal on stable 1.4.0-beta01; alpha churn notes.
+- `components-catalog.md` — version-line header; ButtonGroup/SplitButton/SearchBar updates.
+- SKILL.md → **1.2.0**; README / README.zh-CN structure and feature lists updated.
+
+### Fixed
+- `m3e/compose-api.md` migration note: alpha line **is** covered by `compose-bom-alpha`
+  (material3 / adaptive included in BOM POM — was incorrectly marked "not via BOM").
+
+### Notes
+- Full M3E still requires the **1.5.0-alpha** line; official warning: alpha/beta BOMs are not
+  for production.
+
 ## [1.1.0] - 2026-08-03
 
 Maintenance and quality pass to prepare the skill for public release.

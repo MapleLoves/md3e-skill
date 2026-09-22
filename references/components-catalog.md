@@ -1,8 +1,12 @@
 # MD3E Components Catalog
 
 Organized catalog of all Material 3 / Material 3 Expressive components available in
-`androidx.compose.material3`. Components marked **[M3E]** are Expressive-specific and may
-require `@ExperimentalMaterial3ExpressiveApi`.
+`androidx.compose.material3`. Components marked **[M3E]** are Expressive-specific; some still
+require `@ExperimentalMaterial3ExpressiveApi` on the **1.5.0-alpha** line — others graduated
+non-experimental (Flexible AppBars, FloatingToolbar, ButtonGroup APIs, SearchBarState).
+
+**Version baseline (2026-09-14):** full M3E = `material3` **1.5.0-alpha28**; stable **1.4.0**
+lacks the full Expressive set. See `references/version-baseline.md` and `references/m3e/components.md`.
 
 For full API signatures, search `references/compose-api-full.md` with the component name.
 
@@ -48,13 +52,13 @@ Uses `FloatingActionButtonMenuScope`.
 - `MultiChoiceSegmentedButtonRow` + `SegmentedButton` — multiple toggle options
 
 ### Button Group **[M3E]**
-- `ButtonGroup` — connected button row with overflow menu and compression animation
-- `ButtonGroupScope` — provides `weight()` and `animateWidth()` for children
+- `ButtonGroup` — connected button row with overflow menu and compression animation (APIs stable since 1.5.0-alpha22)
+- `ButtonGroupScope` — sealed interface; `weight()` and `animateWidth()` overloads (alpha25+)
 - `ButtonGroupMenuState` — overflow menu state
 - `ButtonGroupDefaults` — default values
 
 ### Split Button **[M3E]**
-- `SplitButtonLayout` — primary action + overflow trigger
+- `SplitButton` — primary action + overflow trigger (**preferred**; `SplitButtonLayout` deprecated since alpha25)
 - `SplitButtonDefaults`, `SplitButtonShapes`
 
 ---
@@ -111,11 +115,13 @@ Supporting types: `FloatingToolbarScrollBehavior`, `FloatingToolbarState`,
 `FloatingToolbarColors`, `FloatingToolbarExitDirection`, `FloatingToolbarDefaults`,
 `FloatingToolbarHorizontalFabPosition`, `FloatingToolbarVerticalFabPosition`.
 
-### Search Bar (M3 stable; AppBarWithSearch [M3E])
-- `SearchBar` — full-screen search
-- `DockedSearchBar` — docked search input
-- `AppBarWithSearch` **[M3E]** — app bar with integrated search
-- `SearchBarScrollBehavior`, `SearchBarState`, `SearchBarColors`
+### Search Bar (prefer slot API on 1.5.0-alpha)
+- `SearchBarState` + slot-based `SearchBar` **[M3E]** — stable since **1.5.0-alpha24** (old
+  extension / `onExpandedChange` APIs deprecated)
+- `ExpandedDockedSearchBarWithGap`, `ExpandedFullScreenContainedSearchBar` — non-experimental alpha23+
+- `AppBarWithSearch` **[M3E]** — replaces `TopSearchBar`
+- Legacy: `SearchBar`, `DockedSearchBar` (M3); `SearchBarScrollBehavior`, `SearchBarColors`
+- `rememberSearchBarWithGapState` (renamed from `rememberWithGapSearchBarState` in alpha18)
 
 ---
 

@@ -14,12 +14,18 @@ Material 3 Expressive is Google's 2025 evolution of Material Design 3, featuring
 
 This skill covers **both MD3E and baseline M3** — many components only have M3 specs, so the skill uses MD3E where available and falls back to M3 otherwise.
 
+**Knowledge baseline: 2026-09-14.** Full M3E component set requires `material3` **1.5.0-alpha28**;
+stable **1.4.0** ships M3 + MotionScheme + partial Expressive only.
+
 ## Features
 
 - **Complete API reference**: Full `androidx.compose.material3` package documentation (~8,000 lines)
 - **Design tokens**: All color roles, type scale, shape scale, motion system values
 - **Component catalog**: Every M3/M3E component organized by category with usage guidance
+- **Version baseline**: Feature gates, alpha-line churn, BOM coverage (2026-09-14)
+- **Curated M3E notes**: Design system, color/type/shape, motion physics, components, Compose API
 - **M3 vs M3E diff**: Clear comparison and migration guide
+- **Official spec mirror**: 249 clean Markdown pages from m3.material.io (captured 2026-09-14)
 - **Code templates**: Ready-to-use `MD3ETheme.kt`, `Color.kt`, `Type.kt`, `Shape.kt`
 - **Theme generator**: Python script to generate a complete color scheme from a single seed color
 
@@ -56,13 +62,20 @@ pip install material-color-utilities
 md3e/
 ├── SKILL.md                          # Entry point: triggers, workflow, quick reference
 ├── references/
+│   ├── version-baseline.md           # Version matrix, feature gates, alpha churn (2026-09-14)
+│   ├── m3e/                          # Curated M3E notes (5 zh + 5 en mirrors, verified 2026-09-14)
+│   │   ├── design-system.md          # Theming, dynamic color, system UI (+ design-system.en.md)
+│   │   ├── color-typography-shape.md # Color / type / shape (+ color-typography-shape.en.md)
+│   │   ├── motion-physics.md         # MotionScheme spring physics (+ motion-physics.en.md)
+│   │   ├── components.md             # Component inventory by version line (+ components.en.md)
+│   │   └── compose-api.md            # API gates, migration, alpha churn (+ compose-api.en.md)
 │   ├── compose-api-full.md           # Complete official API reference (10K+ lines)
 │   ├── design-tokens.md              # Color/typography/shape/motion/elevation tokens
 │   ├── components-catalog.md         # All components by category with M3/M3E tags
 │   ├── m3-vs-m3e-diff.md             # Differences + migration guide + IO2026 updates
 │   ├── expressive-design-tactics.md  # 7 expressive design tactics with guidance
 │   ├── design-research.md            # Color science, readability, motion patterns, a11y
-│   └── m3-content/                   # Mirror of m3.material.io (256 files)
+│   └── m3-content/                   # Mirror of m3.material.io (249 pages, 2026-09-14)
 │       ├── components/               # 37 components × overview/specs/guidelines/a11y
 │       ├── styles/                   # color, motion, shape, typography, spacing...
 │       └── foundations/              # layout, design tokens, watches, XR, a11y

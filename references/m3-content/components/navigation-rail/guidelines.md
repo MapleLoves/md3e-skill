@@ -1,20 +1,12 @@
-# Navigation rail – Material Design 3
-
-> 来源: https://m3.material.io/components/navigation-rail/guidelines
-
+---
+source: https://m3.material.io/components/navigation-rail/guidelines
+title: "Navigation rail"
+captured: 2026-09-14
 ---
 
 # Navigation rail
 
-Navigation rails let people switch between UI views on mid-sized devices
-
-## Navigation rail
-
-  * Usage
-  * Anatomy
-  * Placement
-  * Adaptive design
-  * Behavior
+> Navigation rails let people switch between UI views on mid-sized devices
 
 ![Colorful, purple navigation rail shown collapsed and expanded.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fueyh1-01.png?alt=media&token=c9edba18-9dee-44b1-9657-4dd1cdf2ff74)
 
@@ -22,15 +14,15 @@ Use the menu icon to transition between collapsed and expanded navigation rails
 
 ## Usage
 
-The navigation rail can display navigation items, a menu, and a  floating action button Floating action buttons (FABs) help people take primary actions.  [More on FABs](</m3/pages/fab/overview>) (FAB) in a vertical orientation.
+The navigation rail can display navigation items, a menu, and a floating action button Floating action buttons (FABs) help people take primary actions. [More on FABs](/m3/pages/fab/overview) (FAB) in a vertical orientation.
 
-There are two variants of navigation rails, **collapsed** and **expanded** , which can easily transform into each other when the menu button is selected.
+There are two variants of navigation rails, **collapsed** and **expanded**, which can easily transform into each other when the menu button is selected.
 
 ### Collapsed
 
 The **collapsed** nav rail runs along the leading edge of the window, and should contain 3–7 navigation items. It should not be hidden.
 
-It can be used in  medium Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation.  [More on medium window size class](</m3/pages/breakpoints/medium>) to  extra large window sizes Window widths 1600dp and larger, such as ultra-wide monitors.  [More on extra-large window size class](</m3/pages/breakpoints/large-extra-large>) , such as tablets and desktop. In  medium windows with few destinations, consider using a  navigation bar Navigation bars let people switch between UI views on smaller devices.  [More on navigation bars](</m3/pages/navigation-bar/overview>) instead.  Compact windows Window widths smaller than 600dp, such as a phone in portrait orientation.  [More on compact window size class](</m3/pages/breakpoints/compact>) should always use a navigation bar.
+It can be used in medium Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) to extra large breakpoints Window widths 1600dp and larger, such as ultra-wide monitors. [More on extra-large breakpoints](/m3/pages/breakpoints/large-extra-large) , such as tablets and desktop. In  medium windows with few destinations, consider using a navigation bar Navigation bars let people switch between UI views on smaller devices. [More on navigation bars](/m3/pages/navigation-bar/overview) instead. Compact windows Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) should always use a navigation bar.
 
 ![Collapsed navigation rail with “timer” icon on FAB.](https://lh3.googleusercontent.com/2h46aO3pI3H6sk6nAElUSXgQFeS-w8ASJc8WcVkSbZ4bM8FJoTDWdNodAqWyROvWADumQNodvIQiUGDoBjq162uNRm52qDDoSVxUvoCDeNDx=s0)
 
@@ -44,8 +36,8 @@ The **standard** configuration is placed beside body content. It’s best for l
 
 The **modal** configuration overlaps the body content, and should be opened from a menu icon. Use the modal configuration for:
 
-  * Information dense layouts where space is limited
-  * Products with many navigation items
+-   Information dense layouts where space is limited
+-   Products with many navigation items
 
 ![Expanded navigation rail shown expanded by default and expanded over screen content.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuf9qz-03.png?alt=media&token=3377b89c-7c1c-4a94-8282-d48530c4d81e)
 
@@ -63,26 +55,26 @@ The expanded navigation rail can also be hidden, appearing only when the menu ic
 
 ![10 elements of expanded and collapsed navigation rails.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fug0sy-05.png?alt=media&token=465bf07d-fe91-4cfa-97c3-e9624609ed50)
 
-  1. Container
-  2. Menu (optional)
+1.  Container
+2.  Menu (optional)
 
-  3. Floating action button (FAB) (optional)
+3.  Floating action button (FAB) (optional)
 
-  4. Icon - active
+4.  Icon - active
 
-  5. Label text - active
+5.  Label text - active
 
-  6. Active indicator
+6.  Active indicator
 
-  7. Icon - inactive
+7.  Icon - inactive
 
-  8. Large badge (optional)
+8.  Large badge (optional)
 
-  9. Large badge label
+9.  Large badge label
 
-  10. Small badge
+10.  Small badge
 
-  11. Label text - inactive
+11.  Label text - inactive
 
 ### Container
 
@@ -96,7 +88,7 @@ The navigation rail should be placed on the leading edge of the window
 
 The navigation rail should always run vertically along the side of a layout. Don’t make it horizontal.
 
-Use a  navigation bar Navigation bars let people switch between UI views on smaller devices.  [More on navigation bars](</m3/pages/navigation-bar/overview>) for horizontal navigation.
+Use a navigation bar Navigation bars let people switch between UI views on smaller devices. [More on navigation bars](/m3/pages/navigation-bar/overview) for horizontal navigation.
 
 ![Horizontal navigation rail on timer screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmacys6lz-07.png?alt=media&token=274b5d1b-6978-4123-9456-4a822df58bc7)
 
@@ -114,7 +106,7 @@ Top and center aligned rail destination placement
 
 ### Menu (optional)
 
-The menu button can transition between the **collapsed  **and **expanded** navigation rails.
+The menu button can transition between the **collapsed** and **expanded** navigation rails.
 
 Once expanded, the rail can reveal secondary destinations.
 
@@ -128,7 +120,7 @@ A navigation rail can expand to reveal more destinations
 
 The container of the navigation rail is ideal for anchoring the FAB to the top of a screen, placing the app’s key action above navigation destinations.
 
-When nested within another component, such as the navigation rail, the FAB's resting elevation should be [level 0](</m3/pages/elevation/applying-elevation>).
+When nested within another component, such as the navigation rail, the FAB's resting elevation should be [level 0](/m3/pages/elevation/applying-elevation).
 
 ![Navigation rail with a FAB button at the top of the screen.](https://lh3.googleusercontent.com/oYiKoFrv-NTEJMP1NoGGpnlw0RTHmfpGWDm7KmDgeKzvpXq6tMZvMjBzUcZkXpnEK2Lb_cbeWRkwS4i4RGn1zfW0N4RcwSGVgltbcvmD6vY=w40)
 
@@ -168,7 +160,7 @@ close Don’t
 
 Don’t use the active indicator for more than one navigation item at a time
 
-The active indicator hugs the label text in the expanded nav rail. To achieve a similar style to the baseline  navigation drawer Navigation drawers let people switch between UI views on larger devices. In the expressive update, use an expanded navigation rail.  [More on navigation drawers](</m3/pages/navigation-drawer/overview>) , consider modifying the active indicator to fill the container.
+The active indicator hugs the label text in the expanded nav rail. To achieve a similar style to the baseline  navigation drawer Navigation drawers let people switch between UI views on larger devices. In the expressive update, use an expanded navigation rail. [More on navigation drawers](/m3/pages/navigation-drawer/overview) , consider modifying the active indicator to fill the container.
 
 The target area should always span the full width.
 
@@ -182,7 +174,7 @@ Override the indicator to fill the container to more closely resemble the baseli
 
 ### Icons
 
-Navigation rail items must use icons that symbolize the content of their page. Browse popular icons on [Google Fonts](<http://fonts.google.com/icons>).
+Navigation rail items must use icons that symbolize the content of their page. Browse popular icons on [Google Fonts](http://fonts.google.com/icons).
 
 ![Navigation rail with icons that fit the destinations, like a timer icon and label leading to a timer feature.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuk4ze-17.png?alt=media&token=8210a6c6-b488-46e3-aa46-ec3c18a3021d)
 
@@ -236,7 +228,7 @@ In compact nav rails, the badge is placed in the upper right corner of the icon.
 
 ![Navigation rail with badges on each icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuomdi-23.png?alt=media&token=faa3cb30-f478-4450-946a-5be944155717)
 
-1\. Small badge on a rail destination
+1\. Small badge on a rail destination 
 2\. Large badge with a number
 3\. Large badge with a maximum character count
 
@@ -250,23 +242,23 @@ A divider can make the navigation rail container distinct from other on-screen c
 
 ## Placement
 
-In adaptive layouts, the navigation rail should be placed outside any  panes Panes are layout containers that house other components and elements within a single app. A pane can be: fixed, flexible, floating, or semi permanent.  [More on panes](</m3/pages/understanding-layout/parts-of-layout#73de653a-fc57-4a7c-bc3b-5b9e94207de8>) , always along the leading edge of the window. Don’t place it within body content.
+In adaptive layouts, the navigation rail should be placed outside any panes Panes are layout containers that house other components and elements within a single app. A pane can be: fixed, flexible, floating, or semi permanent. [More on panes](/m3/pages/understanding-layout/parts-of-layout#73de653a-fc57-4a7c-bc3b-5b9e94207de8) , always along the leading edge of the window. Don’t place it within body content.
 
 When the navigation rail is hidden, the body content can fill in the remaining space as long as the menu icon is still accessible.
 
-Tabs Tabs organize content across different screens and views.  [More on tabs](</m3/pages/tabs/overview>) can be used alongside a navigation rail to create an extra layer of visible navigation.
+Tabs Tabs organize content across different screens and views. [More on tabs](/m3/pages/tabs/overview) can be used alongside a navigation rail to create an extra layer of visible navigation.
 
 Expanded navigation rails can open from menu buttons on mobile
 
 ## Adaptive design
 
-For more, see [adaptive design](</m3/pages/layout-overview/adaptive-design/>).
+For more, see [adaptive design](/m3/pages/layout-overview/adaptive-design/).
 
 ### Resizing
 
-When moving from a large screen to a small screen, a navigation rail can transform into a navigation bar, providing the same quick access in a configuration that’s easier to use on smaller displays. Never use the navigation rail and navigation bar simultaneously.
+When moving from a large screen to a small screen, a navigation rail can transform into a navigation bar, providing the same quick access in a configuration that’s easier to use on smaller displays. Never use the navigation rail and navigation bar simultaneously. 
 
-Only use navigation rails for medium window size classes and larger. Don’t use a navigation bar. If there are more than five destinations, consider using a modal expanded nav rail instead.
+Only use navigation rails for medium breakpoints and larger. Don’t use a navigation bar. If there are more than five destinations, consider using a modal expanded nav rail instead.
 
 **Compact:** Don’t use a standard navigation rail for compact layouts due to space constraints. Use a navigation bar instead.
 
@@ -282,7 +274,7 @@ On smaller devices, use a navigation bar. On larger displays, use a navigation r
 
 When the navigation rail transitions from collapsed to expanded, the contents of the page should automatically adjust to fit.
 
-The contents of the navigation rail also expand to fill the space. For example, the FAB should transition into an extended FAB.
+The contents of the navigation rail also expand to fill the space. For example, the FAB should transition into an extended FAB. 
 
 Extra destinations can be shown in an expanded nav rail.
 
@@ -304,7 +296,7 @@ Elevating the rail to level 1 creates visual distinction between the rail and ho
 
 ### Selection
 
-When a destination is tapped, the destination screen uses a [top level](</m3/pages/motion-transitions/transition-patterns#f852afd2-396f-49fd-a265-5f6d96680e16>) transition pattern. In addition, the icon becomes filled and the active indicator expands from the center of the icon.
+When a destination is tapped, the destination screen uses a [top level](/m3/pages/motion-transitions/transition-patterns#f852afd2-396f-49fd-a265-5f6d96680e16) transition pattern. In addition, the icon becomes filled and the active indicator expands from the center of the icon.
 
 Tapping a destination uses a top level transition pattern
 
@@ -312,10 +304,10 @@ Tapping a destination uses a top level transition pattern
 
 On Android, a gesture called predictive back allows people to swipe left or right on the screen to go back or dismiss modal components.
 
-  * Previous screen is revealed in a preview to signal the destination
+-   Previous screen is revealed in a preview to signal the destination
 
-  * Predictive back only applies to the **modal expanded** navigation rail.
+-   Predictive back only applies to the **modal expanded** navigation rail.
 
-A list of compatible components is available on the [gestures page](</m3/pages/gestures/>).
+A list of compatible components is available on the [gestures page](/m3/pages/gestures/).
 
 The nav rail pops off the edge of the window during the predictive back gesture

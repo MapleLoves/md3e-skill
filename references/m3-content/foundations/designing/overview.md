@@ -1,14 +1,12 @@
-# Accessibility designing – Material Design 3
-
-> 来源: https://m3.material.io/foundations/designing/overview
-
+---
+source: https://m3.material.io/foundations/designing/overview
+title: "Designing"
+captured: 2026-09-14
 ---
 
 # Designing
 
-Implement intuitive, accessible layouts, considering structure, color, and flow
-
-[Overview](<foundations/designing/overview>)[Color contrast](<foundations/designing/color-contrast>)[Structure](<foundations/designing/structure>)[Flow](<foundations/designing/flow>)[Elements](<foundations/designing/elements>)
+> Implement intuitive, accessible layouts, considering structure, color, and flow
 
 Designing and implementing accessible product experiences involve a range of considerations. The framework Material uses draws on WCAG standards and industry best practices.
 
@@ -16,11 +14,11 @@ The three stages described in these tabs help **translate a visual UI into a tex
 
 ### Accessibility markup
 
-Accessibility markup is an integral part of creating documentation for design specs.
+Accessibility markup is an integral part of creating documentation for design specs. 
 
 ![Diagram of switches showing the Tab key changing the focus to the second switch and Space/Enter corresponding to changing the state of the switch. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3q0f4-1.png?alt=media&token=a37bea3d-6f1d-4f44-bd40-37433f843681)
 
-> 1\. Switch in the on state with visible focus
+> 1\. Switch in the on state with visible focus 
 
 > 2\. Switch in the off state with visible focus
 

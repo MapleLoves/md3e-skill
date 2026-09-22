@@ -1,19 +1,14 @@
-# Transitions – Material Design 3
-
-> 来源: https://m3.material.io/styles/motion/transitions/applying-transitions
-
+---
+source: https://m3.material.io/styles/motion/transitions/applying-transitions
+title: "Transitions"
+captured: 2026-09-14
 ---
 
 # Transitions
 
-Transitions help guide people as they navigate an app
+> Transitions help guide people as they navigate an app
 
-[Transition patterns](<styles/motion/transitions/transition-patterns>)[Applying transitions](<styles/motion/transitions/applying-transitions>)
-
-## Transitions
-
-  * What makes a good transition?
-  * Choosing a transition pattern
+star
 
 Note:
 
@@ -27,11 +22,11 @@ Well-designed transitions should have these characteristics:
 
 Most platforms have a reduced animation setting to help users with a sensitivity to motion. If that setting is on, transitions should:
 
-  * Use subtle fades instead of intense sliding or scaling animations
-  * Disable decorative effects like parallax or shape morphing
+-   Use subtle fades instead of intense sliding or scaling animations
+-   Disable decorative effects like parallax or shape morphing
 
-  1. Transitions with a default motion setting
-  2. Transitions with a reduced motion setting turned on
+1.  Transitions with a default motion setting 
+2.  Transitions with a reduced motion setting turned on
 
 ### Consistent
 
@@ -129,11 +124,11 @@ Consider the following to choose the right transition for a given use case:
 
 This pattern is highly effective at creating a relationship between elements. It's also the most dramatic pattern in terms of style and should be reserved for the right context. Consider using it for:
 
-  1. Hero moments that should be expressive
-  2. Shallow hierarchies where you expand an element for more detail then collapse it
-  3. Creating a seamless connection between elements
+1.  Hero moments that should be expressive
+2.  Shallow hierarchies where you expand an element for more detail then collapse it
+3.  Creating a seamless connection between elements
 
-**Read the research for the benefits of container transform**** [here](<https://material.io/blog/motion-research-container-transform>).**
+**Read the research for the benefits of container transform** **[here](https://material.io/blog/motion-research-container-transform).**
 
 check Do A container transform creates a clear connection between the thumbnail and expanded image. It also makes this hero transition more expressive.
 

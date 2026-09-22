@@ -1,18 +1,12 @@
-# Global writing – Material Design 3
-
-> 来源: https://m3.material.io/foundations/content-design/global-writing/overview
-
+---
+source: https://m3.material.io/foundations/content-design/global-writing/overview
+title: "Global writing"
+captured: 2026-09-14
 ---
 
 # Global writing
 
-Global writing is easier to read, understand, and translate. This guidance is for all American English that is localized.
-
-[Overview](<foundations/content-design/global-writing/overview>)[Word choice](<foundations/content-design/global-writing/word-choice>)
-
-## Global writing
-
-  * Overview
+> Global writing is easier to read, understand, and translate. This guidance is for all American English that is localized.
 
 ## Overview
 

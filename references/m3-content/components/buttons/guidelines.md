@@ -1,20 +1,12 @@
-# Buttons – Material Design 3
-
-> 来源: https://m3.material.io/components/buttons/guidelines
-
+---
+source: https://m3.material.io/components/buttons/guidelines
+title: "Buttons"
+captured: 2026-09-14
 ---
 
 # Buttons
 
-Buttons prompt most actions in a UI.
-
-## Buttons
-
-  * Usage
-  * Toggle buttons
-  * Anatomy
-  * Color styles
-  * Adaptive design
+> Buttons prompt most actions in a UI.
 
 ![Buttons in various shapes and sizes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmlqkp7g-01.png?alt=media&token=c1c12c3d-5ace-487d-b762-40d02f56a986)
 
@@ -24,23 +16,23 @@ Buttons and icon buttons come in many shapes, styles, and sizes
 
 Buttons communicate actions that people can take. They are typically placed throughout the UI, in places like:
 
-  * Dialogs Dialogs provide important prompts in a user flow.  [More on dialogs](</m3/pages/dialogs/overview>)
+-   Dialogs Dialogs provide important prompts in a user flow. [More on dialogs](/m3/pages/dialogs/overview)
 
-  * Modal windows
+-   Modal windows
 
-  * Forms
+-   Forms
 
-  * Cards Cards display content and actions about a single subject.  [More on cards](</m3/pages/cards/overview>)
+-   Cards Cards display content and actions about a single subject. [More on cards](/m3/pages/cards/overview)
 
-  * Toolbars Toolbars display frequently used actions relevant to the current page.  [More on toolbars](</m3/pages/toolbars/overview>)
+-   Toolbars Toolbars display frequently used actions relevant to the current page. [More on toolbars](/m3/pages/toolbars/overview)
 
-They can also be placed within  standard button groups Standard button groups add interactions between adjacent buttons when they're pressed.  [More on button groups](</m3/pages/button-groups/overview>) .
+They can also be placed within standard button groups Standard button groups add interactions between adjacent buttons when they're pressed. [More on button groups](/m3/pages/button-groups/overview) .
 
 Use visually-prominent filled buttons for the most important actions
 
 Buttons are just one option for representing actions in a product and shouldn’t be overused. Too many buttons on a screen can disrupt the visual hierarchy.
 
-Consider placing additional actions in a  navigation rail Navigation rails let people switch between UI views on mid-sized devices.  [More on navigation rail](</m3/pages/navigation-rail/overview>) , set of  chips Chips help people enter information, make selections, filter content, or trigger actions.  [More on chips](</m3/pages/chips/overview>) , text links, or  icon buttons Icon buttons help people take minor actions with one tap.  [More on icon buttons](</m3/pages/icon-buttons/overview>) .
+Consider placing additional actions in a navigation rail Navigation rails let people switch between UI views on mid-sized devices. [More on navigation rail](/m3/pages/navigation-rail/overview) , set of chips Chips help people enter information, make selections, filter content, or trigger actions. [More on chips](/m3/pages/chips/overview) , text links, or icon buttons Icon buttons help people take minor actions with one tap. [More on icon buttons](/m3/pages/icon-buttons/overview) .
 
 ![1 button placed on bottom right of screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmlqpj6e-03-do.png?alt=media&token=44ffcad0-9941-40c9-b81c-ed3a24c3da63)
 
@@ -76,20 +68,20 @@ A button container’s width shouldn’t be narrower than its label text
 
 A: Default button; B: Toggle (unselected); C: Toggle (selected) for five button styles, in order of emphasis:
 
-  1. Elevated button
+1.  Elevated button
 
-  2. Filled button
+2.  Filled button
 
-  3. Filled tonal button
+3.  Filled tonal button
 
-  4. Outlined button
-  5. Text button
+4.  Outlined button
+5.  Text button
 
-A  button group Button groups organize buttons and add interactions between them  [More on button groups](</m3/pages/button-groups/overview>) is a collection of buttons that relate to each other and can respond to one another. Both buttons and icon buttons can be used inside a button group.
+A button group Button groups organize buttons and add interactions between them [More on button groups](/m3/pages/button-groups/overview) is a collection of buttons that relate to each other and can respond to one another. Both buttons and icon buttons can be used inside a button group.
 
 In some cases, there are primary and secondary actions within a button group. Buttons with primary actions should have a higher visual emphasis through size, color, or shape.
 
-[More on button groups](</m3/pages/button-groups/overview>)
+[More on button groups](/m3/pages/button-groups/overview)
 
 ![Audio app with play, next, and back buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm3t81e1q-9.png?alt=media&token=e2b715eb-67a4-43b8-91c6-9636566aa8e5)
 
@@ -123,15 +115,15 @@ The label length shouldn’t change dramatically to be longer or shorter
 
 ![3 parts of a button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmlt6b63-13.png?alt=media&token=3e1cc932-b5a8-4073-895c-c9a82e440389)
 
-  1. Label text
-  2. Container
-  3. Icon (optional)
+1.  Label text
+2.  Container
+3.  Icon (optional)
 
 ### Label text
 
 Label text is the most important element of a button. It describes the action that will occur if someone taps a button. It should be very brief, ideally 1–3 words.
 
-Use sentence case, which only capitalizes the first word and proper nouns. This allows the text to distinguish proper nouns, for example: **Book with Flights** , not **BOOK WITH FLIGHTS**.
+Use sentence case, which only capitalizes the first word and proper nouns. This allows the text to distinguish proper nouns, for example: **Book with Flights**, not **BOOK WITH FLIGHTS**.
 
 Don’t truncate or wrap label text. It should always be fully visible on a single line.
 
@@ -221,7 +213,7 @@ Don’t use two icons in the same button
 
 ### Elevated style
 
-The **elevated** button style is the same as the tonal button, but with a shadow.
+The **elevated** button style is the same as the tonal button, but with a shadow. 
 
 To avoid overusing shadows, use the elevated style only when absolutely necessary, such as when the button requires visual separation from a visually prominent background.
 
@@ -239,7 +231,7 @@ Higher elevation increases the emphasis of a button
 
 ### Filled style
 
-The **filled** button style has the most visual impact after the  FAB Floating action buttons (FABs) help people take primary actions.  [More on FABs](</m3/pages/fab/overview>) , and should be used for important, final actions that complete a flow, like **Save** , **Join now** , or **Confirm**.
+The **filled** button style has the most visual impact after the FAB Floating action buttons (FABs) help people take primary actions. [More on FABs](/m3/pages/fab/overview) , and should be used for important, final actions that complete a flow, like **Save**, **Join now**, or **Confirm**.
 
 ![Filled button reading “Make payment.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmlz52ml-28.png?alt=media&token=fef70047-9440-457d-ae89-c447238d1115)
 
@@ -271,9 +263,9 @@ Outlined buttons pair well with filled buttons to indicate alternative, secondar
 
 Outlined buttons contain less important supporting actions
 
-Outlined buttons display a stroke around the button container, and have no fill by default.
+Outlined buttons display a stroke around the button container, and have no fill by default. 
 
-They should be placed on simple backgrounds, not visually prominent backgrounds such as images or videos.
+They should be placed on simple backgrounds, not visually prominent backgrounds such as images or videos. 
 
 ![Outlined button for “add to cart” in shopping app.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm0mtua-32.png?alt=media&token=d970ea42-6342-4a5d-a870-c2d815a4bd99)
 
@@ -295,13 +287,13 @@ The text button style should be used for the lowest priority actions, especially
 
 They should be placed on simple backgrounds, not visually prominent backgrounds such as images or videos. The container isn’t visible until someone interacts with the button.
 
-Don’t underline the text button. Use hyperlinked body text instead to emphasize links. [More on hyperlinks](</m3/pages/typography/applying-type#24856f70-f759-45df-a06c-92018f286083>)
+Don’t underline the text button. Use hyperlinked body text instead to emphasize links. [More on hyperlinks](/m3/pages/typography/applying-type#24856f70-f759-45df-a06c-92018f286083)
 
 ![Example calendar screen with 2 text buttons and 1 split button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm0q822-35.png?alt=media&token=5003669f-ec2e-46dc-980b-729d0e7b997d)
 
 Use text buttons for the lowest priority actions
 
-Text buttons are often placed within components such as  cards Cards display content and actions about a single subject.  [More on cards](</m3/pages/cards/overview>) ,  dialogs Dialogs provide important prompts in a user flow.  [More on dialogs](</m3/pages/dialogs/overview>) , and  snackbars Snackbars show short updates about app processes at the bottom of the screen.  [More on snackbars](</m3/pages/snackbar/overview>) . Since text buttons don’t have a visible container in their default  state States show the interaction status of a component or UI element.  [More on states](</m3/pages/interaction-states/overview>) , they don’t distract from nearby content.
+Text buttons are often placed within components such as cards Cards display content and actions about a single subject. [More on cards](/m3/pages/cards/overview) , dialogs Dialogs provide important prompts in a user flow. [More on dialogs](/m3/pages/dialogs/overview) , and snackbars Snackbars show short updates about app processes at the bottom of the screen. [More on snackbars](/m3/pages/snackbar/overview) . Since text buttons don’t have a visible container in their default state States show the interaction status of a component or UI element. [More on states](/m3/pages/interaction-states/overview) , they don’t distract from nearby content.
 
 However, since there’s no container, the label text color must always be recognizable from non-button text and elements.
 
@@ -357,7 +349,7 @@ close Don’t
 
 Don't ungroup the icon and label text or let them anchor to opposite sides of the button
 
-Buttons can be customized to change size and scaling behavior across different  window sizes Window size classes are opinionated breakpoints where layouts need to change to optimize for available space, device conventions, and ergonomics.  [More on window size classes](</m3/pages/breakpoints>) .
+Buttons can be customized to change size and scaling behavior across different breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) . 
 
 To avoid creating very long buttons in large windows, constrain button width or place buttons beside other elements.
 
@@ -369,7 +361,7 @@ Don’t allow the button to stretch in a way that creates long, flat buttons wit
 
 ### Presentation
 
-The size and placement of buttons can change as parent containers, such as cards, adapt for larger screens.
+The size and placement of buttons can change as parent containers, such as cards, adapt for larger screens. 
 
 Keep items, including buttons, in the same order between large and small screens to provide a consistent experience for screen readers and keyboard navigation.
 

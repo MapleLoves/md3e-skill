@@ -1,30 +1,23 @@
-# Badge – Material Design 3
-
-> 来源: https://m3.material.io/components/badges/accessibility
-
+---
+source: https://m3.material.io/components/badges/accessibility
+title: "Badges"
+captured: 2026-09-14
 ---
 
 # Badges
 
-Badges show notifications, counts, or status information on navigation items and icons
-
-## Badges
-
-  * Use cases
-  * Interaction & style
-  * Visual indicators
-  * Labeling elements
+> Badges show notifications, counts, or status information on navigation items and icons
 
 ## Use cases
 
 People should be able to use assistive technology to:
 
-  * Understand the dynamic information conveyed in badges, such as counts or labels
-  * Address badge announcements by selecting corresponding navigation destinations
+-   Understand the dynamic information conveyed in badges, such as counts or labels
+-   Address badge announcements by selecting corresponding navigation destinations
 
 ## Interaction & style
 
-Badges are most commonly used within other components, such as  navigation bar Navigation bars let people switch between UI views on smaller devices.  [More on navigation bars](</m3/pages/navigation-bar/overview>) ,  navigation rail Navigation rails let people switch between UI views on mid-sized devices.  [More on navigation rails](</m3/pages/navigation-rail/overview>) ,  app bars App bars display navigation, actions, and text at the top of a screen.  [More on app bars](</m3/pages/app-bars/overview>) , and  tabs Tabs organize content across different screens and views.  [More on tabs](</m3/pages/tabs/overview>) .
+Badges are most commonly used within other components, such as navigation bar Navigation bars let people switch between UI views on smaller devices. [More on navigation bars](/m3/pages/navigation-bar/overview) , navigation rail Navigation rails let people switch between UI views on mid-sized devices. [More on navigation rails](/m3/pages/navigation-rail/overview) , app bars App bars display navigation, actions, and text at the top of a screen. [More on app bars](/m3/pages/app-bars/overview) , and tabs Tabs organize content across different screens and views. [More on tabs](/m3/pages/tabs/overview) .
 
 When a badge is used to indicate an unread notification, the badge gets hidden once it's selected.
 
@@ -46,7 +39,7 @@ Avoid using custom color roles for the badge container and label text. If custom
 
 ## Labeling elements
 
-The  accessibility Accessible design makes products usable for people with all kinds of abilities.  [More on accessibility](</m3/pages/overview/principles>) label for a badge item will be read after its navigation destination. Any numerical badges will have their number read, while non-counting badges will simply announce **New notification**.
+The accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/overview/principles) label for a badge item will be read after its navigation destination. Any numerical badges will have their number read, while non-counting badges will simply announce **New notification**.
 
 ![Navigation bar highlighting numerical badge.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme8l8lhl-04.png?alt=media&token=99d7e919-9bb3-45ed-a8b9-b961d31ef91c)
 

@@ -1,19 +1,14 @@
-# Spacing - Material Design 3
-
-> 来源: https://m3.material.io/styles/spacing/tokens
-
+---
+source: https://m3.material.io/styles/spacing/tokens
+title: "Spacing"
+captured: 2026-09-14
 ---
 
 # Spacing
 
-Spacing is the distance around and between component and layout elements
+> Spacing is the distance around and between component and layout elements
 
-[Overview](<styles/spacing/overview>)[Applying spacing](<styles/spacing/applying-spacing>)[Tokens](<styles/spacing/tokens>)
-
-## Spacing
-
-  * System spacing tokens
-  * Component spacing
+star
 
 Note:
 
@@ -21,45 +16,11 @@ The spacing system tokens are only used on Jetpack Compose.
 
 ## System spacing tokens
 
-0  Space 0
+Close
 
-2dp  Space 25
+System spacing tokens are a linear range of spacing values recommended by Material. They’re intended to cover the majority of spacing needs within the design system. The base unit of measurement **md.sys.measurement.space100** is **8dp**. [Learn more about design tokens](/m3/pages/design-tokens/overview/)
 
-4dp  Space 50
-
-6dp  Space 75
-
-8dp  Space 100
-
-10dp  Space 125
-
-12dp  Space 150
-
-14dp  Space 175
-
-16dp  Space 200
-
-20dp  Space 250
-
-24dp  Space 300
-
-32dp  Space 400
-
-36dp  Space 450
-
-40dp  Space 500
-
-48dp  Space 600
-
-56dp  Space 700
-
-64dp  Space 800
-
-72dp  Space 900
-
-System spacing tokens are a linear range of spacing values recommended by Material. They’re intended to cover the majority of spacing needs within the design system. The base unit of measurement **md.sys.measurement.space100** is **8dp**. [Learn more about design tokens](</m3/pages/design-tokens/overview/>)
-
-![The spacing system tokens, built from 8dp \(1x\). The range covers 0x to 9x.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp47oayx-01.png?alt=media&token=6b2b9e59-81db-4010-9252-c23b0029f8d1)
+![The spacing system tokens, built from 8dp (1x). The range covers 0x to 9x.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp47oayx-01.png?alt=media&token=6b2b9e59-81db-4010-9252-c23b0029f8d1)
 
 The main spacing units are multiples of 8dp
 
@@ -77,10 +38,10 @@ Most Material component spacing attributes will map to system spacing tokens. Sp
 
 Component attributes follow a new naming strategy:
 
-  * Going forward, all component spacing attributes will use **padding** , **margin** , and **gap** , and positional language: **horizontal** , **vertical** , **leading** , **trailing** , **top** , and **bottom**
+-   Going forward, all component spacing attributes will use **padding**, **margin**, and **gap**, and positional language: **horizontal**, **vertical**, **leading**, **trailing**, **top**, and **bottom**
 
-    * Example: “Medium button: leading padding”
+    -   Example: “Medium button: leading padding”
 
-  * Past component spacing tokens use “**space** ” to describe all padding, gaps, and margins, like **leading-space** , **trailing-space** , **top-space** , **bottom-space** , and **between-space**.
+-   Past component spacing tokens use “**space**” to describe all padding, gaps, and margins, like **leading-space**, **trailing-space**, **top-space**, **bottom-space**, and **between-space**.
 
-    * Example: “Medium button: leading space”
+    -   Example: “Medium button: leading space”

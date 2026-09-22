@@ -1,27 +1,19 @@
-# Tooltips – Material Design 3
-
-> 来源: https://m3.material.io/components/tooltips/accessibility
-
+---
+source: https://m3.material.io/components/tooltips/accessibility
+title: "Tooltips"
+captured: 2026-09-14
 ---
 
 # Tooltips
 
-Tooltips display brief labels or messages
-
-## Tooltips
-
-  * Use cases
-  * Interaction & style
-  * Focus order
-  * Keyboard navigation
-  * Labeling elements
+> Tooltips display brief labels or messages
 
 ## Use cases
 
 People should be able to do the following using assistive technology:
 
-  * Receive a tooltip message
-  * Activate a tooltip with a keyboard or switch input
+-   Receive a tooltip message
+-   Activate a tooltip with a keyboard or switch input
 
 ## Interaction & style
 
@@ -45,30 +37,30 @@ Rich tooltips can appear when an element is selected
 
 ## Focus order
 
-Tooltip containers should not block important information or prevent a person from completing an action.
+Tooltip containers should not block important information or prevent a person from completing an action. 
 
-Focus order within the rich tooltip moves top to bottom between interactive elements.
+Focus order within the rich tooltip moves top to bottom between interactive elements. 
 
 Avoid trapping screen reader and keyboard focus on rich tooltips.
 
 People should be able to move linearly through the rest of the page.
 
-![Different elements of a rich tooltip are given a focus order, moving from parent element to inline link to text button.](https://lh3.googleusercontent.com/KCWqivAVbjIzMGBp1AVQbceVT02tQdKQSNJOd-FA_ARUYwMLQX2GUYZi55K0wxG_c2dYdGFnsBnB-_1n-m8thxhCgVavyU0W9_Dz5C9aVBLEdA=s0)
+![Different elements of a rich tooltip are given a focus order, moving from parent element to inline link to text button.](https://lh3.googleusercontent.com/KCWqivAVbjIzMGBp1AVQbceVT02tQdKQSNJOd-FA_ARUYwMLQX2GUYZi55K0wxG_c2dYdGFnsBnB-_1n-m8thxhCgVavyU0W9_Dz5C9aVBLEdA=w40)![Different elements of a rich tooltip are given a focus order, moving from parent element to inline link to text button.](https://lh3.googleusercontent.com/KCWqivAVbjIzMGBp1AVQbceVT02tQdKQSNJOd-FA_ARUYwMLQX2GUYZi55K0wxG_c2dYdGFnsBnB-_1n-m8thxhCgVavyU0W9_Dz5C9aVBLEdA=s0)
 
-  1. Parent element
-  2. Inline link
-  3. Text button
+1.  Parent element
+2.  Inline link
+3.  Text button
 
 ## Keyboard navigation
 
-**Keys**| **Actions**
----|---
-**Tab**|  Focus lands on button, if available
-**Space** or **Enter**|  Activates the focused element
+| **Keys** | **Actions** |
+| --- | --- |
+| **Tab** | Focus lands on button, if available |
+| **Space** or **Enter** | Activates the focused element |
 
 ## Labeling elements
 
-Tooltips should have the **Tooltip** role, or similar.
+Tooltips should have the **Tooltip** role, or similar. 
 
 Label all elements in the tooltip according to their own accessibility guidance.
 

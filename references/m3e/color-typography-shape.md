@@ -1,122 +1,74 @@
-# M3E 颜色 / 排版 / 形状
+# 色彩、排版、形状与空间的设计语言
 
-核对日期：**2026-09-14**
-来源：Compose 中的 Material Design 3（官方，页面更新 2026-09-08）✅ +
-Compose Material 3 版本说明（页面更新 2026-09-09）✅
+[English](color-typography-shape.en.md)
 
----
+本文为设计判断笔记；角色与规格以链接的官方快照为依据，情境建议为本 Skill 的提炼。
+精确值按需查 [设计 Token](../design-tokens.md)，不预设任何实现框架。
 
-# 一、颜色系统
+## 先确定表达关系
 
-## 1.1 结构
+颜色、文字、形状和空间应共同说明内容的重要性、归属与状态。先确定主要信息和操作，
+再选择哪些维度负责强调。需要突出一个操作时，可以先改变位置或留白，再判断是否还
+需要更鲜明的颜色与形状，避免所有维度同时争夺注意力。
 
-- 基础是 **5 种关键颜色**（primary / secondary / tertiary / error / neutral 系），
-  每种对应一个**含 13 种色调（tone）的调色板** ✅
-- 角色语义：
+## 色彩：角色先于色值
 
-| 角色 | 用途 |
-| --- | --- |
-| `primary` | 主要组件（主按钮、选中态、强调） |
-| `secondary` | 次要组件（过滤标签等不显眼处） |
-| `tertiary` | 对比强调色 |
-| `error` | 错误态 |
-| `surface` / `surfaceVariant` / `surfaceContainer*` | 容器与背景 |
-| `onXxx` | 叠在 `Xxx` **之上**的前景色（文本/图标） |
-| `XxxContainer` / `onXxxContainer` | 容器样式组件（FilledCard、Chip 等） |
+- 用主色及其对应内容色表达关键操作；用容器色、表面色和次级内容色组织背景关系。
+  不要把每个区块都填成高强调色，也不要用颜色序号直接代表固定的业务等级。
+- 明确颜色用于品牌、交互、状态还是信息分组。同一颜色不要在相邻位置承担互相冲突
+  的含义；错误或成功信息还需有文字、图标或其他可理解的提示。
+- 浅色与深色模式保持语义和可读性，不要求每个区域色值相同。固定色角色只在需要
+  跨明暗保持色调时考虑，并检查它与周围表面的关系；不把它等同于锁定品牌色。
+- 使用项目已有生成器和主题配置提供的颜色角色。关注实际前景与背景的组合、透明度
+  和状态变化，不在本 Skill 内重新生成整套主题代码。
 
-- 访问：`MaterialTheme.colorScheme.primary`。
+假设一个页面有主要提交操作和次要帮助入口：表达层级的目标是让提交容易定位，同时
+帮助仍可发现；不能简单把后者变成低对比文字。
 
-## 1.2 动态取色
+依据：[颜色角色](../m3-content/styles/color/roles.md)、
+[选择配色方案](../m3-content/styles/color/choosing-a-scheme.md)。
 
-见 `design-system.md` 第四节（API 31+、`dynamicLightColorScheme` / `dynamicDarkColorScheme`、
-必须回退、成对使用）。
+## 排版：让内容拥有可读的结构
 
-## 1.3 生成配色方案
+用显示、标题、正文、标签等语义角色区分内容，而不是为每一段文字创造新样式。
+强化排版应服务于真实的重要性：关键数字可以获得更强强调，长段正文则需要稳定节奏。
 
-官方工具 **Material Theme Builder** 可从品牌源色生成并导出 Compose 代码，产物为两个文件 ✅：
+字重、字号、宽度和行距应协同考虑。可变字体提供更多表达空间，但并非 M3E 的使用
+前提；先确认项目字体支持目标语言，再判断字体变化是否值得。中文、长标签和多语言
+混排不能直接照搬英语示例的密度与断行。
 
-- `Color.kt`：浅色/深色主题的全部颜色与角色定义；
-- `Theme.kt`：`lightColorScheme` / `darkColorScheme` 与主题设置。
+检查真实内容、文字放大和较窄空间下的阅读关系。显示字号适合短的重点信息，不宜
+为了表现力把整页正文都做成展示性文字。
 
-## 1.4 版本相关的颜色行为变更（踩坑清单）
+依据：[应用排版](../m3-content/styles/typography/applying-type.md)、
+[编辑式排版](../m3-content/styles/typography/editorial-treatments.md)、
+[字体](../m3-content/styles/typography/fonts.md)。
 
-| 版本 | 变更 | 影响 |
-| --- | --- | --- |
-| 1.2.0-alpha08 | `ColorScheme` 变为**不可变** | 不能再在运行时改字段，必须重建 |
-| 1.3.0 | 组件默认使用 **`SurfaceContainer` 变体，不再受色调海拔影响** | 旧版靠 `tonalElevation` 拉开的层级差会消失，需改用正确的 `surfaceContainer` 角色 |
-| 1.3.0 | 焦点态叠加层改为 **0.1f**；`lightColorScheme`/`darkColorScheme` 的 Surface 与背景色微调 | 视觉回归时先怀疑这里 |
-| 1.4.0 | `NavigationBarItem` / `NavigationRailItem` 选中标签色从 **`onSurface` → `secondary`** | 需恢复时手动设 `selectedTextColor = MaterialTheme.colorScheme.onSurface` |
-| 1.5.0-alpha18 | 新增 `expressiveLightColorScheme` | alpha，谨慎采用 |
+## 形状：以差异表达关系
 
----
+让重复形状形成家族感，把有目的的差异留给需要强调或区分的内容。圆润、方正和抽象
+轮廓可以组合使用，但差异应帮助识别层级、类别或交互，而不是随机换圆角。
 
-# 二、排版系统
+区分内容裁切、容器轮廓和交互目标：装饰性的图片遮罩不自动成为合适的按钮形状。
+形变用于表达状态或对象之间的关系时，应保证文字和可操作区域稳定、清楚。
 
-## 2.1 字阶
+依据：[形状原则](../m3-content/styles/shape/overview-principles.md)、
+[形变](../m3-content/styles/shape/shape-morph.md)。
 
-**5 类 × 3 号 = 15 个样式** ✅：Display / Headline / Title / Body / Label，各含 Large / Medium / Small。
+## 空间与容器：组织阅读节奏
 
-默认值示例（官方文档列出）✅：
+留白、对齐和邻近关系本身就能分组。需要更明确边界时再采用表面色、容器或分隔，
+不要把每一句文字都装入卡片。容器内部的内容应存在可解释的关联。
 
-| 样式 | 字体 | 字号 / 行高 |
-| --- | --- | --- |
-| `displayLarge` | Roboto | 57 / 64 |
-| `bodyLarge` | Roboto | 16 / 24 |
-| `labelSmall` | Roboto Medium | 11 / 16 |
+密度服从任务：用于比较的数据需要同时可见，用于浏览的内容可以有更宽松的节奏。
+适配不同尺寸时保持阅读与任务顺序，按内容关系重组，而不是单纯拉伸。
 
-访问：`MaterialTheme.typography.titleLarge`。
+依据：[间距](../m3-content/foundations/layout/grids-spacing/spacing.md)、
+[密度](../m3-content/foundations/layout/grids-spacing/density.md)、
+[自适应设计](../m3-content/foundations/layout/layout-overview/adaptive-design.md)。
 
-## 2.2 关键差异与变更
+## 与 UI Kit 协同
 
-| 项 | 说明 |
-| --- | --- |
-| **M3 `Typography` 没有 `defaultFontFamily`** | 与 M2 不同，必须**逐个 `TextStyle`** 设置 `fontFamily` ✅ |
-| 1.2.0-alpha03 起 | `includeFontPadding` 默认 **`false`**；行高样式改为 `Trim.None` + `Alignment.Center` ✅ |
-| 动态尺寸类别 | 同一字阶在不同设备上下文**可分配不同值**（如手机 vs 平板），是 M3 跨设备缩放的基础 ✅ |
-| 可变字体轴 | M3E 的排版更简单，靠**可变字体轴**增强表现力 ⚠️（来自 Wear 文档的 M3E 描述，移动侧规范细节待查） |
-| font variation settings | Compose 1.12 起可下载字体支持 **font variation settings** ✅ |
-| 大字号适配 | 无障碍要求下必须验证系统字号放大后的布局（截断、溢出） |
-
----
-
-# 三、形状系统
-
-## 3.1 五档圆角
-
-| 档位 | 示例值（官方文档） |
-| --- | --- |
-| `extraSmall` | 4dp |
-| `small` | 8dp |
-| `medium` | 12dp |
-| `large` | 16dp |
-| `extraLarge` | 24dp |
-
-均为 `RoundedCornerShape`；另有 `RectangleShape`、`CircleShape`。
-访问：`MaterialTheme.shapes.medium`，或按组件单独指定。
-
-## 3.2 M3E 的形状表现力
-
-- M3E 把**形状**提升为重要的表现手段（形状对形状的过渡/形变）。
-- 规范侧的"35 种形状集"等细节 ⚠️ 需在 `m3.material.io` 的 Shape 章节确认。
-- Compose 侧相关能力：
-  - `MaterialShapes`（形状集合）与 `MaterialShapes.toShape()` 等 API 属较新版本能力，
-    **使用前先确认当前 `material3` 版本是否包含** ⚠️；
-  - 1.4.0-alpha01 起 `AnimatedPane` 支持形状（伴随窗格转场做形变）✅。
-
-## 3.3 实践约定
-
-- **只用主题里的五档**，不在业务代码里写 `RoundedCornerShape(7.dp)` 之类的魔法值。
-- 组件级自定义通过 `XxxDefaults.shape` / 组件参数覆盖，不修改全局 `MaterialTheme.shapes`。
-- 需要形变动画时，用 `animate*AsState` 配合 `Shape` 类型的插值，不要在每次重组时新建 `Shape` 对象。
-
----
-
-# 四、三者的组合原则
-
-| 原则 | 说明 |
-| --- | --- |
-| 颜色表达**语义** | 用角色名（primary / error）而不是具体色值，保证动态取色与深色模式自动生效 |
-| 排版表达**层级** | 用字阶建立信息层级，不靠增大字号硬调 |
-| 形状表达**分组与亲和度** | 容器越大用越大圆角；同一层级的卡片圆角必须一致 |
-| 动效表达**因果** | 元素从哪里来回到哪里去（见 `motion-physics.md`） |
-| 三者都要**可被主题覆盖** | 业务组件禁止硬编码色值/字号/圆角 |
+优先使用合适的 Kit 样式和语义 Token。若需要新的组合，沿用项目的角色与节奏，并说明
+偏离默认样式的目的。具体数值服从选用的规范、字体、组件和平台单位，不能把实现库
+中的默认值当作跨平台的全部设计规则。

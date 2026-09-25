@@ -1,158 +1,69 @@
-# M3E 组件清单
+# 组件选型、UI Kit 与自主设计
 
-核对日期：**2026-09-14**
-来源：Compose Material 3 官方版本说明（https://developer.android.com/jetpack/androidx/releases/compose-material3，
-页面更新 2026-09-09）✅
+[English](components.en.md)
 
-**读法说明**：括号里的 `alphaNN` 是"该 API 从实验性毕业"的版本。
-`1.4.0` 是当前**稳定线**，`1.5.0-alphaNN` 是 **alpha 线**。
-要判断某个组件能否用，先看它在哪条线上。
+本文是本 Skill 的设计判断指南。组件名用于表达设计模式，不代表必须采用同名 API。
+具体组件规范见 [组件目录](../components-catalog.md)。
 
----
+## 先理解资源，再判断是否适用
 
-> 📌 **版本策略**：本项目**采用最新版本（含 Alpha/Beta/RC）**——
-> `material3 = 1.5.0-alpha28`，因此下文所有"alpha 线"组件**都在我们的可用范围内**。
-> 见 `../version-baseline.md`。第 11 节的"采用建议"已按此更新。
+UI Kit 指项目实际提供或指定的组件、样式、资产和模式。先查项目已有界面与资源，
+确认候选组件的用途、状态、组合方式和定制边界。记录真实可用的资源名称；没有看到
+对应资源时，不要声称已经复用或断言 Kit 完全没有该能力。
 
-## 一、按钮与操作
+判断匹配程度时关注：
 
-| 组件 | 状态 | 说明 |
+| 维度 | 判断问题 |
+| --- | --- |
+| 语义 | 它表示操作、导航、选择、输入，还是状态？与当前需求一致吗？ |
+| 行为 | 即时生效还是提交后生效？单选还是多选？是否会打断当前任务？ |
+| 信息 | 能否容纳实际文案、数据密度、语言长度及需要同时比较的内容？ |
+| 状态 | 当前任务需要的选中、焦点、加载、空态、错误或恢复状态是否明确？ |
+| 视觉语言 | 强调程度、形状、颜色与周围界面的角色和节奏是否协调？ |
+| 使用情境 | 是否适合目标屏幕、输入方式、辅助技术与响应式需求？ |
+
+不必为每个简单按钮输出这张表；用真正影响选择的条件作判断。
+
+## 四种情形
+
+| 情形 | 处理方式 | 需要说明的要点 |
 | --- | --- | --- |
-| `ToggleButton` 系列 | 1.4.0-alpha19 稳定 | M3E 新增的切换按钮 |
-| `FilledTonalToggleButton` | alpha25 重命名 | 原名 `TonalToggleButton` |
-| `ButtonGroup` | 1.4.0-alpha22 稳定 | 按钮组；alpha25 起 `ButtonGroupScope` 改为 **sealed interface**，`Modifier.animateWidth` 拆成两个重载 |
-| `SplitButton` | 1.4.0-alpha20 转非实验 | alpha25 起 **弃用 `SplitButtonLayout`**，统一用 `SplitButton` |
-| FAB 与 **FAB Menu** | 1.4.0-alpha19 毕业 | FAB 展开菜单是 M3E 的标志性交互 |
-| `ExtendedFloatingActionButton` / `Button` / `TextButton` | 稳定 | 强调程度递减的三档（传统 M3） |
+| 有合适内容 | 采用 UI Kit 对应组件、样式或模式 | 关键位置复用了什么，以及它为何符合任务 |
+| 部分合适 | 在允许的定制范围内调整，或组合合适的基础内容 | 调整解决了什么差异，原有行为与语义是否保留 |
+| 没有合适内容 | 根据任务、规范和设计语言提出自己的设计 | 现有模式的具体不足、新设计的用途与重要状态 |
+| 资源不可见或未指定 | 区分信息不足与实际缺失；查项目惯例或说明假设后推进 | 不虚构 Kit 名称；只有影响关键决策时才请求资源信息 |
 
----
+“没有现成完整组件”不等于每个部分都要重做。可以原创内容组织与交互组合，同时复用
+匹配的按钮、文字样式、图标和反馈模式。也不要为了使用 Kit 而扭曲用户任务。
 
-## 二、应用栏与工具栏
+## 自定义设计的成立条件
 
-| 组件 | 状态 | 适用 |
-| --- | --- | --- |
-| `TopAppBar` | 稳定 | 传统小号 |
-| `MediumFlexibleTopAppBar` | 1.5.0-alpha23 毕业 | 中大号 + 可折叠（flexible） |
-| `LargeTopAppBar` | 稳定 | 大号 |
-| `LargeFlexibleTopAppBar` | 1.5.0-alpha23 毕业 | 大号 + 可折叠 |
-| `TwoRowsTopAppBar` | 1.5.0-alpha23 毕业 | 双行 |
-| `FlexibleBottomAppBar` | 1.5.0-alpha23 毕业 | 可折叠底部栏 |
-| `FloatingToolbar` | 1.5.0-alpha22 非实验 | 悬浮工具栏 |
-| `AppBarWithSearch` | alpha02 引入 | **替代 `TopSearchBar`** |
+把 Kit 无法满足的需求具体化：例如需要同时比较、持续编辑、显示多维状态，或保持
+操作与目标对象的关联。基于这些需求选择布局和交互关系，再决定表现方式。
 
-> 1.5.0-alpha27：`TopAppBarDefaults` 中 `pinnedScrollBehavior` / `enterAlwaysScrollBehavior`
-> 的**旧重载被移除**；`LocalMotionScheme` 移除，改用 `MaterialTheme.motionScheme`。
+保留与项目共享的颜色角色、文字层级、空间节奏和状态语言。对于新的交互，说明输入、
+结果、反馈、退出或恢复方式；覆盖实际需要的状态，不要求无关状态凑齐清单。用相关
+Material 规范支持决策，原创部分明确为项目方案，不包装成官方组件或已验证的模式。
 
----
+## 例子
 
-## 三、搜索
+- **复用：** 设置项控制一个立即生效的开关状态，Kit 中已有符合平台行为的开关与标签，
+  应直接采用，并保持标签含义与状态反馈清楚。
+- **调整与组合：** 筛选区需要多选和已选状态，Kit 有合适的筛选标签，可组合出区域和
+  清除操作；不应仅因为外形相近而套用表示互斥选择的模式。
+- **自主设计：** 排班界面需要同时比较多人时间段，现有 Kit 只有列表和卡片。可以设计
+  带明确时间轴、选区和冲突反馈的排班区域，复用合适的文字、按钮与浮层样式，并考虑
+  键盘或其他等效操作。不要把并行比较强行改成逐卡翻阅。
 
-| 组件 | 状态 |
-| --- | --- |
-| `SearchBarState` + 基于 slot 的 `SearchBar` API | **1.5.0-alpha24 稳定**；旧的扩展 / `onExpandedChange` API 弃用 |
-| `ExpandedDockedSearchBarWithGap` | 1.5.0-alpha23 非实验 |
-| `ExpandedFullScreenContainedSearchBar` | 1.5.0-alpha23 非实验 |
-| `rememberWithGapSearchBarState` | alpha18 重命名为 `rememberSearchBarWithGapState` |
+这些例子用于展示推理依据，具体方案取决于项目，而不是新的通用组件要求。
 
----
+## 交付与复核
 
-## 四、时间与选择器
+交付用户要求的设计或实现。对重要选择给出简短、可审阅的理由；若请求的是代码，
+按项目真实技术栈实现。检查新组合是否仍然容易理解和操作，是否把缺失行为隐藏在
+漂亮的静态样式之后。说明实际验证内容，不宣称未经执行的交互或用户测试已经通过。
 
-| 组件 | 状态 |
-| --- | --- |
-| Expressive `TimePicker` 滚动变体 | alpha03 引入；alpha24 新增滚动变体 |
-| `VibrantTimePickerDialog` | alpha27 由 `RichTimePickerDialog` 重命名；`richColors` → `vibrantColors` |
-| `Slider` / `RangeSlider` | alpha28：**无状态重载弃用**，改用有状态版本；`RangeSliderState.activeRangeStart/End` → `startValue/endValue` |
-
----
-
-## 五、菜单
-
-| 组件 | 状态 |
-| --- | --- |
-| `SelectableDropdownMenuItem` / `CheckableDropdownMenuItem` | 1.5.0-alpha27 新增 |
-| `MenuDefaults.itemVibrantColors()` | 提供鲜艳的 `MenuItemColors` |
-| Expressive 菜单 API | alpha19 起提升；**移除旧的实验性 `DropdownMenuItem`** |
-| `ExposedDropdownMenu` | alpha26：由成员改为 `ExposedDropdownMenuBoxScope` 的**扩展函数**，需要更新 import |
-
----
-
-## 六、列表项
-
-| 组件 | 状态 |
-| --- | --- |
-| Expressive `ListItem` | 支持互动与分段样式；alpha11 新增 `ListItemColors` 字段 |
-| 非互动变体 | alpha23 引入（标准 / 分段），**旧的非表达性版本弃用** |
-
----
-
-## 七、容器与浮层
-
-| 组件 | 状态 |
-| --- | --- |
-| 多宽高比 **Carousel** | alpha10 正式支持；alpha28 简化为全局 `carouselParallaxScrollEffect` 修饰符 |
-| **Scrim** | alpha15 引入，用于模态组件 |
-| 独立静态 **Sheet** | alpha15 引入 |
-| `ModalBottomSheet` | alpha20：`rememberModalBottomSheetState` / `rememberStandardBottomSheetState` **弃用**，统一为 `rememberBottomSheetState`；alpha09 移除旧的实验性 API |
-| `material3-ripple` | alpha24 新增独立库：**用内嵌焦点环替代不透明度层** |
-
----
-
-## 八、传统 M3 组件（稳定可用的基本盘）
-
-`Scaffold`、`Surface`、`Card`（含 `CardDefaults.cardColors/cardElevation`）、
-`Button` / `OutlinedButton` / `TextButton` / `IconButton` / `FilledIconButton`、
-`Chip`（`AssistChip` / `FilterChip` / `InputChip`）、`Checkbox` / `RadioButton` / `Switch`、
-`Slider`、`Divider`、`Badge`、`Snackbar`、`AlertDialog`、
-`DropdownMenu`、`ExposedDropdownMenuBox`、`ModalBottomSheet`、
-`NavigationBar` / `NavigationRail` / `NavigationDrawer` / `PermanentNavigationDrawer`、
-`PullToRefreshBox` / `Modifier.pullToRefresh`、`LinearProgressIndicator` / `CircularProgressIndicator`。
-
-> ⚠️ PullToRefresh 在 **1.3.0** 大改：`PullToRefreshState` 简化（用小数而非 `Dp`）、
-> `isRefreshing` 由用户控制、嵌套滚动分离到 `PullToRefreshBox` 或 `Modifier.pullToRefresh`。
-
----
-
-## 九、自适应相关组件（本项目底座的核心）
-
-| 组件 | 库 | 说明 |
-| --- | --- | --- |
-| `NavigationSuiteScaffold` | `material3-adaptive-navigation-suite` | 按窗口尺寸自动切换形态。⚠️ **1.5.0-alpha28 起实际渲染的是新组件**：Compact → `ShortNavigationBarCompact`（`ShortNavigationBar` 竖排条目）、其余 → `WideNavigationRailCollapsed`；旧的 `NavigationBar`/`NavigationRail`/`NavigationDrawer` 三个类型已标注"不推荐"。详见 `../m3-content/foundations/layout/scaffold/overview.md` |
-| `ListDetailPaneScaffold` / `NavigableListDetailPaneScaffold` | `adaptive-layout` / `adaptive-navigation` | 列表-详情规范布局 |
-| `SupportingPaneScaffold` / `NavigableSupportingPaneScaffold` | 同上 | 主窗格 + 支持窗格 |
-| `ThreePaneScaffold` 抽象 | `adaptive-layout` | 三窗格基架（含 navigator / state / predictive back handler） |
-| `AnimatedPane` | `adaptive-layout` | 窗格默认动画；1.4.0-alpha01 起支持形状 |
-| `HingeInfo` / `Posture` | `adaptive` | 铰链与设备姿态（折叠屏） |
-
-> 自适应布局规范见 `../m3-content/foundations/layout/`。
-
----
-
-## 十、选型速查
-
-| 需求 | 首选 | 备注 |
-| --- | --- | --- |
-| 主操作 | `Button` / `FilledTonalButton` | 一个屏幕**只放一个**最强强调按钮 |
-| 相关操作组合 | `ButtonGroup` | 5.0-alpha 线 |
-| 主操作 + 附加菜单 | `SplitButton` | 同上 |
-| 顶部标题 + 滚动折叠 | `MediumFlexibleTopAppBar` / `LargeFlexibleTopAppBar` | 需按窗口高度决定是否折叠（见 `../m3-content/foundations/layout/breakpoints/overview.md`） |
-| 底部常驻操作栏 | `FlexibleBottomAppBar` | 小屏比 TopAppBar 更易触达 |
-| 全屏/侧边导航 | `NavigationSuiteScaffold` | 不要手写三种导航的判断 |
-| 搜索 | slot 版 `SearchBar` + `SearchBarState` | 旧 API 已弃用 |
-| 切换态（如"显示隐藏文件"） | `Switch`（设置项）/ `ToggleButton`（工具条） | — |
-| 上下文操作（多选） | 顶部 contextual bar + `Scaffold` | 用 `AnimatedVisibility` 切换 |
-
----
-
-## 十一、采用建议（已按"激进策略"更新）
-
-1. **直接用 alpha 线的 M3E 全套**（`material3 = 1.5.0-alpha28`）：
-   ToggleButton / ButtonGroup / SplitButton / FAB Menu / Flexible AppBar /
-   slot 版 SearchBar 全部可用，不再有"稳定线拿不到"的问题。
-2. **调用点收敛**：M3E 组件集中放在 `ui/expressive/`（或 `ui/components/`），
-   便于应对 alpha 线的重命名与移除。
-3. **每个 alpha 依赖登记退出计划**：升级到 stable 时删除兼容层；
-   回落映射见 `../version-baseline.md`。
-4. **图标从 Material Symbols 取**：M3 1.4.0 起不再传递 `material-icons-core`，
-   且 `androidx.compose.material.icons` 不再推荐。
-5. **升级前必读 release notes**：1.5.0-alpha 线变动频繁（见 `compose-api.md` 第四节）。
+参考：[定制](../m3-content/foundations/customization.md)、
+[状态](../m3-content/foundations/interaction/states/overview.md)、
+[界面结构](../m3-content/foundations/designing/structure.md)、
+[无障碍原则](../m3-content/foundations/overview/principles.md)。

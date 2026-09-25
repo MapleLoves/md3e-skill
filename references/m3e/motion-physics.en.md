@@ -1,110 +1,72 @@
-# M3E Motion Physics System
+# Motion Intent, Relationships, and Expression
 
-Verified: **2026-09-14**
+[中文](motion-physics.md)
 
-| Content | Source | Confidence |
+This note treats motion as design language. Recommendations are an editorial synthesis of design
+resources. Consult the applicable specifications and project motion system for exact parameters;
+no framework API is a prerequisite.
+
+## Explain what happened
+
+Motion should explain action feedback, object relationships, or state changes. Decide which
+question it answers: did the action take effect, where did content go, how are states related,
+and is the next action available?
+
+If a static state already communicates clearly, movement may add little. Expression can support
+meaningful moments, while frequent actions need prompt, reliable feedback. Do not require people
+to wait for decoration to finish.
+
+## Motion types and design judgment
+
+| Type | Main purpose | What to consider |
 | --- | --- | --- |
-| `MotionScheme` exists, `MaterialTheme.motionScheme`, component animations moved to `MotionScheme` | Compose Material 3 official release notes (2026-09-09) | ✅ |
-| `MotionScheme.standard()` / `MotionScheme.expressive()` naming | Same (renamed from `standardMotionScheme`/`expressiveMotionScheme` in 1.4.0-alpha02) | ✅ |
-| Motion physics **concepts** (spring-driven, spatial/effects taxonomy) | m3.material.io titles/summaries; body is CSR — not scrapable | ⚠️ |
-| **Concrete token values** (stiffness / dampingRatio / durations) | **Not verified against official text** | ⚠️⚠️ |
+| Spatial change | Explain position, size, shape, and object relationships | Trackability and effects on surrounding reading and operation |
+| Color and opacity | Explain state, visibility, and shifts in emphasis | Clear states without unreadable intermediate appearances |
+| Content transition | Explain the relationship between current and incoming content | Whether continuity exists and where focus and task position go |
+| Emphasis or celebration | Recognize meaningful progress or completion | Context, frequency, and interruption of subsequent actions |
 
-> Usage rule: **do not** copy any number from this file into code.
-> For exact parameters, read `MaterialTheme.motionScheme` API in code, or manually confirm on
-> `m3.material.io/styles/motion` and the `MotionTokens` sources.
+Controlled overshoot can suit some spatial changes; oscillating color or opacity is not a useful
+way to express elasticity. Avoid inventing an object transformation between unrelated pages just
+for visual spectacle.
 
----
+## Springs are an expressive tool
 
-## 1. Paradigm shift: from "duration + easing" to spring physics
+A spring model can support continuous, interruptible motion. First describe the desired feedback:
+prompt response, gentle settling, or restrained bounce. Then use the project's motion tokens and
+implementation capabilities to express it.
 
-| Dimension | Traditional model | M3E physics model |
-| --- | --- | --- |
-| Driver | `durationMillis` + `easing` curve | Spring simulation (`stiffness` + `dampingRatio`) |
-| End condition | Stops when fixed duration elapses | Settles when physics decays to rest — system "settles" automatically |
-| Interruption | Manual velocity handling | Naturally carries velocity — seamless continuation (velocity handoff) |
-| Expressiveness | Curve determines feel | Damping ratio determines bounce |
+M3E does not mean bouncing everywhere. Choosing a spring does not establish that motion is natural,
+fast, or suitable for every device. Duration and easing remain options where appropriate; choose
+for relationships and experience rather than an API name.
 
-**Corollary**: spring animations **cannot be clamped with duration**. Wrapping `tween(300)`
-around a spring is meaningless.
+Use related rhythms for related interactions while allowing different scale and purpose to vary.
+Do not copy unverified stiffness, damping, or duration values and present them as universal
+Material requirements.
 
----
+## Control, interruption, and alternatives
 
-## 2. Motion taxonomy (official concepts, ⚠️ details TBD)
+Keep the state understandable during repeated input, cancellation, return navigation, or gesture
+takeover. For significant interactions, consider input before animation completion and where focus
+and content move.
 
-| Category | Properties covered | Damping bias |
-| --- | --- | --- |
-| **Spatial** | Position, size, rotation and other **displacement** changes | Allows slight undershoot/bounce for expressiveness |
-| **Effects** | Opacity, color and other **in-place** changes | Typically critically damped (no bounce) to avoid visual noise |
+Provide reduced-motion treatments according to the actual platform and user preference, preserving
+feedback and operability. Less movement does not mean deleting state information; a simpler change
+or alternative cue may suffice. Essential states must not be perceivable only through animation.
 
-**Speed tiers**: usually fast / default / slow — chosen by **component size and narrative importance**
-(small components → fast; large/important transitions → slow).
+## UI Kit and custom motion
 
-> ⚠️ Naming and counts of the above taxonomy are design-spec level and not line-by-line verified;
-> code follows the named `MotionScheme` APIs (methods shaped like `*SpatialSpec` / `*EffectsSpec`).
+Reuse suitable kit feedback. New components should share the project's rhythm and state language.
+When kit motion does not fit the task, adapt or replace it and explain the mismatch resolved. One
+library's animation implementation is not a requirement for other platforms.
 
----
+## Consult by question
 
-## 3. Compose usage
+- [How motion works](../m3-content/styles/motion/overview/how-it-works.md)
+- [Motion specifications](../m3-content/styles/motion/overview/specs.md)
+- [Transition patterns](../m3-content/styles/motion/transitions/transition-patterns.md)
+- [Applying transitions](../m3-content/styles/motion/transitions/applying-transitions.md)
+- [Easing and duration specifications](../m3-content/styles/motion/easing-and-duration/tokens-specs.md)
+- [Applying interaction states](../m3-content/foundations/interaction/states/applying-states.md)
 
-### Obtaining specs
-
-```kotlin
-// Motion scheme from the theme (LocalMotionScheme removed in 1.5.0-alpha27 — this is the only way)
-val scheme = MaterialTheme.motionScheme
-
-// Typical shape: take a spec by "category + speed tier", then feed animation APIs
-val spec = scheme.defaultSpatialSpec<Float>()      // spatial, default tier
-val effects = scheme.fastEffectsSpec<Color>()      // effects, fast tier
-
-animateFloatAsState(targetValue = x, animationSpec = spec)
-```
-
-### Two schemes
-
-| Scheme | Positioning |
-| --- | --- |
-| `MotionScheme.expressive()` | More expressive (default direction) |
-| `MotionScheme.standard()` | More restrained, closer to traditional feel |
-
-### Theme wiring
-
-- `MaterialExpressiveTheme` (1.4.0 / 1.5.0-alpha line) can wire M3E color + motion schemes in one call ⚠️.
-- Component animations **have used `MotionScheme` since M3 1.4.0** ✅ — custom components should
-  match the theme's scheme; hard-coded durations will fight on-screen rhythm.
-
----
-
-## 4. Migration and usage rules
-
-| Rule | Notes |
-| --- | --- |
-| **Never clamp springs with duration** | Do not wrap springs in `tween(300)`; do not add `delay` for springs |
-| **Always take specs from the theme** | `MaterialTheme.motionScheme.xxxSpec<T>()`; no local spec creation |
-| **Correct category** | Displacement/size/rotation → spatial; opacity/color → effects |
-| **Consistent speed tier** | Same-tier for same-kind interactions on one screen |
-| **Interruptible** | Gesture-driven animations should support mid-flight takeover (Compose 1.12 `DeferredAnimatedContent` / `DeferredAnimatedVisibility` are designed for this — velocity handoff, seamless takeover) ✅ |
-| **Degradation** | When the system "remove animations" accessibility setting is on, fall back to instant switches |
-| **Testing** | Animation tests use `runWithoutImplicitWait` + manual clock; `hasPendingWork` only checks pending work ✅ |
-
----
-
-## 5. Legacy token system (fallback, ⚠️ values TBD)
-
-M3E did not delete the old "duration + easing" tokens; they remain where springs do not fit
-(e.g. precisely choreographed multi-step animations):
-
-- **Duration tiers**: short / medium / long / extra-long × 4 steps (from ~50ms; extra-long up to ~1000ms)
-- **Easing families**: emphasized, emphasized decelerate, emphasized accelerate, plus standard /
-  decelerate / accelerate and legacy series
-
-> ⚠️ Tiers and curves **not verified against official text** (m3.material.io requires JS).
-> For exact values read Compose `MotionTokens`, or compare with the Material 3 Design Kit.
-
----
-
-## 6. Open items (need manual browser verification)
-
-1. Full token names/parameters for `spring.fast/default/slow` × `spatial/effects`;
-2. Recommended motion-category map per component (e.g. FAB expansion vs page transitions);
-3. Shape morph + motion interaction rules;
-4. Official degradation guidance under "remove animations".
+Evaluate timing, interruption, and reading impact in actual motion. If only a static design was
+inspected, identify those aspects as unverified.

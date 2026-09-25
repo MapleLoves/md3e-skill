@@ -1,156 +1,102 @@
-# Material 3 Expressive Design Language Overview
+# MD3E Design Awareness and Judgment
 
-Verified: **2026-09-14** | Markers: ✅ checked against official text / ⚠️ verify yourself / 🚧 experimental API
+[中文](design-system.md)
 
-| Source | Notes |
-| --- | --- |
-| Material Design 3 for Compose (official) ✅ | https://developer.android.com/develop/ui/compose/designsystems/material3 | Page updated 2026-09-08 |
-| Compose Material 3 release notes (official) ✅ | https://developer.android.com/jetpack/androidx/releases/compose-material3 | Page updated 2026-09-09 |
-| `m3.material.io` ⚠️ | CSR SPA — body text cannot be scraped; **spec details require manual review** |
+This is an editorial synthesis of Material design resources, not an official taxonomy of
+philosophy or a verbatim specification. Sources retain their capture dates in this repository.
+The decision framework and examples below are this skill's recommendations.
 
----
+## Design position
 
-## 1. What is M3E?
+Use expression to help people understand, act, and connect emotionally. Understand the task,
+content relationships, and product character before choosing visual intensity. Both bold and
+restrained treatments can be intentional choices.
 
-Official quote (Compose docs):
+Applying M3E does not depend on a UI framework. Material foundations, project conventions, and
+applicable platform behavior set the design context. A missing library implementation does not
+make the corresponding design impossible.
 
-> "Jetpack Compose provides implementations of both Material You and Material 3 Expressive —
-> the next generation of Material Design.
-> M3 Expressive is an extended version of Material Design 3, with research-backed updates to
-> **theming, components, animation, and typography**…
-> It also supports Material You personalization features such as dynamic color.
-> **M3 Expressive complements Android 16's visual styling and system UI**." ✅
+## From ideas to decisions
 
-Key takeaways:
-
-| Relationship | Notes |
-| --- | --- |
-| M3 vs M3E | M3E is an **extension/superset of Material 3**, not a breaking new design language |
-| M3E vs Material You | Material You solves **personalization** (dynamic color); M3E solves **expressiveness** (motion, shape, hierarchy) |
-| M3E vs Android 16 | Pairs with Android 16 system visual styling for better consistency |
-| Platform | Android implementation is `androidx.compose.material3`; **Wear OS must use Wear Compose Material 3**, not this library ✅ |
-
----
-
-## 2. Theming (Material Theming)
-
-M3/M3E theming is three subsystems, provided via `MaterialTheme` ✅:
-
-```kotlin
-MaterialTheme(
-    colorScheme = ...,   // color scheme
-    typography  = ...,   // typography
-    shapes      = ...,   // shapes
-) {
-    // content
-}
-```
-
-| Subsystem | Contents | Details |
+| Dimension | Question | Design consequence |
 | --- | --- | --- |
-| ColorScheme | 5 key colors + 13-tone palettes each; role semantics (primary / onPrimary / primaryContainer …) | `color-typography-shape.en.md` |
-| Typography | 5 categories × 3 sizes = 15 styles | same |
-| Shapes | extraSmall → extraLarge five corner radii | same |
-| Motion | Spring physics motion (new in M3E) | `motion-physics.en.md` |
+| Philosophy and conception | How does this interface help people understand and control their task? | Organize around task relationships before assembling components |
+| Values | Does this situation need efficiency, confidence, exploration, or celebration? | Choose where and how strongly to express character; context can vary within a product |
+| Principles | What should be noticed first, and what belongs together? | Coordinate emphasis, grouping, feedback, and consistency |
+| Design thinking | Is the problem visual, or is it in the content or flow? | Address structure instead of decorating around the problem |
+| Logic | Does visual importance match task importance? | Align reading order, action hierarchy, and state changes |
+| Strategy | Which change improves the experience most, and at what cost? | Resolve important friction without turning every region into a focal point |
+| Language | Do color, type, shape, space, and motion communicate the same relationship? | Establish recognizable roles and rhythms across screens |
+| Ethics | Does emphasis respect informed choice? | Make alternatives, consequences, and exit paths understandable |
 
----
+Use these questions to guide judgment, not as a questionnaire or required output structure.
 
-## 3. Elevation & Emphasis
+## Hierarchy and expression
 
-### Tonal elevation
+Identify the primary task, necessary information, and secondary choices in this situation.
+Establish their relationships with scale, placement, space, type, and contrast before deciding
+whether stronger shape or motion adds value. Keep equally important choices comparable; a
+business preference does not justify making other choices difficult to discover.
 
-- M3 **primarily expresses height with tonal color overlays**, not shadows.
-- Dark-theme overlays are also tonal, **drawn from the primary color slot**.
-- `Surface` supports both `tonalElevation` and `shadowElevation`.
+Expression can concentrate on an action, a piece of content, or a state change. Stronger
+expression does not mean increasing every color, corner radius, or bounce. Do not require a
+fixed number of hero moments per product: purpose, frequency, and context determine the need.
 
-### Component emphasis levels
+Lists, forms, and dense work surfaces can express character through grouping, rhythm, and
+clear states. At a meaningful success or progress moment, a visual change may reinforce the
+meaning without hiding what the user can do next.
 
-Components that offer multiple emphasis levels for the same semantic role (strongest → weakest):
-`ExtendedFloatingActionButton` → `Button` → `TextButton` ✅
+## Consistency through relationships
 
-### Text emphasis
+Consistency means related meanings receive related treatment; it does not require identical
+appearance everywhere. Coordinate semantic colors, text roles, spacing relationships, and
+interaction feedback. Give a purposeful reason for a local departure.
 
-1. Use neutral pairs: `Surface` / `surfaceVariant` with `onSurface` / `onSurfaceVariant`;
-2. Vary font weight (e.g. `bodyLarge` Bold vs `bodyMedium` Normal).
+Respect the user's brand and the project's design system. Explain a conflict's concrete effect
+and propose a tradeoff within scope rather than replacing the kit or product style unasked.
+Use the project's theme infrastructure; this skill guides how its output supports hierarchy,
+contrast, semantics, and context.
 
-> ⚠️ Version notes: from M3 **1.3.0**, components default to `SurfaceContainer` variants and
-> are **no longer affected by tonal elevation**;
-> from 1.2.0, `ColorScheme` is **immutable**. Coloring based on older behavior will break.
+## UI Kit and original design
 
----
+Use kit resources whose semantics and behavior fit. Superficial resemblance is insufficient.
+When no pattern fits, design a composition or component from the task and design principles,
+reusing suitable text styles, buttons, and state treatments within it.
 
-## 4. Dynamic Color
+See [Component selection and custom design](components.en.md). Kit use does not replace design
+judgment, and original design still belongs to the project's design system.
 
-- Core Material You feature: **derives colors from the user's wallpaper** for app and system UI.
-- **Available only on Android 12 (API 31, `Build.VERSION_CODES.S`) and above**.
-- Must **fall back** to custom light/dark schemes when unavailable.
+## Inclusion and ethics
 
-```kotlin
-val dynamic = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
-val colorScheme = when {
-    dynamic && darkTheme  -> dynamicDarkColorScheme(LocalContext.current)
-    dynamic && !darkTheme -> dynamicLightColorScheme(LocalContext.current)
-    darkTheme             -> DarkColorScheme
-    else                  -> LightColorScheme
-}
-```
+Make readability, comprehension, and operability part of the design. Consider text enlargement,
+keyboard and touch input, assistive technology, language, and reduced motion as relevant to the
+actual context. A specification label alone does not establish accessibility.
 
-**Accessibility hard constraint**: dynamic color itself meets contrast standards, but
-**custom edits must keep pairs**: `primary`+`onPrimary`, `primaryContainer`+`onPrimaryContainer`.
-Official counter-example: **`tertiaryContainer` + `primaryContainer` has insufficient contrast** ✅
+Do not distinguish essential states through color alone or let decoration overpower content.
+For choices with consequences, align wording, emphasis, and feedback with their real meaning.
+An exploratory surprise is inappropriate where the user needs certainty.
 
----
+## Example of a decision
 
-## 5. System UI
+A habit tracker's daily entry screen needs scanning and repeated actions, while its weekly
+summary may emphasize progress. The former can use rhythmic grouping and clear completion
+states; the latter may give meaningful progress stronger type and a selective shape treatment.
+They share semantic color and interaction feedback while varying expressive intensity.
 
-| Item | Notes |
-| --- | --- |
-| Ripple | Compose Material ripple uses the platform `RippleDrawable` on Android, so **Android 12+ sparkle ripples apply to all Material components** ✅ |
-| Stretch overscroll | `LazyColumn` / `LazyRow` / `LazyVerticalGrid` **enabled by default**, independent of API level, Foundation 1.1.0+ ✅ |
-| `material3-ripple` library | Added in 1.5.0-alpha24: replaces opacity layers with an **embedded focus ring** ⚠️ (alpha — adopt carefully) |
+If the kit lacks a suitable summary composition, design one around the content and reuse its
+text styles and buttons. Do not force comparable information into separate, mutually hidden
+carousel cards merely because a carousel exists. This illustrates contextual judgment, not a
+required summary layout.
 
----
+## Supporting sources
 
-## 6. Navigation & Window Sizes
+- [Applying M3 Expressive for usability](../m3-content/foundations/usability/applying-m3-expressive.md)
+- [Accessibility principles](../m3-content/foundations/overview/principles.md)
+- [User needs](../m3-content/foundations/building-for-all/user-needs.md)
+- [Co-design](../m3-content/foundations/building-for-all/co-design.md)
+- [Customization](../m3-content/foundations/customization.md)
+- [Expressive design tactics](../expressive-design-tactics.md)
 
-Official selection table ✅:
-
-| Component | Use when |
-| --- | --- |
-| `NavigationBar` | Compact devices, **≤ 5 destinations** |
-| `NavigationRail` | Landscape small–medium tablets or phones |
-| `PermanentNavigationDrawer` / `ModalNavigationDrawer` (combinable with `NavigationRail`) | Medium–large tablets with room for detail |
-
-> The truly adaptive approach is **`NavigationSuiteScaffold` switching by window size class** —
-> see `../m3-content/foundations/layout/scaffold/overview.md`; the table above maps the low-level components.
-
----
-
-## 7. Accessibility & Type Scaling
-
-- Dynamic color meets contrast targets; tonal palette method keeps defaults usable.
-- M3 type scale is a **dynamic size-category framework that scales across devices**: e.g. `Display Small`
-  **may resolve to different values** on phone vs tablet ✅
-- Design goals cover low vision, blindness, hearing, cognitive, motor, and situational impairments.
-
----
-
-## 8. M3E Adoption Strategy (aggressive track)
-
-> 📌 This project uses **`material3 = 1.5.0-alpha28`**, so **the full M3E component set is available**.
-> See `../version-baseline.md`.
-
-1. **Theme first**: wire the three subsystems via `MaterialTheme` + dynamic color —
-   prerequisite for every M3E component.
-2. **Motion via `MotionScheme`**: component animations switched to `MotionScheme` in 1.4.0;
-   custom animations should read `MaterialTheme.motionScheme` instead of hard-coding `tween` durations.
-3. **Components from the alpha line**: ToggleButton, ButtonGroup, SplitButton, FAB Menu,
-   FlexibleTopAppBar, slot SearchBar, etc. are all available;
-   but **confine call sites** to `ui/expressive/` and record an exit plan.
-4. **Do not rely on old `ExperimentalMaterial3ExpressiveApi` signatures**: public APIs under it
-   were removed in 1.4.0-beta01; the alpha line keeps renaming (see `compose-api.en.md` §4) —
-   always read release notes before upgrading.
-5. **Icon source switch**: from M3 1.4.0, `material-icons-core` is no longer a transitive dependency
-   and `androidx.compose.material.icons` is discouraged; use Material Symbols vectors instead.
-6. **Specs verified in browser**: exact motion curves / component dimensions marked ⚠️ here;
-   confirm on `m3.material.io` or the Figma Material 3 Design Kit before coding.
+Consult the appropriate source before citing exact values, research findings, or platform
+behavior. A recommendation is not a user-tested result, and static inspection does not establish
+that an interaction works.

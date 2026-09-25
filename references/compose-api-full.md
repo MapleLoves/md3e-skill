@@ -1,3 +1,8 @@
+> Optional implementation appendix: read only for an actual Compose project or an explicit Compose question.
+> This retained API snapshot is secondary to the design guidance in this skill. Its recorded baseline
+> is 2026-09-14; it has not been reverified in this revision. Match the project dependency before use.
+> It does not require another platform to adopt Compose or constrain custom UI design.
+
 # androidx.compose.material3
 
 Common/AllAndroid/JVM

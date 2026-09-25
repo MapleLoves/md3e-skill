@@ -1,137 +1,90 @@
 # MD3E Skill
 
-**[English](./README.md)** | **[中文](./README.zh-CN.md)**
+**[English](README.md)** | **[中文](README.zh-CN.md)**
 
-一个通用的 AI 技能包，用于在 **Android Jetpack Compose** 中构建 **Material Design 3 Expressive (MD3E)** 界面。兼容任何支持 skill 格式的 AI 编程助手（CodeBuddy、Cursor、Windsurf 等）。
+一个以 **Material Design 3 Expressive（MD3E）UI 设计**为核心的 AI 技能包，重点在于
+设计意识、设计语言与设计判断。面向项目实际采用的技术栈，不要求使用 Android 或 Jetpack Compose。
 
-## 什么是 MD3E？
+## 这个 Skill 提供什么
 
-Material 3 Expressive 是 Google 于 2025 年推出的 Material Design 3 演进版本，核心特性包括：
+- **设计哲学与价值观：** 根据用户需要决定产品气质和表现力的强度。
+- **设计原则与逻辑：** 建立信息层级、内容分组、交互含义和清楚的反馈。
+- **设计语言：** 协调色彩、排版、形状、空间和动效，使表现力具有明确目的。
+- **设计伦理与包容性：** 保持选择可理解、内容可读、界面可操作，并尊重用户控制权。
+- **UI Kit 判断：** 采用合适的组件与样式，调整部分匹配的内容，在没有合适模式时自主设计。
+- **设计参考资料：** 提供经过整理的设计笔记，以及供组件指南和精确规格查阅的来源快照。
 
-- **弹簧物理动效**（MotionScheme）替代传统的缓动曲线
-- **扩展色彩系统**：新增 18 个 Fixed 固定色角色 + 7 个 Surface Container 表面容器角色
-- **全新组件**：FloatingToolbar（浮动工具栏）、ButtonGroup（按钮组）、SplitButton（分割按钮）、WideNavigationRail（宽导航栏）、ToggleFloatingActionButton（切换悬浮按钮）、FlexibleBottomAppBar（弹性底部应用栏）等
-- **表现力设计原则**：更大胆的色彩、多样化的形状、可变字体排版、容器分组
+M3E 建立在 Material 3 基础之上。同一产品可以根据情境采用不同表现强度，不要求每个
+页面用齐所有表现手法。用户要求实现时，设计决策应在项目已有技术栈中落地。
 
-本技能**同时覆盖 MD3E 和基础 M3**——许多组件目前只有 M3 规范，因此技能在 MD3E 可用时优先使用，不可用时回退到 M3。
+## UI Kit 与自主设计
 
-**知识基线：2026-09-14。** 完整 M3E 组件集需要 `material3` **1.5.0-alpha28**；稳定线 **1.4.0** 仅提供 M3 + MotionScheme + 部分 Expressive。
+UI Kit 指项目实际提供或指定的资源。选用前先判断其语义、行为、状态和表现是否适合。
 
-## 功能特性
+1. 有合适内容时，采用对应组件、样式或模式。
+2. 只有部分匹配时，调整或组合合适的资源。
+3. 没有合适内容时，根据任务、Material 设计原则和项目语言，设计缺失的组合或交互，
+   同时复用其中仍然适合的基础内容。
 
-- **完整 API 参考**：完整的 `androidx.compose.material3` 包文档（10000+ 行）
-- **设计 Token**：全部色彩角色、排版样式、形状规格、动效系统的精确数值
-- **组件目录**：按类别组织的全部 M3/M3E 组件，标注 M3/M3E 归属与用法
-- **版本基线**：功能门槛、alpha 线变动日志、BOM 覆盖范围（2026-09-14）
-- **M3E 精要笔记**：设计体系、色彩/排版/形状、动效物理、组件清单、Compose API
-- **M3 vs M3E 差异**：清晰的对比表与迁移指南
-- **官方规范镜像**：249 页干净 Markdown（抓取于 2026-09-14）
-- **代码模板**：可直接使用的 `MD3ETheme.kt`、`Color.kt`、`Type.kt`、`Shape.kt`
-- **主题生成器**：Python 脚本，从单个种子色生成完整配色方案
+资源不可见不等于组件不存在。Skill 会区分已经检查的资源与假设，并简要解释重要的
+复用或自主设计选择。
 
 ## 安装
 
-将 `md3e/` 目录复制到你的 AI 助手的技能文件夹中。例如：
+将仓库中的技能内容放入 AI 助手技能目录下名为 md3e 的文件夹。例如，使用
+.codebuddy/skills 目录的项目可放在 .codebuddy/skills/md3e/。具体位置以助手支持的
+目录为准；技能入口是 [SKILL.md](SKILL.md)。
 
-- **CodeBuddy**：`.codebuddy/skills/md3e/`（项目级）或 `~/.codebuddy/skills/md3e/`（用户级）
-- **其他 AI 助手**：放入对应的 skills/plugins 目录
+使用设计技能不需要 Python 运行环境、主题生成脚本或 Kotlin 模板。主题生成交由项目
+已有工具处理，Skill 指导生成结果怎样用于层级、对比和语义。
 
-```
-md3e/
-├── SKILL.md
-├── references/
-├── assets/
-└── scripts/
-```
-
-### 使用主题生成器
-
-```bash
-python scripts/generate_theme.py --seed #6750A4 --package com.example.app --output ./theme/
-```
-
-安装 `material-color-utilities` 可获得精确的 HCT 色彩生成：
-
-```bash
-pip install material-color-utilities
-```
-
-## 技能结构
-
-```
-md3e/
-├── SKILL.md                          # 入口：触发条件、工作流、API 速查
-├── references/
-│   ├── version-baseline.md           # 版本矩阵、功能门槛、alpha 变动（2026-09-14）
-│   ├── m3e/                          # M3E 精要笔记（中文 5 + 英文 *.en.md 镜像，核对 2026-09-14）
-│   │   ├── design-system.md          # 主题体系、动态取色、系统 UI（另有 .en.md）
-│   │   ├── color-typography-shape.md # 颜色 / 排版 / 形状（另有 .en.md）
-│   │   ├── motion-physics.md         # MotionScheme 弹簧动效（另有 .en.md）
-│   │   ├── components.md             # 按版本线标注的组件清单（另有 .en.md）
-│   │   └── compose-api.md            # API 门槛、迁移、alpha 变动（另有 .en.md）
-│   ├── compose-api-full.md           # 完整官方 API 参考（10000+ 行）
-│   ├── design-tokens.md              # 色彩/排版/形状/动效/高度 token
-│   ├── components-catalog.md         # 全组件目录（按类别，M3/M3E 标注）
-│   ├── m3-vs-m3e-diff.md             # 差异对比 + 迁移指南 + IO2026 更新
-│   ├── expressive-design-tactics.md  # 7 大表现力设计策略详解
-│   ├── design-research.md            # 色彩科学/可读性/动效模式/无障碍研究
-│   └── m3-content/                   # m3.material.io 官网镜像（249 页，2026-09-14）
-│       ├── components/               # 37 个组件 × 概览/规格/指南/无障碍
-│       ├── styles/                   # 色彩、动效、形状、排版、间距...
-│       └── foundations/              # 布局、设计 token、手表、XR、无障碍
-├── assets/
-│   └── templates/
-│       ├── MD3ETheme.kt              # MaterialExpressiveTheme 配置模板
-│       ├── Color.kt                  # 完整 48 角色配色方案模板
-│       ├── Type.kt                   # 15 种排版样式模板
-│       └── Shape.kt                  # 5 级形状规格模板
-└── scripts/
-    └── generate_theme.py             # 种子色 → 完整 Compose 主题
-```
-
-## 核心 API
-
-| 类别 | M3 | MD3E |
-|------|----|------|
-| 主题 | `MaterialTheme` | `MaterialExpressiveTheme` |
-| 配色 | `lightColorScheme()` / `darkColorScheme()` | + `expressiveLightColorScheme()` |
-| 动效 | 缓动曲线 + 持续时间 token | `MotionScheme.standard()` / `.expressive()` |
-| 实验性注解 | `@ExperimentalMaterial3Api` | + `@ExperimentalMaterial3ExpressiveApi` |
+升级已有安装时，清理 [变更记录](CHANGELOG.md) 列出的旧生成器与模板。单纯复制新文件
+不会删除旧文件；清理安装目录前应保留项目自定义内容。
 
 ## 使用示例
 
-安装技能后，直接用自然语言向 AI 助手提问即可，技能会自动在相关请求时触发：
+- “为这个 Web 应用的任务页面建立 MD3E 视觉方向，沿用项目已有组件。”
+- “审视这个界面的信息层级与表现力强度，解释重要取舍。”
+- “合适的地方使用项目 UI Kit；如果没有合适的比较区域，请自行设计。”
+- “让这个设置页面清楚且有表现力，同时保持高频操作的效率。”
+- “统一色彩、排版、形状与动效的设计语言，沿用当前技术栈。”
 
-**主题配置：**
-> "为我的 Compose 应用设置 Material 3 Expressive 主题，支持动态配色"
+小修改应交付聚焦的结果，无需长篇设计报告。实现请求应交付实际实现，并在必要时
+附上简短的设计依据。
 
-**组件创建：**
-> "创建一个 MD3E 浮动工具栏，包含 3 个操作按钮"
-> "用 MD3E 做一个带溢出菜单的按钮组"
-> "按照 Material 3 规范做一个卡片列表"
+## 资料结构
 
-**设计指导：**
-> "MD3E 有哪些色彩角色？分别在什么场景使用？"
-> "M3 和 M3E 的动效系统有什么区别？"
-> "FAB 应该用哪个形状？"
+| 资料 | 用途 |
+| --- | --- |
+| [SKILL.md](SKILL.md) | 定位、设计判断、Kit 决策和参考资料入口 |
+| [设计意识](references/m3e/design-system.md) / [English](references/m3e/design-system.en.md) | 哲学、价值观、原则、思维、逻辑与伦理 |
+| [组件判断](references/m3e/components.md) / [English](references/m3e/components.en.md) | UI Kit 适配与自主设计 |
+| [视觉语言](references/m3e/color-typography-shape.md) / [English](references/m3e/color-typography-shape.en.md) | 色彩、排版、形状、空间及其关系 |
+| [动效意图](references/m3e/motion-physics.md) / [English](references/m3e/motion-physics.en.md) | 反馈、连续性、表现强度和减少动效 |
+| [表现力策略](references/expressive-design-tactics.md) | 何时、为何采用不同表现手法 |
+| [组件目录](references/components-catalog.md) | 按任务与交互含义选型 |
+| [Token 索引](references/design-tokens.md) | 语义角色与精确规格的查阅入口 |
+| [M3 与 M3E](references/m3-vs-m3e-diff.md) | 设计延续与表现力选择 |
+| [设计依据](references/design-research.md) | 区分来源、假设与实际验证 |
+| [官方设计快照](references/m3-content/index.md) | 组件、样式和设计基础的参考页面 |
 
-**迁移：**
-> "把我的应用从 MaterialTheme 迁移到 MaterialExpressiveTheme"
-> "更新我的配色方案，加入 M3E 新增的 Fixed 固定色角色"
+### 可选 Compose 附录
 
-**主题生成：**
-> "用种子色 #6750A4 生成一套 Compose 配色方案"
+[Compose 笔记](references/m3e/compose-api.md) / [English](references/m3e/compose-api.en.md)、
+[版本快照](references/version-baseline.md) 和
+[androidx.compose.material3 包文档](references/compose-api-full.md) 是次要资料。
+仅在实际项目使用 Compose 或明确查询 API 时读取，不替项目决定框架或依赖版本，也不
+属于默认设计流程。
 
-## 资料来源
+## 来源与边界
 
-- [m3.material.io](https://m3.material.io/) — Material Design 3 Expressive 官方设计指南
-- [androidx.compose.material3](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary) — Compose Material 3 官方 API 参考
-- [Compose Material 3 开发指南](https://developer.android.com/develop/ui/compose/designsystems/material3) — 官方开发者文档
+Material 设计资料是主要参考。带日期的设计页面保留来源与抓取日期：**2026-09-14**；
+较早的导航页保留行内来源说明，没有逐页抓取日期。整理后的笔记区分本 Skill 的设计建议与来源规范。本次调整重组技能内容，不代表重新
+核验了所有外部页面、研究结果或 Compose 版本。
 
-## 免责声明
+仓库维护和校验见 [贡献指南](CONTRIBUTING.md)，发布准备见 [发布说明](PUBLISH.md)。
+仓库校验属于维护工作，不是使用设计技能的前置条件。
 
-本技能仅供参考和学习使用。Material 3 Expressive 组件的实际行为可能因 Compose Material 3 库版本而异。在生产环境使用前，请务必在自己的环境中进行测试。
+## 许可
 
-## 开源许可
-
-[Apache License 2.0](./LICENSE) — 与 Material Design 组件和 AndroidX 库使用相同的许可证。
+[Apache License 2.0](LICENSE)。

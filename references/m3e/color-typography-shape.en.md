@@ -1,123 +1,84 @@
-# M3E Color / Typography / Shape
+# Color, Typography, Shape, and Space as Design Language
 
-Verified: **2026-09-14**
-Sources: Material Design 3 for Compose (official, page updated 2026-09-08) ✅ +
-Compose Material 3 release notes (page updated 2026-09-09) ✅
+[中文](color-typography-shape.md)
 
----
+These are design judgment notes. Linked official snapshots support the roles and specifications;
+contextual recommendations are this skill's synthesis. Consult [tokens](../design-tokens.md) for
+precise specifications when needed, without assuming an implementation framework.
 
-# 1. Color System
+## Establish relationships first
 
-## 1.1 Structure
+Color, type, shape, and space should jointly explain importance, belonging, and state. Identify
+the important content and actions, then choose which dimensions carry emphasis. Placement or
+space may make an action clear before stronger color or shape is needed. Avoid competing signals.
 
-- Foundation: **5 key colors** (primary / secondary / tertiary / error / neutral families),
-  each with a **13-tone palette** ✅
-- Role semantics:
+## Color: roles before values
 
-| Role | Use |
-| --- | --- |
-| `primary` | Primary components (main buttons, selection, emphasis) |
-| `secondary` | Secondary components (filter chips, less prominent UI) |
-| `tertiary` | Contrast emphasis |
-| `error` | Error states |
-| `surface` / `surfaceVariant` / `surfaceContainer*` | Containers and backgrounds |
-| `onXxx` | Foreground **on top of** `Xxx` (text/icons) |
-| `XxxContainer` / `onXxxContainer` | Container-style components (FilledCard, Chip, …) |
+- Use accent/content pairs for significant actions and container, surface, and secondary content
+  roles for supporting relationships. Avoid filling every region with high-emphasis color or
+  treating color names as fixed business priority levels.
+- Distinguish brand, interaction, state, and grouping. Avoid conflicting nearby meanings for the
+  same color. Errors and success need understandable text, icons, or another supporting cue.
+- Preserve meaning and readability across light and dark themes, not identical values everywhere.
+  Consider fixed roles when a stable tone across modes is useful, and inspect surrounding contrast;
+  fixed roles do not mean a brand color is locked.
+- Use roles from the project's existing generator and theme configuration. Evaluate actual
+  foreground/background combinations, transparency, and states. Do not recreate theme generation
+  code in this skill.
 
-- Access: `MaterialTheme.colorScheme.primary`.
+For example, a primary submit action should be easy to locate while secondary help remains
+discoverable. Making help illegible is not a useful way to establish hierarchy.
 
-## 1.2 Dynamic color
+Sources: [Color roles](../m3-content/styles/color/roles.md) and
+[choosing a scheme](../m3-content/styles/color/choosing-a-scheme.md).
 
-See `design-system.en.md` §4 (API 31+, `dynamicLightColorScheme` / `dynamicDarkColorScheme`,
-mandatory fallback, keep pairs).
+## Typography: make content structure readable
 
-## 1.3 Generating a scheme
+Use semantic display, headline, title, body, and label roles rather than a new style for every
+paragraph. Emphasis should reflect actual importance: a key number may warrant stronger treatment,
+while sustained reading needs a stable rhythm.
 
-Official **Material Theme Builder** generates and exports Compose code from brand seed colors — two files ✅:
+Consider weight, size, width, and line height together. Variable fonts offer expressive range but
+are not a prerequisite for M3E. Confirm language coverage before choosing a font treatment. Chinese,
+long labels, and mixed-language content require their own density and wrapping decisions.
 
-- `Color.kt`: all light/dark colors and role definitions;
-- `Theme.kt`: `lightColorScheme` / `darkColorScheme` and theme setup.
+Inspect real content, enlarged text, and constrained widths. Display treatments suit short focal
+content; they should not turn an entire page of body text into a promotional headline.
 
-## 1.4 Version-related color behavior changes (pitfall list)
+Sources: [Applying type](../m3-content/styles/typography/applying-type.md),
+[editorial treatments](../m3-content/styles/typography/editorial-treatments.md), and
+[fonts](../m3-content/styles/typography/fonts.md).
 
-| Version | Change | Impact |
-| --- | --- | --- |
-| 1.2.0-alpha08 | `ColorScheme` becomes **immutable** | Cannot mutate fields at runtime; rebuild instead |
-| 1.3.0 | Components default to **`SurfaceContainer` variants, no longer affected by tonal elevation** | Hierarchy previously created via `tonalElevation` disappears; use correct `surfaceContainer` roles |
-| 1.3.0 | Focus overlay **0.1f**; Surface/background tweaks in `lightColorScheme`/`darkColorScheme` | Suspect this first on visual regressions |
-| 1.4.0 | `NavigationBarItem` / `NavigationRailItem` selected label **`onSurface` → `secondary`** | To restore: set `selectedTextColor = MaterialTheme.colorScheme.onSurface` manually |
-| 1.5.0-alpha18 | Adds `expressiveLightColorScheme` | Alpha — adopt carefully |
+## Shape: make differences meaningful
 
----
+Let repeated shapes establish a family, reserving purposeful differences for emphasis or
+distinction. Rounded, angular, and abstract silhouettes can work together when they help identify
+hierarchy, categories, or interaction rather than randomly changing corner radii.
 
-# 2. Typography System
+Distinguish image masks, containers, and interaction targets. A decorative crop is not necessarily
+a suitable button shape. When a morph communicates state or object relationships, keep labels and
+operable regions clear and stable.
 
-## 2.1 Type scale
+Sources: [Shape principles](../m3-content/styles/shape/overview-principles.md) and
+[shape morph](../m3-content/styles/shape/shape-morph.md).
 
-**5 categories × 3 sizes = 15 styles** ✅: Display / Headline / Title / Body / Label,
-each Large / Medium / Small.
+## Space and containers: organize reading rhythm
 
-Default examples (listed in official docs) ✅:
+Space, alignment, and proximity can group content by themselves. Add surface treatments, containers,
+or dividers when a clearer boundary helps; do not place every sentence in a card. Contents within
+a container should have a meaningful relationship.
 
-| Style | Font | Size / Line height |
-| --- | --- | --- |
-| `displayLarge` | Roboto | 57 / 64 |
-| `bodyLarge` | Roboto | 16 / 24 |
-| `labelSmall` | Roboto Medium | 11 / 16 |
+Density follows the task: comparison needs simultaneous visibility, while browsing may allow a
+more spacious rhythm. At different widths, preserve reading and task order by reorganizing content
+relationships rather than only stretching elements.
 
-Access: `MaterialTheme.typography.titleLarge`.
+Sources: [Spacing](../m3-content/foundations/layout/grids-spacing/spacing.md),
+[density](../m3-content/foundations/layout/grids-spacing/density.md), and
+[adaptive design](../m3-content/foundations/layout/layout-overview/adaptive-design.md).
 
-## 2.2 Key differences and changes
+## Working with the UI Kit
 
-| Item | Notes |
-| --- | --- |
-| **M3 `Typography` has no `defaultFontFamily`** | Unlike M2, set `fontFamily` **on each `TextStyle`** ✅ |
-| Since 1.2.0-alpha03 | `includeFontPadding` defaults to **`false`**; line-height styles use `Trim.None` + `Alignment.Center` ✅ |
-| Dynamic size categories | Same step **may resolve differently** per device context (phone vs tablet) — basis of M3 cross-device scaling ✅ |
-| Variable font axes | M3E typography is simpler, expressive via **variable font axes** ⚠️ (from Wear M3E description; mobile-side details TBD) |
-| font variation settings | From Compose 1.12, downloadable fonts support **font variation settings** ✅ |
-| Large type scale | Accessibility requires verifying layout after system font scaling (clipping, overflow) |
-
----
-
-# 3. Shape System
-
-## 3.1 Five corner radii
-
-| Step | Example values (official docs) |
-| --- | --- |
-| `extraSmall` | 4dp |
-| `small` | 8dp |
-| `medium` | 12dp |
-| `large` | 16dp |
-| `extraLarge` | 24dp |
-
-All are `RoundedCornerShape`; also `RectangleShape`, `CircleShape`.
-Access: `MaterialTheme.shapes.medium`, or override per component.
-
-## 3.2 M3E shape expressiveness
-
-- M3E elevates **shape** as a primary expressive tool (shape-to-shape morphs/transitions).
-- Spec-side details like the "35 shape set" ⚠️ must be confirmed on `m3.material.io` Shape chapter.
-- Compose-side capabilities:
-  - `MaterialShapes` (shape collections) and `MaterialShapes.toShape()` etc. are newer APIs —
-    **verify your `material3` version includes them before use** ⚠️;
-  - From 1.4.0-alpha01, `AnimatedPane` supports shapes (morphs with pane transitions) ✅.
-
-## 3.3 Practice rules
-
-- **Only use the five theme steps**; never write magic values like `RoundedCornerShape(7.dp)` in business code.
-- Component-level customization goes through `XxxDefaults.shape` / component params, not global `MaterialTheme.shapes`.
-- For morph animations, use `animate*AsState` with `Shape` interpolation; do not allocate new `Shape` objects on every recomposition.
-
----
-
-# 4. Combining the Three
-
-| Principle | Notes |
-| --- | --- |
-| Color expresses **semantics** | Use role names (primary / error), not raw hex — dynamic color and dark mode work automatically |
-| Type expresses **hierarchy** | Build hierarchy with the type scale, not ad-hoc larger fonts |
-| Shape expresses **grouping and affinity** | Larger containers → larger radii; cards at the same level must share radii |
-| Motion expresses **cause and effect** | Elements return where they came from (see `motion-physics.en.md`) |
-| All three must be **theme-overridable** | Business components must not hard-code colors / sizes / radii |
+Use suitable kit styles and semantic tokens. For new compositions, preserve shared roles and
+rhythm and explain the purpose of departures from defaults. Exact values depend on the selected
+specification, font, component, and platform units. Library defaults are not the complete set of
+cross-platform design rules.

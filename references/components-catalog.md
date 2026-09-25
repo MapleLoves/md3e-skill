@@ -1,276 +1,90 @@
-# MD3E Components Catalog
-
-Organized catalog of all Material 3 / Material 3 Expressive components available in
-`androidx.compose.material3`. Components marked **[M3E]** are Expressive-specific; some still
-require `@ExperimentalMaterial3ExpressiveApi` on the **1.5.0-alpha** line — others graduated
-non-experimental (Flexible AppBars, FloatingToolbar, ButtonGroup APIs, SearchBarState).
-
-**Version baseline (2026-09-14):** full M3E = `material3` **1.5.0-alpha28**; stable **1.4.0**
-lacks the full Expressive set. See `references/version-baseline.md` and `references/m3e/components.md`.
-
-For full API signatures, search `references/compose-api-full.md` with the component name.
-
----
-
-## Buttons
-
-### Common Buttons (M3 — stable)
-| Composable | Emphasis | Container Color | Usage |
-|------------|----------|----------------|-------|
-| `Button` | High (filled) | `primary` | Primary actions |
-| `FilledTonalButton` | Medium (filled tonal) | `secondaryContainer` | Secondary actions |
-| `ElevatedButton` | Medium (elevated) | `surface` + elevation | Secondary with shadow |
-| `OutlinedButton` | Low (outlined) | `surface` + border | Important but not primary |
-| `TextButton` | Lowest (text) | transparent | Low-emphasis, text links |
-
-Key params: `onClick`, `modifier`, `enabled`, `shape`, `colors` (ButtonColors), `elevation`
-(ButtonElevation), `border`, `contentPadding`, `interactionSource`.
-
-Default button shape: `RoundedCornerShape(20.dp)` (pill shape).
-
-### Icon Buttons (M3 — stable)
-`IconButton`, `IconToggleButton`, `FilledIconButton`, `FilledIconToggleButton`,
-`FilledTonalIconButton`, `FilledTonalIconToggleButton`, `OutlinedIconButton`,
-`OutlinedIconToggleButton`.
-
-### FABs (M3 — stable)
-| Composable | Size | Usage |
-|------------|------|-------|
-| `FloatingActionButton` | 56dp | Primary screen action |
-| `SmallFloatingActionButton` | 40dp | Secondary action |
-| `LargeFloatingActionButton` | 96dp | Prominent action |
-| `ExtendedFloatingActionButton` | Extended | Action with label |
-
-**[M3E]** `ToggleFloatingActionButton` — FAB that morphs between two states with animation.
-Uses `ToggleFloatingActionButtonScope`. Requires `@ExperimentalMaterial3ExpressiveApi`.
-
-**[M3E]** `FloatingActionButtonMenu` — FAB that expands into a vertical menu.
-Uses `FloatingActionButtonMenuScope`.
-
-### Segmented Buttons (M3 — stable)
-- `SingleChoiceSegmentedButtonRow` + `SegmentedButton` — mutually exclusive options
-- `MultiChoiceSegmentedButtonRow` + `SegmentedButton` — multiple toggle options
-
-### Button Group **[M3E]**
-- `ButtonGroup` — connected button row with overflow menu and compression animation (APIs stable since 1.5.0-alpha22)
-- `ButtonGroupScope` — sealed interface; `weight()` and `animateWidth()` overloads (alpha25+)
-- `ButtonGroupMenuState` — overflow menu state
-- `ButtonGroupDefaults` — default values
-
-### Split Button **[M3E]**
-- `SplitButton` — primary action + overflow trigger (**preferred**; `SplitButtonLayout` deprecated since alpha25)
-- `SplitButtonDefaults`, `SplitButtonShapes`
-
----
-
-## Navigation
-
-### Navigation Bar (M3 — stable)
-`NavigationBar` + `NavigationBarItem` — bottom navigation, compact screens (≤599dp), 3-5 destinations.
-
-### Navigation Rail (M3 — stable)
-`NavigationRail` + `NavigationRailItem` — side navigation, medium screens (600-839dp).
-
-### Wide Navigation Rail **[M3E]**
-`WideNavigationRail` / `ModalWideNavigationRail` — expanded rail for medium/expanded screens.
-State: `WideNavigationRailState`. Colors: `WideNavigationRailColors`.
-Properties: `ModalWideNavigationRailProperties`.
-
-### Navigation Drawer (M3 — stable)
-| Composable | Usage |
-|------------|-------|
-| `ModalNavigationDrawer` + `ModalDrawerSheet` | Overlay drawer (compact) |
-| `PermanentNavigationDrawer` + `PermanentDrawerSheet` | Always-visible (expanded) |
-| `DismissibleNavigationDrawer` + `DismissibleDrawerSheet` | Dismissible drawer |
-| `NavigationDrawerItem` | Standard drawer item |
-
-### Top App Bar (M3 stable; Flexible [M3E])
-| Composable | Height | Notes |
-|------------|--------|-------|
-| `TopAppBar` | 64dp | Standard top bar |
-| `CenterAlignedTopAppBar` | 64dp | Centered title |
-| `MediumTopAppBar` | 112dp | Collapsing title |
-| `LargeTopAppBar` | 152dp | Full collapsing |
-| `MediumFlexibleTopAppBar` **[M3E]** | Flexible | Flexible content |
-| `LargeFlexibleTopAppBar` **[M3E]** | Flexible | Flexible content |
-
-Scroll behaviors: `pinnedScrollBehavior`, `enterAlwaysScrollBehavior`,
-`enterAlwaysCollapsedScrollBehavior`, `exitUntilCollapsedScrollBehavior`.
-Also: `TopAppBarScrollBehavior`, `TopAppBarDefaults`.
-
-### Bottom App Bar (M3 stable; Flexible [M3E])
-- `BottomAppBar` — standard bottom bar with FAB slot
-- `FlexibleBottomAppBar` **[M3E]** — flexible arrangement
-  - `FlexibleContentPadding`, `FlexibleBottomAppBarHeight`
-  - `FlexibleHorizontalArrangement`, `FlexibleFixedHorizontalArrangement`
-- State: `BottomAppBarState`, `BottomAppBarScrollBehavior`
-
-### Floating Toolbar **[M3E]**
-| Composable | Orientation | Usage |
-|------------|-------------|-------|
-| `HorizontalFloatingToolbar` | Horizontal | Contextual tools above content |
-| `VerticalFloatingToolbar` | Vertical | Contextual tools (side) |
-
-Supporting types: `FloatingToolbarScrollBehavior`, `FloatingToolbarState`,
-`FloatingToolbarColors`, `FloatingToolbarExitDirection`, `FloatingToolbarDefaults`,
-`FloatingToolbarHorizontalFabPosition`, `FloatingToolbarVerticalFabPosition`.
-
-### Search Bar (prefer slot API on 1.5.0-alpha)
-- `SearchBarState` + slot-based `SearchBar` **[M3E]** — stable since **1.5.0-alpha24** (old
-  extension / `onExpandedChange` APIs deprecated)
-- `ExpandedDockedSearchBarWithGap`, `ExpandedFullScreenContainedSearchBar` — non-experimental alpha23+
-- `AppBarWithSearch` **[M3E]** — replaces `TopSearchBar`
-- Legacy: `SearchBar`, `DockedSearchBar` (M3); `SearchBarScrollBehavior`, `SearchBarColors`
-- `rememberSearchBarWithGapState` (renamed from `rememberWithGapSearchBarState` in alpha18)
-
----
-
-## Cards & Containers
-
-### Cards (M3 — stable)
-| Composable | Style | Usage |
-|------------|-------|-------|
-| `Card` | Filled | Default card |
-| `ElevatedCard` | Elevated | Card with shadow |
-| `OutlinedCard` | Outlined | Card with border |
-
-Params: `shape`, `colors` (CardColors), `elevation` (CardElevation), `border`, `onClick`.
-Color roles: `containerColor` = surfaceVariant (default) / primaryContainer (selected),
-`contentColor` = onSurfaceVariant / onPrimaryContainer.
-
-### Surface (M3 — stable)
-`Surface` — backing composable. Params: `modifier`, `shape`, `color`, `contentColor`,
-`tonalElevation`, `shadowElevation`, `border`.
-
-### Badge (M3 — stable)
-`Badge`, `BadgedBox` — small status indicator.
-
-### Divider (M3 — stable)
-`HorizontalDivider`, `VerticalDivider`.
-
----
-
-## Input & Selection
-
-### Text Fields (M3 stable; Expressive [M3E])
-| Composable | Style | Usage |
-|------------|-------|-------|
-| `TextField` | Filled | Standard input |
-| `OutlinedTextField` | Outlined | Input with border |
-
-Params: `value`/`state`, `onValueChange`, `label`, `placeholder`, `leadingIcon`,
-`trailingIcon`, `isError`, `enabled`, `shape`, `colors` (TextFieldColors),
-`keyboardOptions`, `interactionSource`, `contentPadding`.
-
-**[M3E]** Expressive styles: `TextFieldDefaults.roundedShape`, `tonalColors()`,
-`OutlinedTextFieldDefaults.roundedShape`, `tonalColors()`. New label positions: `Inside`,
-`Cutout`. New padding: `contentPaddingWithLabel()`, `contentPaddingWithoutLabel()`.
-
-### Checkbox (M3 — stable)
-`Checkbox`, `TriStateCheckbox`. Colors: `CheckboxColors`.
-
-### Radio Button (M3 — stable)
-`RadioButton`. Colors: `RadioButtonColors`.
-
-### Switch (M3 — stable)
-`Switch`. Colors: `SwitchColors`.
-
-### Slider (M3 — stable)
-`Slider`, `RangeSlider`. Colors: `SliderColors`.
-
-### Chips (M3 — stable)
-| Composable | Type |
-|------------|------|
-| `AssistChip` / `ElevatedAssistChip` | Assist |
-| `FilterChip` / `ElevatedFilterChip` | Filter (toggle) |
-| `InputChip` | Input (tags) |
-| `SuggestionChip` / `ElevatedSuggestionChip` | Suggestion |
-
-Colors: `ChipColors`, `SelectableChipColors`. Elevation: `ChipElevation`,
-`SelectableChipElevation`. Shapes: `ChipShapes`.
-
-### Date/Time Pickers (M3 stable; Expressive TimePicker [M3E])
-`DatePicker`, `DatePickerDialog`, `DateRangePicker`, `TimePicker`, `TimeInput`.
-State: `DatePickerState`, `DateRangePickerState`, `TimePickerState`.
-Colors: `DatePickerColors`, `TimePickerColors`.
-Formatter: `DatePickerFormatter`. Selectable dates: `SelectableDates`.
-**[M3E]** Expressive TimePicker with redesigned styling.
-
-### Dropdown Menus (M3 — stable)
-`DropdownMenu` + `DropdownMenuItem`, `ExposedDropdownMenuBox`.
-State: `ExposedDropdownMenuAnchorType`, `ExposedDropdownMenuBoxScope`.
-
-### List Items (M3 stable; Expressive [M3E])
-`ListItem` — standard list item. Colors: `ListItemColors`.
-**[M3E]** Non-interactive expressive variants.
-
----
-
-## Feedback & Indicators
-
-### Progress Indicators (M3 — stable)
-`LinearProgressIndicator`, `CircularProgressIndicator`.
-
-### Loading Indicator **[M3E]**
-New component for expressive loading states. Part of the 14 M3E components announced May 2025.
-
-### Snackbar (M3 — stable)
-`Snackbar`, `SnackbarHost` + `SnackbarHostState`.
-Interfaces: `SnackbarData`, `SnackbarVisuals`.
-
-### Dialog (M3 — stable)
-`AlertDialog`.
-
-### Bottom Sheet (M3 — stable)
-`ModalBottomSheet`, `BottomSheetScaffold`.
-State: `BottomSheetScaffoldState`, `rememberBottomSheetState` (unified API).
-
-### Tooltip (M3 — stable)
-`PlainTooltip`, `RichTooltip`, `TooltipBox` + `TooltipState`.
-Scope: `TooltipScope`. Shape: `DefaultTooltipCaretShape`.
-
-### Swipe to Dismiss (M3 — stable)
-`SwipeToDismissBox` + `SwipeToDismissBoxState`.
-
----
-
-## Layout & Scaffold
-
-### Scaffold (M3 — stable)
-`Scaffold` — top-level layout with slots for topBar, bottomBar, FAB, snackbarHost, content.
-Params: `topBar`, `bottomBar`, `floatingActionButton`, `floatingActionButtonPosition`
-(FabPosition), `snackbarHost`, `contentWindowInsets`, `contentColor`, `containerColor`.
-
-### Drag Handle **[M3E]**
-`DragHandleColors`, `DragHandleShapes`, `DragHandleSizes` — for expressive drag handles.
-
----
-
-## Window Size Classes (M3 — stable)
-
-`WindowSizeClass`, `WindowWidthSizeClass`, `WindowHeightSizeClass`.
-`calculateWindowSizeClass(activity)` — calculates size class for adaptive layouts.
-
-| Width Size Class | dp Range | Navigation |
-|-----------------|----------|------------|
-| Compact | 0–599dp | NavigationBar |
-| Medium | 600–839dp | NavigationRail / WideNavigationRail |
-| Expanded | 840dp+ | WideNavigationRail / PermanentNavigationDrawer |
-
----
-
-## Icons & Text
-
-- `Icon` — Material icon from `Icons.Default.*` / `Icons.Outlined.*` / `Icons.Rounded.*`
-- `Text` — Material text with auto-size support (`TextAutoSize`)
-- `androidx.compose.material.icons` package — full Material icon set
-
----
-
-## Adaptive Layout (M3 — stable)
-
-`androidx.compose.material3.adaptive` package:
-- `PaneScaffoldScope`, `ThreePaneScaffoldRole`, `PaneAdaptedValue`
-- `ThreePaneScaffoldValue`, `calculateThreePaneScaffoldValue`
-- `AnimatedPane` — animated pane with shape support
-- `ThreePaneScaffoldAdaptStrategies` — adaptation strategies for list-detail layouts
+# Material Component and Pattern Catalog
+
+Select components by the problem they solve. Names below describe design patterns, not required
+functions or framework dependencies. The linked guidelines retain their official source and
+capture date. Exact anatomy, measurements, states, and accessibility guidance are in the sibling
+specs.md and accessibility.md files for each component.
+
+For UI Kit reuse, adaptation, and original design decisions, read
+[Component judgment](m3e/components.en.md) / [中文](m3e/components.md).
+Use an expressive variant only when its treatment helps the task and fits the project; a library
+release label is not a design-selection criterion.
+
+## Actions
+
+| Pattern | Appropriate purpose | Important distinction |
+| --- | --- | --- |
+| [Buttons](m3-content/components/buttons/guidelines.md) | A clearly named action | Match emphasis to importance; a filled treatment is not required for every action |
+| [Icon buttons](m3-content/components/icon-buttons/guidelines.md) | A compact, recognizable action or toggle | Ambiguous meaning needs a label or other clear explanation |
+| [Floating action button](m3-content/components/floating-action-button/guidelines.md) | A significant, readily available action | It must relate clearly to the current task and avoid covering content |
+| [Extended FAB](m3-content/components/extended-fab/guidelines.md) | A prominent action that benefits from visible wording | Its size and persistence should be justified by the context |
+| [FAB menu](m3-content/components/fab-menu/guidelines.md) | Related actions revealed from a focal control | Discovery, focus, and dismissal must remain understandable |
+| [Button group](m3-content/components/button-groups/guidelines.md) | A related set of controls | Grouping does not by itself define exclusive or multiple selection |
+| [Split button](m3-content/components/split-button/guidelines.md) | A default action plus related alternatives | Distinguish performing the action from opening alternatives |
+| [Toolbars](m3-content/components/toolbars/guidelines.md) | Actions associated with content or the current context | Placement should preserve the relationship to the affected content |
+
+## Navigation and discovery
+
+| Pattern | Appropriate purpose | Important distinction |
+| --- | --- | --- |
+| [App bars](m3-content/components/app-bars/guidelines.md) | Page context and related navigation or actions | Avoid overcrowding the title and key controls |
+| [Navigation bar](m3-content/components/navigation-bar/guidelines.md) | Persistent access to primary destinations | Navigation changes location; it is not a generic action row |
+| [Navigation rail](m3-content/components/navigation-rail/guidelines.md) | Persistent destinations with room for a side structure | Choose form by space and task, retaining clear destination identity |
+| [Navigation drawer](m3-content/components/navigation-drawer/guidelines.md) | A destination structure suited to a larger or revealed panel | Decide whether hiding the structure impairs frequent navigation |
+| [Tabs](m3-content/components/tabs/guidelines.md) | Related peer content views | Preserve scope and selected state; do not use as arbitrary button styling |
+| [Search](m3-content/components/search/guidelines.md) | Finding content within a defined scope | Query, results, empty results, and return behavior belong to the design |
+
+## Input and selection
+
+| Pattern | Appropriate purpose | Important distinction |
+| --- | --- | --- |
+| [Text fields](m3-content/components/text-fields/guidelines.md) | Entering or editing text | Labels, format expectations, errors, and existing values must remain clear |
+| [Checkbox](m3-content/components/checkbox/guidelines.md) | Independent or multiple selections | Do not imply mutually exclusive choice |
+| [Radio button](m3-content/components/radio-button/guidelines.md) | One choice among alternatives | Make the group relationship understandable |
+| [Switch](m3-content/components/switch/guidelines.md) | An on/off setting | Make the effect and state clear, including when it takes effect |
+| [Segmented buttons](m3-content/components/segmented-buttons/guidelines.md) | A compact related selection set | Define single or multiple choice; the shape alone does not define it |
+| [Chips](m3-content/components/chips/guidelines.md) | Contextual actions, filters, suggestions, or input items | Use the subtype whose behavior matches the meaning |
+| [Sliders](m3-content/components/sliders/guidelines.md) | A value or range along a meaningful continuum | Consider precision, labels, and an alternative input when needed |
+| [Date pickers](m3-content/components/date-pickers/guidelines.md) | Choosing dates | Support the task's range, locale, and error conditions |
+| [Time pickers](m3-content/components/time-pickers/guidelines.md) | Choosing a time | Clarify format and meaningful constraints |
+| [Menus](m3-content/components/menus/guidelines.md) | A contextual set of choices or actions | Keep the trigger, scope, and selected or unavailable options clear |
+
+## Content and grouping
+
+| Pattern | Appropriate purpose | Important distinction |
+| --- | --- | --- |
+| [Cards](m3-content/components/cards/guidelines.md) | A coherent content unit, sometimes with related actions | Not every group needs a card; avoid confusing nested interaction targets |
+| [Lists](m3-content/components/lists/guidelines.md) | Scannable, comparable items | Maintain consistent item hierarchy and state; density follows the task |
+| [Carousel](m3-content/components/carousel/guidelines.md) | Browsing a sequence of content | Hidden items may make simultaneous comparison difficult |
+| [Divider](m3-content/components/divider/guidelines.md) | A useful boundary between regions | Space or headings may already communicate the relationship |
+| [Badges](m3-content/components/badges/guidelines.md) | A compact status or count attached to another element | Make meaning discoverable without relying only on color |
+
+## Feedback and temporary surfaces
+
+| Pattern | Appropriate purpose | Important distinction |
+| --- | --- | --- |
+| [Dialogs](m3-content/components/dialogs/guidelines.md) | A focused decision or task that warrants interruption | Use only the necessary interruption and provide clear resolution |
+| [Bottom sheets](m3-content/components/bottom-sheets/guidelines.md) | Supporting content or actions connected to the current context | Modal and persistent behavior have different focus and dismissal needs |
+| [Side sheets](m3-content/components/side-sheets/guidelines.md) | Supporting content alongside or over the main region | Preserve the relationship and usable space for the primary task |
+| [Snackbar](m3-content/components/snackbar/guidelines.md) | Brief feedback, sometimes with a related action | Essential information or decisions may need a more persistent treatment |
+| [Tooltips](m3-content/components/tooltips/guidelines.md) | Supplementary explanation of a control | Essential action meaning should not depend on hover alone |
+| [Progress indicators](m3-content/components/progress-indicators/guidelines.md) | Ongoing work or measurable progress | Use known progress when available; do not imply false precision |
+| [Loading indicator](m3-content/components/loading-indicator/guidelines.md) | An expressive waiting state | Keep the context understandable and consider reduced-motion needs |
+
+## Compositions and patterns without a direct match
+
+A task may need a [list-detail layout](m3-content/foundations/layout/canonical-examples/list-detail.md),
+[supporting pane](m3-content/foundations/layout/canonical-examples/supporting-pane.md), or
+[feed](m3-content/foundations/layout/canonical-examples/feed.md), rather than another standalone
+component. Use [layout guidance](m3-content/foundations/layout/layout-overview/adaptive-design.md)
+to preserve task relationships as space changes.
+
+For gestures such as swipe-to-dismiss, pair the intended action with clear feedback and a suitable
+alternative where needed; see [gestures](m3-content/foundations/interaction/gestures.md). A drag
+handle or decorative shape is not, by itself, a complete interaction design. Choose
+[icons](m3-content/styles/icons/applying-icons.md) for meaning and consistency with the actual kit.
+
+If neither a kit pattern nor a suitable composition meets the need, create a design grounded in
+the task and Material principles. Specify relevant behavior, states, and shared visual roles.
+Explain the meaningful departure briefly; do not falsely label a custom pattern as an official
+component or claim kit availability without checking it.

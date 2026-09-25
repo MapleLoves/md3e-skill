@@ -1,108 +1,64 @@
-# M3E 动效物理系统（Motion Physics）
+# 动效意图、关系与表现力
 
-核对日期：**2026-09-14**
+[English](motion-physics.en.md)
 
-| 内容 | 来源 | 可信度 |
+本文把动效作为设计语言讨论。建议是对设计资料的编辑提炼，精确参数按实际规范与
+项目动效系统查阅，不以任何框架 API 为使用前提。
+
+## 先说明发生了什么
+
+动效应帮助用户理解操作反馈、对象关系或状态变化。选择动画前，先确定它需要回答的
+问题：操作是否生效？内容去了哪里？两个状态之间有什么关系？下一步是否已经可用？
+
+如果静态状态已经足够清楚，额外运动未必有益。表现力可用于重要时刻，但频繁重复的
+操作更需要迅速、可靠的反馈，不应要求用户等待装饰结束。
+
+## 运动类型与设计判断
+
+| 类型 | 主要意图 | 判断重点 |
 | --- | --- | --- |
-| `MotionScheme` 存在、`MaterialTheme.motionScheme`、组件动画改用 `MotionScheme` | Compose Material 3 官方版本说明（2026-09-09） | ✅ |
-| `MotionScheme.standard()` / `MotionScheme.expressive()` 命名 | 同上（1.4.0-alpha02 由 `standardMotionScheme`/`expressiveMotionScheme` 重命名） | ✅ |
-| 动效物理系统的**概念**（spring 驱动、spatial/effects 分类） | m3.material.io 的标题与摘要，正文为 CSR 无法抓取 | ⚠️ |
-| **具体 token 数值**（stiffness / dampingRatio / 时长） | **未从官方原文核对** | ⚠️⚠️ |
+| 空间变化 | 说明对象的位置、尺寸、形状及关系 | 轨迹和变化是否容易追踪，是否影响周围阅读与操作 |
+| 颜色与透明度变化 | 说明状态、显隐和强调转移 | 状态是否清楚，是否出现难以阅读的中间状态 |
+| 内容转场 | 说明当前内容与新内容的联系 | 是否真的存在连续关系，焦点和任务位置是否保持合理 |
+| 强调或庆祝 | 突出有意义的进展或完成 | 是否适合产品语境、是否打断后续行动、是否过于频繁 |
 
-> 使用原则：**不要**把本文件里的任何数值抄进代码。
-> 需要精确参数时，读代码里的 `MaterialTheme.motionScheme` API，或人工在
-> `m3.material.io/styles/motion` 与 `MotionTokens` 源码中确认。
+空间变化可在合适场合使用有控制的回弹；颜色和透明度不应靠反复震荡表达弹性。
+没有可解释关系的页面之间，不要仅为华丽效果制造虚假的对象变形。
 
----
+## 弹簧是一种表达手段
 
-## 一、范式转变：从「时长 + 曲线」到「弹簧物理」
+弹簧模型可以用于连续、可中断的运动。设计时先描述想要的反馈性质，例如快速响应、
+柔和收束或有节制的回弹，再通过项目已有动效 Token 或实现能力落地。
 
-| 维度 | 传统模型 | M3E 物理模型 |
-| --- | --- | --- |
-| 驱动方式 | `durationMillis` + `easing` 曲线 | 弹簧模拟（`stiffness` + `dampingRatio`） |
-| 结束条件 | 固定时长到点即停 | 由物理量衰减到静止，系统自动"结算" |
-| 中断处理 | 需要手动算速度 | 天然携带速度，可无缝续接（速度继承） |
-| 表现力 | 曲线决定观感 | 阻尼比决定是否有回弹 |
+不能把 M3E 等同于处处弹跳，也不能因为选用了弹簧就假定动效一定自然、快速或适合
+所有设备。时长与缓动仍可在适合的情境使用；依据对象关系和实际体验选择，而不是
+为符合一个 API 名称而改变设计。
 
-**推论**：弹簧动画**不能用时长去"卡"**。写 `tween(300)` 再套弹簧是没有意义的组合。
+同类交互共享节奏，体量与目的不同的变化可以不同。不要从未核对的例子复制刚度、
+阻尼或时长并宣称它们是官方通用数值。
 
----
+## 可控、可中断、可替代
 
-## 二、动效分类（官方概念，⚠️ 细节待核）
+快速重复输入、取消、返回或拖动接管时，用户应能理解当前状态。设计重要交互时，
+考虑动画尚未结束的情况，以及焦点和内容的去向。
 
-| 分类 | 涵盖的属性 | 阻尼取向 |
-| --- | --- | --- |
-| **Spatial（空间）** | 位置、尺寸、旋转等**位移类**变化 | 允许轻微回弹（欠阻尼）以体现表现力 |
-| **Effects（效果）** | 透明度、颜色等**原地**变化 | 通常无回弹（临界阻尼），避免视觉噪点 |
+根据实际平台和用户偏好提供减少动效的表达，保留必要反馈与操作能力。减少运动不
+等于删除状态提示；可以选择更简单的切换或其他清楚的反馈。避免用仅能通过动画
+察觉的信息承担关键状态。
 
-**速度分级**：通常存在 fast / default / slow 三档，按**组件体量与叙事重要性**选择
-（小组件用快档，大面积/重要转场用慢档）。
+## UI Kit 与自定义动效
 
-> ⚠️ 上述分类与分级的**命名与数量**属于设计规范层面，未从官方页面逐条核对；
-> 代码中以 `MotionScheme` 暴露的具名 API 为准（如 `*SpatialSpec` / `*EffectsSpec` 形态的方法）。
+合适的 Kit 反馈应当复用。新组件采用项目已有节奏与状态语言；若 Kit 动效不符合
+当前任务，可以调整或设计替代方案，但要交代改变解决的问题。不要把某个库的动画
+实现当作其他平台必须复制的约束。
 
----
+## 按问题查阅
 
-## 三、Compose 侧用法
+- [动效如何工作](../m3-content/styles/motion/overview/how-it-works.md)
+- [动效规格](../m3-content/styles/motion/overview/specs.md)
+- [转场模式](../m3-content/styles/motion/transitions/transition-patterns.md)
+- [应用转场](../m3-content/styles/motion/transitions/applying-transitions.md)
+- [缓动与时长规格](../m3-content/styles/motion/easing-and-duration/tokens-specs.md)
+- [交互状态](../m3-content/foundations/interaction/states/applying-states.md)
 
-### 取用方式
-
-```kotlin
-// 主题中的动效方案（1.5.0-alpha27 起 LocalMotionScheme 已移除，只能用这个）
-val scheme = MaterialTheme.motionScheme
-
-// 典型形态：按"分类 + 速度档"取 spec，再交给动画 API
-val spec = scheme.defaultSpatialSpec<Float>()      // 位移类默认档
-val effects = scheme.fastEffectsSpec<Color>()      // 效果类快档
-
-animateFloatAsState(targetValue = x, animationSpec = spec)
-```
-
-### 两套方案
-
-| 方案 | 定位 |
-| --- | --- |
-| `MotionScheme.expressive()` | 更有表现力（默认取向） |
-| `MotionScheme.standard()` | 更克制，接近传统观感 |
-
-### 主题接入
-
-- `MaterialExpressiveTheme`（1.4.0/1.5.0-alpha 线）可一次性把 M3E 的颜色方案与动效方案接上 ⚠️。
-- 组件动画在 **M3 1.4.0 起已改用 `MotionScheme` 定义** ✅ —— 因此自定义组件应与主题方案保持一致，
-  不要自己写死时长，否则同屏动效节奏会打架。
-
----
-
-## 四、迁移与使用规则
-
-| 规则 | 说明 |
-| --- | --- |
-| **禁止用时长卡弹簧** | 不要 `tween(300)` 包弹簧；也不要为弹簧补 `delay` |
-| **统一从主题取 spec** | 用 `MaterialTheme.motionScheme.xxxSpec<T>()`，不在各处 new spec |
-| **分类要对** | 位移/尺寸/旋转归 spatial；透明度/颜色归 effects |
-| **速度档要一致** | 同屏同类交互用同一档，避免"有的快有的慢" |
-| **可中断** | 手势驱动的动画应支持中途接管（Compose 1.12 的 `DeferredAnimatedContent` / `DeferredAnimatedVisibility` 正是为此设计，支持速度传递与无缝交接）✅ |
-| **降级** | 系统"移除动画"无障碍设置开启时，动画应退化为瞬时切换 |
-| **测试** | 动画测试用 `runWithoutImplicitWait` + 手动推进时钟；只判断有无待处理工作用 `hasPendingWork` ✅ |
-
----
-
-## 五、传统令牌体系（作为回退，⚠️ 数值待核）
-
-M3E 并未删除旧的"时长 + 缓动"令牌，它们在弹簧不适用处（如需要精确编排的多段动画）仍在使用：
-
-- **时长档**：short / medium / long / extra-long 各 4 级（约 50ms 起，extra-long 到约 1000ms）
-- **缓动族**：emphasized、emphasized decelerate、emphasized accelerate，以及 standard /
-  decelerate / accelerate 与 legacy 系列
-
-> ⚠️ 以上档位与曲线**未从官方原文核对**（m3.material.io 需 JS 渲染）。
-> 需要确切数值时读 Compose 里的 `MotionTokens`，或对照 Material 3 Design Kit。
-
----
-
-## 六、待补充（需要人工在浏览器中核对）
-
-1. `spring.fast/default/slow` × `spatial/effects` 的完整 token 名称与参数；
-2. 各组件的**推荐动效分类**映射表（如 FAB 展开、页面转场分别属于哪一档）；
-3. 形状形变（shape morph）与动效的配合规范；
-4. 无障碍"移除动画"下的官方降级建议。
+检查实际运动后才能评价节奏、可中断性和阅读影响；只有静态设计稿时应说明这些仍待验证。

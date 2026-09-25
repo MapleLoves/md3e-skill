@@ -1,14 +1,14 @@
-# M3E Compose API & Migration
+# Optional Appendix: Compose API and Migration
 
-Verified: **2026-09-14**
-Sources: Compose Material 3 official release notes (page updated 2026-09-09) ✅ +
-Material Design 3 for Compose (page updated 2026-09-08) ✅
+Read only when the actual project uses Compose or the user explicitly asks about it. This is
+secondary implementation context, not the boundary of MD3E design or a dependency requirement
+for another stack.
 
----
-
-> 📌 **Version policy**: this project **adopts the newest versions (including Alpha/Beta/RC)** —
-> i.e. `material3 = 1.5.0-alpha28`, see `../version-baseline.md`.
-> Mentions of the "stable line (1.4.0)" below are **channel status notes only**, not our choice.
+Original verification date: **2026-09-14**. Version records were not reverified in this revision
+and are not a claim about current releases. Original sources: Compose Material 3 release notes
+and the Compose developer guide. Choose dependencies for the actual project; do not default to
+alpha or require an upgrade. Start with [design judgment](design-system.en.md); see the
+[historical version snapshot](../version-baseline.md) for implementation context.
 
 ## 1. Version gates quick reference
 
@@ -28,7 +28,7 @@ Material Design 3 for Compose (page updated 2026-09-08) ✅
 | `carouselParallaxScrollEffect` | 1.5.0-alpha28 | ⚠️ alpha line |
 | `material3-ripple` | 1.5.0-alpha24 | ⚠️ alpha line (separate library) |
 
-**Key conclusion**: **the full M3E component set currently exists only on the alpha line**.
+**Snapshot record**: **at the recorded date, the full M3E component set was on the alpha line**.
 The stable line (1.4.0) ships "M3 + MotionScheme + partial Expressive" without the full M3E new components.
 
 ---
@@ -45,35 +45,13 @@ The stable line (1.4.0) ships "M3 + MotionScheme + partial Expressive" without t
 
 ---
 
-## 3. Migration steps to M3E
+## 3. Implementation and migration within the project
 
-```
-1. Lock the version policy
-   ├─ Stable: material3 = 1.4.0 (via BOM), stable components + MotionScheme only
-   └─ Full:   material3 = 1.5.0-alphaNN (compose-bom-alpha already covers material3; usually no explicit version)
-
-2. Theme layer
-   ├─ Light/dark ColorScheme (Material Theme Builder → Color.kt / Theme.kt)
-   ├─ Dynamic color: API 31+ check + fallback
-   └─ (optional) MaterialExpressiveTheme + expressiveLightColorScheme ⚠️alpha
-
-3. Motion layer
-   └─ All custom animations take specs from MaterialTheme.motionScheme
-      ❌ remove scattered tween(300) / spring(stiffness=...) hard-codes
-
-4. Icons layer
-   ├─ Explicitly declare material-icons dependency, or
-   └─ switch to Material Symbols vectors (recommended)
-
-5. Component layer (incremental)
-   ├─ Replace first: TopAppBar → Flexible family, SearchBar → slot version, bottom bars
-   └─ Then add: ToggleButton / ButtonGroup / SplitButton / FAB Menu / Carousel
-
-6. Verify
-   ├─ Dark mode + dynamic color + large font scale
-   ├─ Window sizes (device matrix in ../m3-content/foundations/layout/breakpoints/)
-   └─ Visual regression: focus on surfaceContainer hierarchy (behavior changed in 1.3.0)
-```
+- Inspect project dependencies and intended design; consult versioned APIs only for needed features.
+- Reuse existing theme generation, color roles, and configuration. Do not require a theme scaffold or regenerate theme files.
+- Select available components for their design purpose rather than changing the entire stack to obtain an API name.
+- Custom interactions should share project motion and state language; verify signatures against actual dependencies.
+- Keep migration within scope, retain suitable components, and check affected themes, sizes, and states.
 
 ---
 
@@ -97,61 +75,21 @@ and keep call sites centralized (wrap in your own facade) to limit rename fallou
 
 ---
 
-## 5. Theme wiring skeleton
-
-```kotlin
-// Theme.kt
-private val DarkColorScheme = darkColorScheme(/* Material Theme Builder output */)
-private val LightColorScheme = lightColorScheme(/* ... */)
-
-@Composable
-fun AppTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
-    dynamicColor: Boolean = true,          // allow users to turn dynamic color off
-    content: @Composable () -> Unit,
-) {
-    val context = LocalContext.current
-    val colorScheme = when {
-        dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S ->
-            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
-        darkTheme -> DarkColorScheme
-        else -> LightColorScheme
-    }
-
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = AppTypography,
-        shapes = AppShapes,
-        content = content,
-    )
-}
-```
-
-**Motion wiring** (1.4.0+):
-
-```kotlin
-val motion = MaterialTheme.motionScheme
-val spec = motion.defaultSpatialSpec<Float>()
-animateFloatAsState(targetValue = target, animationSpec = spec)
-```
-
----
-
-## 6. Accessibility hard constraints
+## 5. Design checks during implementation
 
 | Constraint | Notes |
 | --- | --- |
 | Color pairs | `primary`+`onPrimary`, `primaryContainer`+`onPrimaryContainer`; official counter-example: `tertiaryContainer` + `primaryContainer` insufficient contrast |
 | Font scale | After system font scaling, verify no overflow/clipping |
-| Remove animations | When system "remove animations" is on, fall back to instant switches |
-| Semantics | All interactive controls need `contentDescription` / semantics |
+| Reduced motion | Provide suitable simplified feedback for platform preferences while preserving essential state information |
+| Semantics | Preserve built-in semantics; add labels, roles, and states where needed without duplicate announcements |
 
 ---
 
-## 7. Open verification items ⚠️
+## 6. Verify for the actual task
 
-1. Component **spec tables** on `m3.material.io` (sizes, spacing, state layer opacity) — site needs JS;
-2. **Full signatures and token values** of `MotionScheme` spec methods;
-3. Exact availability of `MaterialShapes` / shape morph APIs in the current Compose version;
-4. Ownership/stability of M3E **LoadingIndicator** etc. in `material3`
-   (no clear entry verified in release notes for this file).
+Consult [Material design snapshots](../m3-content/index.md) for design specifications and their
+source/capture dates. Use the [API snapshot](../compose-api-full.md) for signatures, matching them
+to the project dependency. If versions differ, consult the relevant release notes; an old table
+cannot establish availability in a newer release. Verify shape, motion, or component-state
+implementation details only when the current task needs them.

@@ -1,17 +1,14 @@
-# MD3E Version Baseline
+# Optional Compose Version Snapshot
 
-Knowledge baseline date: **2026-09-14**. Sources: official AndroidX release notes
-(compose-material3 page updated 2026-09-09), Compose developer guide (2026-09-08).
-
-> **Recommendation for full M3E**: use the alpha line — `androidx.compose.material3:material3:1.5.0-alpha28`
-> (as of 2026-09-09). The stable line **1.4.0** ships M3 + `MotionScheme` + partial Expressive only.
-> Official warning: alpha/beta BOMs are for testing, not production.
-
----
+Read only for an actual Compose implementation task. These are historical records from the
+**2026-09-14** knowledge baseline, not current dependency recommendations or design requirements.
+The version details have not been reverified during the design-focused revision of this skill.
+Original sources: AndroidX release notes and the Compose developer guide. Match the actual
+project dependencies before using these records; do not adopt alpha versions by default.
 
 ## 1. Version matrix (M3E-relevant)
 
-| Component | Stable | Latest pre-release (2026-09) | Notes |
+| Component | Stable | Pre-release recorded in the snapshot | Notes |
 | --- | --- | --- | --- |
 | Compose Material 3 | **1.4.0** (2025-09-24) | **1.5.0-alpha28** (2026-09-09) | Full M3E components only on alpha line |
 | Compose Material 3 Adaptive | **1.3.0** (2026-08-12) | **1.4.0-alpha02** | `NavigationSuiteScaffold`, pane scaffolds |
@@ -93,7 +90,7 @@ Knowledge baseline date: **2026-09-14**. Sources: official AndroidX release note
 
 ---
 
-## 5. Suggested dependency snippet
+## 5. Historical dependency example (not a project default)
 
 ```kotlin
 // gradle/libs.versions.toml (or module build.gradle.kts)
@@ -109,15 +106,15 @@ implementation("androidx.lifecycle:lifecycle-runtime-compose:2.12.0-alpha03")
 implementation("androidx.activity:activity-compose:1.14.0-alpha02")
 ```
 
-Production / Play release: prefer stable BOM `compose-bom` + material3 **1.4.0** and limit M3E to graduated APIs, or wait for Material Compose 1.5.0 stable promotion of experimental APIs.
+This historical example does not choose a dependency policy for the project. Inspect the actual
+versions and relevant release notes before changing dependencies.
 
 ---
 
-## 6. Related reading in this skill
+## 6. Related reading
 
-- `references/m3e/compose-api.md` — API gates, migration steps, alpha churn (+ `.en.md`)
-- `references/m3e/components.md` — component inventory by version line (+ `.en.md`)
-- `references/m3e/design-system.md` — theming, dynamic color, system UI (+ `.en.md`)
-- `references/m3e/motion-physics.md` — MotionScheme usage rules (+ `.en.md`)
-- `references/m3e/color-typography-shape.md` — color/type/shape subsystems (+ `.en.md`)
-- `references/m3-vs-m3e-diff.md` — M3 ↔ M3E comparison
+- [Compose notes](m3e/compose-api.en.md) / [中文](m3e/compose-api.md): optional implementation context.
+- [API snapshot](compose-api-full.md): historical signatures and release notes.
+- [Design judgment](m3e/design-system.en.md) / [中文](m3e/design-system.md): the primary design perspective.
+- [Component judgment](m3e/components.en.md) / [中文](m3e/components.md): kit fit and custom design.
+- [Motion intent](m3e/motion-physics.en.md) / [中文](m3e/motion-physics.md): design meaning independent of APIs.

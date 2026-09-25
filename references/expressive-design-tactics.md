@@ -1,202 +1,72 @@
 # Expressive Design Tactics
 
-The 7 design tactics from Google's official M3E launch (May 2025), extracted from the
-"Start building with Material 3 Expressive" blog. These guide how to make UI more engaging
-and direct user attention.
+Use expressive treatments to make meaningful relationships noticeable. This note interprets the
+seven tactics discussed in Material's [M3E introduction](https://m3.material.io/blog/building-with-m3-expressive)
+through the bundled [usability guidance](m3-content/foundations/usability/applying-m3-expressive.md).
+The contextual examples and tradeoffs below are editorial recommendations, not mandatory recipes.
 
----
+## Select tactics for a purpose
 
-## 1. Use a Variety of Shapes
+| Tactic | Design purpose | Useful application | When to restrain it |
+| --- | --- | --- | --- |
+| Vary shapes | Distinguish a focal object or establish a recognizable family | Give a meaningful action a silhouette distinct from supporting containers | Arbitrary variation makes related controls look unrelated |
+| Use rich, nuanced color | Express emphasis, grouping, and state through role relationships | Pair a prominent action with supporting surface tones and readable content colors | Every saturated region competes with the main task |
+| Guide attention with typography | Make importance and reading order visible | Emphasize a key result or headline while keeping supporting text steady | Long text, dense comparison, or narrow widths need sustained readability |
+| Contain related content | Make belonging and boundaries understandable | Group information and its action with space, alignment, and a suitable surface | Repeated nested cards can fragment one continuous task |
+| Add fluid motion | Explain feedback, continuity, or a meaningful state change | Connect an expanded object to its origin or acknowledge completion | Frequent input, reduced-motion preferences, or unrelated destinations need simpler treatment |
+| Use component flexibility | Fit the task to space, input, and context | Reorganize navigation or related panes while preserving meaning | A larger viewport alone is not a reason to add panels or complexity |
+| Combine tactics at meaningful moments | Concentrate expression on something the user values | Give an important achievement a clear focal composition | Do not make every interaction a celebration or impose a fixed number of hero moments |
 
-Shape is a powerful communication tool. At the base level, the shapes of components, containers,
-and content set the tone at first glance.
+A useful treatment has an identifiable job. Choose only the tactics that contribute to it;
+there is no requirement to use all seven.
 
-### Principles
-- Combine shapes and corner radii to create **visual tension or cohesion**
-- Use a combination of **classic and abstract shapes** to create unique silhouettes or groupings
-- Use the shape library and new corner-radii options to **mix round and square** for contrast
+## Shape and color carry relationships
 
-### Do / Caution
-- **Do**: break from the surrounding shape style to draw attention to a particular element
-- **Caution**: smaller shapes can make essential actions look less important
+Start from a coherent family and use contrast deliberately. A distinctive shape can signal an
+action or frame imagery; it should not make a decorative object look accidentally interactive.
+Use semantic color pairs and actual contrast, rather than choosing a color merely because it is
+vibrant. Fixed accent roles and surface roles are part of the color vocabulary; do not infer their
+history or availability from a library release label.
 
-### MD3E Shape Features
-- **35 shape variants** in the official shape library for image crops, avatars, decorative elements
-- **Shape-morph animation**: smooth transitions from one shape to another (e.g., square → circle)
-- **Component shape classes**: `ButtonShapes`, `ChipShapes`, `SplitButtonShapes`
+Sources: [Shape principles](m3-content/styles/shape/overview-principles.md),
+[shape morph](m3-content/styles/shape/shape-morph.md), and [color roles](m3-content/styles/color/roles.md).
 
----
+## Typography and containment create an editorial hierarchy
 
-## 2. Apply Rich and Nuanced Colors
+Give the main information enough space and a suitable text role. Let supporting information form
+readable groups. A content-led composition can be expressive without extra ornament: for example,
+a clear numerical result, a short interpretation, and a well-associated next action.
 
-Material's dynamic color system offers colors for primary, secondary, and tertiary elements and
-surfaces. Mixing these for key components helps emphasize the main takeaway of a screen.
+Do not confuse every larger container with higher task priority. Surface tones, whitespace,
+placement, and type work together; actual light/dark appearance must be inspected.
 
-### Principles
-- Create **visual hierarchy with surface tones** — use surface container roles (surfaceDim through
-  surfaceContainerHighest) to layer content
-- Use **contrast between primary, secondary, and tertiary** color roles to prioritize actions
-  and simplify navigation
-- MD3E adds **Fixed color roles** that don't change between light/dark — use for brand elements,
-  illustrations, or content that must look identical in both themes
+Sources: [Editorial typography](m3-content/styles/typography/editorial-treatments.md) and
+[spacing](m3-content/foundations/layout/grids-spacing/spacing.md).
 
-### Do / Caution
-- **Do**: use contrast to emphasize the main takeaway or element
-- **Caution**: without contrast, elements can blend together
+## Motion and adaptation preserve meaning
 
-### MD3E Color Features
-- 18 new Fixed color roles (primaryFixed, secondaryFixed, tertiaryFixed + dim/variant)
-- 7 surface container roles (surfaceDim, surfaceBright, surfaceContainerLowest through Highest)
-- Three contrast levels (Default, Medium, High) on Android 16
+Movement can make a relationship clear, but it must not delay an action or become the only state
+cue. Adapt layout by the content that needs to remain related or comparable, preserving focus and
+task position when relevant. Reuse suitable kit patterns; create a new composition when none fits.
 
----
+Sources: [Motion intent](m3e/motion-physics.en.md),
+[adaptive design](m3-content/foundations/layout/layout-overview/adaptive-design.md), and
+[kit fit](m3e/components.en.md).
 
-## 3. Guide Attention with Typography
+## Example: a progress summary
 
-Use emphasized text styles to draw attention to important UI elements like headlines and actions.
+Suppose a learning product needs a weekly summary. A strong number and headline can establish the
+main outcome; a shared container can relate it to supporting detail; selective shape and color can
+express the product's character. A small transition may reinforce completion if it suits the use
+context. Comparable results should remain visible together.
 
-### Principles
-- Create **editorial-like moments** by emphasizing typography
-- **Heavier weights, larger sizes, color, and spacing** can direct attention and make key
-  information more engaging
-- Use additional type styles from the Material type scale to create appropriate hierarchy within
-  and between blocks of content
+Use the kit's suitable type and action styles. If no summary pattern fits, design the composition
+from these relationships. Do not insert an unrelated carousel, giant button, or animation simply
+because the kit provides it. This is a contextual proposal, not a required layout.
 
-### MD3E Typography Features
-- **Emphasized text styles** — new type styles for variable and static fonts expressing emotional
-  states
-- **Variable fonts** — dynamically adjust weight, width for readability
-- **Bold editorial layouts** — support for magazine-style content hierarchy
-- `Typography` now supports a default font family merged with provided styles
+## Evaluate the result
 
----
-
-## 4. Contain Content for Emphasis
-
-Organize content into logical groupings or containers. Give the most important content, tasks,
-or actions visual prominence through ample space and the brightest surface mapping.
-
-### Principles
-- Use **size, spacing, rhythm, similarity**, or other grouping principles to make important
-  elements more distinct
-- Apply **surface container roles** to visually separate groups
-- Use **ample space** (the brightest surface mapping) for the most important content
-
-### Do / Caution
-- **Do**: group similar content into informative groupings
-- **Caution**: ungrouped information can blend together
-
-### Implementation
-```kotlin
-// Group content using surface container roles
-Surface(color = MaterialTheme.colorScheme.surfaceContainer) {
-    // Related content group
-}
-Surface(color = MaterialTheme.colorScheme.surfaceContainerHigh) {
-    // Higher-emphasis group
-}
-```
-
----
-
-## 5. Add Fluid and Natural Motion
-
-Make interactions feel alive and spirited through shape morph or surface effects.
-
-### Principles
-- Apply **expressive motion springs** (`MotionScheme.expressive()`)
-- Use **custom micro animations** for delightful details
-- **Shape morph** — animate shape transitions for engaging state changes
-- **Surface effects** — subtle visual feedback on interaction
-
-### Implementation
-```kotlin
-// Use MotionScheme for consistent spring-based motion
-MaterialExpressiveTheme(
-    motionScheme = MotionScheme.expressive(),
-    // ...
-)
-
-// Custom components should use motionScheme specs
-val scale by animateFloatAsState(
-    targetValue = if (isPressed) 0.95f else 1f,
-    animationSpec = MaterialTheme.motionScheme.defaultSpatialSpec(),
-    label = "scale"
-)
-```
-
-See `design-tokens.md` section 4 for full MotionScheme API details.
-
----
-
-## 6. Leverage Component Flexibility
-
-UI should adapt to the user context. Shift components or controls depending on the environment
-to make completing tasks easier.
-
-### Principles
-- Adapt content to **foldable and large screens** through custom tweaks or canonical layouts
-- Use **adaptive navigation**: NavigationBar (compact) → NavigationRail/WideNavigationRail
-  (medium) → NavigationDrawer (expanded)
-- Components should **reorganize, not just stretch**, on larger screens
-
-### Window Size Class Mapping
-| Width | dp Range | Navigation Component |
-|-------|----------|---------------------|
-| Compact | 0–599dp | `NavigationBar` |
-| Medium | 600–839dp | `NavigationRail` / `WideNavigationRail` [M3E] |
-| Expanded | 840dp+ | `WideNavigationRail` [M3E] / `PermanentNavigationDrawer` |
-
-### IO 2026 Update: Expressive Layout System
-- New **spacing system** on an 8dp scale for programmatic adaptation
-- New layout scaffold for mobile, desktop, spatial devices, and XR
-- Design guidance for watches and immersive XR
-
----
-
-## 7. Combine Tactics to Create Hero Moments
-
-Hero moments use multiple expressive tactics to break from predictable or uniformly applied
-design ideas.
-
-### Principles
-- Make a **stand-alone statement** or frame essential information in a fresh, editorial way
-- Hero moments are a **focusing mechanism** — invest time in making critical interactions sing
-- These moments are the **heart of your product**
-
-### Guidelines
-- Keep hero moments **short but delightful**
-- Make them **unexpected** (e.g., a small easter egg when completing a payment)
-- **1-2 per product maximum** — too many will分散 attention
-
-### How to Find Your Hero Moment
-Ask yourself:
-1. **Can this interaction tap into user emotion?**
-   - Amplify achievement (e.g., celebration animation when hitting a fitness goal)
-   - Reinforce familiarity (e.g., red packet opening sound in WeChat)
-2. **Is this a key product action?**
-   - Does a step need enhanced clarity?
-   - Make important buttons more prominent, or let key information "jump out" to guide the eye
-
-### Example: Combining Tactics
-A hero moment might combine:
-- **Shape variety** (a morphing FAB)
-- **Rich color** (vibrant tertiary accent)
-- **Emphasized typography** (bold headline)
-- **Fluid motion** (spring-based expansion)
-- **Container grouping** (content organized in surface containers)
-
----
-
-## Research Backing
-
-These tactics are based on Google's most researched design system update since 2014:
-- **46 independent studies** with **18,000+ participants**
-- Key findings:
-  1. Expressive designs are preferred by people of **all ages**
-  2. Expressive designs score higher on **playfulness, energy, creativity, and friendliness**
-  3. Users are **more likely to switch** to products using M3E components
-  4. Expressive designs are **easier to use** — participants spotted key UI elements up to
-     **4x faster** in expressive screens
-
-Source: [Start building with Material 3 Expressive](https://m3.material.io/blog/building-with-m3-expressive) (May 2025)
+Ask whether users can identify the important information and next action, whether secondary
+choices remain understandable, and whether the design still works with real content and relevant
+accessibility settings. Research about expressive treatments does not guarantee the same outcome
+for a new screen; distinguish a design hypothesis from actual user evidence.

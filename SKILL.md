@@ -1,154 +1,120 @@
 ---
 name: md3e
-version: 1.2.0
-description: "Material Design 3 Expressive (MD3E) design system skill for Android Jetpack Compose. This skill should be used when building Android UI with Material 3 / Material 3 Expressive design language, including theming (color schemes, typography, shapes, motion), component implementation (buttons, cards, navigation, FAB, floating toolbar, button group, etc.), and design guidance (when to use which component, M3 vs M3E differences, expressive design principles). Covers both MD3E (the evolution released 2025, targeting Android 16) and baseline M3 (many components only have M3 specs). Knowledge baseline 2026-09-14: material3 1.5.0-alpha28 / stable 1.4.0. Triggers on requests like Material 3 Expressive, MD3E, Material Design 3, M3 theme, MaterialExpressiveTheme, Compose Material 3 component, or when designing/building Android UI that should follow Google Material design guidelines."
+description: "Design and review UI using the Material Design 3 Expressive (MD3E) design language, independent of implementation framework. Use for Material 3 / M3E visual direction, design philosophy, information hierarchy, expressive styling, component and UI Kit selection, custom interface design, and design critique. Apply design principles to the project's actual platform and UI Kit; implementation API documentation is optional context."
+metadata:
+  version: "2.0.0"
 ---
 
-# Material Design 3 Expressive (MD3E) Skill
+# Material Design 3 Expressive (MD3E)
 
-## Overview
+Use this skill to make intentional UI design decisions: what users need to understand, what
+should draw attention, and how visual and interaction choices support that purpose. The focus
+is design awareness, judgment, and a coherent Material expressive language across frameworks.
 
-Comprehensive knowledge of Google's Material Design 3 Expressive (MD3E) design system and its
-implementation in Android Jetpack Compose (`androidx.compose.material3`). MD3E is the 2025 evolution
-of M3, with research-backed updates to theming, components, motion, typography, and shapes. It targets
-Android 16 but is available via the Compose Material 3 library (1.5.0-alpha+) for lower API levels.
+M3E builds on Material 3 foundations. An interface can combine expressive treatments with
+quieter patterns. A component's availability in a particular library does not define the
+limits of the design language.
 
-**Knowledge baseline: 2026-09-14.** Recommended dependency for full M3E:
-`androidx.compose.material3:material3:1.5.0-alpha28` (or `compose-bom-alpha`). Stable **1.4.0**
-provides M3 + `MotionScheme` + partial Expressive only — since **1.4.0-beta01** the stable line
-removed public `ExperimentalMaterial3ExpressiveApi` APIs.
+## Scope
 
-**M3 vs M3E:** MD3E is an *expansion* of M3, not a replacement. Many components still only have M3
-specs. Prefer MD3E APIs where available; fall back to M3 for components not yet updated.
+- Establish or refine an MD3E visual direction, product character, or interaction language.
+- Design or review hierarchy, grouping, navigation, color, typography, shape, and motion.
+- Select suitable elements from the project's UI Kit and design missing patterns thoughtfully.
+- Apply this direction while implementing UI in the project's existing technology stack.
 
-## When to Use This Skill
+Keep the user's scope and existing product conventions. A local UI improvement does not imply
+a full redesign. This skill supplies neither a theme generator nor starter code templates.
+Use the project's existing theme generation and token infrastructure when present.
 
-- Building Android UI with Jetpack Compose that should follow Material design guidelines
-- Setting up Material theming (color scheme, typography, shapes, motion scheme)
-- Implementing or customizing Material components (buttons, cards, navigation, FAB, etc.)
-- Migrating from M2→M3 or M3→M3E (`MaterialExpressiveTheme`)
-- Answering questions about Material 3 / M3E specs (color roles, type scale, shape scale)
-- Designing expressive UI with new MD3E components (FloatingToolbar, ButtonGroup, WideNavigationRail, etc.)
-- Reviewing UI for Material design compliance
-- Checking version gates / alpha-line API churn (SplitButton, SearchBar, renames)
+## Design judgment
 
-## Quick Reference: Key MD3E APIs
+For substantial design work, read [Design awareness and judgment](references/m3e/design-system.en.md)
+([中文](references/m3e/design-system.md)). For a small change, use the relevant criteria directly:
 
-| Category | M3 (baseline) | MD3E (expressive) |
-|----------|---------------|-------------------|
-| Theme | `MaterialTheme` | `MaterialExpressiveTheme` |
-| Color scheme | `lightColorScheme()` / `darkColorScheme()` | `expressiveLightColorScheme()` |
-| Motion | (easing + duration tokens) | `MotionScheme.standard()` / `MotionScheme.expressive()` |
-| Shapes | `Shapes(extraSmall, small, medium, large, extraLarge)` | (same, with more varied usage) |
-| Experimental opt-in | `@ExperimentalMaterial3Api` | `@ExperimentalMaterial3ExpressiveApi` |
+- **Purpose and values:** relate the design to the user's task, context, and desired product
+  character. Make expression useful for comprehension, confidence, or an appropriate emotion.
+- **Hierarchy and logic:** establish what matters first, what belongs together, and which
+  action follows. Spend visual emphasis where it improves those relationships.
+- **Language and strategy:** coordinate type, color, shape, space, and motion. Choose expressive
+  intensity for this situation; a dense work surface and a milestone can need different treatment.
+- **Ethics and inclusion:** keep choices understandable and usable. Avoid misleading emphasis,
+  hidden alternatives, and decorative effects that undermine legibility or user control.
 
-### MD3E-Only Components (version gates: see `references/version-baseline.md`)
+Treat these as decision criteria, not a mandatory questionnaire. A brief rationale for a
+consequential choice is useful; a design essay for every edit is not.
 
-On **1.5.0-alpha** line (full set); several graduated non-experimental:
+## Working approach
 
-- `HorizontalFloatingToolbar` / `VerticalFloatingToolbar` — floating contextual toolbars (alpha22+)
-- `ButtonGroup` — connected button row with overflow menu (APIs stable alpha22+; `ButtonGroupScope` sealed alpha25+)
-- `SplitButton` — split button with primary + overflow (**not** `SplitButtonLayout`, deprecated alpha25)
-- `WideNavigationRail` / `ModalWideNavigationRail` — expanded rail for large screens
-- `ToggleFloatingActionButton` — FAB toggling two states with morph animation
-- `FloatingActionButtonMenu` — FAB that expands into a menu
-- `FlexibleBottomAppBar` — bottom app bar with flexible arrangement (graduated alpha23)
-- `MediumFlexibleTopAppBar` / `LargeFlexibleTopAppBar` / `TwoRowsTopAppBar` — flexible top app bars (graduated alpha23)
-- Slot-based `SearchBar` + `SearchBarState` (stable alpha24); `AppBarWithSearch` replaces `TopSearchBar`
-- Expressive list items / menus, Expressive TimePicker (`VibrantTimePickerDialog` was `RichTimePickerDialog`)
-- `ToggleButton` / `FilledTonalToggleButton` (was `TonalToggleButton`); `carouselParallaxScrollEffect` (alpha28)
+Understand the relevant task and inspect the current screen, content, theme roles, and available
+UI Kit before choosing a treatment. Use reasonable assumptions for small gaps and identify them
+when they affect the result. Ask only when an unresolved choice materially changes the design.
 
-## Workflow
+Develop hierarchy and interaction meaning before choosing decorative treatments. Use
+[Expressive design tactics](references/expressive-design-tactics.md) to connect a treatment to a
+specific purpose, rather than applying every tactic to every screen.
 
-Follow these steps when building or modifying Material UI:
+### UI Kit and custom design
 
-1. **Set up theming** — Use `MaterialExpressiveTheme` instead of `MaterialTheme`. See the snippet
-   below for the standard scaffold. Dynamic color requires API 31+ with fallback.
-2. **Pin versions** — For full M3E use `material3` **1.5.0-alpha28** (or `compose-bom-alpha`).
-   Read `references/version-baseline.md` before choosing stable vs alpha; declare
-   `material-icons-core` explicitly (not transitive since 1.4.0) or use Material Symbols.
-3. **Generate a theme from a brand color (optional)** — Run `scripts/generate_theme.py` to derive a
-   full light/dark color scheme from one seed color. Copy `assets/templates/` into the project and
-   customize, or let the script emit `Color.kt` + `Theme.kt`.
-4. **Choose components** — Consult `references/components-catalog.md` for the categorized list with
-   M3/MD3E tags and key parameters; `references/m3e/components.md` for version-line status.
-5. **Apply design tokens** — Token values live in `references/design-tokens.md`. Access at runtime via
-   `MaterialTheme.colorScheme.*` / `.typography.*` / `.shapes.*` / `.motionScheme.*` (never
-   `LocalMotionScheme`, removed in alpha27).
-6. **Look up API signatures** — For any composable/function, grep `references/compose-api-full.md`
-   (e.g. `### ComponentName`, `fun lightColorScheme`, `MaterialExpressiveTheme`, `MotionScheme`).
-7. **Look up official specs** — For design specs (anatomy, states, measurements), read files under
-   `references/m3-content/` (e.g. `m3-content/components/{name}/specs.md`,
-   `m3-content/styles/{category}/`). Snapshot captured **2026-09-14**.
+A UI Kit here means the components, styles, assets, and patterns actually provided or designated
+for the project, not a particular platform library. Consult
+[Component judgment](references/m3e/components.en.md) ([中文](references/m3e/components.md)) when fit
+or customization is consequential.
 
-### Standard theme scaffold
+- **Suitable:** use the matching kit element when its meaning, behavior, states, and presentation
+  fit the task. Identify real available items; do not invent kit names or claim unseen assets exist.
+- **Partly suitable:** compose or adapt existing elements where that preserves semantics and
+  resolves the mismatch. Respect their interaction and accessibility contracts.
+- **No suitable match:** develop a custom solution grounded in Material principles, the user's
+  task, and the project's design language. Define the needed behavior and states as well as its
+  appearance. A kit gap is a reason to design, not to force an unrelated component into the task.
+- **Kit unavailable:** distinguish unavailable evidence from a confirmed missing component.
+  Inspect project conventions or continue with a stated assumption; request a kit reference only
+  when it materially affects the work. Do not introduce a new kit or framework by default.
 
-```kotlin
-import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material3.MaterialExpressiveTheme
-import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.expressiveLightColorScheme
-import androidx.compose.material3.MotionScheme
-import androidx.compose.runtime.Composable
+Reuse meaningful subcomponents inside a custom composition where they still fit. Custom design
+must solve a real mismatch, not merely seek novelty.
 
-@Composable
-fun AppTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
-    content: @Composable () -> Unit,
-) {
-    MaterialExpressiveTheme(
-        colorScheme = if (darkTheme) darkColorScheme() else expressiveLightColorScheme(),
-        motionScheme = MotionScheme.expressive(),  // or MotionScheme.standard()
-        typography = AppTypography,
-        shapes = AppShapes,
-        content = content,
-    )
-}
-```
+When implementation is requested, deliver it in the actual project stack. Map design roles and
+behaviors to existing project tokens and components. Do not introduce Compose dependencies or
+recreate a theme generator as a prerequisite to using this skill.
 
-### Theme generator
+## Review and output
 
-```bash
-python scripts/generate_theme.py --seed #6750A4 --package com.example.app --output ./theme/
-```
+Deliver the artifact the user asked for. Where useful, briefly explain the intended hierarchy,
+the significant kit reuse/customization decisions, and the tradeoff behind an unusual treatment.
+Scale explanation to the task. Do not turn implementation requests into design advice alone.
 
-Outputs `Color.kt` + `Theme.kt`. Uses Material Color Utilities (HCT); has a built-in fallback if the
-library is not installed.
+Review whether emphasis supports the main task, secondary choices remain discoverable, related
+elements feel coherent, and relevant states are understandable. Check the actual presentation
+for readability, input/focus behavior, responsive needs, and reduced motion where applicable.
+A token name or kit label alone does not establish usability. Distinguish what was inspected or
+tested from what remains an assumption; do not claim user testing without conducting it.
 
-## Resources (read on demand)
+## References: choose by design question
 
-Only open these when the workflow above points to them — they are large and not needed every turn.
+Read only what the current task needs. Prefer design meaning and applicable design specifications
+over implementation API availability.
 
-- `references/version-baseline.md` — Version matrix, feature gates, alpha churn log (2026-09-14).
-- `references/m3e/` — Curated latest M3E notes (verified 2026-09-14), Chinese primary with
-  English mirrors (`*.en.md`): `design-system.md`, `color-typography-shape.md`,
-  `motion-physics.md`, `components.md`, `compose-api.md`.
-- `references/compose-api-full.md` — Full `androidx.compose.material3` API reference (~8000 lines).
-  Use for exact signatures.
-- `references/design-tokens.md` — All color roles, type scale (15 styles), shape scale (5 sizes),
-  motion system. Use for token values.
-- `references/components-catalog.md` — Component list by category with M3/MD3E tags. Use to pick a
-  component.
-- `references/m3-vs-m3e-diff.md` — M3↔M3E differences, migration, I/O 2026 updates.
-- `references/expressive-design-tactics.md` — The 7 official M3E design tactics with examples.
-- `references/design-research.md` — HCT color science, variable fonts, motion/accessibility research.
-- `references/m3-content/` — Mirror of m3.material.io (**249 pages, captured 2026-09-14**, clean
-  Markdown + front matter). Authoritative design specs; read `m3-content/components/{name}/specs.md`
-  or `m3-content/styles/{category}/` as needed.
-- `assets/templates/` — Ready-to-use `MD3ETheme.kt`, `Color.kt`, `Type.kt`, `Shape.kt`. Copy into
-  `ui/theme/` and customize.
-- `scripts/generate_theme.py` — Seed color → complete Compose theme (see Workflow step 3).
+| Question | Reference |
+| --- | --- |
+| What should guide the design? | [Design awareness and judgment](references/m3e/design-system.en.md) / [中文](references/m3e/design-system.md) |
+| How much expression, and where? | [Expressive tactics](references/expressive-design-tactics.md), [M3 and M3E](references/m3-vs-m3e-diff.md) |
+| Does a kit element fit, or is custom design needed? | [Component judgment](references/m3e/components.en.md) / [中文](references/m3e/components.md), [Pattern catalog](references/components-catalog.md) |
+| What should color, type, and shape communicate? | [Visual language](references/m3e/color-typography-shape.en.md) / [中文](references/m3e/color-typography-shape.md) |
+| What should movement explain? | [Motion intent](references/m3e/motion-physics.en.md) / [中文](references/m3e/motion-physics.md) |
+| Which roles or precise specifications apply? | [Design tokens](references/design-tokens.md), relevant pages under [design specifications](references/m3-content/index.md) |
+| What evidence supports the decision? | [Research and verification](references/design-research.md) |
 
-## Design Principles (MD3E)
+Curated notes are editorial guidance, with links to supporting sources. Dated design-page
+snapshots retain their source and capture date (2026-09-14); older navigation pages retain inline
+source headers without per-page dates. Editing this skill does not newly verify those sources.
+Separate source requirements, this skill's recommendations, and project-specific decisions.
 
-1. **Color as hierarchy** — Use color roles (primary/secondary/tertiary + containers + surface tones)
-   for visual layers. MD3E adds `*Fixed` roles that stay constant across light/dark.
-2. **Shape variety** — Mix rounded/pill/angular shapes to create tension and guide attention.
-3. **Spring-based motion** — Use spring physics; `MotionScheme.expressive()` for lively,
-   `MotionScheme.standard()` for subtle.
-4. **Variable typography** — Use weight/size/color/spacing for editorial hierarchy.
-5. **Container grouping** — Group related content in surface-toned containers to reduce load.
-6. **Adaptive components** — Adapt to screen size (`WideNavigationRail` large, `NavigationBar` compact).
-7. **Highlight moments** — Create 1-2 delightful interaction moments that connect emotionally.
-8. **Icons** — Prefer Material Symbols from fonts.google.com/icons; declare `material-icons-core`
-   explicitly if still using `androidx.compose.material.icons` (not transitive since M3 1.4.0).
+### Optional implementation appendix: Compose only
+
+Only read these when the actual project uses Compose or the user explicitly asks about it:
+[Compose notes](references/m3e/compose-api.en.md) / [中文](references/m3e/compose-api.md),
+[version snapshot](references/version-baseline.md), and the
+[androidx.compose.material3 API snapshot](references/compose-api-full.md).
+They are secondary implementation references, not design requirements or dependency choices for
+other platforms. Check the project's versions before applying historical API examples.

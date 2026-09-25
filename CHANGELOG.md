@@ -4,6 +4,33 @@ All notable changes to this skill are documented here. The format is based on
 [Semantic Versioning](https://semver.org/lang/zh-CN/) and the skill follows the
 `MAJOR.MINOR.PATCH` scheme described in `PUBLISH.md`.
 
+## [2.0.0] - Unreleased
+
+Design-focused revision; this major version removes bundled implementation helpers.
+
+### Changed
+- Reframed the skill around framework-independent MD3E design awareness, values, principles,
+  visual language, judgment, and ethics.
+- Added explicit guidance for suitable UI Kit reuse, partial adaptation, original design when
+  no pattern fits, and honest handling of unavailable kit resources.
+- Reworked bilingual core notes, the component catalog, expressive tactics, research guidance,
+  and the token index around design decisions and source specification lookup.
+- Made Compose API and version documents optional implementation appendices; removed default
+  alpha adoption and theme scaffolding from curated notes. Historical version data is labeled.
+- Updated both READMEs, contribution guidance, publishing copy, and maintenance validation.
+- Moved the version field into metadata.version for standard skill frontmatter compatibility.
+- Replaced audit assumptions about fixed line numbers and a dated mandatory zip with local-link,
+  resource, source-metadata, bilingual-pair, routing, and optional archive-content checks.
+
+### Removed
+- scripts/generate_theme.py: theme generation belongs to the consuming project's infrastructure.
+- assets/templates/MD3ETheme.kt, Color.kt, Type.kt, and Shape.kt: no bundled Kotlin starter templates.
+
+### Preserved
+- Official design snapshots and their source/capture metadata.
+- The full Compose API snapshot, with an added scope note for optional use.
+- Historical changelog entries. This revision does not claim newly verified upstream releases.
+
 ## [1.2.0] - 2026-09-22
 
 Latest-content refresh from the verified knowledge base (baseline **2026-09-14**).

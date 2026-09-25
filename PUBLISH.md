@@ -13,6 +13,17 @@
 
 ## 0. 前置检查
 
+先确认 SKILL.md 的 metadata.version、变更记录和发布版本一致。2.0.0 的删除项属于破坏性变更。
+在安装了 Python 与 PyYAML 的维护环境中运行仓库校验：
+
+    python audit_run.py
+
+普通源码修改不要求生成发布包；发布前生成 zip 后，按实际路径检查包内内容：
+
+    python audit_run.py --archive ../dist/md3e.zip
+
+日期和版本快照不随发布自动更新，只有核对来源后才修改其核对时间。
+
 确认本地 Git 配置使用 noreply 邮箱（避免 GH007 邮箱隐私拦截）：
 
 ```powershell
@@ -41,11 +52,11 @@ git push origin main
 
 ```powershell
 cd D:\path\to\md3e
-git tag v1.2.0              # 首次发布
+git tag v2.0.0              # 当前版本示例；与 SKILL.md 的 metadata.version 保持一致
 # 升级版本示例：
-#   git tag v1.3.0          # 新功能
-#   git tag v1.2.1          # 修 bug
-git push origin v1.2.0
+#   git tag v2.1.0          # 新功能
+#   git tag v2.0.1          # 修 bug
+git push origin v2.0.0
 ```
 
 - Tag 是 Git 对某次 commit 的版本标记，Release 必须依赖一个 Tag。
@@ -75,8 +86,8 @@ Compress-Archive -Path (Join-Path $repo '*') -DestinationPath (Join-Path $dist '
 
 1. 打开：https://github.com/mfskys/md3e-skill/releases/new
 2. 填写：
-   - **Choose a tag**：选刚推的 `v1.2.0`（或新版本号）
-   - **Release title**：`MD3E Skill v1.2.0`
+   - **Choose a tag**：选刚推的 `v2.0.0`（或新版本号）
+   - **Release title**：`MD3E Skill v2.0.0`
    - **Release description**：粘贴下方模板
    - **Attach binaries**：把上一步生成的 `md3e.zip` 拖进去
    - **Set as the latest**：勾上
@@ -85,22 +96,22 @@ Compress-Archive -Path (Join-Path $repo '*') -DestinationPath (Join-Path $dist '
 ### Release 描述模板
 
 ```markdown
-首次发布 — Material Design 3 Expressive (MD3E) AI 技能包
+Material Design 3 Expressive（MD3E）设计技能包
 
-适用于 Android Jetpack Compose，兼容 CodeBuddy / Cursor / Windsurf 等支持 Skill 格式的 AI 编程助手。
+以设计意识、设计语言和设计判断为核心，适用于项目实际技术栈。
 
-## 功能
-- 完整 androidx.compose.material3 API 参考（约 8000 行）
-- 249 个 m3.material.io 官方设计规范文件
-- 48 个色彩角色、15 种排版、5 级形状、弹簧动效系统
-- 全组件目录 + M3/M3E 差异对比 + 迁移指南
-- 7 大表现力设计策略 + 设计研究文档
-- 4 个 Kotlin 代码模板 + 主题生成器脚本
-- 中英双语 README + M3E 笔记英文镜像
+## 本次调整
+- 强化设计哲学、价值观、原则、逻辑、策略与伦理
+- 在合适位置复用 UI Kit；没有合适模式时根据规范与理念自主设计
+- 按设计问题组织组件、样式、动效和 Token 参考资料
+- Compose 包文档保留为按需读取的次要实现附录
+- 移除主题生成器与四个 Kotlin 模板，使用项目已有主题设施
+- 同步中英文说明与核心设计笔记
 
-## 安装
-将 `md3e/` 目录复制到 AI 助手的技能文件夹：
-- CodeBuddy: `.codebuddy/skills/md3e/`
+## 安装与升级
+将 md3e/ 目录复制到 AI 助手支持的技能目录。
+已有安装需按 CHANGELOG.md 清理旧生成器与模板；覆盖复制不会自动删除旧文件。
+保留项目自定义内容后再清理，勿直接清空包含其他技能的父目录。
 
 仓库: https://github.com/mfskys/md3e-skill
 ```
@@ -121,7 +132,7 @@ Copy-Item -Path (Join-Path $src '*') -Destination $dest -Recurse -Force
 ```
 
 - 安装位置：`%USERPROFILE%\.codebuddy\skills\md3e\`（用户级技能目录，对所有项目生效）
-- 每次 `md3e/` 内容有更新，重新执行此命令即可覆盖更新。
+- 覆盖复制不会删除旧文件。升级时先核对 CHANGELOG.md 的移除清单，保留自定义内容，再清理安装目录中的对应旧文件。
 - 同步后新开一个对话即可使用最新版本。
 
 ---
@@ -134,12 +145,12 @@ cd $repo
 
 # 1. 提交代码
 git add .
-git commit -m "release: v1.2.0"
+git commit -m "release: v2.0.0"
 git push origin main
 
 # 2. 打 Tag
-git tag v1.2.0
-git push origin v1.2.0
+git tag v2.0.0
+git push origin v2.0.0
 
 # 3. 生成发布包
 $dist = Join-Path (Split-Path $repo -Parent) 'dist'
@@ -158,9 +169,10 @@ Write-Host "完成。接下来去 https://github.com/mfskys/md3e-skill/releases/
 
 ## 版本号约定（SemVer）
 
-- `v1.2.0` → `v1.3.0`：新增功能（向下兼容）
-- `v1.2.0` → `v1.2.1`：修 bug（向下兼容）
-- `v1.2.0` → `v2.0.0`：破坏性改动（不向下兼容）
+- v2.0.0 → v2.1.0：新增功能（向下兼容）
+- v2.0.0 → v2.0.1：修复问题（向下兼容）
+- v2.0.0 → v3.0.0：破坏性改动（不向下兼容）
+- 本次移除生成器与模板，准备版本为 2.0.0；源码更新不等同于已经发布 Release。
 
 ---
 

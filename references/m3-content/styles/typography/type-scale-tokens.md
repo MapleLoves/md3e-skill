@@ -18,7 +18,7 @@ Material 3 has one **type scale** containing two sets of **type styles: 15 basel
 
 The **emphasized** styles were added in the expressive update The expressive update is a major update to Material 3, adding visually stunning features, components, and variants, plus updates to the shape, motion, and typography systems. [More on M3 Expressive](https://m3.material.io/blog/building-with-m3-expressive) . They have a higher weight and other minor adjustments compared to the baseline styles, and are best applied to bold, selection, and other areas of emphasis. Baseline and emphasized styles are meant to be used together.
 
-![Diagram of the M3 type scale.](https://lh3.googleusercontent.com/amY56CFDJ81aqWy-r-zpQAOH7D0J7NcLDAwmuuikQnZjnYA4NWUs_V2C8LbxFeekKK7u4itaTFKgnRcXm-QFA56Uoe0N4Jvw38RM5tb5Pas=s0)
+![Diagram of the M3 type scale.](../../_assets/amY56CFDJ81aqWy-r-zpQAOH7D0J7NcLDAwmuuikQnZjnYA4NWUs_V2C8LbxFeekKK7u4itaTFKgnRcX-8064c33e7ab1d6bd919d.png)
 
 The scale is a range of contrasting styles that support the needs of various product contexts and content. No single product will use all the styles. Instead, select styles from the scale that are most appropriate.
 
@@ -65,7 +65,7 @@ Use emphasized styles to draw attention to specifics aspects of components, such
 
 Emphasized context and weight can be used at the same time.
 
-![Diagram showing emphasized styles being applied in and UI of an active call with live translation turned on.](https://lh3.googleusercontent.com/BgMRvZc8eDdo9v86kNxhCNOiSw1Wv7fkVbYTLq_bY9QZXLfKuC-AaQn9_JmKDhbOBqdxmYoznv1ZlBhyigk8PYfuwAsrtaBtp7YqDQadYcs=w40)
+![Diagram showing emphasized styles being applied in and UI of an active call with live translation turned on.](../../_assets/BgMRvZc8eDdo9v86kNxhCNOiSw1Wv7fkVbYTLq_bY9QZXLfKuC-AaQn9_JmKDhbOBqdxmYoznv1ZlBhy-00590c817acbb954426a.png)
 
 1.  Weight: Apply emphasized styles to text already bolded for an expressive style
 2.  Context: Apply emphasized styles to text in selective places to better communicate hierarchy or state
@@ -80,7 +80,7 @@ The M3 type scale has the option to set different typefaces at different sizes.�
 
 Consider replacing Roboto with different typefaces to boost brand expression in your product. On emphasized styles, this can help important text stand out even more.
 
-![Diagram showing emphasized styles being applied in a UI of an active call with live translation turned on.](https://lh3.googleusercontent.com/g9DqjzaO9IE8RDby0QNqBhA2ORXpJ6LzeQitQ8ql9vjVgAq-HdXrE2H6miAmVUmPg8StgGRTuivI4jbi07oOlgwaGbRqHWXxJ_WFpgEKroE=w40)
+![Diagram showing emphasized styles being applied in a UI of an active call with live translation turned on.](../../_assets/g9DqjzaO9IE8RDby0QNqBhA2ORXpJ6LzeQitQ8ql9vjVgAq-HdXrE2H6miAmVUmPg8StgGRTuivI4jbi-8f427aaaf359971e6eab.png)
 
 Roboto can be replaced with another font, like Roboto Flex
 
@@ -100,7 +100,7 @@ Development considerations:
 
 -   Ignoring language height can lead to overlapping text and broken UI elements, leading to major internationalization issues and failing readability standards.
 
-![Different font stylings produced by Google Sans Flex.](https://lh3.googleusercontent.com/u7Z-_b4B26KtA8LDUvPsn5c7v1Nro5RKxDhlSi5lo9fZdbcTgka8YsFe37XfoBs2eUKKb4_4wlnVuXj9FHqBlSPxpRSUBCOYSjBP6nsl9io8=w40)
+![Different font stylings produced by Google Sans Flex.](../../_assets/u7Z-_b4B26KtA8LDUvPsn5c7v1Nro5RKxDhlSi5lo9fZdbcTgka8YsFe37XfoBs2eUKKb4_4wlnVuXj9-749184e5f12d678503d9.png)
 
 Line heights for styles like **display large** can automatically adapt to language height category
 
@@ -136,13 +136,13 @@ Heavier fonts may require wider letter spacing, while fonts with long ascenders 
 
 **Note:** Customizing the M3 type scale or individual styles may prevent you from receiving typography token updates from Material.
 
-![Example type scales with custom typefaces and weights.](https://lh3.googleusercontent.com/_m1zTD4Gi4KPsQMGUpK7qL86M3rIVacDUvNQ7i5HaJo8NdSeOhwaENqa5-3h64LQvXvMvYBavxmc3Av1xXsjzrXprS94NLoWXW8f9U9Hgmc=w40)
+![Example type scales with custom typefaces and weights.](../../_assets/m1zTD4Gi4KPsQMGUpK7qL86M3rIVacDUvNQ7i5HaJo8NdSeOhwaENqa5-3h64LQvXvMvYBavxmc3Av1x-4b780b545682049e20b7.png)
 
 Adjust variable axes, like weight and width, to customize fonts like Roboto Flex
 
 Different typefaces can be used for baseline and emphasized type styles.
 
-![Example type scales with custom typefaces and weights.](https://lh3.googleusercontent.com/sGMcrXhB7QJhOFzV-xacTe303tOTltCuwv8Q2SukZmhV3NQHnq_iG8PFNUFO4vZcsvw8yXBfbZKrBSDUVfLNHD8MLGkADAkEZlMmt-x0X3Xv=w40)
+![Example type scales with custom typefaces and weights.](../../_assets/sGMcrXhB7QJhOFzV-xacTe303tOTltCuwv8Q2SukZmhV3NQHnq_iG8PFNUFO4vZcsvw8yXBfbZKrBSDU-4a5ba59897c07d328465.png)
 
 Custom typefaces can be used together, like Baskervville and Jacquard
 
@@ -152,21 +152,21 @@ When different sizes from the defaults are needed, such as for different devices
 
 Material Design uses the [Major Second](https://cieden.com/book/sub-atomic/typography/different-type-scale-types#:~:text=with%2520dense%2520content.-,Major%2520Second%2520\(1.125\),-The%2520Major%2520Second) type scale with 14 as its key base size. This anchors to the most essential style used most often for typesetting body text.
 
-![Material Design’s default type scale; showing display, headline, and title sizes shown next to the Major Second type scale.](https://lh3.googleusercontent.com/sFRSmvfHXtfmkTWjKolzUx_FVsx1Wk7TdhlEbZghSzOlE5PUUIZyuZzTrrDnjNz4KdHsfIYmNkl0AOzDU_0b-gyFAoQGEmrc59K-DCffHOuQqg=w40)
+![Material Design’s default type scale; showing display, headline, and title sizes shown next to the Major Second type scale.](../../_assets/sFRSmvfHXtfmkTWjKolzUx_FVsx1Wk7TdhlEbZghSzOlE5PUUIZyuZzTrrDnjNz4KdHsfIYmNkl0AOzD-45fa6c58198cde4078c9.png)
 
 The Material Design type scale uses the Major Second scale (1.125)
 
 Sizes on the rendered type scale should aim to provide impactful contrast between sizes by avoiding small differences. 
 
-![Material Design’s default type scale; showing display, headline, and title sizes shown next to the Major Second type scale ](https://lh3.googleusercontent.com/Nx97D2MglZAzPxplWfi3WPeAEFe25ZcDawcLFYNtEUgipcPuIYlBhu9UJz1Om37aaNNJsedqc2_GtAyGQbJ18cnN_d7NBbgCyzVNefFK11OP=w40)
+![Material Design’s default type scale; showing display, headline, and title sizes shown next to the Major Second type scale ](../../_assets/Nx97D2MglZAzPxplWfi3WPeAEFe25ZcDawcLFYNtEUgipcPuIYlBhu9UJz1Om37aaNNJsedqc2_GtAyG-a970de4a253029e9c8a6.png)
 
 Material’s default typescale of 15 styles allows distinction between each
 
-![ Display, headline, and title sizes shown next to the Major Second type scale.](https://lh3.googleusercontent.com/QE19ztycbnNNUFjh8L-ZuduDXTf9wRLL1-C6LF7AObKQfHIp-EarhDb5oFJasPUifApzn7hvKoJv4O9HXril3zO7T6MUvXp45RRsGqGHtHnt=w40)
+![ Display, headline, and title sizes shown next to the Major Second type scale.](../../_assets/QE19ztycbnNNUFjh8L-ZuduDXTf9wRLL1-C6LF7AObKQfHIp-EarhDb5oFJasPUifApzn7hvKoJv4O9H-a6004c6417e805e36345.png)
 
 Your product likely will not need all 15 default styles from the Material Design type scale. In this example, five sizes are chosen for a reduced set while the rest are removed.
 
-![A size modification of Material Design’s default type scale where display medium is a larger size than the original scale.](https://lh3.googleusercontent.com/TBQySbWTWvPfIelbkG1IzExEagGmvKGd4J0oXsqaHgR6RhY5hYjMTgEox8AAMKpPAMlSSemH_usJBkUdqgjrdP6DcNqPyFLaM7tf_CyrC-tB=w40)
+![A size modification of Material Design’s default type scale where display medium is a larger size than the original scale.](../../_assets/TBQySbWTWvPfIelbkG1IzExEagGmvKGd4J0oXsqaHgR6RhY5hYjMTgEox8AAMKpPAMlSSemH_usJBkUd-e6b4c098b3e549fb54ba.png)
 
 If the default sizes from the Material Design type scale do not meet your needs, values can be changed instead. Here the default size of display medium is adjusted to another size from the Major Second type scale.
 

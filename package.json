@@ -1,0 +1,21 @@
+{
+  "name": "md3e-skill",
+  "version": "1.0.0",
+  "description": "**[English](README.md)** | **[中文](README.zh-CN.md)**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MapleLoves/md3e-skill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MapleLoves/md3e-skill/issues"
+  },
+  "homepage": "https://github.com/MapleLoves/md3e-skill#readme"
+}

@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Cards display content and actions about a single subject
 
-![3 variants of cards: elevated, filled, and outlined.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwujy207-1.png?alt=media&token=8f53bf0b-4e76-4d15-a467-e79d95d585c8)
+![3 variants of cards: elevated, filled, and outlined.](../../_assets/lwujy207-1-6eeeabdc42f0846d768d.png)
 
 ## Usage
 
@@ -18,29 +18,29 @@ Cards should be easy to scan for relevant and actionable information. 
 
 Elements like text and images should be placed on cards in a way that clearly indicates hierarchy.
 
-![Example card containing an image, title, text, and button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwujyk5p-2.png?alt=media&token=27bccb24-2751-42f5-9ed6-a573c9637b1e)
+![Example card containing an image, title, text, and button.](../../_assets/lwujyk5p-2-b043cd55ce2efe62517a.png)
 
 Cards can display content and actions on a single topic
 
 Cards can serve as entry points into deeper levels of detail or navigation, such as a music album or details on an upcoming vacation.
 
-![Example world tour card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwujz8zw-3.png?alt=media&token=f8b81a9b-d1c1-4104-b827-de3275cc35d7)
+![Example world tour card.](../../_assets/lwujz8zw-3-efd10c4e18ea4ef4d442.png)
 
 Card text and image show a clear hierarchy
 
-![Card displaying connected details about a world tour.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwujzmmd-4.png?alt=media&token=03f44ff5-55ce-437d-b8e7-c956f44d54f5)
+![Card displaying connected details about a world tour.](../../_assets/lwujzmmd-4-598c5b2d2dadccacbbc6.png)
 
 Use cards to display related information on a single subject
 
 Cards can be displayed together in a grid, vertical list, or carousel Carousels show a collection of items that can be scrolled on and off the screen. [More on carousels](/m3/pages/carousel/overview) .
 
-![4 cards together in a grid layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk08jk-5.png?alt=media&token=f64f5002-eb4a-4af2-bf74-481bd4c3e36c)
+![4 cards together in a grid layout.](../../_assets/lwuk08jk-5-e2ae0426840490dcbd1e.png)
 
 check Do
 
 Cards can be shown together
 
-![5 albums in a vertical list of cards.  ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk0pob-6.png?alt=media&token=17c72a08-afc1-4ed3-afa6-cb04a3d880a1)
+![5 albums in a vertical list of cards.  ](../../_assets/lwuk0pob-6-cb57bd50c6f81a69c230.png)
 
 close Don’t
 
@@ -56,21 +56,21 @@ There are three card variants:
 
 Each provides the same legibility and functionality, so the variant you use depends on style alone.
 
-![3 variants of cards.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk16p3-7.png?alt=media&token=4bbc3151-4713-4962-85d3-2655c3656413)
+![3 variants of cards.](../../_assets/lwuk16p3-7-e8ec5457ea13446f68f1.png)
 
 1.  Elevated card
 2.  Filled card 
 3.  Outlined card
 
-![Example elevated card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk25nc-8.png?alt=media&token=c16cb758-7e06-4e65-a635-1d19c85413c7)
+![Example elevated card.](../../_assets/lwuk25nc-8-5be0d05044dc32318a6d.png)
 
 Elevated cards have a drop shadow, providing more separation from the background than filled cards, but less than outlined cards
 
-![Example filled card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk2m44-9.png?alt=media&token=874c860e-a76b-47c2-a6b8-e1b9bee9354a)
+![Example filled card.](../../_assets/lwuk2m44-9-05f591c0ff7e863db74e.png)
 
 Filled cards provide subtle separation from the background. This has less emphasis than elevated or outlined cards.
 
-![Example outlined card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk337j-10.png?alt=media&token=94eedf65-056a-4352-a906-601748f7e531)
+![Example outlined card.](../../_assets/lwuk337j-10-f9df2b933c4421a1c7e1.png)
 
 Outlined cards have a visual boundary around the container. This can provide greater emphasis than the other variants.
 
@@ -78,7 +78,7 @@ Outlined cards have a visual boundary around the container. This can provide gre
 
 The card container is the only required element in a card. Card layouts can vary to support the kinds of content they contain. Below is a common configuration of elements.
 
-![Diagram labeling the 6 parts of card anatomy.](https://lh3.googleusercontent.com/-eiTnWJl-s5HUIjPs1tfHU9HJp4izquC1-CiHPmdGA3Eq1YAw82dWNDHWYoQN1aUiXKSQm1jkq8uHW8i2aR_xg8kUxVMmHW-tyV93R8gmc0=w40)
+![Diagram labeling the 6 parts of card anatomy.](../../_assets/eiTnWJl-s5HUIjPs1tfHU9HJp4izquC1-CiHPmdGA3Eq1YAw82dWNDHWYoQN1aUiXKSQm1jkq8uHW8i2-816a25258c918246c8f9.png)
 
 1.  Container
 
@@ -98,7 +98,7 @@ Card containers hold all card elements. Their size is determined by the space th
 
 The card container is the only required element of a card. All other elements are optional.
 
-![3 card containers with various elements: 1 with all elements except a button. 1 with a container, headline, supporting text, button. 1 with a container, headline, supporting text, 2 buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk4ddn-12.png?alt=media&token=3466c990-89bc-4904-9379-b926506469f6)
+![3 card containers with various elements: 1 with all elements except a button. 1 with a container, headline, supporting text, button. 1 with a container, headline, supporting text, 2 buttons.](../../_assets/lwuk4ddn-12-df7293f66bd2f1c7299f.png)
 
 Card size is determined by the elements it contains
 
@@ -108,7 +108,7 @@ Card contents are grouped into blocks. Content can have different levels of visu
 
 Card layouts vary to support the kinds of content they contain.
 
-![Diagram of card content blocks.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk4w24-13.png?alt=media&token=922c8fc3-b6be-443f-b583-307b41c04549)
+![Diagram of card content blocks.](../../_assets/lwuk4w24-13-631e8d2e93fbbbf5eb33.png)
 
 Cards can contain a headline, subhead, supporting text, media, and actions
 
@@ -116,11 +116,11 @@ Cards can contain a headline, subhead, supporting text, media, and actions
 
 [Dividers](/m3/pages/divider/specs) can separate regions in cards or indicate areas of a card that can expand.
 
-![A divider running the entire width of the card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk5dl8-14.png?alt=media&token=167906e1-0d38-4e3b-9b6a-ae34e30896c8)
+![A divider running the entire width of the card.](../../_assets/lwuk5dl8-14-23ff56c2925c099f6d37.png)
 
 1\. Use full-width dividers for content that can be expanded
 
-![An inset divider indented from the edge of card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk5r9g-15.png?alt=media&token=9fe4e4eb-940d-4879-b72a-5326475e2ad1)
+![An inset divider indented from the edge of card.](../../_assets/lwuk5r9g-15-389cbbbde2fa3ea751cc.png)
 
 1\. Use inset dividers, which don’t run the full width of a card, to separate related content
 
@@ -135,7 +135,7 @@ Cards can include photos, illustrations, and other graphics, such as weather ico
 **Video**
 Cards can include video.
 
-![A mobile chat app with: 5 cards with images, 1 card with a thumbnail avatar, and 1 card with a video. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuk7ixf-16.png?alt=media&token=8be9c48a-b857-4251-be30-27fb662351f7)
+![A mobile chat app with: 5 cards with images, 1 card with a thumbnail avatar, and 1 card with a video. ](../../_assets/lwuk7ixf-16-0c987d03e4d572732d85.png)
 
 Cards can contain thumbnails, images, and video
 
@@ -150,7 +150,7 @@ Subheads are smaller text elements, such as an article byline or a tagged locati
 **Supporting text**
 Supporting text includes body content, such as an article summary or a restaurant description.
 
-![card container with several elementsA tablet email app with an email summary card with multiple text elements.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukrum6-17.png?alt=media&token=6a042f0c-08aa-4406-83ca-3ad8ed923fc7)
+![card container with several elementsA tablet email app with an email summary card with multiple text elements.](../../_assets/lwukrum6-17-1f68b74e951928cac050.png)
 
 Headline, subhead, and supporting text in a card
 
@@ -160,13 +160,13 @@ It isn’t recommended to place text or icons on images. If it’s necessary, en
 
 Add a translucent scrim or bounding shape beneath the text or icon to help ensure proper contrast.
 
-![Layered text contrasts with the background image.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuke2rr-18.png?alt=media&token=1678fd07-8e19-478e-a63f-7c6883e05769)
+![Layered text contrasts with the background image.](../../_assets/lwuke2rr-18-54c4645192a4ae298765.png)
 
 exclamation Caution
 
 Ensure that text on images meets accessible contrast standards
 
-![Icon within a bounding shape, placed on an image.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukejwa-19.png?alt=media&token=e1f6b168-b200-4c74-b4db-6f14d5c9130a)
+![Icon within a bounding shape, placed on an image.](../../_assets/lwukejwa-19-0845b76bb37c6067a57f.png)
 
 exclamation Caution
 
@@ -178,7 +178,7 @@ When placing text or icons on images, consider using a bounding shape to ensure 
 
 Cards can be one large touch target triggering an expanded detail screen.
 
-![The action area of a card contains rich media and supporting text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukf67i-20.png?alt=media&token=2b6fc020-ea02-4eeb-b689-9dde4ba174d8)
+![The action area of a card contains rich media and supporting text.](../../_assets/lwukf67i-20-0938baf2a8c0b3a86db8.png)
 
 Cards can include a primary action area that expands into a full-screen view
 
@@ -194,26 +194,26 @@ Cards can also include chips Chips help people enter information, make selection
 **Linked text**
 There can be a link in the supporting text on a card.
 
-![Supplemental text and actions at the top and bottom of the card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukfjtw-21.png?alt=media&token=b45cbe2c-3206-4d87-b552-3919097b31cc)
+![Supplemental text and actions at the top and bottom of the card.](../../_assets/lwukfjtw-21-43c06f8f4d6341454e96.png)
 
 Cards can include multiple action areas containing buttons, links, and other controls
 
-![Album card with an option to give a star rating.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukg62l-22.png?alt=media&token=68263c29-c142-4fb6-b01b-0f0e53a5d7b9)
+![Album card with an option to give a star rating.](../../_assets/lwukg62l-22-356f9aeccc7417430318.png)
 
 Cards can contain icon buttons like stars to rate content
 
-![Card to purchase tickets with choice chips for 3 event times.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukgix5-23.png?alt=media&token=05e68c11-3d87-4fea-9614-2e9815698e43)
+![Card to purchase tickets with choice chips for 3 event times.](../../_assets/lwukgix5-23-64381e5d4d0ce62f201d.png)
 
 Cards can contain choice chips in the action area
 
-![Card with slider to control a song’s volume.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukgu3i-24.png?alt=media&token=1429bc3e-e20e-45f3-9d55-8a889683204a)
+![Card with slider to control a song’s volume.](../../_assets/lwukgu3i-24-3625af9d15d17293f655.png)
 
 Cards can contain a slider control in the action area
 
 **Overflow menu**
 Overflow menus contain related actions. They are typically placed in the upper-right or lower-right corner of a card.
 
-![2 cards: 1 with an overflow menu in the upper-right corner, the other with it in the lower right.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukh83p-25.png?alt=media&token=b0bcfe54-83e6-4668-b466-d4fba42975b9)
+![2 cards: 1 with an overflow menu in the upper-right corner, the other with it in the lower right.](../../_assets/lwukh83p-25-477b906dc5929e11db23.png)
 
 Overflow menus are usually located in the upper-right or lower-right corner of a card
 
@@ -223,7 +223,7 @@ Multiple cards can be grouped together into collections displayed in a grid, lis
 
 By default, cards in a collection are coplanar. They share the same resting elevation unless they're picked up or dragged A dragged state communicates when a user presses and moves an element. [More on dragged state](/m3/pages/interaction-states/applying-states#198c29c7-771e-4264-91e9-70c32b8902ec) .
 
-![9 cards in a grid layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukhv18-26.png?alt=media&token=db2e3965-ccbc-474e-bbba-22ad76c67a3b)
+![9 cards in a grid layout.](../../_assets/lwukhv18-26-5df40b5a78dca49cf470.png)
 
 Multiple cards can be grouped into collections with a shared resting elevation
 
@@ -233,14 +233,14 @@ Card collections can be filtered in a variety of ways, including by date or alph
 
 Filter or sorting options should be placed outside of the card collection.
 
-![A sort-by-date option placed above a card collection.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukig38-27.png?alt=media&token=0bbb40be-5f28-4052-bdcb-ef201193bf6a)
+![A sort-by-date option placed above a card collection.](../../_assets/lwukig38-27-a444b09a31ea07f02424.png)
 
 Card collections can be filtered in a variety of ways, including by date:
 1\. A sort-by-date option is placed outside of the card collection 
 
 Organize card collections so that they'e easy to use. Their layout Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/understanding-layout/overview) affects how they are perceived.
 
-![A template for an 8-card collection layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukiwuu-28.png?alt=media&token=140d478a-a331-4060-9e2a-f3c1c0b6eb37)
+![A template for an 8-card collection layout.](../../_assets/lwukiwuu-28-4e01d27a691b62b34e7d.png)
 
 Place cards in a collection in a straightforward, easy-to-use manner
 
@@ -252,11 +252,11 @@ Cards displayed in a grid
 
 The default grid can be customized in code to show cards in staggered or mosaic grids.
 
-![5 menu item cards in a mosaic grid.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukjfiq-30.png?alt=media&token=7c16205a-8284-4b8d-98d5-8cbb7eb0027d)
+![5 menu item cards in a mosaic grid.](../../_assets/lwukjfiq-30-80351a0b585084dfeb23.png)
 
 Custom mosaic grid
 
-![4 menu item cards in a staggered grid.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukk75c-31.png?alt=media&token=e4ead563-bccd-411b-9868-5710a67d212f)
+![4 menu item cards in a staggered grid.](../../_assets/lwukk75c-31-348f1c467b730abf7e03.png)
 
 Custom staggered grid
 
@@ -278,7 +278,7 @@ As cards scale to adapt to different [breakpoints](/m3/pages/breakpoints), their
 
 Cards and their elements can align left, right, or center as the layout scales.
 
-![2 cards on a mobile screen row expand to 4 cards on a tablet screen row. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukkvy8-34.png?alt=media&token=92195d5b-d44d-434e-98d5-dbe6c60d798b)
+![2 cards on a mobile screen row expand to 4 cards on a tablet screen row. ](../../_assets/lwukkvy8-34-9082b4ae486477ef1ea3.png)
 
 Card position and alignment changes as the screen size changes
 
@@ -288,7 +288,7 @@ Adjust the layout Layout is the visual arrangement of elements on the screen. [M
 
 For example, a horizontally-oriented card in a compact breakpoint Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) may become a larger, vertically-oriented card in an expanded breakpoint Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) , with more space for images and text on the larger screen.
 
-![Card sizes change from mobile to tablet, with larger images in the tablet layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuklb57-35.png?alt=media&token=888f14f9-99d5-4ab6-8dae-282257f1f47e)
+![Card sizes change from mobile to tablet, with larger images in the tablet layout.](../../_assets/lwuklb57-35-8272774b3b004647b8a9.png)
 
 Adjust the card layout so content remains the main focus on large screens
 
@@ -298,11 +298,11 @@ To adjust the presentation of content-focused components, begin with spacing. 
 
 Allow components like lists Lists are continuous, vertical indexes of text and images. [More on lists](/m3/pages/lists/overview) , cards, and images to optimize space while filling the region of a screen that suits a device breakpoint’s ergonomic needs.
 
-![2 cards with optimized space: 1 narrow rectangle, 1 wide square.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukluzj-36.png?alt=media&token=ecf624d2-b9a0-4222-8159-044022c2bce0)
+![2 cards with optimized space: 1 narrow rectangle, 1 wide square.](../../_assets/lwukluzj-36-2f8fc357c782adf61731.png)
 
 Spacing adjusts for components such as cards, lists, and images
 
-![2 examples of the same card: 1 vertical with an image at the top, 1 horizontal with an image on the left.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukmfqz-37.png?alt=media&token=b5f7ca2b-ac45-47fe-832f-0fe359568750)
+![2 examples of the same card: 1 vertical with an image at the top, 1 horizontal with an image on the left.](../../_assets/lwukmfqz-37-409fd772bb9d94d4add6.png)
 
 Example of the same card with two different orientations and element positioning
 
@@ -312,7 +312,7 @@ In mobile layouts, components such as lists Lists are continuous, vertical index
 
 Avoid extending UI elements across the screen when possible. On larger screens, rearrange groups of related cards into horizontal rows or carousels Carousels show a collection of items that can be scrolled on and off the screen. [More on carousels](/m3/pages/carousel/overview) , to allow for better content organization.
 
-![3 related cards in a carousel.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwukn6ma-38.png?alt=media&token=98eabd10-f4cd-457d-a7fc-d4767ce3ef57)
+![3 related cards in a carousel.](../../_assets/lwukn6ma-38-ff0c4a298270b0dcca97.png)
 
 When designing for large screens, use multiple columns to display content
 

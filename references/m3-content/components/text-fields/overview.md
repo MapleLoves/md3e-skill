@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   Text fields commonly appear in forms and dialogs Dialogs provide important prompts in a user flow. [More on dialogs](/m3/pages/dialogs/overview)
 
-![2 variants of text fields, filled and outlined.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2u2h3p-1.png?alt=media&token=71a990c4-03bd-4c34-afc6-130018ed186e)
+![2 variants of text fields, filled and outlined.](../../_assets/lx2u2h3p-1-c824c9a8853693f93824.png)
 
 1.  Filled text field
 2.  Outlined text field
@@ -41,6 +41,6 @@ Close
 
 -   Color: New color mappings and compatibility with dynamic color Dynamic color takes a single color from a user's wallpaper or in-app content and creates an accessible color scheme assigned to elements in the UI. [More on dynamic color](/m3/pages/dynamic/choosing-a-source)
 
-![A filled and outlined text field with M3 color mappings.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2u3e4d-2.png?alt=media&token=896d9b04-c327-4904-9c1b-368bb684d53c)
+![A filled and outlined text field with M3 color mappings.](../../_assets/lx2u3e4d-2-45696211673263c2875a.png)
 
 Text fields have new color mappings

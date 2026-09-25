@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 A feed layout uses a grid composition to enable quick content browsing and discovery. Key use cases include news, photos, and social media.
 
-![Education app using a feed layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp736am6-Feed%20adapt%20hero.png?alt=media&token=aef20887-2e0b-43e6-b6a6-823c16f7304a)
+![Education app using a feed layout.](../../../_assets/mp736am6-Feed-adapt-hero-4aff0ee5d2bf13109f47.png)
 
 Feed layouts help people quickly browse and discover content
 
@@ -20,7 +20,7 @@ Use a feed layout to show different pieces of content through cards and lists.
 
 Feeds support displays of almost any size as grids can adapt from single to multi-column.
 
-![An education app has 2 columns on mobile, and 4 columns on a tablet.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp51zufq-02.png?alt=media&token=b1792846-698d-4ffd-9110-abde558f3e6d)
+![An education app has 2 columns on mobile, and 4 columns on a tablet.](../../../_assets/mp51zufq-02-aefa1722eb6a93fd9154.png)
 
 Feed layouts can adapt the number of columns across breakpoints
 
@@ -28,7 +28,7 @@ Feed layouts can adapt the number of columns across breakpoints
 
 A feed composition is flexible enough to allow for content with varying proportions and sizing.
 
-![Feed layout in a medium window with 2 panes. 1 pane has 2 columns of small cards and the other has 1 large card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp521zfz-03.png?alt=media&token=20e221c8-1acd-4a4f-8cf2-6696aa1c8480)
+![Feed layout in a medium window with 2 panes. 1 pane has 2 columns of small cards and the other has 1 large card.](../../../_assets/mp521zfz-03-ec00ebef87b66f6baea6.png)
 
 Feeds can organize content of different sizes, like using small and large cards
 
@@ -44,7 +44,7 @@ The order of items is determined by their position.   
 
 [More on adaptive design for cards](/m3/pages/cards/guidelines#99e8d17d-5bde-4bb9-8784-0ca403325b10)
 
-![Lead article image is prominent in a 2-pane news feed.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp528i2s-04.png?alt=media&token=55ef6a71-99cd-4d90-8502-51e3b3cf96a2)
+![Lead article image is prominent in a 2-pane news feed.](../../../_assets/mp528i2s-04-fb4730781239a948b65f.png)
 
 Feed items can change size to group content
 
@@ -54,7 +54,7 @@ Feed items can change size to group content
 
 A feed layout should stack vertically, like a list of cards with individual items filling the width of the pane.
 
-![Cards in 2 feed layouts, compact and expanded.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp52hmfv-05.png?alt=media&token=0275ea27-06e7-447c-a0dc-d5f6decd6ed1)
+![Cards in 2 feed layouts, compact and expanded.](../../../_assets/mp52hmfv-05-54cdb724cafecf8d82ab.png)
 
 In compact windows, the cards in a feed stack vertically, filling the full width: 
 
@@ -66,7 +66,7 @@ In compact windows, the cards in a feed stack vertically, filling the full width
 
 A feed layout can support components with different widths and be split across multiple columns.
 
-![In a medium window, 4 equal-width columns of cards in a feed layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp52jmhc-06.png?alt=media&token=b67363d4-5470-49d7-9e97-865c58afbf4f)
+![In a medium window, 4 equal-width columns of cards in a feed layout.](../../../_assets/mp52jmhc-06-3cd0361705c70204338c.png)
 
 Feed layouts can add columns in a medium window
 
@@ -74,6 +74,6 @@ Feed layouts can add columns in a medium window
 
 A feed layout can support components with different widths and be split across multiple columns. The number of columns should usually increase at expanded breakpoints.
 
-![Expanded window has wider columns than a compact window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp52lhar-07.png?alt=media&token=27149f49-40ae-4d6c-84a2-458fa2ecd1ad)
+![Expanded window has wider columns than a compact window.](../../../_assets/mp52lhar-07-a66f3b7fc757473b791d.png)
 
 Column width can increase at larger breakpoints

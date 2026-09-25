@@ -23,7 +23,7 @@ Menu items need certain cues to clearly show when they're selected: 
 -   The default color contrast is 3:1 between selected and unselected menu items
 -   It's recommended to include another visual cue, like a checkmark
 
-![A state dropdown menu with the selected item Alaska highlighted in a vibrant color, with a checkmark icon.](https://lh3.googleusercontent.com/sQHnduUnTdZmXVul2Np64bpBWRigAhD_49ObKd4Ks5y6nO0DHiY9tADgizMA9vOTkfNS_w-InRysGae7hxIwcyap_iuISouSE2W03bRdQWM=s0)
+![A state dropdown menu with the selected item Alaska highlighted in a vibrant color, with a checkmark icon.](../../_assets/sQHnduUnTdZmXVul2Np64bpBWRigAhD_49ObKd4Ks5y6nO0DHiY9tADgizMA9vOTkfNS_w-InRysGae7-cabf781024062f3a97a8.png)
 
 Use multiple visual cues like color, shape, and icons to show that an item is selected
 
@@ -40,7 +40,7 @@ Don't add buttons, switches, or other direct actions into the menu item. Nested 
 
 [More on slots in menus](/m3/pages/menus/guidelines#8a1684bb-99a5-4a73-91a0-068d0b406127)
 
-![1 diagram and 1 menu showing icons in each item’s leading slot.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhkskcq8-02-caution.png?alt=media&token=f56e6e61-6119-41d8-920c-26f6a7cdafff)
+![1 diagram and 1 menu showing icons in each item’s leading slot.](../../_assets/mhkskcq8-02-caution-a0977938df255249af16.png)
 
 exclamation Caution
 
@@ -62,7 +62,7 @@ People expect to exit a menu by:
 
 Where focus is placed after closing the menu depends on the app.
 
-![4 common keyboard navigation methods for menus on Android and web.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhkewf5t-03.png?alt=media&token=374bb47a-9f22-409d-b8e5-f427a1f35c00)
+![4 common keyboard navigation methods for menus on Android and web.](../../_assets/mhkewf5t-03-7924ccf0604daa83498c.png)
 
 Keyboard navigation on Android and web:
 
@@ -88,13 +88,13 @@ Disabled A disabled state communicates a non-interactive component or element. [
 
 Dividers and gaps can't receive focus.
 
-![A disabled menu item “Share” is in focus.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhkkp9r3-05-do.png?alt=media&token=4dda61ae-eb7f-45b1-b02f-d88aed80dd28)
+![A disabled menu item “Share” is in focus.](../../_assets/mhkkp9r3-05-do-c8b5efb1e6f14875f166.png)
 
 check Do
 
 Disabled menu items can receive focus
 
-![A divider with focus.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhkkqmt3-05-don't.png?alt=media&token=f3178013-9a18-4ac1-9d98-c21a2876ea6d)
+![A divider with focus.](../../_assets/mhkkqmt3-05-don-t-821eaab485375d266c25.png)
 
 close Don’t
 
@@ -108,7 +108,7 @@ The accessibility label should be the same as the menu item text.
 
 The role is [dependent on platform](/m3/pages/menus/accessibility#9c562e2c-da3a-4212-a2e3-ac91ba450b65).
 
-![A “Preview” menu item has an accessibility label of ”preview”.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhkl2sea-07.png?alt=media&token=9603d6f5-030f-41e2-84e6-2af9fd0deee5)
+![A “Preview” menu item has an accessibility label of ”preview”.](../../_assets/mhkl2sea-07-3b71b0d1673c66f053a8.png)
 
 The menu item’s accessibility label aligns with the UI text
 
@@ -118,6 +118,6 @@ The menu item’s accessibility label aligns with the UI text
 
 For menu items with text and an icon, the icon’s accessibility label should be marked as **decorative** to avoid redundant verbalizations.
 
-![A menu item icon of an eye next to the word “preview” has a note of “Decorative.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhkkynea-08.png?alt=media&token=3adbfb1f-b0e8-4cd9-8d17-918d2830ddac)
+![A menu item icon of an eye next to the word “preview” has a note of “Decorative.”](../../_assets/mhkkynea-08-488b64a13980650e8e07.png)
 
 For menu items with text and an icon, the icon’s accessibility label is **decorative**

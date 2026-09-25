@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Navigation rails let people switch between UI views on mid-sized devices
 
-![Colorful, purple navigation rail shown collapsed and expanded.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fueyh1-01.png?alt=media&token=c9edba18-9dee-44b1-9657-4dd1cdf2ff74)
+![Colorful, purple navigation rail shown collapsed and expanded.](../../_assets/m0fueyh1-01-8bf7ead408fda5178d1b.png)
 
 Use the menu icon to transition between collapsed and expanded navigation rails
 
@@ -24,7 +24,7 @@ The **collapsed** nav rail runs along the leading edge of the window, and should
 
 It can be used in medium Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) to extra large breakpoints Window widths 1600dp and larger, such as ultra-wide monitors. [More on extra-large breakpoints](/m3/pages/breakpoints/large-extra-large) , such as tablets and desktop. In  medium windows with few destinations, consider using a navigation bar Navigation bars let people switch between UI views on smaller devices. [More on navigation bars](/m3/pages/navigation-bar/overview) instead. Compact windows Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) should always use a navigation bar.
 
-![Collapsed navigation rail with “timer” icon on FAB.](https://lh3.googleusercontent.com/2h46aO3pI3H6sk6nAElUSXgQFeS-w8ASJc8WcVkSbZ4bM8FJoTDWdNodAqWyROvWADumQNodvIQiUGDoBjq162uNRm52qDDoSVxUvoCDeNDx=s0)
+![Collapsed navigation rail with “timer” icon on FAB.](../../_assets/2h46aO3pI3H6sk6nAElUSXgQFeS-w8ASJc8WcVkSbZ4bM8FJoTDWdNodAqWyROvWADumQNodvIQiUGDo-4f11a3ecec34f5ee1cb8.png)
 
 A navigation rail should be the only visible navigation element
 
@@ -39,7 +39,7 @@ The **modal** configuration overlaps the body content, and should be opened from
 -   Information dense layouts where space is limited
 -   Products with many navigation items
 
-![Expanded navigation rail shown expanded by default and expanded over screen content.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuf9qz-03.png?alt=media&token=3377b89c-7c1c-4a94-8282-d48530c4d81e)
+![Expanded navigation rail shown expanded by default and expanded over screen content.](../../_assets/m0fuf9qz-03-71e6282281ed79c7ac45.png)
 
 A navigation rail can be expanded by default on larger screen sizes, or can be expanded over content on smaller screen sizes
 
@@ -47,13 +47,13 @@ In immersive experiences, the expanded navigation rail can be hidden entirely, a
 
 The collapsed navigation rail should not be hidden.
 
-![Navigation rail and hidden navigation rail with menu icon button for expansion.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fufhuq-04.png?alt=media&token=e13c10f7-7c71-4702-a6e5-a4d6842ad1b9)
+![Navigation rail and hidden navigation rail with menu icon button for expansion.](../../_assets/m0fufhuq-04-4fde178157bb47401a07.png)
 
 The expanded navigation rail can also be hidden, appearing only when the menu icon is selected
 
 ## Anatomy
 
-![10 elements of expanded and collapsed navigation rails.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fug0sy-05.png?alt=media&token=465bf07d-fe91-4cfa-97c3-e9624609ed50)
+![10 elements of expanded and collapsed navigation rails.](../../_assets/m0fug0sy-05-e65395badf2285cf3efc.png)
 
 1.  Container
 2.  Menu (optional)
@@ -82,7 +82,7 @@ The navigation rail should be placed on the leading edge of the window. This is 
 
 The container fill can be turned off so the nav rail appears directly on the surface. When doing this, make sure all items have a minimum of 3:1 color contrast.
 
-![Right-to-left navigation rail in Hebrew, and left-to-right navigation rail in English.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fugb5b-06.png?alt=media&token=9bd7ddad-b14f-4131-bdd4-bbdb07283569)
+![Right-to-left navigation rail in Hebrew, and left-to-right navigation rail in English.](../../_assets/m0fugb5b-06-0f373611ed83fb8e32cf.png)
 
 The navigation rail should be placed on the leading edge of the window
 
@@ -90,7 +90,7 @@ The navigation rail should always run vertically along the side of a layout. Don
 
 Use a navigation bar Navigation bars let people switch between UI views on smaller devices. [More on navigation bars](/m3/pages/navigation-bar/overview) for horizontal navigation.
 
-![Horizontal navigation rail on timer screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmacys6lz-07.png?alt=media&token=274b5d1b-6978-4123-9456-4a822df58bc7)
+![Horizontal navigation rail on timer screen.](../../_assets/macys6lz-07-e817d81f417ec8ce4d41.png)
 
 close Don’t
 
@@ -100,7 +100,7 @@ Navigation rail items can be aligned as a group to the top or center of a layout
 
 The menu icon and FAB should always be top-aligned.
 
-![Navigation rails with different alignments.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuh0i5-08.png?alt=media&token=32641191-5400-4aba-829c-138e2f3c6d1e)
+![Navigation rails with different alignments.](../../_assets/m0fuh0i5-08-f2a164db839a6d1d4894.png)
 
 Top and center aligned rail destination placement
 
@@ -112,7 +112,7 @@ Once expanded, the rail can reveal secondary destinations.
 
 When the navigation rail is expanded, the menu icon should change to represent that it can be collapsed.
 
-![Expanded and collapsed navigation rails controlled by a menu icon button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuh7km-09.png?alt=media&token=ae84210a-74d7-4fac-82f1-f7a0356b23d0)
+![Expanded and collapsed navigation rails controlled by a menu icon button.](../../_assets/m0fuh7km-09-dea2224157acd3bcf878.png)
 
 A navigation rail can expand to reveal more destinations
 
@@ -122,13 +122,13 @@ The container of the navigation rail is ideal for anchoring the FAB to the top o
 
 When nested within another component, such as the navigation rail, the FAB's resting elevation should be [level 0](/m3/pages/elevation/applying-elevation).
 
-![Navigation rail with a FAB button at the top of the screen.](https://lh3.googleusercontent.com/oYiKoFrv-NTEJMP1NoGGpnlw0RTHmfpGWDm7KmDgeKzvpXq6tMZvMjBzUcZkXpnEK2Lb_cbeWRkwS4i4RGn1zfW0N4RcwSGVgltbcvmD6vY=w40)
+![Navigation rail with a FAB button at the top of the screen.](../../_assets/oYiKoFrv-NTEJMP1NoGGpnlw0RTHmfpGWDm7KmDgeKzvpXq6tMZvMjBzUcZkXpnEK2Lb_cbeWRkwS4i4-20e14759a79d17d7bc51.png)
 
 check Do
 
 A top-aligned FAB in the navigation rail
 
-![Navigation rail with a FAB button at the bottom of the screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuhrl8-11.png?alt=media&token=5e953e4b-20d1-4d7f-99f0-c89d39b052e9)
+![Navigation rail with a FAB button at the bottom of the screen.](../../_assets/m0fuhrl8-11-750fd1ea04592675a2ef.png)
 
 close Don’t
 
@@ -138,7 +138,7 @@ The top of the rail can also be used for a logo, however avoid using logos that 
 
 Don’t use a logo as a menu button to expand the navigation rail.
 
-![Navigation rail with Material design logo at the top of the screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuhyto-12.png?alt=media&token=3e219498-f5cc-4a46-824c-4fb660bc7743)
+![Navigation rail with Material design logo at the top of the screen.](../../_assets/m0fuhyto-12-e5cbd05a483c49fda9ef.png)
 
 exclamation Caution
 
@@ -148,13 +148,13 @@ Use caution when placing logos in the rail where they might be confused with an 
 
 The active indicator shows which page is being displayed.
 
-![Navigation rail with active indicators present for the current screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuicr9-13.png?alt=media&token=7755879a-0c18-40e2-89c8-e51757d7c7b2)
+![Navigation rail with active indicators present for the current screen.](../../_assets/m0fuicr9-13-d05ff03b93d59315c847.png)
 
 check Do
 
 Use the active indicator only for the current open page
 
-![Navigation rail with active indicators present for all navigation items.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fujiob-14.png?alt=media&token=ed0b9441-30cf-444e-9fde-c84be948b56d)
+![Navigation rail with active indicators present for all navigation items.](../../_assets/m0fujiob-14-1c64593c3ef0763fdaff.png)
 
 close Don’t
 
@@ -164,11 +164,11 @@ The active indicator hugs the label text in the expanded nav rail. To achieve a 
 
 The target area should always span the full width.
 
-![Navigation rail with active indicator that hugs the text and icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fujt7v-15.png?alt=media&token=8405c84a-2929-4d68-8bbd-97120c4c41ab)
+![Navigation rail with active indicator that hugs the text and icon.](../../_assets/m0fujt7v-15-60e87d04a3b26c33b28e.png)
 
 The active indicator hugs contents in the expanded nav rail
 
-![Navigation rail with active indicator that is larger than the content within it.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fujxyu-16.png?alt=media&token=bb433446-a6c0-433d-bdcb-181431e6e126)
+![Navigation rail with active indicator that is larger than the content within it.](../../_assets/m0fujxyu-16-e736c19847e258a45b30.png)
 
 Override the indicator to fill the container to more closely resemble the baseline navigation drawer
 
@@ -176,13 +176,13 @@ Override the indicator to fill the container to more closely resemble the baseli
 
 Navigation rail items must use icons that symbolize the content of their page. Browse popular icons on [Google Fonts](http://fonts.google.com/icons).
 
-![Navigation rail with icons that fit the destinations, like a timer icon and label leading to a timer feature.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuk4ze-17.png?alt=media&token=8210a6c6-b488-46e3-aa46-ec3c18a3021d)
+![Navigation rail with icons that fit the destinations, like a timer icon and label leading to a timer feature.](../../_assets/m0fuk4ze-17-6e20d700b7903dbcca42.png)
 
 Icons should symbolize the content of the page they open
 
 When a destination is selected, the icon fills and changes color. An active indicator appears behind the icon.
 
-![Icons with and without an active indicator.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fukavr-18.png?alt=media&token=fa0ab3db-3f7a-47ff-84c2-b0d63ac890f7)
+![Icons with and without an active indicator.](../../_assets/m0fukavr-18-70c068fe092aaf509f38.png)
 
 Selected navigation items have an active indicator, a filled icon, and a more prominent color
 
@@ -192,7 +192,7 @@ The label text should be a short, meaningful description of each navigation dest
 
 All navigation items require a one word label text.
 
-![Navigation rail with clear text labels.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fukhnw-19.png?alt=media&token=a2fe92ce-45d4-4c7b-8c51-5066b3cf7596)
+![Navigation rail with clear text labels.](../../_assets/m0fukhnw-19-d6c45bb1e89f8bf6a599.png)
 
 check Do
 
@@ -200,7 +200,7 @@ Write clear and concise labels that describe the destination page
 
 Avoid wrapping long labels when possible. If necessary, create a line break between words, or hyphenate longer words.
 
-![Navigation rail with lengthy text labels.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fune8p-20.png?alt=media&token=aaa6d4fd-a007-4a85-ac3c-8063f4f0767e)
+![Navigation rail with lengthy text labels.](../../_assets/m0fune8p-20-5af3ed06a0d4f9fbe143.png)
 
 exclamation Caution
 
@@ -208,13 +208,13 @@ Break up longer phrases into two text lines if necessary
 
 Labels should be short enough to not be truncated. Don’t shrink the type scale to fit longer text labels.
 
-![Navigation rail with truncated text label with ellipses. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0funlrw-21.png?alt=media&token=756fbcf4-1cf8-4157-8a41-69c43e76bc2e)
+![Navigation rail with truncated text label with ellipses. ](../../_assets/m0funlrw-21-8a91c01caedf87c0ec09.png)
 
 close Don’t
 
 Don’t truncate or display an ellipsis in place of label text
 
-![Navigation rail with small text label.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0funqlw-22.png?alt=media&token=f25512e4-0821-4d53-9b71-41f2870830fc)
+![Navigation rail with small text label.](../../_assets/m0funqlw-22-9fef5d4ae7d81ac1e435.png)
 
 close Don’t
 
@@ -226,7 +226,7 @@ Navigation rail icons can include badges to communicate dynamic information abou
 
 In compact nav rails, the badge is placed in the upper right corner of the icon. In expanded nav rails, the badge should be placed next to the label text.
 
-![Navigation rail with badges on each icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuomdi-23.png?alt=media&token=faa3cb30-f478-4450-946a-5be944155717)
+![Navigation rail with badges on each icon.](../../_assets/m0fuomdi-23-25befbe27d6c71c7678b.png)
 
 1\. Small badge on a rail destination 
 2\. Large badge with a number
@@ -236,7 +236,7 @@ In compact nav rails, the badge is placed in the upper right corner of the icon.
 
 A vertical divider can help separate the rail from app content. The divider should be positioned on the edge of the rail container that’s adjacent to the app’s content area.
 
-![Navigation rail with divider separating it from screen content.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fuouq0-24.png?alt=media&token=92b886dc-b887-4991-9487-e7b720f909a8)
+![Navigation rail with divider separating it from screen content.](../../_assets/m0fuouq0-24-4512c6a1d31daeaaf48f.png)
 
 A divider can make the navigation rail container distinct from other on-screen content
 
@@ -266,7 +266,7 @@ Only use navigation rails for medium breakpoints and larger. Don’t use a navig
 
 **Expanded to extra-large:** Use a navigation rail, not a navigation bar. Consider available horizontal space and the number of destinations when choosing between standard and modal.
 
-![Navigation bar on a phone screen and navigation rail on a tablet screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fupcvd-26.png?alt=media&token=b1915086-e325-4b2a-946e-eb41d37a9ae7)
+![Navigation bar on a phone screen and navigation rail on a tablet screen.](../../_assets/m0fupcvd-26-03ee68c713db0814ba55.png)
 
 On smaller devices, use a navigation bar. On larger displays, use a navigation rail.
 

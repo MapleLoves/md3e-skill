@@ -14,7 +14,7 @@ captured: 2026-09-14
 
 -   Density helps people see and compare more information in data-heavy views
 
-![Mobile and desktop UIs with grid lines.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4if1f9-01.png?alt=media&token=47ca8a21-cde7-4866-89cf-be7b12c1650b)
+![Mobile and desktop UIs with grid lines.](../../../_assets/mp4if1f9-01-ccb839e70b877f1210ae.png)
 
 Layouts in Material are based on a grid that adapts across all screen sizes
 
@@ -34,6 +34,6 @@ Layouts in Material are based on a grid that adapts across all screen sizes
 
 -   Expressive spacing guidelines
 
-![Tablet with content divided into 8 columns. Each pane of content is 4 columns wide.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4int8e-02.png?alt=media&token=7600ac30-bf69-4602-8bfb-61a90256ba0d)
+![Tablet with content divided into 8 columns. Each pane of content is 4 columns wide.](../../../_assets/mp4int8e-02-1cb393d2fd7fef15355b.png)
 
 As screen size increases, additional columns allow for a richer layout

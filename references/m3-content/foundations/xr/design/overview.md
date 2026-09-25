@@ -37,7 +37,7 @@ In home space, an XR app can run side by side with other apps, with the real wor
 
 Material components like buttons and menus help people navigate spatial apps with confidence.
 
-![A button opens to show a 3D Material menu.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxbsbzn-Spatialize_Components_10.gif?alt=media&token=b6813038-ded9-4f90-ad94-d740c11fbb2f)
+![A button opens to show a 3D Material menu.](../../../_assets/moxbsbzn-Spatialize_Components_10-2dda1a3ce9f93b8ff1f8.gif)
 
 In XR, a Material menu uses elevation to appear in 3D
 
@@ -45,7 +45,7 @@ In XR, a Material menu uses elevation to appear in 3D
 
 Place content in the center of a person’s field of view, and design for different body positions, such as seated, standing, and reclined.
 
-![A person sitting in a chair in an immersive XR environment, with lines marking their field of view.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowiikrm-03.png?alt=media&token=f64a8f49-743a-439f-bf43-c5e577ba5c80)
+![A person sitting in a chair in an immersive XR environment, with lines marking their field of view.](../../../_assets/mowiikrm-03-c131025bb83b7eb9af71.png)
 
 Positioning content in a person’s field of view keeps the UI visible and minimizes the need for excessive head or body movement
 
@@ -53,7 +53,7 @@ Positioning content in a person’s field of view keeps the UI visible and minim
 
 Use elevation and 3D models to add volume, create a sense of realism, and spatial understanding.
 
-![A person stands in front of an XR app with 3 curved panels and a 3D shark.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowilveb-04.png?alt=media&token=125e5211-61a5-46c7-9f4e-806274ec223a)
+![A person stands in front of an XR app with 3 curved panels and a 3D shark.](../../../_assets/mowilveb-04-a145aa8f399c423d260d.png)
 
 3D models can be viewed from all angles and moved with natural interactions
 
@@ -61,7 +61,7 @@ Use elevation and 3D models to add volume, create a sense of realism, and spatia
 
 Design apps to work with system-level assistive technologies like screen readers, voice commands, and text resizing. Provide large target sizes, support multimodal inputs, and ensure text is legible against any background.
 
-![1 XR settings icon button with labeled target size and offset. 1 microphone icon button with a visible cursor.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowin62l-05.png?alt=media&token=1050432a-36bd-4218-ba7e-af41ccd0f12b)
+![1 XR settings icon button with labeled target size and offset. 1 microphone icon button with a visible cursor.](../../../_assets/mowin62l-05-3170bdcccf4b4feaead5.png)
 
 In XR, icon buttons should have a 56dp target size and 4dp offset
 

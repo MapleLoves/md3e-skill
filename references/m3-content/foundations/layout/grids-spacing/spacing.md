@@ -14,7 +14,7 @@ captured: 2026-09-14
 
 -   Material’s spacing system can adapt to breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) and density settings. [More on the spacing system](/m3/pages/spacing/overview)
 
-![2 screens: 1 mobile with tight spacing, 1 desktop with wider spacing.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp51ef8p-01.png?alt=media&token=b9e641e7-464d-42c8-b459-a55c08a1e61c)
+![2 screens: 1 mobile with tight spacing, 1 desktop with wider spacing.](../../../_assets/mp51ef8p-01-cb3faafe32f255116858.png)
 
 Desktop layouts can use more generous spacing than mobile layouts
 
@@ -22,7 +22,7 @@ Desktop layouts can use more generous spacing than mobile layouts
 
 Grouping connects related elements that share context, such as an image and its caption. Use spacing to visually tie elements together and establish boundaries between unrelated items.
 
-![Photo of dumplings with a caption reading “restaurants in the area”.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp51khdt-02.png?alt=media&token=d07293c7-059d-4f6c-a403-dbcd689e4b09)
+![Photo of dumplings with a caption reading “restaurants in the area”.](../../../_assets/mp51khdt-02-e33395ba70a94aedebac.png)
 
 Placing a caption under an image creates an implicit group
 
@@ -34,7 +34,7 @@ It can also indicate that an item is interactive, such as:
 
 -   A card displaying an image and its caption
 
-![A contact grouped in an outlined card with a photo and caption.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5334mv-03.png?alt=media&token=d9bd66c9-9edb-4d91-8cad-904d673eadd2)
+![A contact grouped in an outlined card with a photo and caption.](../../../_assets/mp5334mv-03-2d862b8aa0e9a78add45.png)
 
 Outlines define clear boundaries to explicitly group elements
 
@@ -42,7 +42,7 @@ Outlines define clear boundaries to explicitly group elements
 
 For example, the items in a carousel are placed close together, with space around the composition to separate them from other content.
 
-![Carousel of food-related photos.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5346br-04.png?alt=media&token=1f88d093-f743-4346-8e5e-503c1e4897b9)
+![Carousel of food-related photos.](../../../_assets/mp5346br-04-3e2b7015440a901cc9bb.png)
 
 Close spacing implicitly groups carousel images
 
@@ -54,7 +54,7 @@ Use rhythm, similarity, and other grouping principles to distinguish and highlig
 
 Consistent spacing between related elements or groups makes them easier to navigate with the eye.
 
-![4 art courses in a row of cards with consistent horizontal spacing and different heights.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp53c1l8-05.png?alt=media&token=92246361-0621-4d06-89a1-5a085baf0d4d)
+![4 art courses in a row of cards with consistent horizontal spacing and different heights.](../../../_assets/mp53c1l8-05-f611fa28a8a93e11fc73.png)
 
 Cards should maintain consistent horizontal spacing to establish a strong rhythm when their height varies
 
@@ -64,7 +64,7 @@ Similar elements should have the same spacing and sizing in a layout to show the
 
 Leading elements like thumbnails, avatars, or icons should always be aligned.
 
-![3 shopping basket list items with the same thumbnail sizes and text styles.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp53g651-06.png?alt=media&token=83a99498-55ae-416a-8461-f0ebfa64940c)
+![3 shopping basket list items with the same thumbnail sizes and text styles.](../../../_assets/mp53g651-06-a49e645d0f0b2c5eb4ca.png)
 
 Thumbnails in a shopping basket should use identical sizes and styles to signal that each one represents a product, even if the original photos have different aspect ratios
 
@@ -74,7 +74,7 @@ Place components near each other to create cohesive groups. This helps people un
 
 For example, buttons should be close to the content they’re affecting.
 
-![Email message with Reply and Reply all buttons positioned close together.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp71sefu-07.png?alt=media&token=9a73f364-89ce-4344-90b8-a10cfe8ecd56)
+![Email message with Reply and Reply all buttons positioned close together.](../../../_assets/mp71sefu-07-9bdcf49db4ce68452312.png)
 
 Placing two buttons as a group near content implies they’ll both affect it in similar ways
 
@@ -82,7 +82,7 @@ Placing two buttons as a group near content implies they’ll both affect it in 
 
 Place related elements in a container, row, or column to establish a clear group or relationship.
 
-![Clothing product page with a horizontal row of size chips, with 6 selected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp53i2w6-08.png?alt=media&token=ba970765-9086-4446-a407-15046c1fbd58)
+![Clothing product page with a horizontal row of size chips, with 6 selected.](../../../_assets/mp53i2w6-08-f90d3ae4ba668e66f65e.png)
 
 Use a row of chips to signal a single, unified control
 
@@ -94,7 +94,7 @@ Give the most important content, tasks, or actions visual prominence with genero
 
 Consistent placement of key actions and information helps build recognizable focal points across a product.
 
-![2 mobile screens showing carousels with identical layouts and title placement.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp53roq5-09.png?alt=media&token=63c1529a-8246-4126-a39b-e0786665db05)
+![2 mobile screens showing carousels with identical layouts and title placement.](../../../_assets/mp53roq5-09-7bdf868f65199117133d.png)
 
 Carousel images, categories, and titles should appear in a consistent location across pages
 
@@ -102,6 +102,6 @@ Carousel images, categories, and titles should appear in a consistent location a
 
 Allow negative space to give form and meaning to elements on screen. Framing important actions or content with generous spacing creates emphasis.
 
-![A mobile screen shows  generous negative space around carousel images.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp53ttu6-10.png?alt=media&token=12b19a8d-ceba-4cab-9c0b-bc78a463f7ec)
+![A mobile screen shows  generous negative space around carousel images.](../../../_assets/mp53ttu6-10-b97b5992bcfd176635cd.png)
 
 Negative space gives shape and emphasis to the course header

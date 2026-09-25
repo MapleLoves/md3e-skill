@@ -14,7 +14,7 @@ Color and contrast can be used to help users see and interpret your app’s cont
 
 Color can help communicate mood, tone, and critical information. Primary, secondary, and accent colors can be selected to support usability. Sufficient color contrast between elements can help users with low vision see and use your app.
 
-![two colors applied to button container and UI surface with contrast that passes 3:1 minimum](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0quwwby-1.png?alt=media&token=f5750025-ccb3-4916-8d4d-6136a6ced9e4)
+![two colors applied to button container and UI surface with contrast that passes 3:1 minimum](../../_assets/m0quwwby-1-e2ee549640f9deca776a.png)
 
 ### Contrast ratios
 
@@ -41,26 +41,26 @@ Elements that are clustered with others, such as a group of buttons, require the
 
 These elements benefit from 3:1 contrast between themselves and the background.
 
-![Two colors applied to button container and UI surface with contrast that fails 3:1 minimum.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qux0kv-2.png?alt=media&token=6e7cd553-db88-44c9-8f4e-edf7e43c5328)
+![Two colors applied to button container and UI surface with contrast that fails 3:1 minimum.](../../_assets/m0qux0kv-2-ea61d075eb6b29d02334.png)
 
 The contrast of the button container color against the background color is less than Material's required contrast of 3:1
 
-![Two colors applied to button container and UI surface with contrast that passes 3:1 minimum.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qux3pf-3.png?alt=media&token=11307ebf-9f24-49b2-9667-b4db411ed819)
+![Two colors applied to button container and UI surface with contrast that passes 3:1 minimum.](../../_assets/m0qux3pf-3-c4ee500e47ce589527f8.png)
 
 The container color exceeds Material's required minimum contrast of 3:1 against background color
 
 Elements that stand on their own and apart from other elements on the screen, such as a FAB, are already distinguishable to users because of their prominence. These elements don’t benefit from 3:1 contrast between themselves and the background.
 
-![Two colors applied to the FAB container and UI surface that fail the minimum contrast of 3:1.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qux82l-4.png?alt=media&token=582f5c7a-5e7f-4f79-9e8d-bc5f091be371)
+![Two colors applied to the FAB container and UI surface that fail the minimum contrast of 3:1.](../../_assets/m0qux82l-4-c60a047e3afa7928368b.png)
 
 Standalone components, such as FABs, don’t need to meet Material's minimum contrast of 3:1 between the container and background colors because of their prominence
 
 When placing components together in a cluster, use components or types of components that each achieve at least 3:1 contrast between themselves and the background.
 
-![A cluster of three buttons with the same container color that fails the minimum contrast of 3:1 with the UI surface.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3vo5t-5.png?alt=media&token=6437d00b-724d-4823-9377-9421334c5d6e)
+![A cluster of three buttons with the same container color that fails the minimum contrast of 3:1 with the UI surface.](../../_assets/lwj3vo5t-5-0ba33edba99b3b293579.png)
 
 Each button's container color has less than Material's required minimum contrast of 3:1 against the UI background, leading to poor contrast support for users with low vision
 
-![A cluster of three buttons with the same container color that passes the minimum contrast of 3:1 with the UI surface.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3vxr1-6.png?alt=media&token=c6dff750-9b13-4117-bafb-59dfc3198736)
+![A cluster of three buttons with the same container color that passes the minimum contrast of 3:1 with the UI surface.](../../_assets/lwj3vxr1-6-074ce5c8932ff49f95bf.png)
 
 Each button's container color has contrast of at least 3:1 against the UI background, leading to better contrast support for users with low vision

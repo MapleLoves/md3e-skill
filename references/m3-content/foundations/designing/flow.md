@@ -33,7 +33,7 @@ Focus refers to which control is currently the active target of user interaction
 
 Define the **initial focus** when a user loads a screen, as well as initial focus for components with multiple interactive elements, like a complex card or a dialog.
 
-![A Google home screen showing the initial focus on the search bar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qvgj8o-5.png?alt=media&token=dabd6a95-ac7c-4bba-bbc0-c348916035b8)
+![A Google home screen showing the initial focus on the search bar.](../../_assets/m0qvgj8o-5-74ae75052e6284288f0c.png)
 
 In the case of the Google homepage, even though there are links and buttons above and surrounding the search field on the page, it makes sense to put the user's initial focus on the element that supports the most common user goal
 
@@ -44,7 +44,7 @@ For example, when a dialog is triggered, check for the following:
 -   Focus is set to the dialog component, likely to a specific interactive element within the dialog such as a text input field or edit button
 -   When the user closes or cancels the dialog, focus returns to the interactive element that initiated the action
 
-![Diagram showing changing points of focus as a user opens and closes a calendar card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj43qm4-6.png?alt=media&token=a3d35c37-a97f-4262-8451-6bfc922a671c)
+![Diagram showing changing points of focus as a user opens and closes a calendar card.](../../_assets/lwj43qm4-6-628f16a6a0730bde9c21.png)
 
 1.  Define initial focus and component-level focus
 
@@ -52,7 +52,7 @@ For example, when a dialog is triggered, check for the following:
 
 Users should be able to complete the primary and secondary user journeys using tab, arrow keys, and other keyboard shortcuts. 
 
-![Card with three interactive elements in the top right corner.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj441r3-7.png?alt=media&token=ad672a23-24bb-45b6-b2f2-633553c3a1c8)
+![Card with three interactive elements in the top right corner.](../../_assets/lwj441r3-7-6e0539dd2a8854e6e368.png)
 
 Navigating the interactive elements on a card via tab
 
@@ -62,7 +62,7 @@ Navigating the interactive elements on a card via tab
 
 **Enter** activates a link or button, or sends a form when a form item has focus.
 
-![Diagram showing a group of three sub-elements, with navigation within the group assigned to arrow keys.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj44h3h-8.png?alt=media&token=d1d4349e-09f9-4ee5-ad33-143a7d576537)
+![Diagram showing a group of three sub-elements, with navigation within the group assigned to arrow keys.](../../_assets/lwj44h3h-8-74bd8fcbae52f8f9355a.png)
 
 In the case of unique layouts and use cases, it can help to group a collection of interactive elements as one tab stop, and use arrow keys to traverse sub-elements
 

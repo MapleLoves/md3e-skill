@@ -14,7 +14,7 @@ Note:
 
 Segmented buttons are no longer recommended in the Material 3 expressive update. For those who have updated, use the [connected button group](/m3/pages/button-groups/overview/) instead, which has mostly the same functionality but with an updated visual design.
 
-![Two types of segmented buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7mlxdq-1.png?alt=media&token=e2fd2652-48e7-4a3d-9203-c8451a77c27a)
+![Two types of segmented buttons.](../../_assets/lw7mlxdq-1-c34371b7149da9de4c29.png)
 
 1.  Single-select 
 2.  Multi-select
@@ -23,7 +23,7 @@ Segmented buttons are no longer recommended in the Material 3 expressive update.
 
 Segmented buttons help people select options, switch views, or sort elements.
 
-![A segmented button for switching between restaurants and bar options. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7mnnk2-2.png?alt=media&token=0621a46b-ddcb-4ee9-b3de-b1b7be908b9d)
+![A segmented button for switching between restaurants and bar options. ](../../_assets/lw7mnnk2-2-b82ea1e551bbbf52572f.png)
 
 A segmented button can help switch between viewing restaurant and bar options
 
@@ -33,14 +33,14 @@ There are 2 variants of segmented buttons:
 
 2.  Multi-select
 
-![Side by side view of single and multi-select segmented buttons](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7mz9ev-3.png?alt=media&token=6ac60657-7e18-4b03-81cb-23e97d4596c0)
+![Side by side view of single and multi-select segmented buttons](../../_assets/lw7mz9ev-3-bd83bf9c748223f9cbbf.png)
 
 1.  Single-select segmented button can only have 1 segment selected
 2.  Multi-select segmented button can have multiple segments selected
 
 ## Anatomy
 
-![Diagram of segmented button indicating 5 parts of its anatomy](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7n59nt-4.png?alt=media&token=42169c2e-9e9e-45a1-b3a7-44b5354fcddd)
+![Diagram of segmented button indicating 5 parts of its anatomy](../../_assets/lw7n59nt-4-b03cac3c48c8023c57d9.png)
 
 1.  Segment
 2.  Container
@@ -52,17 +52,17 @@ There are 2 variants of segmented buttons:
 
 Segmented buttons can have 2-5 segments. Each segment is clearly divided and contains label text, an icon, or both.
 
-![Side by side view of segmented buttons each with additional segment starting from 2 to 5](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7nap4m-5.png?alt=media&token=0561fbc5-65b2-4d96-a0de-8f4ec03c3431)
+![Side by side view of segmented buttons each with additional segment starting from 2 to 5](../../_assets/lw7nap4m-5-e5addedb2736082f82eb.png)
 
 There can be anywhere from 2 to 5 segments in single-select and multi-select segmented buttons
 
-![Mobile UI of data usage screen with segmented button](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7ngd39-6_do.png?alt=media&token=17b77bb9-147e-4b1a-b0fb-8e4ea445e7a0)
+![Mobile UI of data usage screen with segmented button](../../_assets/lw7ngd39-6_do-f497041df3bdd88ca7e1.png)
 
 check Do
 
 Segmented buttons are best used for selecting between 2 and 5 choices
 
-![Incorrect use of segmented button with 6 segments](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7o4u2i-7_dont.png?alt=media&token=75e065ae-9d24-4a76-9261-7db3988ff869)
+![Incorrect use of segmented button with 6 segments](../../_assets/lw7o4u2i-7_dont-aeeffd6a03368be94262.png)
 
 close Don’t
 
@@ -72,7 +72,7 @@ Don’t use more than five segments in a single segmented button. Choices should
 
 Like common buttons Buttons let people take action and make choices with one tap. , segmented buttons have fully rounded corners by default.
 
-![Close up detail of segmented button with fully rounded corners](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7o7un8-8.png?alt=media&token=0ccf0509-584f-437c-8a5f-dbfb97aae0ed)
+![Close up detail of segmented button with fully rounded corners](../../_assets/lw7o7un8-8-a13e5beab0c39de97d29.png)
 
 Segmented buttons have fully rounded corners
 
@@ -82,7 +82,7 @@ Icons may be used as labels by themselves or alongside text. 
 
 If an icon is used without label text, it must clearly communicate the option it represents. 
 
-![Side by side view of segmented buttons with different configurations of icons and label text](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7okkk9-9.png?alt=media&token=b185e6ab-2a5e-4d29-9989-52b66176df7b)
+![Side by side view of segmented buttons with different configurations of icons and label text](../../_assets/lw7okkk9-9-fd699b27327c588dd1af.png)
 
 Segmented buttons can include icons
 
@@ -90,35 +90,35 @@ Segmented buttons can include icons
 
 Labels should be short and succinct. If a label is too long to fit within its segment, consider using an icon alone.
 
-![Mobile UI of music app showing a segmented button with options for music, albums, podcasts](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7omu8a-10.png?alt=media&token=a0044742-6660-4d12-b7eb-c168a9e4ea3a)
+![Mobile UI of music app showing a segmented button with options for music, albums, podcasts](../../_assets/lw7omu8a-10-846169a9465f4fedbb7d.png)
 
 Use labels that are as clear and short as possible
 
-![Segmented button with options for day, week, month](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7pqz1e-11_do.png?alt=media&token=5f954b64-e2d8-4fef-a0a5-e56c9fba0bd3)
+![Segmented button with options for day, week, month](../../_assets/lw7pqz1e-11_do-3be3d2522ea6ac010f32.png)
 
 check Do
 
 Keep labels short and consistent in length
 
-![Segmented button with 4 segments. 3 are next to each other. The 4th is wrapped on a new line.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7prory-12_dont.png?alt=media&token=72743d41-4ba5-48b8-a3eb-0c386ab4ac66)
+![Segmented button with 4 segments. 3 are next to each other. The 4th is wrapped on a new line.](../../_assets/lw7prory-12_dont-bf406302bb3ebacb3e3d.png)
 
 close Don’t
 
 Don’t allow segments to wrap onto a new line
 
-![Segmented button with text labels reading day, week, month](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7psieh-13_do.png?alt=media&token=30b7bff6-d892-4765-93c8-a4712aaf1cd3)
+![Segmented button with text labels reading day, week, month](../../_assets/lw7psieh-13_do-a64d5d9c9a9b40288faf.png)
 
 check Do
 
 Use consistent label types
 
-![Segmented button with icons only labels for walking, transit, driving](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7pt9gl-14_caution.png?alt=media&token=94a71ac1-5be5-4376-8f8e-8eac93aa3f1b)
+![Segmented button with icons only labels for walking, transit, driving](../../_assets/lw7pt9gl-14_caution-c3bd25b5655199005f8a.png)
 
 exclamation Caution
 
 Icons can be used in place of labels, but they must clearly communicate their meaning
 
-![Segmented button with 2 icon only options indicating favorite and bookmark and 3rd option with text label reading recent](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7ptzzf-15_dont.png?alt=media&token=bbfbde3d-e104-4cd8-9aae-6a7e3aed50e9)
+![Segmented button with 2 icon only options indicating favorite and bookmark and 3rd option with text label reading recent](../../_assets/lw7ptzzf-15_dont-af7e496810cae24fdf1b.png)
 
 close Don’t
 
@@ -130,7 +130,7 @@ Use a single-select segmented button to select one option from a set, switch bet
 
 For example, use a single-select segmented button to choose one of a set of sizes, such as this beverage size selector.
 
-![Mobile UI for ecommerce app with segmented button with 3 beverage size options](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7puwq3-16.png?alt=media&token=523ecc2f-a2df-4442-8e24-cf65c64c83d7)
+![Mobile UI for ecommerce app with segmented button with 3 beverage size options](../../_assets/lw7puwq3-16-5679157a28ab312e5597.png)
 
 A single select segmented button for choosing beverage size
 
@@ -140,7 +140,7 @@ Use a multi-select segmented button to select or sort from two to five options. 
 
 For example, multi-select segmented buttons can be used to filter by price range when searching for a restaurant. 
 
-![Mobile UI for ecommerce app with multi-select segmented button with 4 price range options ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7pvpf7-17.png?alt=media&token=3aa4f45c-50e9-4de0-a6c1-6325df4a89a1)
+![Mobile UI for ecommerce app with multi-select segmented button with 4 price range options ](../../_assets/lw7pvpf7-17-9615b603cd0dbe507a1d.png)
 
 A multi-select segmented button for filtering restaurant search options
 
@@ -150,19 +150,19 @@ Segmented buttons should have adequate margins Margins are the spaces between th
 
 On larger screens, set a maximum padding for all button segments so the set doesn't fill the screen.
 
-![Mobile UI with 2-segment segmented button and 4-segment segmented button each with same margins to the viewport edge.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7pwh9i-18.png?alt=media&token=cd37d565-662f-48b9-b036-57fdce8f001d)
+![Mobile UI with 2-segment segmented button and 4-segment segmented button each with same margins to the viewport edge.](../../_assets/lw7pwh9i-18-954f8e58d569283e5ffc.png)
 
 check Do
 
 Allow adequate space for margins. The button container shouldn’t reach the edge of the viewport.
 
-![Game store UI with a segmented button the proper width](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7pxu9q-18-a_do.png?alt=media&token=4c28374e-4793-49c8-9988-4c8ebdc009d7)
+![Game store UI with a segmented button the proper width](../../_assets/lw7pxu9q-18-a_do-227e767bdd3ee18c3b78.png)
 
 check Do
 
 Set a maximum padding within the segments to ensure usability on larger screens
 
-![Game store UI with a segmented button improperly spanning the entire width of the screen](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7pyzy1-18-b_dont.png?alt=media&token=d6675cb8-414c-4214-a099-1643383404b9)
+![Game store UI with a segmented button improperly spanning the entire width of the screen](../../_assets/lw7pyzy1-18-b_dont-42e30c850f4cf7a5ba0e.png)
 
 close Don’t
 
@@ -170,7 +170,7 @@ Don’t allow segmented buttons to span the full width of larger screens or pane
 
 Segmented buttons can be placed on other components, such as bottom sheets Bottom sheets show secondary content anchored to the bottom of the screen. [More on bottom sheets](/m3/pages/bottom-sheets/overview) or full-screen dialogs Full-screen dialogs fill the entire screen, displaying actions that require a series of tasks to complete. They're often used for creating a calendar entry. . 
 
-![Mobile UI with segmented button in bottom sheet](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw7q0vrm-19.png?alt=media&token=f3152999-f72c-4cfd-9c6b-b095bd997085)
+![Mobile UI with segmented button in bottom sheet](../../_assets/lw7q0vrm-19-36e0b62b3c0c17a9d92a.png)
 
 A segmented button can be placed on a bottom sheet
 

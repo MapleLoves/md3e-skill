@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   In toggle buttons, use the outlined style of an icon for the unselected state, and the filled style for the selected state
 
-![5 kinds of outline buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0by1ftf-1.png?alt=media&token=2888d586-c4ee-456e-8444-805543dddbed)
+![5 kinds of outline buttons.](../../_assets/m0by1ftf-1-df11b411f4a63a98890c.png)
 
 Standard, filled unselected, filled selected, filled tonal, and outlined icon buttons
 
@@ -82,7 +82,7 @@ Widths: 
 
 -   Wide
 
-![Icon buttons can vary in size, shape, and width.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0by3xdg-2.png?alt=media&token=0e9b026c-d4c0-4e94-ad89-55a59618a51d)
+![Icon buttons can vary in size, shape, and width.](../../_assets/m0by3xdg-2-61f66c93a7bffd9f7ab6.png)
 
 1.  Five sizes
 
@@ -96,7 +96,7 @@ Widths: 
 
 -   **Variants and naming:** Icon buttons were called toggle buttons. There are now two variants of icon buttons: default and toggle.
 
-![Icon buttons were known as toggle buttons in M2.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0by5hfz-3.png?alt=media&token=9b34e493-6c33-4b8e-aa41-93e8045c9952)
+![Icon buttons were known as toggle buttons in M2.](../../_assets/m0by5hfz-3-0d9841ac47fcec4f500d.png)
 
 1.  Default icon buttons
 

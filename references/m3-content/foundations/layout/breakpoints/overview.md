@@ -34,7 +34,7 @@ All devices fall into one of five Material breakpoints:
 
 Rather than designing for an ever-increasing number of display states, focusing on breakpoints ensures layouts work across a wide range of devices.
 
-![3 breakpoints from small to expanded.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zlnnl-01.png?alt=media&token=8323cb81-b243-4b44-984a-2d4e4cf92b36)
+![3 breakpoints from small to expanded.](../../../_assets/mp3zlnnl-01-a2b539d174179db6a69f.png)
 
 1.  Compact
 
@@ -44,7 +44,7 @@ Rather than designing for an ever-increasing number of display states, focusing 
 
 Large and extra-large breakpoints are used on devices like laptops, desktops, and external monitors.
 
-![2 devices with large and extra-large breakpoints.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zmg9g-02.png?alt=media&token=c44180cc-7578-4aad-a6cc-83976bf6261f)
+![2 devices with large and extra-large breakpoints.](../../../_assets/mp3zmg9g-02-e5482670e9449598f362.png)
 
 1.  Large
 
@@ -70,11 +70,11 @@ On Android, compact, medium, and expanded breakpoints are also available for [h
 
 ## Designing across breakpoints
 
-![An email app shown at 3 breakpoints: compact, medium, and expanded.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3znkbk-03-a%20-%20USE%20AS%20STATIC%20ASSET.png?alt=media&token=d4fdc9e9-1d21-437d-a389-bf44643d3e8d)
+![An email app shown at 3 breakpoints: compact, medium, and expanded.](../../../_assets/mp3znkbk-03-a---USE-AS-STATIC-ASSET-d198ccdf05d7629b0e01.png)
 
 Products should automatically adapt to any breakpoint
 
-![2 screens at large and extra-large breakpoints.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zoh5f-04-a.png?alt=media&token=d591ef66-6c41-4c9c-9869-6f2c18e67de8)
+![2 screens at large and extra-large breakpoints.](../../../_assets/mp3zoh5f-04-a-1ccd48aaecc1db48b0d6.png)
 
 A product’s layout should adjust to fit each breakpoint. For example, a large window can have two panes, while an extra-large window can have three.
 
@@ -102,13 +102,13 @@ For example:
 
 -   On an expanded device, the navigation rail can be open by default, revealing more actions and features
 
-![Email app layouts in compact and expanded windows.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zwt8a-05.png?alt=media&token=6d5c3d03-c7cb-4dc8-9b6c-742a14af6323)
+![Email app layouts in compact and expanded windows.](../../../_assets/mp3zwt8a-05-f02afd75e62066049aa3.png)
 
 A product’s navigation rail can be revealed in an expanded layout
 
 The same can be applied to [panes](/m3/pages/scaffold/panes). Larger layouts can simultaneously display an inbox pane and a pane containing a selected conversation. Additional space doesn’t just mean making the same thing bigger.
 
-![Messaging app layouts in compact and expanded windows.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zxlki-06.png?alt=media&token=23064bc7-1c9c-4863-a5f4-c9f61bcc2abe)
+![Messaging app layouts in compact and expanded windows.](../../../_assets/mp3zxlki-06-733d35825a23cec3b65b.png)
 
 An expanded layout for a messaging app reveals a second pane with the selected conversation
 
@@ -122,7 +122,7 @@ When dividing a screen into layout panes, consider the breakpoint: 
 
 -   Extra-large breakpoints: Consider using three panes
 
-![A compact and medium window have a single pane. A larger window has 2 panes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3zyjaf-07.png?alt=media&token=eaf0259d-ade7-4ad8-b653-4b536f3d12da)
+![A compact and medium window have a single pane. A larger window has 2 panes.](../../../_assets/mp3zyjaf-07-3fd6ff202e101907468e.png)
 
 Compact and medium breakpoints should use a single pane, while larger breakpoints can use two
 
@@ -130,11 +130,11 @@ At medium breakpoints, two panes are useful when they contain low-density conten
 
 Don’t use two panes in medium layouts with high information density, as it can reduce usability.
 
-![Medium window with 2 panes with low-density content: an email setting menu and a list of setting switches.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5k02j7-08.png?alt=media&token=a7f384f1-9270-4503-a8ef-07f2ea61b171)
+![Medium window with 2 panes with low-density content: an email setting menu and a list of setting switches.](../../../_assets/mp5k02j7-08-b7a17aaa322786ba78f1.png)
 
 A settings view with low-density content and quick actions is a good use of two panes in a medium layout
 
-![Video app in a medium window has 1 pane in portrait layout and 2 in landscape.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp400qwl-09.png?alt=media&token=2197c435-0987-46d3-9aa3-6ccc85502d91)
+![Video app in a medium window has 1 pane in portrait layout and 2 in landscape.](../../../_assets/mp400qwl-09-93b0b262bd6ec1dee5ec.png)
 
 Rotating a device often changes the breakpoint. A layout can have two panes in landscape orientation, and one pane in portrait.
 
@@ -148,7 +148,7 @@ Single-pane layouts can focus attention on one action or view, creating a distra
 
 -   Creative applications
 
-![Video app in a single-pane landscape layout at an expanded breakpoint.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp401fhs-10.png?alt=media&token=0ccf4879-187a-4ede-99d1-d6ec706551c2)
+![Video app in a single-pane landscape layout at an expanded breakpoint.](../../../_assets/mp401fhs-10-17a45ee219d12ab814bb.png)
 
 Consider using an immersive single-pane layout for video calls
 
@@ -170,7 +170,7 @@ Resizing can highlight imagery and improve text readability. This type of adapta
 
 Across all breakpoints, adjust margins and type styles to keep text between 40–60 characters per line.
 
-![2 cards in compact and medium layouts. The image and text are rearranged and resized to be more legible in the medium layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp402bv2-11.png?alt=media&token=2b506884-8895-4dfa-ba20-996c00fa4f38)
+![2 cards in compact and medium layouts. The image and text are rearranged and resized to be more legible in the medium layout.](../../../_assets/mp402bv2-11-5ff407832d309225f891.png)
 
 A small card in a compact layout can be resized larger in a medium or expanded layout
 
@@ -192,13 +192,13 @@ Consider:
 
 Internal elements can be anchored to the left, right, or center as a parent container scales. Internal elements can also maintain fixed positions, such as a floating action button (FAB) in a navigation rail.
 
-![Comparison of compact and medium breakpoints with tabs anchored to the middle of each layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40fx5f-12.png?alt=media&token=8fbf1a50-a6ea-4ad1-b27b-f828c3e9a755)
+![Comparison of compact and medium breakpoints with tabs anchored to the middle of each layout.](../../../_assets/mp40fx5f-12-33a45ccd00ed833ad108.png)
 
 Tabs can remain anchored to the middle of a layout at both compact and medium breakpoints
 
 In the case of a button, the icon and text label within the button container can remain anchored to each other, staying centered as the button container scales horizontally.
 
-![Label text remains the same size and centered as button size increases.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40h750-13.png?alt=media&token=8ae06150-9be5-48b5-bb6e-e6f61672631e)
+![Label text remains the same size and centered as button size increases.](../../../_assets/mp40h750-13-79e04fd62cd94127f79c.png)
 
 Button icons and label text can remain anchored to each other no matter the width
 
@@ -208,7 +208,7 @@ As a layout changes across breakpoints, components with similar functions can al
 
 For example, a bottom navigation bar in a compact layout can be swapped with a navigation rail in a medium layout.
 
-![A compact layout’s navigation bar becomes a navigation rail in an expanded layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40iha0-14.png?alt=media&token=4fb0d3c7-9006-49a5-bd32-54e7519c4999)
+![A compact layout’s navigation bar becomes a navigation rail in an expanded layout.](../../../_assets/mp40iha0-14-7473db75a0973c34c3c6.png)
 
 check Do
 
@@ -224,13 +224,13 @@ Use caution when swapping components. Make sure: 
 
 Don’t swap a button for a chip. Be careful when changing between list items and cards.
 
-![A compact layout’s navigation rail expands in an extra-large layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40ja5v-15.png?alt=media&token=207771ea-8bc0-46bd-b9d2-f8997cd5cb71)
+![A compact layout’s navigation rail expands in an extra-large layout.](../../../_assets/mp40ja5v-15-98907456d8cd2ea7f806.png)
 
 check Do
 
 A collapsed navigation rail in medium or expanded layouts can become an expanded navigation rail in large or extra-large layouts
 
-![A button is swapped out for a menu in a food delivery app.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4067x5-16.png?alt=media&token=53950369-71ef-4482-b4a5-841062204c48)
+![A button is swapped out for a menu in a food delivery app.](../../../_assets/mp4067x5-16-33f5ef9bb5bff99a8110.png)
 
 close Don’t
 

@@ -19,7 +19,7 @@ People should be able to do the following using assistive technology:
 
 FAB menu elements meet the minimum target size of 48dp.
 
-![FAB menu measurement annotations. All elements are larger than the minimum target size.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0am5xpn-01.png?alt=media&token=537719c2-9f5f-4d5d-ba85-2b59cdcd2c5b)
+![FAB menu measurement annotations. All elements are larger than the minimum target size.](../../_assets/m0am5xpn-01-ab4ca043c1ea4e144b6e.png)
 
 FAB menus have 48x48dp minimum width and sufficient spacing by default
 
@@ -27,13 +27,13 @@ When the FAB menu can scroll, make sure the items scroll behind the close button
 
 The close button should always be easy to access and unobstructed.
 
-![FAB menu items are scrolling behind the close button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0am8l9a-02.png?alt=media&token=989423d2-f7cd-4b11-8ac1-115565b2ccc2)
+![FAB menu items are scrolling behind the close button.](../../_assets/m0am8l9a-02-327e5f61930c3db9508c.png)
 
 check Do
 
 Allow the menu items to scroll behind the close button
 
-![FAB menu items are scrolling in front of the close button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0am8ym2-03.png?alt=media&token=5fa58f68-9fae-4806-8754-4fe611b73f45)
+![FAB menu items are scrolling in front of the close button.](../../_assets/m0am8ym2-03-a2530ac1faffd31110d5.png)
 
 close Don’t
 
@@ -45,7 +45,7 @@ When the FAB is selected, the FAB menu opens, and initial focus remains on the c
 
 Then the focus moves from the top menu item to the bottom.
 
-![4 FAB menus with the focus order labelled. Focus moves from the close button at the bottom to the topmost menu item next.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmaejeaf9-04.png?alt=media&token=d8a732b5-ad7b-4566-a92d-eccca8795f38)
+![4 FAB menus with the focus order labelled. Focus moves from the close button at the bottom to the topmost menu item next.](../../_assets/maejeaf9-04-d4a711aa116996de446c.png)
 
 Focus lands on the close button. People can then navigate through all the items.
 
@@ -73,7 +73,7 @@ On Android, a FAB menu’s close button should include a state to tell screen re
 
 -   State: Expanded or collapsed
 
-![Accessibility labels for the close button on an Android device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmmksaup-05.png?alt=media&token=0aabb7b0-89f8-49e9-9564-e07ee8b0c517)
+![Accessibility labels for the close button on an Android device.](../../_assets/mmmksaup-05-0d1f9d5c1f48008b9c0a.png)
 
 On Android, the **close button** accessibility labels should include a toggle menu label, button role, and an expanded or collapsed state
 
@@ -83,7 +83,7 @@ FAB menu items should be labeled:
 
 -   Role: Button
 
-![Accessibility labels for a FAB menu item on an Android device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmmksh30-06.png?alt=media&token=469b8f96-0db8-4a1a-b379-e77aeed01160)
+![Accessibility labels for a FAB menu item on an Android device.](../../_assets/mmmksh30-06-1bcd0a52d9295b0d5cd1.png)
 
 Label FAB menu items to match their UI text, like **Reply all**, and use the button role  
 

@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   Keep the default color mapping
 
-![3 icons with badges. 1 is a small dot. 2 is a larger circle with a 1 digit number. 3 is an oval with a 4 digit number.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme8hopxl-01.png?alt=media&token=e9840156-17f4-4edf-b69a-eb62bd0b5c5c)
+![3 icons with badges. 1 is a small dot. 2 is a larger circle with a 1 digit number. 3 is an oval with a 4 digit number.](../../_assets/me8hopxl-01-4fb26523ffd80f91665a.png)
 
 1.  Small badge on a navigation item
 2.  Large badge on a navigation item
@@ -45,6 +45,6 @@ Close
 
 -   Color: New color mappings and compatibility with dynamic color Dynamic color takes a single color from a user's wallpaper or in-app content and creates an accessible color scheme assigned to elements in the UI. [More on dynamic color](/m3/pages/dynamic/choosing-a-source)
 
-![Navigation bar showing 4 icons with different badge variants in a bright red color.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme8hz0r2-02.png?alt=media&token=579d40e2-1895-4ed4-a074-22f71265f580)
+![Navigation bar showing 4 icons with different badge variants in a bright red color.](../../_assets/me8hz0r2-02-247e030cf778ef706f8f.png)
 
 Badges have new color mappings

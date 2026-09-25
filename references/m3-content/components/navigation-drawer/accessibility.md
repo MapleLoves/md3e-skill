@@ -46,7 +46,7 @@ Cursor: Hover, Click
 
 Initial focus lands directly on the first navigation item, since that is the first interactive element of the component.
 
-![1\. Tab lands on the first navigation item, Inbox. 2. Down arrow to get to the second navigation item, Outbox.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flworf9hl-3.png?alt=media&token=1bb331b2-e914-4668-baec-8accae5b6fd6)
+![1\. Tab lands on the first navigation item, Inbox. 2. Down arrow to get to the second navigation item, Outbox.](../../_assets/lworf9hl-3-036c25d75ab372b09df7.png)
 
 Focus lands on first navigation item
 
@@ -54,7 +54,7 @@ Focus lands on first navigation item
 
 The modal navigation drawer can be dismissed by selecting the scrim that covers the rest of the screen.
 
-![A navigation drawer with a scrim covering the body content. A touch target is selecting the scrim.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm36co6ff-navdrawer-tablet-do-md.png?alt=media&token=852f7a22-fb45-4eee-89e8-ab411fad1a65)
+![A navigation drawer with a scrim covering the body content. A touch target is selecting the scrim.](../../_assets/m36co6ff-navdrawer-tablet-do-md-ccadf075cffe1c2f60a1.png)
 
 Select the scrim to close the navigation drawer
 
@@ -62,23 +62,23 @@ Select the scrim to close the navigation drawer
 
 Icons are the primary focus of the navigation and such give the dominant cue of its state States show the interaction status of a component or UI element. [More on states](/m3/pages/interaction-states/overview) . Use a filled icon for the selected destination to differentiate from the outlined icons of non-selected destinations.
 
-![Space + enter is used to select the navigation item inbox.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flworgt4a-4.png?alt=media&token=6afa4fd0-0c68-4f18-9553-84c516c0c6b2)
+![Space + enter is used to select the navigation item inbox.](../../_assets/lworgt4a-4-c6b64cda6d32a4334490.png)
 
 The navigation item is selected via **Space**/**Enter**
 
-![A navigation drawer with the home destination using a filled icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flworfw7l-5.png?alt=media&token=d33e2758-6076-4012-933b-ce1dde9c539f)
+![A navigation drawer with the home destination using a filled icon.](../../_assets/lworfw7l-5-79499e1dbde9370d449c.png)
 
 check Do
 
 Use a filled icon for the selected navigation destination to differentiate from the other destinations
 
-![A navigation drawer with the home destination using an outlined icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flworg85u-6.png?alt=media&token=6cd4cfa6-ec1a-40c4-95f3-ba4efc6de9e1)
+![A navigation drawer with the home destination using an outlined icon.](../../_assets/lworg85u-6-0afd65a4923e642bdc26.png)
 
 close Don’t
 
 Avoid keeping the icon style for the selected navigation destination the same as unselected destination's icons. This removes an important visual indicator of which destination is active.
 
-![A selected home icon using a filled icon and active indicator and a unselected home icon using an outlined icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flworh5ui-7.png?alt=media&token=1b7a06eb-1f35-4b4f-b1d3-82500203e58b)
+![A selected home icon using a filled icon and active indicator and a unselected home icon using an outlined icon.](../../_assets/lworh5ui-7-8c53ca57eabb9250d5db.png)
 
 When selected, the icon fills, darkens in light theme (or lightens in dark theme), and is backed by an active indicator shape
 
@@ -98,12 +98,12 @@ If the UI text is correctly linked, assistive tech (such as a screenreader) will
 
 For Android Views (MDC-Android), a more descriptive accessibility label is not available to be set and the role is not announced.
 
-![A navigation drawer item’s label text and accessibility label both read “photos.” The role is “tab.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flworho52-8.png?alt=media&token=7fb90305-fda9-43bf-a909-b1d9f9e64d05)
+![A navigation drawer item’s label text and accessibility label both read “photos.” The role is “tab.”](../../_assets/lworho52-8-658fe6af9fab05365fbc.png)
 
 A navigation drawer’s accessibility label can incorporate its adjacent UI text
 
 When the visible UI text is ambiguous, accessibility labels need to be more descriptive. For example, a navigation destination visibly labeled **Recents** would benefit from additional information in its accessibility label to clarify the destination’s intent.
 
-![A navigation drawer item’s label text is “recents”, the accessibility label is “recent images.” The role is “tab.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwori08q-9.png?alt=media&token=816c8f24-84d7-44bd-8578-eaf00de09d6d)
+![A navigation drawer item’s label text is “recents”, the accessibility label is “recent images.” The role is “tab.”](../../_assets/lwori08q-9-2fb0d6c9f674b8ab4a71.png)
 
 While the visible label text reads **Recents,** the accessibility label for this destination clarifies its function: **Recent images**

@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Dividers are thin lines that group content in lists or other containers
 
-![Inbox app using full-width dividers to separate messages.](https://lh3.googleusercontent.com/Ocsunun7K_5J7rsyAVoml4Fe1sIK0wlHa_SkLJ9wy0hcw1BaPbhvAuL1bR01kH-CmpcwnkXQvcwvNJVS-XCElkMz85j1Ov25pxAzRykVBviG=w40)![Inbox app using full-width dividers to separate messages.](https://lh3.googleusercontent.com/Ocsunun7K_5J7rsyAVoml4Fe1sIK0wlHa_SkLJ9wy0hcw1BaPbhvAuL1bR01kH-CmpcwnkXQvcwvNJVS-XCElkMz85j1Ov25pxAzRykVBviG=s0)
+![Inbox app using full-width dividers to separate messages.](../../_assets/Ocsunun7K_5J7rsyAVoml4Fe1sIK0wlHa_SkLJ9wy0hcw1BaPbhvAuL1bR01kH-CmpcwnkXQvcwvNJVS-a501cb0d9c03bd931fd5.png)![Inbox app using full-width dividers to separate messages.](../../_assets/Ocsunun7K_5J7rsyAVoml4Fe1sIK0wlHa_SkLJ9wy0hcw1BaPbhvAuL1bR01kH-CmpcwnkXQvcwvNJVS-780ebdb1e617cb6cabe5.png)
 
 Full-width dividers
 
@@ -22,11 +22,11 @@ The divider can be used in two ways: 
 
 2.  Inset 
 
-![Inbox app using full-width dividers to separate messages.](https://lh3.googleusercontent.com/WDF7BBHGj8yQ1azq5jKExXR0QzYBWIOu6yObWLR6w-aLYAjQLT7WWi3da0oMmSl5Nsc2UxhiE8YvMUJWJ8Ke0SmpzOXbQrVsjNwA5H_wolf0=w40)![Inbox app using full-width dividers to separate messages.](https://lh3.googleusercontent.com/WDF7BBHGj8yQ1azq5jKExXR0QzYBWIOu6yObWLR6w-aLYAjQLT7WWi3da0oMmSl5Nsc2UxhiE8YvMUJWJ8Ke0SmpzOXbQrVsjNwA5H_wolf0=s0)
+![Inbox app using full-width dividers to separate messages.](../../_assets/WDF7BBHGj8yQ1azq5jKExXR0QzYBWIOu6yObWLR6w-aLYAjQLT7WWi3da0oMmSl5Nsc2UxhiE8YvMUJW-61f4b41c9c59005db27b.png)![Inbox app using full-width dividers to separate messages.](../../_assets/WDF7BBHGj8yQ1azq5jKExXR0QzYBWIOu6yObWLR6w-aLYAjQLT7WWi3da0oMmSl5Nsc2UxhiE8YvMUJW-f7e5a9be4c9e0d5008d0.png)
 
 Full-width divider
 
-![Music app using inset dividers to separate songs in a playlist.](https://lh3.googleusercontent.com/FgHeBjA2pgAJv-fZVU1JhTuAme8am-qHRLp7yzskrVdd9FsFxrwNBh8Qix8daXPUoszK8MDaLd1vZNub_ZijOJjvLRdTIe856ts-LGKDz9nmlg=w40)![Music app using inset dividers to separate songs in a playlist.](https://lh3.googleusercontent.com/FgHeBjA2pgAJv-fZVU1JhTuAme8am-qHRLp7yzskrVdd9FsFxrwNBh8Qix8daXPUoszK8MDaLd1vZNub_ZijOJjvLRdTIe856ts-LGKDz9nmlg=s0)
+![Music app using inset dividers to separate songs in a playlist.](../../_assets/FgHeBjA2pgAJv-fZVU1JhTuAme8am-qHRLp7yzskrVdd9FsFxrwNBh8Qix8daXPUoszK8MDaLd1vZNub-340953c047ee5f927fd8.png)![Music app using inset dividers to separate songs in a playlist.](../../_assets/FgHeBjA2pgAJv-fZVU1JhTuAme8am-qHRLp7yzskrVdd9FsFxrwNBh8Qix8daXPUoszK8MDaLd1vZNub-a40ed7d9e8551575e389.png)
 
 Inset divider
 
@@ -34,7 +34,7 @@ Inset divider
 
 A divider is a simple line.
 
-![Illustration of a divider.](https://lh3.googleusercontent.com/PWseJ13-mt9cW2123ZzekkPFAqLgB998Vjq2SYtjrWMPrU6GPe3cu5JHXhYm9FyBUe7FhVf5WtzVRXEwPvRWYDqBNZIwgnUzzXch9vlLOns1=w40)![Illustration of a divider.](https://lh3.googleusercontent.com/PWseJ13-mt9cW2123ZzekkPFAqLgB998Vjq2SYtjrWMPrU6GPe3cu5JHXhYm9FyBUe7FhVf5WtzVRXEwPvRWYDqBNZIwgnUzzXch9vlLOns1=s0)
+![Illustration of a divider.](../../_assets/PWseJ13-mt9cW2123ZzekkPFAqLgB998Vjq2SYtjrWMPrU6GPe3cu5JHXhYm9FyBUe7FhVf5WtzVRXEw-021c8c83d2276f1fb700.png)![Illustration of a divider.](../../_assets/PWseJ13-mt9cW2123ZzekkPFAqLgB998Vjq2SYtjrWMPrU6GPe3cu5JHXhYm9FyBUe7FhVf5WtzVRXEw-1ea30709c7ce06160aca.png)
 
 1.  Divider
 
@@ -46,17 +46,17 @@ Full-width dividers can also separate interactive areas from non-interactive are
 
 They are used to group visual elements together, and indicate when elements are related to each other from an interaction perspective. 
 
-![Inbox messages visually separated by full-width dividers for improved readability.](https://lh3.googleusercontent.com/_YTqmkqyO4zUBu2JzRnIRTQKqR-G3eVpUcSkIgZoEeAdrvF6IhcFv7zEkr_oheP2gc4IJLDWHpqZlMHQbknQHIHSiaf5oBdJmr0vjtr1bvzK=w40)![Inbox messages visually separated by full-width dividers for improved readability.](https://lh3.googleusercontent.com/_YTqmkqyO4zUBu2JzRnIRTQKqR-G3eVpUcSkIgZoEeAdrvF6IhcFv7zEkr_oheP2gc4IJLDWHpqZlMHQbknQHIHSiaf5oBdJmr0vjtr1bvzK=s0)
+![Inbox messages visually separated by full-width dividers for improved readability.](../../_assets/YTqmkqyO4zUBu2JzRnIRTQKqR-G3eVpUcSkIgZoEeAdrvF6IhcFv7zEkr_oheP2gc4IJLDWHpqZlMHQb-0d4eccd581d63fdc1c12.png)![Inbox messages visually separated by full-width dividers for improved readability.](../../_assets/YTqmkqyO4zUBu2JzRnIRTQKqR-G3eVpUcSkIgZoEeAdrvF6IhcFv7zEkr_oheP2gc4IJLDWHpqZlMHQb-80a7c44e8e33e84be389.png)
 
 Full-width dividers to indicate separation of content
 
-![Non-interactive information on a card and a clickable read more link separated by a full-width divider. ](https://lh3.googleusercontent.com/8qy1TKw_O4CDgg-I21yl5m3LqA-zovoSJRXPBmNZrpjKwJOndAzvtwYQ6Ygcv8r1ZgKvNOZ1LyCOhhrFsyOEB9_sG2N9RvbsJxLI9kpijq_U=w40)![Non-interactive information on a card and a clickable read more link separated by a full-width divider. ](https://lh3.googleusercontent.com/8qy1TKw_O4CDgg-I21yl5m3LqA-zovoSJRXPBmNZrpjKwJOndAzvtwYQ6Ygcv8r1ZgKvNOZ1LyCOhhrFsyOEB9_sG2N9RvbsJxLI9kpijq_U=s0)
+![Non-interactive information on a card and a clickable read more link separated by a full-width divider. ](../../_assets/8qy1TKw_O4CDgg-I21yl5m3LqA-zovoSJRXPBmNZrpjKwJOndAzvtwYQ6Ygcv8r1ZgKvNOZ1LyCOhhrF-2e9aa68b72799b340bf7.png)![Non-interactive information on a card and a clickable read more link separated by a full-width divider. ](../../_assets/8qy1TKw_O4CDgg-I21yl5m3LqA-zovoSJRXPBmNZrpjKwJOndAzvtwYQ6Ygcv8r1ZgKvNOZ1LyCOhhrF-895597e5fee60543d544.png)
 
 check Do
 
 Use full-width divider lines to separate interactive and non-interactive areas of a container such as a card
 
-![Full-width dividers used after every piece of content on a page.](https://lh3.googleusercontent.com/73z9FMjAg3kPm-IYbmoPDJ6fOmuspGFNCtmQEWgt8JLmF5oT4bjAP-A5Tcj4MVQ7ELxoXajWECc4pdB2jjIia12AzJPS-4MMIa60IPmJdeg=w40)![Full-width dividers used after every piece of content on a page.](https://lh3.googleusercontent.com/73z9FMjAg3kPm-IYbmoPDJ6fOmuspGFNCtmQEWgt8JLmF5oT4bjAP-A5Tcj4MVQ7ELxoXajWECc4pdB2jjIia12AzJPS-4MMIa60IPmJdeg=s0)
+![Full-width dividers used after every piece of content on a page.](../../_assets/73z9FMjAg3kPm-IYbmoPDJ6fOmuspGFNCtmQEWgt8JLmF5oT4bjAP-A5Tcj4MVQ7ELxoXajWECc4pdB2-449d34fc5092d2146c78.png)![Full-width dividers used after every piece of content on a page.](../../_assets/73z9FMjAg3kPm-IYbmoPDJ6fOmuspGFNCtmQEWgt8JLmF5oT4bjAP-A5Tcj4MVQ7ELxoXajWECc4pdB2-cb8db71b639025a27221.png)
 
 exclamation Caution Use full-width dividers sparingly. Too many divider lines will make an interface look cluttered.
 
@@ -66,15 +66,15 @@ Use inset dividers to separate related content within a section.
 
 Inset dividers are equally indented from both sides of the screen by default.
 
-![2 different content sections separated by an inset divider.  ](https://lh3.googleusercontent.com/uAlit0uWcMbAwUFNbD7Y8crsaxcYSRvlS-I_AR1iGqbOTa3nE8mVfIb0BHugHnsDP1tYEe6YClZbzNovc5GN9HnvQkeWlcJHfbr-m0xE8Llq=w40)![2 different content sections separated by an inset divider.  ](https://lh3.googleusercontent.com/uAlit0uWcMbAwUFNbD7Y8crsaxcYSRvlS-I_AR1iGqbOTa3nE8mVfIb0BHugHnsDP1tYEe6YClZbzNovc5GN9HnvQkeWlcJHfbr-m0xE8Llq=s0)
+![2 different content sections separated by an inset divider.  ](../../_assets/uAlit0uWcMbAwUFNbD7Y8crsaxcYSRvlS-I_AR1iGqbOTa3nE8mVfIb0BHugHnsDP1tYEe6YClZbzNov-9507dafd4b25f4ee2f9b.png)![2 different content sections separated by an inset divider.  ](../../_assets/uAlit0uWcMbAwUFNbD7Y8crsaxcYSRvlS-I_AR1iGqbOTa3nE8mVfIb0BHugHnsDP1tYEe6YClZbzNov-5a4e45ca9969a52b9637.png)
 
 Inset dividers separate related content, such as emails in a list. They should be used with anchoring elements such as icons or avatars, and align with the leading edge of the screen.
 
-![3 types of related content separated by inset dividers on a mobile screen.](https://lh3.googleusercontent.com/yRjwwhcfrgoa4HRyAnyy-06NN-uC6jQ232awWcwLrDqhqan4dM72d3fdBibiEqqPuQ0Y57iEPJjpsPd3wedgBdeqmxPzhB0KYgW8gaRBrGF9fQ=w40)
+![3 types of related content separated by inset dividers on a mobile screen.](../../_assets/yRjwwhcfrgoa4HRyAnyy-06NN-uC6jQ232awWcwLrDqhqan4dM72d3fdBibiEqqPuQ0Y57iEPJjpsPd3-2d9613f429c17be0466e.png)
 
 Inset dividers in a list of related items
 
-![Inset divider separating body text and selection chips.](https://lh3.googleusercontent.com/4XBmZ8OFNWayERiVW6Fdq8UFj6GsBuDAedl24YkYLxpx4fK3tpJ_nQbAmqkGmZZMRila9X3oBJ724e6wILbESRs6vscG6ssM7Xg6-a7l8N2isw=w40)
+![Inset divider separating body text and selection chips.](../../_assets/4XBmZ8OFNWayERiVW6Fdq8UFj6GsBuDAedl24YkYLxpx4fK3tpJ_nQbAmqkGmZZMRila9X3oBJ724e6w-7e8fda2eae84e9c0d28d.png)
 
 Inset dividers can be placed in the middle of a layout to separate elements such as body text from selection chips
 
@@ -86,7 +86,7 @@ If dividers are used both ways in a UI, they must reinforce the hierarchy of inf
 
 2.  To separate nested content items, use inset dividers
 
-![Dividers used to show content hierarchy: full-width for sections, inset for related items.](https://lh3.googleusercontent.com/egzEzqVWWnBhzhHhro6zbSyUckQRrRFnJps3EwXXFbsN91CgCSkg9ZeDIccnwo_Btq7YJxUgt0UZy_SxBrMqJt9QuZAjL-tPtuBhU1naBcozDw=w40)
+![Dividers used to show content hierarchy: full-width for sections, inset for related items.](../../_assets/egzEzqVWWnBhzhHhro6zbSyUckQRrRFnJps3EwXXFbsN91CgCSkg9ZeDIccnwo_Btq7YJxUgt0UZy_Sx-95d68d068088683c7293.png)
 
 check Do
 
@@ -94,7 +94,7 @@ Use a combination of inset and full-width dividers to reflect the hierarchy of i
 
 List items with repetitive formats may not require an inset divider, in which using only the margin between items is acceptable.
 
-![List with repetitive item formats. Visual separation achieved through margins only.](https://lh3.googleusercontent.com/NSGvcJJazPdtNGNH-K6P-F91kufNOLf9qtNdySyBRGvYt1edvTYfXpo8Ig6-lOGNj4mtEGwJAp6rq2qvO8sR2hWt3wir_oKoIUAjNF5fj8s=w40)
+![List with repetitive item formats. Visual separation achieved through margins only.](../../_assets/NSGvcJJazPdtNGNH-K6P-F91kufNOLf9qtNdySyBRGvYt1edvTYfXpo8Ig6-lOGNj4mtEGwJAp6rq2qv-7b96c783e066c3d79530.png)
 
 check Do
 
@@ -104,6 +104,6 @@ Content may not require a divider line
 
 A vertical divider can be used to arrange content on a larger screen, such as separating paragraph text from video or imagery media.
 
-![Image and text side-by-side, separated by a vertical divider on a large screen.](https://lh3.googleusercontent.com/INRwkh2QYMmX3bMlDSOkNkd4VkmiTdrtfSTugzZRjpXg8AJmwBetxY8X0J7R6tO4BDjrbfccqoIyk1HzoV1IQVUmWiClLOTi0XH_hPRTzTQpnA=w40)
+![Image and text side-by-side, separated by a vertical divider on a large screen.](../../_assets/INRwkh2QYMmX3bMlDSOkNkd4VkmiTdrtfSTugzZRjpXg8AJmwBetxY8X0J7R6tO4BDjrbfccqoIyk1Hz-f53c1585f6b7540dd544.png)
 
 Vertical divider in a large screen context

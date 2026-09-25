@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Navigation bars let people switch between UI views on smaller devices
 
-![A nav bar with vertical items in a compact window, and horizontal items in a medium window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqgvk7-01.png?alt=media&token=48551963-9645-437c-acea-853e04e8cdaf)
+![A nav bar with vertical items in a compact window, and horizontal items in a medium window.](../../_assets/malqgvk7-01-b3d9706bcad68ab2edb3.png)
 
 Navigation bars adapt to different breakpoints
 
@@ -20,7 +20,7 @@ Each destination is represented by an icon and label text. One navigation destin
 
 When a navigation bar icon is tapped or focused, people are taken to the navigation destination associated with that icon.
 
-![A nav bar for a music app with 4 destinations: Home, Browse, Radio, Library, It’s in a compact window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalnqdza-02.png?alt=media&token=a7e4f1a8-0547-42b2-81d1-c4346b1915db)
+![A nav bar for a music app with 4 destinations: Home, Browse, Radio, Library, It’s in a compact window.](../../_assets/malnqdza-02-fa67ad8d2330398540bd.png)
 
 Navigation bars can have three to five destinations
 
@@ -31,7 +31,7 @@ Navigation bars should be used for:
 
 Navigation bars shouldn’t be used for accessing single tasks, such as viewing one email.
 
-![A nav bar for a music app with 4 destinations: Home, Browse, Radio, Library. It’s in a medium window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqhln7-03.png?alt=media&token=ec2bca60-87ec-4f27-a235-d872f5e6792d)
+![A nav bar for a music app with 4 destinations: Home, Browse, Radio, Library. It’s in a medium window.](../../_assets/malqhln7-03-78a688bb07888042c3fc.png)
 
 On mobile or tablet, navigation bars should be used for top-level destinations
 
@@ -41,7 +41,7 @@ The navigation items can be **vertical** or **horizontal**.
 
 -   Use horizontal items in medium windows Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) , like tablets
 
-![A nav bar with vertical items in a compact window, and horizontal items in a medium window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqhs7x-04.png?alt=media&token=d17a01b3-1f02-4654-99d8-9a0de7507ff9)
+![A nav bar with vertical items in a compact window, and horizontal items in a medium window.](../../_assets/malqhs7x-04-6bd42b1b3a1cd77a1f6f.png)
 
 Vertical navigation items work best in compact windows. Horizontal items work best in medium windows.
 
@@ -49,29 +49,29 @@ For products with more than five navigation items, don’t use a navigation bar;
 
 Instead, consider using tabs Tabs organize content across different screens and views. [More on tabs](/m3/pages/tabs/overview) to organize similar content within a page, or hide the navigation behind a menu icon using a modal expanded navigation rail Navigation rails let people switch between UI views on mid-sized devices. [More on navigation rails](/m3/pages/navigation-rail/overview) .
 
-![A nav bar with 7 items in a compact window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqi614-05-don't.png?alt=media&token=ba0b0a11-eec7-41a4-a49f-7209526b9819)
+![A nav bar with 7 items in a compact window.](../../_assets/malqi614-05-don-t-613b65676e97ada408fc.png)
 
 close Don’t
 
 Avoid putting more than five navigation items in a navigation bar
 
-![A nav bar with no labels for each page item.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqimzs-06-dont.png?alt=media&token=cab6328f-c6d8-4de6-9261-050062dd3288)
+![A nav bar with no labels for each page item.](../../_assets/malqimzs-06-dont-23fe5901e34e3185bc92.png)
 
 close Don’t
 
 Don’t remove the labels from navigation items
 
-![A nav bar with 2 page items.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqir51-07-dont.png?alt=media&token=91efa23a-c76b-486b-a510-b1b862cda076)
+![A nav bar with 2 page items.](../../_assets/malqir51-07-dont-5d39bcce70d50d91d97f.png)
 
 close Don’t
 
 Don’t use a navigation bar for fewer than three destinations. Instead, use tabs.
 
-![A nav bar is on the Library page of a music app. Tabs at the top of the page have secondary navigation for playlists, artists, albums, and songs.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fp4omq-08.png?alt=media&token=59669575-9a0c-4bf1-b073-d85c2f53f459)
+![A nav bar is on the Library page of a music app. Tabs at the top of the page have secondary navigation for playlists, artists, albums, and songs.](../../_assets/m0fp4omq-08-29f3d9d7d20b811afab6.png)
 
 Use navigation for distinct pages and tabs for related content within a page
 
-![Nav bar using horizontal items in a compact window. The items are too wide and flow off screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fp4ti0-09.png?alt=media&token=375b3742-081d-484b-8066-f07b4a9af991)
+![Nav bar using horizontal items in a compact window. The items are too wide and flow off screen.](../../_assets/m0fp4ti0-09-658e92a57d0fb3d8be7a.png)
 
 close Don’t
 
@@ -79,7 +79,7 @@ Navigation bar destinations have fixed positions. Don’t scroll them or modify 
 
 ## Anatomy
 
-![6 elements of the nav bar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm3t918of-10.png?alt=media&token=653b8745-255a-4063-969b-7b8915debdbd)
+![6 elements of the nav bar.](../../_assets/m3t918of-10-704c5e4362ecb47060e9.png)
 
 1.  Container
 
@@ -99,7 +99,7 @@ The container should always be placed at the bottom of the product and span the 
 
 The container has a color fill to provide separation from other content.
 
-![The nav bar at the bottom of a medium window has a color fill to differentiate from the background.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm3t91cku-11.png?alt=media&token=8b8afb44-91c4-452a-8f17-d8a1186e125c)
+![The nav bar at the bottom of a medium window has a color fill to differentiate from the background.](../../_assets/m3t91cku-11-d741c9eff8c4fb0014cb.png)
 
 The navigation bar container holds all elements
 
@@ -111,7 +111,7 @@ Vertical items are best in compact windows Window widths smaller than 600dp, suc
 
 Horizontal items are centered in the nav bar with outer margins.
 
-![The nav bar in a medium window with padding on each side.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm3t91mur-12.png?alt=media&token=c2b0adef-8f59-4130-9ec1-f9cf4eac9507)
+![The nav bar in a medium window with padding on each side.](../../_assets/m3t91mur-12-cc32c3efce132055b3f4.png)
 
 The navigation bar is divided into equal-width segments with padding from the window edge
 
@@ -121,13 +121,13 @@ Navigation rail items must use icons that symbolize the content of their page. B
 
 Use a filled icon for the active destination and outlined icons for inactive destinations. If an icon doesn’t have a filled version, apply **semibold** weight to the icon instead.
 
-![An active nav item with a filled icon compared to inactive items with outlined icons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fp9y48-13.png?alt=media&token=0fa12a4b-312c-4d17-b9e5-e0c2e9150e41)
+![An active nav item with a filled icon compared to inactive items with outlined icons.](../../_assets/m0fp9y48-13-1cfce4e5df2f4c71a807.png)
 
 check Do
 
 Use filled icons when the navigation item is active
 
-![An active nav item with a semibold icon compared to inactive items with outlined icons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fpa2te-14.png?alt=media&token=39201138-a399-487f-a860-0b0e84c6c24f)
+![An active nav item with a semibold icon compared to inactive items with outlined icons.](../../_assets/m0fpa2te-14-6065e83bb4ac90845478.png)
 
 exclamation Caution
 
@@ -135,7 +135,7 @@ If a filled version of an icon is unavailable, the icon’s weight must increase
 
 Active and inactive icons must have a minimum 3:1 contrast ratio with the container.
 
-![4 nav items that are each different colors with low contrast with the background.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqnpkt-15-dont.png?alt=media&token=6443ffb5-c5a9-4602-8782-ff4fc4da1b08)
+![4 nav items that are each different colors with low contrast with the background.](../../_assets/malqnpkt-15-dont-cdae06ee62c6fc35739d.png)
 
 close Don’t
 
@@ -145,13 +145,13 @@ Don’t use multiple or low-contrast colors in a navigation bar, as they make it
 
 The active indicator shows which page from the nav bar is currently being displayed.
 
-![The current page in a nav bar has an active indicator.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqo0n5-16-do.png?alt=media&token=7ffc8212-80fc-4cea-a90a-8ee8b92ece0f)
+![The current page in a nav bar has an active indicator.](../../_assets/malqo0n5-16-do-85828e5d3d42c46d3a97.png)
 
 check Do
 
 Use the active indicator only for the active destination
 
-![All items in a nav bar have active indicators.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqo7ag-17-dont.png?alt=media&token=00c41373-8bd6-4183-9508-a1d68b837502)
+![All items in a nav bar have active indicators.](../../_assets/malqo7ag-17-dont-5fda570a23749c2ec53a.png)
 
 close Don’t
 
@@ -163,23 +163,23 @@ The label text should be a short, meaningful description of each navigation dest
 
 All navigation items require a label text. It should be 1-2 words.
 
-![A nav bar on a music app with clearly labelled destinations: home, browse, radio, library.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fpamvs-18.png?alt=media&token=667c0164-7b71-401d-ba92-953714bca290)
+![A nav bar on a music app with clearly labelled destinations: home, browse, radio, library.](../../_assets/m0fpamvs-18-fb0113753fc295aa69e0.png)
 
 Label text must be brief and clear
 
-![A nav bar with 1-word labels for each page.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqoweq-19-do.png?alt=media&token=8e54006a-8f5c-4eee-96a0-aa955c7fb01e)
+![A nav bar with 1-word labels for each page.](../../_assets/malqoweq-19-do-f6d5a48cd3a4aa5c2f30.png)
 
 check Do
 
 Use brief text labels to identify the purpose of a destination
 
-![A nav bar with “Music catalog” for a label. The label is truncated.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqp27c-20-dont.png?alt=media&token=f57db674-25f6-4a8d-b9e3-132ad85155fc)
+![A nav bar with “Music catalog” for a label. The label is truncated.](../../_assets/malqp27c-20-dont-44ea47a7161aa5675f23.png)
 
 close Don’t
 
 Don’t wrap or truncate text as it can make the label hard to understand
 
-![A nav bar with “Music catalog” for a label. The label is a smaller size to make the text fit.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqpu1t-21-dont.png?alt=media&token=4a585cd5-7a7f-4699-a7dd-54571b00f343)
+![A nav bar with “Music catalog” for a label. The label is a smaller size to make the text fit.](../../_assets/malqpu1t-21-dont-86c08c1ef7153a42ce14.png)
 
 close Don’t
 
@@ -191,11 +191,11 @@ Navigation bars can display badges in the upper right corners of the destination
 
 Badges can contain dynamic information, such as the number of new messages.
 
-![A nav bar with a destination called “Go” with a small badge and one called “Saved” with a large badge saying “3.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqqg5m-22.png?alt=media&token=728c13e1-b6bc-4a67-9ec3-e182a4c0d398)
+![A nav bar with a destination called “Go” with a small badge and one called “Saved” with a large badge saying “3.”](../../_assets/malqqg5m-22-08a113553ed0a39a178f.png)
 
 Use a small badge to indicate an update, and a large badge to show the amount of updates
 
-![Horizontal nav items with the badges in the same place of the icon as vertical nav items.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqqlk1-23.png?alt=media&token=97527e9f-b215-4af6-b927-729382d3227d)
+![Horizontal nav items with the badges in the same place of the icon as vertical nav items.](../../_assets/malqqlk1-23-a0075020735db028da61.png)
 
 Badges overlap the icon in both vertical and horizontal navigation items
 
@@ -203,13 +203,13 @@ Badges overlap the icon in both vertical and horizontal navigation items
 
 The floating action button (FAB) is placed above the navigation bar. Nav bars are always placed at the bottom of the window.
 
-![The FAB should be right-aligned above the navigation bar](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqqsyh-24-do.png?alt=media&token=154bc6fc-44ad-46fc-b059-f6be359445e4)
+![The FAB should be right-aligned above the navigation bar](../../_assets/malqqsyh-24-do-5effd0f2569444a19982.png)
 
 check Do
 
 The FAB should be right-aligned above the navigation bar
 
-![A mobile page with a FAB overlapping a nav bar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqqy0m-25-dont.png?alt=media&token=5c713542-e6bb-4362-abbb-ca8561433eff)
+![A mobile page with a FAB overlapping a nav bar.](../../_assets/malqqy0m-25-dont-9fe79d025fa0814937f4.png)
 
 close Don’t
 
@@ -237,13 +237,13 @@ Navigation bars are best suited for compact and medium breakpoints
 
 The navigation bar container spans 100% of the window width.
 
-![Navigation bar spanning the full width of a compact window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalo8a44-28.png?alt=media&token=96f0c6e3-5ab8-49ef-aa2c-ef38b892c091)
+![Navigation bar spanning the full width of a compact window.](../../_assets/malo8a44-28-06ebc4e3e3a9bd1cac49.png)
 
 Navigation bars use 100% of the screen width
 
 The navigation bar is used on smaller devices. It’s not intended for desktop.
 
-![Navigation bar spanning the full width of an expanded window size.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqsfoq-29.png?alt=media&token=ff8220a9-3d2a-4ce3-a888-5899124803ae)
+![Navigation bar spanning the full width of an expanded window size.](../../_assets/malqsfoq-29-1012c05d0d6688cd6313.png)
 
 close Don’t
 
@@ -255,7 +255,7 @@ In medium breakpoints, use horizontal nav items to better use available space.
 
 Horizontal nav items should remain centered with the same padding at each breakpoint.
 
-![Horizontal nav items have the same width in medium and expanded windows. Only the padding changes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fpt5k2-30.png?alt=media&token=e135a58a-8738-4d8d-bdad-fb1c25a7962f)
+![Horizontal nav items have the same width in medium and expanded windows. Only the padding changes.](../../_assets/m0fpt5k2-30-04c6f6665c77e8892494.png)
 
 A navigation bar in horizontal orientation keeps the same spacing between destinations
 

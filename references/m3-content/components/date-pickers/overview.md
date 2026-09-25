@@ -16,7 +16,7 @@ captured: 2026-09-14
 
 -   Follow common patterns, like a calendar view
 
-![3 variants of date pickers side-by-side. The docked date picker has an outlined text field above a calendar view. The modal date picker allows people to select a date from a calendar view. The modal date input lets someone type in a date.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5mxu7o-01.png?alt=media&token=14c0b956-fdb9-439e-a756-23f4628ecc57)
+![3 variants of date pickers side-by-side. The docked date picker has an outlined text field above a calendar view. The modal date picker allows people to select a date from a calendar view. The modal date input lets someone type in a date.](../../_assets/md5mxu7o-01-8f1d06b15e8c5703e015.png)
 
 1.  Docked date picker
 2.  Modal date picker
@@ -47,10 +47,10 @@ Close
 
 -   Variants: The three variants of date pickers have been renamed to not be device-dependent. The former desktop date picker is now known as the docked date picker Docked date pickers open from an onscreen input similar to a text field. They're often used within forms. [More on docked date picker](https://m3.material.io/m3/pages/date-pickers/guidelines#8d78696c-a756-4a4d-b7dd-846d866ba985) . The former mobile date picker and date input are now known as modal date picker Modal date pickers extend full-screen. They're often used for selecting a date range. [More on modal date picker](/m3/pages/date-pickers/overview) and modal date input Modal date inputs allow the manual entry of dates using the numbers on a keyboard. They're often used in compact layouts. [More on modal date input](/m3/pages/date-pickers/overview) to reinforce that the user must take an action.
 
-![Old version of a date picker with a white background and shadows.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fle4qmou9-1P-datepicker_whatsnew_1.png?alt=media&token=771d7d4e-4ed2-4492-915e-9b82218f4848)
+![Old version of a date picker with a white background and shadows.](../../_assets/le4qmou9-1P-datepicker_whatsnew_1-f5978056930c4aadd966.png)
 
 M2: Date pickers had a drop shadow and different color mappings
 
-![New version of date picker with a colorful background, rounded corners, and no shadows.](https://lh3.googleusercontent.com/HWA4owUgCVU0oIuTW-9x1wyLuHIA6m_aaks97Ih_BEz-wvMRKQqmb8-FsElnU5Jxck9-Hi-br9L52IDZBwYY22tVVJyY8NtOKnsOlqxB8gJdpQ=s0)
+![New version of date picker with a colorful background, rounded corners, and no shadows.](../../_assets/HWA4owUgCVU0oIuTW-9x1wyLuHIA6m_aaks97Ih_BEz-wvMRKQqmb8-FsElnU5Jxck9-Hi-br9L52IDZ-85fa4bf7f4f5a5530cf8.png)
 
 M3: Date pickers have larger typography, no shadow, and new color mappings compatible with dynamic color

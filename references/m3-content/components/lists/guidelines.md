@@ -6,7 +6,7 @@ captured: 2026-09-14
 
 # Lists
 
-![3 list items show different layout options, with varying sizes of elements in the leading slot.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewlynz-01.png?alt=media&token=a7cf803c-b9cd-4c57-a8ea-c8c359aeb52c)
+![3 list items show different layout options, with varying sizes of elements in the leading slot.](../../_assets/miewlynz-01-4a9930535305fe55dad1.png)
 
 Lists can include a range of layout combinations:
 
@@ -20,13 +20,13 @@ Lists are vertical groups of text, icons, images, and other elements, optimized 
 
 List items can contain multiple actions at once, like selection, icon buttons, overflow menus, and more.
 
-![3 list items with avatars using different expressive shapes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewcuoc-02.png?alt=media&token=d865febf-86d5-462f-8c66-4e6ebc4e5e5d)
+![3 list items with avatars using different expressive shapes.](../../_assets/miewcuoc-02-602a26f6ba553db558f3.png)
 
 A clear visual hierarchy makes lists easy to scan and read
 
 Use lists for communicating or selecting discrete items, such as choosing from a set of colors.
 
-![A list of colors with Periwinkle selected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewi9tz-03.png?alt=media&token=7bc2a849-966d-418b-ac1b-ffaf6113e05e)
+![A list of colors with Periwinkle selected.](../../_assets/miewi9tz-03-b0aa5a55a6b5592a8a46.png)
 
 Lists are an organized way to add imagery and supporting elements to selection. In this color selection example, the list contains color swatches, color names, and a checkbox action.
 
@@ -36,7 +36,7 @@ Place supporting visuals and primary text in the same position in each list item
 
 Don’t vary the position of elements within a list.
 
-![4 versions of the same list highlighting avatar and text alignment.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewmxat-04.png?alt=media&token=0bc12f22-822f-4dca-a55e-cf803c736160)
+![4 versions of the same list highlighting avatar and text alignment.](../../_assets/miewmxat-04-892d0ac2280d9857ada6.png)
 
 1.  Sample list
 2.  Content placement in a row
@@ -51,7 +51,7 @@ List items can adapt to different lengths of text:
 **Label text with supporting text
 **A list item can include supporting text below the label text. Both the label and supporting text can wrap or be truncated.
 
-![3 lists show items with label text only, label text with 1-line of supporting text, and label text with 2-lines of supporting text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewpdzm-05.png?alt=media&token=83cc77fe-12ec-4e3f-a81a-3ca656b25f1a)
+![3 lists show items with label text only, label text with 1-line of supporting text, and label text with 2-lines of supporting text.](../../_assets/miewpdzm-05-ba6ab990be9c9a7255fc.png)
 
 Three examples of list item sizes:
 
@@ -63,7 +63,7 @@ Three examples of list item sizes:
 
 ## Anatomy
 
-![List diagram with 10 elements.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewsyte-06.png?alt=media&token=cf5f9795-d6a3-4dbd-a44b-b2496d59a9ef)
+![List diagram with 10 elements.](../../_assets/miewsyte-06-85e13e8531d9366d39b2.png)
 
 Container and label text are required. All other elements are optional:
 
@@ -107,7 +107,7 @@ To ensure list items are scannable:
 
 [See adaptive guidance](/m3/pages/lists/guidelines#561cc637-aa43-4055-be1e-0716faeef7af)
 
-![A list item with a leading image, concise label text “Art events”, and 2 lines of truncated supporting text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiex0v5m-08.png?alt=media&token=1cb8a712-4266-4e50-a3df-fe0b9d04e5e8)
+![A list item with a leading image, concise label text “Art events”, and 2 lines of truncated supporting text.](../../_assets/miex0v5m-08-7b7ea5582d376d724140.png)
 
 Limit supporting text to one to three lines
 
@@ -120,7 +120,7 @@ A leading icon should provide a quick visual cue that relates to the item's labe
 A trailing icon is often used to communicate status or indicate an action, like **Show more**.
 
 ![Leading icons should relate to the label text
-A list of items with leading and trailing icons on a mobile device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiexc5t2-9.png?alt=media&token=a485fa4a-9174-4c45-812c-23f19092eff9)
+A list of items with leading and trailing icons on a mobile device.](../../_assets/miexc5t2-9-356524314c6aa3446d1b.png)
 
 1.  Leading icons should relate to the label text
 
@@ -132,13 +132,13 @@ List items can contain a leading avatar, image, or video. Anchor visuals to the 
 
 Leading video thumbnails can open a video player or even play within the list.
 
-![A list of plants with images at leading edge.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiexhs7r-10.png?alt=media&token=bf90846b-653f-4e89-9cbe-5b429e162c37)
+![A list of plants with images at leading edge.](../../_assets/miexhs7r-10-0936cc1efa93d3487f85.png)
 
 check Do
 
 Place supporting visuals, like thumbnails, at the leading edge of a row to improve scannability
 
-![A list of plants with an image in the middle of the row makes it difficult to align the name and price.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiexip9k-11.png?alt=media&token=c678f226-2089-493f-855d-5fc175e900bb)
+![A list of plants with an image in the middle of the row makes it difficult to align the name and price.](../../_assets/miexip9k-11-73dfff7599d9ec700554.png)
 
 exclamation Caution
 
@@ -150,7 +150,7 @@ List items can include images in circular or expressive shapes to represent a pe
 
 Use square or rectangular images for other content, such as products or videos.
 
-![List of contacts with avatars with a circular, expressive crop to indicate a person.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiexkoay-12.png?alt=media&token=5e57234e-4437-4411-857f-dc0694d0f757)
+![List of contacts with avatars with a circular, expressive crop to indicate a person.](../../_assets/miexkoay-12-65ffbd345c9dbcb4c520.png)
 
 Use an expressive, circular avatar to represent a person or entity
 
@@ -158,7 +158,7 @@ Use an expressive, circular avatar to represent a person or entity
 
 Use spacing to draw attention to the most important aspect of the list item, usually the primary action area or key content.
 
-![A folder icon in the primary action area takes up the full height of the list item.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiexnuvs-13.png?alt=media&token=a295b2a5-4ec4-435e-b6ef-8507e4c2a387)
+![A folder icon in the primary action area takes up the full height of the list item.](../../_assets/miexnuvs-13-6a92f0772e2ada657534.png)
 
 The primary action takes up more space:
 
@@ -166,7 +166,7 @@ The primary action takes up more space:
 
 2\. Secondary action area
 
-![A list item has an avatar in the more distinguishing content position on the left, and “15 min” trailing text on the right.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiexoaw7-14.png?alt=media&token=a19485e2-bb2e-4664-ba06-e59a0e1e969e)
+![A list item has an avatar in the more distinguishing content position on the left, and “15 min” trailing text on the right.](../../_assets/miexoaw7-14-67d5ecf980a23050c2e5.png)
 
 Align content by importance:
 
@@ -178,7 +178,7 @@ Align content by importance:
 
 Trailing text can provide additional meta-information about a list item, such as a price, count, or other details.
 
-![The date “Nov 17” as trailing text in a concert ticket list item.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiextt91-15.png?alt=media&token=31a353c9-dda5-4e57-9840-f0ad4606b291)
+![The date “Nov 17” as trailing text in a concert ticket list item.](../../_assets/miextt91-15-d925b77e45294d94bfbc.png)
 
 Use trailing text for supplemental details, like a price, count, or date
 
@@ -192,7 +192,7 @@ Selection Selection lets users choose specific items to act on. [More on selecti
 
 -   Use radio buttons Radio buttons let people select one option from a set of options. [More on radio buttons](/m3/pages/radio-button/overview) to select a single item
 
-![3 lists with different selection controls.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiexzfsy-16.png?alt=media&token=18466d3e-1b66-4ddf-b1d6-ff1a9fe21e12)
+![3 lists with different selection controls.](../../_assets/miexzfsy-16-6697e28ef7aa00ca7837.png)
 
 List items with: 
 
@@ -210,13 +210,13 @@ Gaps or dividers can separate lists into items and groups:
 
 -   Limit **dividers** to uncontained or complex lists, only when a stronger visual separation is necessary.
 
-![Filled list items in an inbox separated by gaps.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiezuscb-17_do.png?alt=media&token=84c1ee7c-a7e6-441c-ba3c-19442e4011f8)
+![Filled list items in an inbox separated by gaps.](../../_assets/miezuscb-17_do-2001aa9206fdef1d369d.png)
 
 check Do
 
 Use **segmented gaps** and filled list items to define a list group
 
-![An uncontained list with city names separated by dividers.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiezvi6d-18caution.png?alt=media&token=0398b3a8-3d8b-4e62-999b-0859fffaadcc)
+![An uncontained list with city names separated by dividers.](../../_assets/miezvi6d-18caution-36cf999ae118c1df15be.png)
 
 exclamation Caution
 
@@ -228,7 +228,7 @@ Limit the use of **dividers** to uncontained lists
 
 In fluid layouts Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/layout-overview/overview) , avoid excessively long lines of text when expanding containers and text-heavy components. This often means changing margins Margins are the spaces between the edge of a nested element and its parent element, such as the space between a button's label text and the edge of its container. [More on margins](/m3/pages/spacing/overview#753cb18a-b6ba-4727-87b3-cb1b7b497a9a) and typography properties as the container scales.
 
-![4 list items with 2-line supporting text have adjusted margins to preserve readability.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiezxs4c-19_do.png?alt=media&token=2e5e3f61-38e3-4ca9-8506-7a04a16c1d4d)
+![4 list items with 2-line supporting text have adjusted margins to preserve readability.](../../_assets/miezxs4c-19_do-7b085a909f1bd1d3a362.png)
 
 check Do
 
@@ -236,7 +236,7 @@ Adjust margins to create a more comfortable line length for reading
 
 Adapt the width of the list container based on a line’s length, or by switching to a multi-column layout.
 
-![List items in a 2-column layout, with each item showing text preview.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiezzrzc-20_do.png?alt=media&token=6c164d25-b039-4125-98bc-961691f9c1e7)
+![List items in a 2-column layout, with each item showing text preview.](../../_assets/miezzrzc-20_do-b716cb5649b27847a91f.png)
 
 check Do
 
@@ -244,7 +244,7 @@ A multi-column layout can help break up content when needed
 
 The ideal line length for text is typically between 40 to 60 characters, but large-screen devices can accommodate up to 120 characters per line. If a line of text is close to 120 characters in length, consider increasing the line height to improve readability .
 
-![List items with elongated line length.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif01yxf-21_dont.png?alt=media&token=59608a8d-5309-4a91-9aca-ce653489c67f)
+![List items with elongated line length.](../../_assets/mif01yxf-21_dont-116dbc701674f517086c.png)
 
 close Don’t
 
@@ -282,7 +282,7 @@ Medium Window widths from 600dp to 839dp, such as a tablet or foldable in portra
 
 For example, a list and the detailed information can appear side-by-side.
 
-![A larger screen displays list items and a detailed expansion of one item on the same screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0jzwl-26.png?alt=media&token=9614eb09-3217-4c62-82a3-958065860772)
+![A larger screen displays list items and a detailed expansion of one item on the same screen.](../../_assets/mif0jzwl-26-b3f9c667ac79bde1a1e5.png)
 
 On larger screens, a list-detail view can be more appropriate
 
@@ -314,7 +314,7 @@ Single-select list items:
 
 -   Shouldn’t use checkboxes
 
-![A 3-item list with radio buttons, with 1 item selected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmielqxgm-29.png?alt=media&token=01482923-26aa-4237-9ed7-8bf0c4cb52ac)
+![A 3-item list with radio buttons, with 1 item selected.](../../_assets/mielqxgm-29-45cf85fd061699c9b169.png)
 
 Use radio buttons to allow a single selection in a list
 
@@ -330,7 +330,7 @@ Multi-select list items:
 
 -   Shouldn’t use radio buttons
 
-![A 3-item list with checkboxes and 2 items selected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmielw5u4-30.png?alt=media&token=452063d1-7f87-49ce-9bed-07fb0459add1)
+![A 3-item list with checkboxes and 2 items selected.](../../_assets/mielw5u4-30-6d0f1297c6e446d2d5e3.png)
 
 Use checkboxes or switches for multi-select lists
 
@@ -344,7 +344,7 @@ Single-action list items:
 
 -   Can’t be toggled into a persistent selected state
 
-![A 3-item list where each item is a single tappable area.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmielzpxu-31.png?alt=media&token=1b8831f3-1559-4969-ab1e-485277328d1c)
+![A 3-item list where each item is a single tappable area.](../../_assets/mielzpxu-31-19c007732aeb864cddc7.png)
 
 Use a single-action list for a primary action, like navigation
 
@@ -358,7 +358,7 @@ Place supplementary actions, like a bookmark or menu, in the trailing position.�
 
 [More on multi-action accessibility](/m3/pages/lists/accessibility#b69b89a9-7ca0-4249-b25b-2d0c85a41dc0)
 
-![A 3-item song list where each item has 2 trailing icons: a bookmark and overflow menu.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiem2107-32.png?alt=media&token=0f04fe0b-b4d8-44cc-8907-2cbd0369be87)
+![A 3-item song list where each item has 2 trailing icons: a bookmark and overflow menu.](../../_assets/miem2107-32-153627569f49ab3ba54a.png)
 
 Place supplementary actions in the trailing position of a list item
 
@@ -366,7 +366,7 @@ Place supplementary actions in the trailing position of a list item
 
 Non-interactive lists can organize information in a scannable way. They don’t perform any actions and can’t be selected.
 
-![A 3-item non-interactive list showing a historic timeline of space travel.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiem457u-33.png?alt=media&token=66743795-977c-4cb7-b968-2a513a62d024)
+![A 3-item non-interactive list showing a historic timeline of space travel.](../../_assets/miem457u-33-ba9828610a9164494306.png)
 
 Use non-interactive lists to make information easy to scan
 
@@ -390,6 +390,6 @@ Swipeable list items should include alternative ways to access hidden actions, s
 
 [More on swipe accessibility](/m3/pages/lists/accessibility#32f5115c-b15e-4af6-8c1a-4807bee2bf7a)
 
-![List of recipes with “Fresh baked breads” swiped to reveal a archive icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmshq8qm6-35-key03.png?alt=media&token=1e4721af-a5b3-4288-805d-a8970578e128)
+![List of recipes with “Fresh baked breads” swiped to reveal a archive icon.](../../_assets/mshq8qm6-35-key03-3a2b78f6b6ed92a21bda.png)
 
 When a list item is swiped, it can be archived or reveal more actions

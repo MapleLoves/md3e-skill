@@ -38,7 +38,7 @@ On mobile, an app can be shown in several window modes:
 
 -   Bubbles: Floating windows that let people multitask without leaving their current context
 
-![A mobile app in full screen mode.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3w1k0w-01.png?alt=media&token=9c6f0a31-d9d0-4bb1-8c6d-d4e17582281f)
+![A mobile app in full screen mode.](../../../_assets/mp3w1k0w-01-8a749cfc127bf48fcc02.png)
 
 Mobile layouts default to a full-screen window
 
@@ -50,7 +50,7 @@ People can use split screens, floating windows, and free-form windows for multi-
 
 A tablet can convert to a desktop experience when a physical keyboard and mouse are connected. Similarly, Android mobile devices can transition into a desktop-like environment when connected to an external monitor.
 
-![2 desktop layouts adapted to large and medium breakpoints.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3w5izv-02.png?alt=media&token=49610536-6345-47a0-a231-7bc5c57d44ad)
+![2 desktop layouts adapted to large and medium breakpoints.](../../../_assets/mp3w5izv-02-1fbc0241ec59fbc67728.png)
 
 A desktop layout can adjust from three to two columns to fit a medium breakpoint
 
@@ -60,7 +60,7 @@ Extended reality (XR) experiences use multiple free-form windows within virtuall
 
 [More on XR design](/m3/pages/xr-design)
 
-![An XR layout inimmersive full space mode.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3wl9n4-03.png?alt=media&token=71b00525-bfa6-4796-9f01-8fc05e966f15)
+![An XR layout inimmersive full space mode.](../../../_assets/mp3wl9n4-03-fdce0d838507095391e9.png)
 
 In an XR full space layout, a navigation rail can become an orbiter, and float to the side of the main pane
 
@@ -70,21 +70,21 @@ The Material 3 adaptive system uses panes Panes are layout containers that house
 
 Panes are the building blocks of layout; a pane is a single destination in the product. For example, in a messaging app, the list of messages is one pane, and and a specific conversation thread is another.
 
-![Mobile and tablet in portrait layout with 1 pane. Tablet in landscape layout with 2 panes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3wz2eh-04.png?alt=media&token=37210793-f4fe-4412-860b-9a45ad6a45be)
+![Mobile and tablet in portrait layout with 1 pane. Tablet in landscape layout with 2 panes.](../../../_assets/mp3wz2eh-04-70c259d1b9f6b85a32c7.png)
 
 Panes are the primary segments of a layout, and can change based on context
 
 As the pane or window resizes—or as someone navigates a product—panes may change size, enter and exit the screen, and reorganize themselves to make the experience more usable or easier to navigate. These patterns are called adaptive strategies. Material has three adaptive strategies that create a cohesive experience across breakpoints: [show and hide](/m3/pages/scaffold/panes#bbe68948-bc05-4f7c-b870-6254439e4fd8), [levitate](/m3/pages/scaffold/panes#96bf71b8-04b8-4fff-97c7-9bc782fbf401), and [reflow](/m3/pages/scaffold/panes#e0a573e9-8c62-4772-8d81-47955ff83196).
 
-![A foldable open screen with 2 co-planar panes displayed side by side.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3xrm51-Placeholder.png?alt=media&token=0434aa91-113d-454e-bf02-6029ad242814)
+![A foldable open screen with 2 co-planar panes displayed side by side.](../../../_assets/mp3xrm51-Placeholder-10e6160d9c6d582cb1c3.png)
 
 Co-planar: Panes are displayed side by side
 
-![A  foldable open screen with a floating pane displayed above other elements. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3xtdfv-Placeholder%20\(1\).png?alt=media&token=5825b45f-fde6-46a5-a345-946dcadef428)
+![A  foldable open screen with a floating pane displayed above other elements. ](../../../_assets/image-3f37325dafa6a1655b69.png)
 
 Floating: A pane is displayed above other panes or content, like a dialog
 
-![A  foldable open screen with a docked pane to the bottom of the screen displayed above other elements. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3xuwp5-Placeholder%20\(Cmd%2BV%20to%20replace\).png?alt=media&token=cb3ac17e-eb33-48f7-9297-1bee14918ffe)
+![A  foldable open screen with a docked pane to the bottom of the screen displayed above other elements. ](../../../_assets/image-2bdc8d4c835122cc2019.png)
 
 Docked: A pane is displayed above other panes and one of its edges extends beyond one side of the screen, like a bottom sheet
 
@@ -110,7 +110,7 @@ Components should resize in response to their content and their placement in a l
 
 For example, buttons Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) may scale along with their parent container, or hug their contents and maintain a left or right alignment.
 
-![A card with a button that spans the full width, and a card with a button that’s start-aligned and hugs its contents.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3xf0z5-05.png?alt=media&token=e3bbf0fb-d15b-48d1-b2f8-4962085f22e9)
+![A card with a button that spans the full width, and a card with a button that’s start-aligned and hugs its contents.](../../../_assets/mp3xf0z5-05-9508001e7206d3299a38.png)
 
 Buttons can hug their contents or span their containers based on context
 
@@ -120,7 +120,7 @@ Components should show and hide information, or collapse and expand to selective
 
 For example, list Lists are continuous, vertical indexes of text and images. [More on lists](/m3/pages/lists/overview) items may reveal descriptions or other additional information as their parent container scales.
 
-![A list on mobile and on tablet. List items show additional text on tablet.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3xgph2-06.png?alt=media&token=78670577-b953-454b-b7c5-4f667f748970)
+![A list on mobile and on tablet. List items show additional text on tablet.](../../../_assets/mp3xgph2-06-a4d794f4b6f072760d6d.png)
 
 List items can reveal more text on a tablet
 
@@ -130,6 +130,6 @@ Presentation changes include the orientation of elements and changes to specific
 
 Components can also change configurations. For example, when a window size increases, a FAB Floating action buttons (FABs) help people take primary actions. [More on FABs](/m3/pages/fab/overview) can change to an extended FAB, and navigation rails Navigation rails let people switch between UI views on mid-sized devices. [More on navigation rails](/m3/pages/navigation-rail/overview) can be automatically expanded.
 
-![A large desktop window with an extended FAB. A smaller window shows a standard FAB. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3xiwiu-07.png?alt=media&token=e55520df-a90f-4ef3-af75-8d269ee6a97d)
+![A large desktop window with an extended FAB. A smaller window shows a standard FAB. ](../../../_assets/mp3xiwiu-07-bb03d32fd142603a16b0.png)
 
 The extended FAB can change to a standard FAB when the window is smaller

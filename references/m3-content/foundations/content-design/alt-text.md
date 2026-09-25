@@ -16,7 +16,7 @@ Alternative text (alt text) refers to off-screen text that is used by screen rea
 
 Alt text also displays when an image doesn’t load. It tells people what they need to know about an image if they can’t see it.
 
-![4 tin mugs and appropriate alt text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj77km2-1_do.png?alt=media&token=5d8da91e-0b52-4481-9553-127a76bfc20a)
+![4 tin mugs and appropriate alt text.](../../_assets/lwj77km2-1_do-2589cf097f709baff5c0.png)
 
 check Do
 
@@ -24,7 +24,7 @@ Write alt text for images to provide context to screen reader users.
 
 **Alt text: Two large and two small tin mugs.**
 
-![4 tin mugs with file name as alt text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj782ss-2_don't.png?alt=media&token=384d5ff1-8b27-4ee8-be7a-a5f7e3c54373)
+![4 tin mugs with file name as alt text.](../../_assets/lwj782ss-2_don-t-d67014b7c856ddcbddc8.png)
 
 close Don’t
 
@@ -38,7 +38,7 @@ If you remove the image from the page and no information is lost, then the image
 
 An image can be marked decorative using a null alt attribute, such as **alt=””** in HTML, which will hide the content from screen reader users.
 
-![A bitcoin decorative image in a crypto article.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj79l11-3.png?alt=media&token=3846da68-3efa-4372-adf9-2bd45ea752a9)
+![A bitcoin decorative image in a crypto article.](../../_assets/lwj79l11-3-ee08a38e69cd24acf55e.png)
 
 Images that don’t add information don’t need alt text.
 
@@ -50,7 +50,7 @@ Describe the context and overall meaning, rather than focusing on the details. F
 
 Alt text can also help improve SEO, but its primary purpose should be to make sites usable for all.
 
-![Watering can in a shopping app and good alt text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7a0ft-4_do.png?alt=media&token=2f96d201-e43d-4649-b123-6cd67734c085)
+![Watering can in a shopping app and good alt text.](../../_assets/lwj7a0ft-4_do-cb563b1a13a7a5d11c63.png)
 
 check Do
 
@@ -58,7 +58,7 @@ Focus on the important part of the image.
 
 **Alt text: A Scandinavian-style, copper-handled, cream-colored watering can.**
 
-![Watering can in a shopping app and overly detailed alt text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7aw71-5_don't.png?alt=media&token=afa74e9c-4798-47ac-88c5-945eb26a2b85)
+![Watering can in a shopping app and overly detailed alt text.](../../_assets/lwj7aw71-5_don-t-c1816aca39ed69be8535.png)
 
 close Don’t
 
@@ -72,7 +72,7 @@ The recommended length for alt text is 140 characters. 
 
 If alt text is too long, it may be cut off by some screen readers, which is a poor user experience.
 
-![Relates idea of keeping alt text to a max of 140 characters.](https://lh3.googleusercontent.com/PRj_oYkwUTuzQUdGRjKqtfZ06uYy3M8Nql2VC6b06NAc25AnP4xAhLYDB4ygwCcFfjAbO7gxgQ7o100HwAtx3tXoJQvNTiAoz51wF8BJcYA=w40)
+![Relates idea of keeping alt text to a max of 140 characters.](../../_assets/PRj_oYkwUTuzQUdGRjKqtfZ06uYy3M8Nql2VC6b06NAc25AnP4xAhLYDB4ygwCcFfjAbO7gxgQ7o100H-e3515be48c30d628a931.png)
 
 check Do
 
@@ -80,7 +80,7 @@ Write brief alt text.
 
 **Alt text: A small happy dog hanging out the passenger window of a vintage car.**
 
-![Long alt text can be overwhelming and ineffective.](https://lh3.googleusercontent.com/SjjCRROpmvOai7hbb6xB8KkxbDqAtj4WysgXym1u1NAv0MmomIBNZuBU_Qj41hrWYZrCJIMNyedImnC0AO2JdIrwXlUODzQJkCkUZLQGuwXc=w40)
+![Long alt text can be overwhelming and ineffective.](../../_assets/SjjCRROpmvOai7hbb6xB8KkxbDqAtj4WysgXym1u1NAv0MmomIBNZuBU_Qj41hrWYZrCJIMNyedImnC0-1a38318137c0fd2103ba.png)
 
 close Don’t
 
@@ -92,7 +92,7 @@ Don’t write more than 140 characters of alt text. 
 
 Screen readers announce “image” when they come across an image. If your start your alt text with “image of” a screen reader will announce “image, image of.”
 
-![Makes the point of not  using “image of” to start alt text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7cw95-8_do.png?alt=media&token=03bb0011-82a3-44b6-b0c5-2bc668b17087)
+![Makes the point of not  using “image of” to start alt text.](../../_assets/lwj7cw95-8_do-1b9c4b98ed52769ea58c.png)
 
 check Do
 
@@ -100,7 +100,7 @@ Describe the image, rather than the format.
 
 **Alt text: A wooden box of artisan sourdough bread is carried by a baker.**
 
-![Makes the point that poor alt text starts with “Image of.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7dpkq-9_don't.png?alt=media&token=a54e16ec-76fd-4c27-91bc-4e711f29569f)
+![Makes the point that poor alt text starts with “Image of.”](../../_assets/lwj7dpkq-9_don-t-47b5c35215035eb0f231.png)
 
 close Don’t
 
@@ -118,7 +118,7 @@ Don’t repeat the caption in alt text. It’s against best practices because th
 
 Be consistent in your word choices. For example, don’t use “antique” in a caption and “vintage” in the alt text.
 
-![Shopping app with image of a chair in a bathroom.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7ehhx-10_do.png?alt=media&token=b33f3bf7-e11e-42c7-875d-41eb4c9579b3)
+![Shopping app with image of a chair in a bathroom.](../../_assets/lwj7ehhx-10_do-84a04e032414d16d0ff5.png)
 
 check Do
 
@@ -126,7 +126,7 @@ Alt text should always relate to the context.
 
 **Alt text: Brown oak dining chair.**
 
-![Home decorating blog post heading and caption and image of a wooden chair in bathroom.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7f0me-11_do.png?alt=media&token=e6d18837-99bd-4348-ab91-84b4f1827bc9)
+![Home decorating blog post heading and caption and image of a wooden chair in bathroom.](../../_assets/lwj7f0me-11_do-3c30e8e024bc1dc09772.png)
 
 check Do
 
@@ -140,7 +140,7 @@ Alt text is another layer of creative expression and should support the goals an
 
 The same image should have different alt text in different settings. Use the information in the app or article and the caption to decide what to emphasize in the alt text.
 
-![Shows idea of alt text supporting the caption.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7flrw-12_do.png?alt=media&token=b732f29d-5521-44ba-bd62-47775e9cb1d1)
+![Shows idea of alt text supporting the caption.](../../_assets/lwj7flrw-12_do-34a7db31484dc85cda25.png)
 
 check Do
 
@@ -148,7 +148,7 @@ Make alt text consistent with the caption.
 
 **Alt text: A well composed photo of a photographer waiting for the perfect shot of sailboats.**
 
-![Shows idea of alt text  missing key information from the image.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7i4ba-13_don't.png?alt=media&token=f31a3bd8-7131-450d-be00-2c8243537b4e)
+![Shows idea of alt text  missing key information from the image.](../../_assets/lwj7i4ba-13_don-t-c78592732877a9561fef.png)
 
 close Don’t
 
@@ -156,7 +156,7 @@ Don’t ignore the caption. Information in alt text should correspond to adjacen
 
 **Alt text: A black and white photo of a woman standing on a pier while looking at sailboats.**
 
-![Shows idea of alt text focussing on the meaning of the image.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7ik28-14_do.png?alt=media&token=15e46b26-7462-44ae-addd-c4b21b7247b1)
+![Shows idea of alt text focussing on the meaning of the image.](../../_assets/lwj7ik28-14_do-6a3e9adfb0696bcc6ba5.png)
 
 check Do
 
@@ -164,7 +164,7 @@ Focus on the meaning of the image.
 
 **Alt text: A black and white photo of woman looking at sailboats from a pier.**
 
-![Shows idea of alt text reinforcing the caption theme.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7ixvo-15_do.png?alt=media&token=df2721d7-d6e1-484d-aaa0-bcf05584dbf3)
+![Shows idea of alt text reinforcing the caption theme.](../../_assets/lwj7ixvo-15_do-ff20872303298d84ce9c.png)
 
 check Do
 
@@ -172,7 +172,7 @@ Use alt text to reinforce ideas in the caption.
 
 **Alt text: A photographer stands on a pier between 2 dock posts looking at sailboats.**
 
-![Shows idea of overly detailed alt text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7jdth-16_don't.png?alt=media&token=c11e5c8f-7516-4945-a131-11a10d1b93a8)
+![Shows idea of overly detailed alt text.](../../_assets/lwj7jdth-16_don-t-74132dbb96bc643d1660.png)
 
 close Don’t
 
@@ -186,7 +186,7 @@ A caption should be useful to someone who can see the image clearly, as well as 
 
 Good captions support the image rather than duplicating its information. A well-written caption makes it easier to write alt text.
 
-![Alt text of “flying pigeons” supports the caption “Pigeons have a distinct silhouette.” ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7jync-17_do.png?alt=media&token=53a50c25-1c12-4fe8-9bc8-ed040a6fed9b)
+![Alt text of “flying pigeons” supports the caption “Pigeons have a distinct silhouette.” ](../../_assets/lwj7jync-17_do-6e33d42dd643468708b4.png)
 
 check Do
 
@@ -194,7 +194,7 @@ Capture the meaning of the image in a few words.
 
 **Alt text: Flying pigeons.**
 
-![The caption and alt text are both “Pigeons have a distinct silhouette.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7kb1h-18_don't.png?alt=media&token=614e6041-104c-42bb-b7fe-882bbebf7c06)
+![The caption and alt text are both “Pigeons have a distinct silhouette.”](../../_assets/lwj7kb1h-18_don-t-4ac2caf72d9105562090.png)
 
 close Don’t
 
@@ -216,7 +216,7 @@ Occasionally it benefits users to name the type of image. This can include:
 -   Headshot
 -   Diagram
 
-![Map with alt text that begins with “map of.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7kr95-19.png?alt=media&token=365d9d72-d471-41a8-b631-da2d2b8a5648)
+![Map with alt text that begins with “map of.”](../../_assets/lwj7kr95-19-96b29f447bcb2e5b520d.png)
 
 exclamation Caution
 
@@ -234,7 +234,7 @@ Consider the core purpose of the chart or graph, and what information someone wo
 
 Link to the data that generated the chart or graph, if it’s available.  
 
-![Summary of interest in Manchester City, which is almost double that of Liverpool. Manchester interest peaks at 100 at 6pm. Liverpool peaks at 40 at 3am and 12:30pm.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2ch16f9-20.png?alt=media&token=b9137da9-a144-41d4-8740-28cfcc2896cc)
+![Summary of interest in Manchester City, which is almost double that of Liverpool. Manchester interest peaks at 100 at 6pm. Liverpool peaks at 40 at 3am and 12:30pm.](../../_assets/m2ch16f9-20-8e606e49107a25468766.png)
 
 Summarize the main purpose of the data. Here, the chart involves interest in Manchester City and Liverpool.
 
@@ -242,7 +242,7 @@ When possible, explain the key takeaways and meaning in context, rather than det
 
 A general formula for chart alt text would be: “Summary of \[data type\] + \[reason for showing the chart\].”
 
-![Alt text that summarizes the meaning of the chart.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2ch1hb7-21_do.png?alt=media&token=bd84e22f-123c-44f2-b3b7-a8c80d8af77b)
+![Alt text that summarizes the meaning of the chart.](../../_assets/m2ch1hb7-21_do-984bb3cf9fe7bace8a7b.png)
 
 check Do
 
@@ -250,7 +250,7 @@ Capture the meaning of the chart, along with key data points
 
 **Alt text: Summary of interest in Manchester City, which is almost double that of Liverpool. Manchester interest peaks at 100 at 6pm. Liverpool peaks at 40 at 3am and 12:30pm.**
 
-![Alt text for a chart that details too many data points. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2ch1sqk-22_don't.png?alt=media&token=8d0111d7-e575-4e3c-b962-610f9abba5a4)
+![Alt text for a chart that details too many data points. ](../../_assets/m2ch1sqk-22_don-t-adc16f8143c8d21fbc64.png)
 
 close Don’t
 
@@ -264,7 +264,7 @@ Charts with an editorial focus are used to support a key takeaway. This takeaway
 
 For example, a chart from a weekly digest showing highlights of physical activity may have a written summary of the total change in step count. This can be used in the alt text.
 
-![A fitness digest with a takeaway and metric highlighted in sample alt text.](https://lh3.googleusercontent.com/CC4kwz_5M0YHQVuek5qWAwu8l0xVMYkwAqURJ-Lf78aRn7LjioRLOu7K6PhAYR6UuQuW8_JxSX2NpnApgA7ViM4Ae41mfOhFCARh7KqsEYY=w40)
+![A fitness digest with a takeaway and metric highlighted in sample alt text.](../../_assets/CC4kwz_5M0YHQVuek5qWAwu8l0xVMYkwAqURJ-Lf78aRn7LjioRLOu7K6PhAYR6UuQuW8_JxSX2NpnAp-7d6b749ad4d67f27444c.png)
 
 check Do
 
@@ -280,7 +280,7 @@ For charts that have one or two key takeaways, include these insights in the alt
 
 To avoid introducing unintentional bias in charts with many possible takeaways, highlight opportunities for exploration, such as a link to the data’s source. Emphasize key data points or mention that there isn’t a single takeaway.
 
-![Chart for analysis with alt text that describes general structure and provides link to data.](https://lh3.googleusercontent.com/gjndFHZVwRy0iP69fsNWwDGJZs56rrB1cX8u7qeldrLHU8GmM3hjs5Z6OYKOZbqyUfu_fITvXHrCwL8N4c9biSzTB6kJea0iN7lUyz5QAFk2=w40)
+![Chart for analysis with alt text that describes general structure and provides link to data.](../../_assets/gjndFHZVwRy0iP69fsNWwDGJZs56rrB1cX8u7qeldrLHU8GmM3hjs5Z6OYKOZbqyUfu_fITvXHrCwL8N-645c5fee2dc4add64381.png)
 
 check Do
 
@@ -288,7 +288,7 @@ In charts used for analysis, mention the general structure, and highlight opport
 
 **Alt text: Comparison of annual high, avg, and low temperatures. Visit the link provided to explore the data in detail.**
 
-![Chart for analysis with alt text that inaccurately summarizes it.](https://lh3.googleusercontent.com/y9frD2pxvtXLDo-_Xa4szOPAE86O8YYHrYEVoELpOt2FdrxvGvXf6L-j5l1CjsXmQataWeNqU38GskS2Vv9rQQZabfaZti8hyQ6gUpgHJRnnKA=w40)
+![Chart for analysis with alt text that inaccurately summarizes it.](../../_assets/y9frD2pxvtXLDo-_Xa4szOPAE86O8YYHrYEVoELpOt2FdrxvGvXf6L-j5l1CjsXmQataWeNqU38GskS2-885c0ef720703b86d2bf.png)
 
 close Don’t
 
@@ -302,7 +302,7 @@ To improve the screen reader experience,  consider using interactive charts ins
 
 See [Top Tips for Data Accessibility](https://m3.material.io/blog/data-visualization-accessibility) for more ways to make these visualizations accessible.
 
-![Chart for analysis with alt text that describes general structure and provides link to data.](https://lh3.googleusercontent.com/a56fvmo9FI_dcrUww32YzJbtxXg8mf4oe2I87LeaK6f1v4vcFy9DIJTXVdCpl3VGAaqDuk_JTRLLj1q2rNMkeXpCYy9nX9tLOMo9G7_8TjTF=w40)
+![Chart for analysis with alt text that describes general structure and provides link to data.](../../_assets/a56fvmo9FI_dcrUww32YzJbtxXg8mf4oe2I87LeaK6f1v4vcFy9DIJTXVdCpl3VGAaqDuk_JTRLLj1q2-ed5611e44327f575d697.png)
 
 Use interactive charts for complicated visualizations
 
@@ -316,7 +316,7 @@ Summarize the action in a video or animation
 
 Alt text on informative GIFs or motion assets should highlight the important points. Think of a heading or title you might give it, and that’s likely your alt text.
 
-![alt=""](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7mf38-24_do.png?alt=media&token=643620a0-982c-4ddd-a14d-d3b40399f758)
+![alt=""](../../_assets/lwj7mf38-24_do-f78b12271458a0f06b6d.png)
 
 check Do
 
@@ -324,7 +324,7 @@ Write alt text that summarizes the motion asset.
 
 **Alt text: A tooltip labeled “star” appears when a cursor hovers over a star icon.**
 
-![alt=""](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7mptb-25_don't.png?alt=media&token=7bb7ce8d-e563-45b8-89d0-b47d4581e467)
+![alt=""](../../_assets/lwj7mptb-25_don-t-e2f1076d2b8339d5a535.png)
 
 close Don’t
 

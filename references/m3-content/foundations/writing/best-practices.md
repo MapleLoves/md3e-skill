@@ -16,7 +16,7 @@ Accessibility text refers to text that is used by screen reader accessibility so
 
 To make an image more accessible, the text in and around images should consider presenting key information about the image.
 
-![Stacked card with image, caption, and adjacent text identified.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj55hv4-8.png?alt=media&token=229d4f46-48c7-4ed4-99a2-ba2527936425)
+![Stacked card with image, caption, and adjacent text identified.](../../_assets/lwj55hv4-8-3d89a63de9d17862dde8.png)
 
 1.  Image
 2.  Caption
@@ -26,7 +26,7 @@ To make an image more accessible, the text in and around images should consider 
 
 Captions are the text that appear below an image. They explain contextual information about the image to help the reader understand how it relates to the content. Both sighted and screen reader users rely on captions for descriptions of images.
 
-![Stacked card with image, alt text as caption, and adjacent text identified.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5628d-9.png?alt=media&token=c1ceac48-0ee3-4822-b7b2-dba96be35c7e)
+![Stacked card with image, alt text as caption, and adjacent text identified.](../../_assets/lwj5628d-9-69be356d5feab896dcac.png)
 
 check Do
 
@@ -36,7 +36,7 @@ Use captions to help readers understand how the image relates to the content
 
 Screen readers are unable to read text that is embedded in imagery. If there is essential information embedded as text in the image, include the essential information in the [alt text](/m3/pages/alt-text).
 
-![Stacked card with image, caption overlayed on image, and adjacent text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj56jdc-10.png?alt=media&token=3712cd9c-c733-4fa1-aaff-5cad15b89ff0)
+![Stacked card with image, caption overlayed on image, and adjacent text.](../../_assets/lwj56jdc-10-402ccee957e99e1bc55f.png)
 
 exclamation Caution
 
@@ -50,7 +50,7 @@ Alt text is valuable for sighted users, as well, because alt text appears if an 
 
 [Learn more about writing alt text](/m3/pages/alt-text)
 
-![A DJ standing in front of music equipment with alt text underneath describing image.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj573aa-7.png?alt=media&token=8b8899da-ed71-4e4f-822a-0005e637691e)
+![A DJ standing in front of music equipment with alt text underneath describing image.](../../_assets/lwj573aa-7-3641daeca697c531878b.png)
 
 check Do Use alt text to convey what the image is showing in an informative, short phrase. Alt text example: A DJ performs a set under lights and lasers
 
@@ -60,7 +60,7 @@ check Do Use alt text to convey what the image is showing in an informative, sho
 
 Informative images have essential and non-essential elements. Essential information should have a 3:1 minimum color contrast for large text and 4.5:1 for small text.
 
-![SIM card installation with essential and non-essential elements.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj57nfl-11.png?alt=media&token=170373e6-8391-4e97-a1dd-a5623716d0cb)
+![SIM card installation with essential and non-essential elements.](../../_assets/lwj57nfl-11-4ab1655f45aa6c5e3e7a.png)
 
 The illustration contains both essential and non-essential information:
 

@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Customization creates unique branded products with familiar patterns and accessible interactions
 
-![Examples of 4 identical mobile UI screens using 4 different color sets](https://lh3.googleusercontent.com/l0kBY1USjWKqLXAIJUw0vNTbHKaOtWvOaXQ8Z56N8t4tYG-i5o4I3L9B2utKC1vZ8fQ_Z7eyluDSgXCATDbKQpYKnzzdh1S_UXdK3rgzK0I=s0)
+![Examples of 4 identical mobile UI screens using 4 different color sets](../_assets/l0kBY1USjWKqLXAIJUw0vNTbHKaOtWvOaXQ8Z56N8t4tYG-i5o4I3L9B2utKC1vZ8fQ_Z7eyluDSgXCA-a558b4e7df82206e3e59.png)
 
 ## Dynamic color makes personal devices feel personal
 
@@ -24,7 +24,7 @@ M3 supports systematic applications of custom parameters to help define and main
 
 The color system automatically handles critical adjustments that provide accessible color contrast, legibility, interaction states, and component structure. Dynamic color also works for custom (non-Material) components. 
 
-![Animation showing 3 different source colors cascading through a UI to recolor elements on the screen](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fkuob4wl9-m3_Color-hiRes.gif?alt=media&token=1cd5b57b-ab91-4dca-9fe9-43011d9f2cde)
+![Animation showing 3 different source colors cascading through a UI to recolor elements on the screen](../_assets/kuob4wl9-m3_Color-hiRes-f34689683759b361b5a1.gif)
 
 Apps can take on an array of colors from baseline schemes, user-generated dynamic colors, or custom colors
 
@@ -36,7 +36,7 @@ In order for your app to respect a user's device and app-level settings, **you'l
 
 Additionally, using a custom theme ensures that your app has a fallback color scheme available for users who don't enable dynamic color.
 
-![collage of views of a mobile UI that show a user's setting and preference for a green primary color flows through system UI harmoniously](https://lh3.googleusercontent.com/4UkK7WPkGF34M64YsnpmKQSmBeoJm1TqBbbNIWgHivMGGydJZLLyT4ihwR0TsiiG_mcovyLhOvGYdrYhn7UPHpDZMXzCx6WBRkmjPHySkM2F=w40)![collage of views of a mobile UI that show a user's setting and preference for a green primary color flows through system UI harmoniously](https://lh3.googleusercontent.com/4UkK7WPkGF34M64YsnpmKQSmBeoJm1TqBbbNIWgHivMGGydJZLLyT4ihwR0TsiiG_mcovyLhOvGYdrYhn7UPHpDZMXzCx6WBRkmjPHySkM2F=s0)
+![collage of views of a mobile UI that show a user's setting and preference for a green primary color flows through system UI harmoniously](../_assets/4UkK7WPkGF34M64YsnpmKQSmBeoJm1TqBbbNIWgHivMGGydJZLLyT4ihwR0TsiiG_mcovyLhOvGYdrYh-f87ba8aab94ede01f234.png)![collage of views of a mobile UI that show a user's setting and preference for a green primary color flows through system UI harmoniously](../_assets/4UkK7WPkGF34M64YsnpmKQSmBeoJm1TqBbbNIWgHivMGGydJZLLyT4ihwR0TsiiG_mcovyLhOvGYdrYh-7716b3911ebc9276ea39.png)
 
 A user-generated color scheme can flow through apps that use a custom theme
 
@@ -61,7 +61,7 @@ The Material Theme Builder creates **color and type tokens** that can be exporte
 
 [Material tokens](https://github.com/material-foundation/material-tokens) are ready to use in formatted theme files, including [Design System Package (DSP)](https://github.com/AdobeXD/design-system-package-dsp). A DSP is a cross-platform file format that represents design system information. [Learn more about design tokens](/m3/pages/design-tokens/overview).
 
-![Example of the start screen for the Material Theme Builder Figma plugin. The plugin UI is shown alongside a range of purple tones as an example of a color palette that can be generated.](https://lh3.googleusercontent.com/7geIR4r6fJRbDja4YLYpoyn2BiZtjp_s-MJvrJZXNGKRw8mUt7GCeBj3BeCaViBz8S89DA6zq5P835YGXGVT3q-0iQoTwjdJEGLBNt50tkpF=w40)
+![Example of the start screen for the Material Theme Builder Figma plugin. The plugin UI is shown alongside a range of purple tones as an example of a color palette that can be generated.](../_assets/7geIR4r6fJRbDja4YLYpoyn2BiZtjp_s-MJvrJZXNGKRw8mUt7GCeBj3BeCaViBz8S89DA6zq5P835YG-b283184623102b8ea028.png)
 
 The Material Theme Builder Figma plugin helps you create custom color schemes and export to multiple code formats
 
@@ -77,7 +77,7 @@ Mapping your app colors to the custom scheme's source colors aligns the roles an
 
 If your app uses a single brand color or a limited brand palette, you can input your primary brand color as your custom color scheme's source color. The input color will be used to generate a scheme that provides you with complementary tones to round out a scheme.
 
-![Four color swatches are seen first in isolation and then as inputs to the material theme builder UI. Then, the color inspiration and typeface combine in a final UI for a plant brand app.](https://lh3.googleusercontent.com/20rsancFoe-o-GeacNloK_tKMfa2E1ZYsJCkN4OqICgjrodGJXqXhWOw6Moan2UooPZ8LzfgmtCCHY-7gsBCmP64yPNUYPIoul4u4GmvHIS9=w40)
+![Four color swatches are seen first in isolation and then as inputs to the material theme builder UI. Then, the color inspiration and typeface combine in a final UI for a plant brand app.](../_assets/20rsancFoe-o-GeacNloK_tKMfa2E1ZYsJCkN4OqICgjrodGJXqXhWOw6Moan2UooPZ8LzfgmtCCHY-7-b5122f945b82ee29a70a.png)
 
 Examples of brand attributes (left) that can be used to generate and apply a dynamic color scheme (right)
 
@@ -93,6 +93,6 @@ Depending on the purpose in a UI, key colors are assigned roles that map to elem
 
 An input color generates a tonal palette that's used to fill the range of color roles needed, such as primary, on-primary, and primary container. [Learn more about using color roles](/m3/pages/color-roles/)
 
-![A mobile UI is seen with diagram labels showing where specifc elements have been mapped to specific colors, such as on-surface, or primary.](https://lh3.googleusercontent.com/kqa_LNBbbacJHfLL5ADPfJIcqHAeVIz3KMqy2PFGFHqQz5ir51Ww0APxKJt5J7EfRehqidtv4kxSlvmx5Je3A5jmH_y_jXbHWGIwsGyTINBP=w40)
+![A mobile UI is seen with diagram labels showing where specifc elements have been mapped to specific colors, such as on-surface, or primary.](../_assets/kqa_LNBbbacJHfLL5ADPfJIcqHAeVIz3KMqy2PFGFHqQz5ir51Ww0APxKJt5J7EfRehqidtv4kxSlvmx-b3058e0947c730491ce1.png)
 
 Examples of color roles in the Plant Care UI mapped to design tokens

@@ -75,7 +75,7 @@ Configurations:
 
     -   Active label on vertical items changed from **on surface variant** to **secondary** 
 
-![A collapsed and expanded navigation rail.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fsz2c4-2.png?alt=media&token=e1cbb29b-89b7-4662-9465-2c39f2bd9edd)
+![A collapsed and expanded navigation rail.](../../_assets/m0fsz2c4-2-1c72669471a5681c9c83.png)
 
 The collapsed and expanded navigation rails match visually and can transition into each other
 
@@ -85,10 +85,10 @@ The collapsed and expanded navigation rails match visually and can transition in
 -   Color: New color mappings and compatibility with dynamic color
 -   States: The active destination can be indicated with a pill shape in a contrasting color
 
-![M2 navigation rail with 1 colored and filled icon showing the active state and 3 inactive icons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dtdapc-3.png?alt=media&token=643d52f9-213d-4aed-90fd-029c44fce678)
+![M2 navigation rail with 1 colored and filled icon showing the active state and 3 inactive icons.](../../_assets/m0dtdapc-3-f3adc7fbdba9cdd27179.png)
 
 M2: The navigation rail uses icon color, weight, and fill to communicate which destination is active
 
-![M3 navigation rail with 1 icon surrounded by a pill shape in contrasting color to show the active state.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fszcgl-4.png?alt=media&token=8b26ebe5-396b-4148-b571-247ef9634f50)
+![M3 navigation rail with 1 icon surrounded by a pill shape in contrasting color to show the active state.](../../_assets/m0fszcgl-4-bb1c71bb05447b195467.png)
 
 M3: The navigation rail uses a pill-shaped active indicator to communicate which destination is active

@@ -14,11 +14,11 @@ captured: 2026-09-14
 
 -   An accessible UI with static colors 
 
-![Mobile screenshot of music app.](https://lh3.googleusercontent.com/6Qlfeo75opgKmNSYcxRy92aHk4VOLoQrE4VFYmSSfElw9CrWNI12sziVlF4ZPyEjADYSrfLICk2zmSSwBPFIMbnWlvCdL9LN7ko5LyWAaVQ3=s0)
+![Mobile screenshot of music app.](../../../_assets/6Qlfeo75opgKmNSYcxRy92aHk4VOLoQrE4VFYmSSfElw9CrWNI12sziVlF4ZPyEjADYSrfLICk2zmSSw-928cc120c467ab5c4729.png)
 
 Music app with the static baseline color scheme
 
-![Tablet screenshot of a news app.](https://lh3.googleusercontent.com/_8Vtp4zasYWpnr556HQJFq60r0jwZw9541OZ7JtkFYG0Ol4LmRidQA_ABD2bMWZCYPodMyV3LvVF8Fsq7XU2EB58utMivnnLwPRLgZkri7E=s0)
+![Tablet screenshot of a news app.](../../../_assets/8Vtp4zasYWpnr556HQJFq60r0jwZw9541OZ7JtkFYG0Ol4LmRidQA_ABD2bMWZCYPodMyV3LvVF8Fsq7-647271fd0b7812f0b6c8.png)
 
 News app with the static baseline color scheme
 
@@ -26,11 +26,11 @@ News app with the static baseline color scheme
 
 Get baseline colors in Figma using the Material Theme Builder Material Theme Builder (MTB) is a Figma plugin that allows markers to emulate the color extraction process for dynamic color and create custom tonal schemes. [Get the MTB](https://www.figma.com/community/plugin/1034969338659738588/material-theme-builder) .
 
-![Color swatches showing the entire baseline color scheme and derivative accent colors.](https://lh3.googleusercontent.com/rfxJv95pIoJ3cEZ9ypfimJFC5Ps8sEEVBNWD36C-fy3DYvec8J_VLRosBkwTNsnpSCgSpxWXBypOXT8Ydm4fJOQ2ajWoy7SjocrzJcK7KA8=s0)
+![Color swatches showing the entire baseline color scheme and derivative accent colors.](../../../_assets/rfxJv95pIoJ3cEZ9ypfimJFC5Ps8sEEVBNWD36C-fy3DYvec8J_VLRosBkwTNsnpSCgSpxWXBypOXT8Y-b531dba67d426d3226a7.png)
 
 Baseline scheme colors in light theme
 
-![Color swatches showing the entire baseline color scheme and derivative accent colors.](https://lh3.googleusercontent.com/S-tgf061eUWcbEBhyicTYR9PWVDeXSsSgZ2e2yYSr6Jn4W-F9z5czZCG6sv58wgJQODQakVRBDvUX5gaotfq3BuqMDLROrCO4D0Kz9F494LW=w40)![Color swatches showing the entire baseline color scheme and derivative accent colors.](https://lh3.googleusercontent.com/S-tgf061eUWcbEBhyicTYR9PWVDeXSsSgZ2e2yYSr6Jn4W-F9z5czZCG6sv58wgJQODQakVRBDvUX5gaotfq3BuqMDLROrCO4D0Kz9F494LW=s0)
+![Color swatches showing the entire baseline color scheme and derivative accent colors.](../../../_assets/S-tgf061eUWcbEBhyicTYR9PWVDeXSsSgZ2e2yYSr6Jn4W-F9z5czZCG6sv58wgJQODQakVRBDvUX5ga-b7c283776ceef278ecb3.png)![Color swatches showing the entire baseline color scheme and derivative accent colors.](../../../_assets/S-tgf061eUWcbEBhyicTYR9PWVDeXSsSgZ2e2yYSr6Jn4W-F9z5czZCG6sv58wgJQODQakVRBDvUX5ga-950a003ca2f607fec363.png)
 
 Baseline scheme colors in dark theme
 

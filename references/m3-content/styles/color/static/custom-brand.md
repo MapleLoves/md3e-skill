@@ -15,7 +15,7 @@ In a brand-based static scheme, the colors are hand-picked by your team to align
 -   An accessible UI with static colors
 -   A product that "looks like its brand"
 
-![Left: A swirling red, magenta and green sphere representing a meditation app logo. Center: A color scheme created from the three brand colors in the sphere. Right: A screen of the meditation app colored in red, magenta, and green UI.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Fln4ilrfy-brand-baseline.png?alt=media&token=7831c3fc-1a36-4aa2-a583-65474ec97d3d)
+![Left: A swirling red, magenta and green sphere representing a meditation app logo. Center: A color scheme created from the three brand colors in the sphere. Right: A screen of the meditation app colored in red, magenta, and green UI.](../../../_assets/ln4ilrfy-brand-baseline-ec2f59139e5ddda90b0e.png)
 
 This example meditation app uses a static scheme created from its brand colors.
 

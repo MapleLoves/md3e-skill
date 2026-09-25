@@ -18,7 +18,7 @@ Static fonts like [Roboto](https://fonts.google.com/specimen/Roboto) are current
 
 Roboto includes over 3,300 glyphs for representing hundreds of languages around the world.
 
-![A type specimen of Roboto.](https://lh3.googleusercontent.com/EkQ4Y0uqlLElvat_6ww9vzPrWILAT3Vmp3N5K4fsgMwOoxdBEmscWHqdqigR2wP6paFXmpLmPryht8MUzVfvYsKv4uAd7_uGZOG_TnBKnUY=s0)
+![A type specimen of Roboto.](../../_assets/EkQ4Y0uqlLElvat_6ww9vzPrWILAT3Vmp3N5K4fsgMwOoxdBEmscWHqdqigR2wP6paFXmpLmPryht8MU-1fc18a5f14600915c51f.png)
 
 Roboto is the default typeface in Android and Material 3
 
@@ -28,7 +28,7 @@ Roboto is the default typeface in Android and Material 3
 
 [Roboto Flex is available](https://fonts.google.com/specimen/Roboto+Flex) as a standalone font.
 
-![A type specimen of Roboto Flex.](https://lh3.googleusercontent.com/2aZeUHyOXe0yaUcZk4yCg774-k1UiVi02FyOfoVMwRc1hJTsOhERLuU7fzXgJsTmmT6Hkv8Ds-c_c-T3pS1LwR1EZ_72IuKHTINCta9jux8yww=s0)
+![A type specimen of Roboto Flex.](../../_assets/2aZeUHyOXe0yaUcZk4yCg774-k1UiVi02FyOfoVMwRc1hJTsOhERLuU7fzXgJsTmmT6Hkv8Ds-c_c-T3-aac77f298210ba062304.png)
 
 Roboto Flex includes the styles of Roboto plus many more weights and widths optimized for larger and smaller sizes
 
@@ -36,7 +36,7 @@ Roboto Flex includes the styles of Roboto plus many more weights and widths opti
 
 [Roboto Serif](https://fonts.google.com/specimen/Roboto+Serif) is another variable font family, designed to create a comfortable reading experience. Minimal and highly functional, it can be used anywhere (even in app interfaces) due to its extensive set of weights and widths across a broad range of sizes.
 
-![A type specimen of Roboto Serif.](https://lh3.googleusercontent.com/X-iJXo_zFMwPCclGNPUUQqHm-184vE84Tavs2SsYupdFJJBIAP0O5Bg5lyCtlVAFBlWuyLLUtylgWg7PaPfDnG9q1ScWji7GqYu0-OsOSkyw=s0)
+![A type specimen of Roboto Serif.](../../_assets/X-iJXo_zFMwPCclGNPUUQqHm-184vE84Tavs2SsYupdFJJBIAP0O5Bg5lyCtlVAFBlWuyLLUtylgWg7P-5712861ec2922422b9b1.png)
 
 Roboto Serif offers a functional set of weights and widths
 
@@ -46,7 +46,7 @@ Roboto Serif offers a functional set of weights and widths
 
 Monospaced fonts are easier to scan vertically, so are particularly useful for code and keeping numbers aligned. [Learn more about monospaced numbers](/m3/pages/typography/applying-type#f0f79df7-3174-4012-871e-93ce9a89d08b)
 
-![A type specimen of Roboto Mono.](https://lh3.googleusercontent.com/LMaircDfjO77VgbiKJNAz8UcxIc3kRufjePle2i7oLH9_kbvgEGcxU8IjCuv73lMDsSubbBX6YIz5VwFKDMwVmnFMDR7IJjROyxshjuvS-o=w40)![A type specimen of Roboto Mono.](https://lh3.googleusercontent.com/LMaircDfjO77VgbiKJNAz8UcxIc3kRufjePle2i7oLH9_kbvgEGcxU8IjCuv73lMDsSubbBX6YIz5VwFKDMwVmnFMDR7IJjROyxshjuvS-o=s0)
+![A type specimen of Roboto Mono.](../../_assets/LMaircDfjO77VgbiKJNAz8UcxIc3kRufjePle2i7oLH9_kbvgEGcxU8IjCuv73lMDsSubbBX6YIz5VwF-4a66d39055b1dc452733.png)![A type specimen of Roboto Mono.](../../_assets/LMaircDfjO77VgbiKJNAz8UcxIc3kRufjePle2i7oLH9_kbvgEGcxU8IjCuv73lMDsSubbBX6YIz5VwF-5875fee9ec80635bcf94.png)
 
 Equal sizing for each character keeps uniformity of spacing
 
@@ -58,7 +58,7 @@ Each Noto Sans family is compatible with Roboto and Noto Sans supports more than
 
 [Learn more about typography language considerations](https://m2.material.io/design/typography/language-support.html#language-considerations)
 
-![A type specimen of several Noto Sans fonts.](https://lh3.googleusercontent.com/pfAhMuBM9hfiSa6uPDzCRHCivlqUZ6jZufCyaijjSuTHmKxJwz-x5YthTtaa9bJWQCPgLrFzlDRtf4rVtbr1d_CvvZ05ULtnMuTvDlogxv8=w40)
+![A type specimen of several Noto Sans fonts.](../../_assets/pfAhMuBM9hfiSa6uPDzCRHCivlqUZ6jZufCyaijjSuTHmKxJwz-x5YthTtaa9bJWQCPgLrFzlDRtf4rV-b1072ae4497bc7bd0a72.png)
 
 Several Noto Sans fonts for different writing systems
 
@@ -80,6 +80,6 @@ For example, products using the variable font Roboto Flex should apply font fall
 
 This ensures that text will have a consistent visual style regardless of font support. Designers should connect with their product and engineering partners to confirm that font fallback is available.
 
-![Text examples from Roboto Flex, Roboto, and Noto Sans all show similar styling.](https://lh3.googleusercontent.com/YAKWH5m4gHCZZlFNYswkO0AkAzGy39AcNVu1zG3poVn-n0jXXQy7nKpgT-w_ftH9tYe9ezdfEoanZrlhRsCDlgujAbHLrZuk-3wJD3i0K5Y3qA=w40)
+![Text examples from Roboto Flex, Roboto, and Noto Sans all show similar styling.](../../_assets/YAKWH5m4gHCZZlFNYswkO0AkAzGy39AcNVu1zG3poVn-n0jXXQy7nKpgT-w_ftH9tYe9ezdfEoanZrlh-d5d16c53d0787145e972.png)
 
 Font branding is preserved when moving from Roboto Flex to Roboto to Noto Sans Japanese

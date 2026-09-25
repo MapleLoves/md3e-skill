@@ -27,11 +27,11 @@ Tooltips can appear when an actionable element, like a button or navigation rail
 
 Rich tooltips can also appear by selecting an element instead of hovering or focusing on it.
 
-![A cursor hovers over a favorite button producing text about finding this item later in favorites.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6ru5uh-02.png?alt=media&token=1a4085d9-9e8f-42d5-9aab-470093ca7dbf)
+![A cursor hovers over a favorite button producing text about finding this item later in favorites.](../../_assets/me6ru5uh-02-8550fbbb913bbafc1447.png)
 
 Tooltips can appear on hover or focus to explain actions
 
-![An information button in a selected state produces text about finding this item later in favorites.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6ruf33-03.png?alt=media&token=98c44750-5967-4b0e-8e26-933fd0cdcdbe)
+![An information button in a selected state produces text about finding this item later in favorites.](../../_assets/me6ruf33-03-fc554b59788ee21696e8.png)
 
 Rich tooltips can appear when an element is selected
 
@@ -45,7 +45,7 @@ Avoid trapping screen reader and keyboard focus on rich tooltips.
 
 People should be able to move linearly through the rest of the page.
 
-![Different elements of a rich tooltip are given a focus order, moving from parent element to inline link to text button.](https://lh3.googleusercontent.com/KCWqivAVbjIzMGBp1AVQbceVT02tQdKQSNJOd-FA_ARUYwMLQX2GUYZi55K0wxG_c2dYdGFnsBnB-_1n-m8thxhCgVavyU0W9_Dz5C9aVBLEdA=w40)![Different elements of a rich tooltip are given a focus order, moving from parent element to inline link to text button.](https://lh3.googleusercontent.com/KCWqivAVbjIzMGBp1AVQbceVT02tQdKQSNJOd-FA_ARUYwMLQX2GUYZi55K0wxG_c2dYdGFnsBnB-_1n-m8thxhCgVavyU0W9_Dz5C9aVBLEdA=s0)
+![Different elements of a rich tooltip are given a focus order, moving from parent element to inline link to text button.](../../_assets/KCWqivAVbjIzMGBp1AVQbceVT02tQdKQSNJOd-FA_ARUYwMLQX2GUYZi55K0wxG_c2dYdGFnsBnB-_1n-7e61fce462e58cd7be2b.png)![Different elements of a rich tooltip are given a focus order, moving from parent element to inline link to text button.](../../_assets/KCWqivAVbjIzMGBp1AVQbceVT02tQdKQSNJOd-FA_ARUYwMLQX2GUYZi55K0wxG_c2dYdGFnsBnB-_1n-7c7255a76875e8e7fa90.png)
 
 1.  Parent element
 2.  Inline link
@@ -64,6 +64,6 @@ Tooltips should have the **Tooltip** role, or similar. 
 
 Label all elements in the tooltip according to their own accessibility guidance.
 
-![A rich and plain tooltip with all elements matched to accessibility labels.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6ry9ry-05.png?alt=media&token=8d4b4d42-2cb4-4496-ac89-02fed5e0e0fb)
+![A rich and plain tooltip with all elements matched to accessibility labels.](../../_assets/me6ry9ry-05-e62799fa71ff897f8e5d.png)
 
 The tooltip container should have the **Tooltip** role

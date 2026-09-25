@@ -20,14 +20,14 @@ Extended reality (XR) interfaces have special design requirements, like showing 
 
 There are two variants of navigation rail orbiters Orbiters are floating elements that control the content within spatial panels. [More on orbiters](https://developer.android.com/design/ui/xr/guides/spatial-ui#orbiters) : the contained FAB and spatialized FAB navigation rails.
 
-![Navigation bar orbiters with a contained FAB and a spatialized FAB.](https://lh3.googleusercontent.com/LTbAfuniDUxE5CSE6GZ6jbZIfZm1ve6oIy0VM0dLlOHrKwOwK673gmbTbQccfUqR3VzntYUsiumoJjVPGf2enwIgn6Zdg357hqxsVw2e0jw=s0)
+![Navigation bar orbiters with a contained FAB and a spatialized FAB.](../../../_assets/LTbAfuniDUxE5CSE6GZ6jbZIfZm1ve6oIy0VM0dLlOHrKwOwK673gmbTbQccfUqR3VzntYUsiumoJjVP-5e383cfc600a26e02bf5.png)
 
 1.  Contained FAB rail
 2.  Spatialized FAB rail
 
 ## Anatomy
 
-![Diagram of navigation rail orbiter identifying 9 internal elements of the component.](https://lh3.googleusercontent.com/QXw8Vtmzpdjkr8pT7-YI9BsDLetxKSQ_SgG92DhzpcSU19BI4E4wumNJFLo6RlwdQdFbKTp1s_X_i-uonqulQZHZhkTwofW3IZ1NL0bk3BTy=w40)![Diagram of navigation rail orbiter identifying 9 internal elements of the component.](https://lh3.googleusercontent.com/QXw8Vtmzpdjkr8pT7-YI9BsDLetxKSQ_SgG92DhzpcSU19BI4E4wumNJFLo6RlwdQdFbKTp1s_X_i-uonqulQZHZhkTwofW3IZ1NL0bk3BTy=s0)
+![Diagram of navigation rail orbiter identifying 9 internal elements of the component.](../../../_assets/QXw8Vtmzpdjkr8pT7-YI9BsDLetxKSQ_SgG92DhzpcSU19BI4E4wumNJFLo6RlwdQdFbKTp1s_X_i-uo-0ada7c42d2abf8bc8c7c.png)![Diagram of navigation rail orbiter identifying 9 internal elements of the component.](../../../_assets/QXw8Vtmzpdjkr8pT7-YI9BsDLetxKSQ_SgG92DhzpcSU19BI4E4wumNJFLo6RlwdQdFbKTp1s_X_i-uo-5c7dff887f782759592a.png)
 
 1.  Container
 2.  Active indicator
@@ -43,7 +43,7 @@ There are two variants of navigation rail orbiters Orbiters are floating element
 
 On XR, color is used to highlight elevated UI elements and orbiters. With [spatial elevation](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation), the navigation bar displays above the [spatial panel](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-panels), on the Z-axis. Color communicates elevation on UI elements and orbiters. Elevated nav rails can use any of these color options:
 
-![4 versions of elevation color strategy.](https://lh3.googleusercontent.com/PUP9hRb--aOh9alxfJ8GTosaseAIpkMhRlrOCZvN-HzA_vUJ94qMvbAkikPv-OmXmm93qceIK8q28Xg4BY359zhg95TE3PNJWbYoG7X7keQA=w40)
+![4 versions of elevation color strategy.](../../../_assets/PUP9hRb--aOh9alxfJ8GTosaseAIpkMhRlrOCZvN-HzA_vUJ94qMvbAkikPv-OmXmm93qceIK8q28Xg4-42d4a66f9f48f51df3cb.png)
 
 1.  Surface container with tertiary FAB
 2.  Surface container high with tertiary fixed dim FAB
@@ -52,11 +52,11 @@ On XR, color is used to highlight elevated UI elements and orbiters. With [spat
 
 ## Measurements
 
-![Measurements and padding for navigation rail orbiter with contained FAB.](https://lh3.googleusercontent.com/CFyQGJBT04A8x0XA9GIvKWTxYwd37_eA4Qr0A_cFbr4vl5gXTIyRsSnjEzqqtw2BFFW63JPiSegqtZGGJFnCjMV17slaSxa6l_RXDBPErQWJ=w40)
+![Measurements and padding for navigation rail orbiter with contained FAB.](../../../_assets/CFyQGJBT04A8x0XA9GIvKWTxYwd37_eA4Qr0A_cFbr4vl5gXTIyRsSnjEzqqtw2BFFW63JPiSegqtZGG-6e8901dac4e4f536b98f.png)
 
 Navigation rail orbiter padding and measurements with contained FAB
 
-![Measurements and padding for navigation rail orbiter with spatialized FAB.](https://lh3.googleusercontent.com/dkFQ1ILUuuM_LNF15rl-Qg4pGr9WX3hLZYgo9hqNoqEsbJPY6VuimtA4d6jzNDeSFwJ6YpjytNUQULppjQNjAw-hlGiUmEwshHlqCz843qf4=w40)
+![Measurements and padding for navigation rail orbiter with spatialized FAB.](../../../_assets/dkFQ1ILUuuM_LNF15rl-Qg4pGr9WX3hLZYgo9hqNoqEsbJPY6VuimtA4d6jzNDeSFwJ6YpjytNUQULpp-8e3faa8b43fbd38110d1.png)
 
 Navigation rail orbiter padding and measurements with spatialized FAB
 

@@ -24,7 +24,7 @@ Universal default experiences rarely meet everyone’s needs. Introducing custom
 
 Because a person's experience throughout their day, or year, or life can continue to change, it helps to support varying preferences and choices that allow individuals to address how their changing conditions, individual knowledge, and varying needs are met. 
 
-![silhouette of person's head made out of colorful liquid](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fl6qr2chf-l1yxwqsj-Google_AvatarProject-12_Final%201%20\(1\).png?alt=media&token=c3170438-686d-468a-8986-abd14605ce2b)
+![silhouette of person's head made out of colorful liquid](../../_assets/image-83a16fdbe4d0f5eb2070.png)
 
 ### Learn before, not after
 
@@ -32,7 +32,7 @@ Before defining solutions, invest time in understanding the needs of users with 
 
 Accessible design processes anticipate as many potential product or experience outcomes as possible upfront. When user problems do arise, exploring the unanticipated outcomes can become a research foundation for learning, adapting, and recovering thoughtfully. 
 
-![cube floating above a circular hole](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fl6qr36jq-l1yxvjzc-Google_AvatarProject-4_Final%201%20\(1\).png?alt=media&token=376d8bc6-34aa-4433-abda-6050fb280a41)
+![cube floating above a circular hole](../../_assets/image-4b31c2c762c1ee398fa5.png)
 
 ### Requirements as a starting point 
 
@@ -40,4 +40,4 @@ The minimum requirements established by [WCAG](https://www.w3.org/WAI/standards-
 
 History has shown that features originating from responses to specific access needs (dark mode, text-to-speech, speech-to-text) are a result of creative problem-solving within specified constraints. Seeing the requirements as opportunities, rather than constraints, has been shown to lead to solutions that ultimately serve many.
 
-![foam-like material sculpted into a puzzle piece resembling a standing human](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fl6qr41s7-l1yxwaxg-Google_AvatarProject-1_Final%201%20\(2\).png?alt=media&token=7518c7a7-0f3a-4999-8953-532542edd129)
+![foam-like material sculpted into a puzzle piece resembling a standing human](../../_assets/image-38146a97448b45690497.png)

@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   Material Design has three classes of tokens: [reference](/m3/pages/design-tokens/overview#6a0933c0-50f5-4dd6-b055-b7c4ff2c1535), [system](/m3/pages/design-tokens/overview#7f084930-cf5f-4b7e-b83c-614888f18a77), and [component](/m3/pages/design-tokens/overview#b4d6bb35-ee69-4908-bcb4-b33b0a1997e2)
 
-![FAB container color token in a design mock, code, and product](https://lh3.googleusercontent.com/c9vp62g9BTHZ795In-3SH01cvbjuaHUgu67bdrisAMsV34Z_J2DjSxlSbuJj1eKq_lp4na46QCwYpX0HTDXqYWAMdGDn272etcMj8QU__laE2A=s0)
+![FAB container color token in a design mock, code, and product](../../_assets/c9vp62g9BTHZ795In-3SH01cvbjuaHUgu67bdrisAMsV34Z_J2DjSxlSbuJj1eKq_lp4na46QCwYpX0H-5e32d25840a904d229f0.png)
 
 Using design tokens instead of hardcoded values can streamline the work of building, maintaining, and scaling products with a design system
 
@@ -42,7 +42,7 @@ A design token consists of 2 things:
 
 The token's value can be one of several things: A color, typeface, measurement, or even another token.
 
-![Token md.ref.palette.secondary90 with arrow pointing to lilac color swatch #E8DEF8.](https://lh3.googleusercontent.com/Bknc9M3GEXT1mJKs0VEe_nz3SYJfp1jIUTB9Zu7QfDehLklj2o8KiaX2bWYh0MO_IkzOyIKHXLW3xuIZaui8e2mKYCAOy8wzg6VYF-m-LAA=s0)
+![Token md.ref.palette.secondary90 with arrow pointing to lilac color swatch #E8DEF8.](../../_assets/Bknc9M3GEXT1mJKs0VEe_nz3SYJfp1jIUTB9Zu7QfDehLklj2o8KiaX2bWYh0MO_IkzOyIKHXLW3xuIZ-6510a85d9f88ac38fc13.png)
 
 Example of a reference token and its color value
 
@@ -50,7 +50,7 @@ Design tokens meaningfully connect style choices that would otherwise lack a cle
 
 For example, if a designer's mock-ups and an engineer's implementation both reference the same token for the “secondary container color,” then they can be confident that the same color is being used in both places. This applies even if the hex value assigned to that token gets updated.
 
-![Diagram of FAB indicating system tokens: Secondary for surface color and on secondary for icon color](https://lh3.googleusercontent.com/-2T43IjyCiZsBPO6YWZyjpxusIkShHOR9XwlIRkYdzfv821dNieHThO9QXoqXebE7OtOvUUWQ_5sS2A2uOB-J4sX3-15nngWQvDXuZCWej_Z=w40)![Diagram of FAB indicating system tokens: Secondary for surface color and on secondary for icon color](https://lh3.googleusercontent.com/-2T43IjyCiZsBPO6YWZyjpxusIkShHOR9XwlIRkYdzfv821dNieHThO9QXoqXebE7OtOvUUWQ_5sS2A2uOB-J4sX3-15nngWQvDXuZCWej_Z=s0)
+![Diagram of FAB indicating system tokens: Secondary for surface color and on secondary for icon color](../../_assets/2T43IjyCiZsBPO6YWZyjpxusIkShHOR9XwlIRkYdzfv821dNieHThO9QXoqXebE7OtOvUUWQ_5sS2A2u-91adf1cd46816e20e295.png)![Diagram of FAB indicating system tokens: Secondary for surface color and on secondary for icon color](../../_assets/2T43IjyCiZsBPO6YWZyjpxusIkShHOR9XwlIRkYdzfv821dNieHThO9QXoqXebE7OtOvUUWQ_5sS2A2u-4a96a968b8ec035f30c7.png)
 
 Example of tokens assigned to the secondary and on secondary color roles of a FAB’s container and icon, respectively
 
@@ -62,7 +62,7 @@ Because tokens are reusable and purpose-driven, they can define system-wide upda
 
 By using tokens for design and implementation, style updates propagate consistently through an entire product or suite of products. They also help designers and engineers "speak the same language,” reducing confusion during handoff from design to implementation.
 
-![Diagram of how changing the value of a token cascades from design system into a product area and 3 products](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fkudi7oge-kpzr9qtu-tokens-why-importan%20\(1\).gif?alt=media&token=142f8c9b-0d26-48b6-a660-800be473b1af)
+![Diagram of how changing the value of a token cascades from design system into a product area and 3 products](../../_assets/image-0190b543b189fb588600.gif)
 
 As design systems evolve, certain values will change. With design tokens, we can track changes and ensure consistency across our products.
 
@@ -88,7 +88,7 @@ With design tokens, you can now download, customize, and apply Material styles a
 
 Tokens allow decisions to be documented in a platform-agnostic and shareable format.
 
-![Diagram of design token connected to design tool and platform code](https://lh3.googleusercontent.com/EKKzA023VSYZyglmlsQaMzNiDHpIB7GJi0JYVqOaKoYpbScua34HgJLWUi4abFbFvL3Nl5Ysyw-VAdugxXzR-FU5zfZ-sZLWoBLr-r5wsRG6=w40)
+![Diagram of design token connected to design tool and platform code](../../_assets/EKKzA023VSYZyglmlsQaMzNiDHpIB7GJi0JYVqOaKoYpbScua34HgJLWUi4abFbFvL3Nl5Ysyw-VAdug-b6bf85f1b6bd6e251263.png)
 
 Design tokens provide a central repository for design choices, with a variety of integration points for engineers and designers
 
@@ -96,7 +96,7 @@ On this site, you’ll see tokens listed in interactive modules.
 
 These modules let you quickly look up the default baseline value stored by tokens for color, font, font size, font weight, etc. They also show the relationship between a role, its system token, reference token, and stored pre-set value.
 
-![A token module for the color system with 4 color swatches for the primary color set.](https://lh3.googleusercontent.com/MotwH3S7yKjoXqs5e2mDbXUwU6EoU3pN4RAnRIMDVOUnqoAO5PBSL5iEyu2fG7q7X25CjzVsYiNv1VoblTEfYAQgHZpX0Qd6iGZ5CcQcwhzC=w40)
+![A token module for the color system with 4 color swatches for the primary color set.](../../_assets/MotwH3S7yKjoXqs5e2mDbXUwU6EoU3pN4RAnRIMDVOUnqoAO5PBSL5iEyu2fG7q7X25CjzVsYiNv1Vob-4c88608fd8f6de0a9a7a.png)
 
 Example of a token module
 
@@ -111,7 +111,7 @@ Columns include:
 -   **Description** – Optional descriptive info
 -   **Context/value** – The value stored in the token for a given context
 
-![A token module for an elevated button organized by state (enabled, disabled, etc), then element (container, label text).](https://lh3.googleusercontent.com/blyXX25f2X086gJuC8nsR2Ka_UKdrEdTnHMwB0MmS5OhLAm6Mr1xJ_N1g_SA0SIdh38o_nKitS2dfo3clAVKc3EYFBodlpOScPWVLZQ7Axe-=w40)
+![A token module for an elevated button organized by state (enabled, disabled, etc), then element (container, label text).](../../_assets/blyXX25f2X086gJuC8nsR2Ka_UKdrEdTnHMwB0MmS5OhLAm6Mr1xJ_N1g_SA0SIdh38o_nKitS2dfo3c-96220827a3216ef02e02.png)
 
 The diagram and token module for elevated button
 
@@ -123,7 +123,7 @@ Navigate to Common buttons > Specs, find the token module for filled buttons, an
 
 Copy the color token and paste it in code, or compare it to the color role in Figma.
 
-![How to find the label text color token.](https://lh3.googleusercontent.com/fpDbiFzrd8uG-JaTJJ8KBzsUeKOAUj3BH8Iv9YwsxGwcB7-jSSf6a127iDeYKS-QvDaL5I6wymDQ8S80XZQCDmqL6uzFQ0rf1WPPWRwk7ta4=w40)
+![How to find the label text color token.](../../_assets/fpDbiFzrd8uG-JaTJJ8KBzsUeKOAUj3BH8Iv9YwsxGwcB7-jSSf6a127iDeYKS-QvDaL5I6wymDQ8S80-74eb425e499b1dcbe495.png)
 
 Diagram and token table for filled button label color
 
@@ -135,7 +135,7 @@ The parts of a token name are separated by periods and proceed from the most gen
 2.  An abbreviation for the token class: “ref” for reference tokens, “sys” for system tokens, and “comp” for component tokens
 3.  The token ends with descriptive words communicating the token’s role
 
-![Diagram of the 3 parts of a design token name: system prefix, token type, and role description](https://lh3.googleusercontent.com/ELaR3gkzDVBDyQd2BLSaPqSgYm-MbQfELTFmqL2bmbKNWZSWqkDcPmb8c8E68DbF5lVdaJkt7ZXnewSDAHd7NvqZ1K6HEb5VITuO1lsb0AZC=w40)
+![Diagram of the 3 parts of a design token name: system prefix, token type, and role description](../../_assets/ELaR3gkzDVBDyQd2BLSaPqSgYm-MbQfELTFmqL2bmbKNWZSWqkDcPmb8c8E68DbF5lVdaJkt7ZXnewSD-e5b86570677c84263dca.png)
 
 1.  Communicates design system
 2.  Communicates token class
@@ -154,7 +154,7 @@ There are three classes of tokens in Material:
 
 With three classes of tokens, teams can update design decisions globally or apply a change to a single component.
 
-![Color value stored in reference token stored in system token, stored in component token, appearing as the container color of a FAB](https://lh3.googleusercontent.com/-_3g9qggRt-nlWlYvWdW1T_gpm6ra7Rz9IPWjBjYYkhHJp1Vs0awKPz12P9QQdiwt5hIScJjfbbFeB4nwa0hYgocU0qWdCLOgPZ8ElWwuKqubQ=w40)
+![Color value stored in reference token stored in system token, stored in component token, appearing as the container color of a FAB](../../_assets/3g9qggRt-nlWlYvWdW1T_gpm6ra7Rz9IPWjBjYYkhHJp1Vs0awKPz12P9QQdiwt5hIScJjfbbFeB4nwa-0e9ab12384ae1bedf1f4.png)
 
 A button that receives its container color through a system of three tokens that define scalable color values. The color tokens point to a specific hex value that can easily change without impacting the token syntax.
 
@@ -168,7 +168,7 @@ By providing a list of options, reference tokens give your team a starting point
 
 All reference tokens start with the prefix **ref**.
 
-![Token md.ref.palette.secondary90 pointing to #E8DEF8. Toke md.ref.typeface.plain-medium pointing to Roboto Medium](https://lh3.googleusercontent.com/cDiHf197RUviZB0cVugMQ610kBthFcsT6dKRcL62hYeJKXztvKAbHkhYSZ6fG6llh29-wBpe9_LVeqJ709s9v4gRdyHBPxo7PlBfMEfYMYY=w40)
+![Token md.ref.palette.secondary90 pointing to #E8DEF8. Toke md.ref.typeface.plain-medium pointing to Roboto Medium](../../_assets/cDiHf197RUviZB0cVugMQ610kBthFcsT6dKRcL62hYeJKXztvKAbHkhYSZ6fG6llh29-wBpe9_LVeqJ7-232f37d45026c32bd528.png)
 
 Color and typography reference tokens and their values
 
@@ -184,7 +184,7 @@ Whenever possible, system tokens should point to reference tokens rather than st
 
 All system tokens start with the prefix **sys**.
 
-![System token md.sys.color.secondary-container pointing to token md.ref.palette.secondary90 pointing to #E8DEF8. System token md.sys.typescale.label-medium.font pointing to token md.ref.typeface.plain-medium pointing to Roboto Medium](https://lh3.googleusercontent.com/reBkkzgx8GvOAJHnEJX20XF1y-lxMvYAmVvySpWxhkHSkUX-oU_NAmLxDGPGgLMMnQ1KYkCdfe9EqHIYMddFYnHOY-YHW8rNEQRR_bn8mw4u2Q=w40)
+![System token md.sys.color.secondary-container pointing to token md.ref.palette.secondary90 pointing to #E8DEF8. System token md.sys.typescale.label-medium.font pointing to token md.ref.typeface.plain-medium pointing to Roboto Medium](../../_assets/reBkkzgx8GvOAJHnEJX20XF1y-lxMvYAmVvySpWxhkHSkUX-oU_NAmLxDGPGgLMMnQ1KYkCdfe9EqHIY-129354cc9a3f0f3b8ab4.png)
 
 System tokens, reference tokens, and their values
 
@@ -198,7 +198,7 @@ Not every stylistic choice of a component will be able to be expressed as a toke
 
 All component tokens start with the prefix **comp**. 
 
-![Extended FAB component tokens for container color and label text pointing to system tokens, pointing to reference tokens, pointing to resolved values](https://lh3.googleusercontent.com/FGD2VI87BOga9gqJRH3c_n5bOlpJ3fnEfaRcJrx3ewx6NmvRHK5pL4A2yba64JVgd5aDUzN9x_mQ3PDmUt6kBDNHKe26x4DmktH3m9Ubqr6S=w40)
+![Extended FAB component tokens for container color and label text pointing to system tokens, pointing to reference tokens, pointing to resolved values](../../_assets/FGD2VI87BOga9gqJRH3c_n5bOlpJ3fnEfaRcJrx3ewx6NmvRHK5pL4A2yba64JVgd5aDUzN9x_mQ3PDm-96feceba022333de34f9.png)
 
 Component tokens, system tokens, reference tokens, and their values
 
@@ -210,6 +210,6 @@ Examples of different contexts include: device form factors, dark theme, dense l
 
 You can think of a context as a kind of tag. If a token value is tagged with dark theme then it will override the default token value in a dark theme context.
 
-![Diagram of system token for background color pointing to different values depending on the theme context](https://lh3.googleusercontent.com/Zcuumtw10MHbA9FVmp00u1rqG--CKiX0l92dlLyWwXv9dJ3aTEEUsO98MkMRHlNEKjNWZ3s74t0ckaAbEt37HBwkBaS2FRk10ArgeVN5l2NDvQ=w40)
+![Diagram of system token for background color pointing to different values depending on the theme context](../../_assets/Zcuumtw10MHbA9FVmp00u1rqG--CKiX0l92dlLyWwXv9dJ3aTEEUsO98MkMRHlNEKjNWZ3s74t0ckaAb-0a461721ae8bd558ab24.png)
 
 The same system token for background color can point to different reference tokens depending on the context: Light theme or dark theme

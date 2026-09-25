@@ -16,7 +16,7 @@ captured: 2026-09-14
 
 -   Option to apply a wave to the active track for use cases that would benefit from increased expressiveness
 
-![8 progress indicators configured to show different thickness and shape.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmleotj2q-01.png?alt=media&token=8d1f2405-86ed-4634-8847-af33a549410d)
+![8 progress indicators configured to show different thickness and shape.](../../_assets/mleotj2q-01-0586462c6a91b95edabd.png)
 
 Linear and circular progress indicators have visual configurations for shape and thickness
 
@@ -60,7 +60,7 @@ Progress indicators have a new rounded, colorful style, and more configurations 
 -   Motion: New motion behavior
 -   Shape: Rounded corners
 
-![GM3 linear and circular progress indicators](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmleov4bo-03.png?alt=media&token=ec54810c-b325-4dd1-a547-b66d15d3b260)
+![GM3 linear and circular progress indicators](../../_assets/mleov4bo-03-bf6aa274ce90e21e85f6.png)
 
 Progress indicators have a new rounded, colorful style
 
@@ -70,10 +70,10 @@ Progress indicators have a new rounded, colorful style
 
 -   **Color:** New color mappings and compatibility with dynamic color
 
-![M2 linear and circular progress indicators.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c2if7i-04.png?alt=media&token=2cccabb4-c40c-4db4-9321-51c34cae3d25)
+![M2 linear and circular progress indicators.](../../_assets/m0c2if7i-04-e27837adebbd6c2e9d2b.png)
 
 M2: Progress indicators have a boxier, neutral style
 
-![M3 linear and circular progress indicators.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c2jf26-05.png?alt=media&token=2ee132f7-2c47-46e2-8826-910fbdfe4547)
+![M3 linear and circular progress indicators.](../../_assets/m0c2jf26-05-a4d36b71d6be34da65bc.png)
 
 M3: Progress indicators are compatible with dynamic color

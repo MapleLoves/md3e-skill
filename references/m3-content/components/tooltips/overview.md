@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   Rich tooltips can include an optional title, link, and buttons
 
-![2 variants of tooltips.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6q4295-01.png?alt=media&token=103d96af-908d-4764-9169-910ec6d9ad26)
+![2 variants of tooltips.](../../_assets/me6q4295-01-cb496c8bbfc08964d1f7.png)
 
 1.  Plain tooltip
 2.  Rich tooltip
@@ -54,10 +54,10 @@ Close
 
 -   **Shape**: Rich tooltips Rich tooltips provide additional context about a UI element. They can optionally contain a subhead, buttons, and hyperlinks. have more rounded corners
 
-![GM2 rich tooltip.](https://lh3.googleusercontent.com/eJToL16cXcvuWuH7Ajb0sRtM7yFr6qMf_tbIdsR5hAfrIRinT4UfyLsr2Me5goaDHO1RAXuagPp28FvTXNegY6hZ64NOupwt14CTLHZZjsKk=s0)
+![GM2 rich tooltip.](../../_assets/eJToL16cXcvuWuH7Ajb0sRtM7yFr6qMf_tbIdsR5hAfrIRinT4UfyLsr2Me5goaDHO1RAXuagPp28FvT-6eda20591556f63b3469.png)
 
 M2: Rich tooltips have slightly rounded corners
 
-![GM3 rich tooltip.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6q4dmm-03.png?alt=media&token=3e7f1900-0e76-458f-a6dd-e226fe64a633)
+![GM3 rich tooltip.](../../_assets/me6q4dmm-03-c52ee7bdf720ff766628.png)
 
 M3: Rich tooltips have more rounded corners and support dynamic color

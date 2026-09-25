@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Switches toggle the selection of an item on and off
 
-![3 elements of a switch.](https://lh3.googleusercontent.com/a4JkZitJC-KZ1qxKfHvM-B2tuC0JqMsA08tY-fRrBhlXDf6JpvjpQD9IAZ0_zg-R1E0tvzAst-VwpSYDGUkfGABeKMCgHcAtXPwan6iiuNILhA=s0)
+![3 elements of a switch.](../../_assets/a4JkZitJC-KZ1qxKfHvM-B2tuC0JqMsA08tY-fRrBhlXDf6JpvjpQD9IAZ0_zg-R1E0tvzAst-VwpSYD-d7049208846e92013427.png)
 
 1.  Track 
 2.  Handle (formerly "thumb")
@@ -28,7 +28,7 @@ Close
 
 Color values are implemented through design tokens Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code. [More on tokens](/m3/pages/design-tokens/overview) . For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. [Learn more about design tokens](/m3/pages/design-tokens/overview/)
 
-![6 color roles of a switch in light and dark themes.](https://lh3.googleusercontent.com/0fyIBhV6SPL8tV1Vk7CtpveaYQ1-am9tJ41EVA-QaywC5FoZ6CmY7Cevkh6gG8HklU2Ojaj4r0d4Po-J0MEVg2VLPzYo1R2FUey0lcFBTu-0=s0)
+![6 color roles of a switch in light and dark themes.](../../_assets/0fyIBhV6SPL8tV1Vk7CtpveaYQ1-am9tJ41EVA-QaywC5FoZ6CmY7Cevkh6gG8HklU2Ojaj4r0d4Po-J-ced3e93b0cd8c775c70a.png)
 
 Switch color roles used for light and dark themes:
 
@@ -43,7 +43,7 @@ Switch color roles used for light and dark themes:
 
 Use the color role Color roles are assigned to UI elements based on emphasis, container type, and relationship with other elements. This ensures proper contrast and usage in any color scheme. [More on color roles](/m3/pages/color-roles) **on surface** for adjacent text labels. This remains the same even if interacting with the label or component.
 
-![The large body text adjacent to switches uses "on surface" color and the body text uses "on surface variant."](https://lh3.googleusercontent.com/0Xmcv7IiazLYf6Bpg_WWIU0Cnp32mkTymcUwcgN2QxXbvz2KyCIvTMXDW4sOR-m-jzDd4IO3aHqdSxaX4k73lKiVHr3mTXpkCBztSv60pJTM=w40)![The large body text adjacent to switches uses "on surface" color and the body text uses "on surface variant."](https://lh3.googleusercontent.com/0Xmcv7IiazLYf6Bpg_WWIU0Cnp32mkTymcUwcgN2QxXbvz2KyCIvTMXDW4sOR-m-jzDd4IO3aHqdSxaX4k73lKiVHr3mTXpkCBztSv60pJTM=s0)
+![The large body text adjacent to switches uses "on surface" color and the body text uses "on surface variant."](../../_assets/0Xmcv7IiazLYf6Bpg_WWIU0Cnp32mkTymcUwcgN2QxXbvz2KyCIvTMXDW4sOR-m-jzDd4IO3aHqdSxaX-d364c8ef507b9dd9898a.png)![The large body text adjacent to switches uses "on surface" color and the body text uses "on surface variant."](../../_assets/0Xmcv7IiazLYf6Bpg_WWIU0Cnp32mkTymcUwcgN2QxXbvz2KyCIvTMXDW4sOR-m-jzDd4IO3aHqdSxaX-994457985023ef0998e8.png)
 
 The text label uses **on surface**. Supporting text may use **on surface variant**.
 
@@ -51,7 +51,7 @@ The text label uses **on surface**. Supporting text may use **on surface varian
 
 States States show the interaction status of a component or UI element. [More on states](/m3/pages/interaction-states/overview) are visual representations used to communicate the status of a component or interactive element. [Learn more about interaction states](/m3/pages/interaction-states)
 
-![5 states of a switch shown in light and dark themes.](https://lh3.googleusercontent.com/PnpKeMQPpfXYol0STNFLWY--Fet6iOSy9Skw-SxaiktaHsBbPbHkXNl2RX7aLYHsrUbIN8LwPshZzNEQF4AM1vqbj70iiVmdzzvwC69U64M=w40)
+![5 states of a switch shown in light and dark themes.](../../_assets/PnpKeMQPpfXYol0STNFLWY--Fet6iOSy9Skw-SxaiktaHsBbPbHkXNl2RX7aLYHsrUbIN8LwPshZzNEQ-07829cd0b85f293b9e2f.png)
 
 1.  Enabled 
 
@@ -67,19 +67,19 @@ States States show the interaction status of a component or UI element. [More on
 
 ## Measurements
 
-![Measurements of switches without icons.](https://lh3.googleusercontent.com/QjZaSle3gkHOtKy1j-YDhEIIdbjF3_Uy3kVXdJnmx7F4Gt-Af66rcmJpNFIKXrGIUg2NSEb9U4UAJ8kx1s50G9oIbfq_7fphlO8MoJd15uLp=w40)
+![Measurements of switches without icons.](../../_assets/QjZaSle3gkHOtKy1j-YDhEIIdbjF3_Uy3kVXdJnmx7F4Gt-Af66rcmJpNFIKXrGIUg2NSEb9U4UAJ8kx-79aa04a4957c9494758c.png)
 
 Switches without icons
 
-![Measurements of pressed switches without icons.](https://lh3.googleusercontent.com/vFaJZa1Ic9jL9_q6ayhWZw_21xhx2LeDKKJpLRhHisCUpo7tFW-cIHTOdD0mj75_m3ov2BhZQavFK8SqEkAm04X8rP8hE2YynD5so_vjZeev=w40)
+![Measurements of pressed switches without icons.](../../_assets/vFaJZa1Ic9jL9_q6ayhWZw_21xhx2LeDKKJpLRhHisCUpo7tFW-cIHTOdD0mj75_m3ov2BhZQavFK8Sq-0c5a9ce0f6188188b163.png)
 
 Pressed switches without icons
 
-![Measurements of switches with icons.](https://lh3.googleusercontent.com/pOvYPjVd1P1HEOyZPLp4jziQmmbT5uMefs4zGCMSHg-fiRFgzXIeAz75RDSyfyZSu3yObf70vL6iiPgRVQtzDTWj8rZVaCR87l-gWjdz66Pr=w40)
+![Measurements of switches with icons.](../../_assets/pOvYPjVd1P1HEOyZPLp4jziQmmbT5uMefs4zGCMSHg-fiRFgzXIeAz75RDSyfyZSu3yObf70vL6iiPgR-6ac08bc2759c4f1f1287.png)
 
 Switches with icons
 
-![Measurements of pressed switches with icons.](https://lh3.googleusercontent.com/wZm_0fDk5iJbWdd6SZL2P6FkEw8Q94mZ9g0laAAb99hOsR4dk08iyhObA6p4OuqUuf8azFV_9Th006NHGZu2A8nw71qCl-DB_SRYOMAeIN4bHQ=w40)
+![Measurements of pressed switches with icons.](../../_assets/wZm_0fDk5iJbWdd6SZL2P6FkEw8Q94mZ9g0laAAb99hOsR4dk08iyhObA6p4OuqUuf8azFV_9Th006NH-674573405b1f23ce46c8.png)
 
 Pressed switches with icons
 
@@ -110,4 +110,4 @@ Pressed switches with icons
 2.  Icon on selected switch
 3.  Icon on selected and unselected switch
 
-![3 example switches with and without icons in on and off states. ](https://lh3.googleusercontent.com/yZbAEZRgNI6uOkunAfaXCx8NAExJ8RsY6DkIjWJMH0DanJdyakTEzO8YFyw1bd3AZdvfJv229_maPQKBRGGddH4NZm7PsouKM_oTEBs3-Bin=w40)
+![3 example switches with and without icons in on and off states. ](../../_assets/yZbAEZRgNI6uOkunAfaXCx8NAExJ8RsY6DkIjWJMH0DanJdyakTEzO8YFyw1bd3AZdvfJv229_maPQKB-e3241e011f6497da5802.png)

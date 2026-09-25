@@ -14,7 +14,7 @@ Editorial treatments are standalone, showcase moments driven by type. They invol
 
 In the expressive system, editorial treatments can be combined with elements such as motion, shape, or color, to create product-wide hero moments.
 
-![A series of editorial moments making dynamic use of type, including a calculator, lock screen, and temperature.](https://lh3.googleusercontent.com/ev53UZRK0CWfnDhs22jim_yhZFnSolBEPg5IwuUJGgwWnqZA3iT58c-MAmi7YIOejurCjFd0EYTpAZ1POQsLbGMtdLiHE9gZMvp3csxwtt4T=s0)
+![A series of editorial moments making dynamic use of type, including a calculator, lock screen, and temperature.](../../_assets/ev53UZRK0CWfnDhs22jim_yhZFnSolBEPg5IwuUJGgwWnqZA3iT58c-MAmi7YIOejurCjFd0EYTpAZ1P-721708f85edf527f6154.png)
 
 In editorial treatments, type can freely dominate the screen
 
@@ -28,7 +28,7 @@ Editorial treatments can dramatically take over the screen to mark a particular 
 
 Try matching the text to the tone of the product or a strong emotion, like a narrow, thin style for serenity, or a bolder, italicized style for liveliness.
 
-![Large type reading “Mesa Verde National Park” with a hiker in the foreground.](https://lh3.googleusercontent.com/_f96Z-GV-cAbQmpKCj-Keg6s4rM6TfNLrZzkjpFVRS2wnACMbvScj90pXQqDVkQsrXv3HuwAPI2GoFFbLjYhfTlFp66pmIY7VFy7BBxvwglCCA=w40)![Large type reading “Mesa Verde National Park” with a hiker in the foreground.](https://lh3.googleusercontent.com/_f96Z-GV-cAbQmpKCj-Keg6s4rM6TfNLrZzkjpFVRS2wnACMbvScj90pXQqDVkQsrXv3HuwAPI2GoFFbLjYhfTlFp66pmIY7VFy7BBxvwglCCA=s0)
+![Large type reading “Mesa Verde National Park” with a hiker in the foreground.](../../_assets/f96Z-GV-cAbQmpKCj-Keg6s4rM6TfNLrZzkjpFVRS2wnACMbvScj90pXQqDVkQsrXv3HuwAPI2GoFFbL-093672f09f7644403bbd.png)![Large type reading “Mesa Verde National Park” with a hiker in the foreground.](../../_assets/f96Z-GV-cAbQmpKCj-Keg6s4rM6TfNLrZzkjpFVRS2wnACMbvScj90pXQqDVkQsrXv3HuwAPI2GoFFbL-c9b3b12a95a4d4394846.png)
 
 Use an exuberant cover image for a photo album, here shown with Roboto Flex
 
@@ -38,7 +38,7 @@ Express the voice of the user by letting them personalize the appearance of typo
 
 Use customization selectively to frame a user’s mood and make it stand out.
 
-![A text exchange in which one party is responding enthusiastically in extremely large letters.](https://lh3.googleusercontent.com/aIWtxiI3mObxA5vNa0tgNA8a89V2FRGKJIPDwOFDDjqkYNShmdmFAnqptxLK4bmFCFEPvZSZw9vJ2dWwT_R00KolfVj8le1Iu-yZexlmpimB9Q=w40)
+![A text exchange in which one party is responding enthusiastically in extremely large letters.](../../_assets/aIWtxiI3mObxA5vNa0tgNA8a89V2FRGKJIPDwOFDDjqkYNShmdmFAnqptxLK4bmFCFEPvZSZw9vJ2dWw-2e82ccde1eedf26ce8df.png)
 
 A response with the right type treatment can convey ecstatic emotion. Here, the text is shown in Roboto Flex and PT Serif Caption.
 
@@ -46,7 +46,7 @@ A response with the right type treatment can convey ecstatic emotion. Here, the 
 
 Editorial treatments can also be used to help express moments of unique functionality within the product experience.
 
-![A slider to adjust bedroom lights. The characters increase in width and weight as the brightness is increased.](https://lh3.googleusercontent.com/MOKMcp4KQUKuarOagUBezjsmfRUftgg4bZuIe7ss8B-RpdEBvAAintWivpRfcCCukxxgqDKpP3EoaJLD6HfOEg3KMQBlEK2n-NRxLLWcqFEmJQ=w40)
+![A slider to adjust bedroom lights. The characters increase in width and weight as the brightness is increased.](../../_assets/MOKMcp4KQUKuarOagUBezjsmfRUftgg4bZuIe7ss8B-RpdEBvAAintWivpRfcCCukxxgqDKpP3EoaJLD-b7142b5029cc94746a8a.png)
 
 The increase in the bedroom light brightness prompts an algorithmic response in the width and weight axes
 
@@ -61,13 +61,13 @@ These best practices include:
 -   Not mixing multiple or clashing styles in the same layout
 -   Not mimicking personalization theming
 
-![A UI showing two instances of editorial treatments with consistent styling.](https://lh3.googleusercontent.com/Hq2u6GmGN0yhP8it7ZGnfq7l-Sz8WJI9dtf_X2yoQcR-bABUUYLFkSvA5u2Kwg8UsW4eFmWsLfHVvLYPYnvkGk5aHUKtOgxhqOrLE4hqQy33=w40)
+![A UI showing two instances of editorial treatments with consistent styling.](../../_assets/Hq2u6GmGN0yhP8it7ZGnfq7l-Sz8WJI9dtf_X2yoQcR-bABUUYLFkSvA5u2Kwg8UsW4eFmWsLfHVvLYP-f68649dde1ef11785b07.png)
 
 check Do
 
 Create tokens for editorial treatments to apply them consistently in your product
 
-![A UI featuring a name in which the first is using a different custom type treatment than the last.](https://lh3.googleusercontent.com/cgEb-7BELW0DgVCVjNDR09llaf4g6CODZmX1BFJMIFGgYjW_799tmagHG-VY3DONxmeawi1nOji7NiZqi2oLYuz3Dn3TIr0Sxj8q4iSdMlxG=w40)
+![A UI featuring a name in which the first is using a different custom type treatment than the last.](../../_assets/cgEb-7BELW0DgVCVjNDR09llaf4g6CODZmX1BFJMIFGgYjW_799tmagHG-VY3DONxmeawi1nOji7NiZq-67b16129a5223f6832b6.png)
 
 exclamation Caution
 
@@ -85,17 +85,17 @@ If the typeface is variable, it provides a full, continuous range of stroke thic
 
 [Learn more about weight on Google Fonts](https://fonts.google.com/knowledge/choosing_type/exploring_typefaces_with_multiple_weights_or_grades)
 
-![Many examples of Roboto Flex weights.](https://lh3.googleusercontent.com/_ZH0Kaelt3AZp6-KW-_8iAzJpqXcmjFDowWlVM8kdesekBF7fRPS7YoVYtNw7CBck4R4YUGb-tPiDMqwGJeK8qtEb9JscawmvErJ9mTZ09Q=w40)
+![Many examples of Roboto Flex weights.](../../_assets/ZH0Kaelt3AZp6-KW-_8iAzJpqXcmjFDowWlVM8kdesekBF7fRPS7YoVYtNw7CBck4R4YUGb-tPiDMqwG-1adf0b4ee77659c84273.png)
 
 A variable font, Roboto Flex offers a fluid range of weights
 
-![Light text in use as body text.](https://lh3.googleusercontent.com/c_gKfZUEwNoMuE_swIkrig6cXFWytTkRd1ZgI2m5mVSsJBiEc9TTlcy0CLJ8HlIEfj4ZfunjBfob6jM0h0oC9hny61MIjrECjNBRSbT2WBE0=w40)
+![Light text in use as body text.](../../_assets/c_gKfZUEwNoMuE_swIkrig6cXFWytTkRd1ZgI2m5mVSsJBiEc9TTlcy0CLJ8HlIEfj4ZfunjBfob6jM0-f2776b7d524dc34be279.png)
 
 exclamation Caution
 
 Be careful when using very light weight for body text. Lower-resolution displays can struggle to show thin typography, especially at small sizes. Instead, consider lighter weights at larger font sizes, such as display type.
 
-![Navigation bar using bold typography for label text, making it challenging to read.](https://lh3.googleusercontent.com/JxEboJh8oUw3JAa08wTj7Yl8CndLBoOChr9amAJTMlo2v6WBmFGEqQwYMI54QJPq3D0mNC9mpltggO0NWeOato8W2AUEH_x5_APOOUkGX4w=w40)
+![Navigation bar using bold typography for label text, making it challenging to read.](../../_assets/JxEboJh8oUw3JAa08wTj7Yl8CndLBoOChr9amAJTMlo2v6WBmFGEqQwYMI54QJPq3D0mNC9mpltggO0N-a12e8d3786de6eb7e176.png)
 
 exclamation Caution
 
@@ -107,15 +107,15 @@ Grade is a secondary modifier of a typeface’s optical weight, independent of t
 
 [Learn more about grade on Google Fonts](https://fonts.google.com/knowledge/choosing_type/exploring_typefaces_with_multiple_weights_or_grades)
 
-![Three ampersands set in Roboto Flex without grade over Roboto Flex with 150 grade.](https://lh3.googleusercontent.com/3HqXaLryPKUIj1IaC5Rfnzdcj2s1OVUJKRqjKUBPXN3TB9Q4x_1sCfQcEmsNsb0CI5OHaSGT-IugniC48bWebADFxLnygmoQp10QlzBHNPc=w40)
+![Three ampersands set in Roboto Flex without grade over Roboto Flex with 150 grade.](../../_assets/3HqXaLryPKUIj1IaC5Rfnzdcj2s1OVUJKRqjKUBPXN3TB9Q4x_1sCfQcEmsNsb0CI5OHaSGT-IugniC4-a9d384858194864fc90a.png)
 
 Roboto Flex offers a positive grade of 150 and a negative grade of 200
 
-![A light and dark screen each showing the letter B.](https://lh3.googleusercontent.com/nNOT6dZnhO35p9L6JJOMBGxqzuugbja6Bm13PdwoVG5JRWeRH9SY7gs5R929Q4Mn97C6VxJ0ZzG8so1MbJ0dKH2iLgPJqCWkkQqNzvmlyUM=w40)
+![A light and dark screen each showing the letter B.](../../_assets/nNOT6dZnhO35p9L6JJOMBGxqzuugbja6Bm13PdwoVG5JRWeRH9SY7gs5R929Q4Mn97C6VxJ0ZzG8so1M-f9fcb3078f42951a87a5.png)
 
 When switching between dark and light mode, the same text may appear heavier despite having the same settings. Consider using a negative grade to counteract this.
 
-![A list of amenities where the filter chip for “Elevator” and “Cats OK” are selected and have a heavier grade applied.](https://lh3.googleusercontent.com/GPx4clVPV4vwGL6n3YNWAOYKhjSlFdl5OkrPdr5P-DM2-QVqrcHiU_DDT2OfiqaN3UsVXr_nDftRzvLDJZBAeb3UQCqy3jVaFDOSuXItueSN=w40)
+![A list of amenities where the filter chip for “Elevator” and “Cats OK” are selected and have a heavier grade applied.](../../_assets/GPx4clVPV4vwGL6n3YNWAOYKhjSlFdl5OkrPdr5P-DM2-QVqrcHiU_DDT2OfiqaN3UsVXr_nDftRzvLD-8b6f68461256c52bd59d.png)
 
 Grade can change the emphasis without reflowing text
 
@@ -127,17 +127,17 @@ A narrow width allows more characters to fit per line while a wider width may of
 
 [Learn more about width on Google Fonts](https://fonts.google.com/knowledge/glossary/width)
 
-![The letter ‘N’, set in Roboto Flex, rendered in varying widths.](https://lh3.googleusercontent.com/fcsjvoTZQgt3S4tEgcJeKkFdxwB7j0kq4rPwSzLExgjzb5GXXaI46dDHnYhSnpdXubMSsV60bO7gd0FHWMHX1neKkRNqysx6pndBj6cYfMSzYg=w40)
+![The letter ‘N’, set in Roboto Flex, rendered in varying widths.](../../_assets/fcsjvoTZQgt3S4tEgcJeKkFdxwB7j0kq4rPwSzLExgjzb5GXXaI46dDHnYhSnpdXubMSsV60bO7gd0FH-ee869c8ce193b7b485b1.png)
 
 Roboto Flex offers a fluid range of widths, from 25 to 150
 
-![A bottom navigation bar with four icons using narrow label text under the icons.](https://lh3.googleusercontent.com/U2pTAHsQjDUKou_PgGuB99jyO_WaBdo3P287QfNNh-mh8zKncXzsZlscbMtSinYtKxkOVd_atokOqK3DAJxl_oa97CvlIdN6yuSeyi4UtH3a7w=w40)
+![A bottom navigation bar with four icons using narrow label text under the icons.](../../_assets/U2pTAHsQjDUKou_PgGuB99jyO_WaBdo3P287QfNNh-mh8zKncXzsZlscbMtSinYtKxkOVd_atokOqK3D-79837956008fff051308.png)
 
 check Do
 
 A thinner width can allow for more characters to fit at small sizes, such as in a label
 
-![Top app bar with the title best thrift stores in wide type next to three icons.](https://lh3.googleusercontent.com/iedj4O9hpECTR7nWovYfgsGQE7EsIUxodkH8BdtsXlgJNExF-6VUqjo_DFpfRYt5NW-3tCT1ajOGORVqMO3eFrDG-N2GtNwsNc4teoGITws6-g=w40)
+![Top app bar with the title best thrift stores in wide type next to three icons.](../../_assets/iedj4O9hpECTR7nWovYfgsGQE7EsIUxodkH8BdtsXlgJNExF-6VUqjo_DFpfRYt5NW-3tCT1ajOGORVq-e18005b6d55e4c466c3a.png)
 
 close Don’t
 
@@ -151,17 +151,17 @@ Small size designs focus on enhancing readability, while large size designs can 
 
 [Learn about choosing typefaces that have optical sizes.](https://fonts.google.com/knowledge/choosing_type/choosing_typefaces_that_have_optical_sizes)
 
-![The word hello at a small optical size overlaid over the word hello at a large optical size.](https://lh3.googleusercontent.com/q145wn11t-bnGKRS9FqXq2XgXL2_zm_vcdzXtRMQj6lhcDjnhss8l3-z4BdWwmrhezO-Nuy-Kyioo2GNnuAhDS0PE8v96c3rxursoJNbhyEK=w40)
+![The word hello at a small optical size overlaid over the word hello at a large optical size.](../../_assets/q145wn11t-bnGKRS9FqXq2XgXL2_zm_vcdzXtRMQj6lhcDjnhss8l3-z4BdWwmrhezO-Nuy-Kyioo2GN-57b59ca321ee51831fb3.png)
 
 The typeface Literata has a continuous range of optical size, from 7pt to 72pt
 
-![The words “massive” and “tiny” with optical sizes that match their type size.](https://lh3.googleusercontent.com/dndDtroXkLO4HSXTtHRwG2SGuUY5X_BhDYYv3jVs6_d73j60NzIiwsuvE3w6uVRulU5gkaab4RGqqcAK2IkHmT72DFVDkQPAUnfL0c2uz4Xi=w40)
+![The words “massive” and “tiny” with optical sizes that match their type size.](../../_assets/dndDtroXkLO4HSXTtHRwG2SGuUY5X_BhDYYv3jVs6_d73j60NzIiwsuvE3w6uVRulU5gkaab4RGqqcAK-0de9f96f7a046ec1c8d5.png)
 
 check Do
 
 Use an optical size that matches your type size
 
-![Two paragraphs of text set with an optical size larger than the type size.](https://lh3.googleusercontent.com/Dok3HjtThxwrT-s81brs9uAb9koXEA6Zt3CIi-27BWQmypqPMzDfVNYfsrXLmsj43ppF4tN9Z8ouvK2M8GP8TTFT7tqzO17UGdbsRnVpDbJnSA=w40)
+![Two paragraphs of text set with an optical size larger than the type size.](../../_assets/Dok3HjtThxwrT-s81brs9uAb9koXEA6Zt3CIi-27BWQmypqPMzDfVNYfsrXLmsj43ppF4tN9Z8ouvK2M-b4295d6c2d7089e0084c.png)
 
 close Don’t
 

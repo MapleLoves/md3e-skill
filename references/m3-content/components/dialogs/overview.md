@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   Commonly used to confirm high-risk actions like deleting progress
 
-![Basic and full-screen dialog.](https://lh3.googleusercontent.com/6kWyLPu-M7uuqJv2DLtnQd6MuRy2S5Pu5MzM-Q54y9MiOOFlX-2CLU9r1lATTgQLiUR7hUB2pBSVzT5qyoe9A3T1TWQ-3WOG9V50IM33Jkt3fg=s0)
+![Basic and full-screen dialog.](../../_assets/6kWyLPu-M7uuqJv2DLtnQd6MuRy2S5Pu5MzM-Q54y9MiOOFlX-2CLU9r1lATTgQLiUR7hUB2pBSVzT5q-8b07693e4a81c7ba60df.png)
 
 1.  Basic dialog
 2.  Full-screen dialog
@@ -45,6 +45,6 @@ Close
 -   Shape: Increased corner-radius
 -   Typography: Larger and darker headline
 
-![Basic dialog with rounded corner, larger headline.](https://lh3.googleusercontent.com/q8W8RpwCCScus4cQl-dtCeOGIWywtLjjCh3cFLmwYvEpaaKbny2HwDpi7qmX4qLlO9nOlnP5F0TYG8TozuGaZNbIis9Nu2zoaa806nkO-Wo=s0)
+![Basic dialog with rounded corner, larger headline.](../../_assets/q8W8RpwCCScus4cQl-dtCeOGIWywtLjjCh3cFLmwYvEpaaKbny2HwDpi7qmX4qLlO9nOlnP5F0TYG8To-c496495e0de304365fa1.png)
 
 New updates to color, layout, position, shape, and typography

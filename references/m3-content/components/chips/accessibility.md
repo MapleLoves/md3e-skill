@@ -22,7 +22,7 @@ The chip label needs at least 3:1 contrast with the background.
 
 A chip that performs an action should present the same semantics as a button Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) to a platform's accessibility API.
 
-![The chip label needs to pass 3:1 contrast.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm99z66s4-01.png?alt=media&token=f43b4651-be9f-4a1a-a7d2-4658f1096a47)
+![The chip label needs to pass 3:1 contrast.](../../_assets/m99z66s4-01-42035becc5771ea859b5.png)
 
 High contrast helps differentiate chips clustered together
 
@@ -67,7 +67,7 @@ To ensure that this density setting can be easily reverted when it's active, kee
 
 The accessibility label for a chip is the chip's label text. Additional actions, like remove, are labeled separately.
 
-![Accessibility tags for a chip.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmderzcwe-02.png?alt=media&token=75d7c645-1d21-4915-8290-080815f8529c)
+![Accessibility tags for a chip.](../../_assets/mderzcwe-02-2f93d0d1f8d08a3ee2bd.png)
 
 Accessibility tags should include both the label and role
 
@@ -75,7 +75,7 @@ Accessibility tags should include both the label and role
 
 For multi-select chip sets, **Space** or **Enter** will select the focused chip and allow you to select all of the chips. **Space** or **Enter** will also deselect a focused selected chip. 
 
-![Accessibility tags for a multi-select chip.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmderoau5-25.png?alt=media&token=16369c04-2f10-46eb-b761-0d25cd0b85c7)
+![Accessibility tags for a multi-select chip.](../../_assets/mderoau5-25-e955111e41b9c25a93e9.png)
 
 While multiple chips can be selected, only one can be in focus
 
@@ -85,7 +85,7 @@ The accessibility label should align with each list item’s text label. 
 
 For list items with text and an icon, the accessibility label should be marked as decorative to avoid redundant verbalizations.
 
-![Accessibility tags for a drop-down list chip.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd78nzr3-04.png?alt=media&token=4e0b3550-1e77-44ea-82a9-cfafaacadf98)
+![Accessibility tags for a drop-down list chip.](../../_assets/md78nzr3-04-1d8545f7507ca056e32b.png)
 
 The accessibility label should be the text label
 
@@ -98,7 +98,7 @@ Each chip is a focusable element. 
 -   If a chip only has a remove icon, the entire chip and icon are one focusable element. 
 -   If a chip has a second action, like select, then the chip content and remove icon are two separate focusable elements.
 
-![A focused remove action within a chip.](https://lh3.googleusercontent.com/6ogPU6jU6ecd-bIOHVBsztMIVbrMh9QFdEYLITFw2dbd9atxkbPCtGrNHZfykUnYCCmQUR4-XY9KTUDAeDG3GCh60nDvFFCG41_E8r2o88yq=w40)
+![A focused remove action within a chip.](../../_assets/6ogPU6jU6ecd-bIOHVBsztMIVbrMh9QFdEYLITFw2dbd9atxkbPCtGrNHZfykUnYCCmQUR4-XY9KTUDA-e765238a1e63ae527ada.png)
 
 The remove action is focused when the chip can also be selected
 
@@ -110,13 +110,13 @@ Use one of the following methods: 
 
 -   Add a label before the chip group suggesting interaction, such as **Select type**
 
-![Label saying “Select type” above a series of chips, with “Extra soft” selected.](https://lh3.googleusercontent.com/gkYkp2thJm8NuXg0WkQDTthTjMCckk44U7U8HKxA322oYbQbIfE60aLw8mRpl4zG3yP9iM7xRKvISOEvSe0IzALT4v90lUxmkhX8Gk7tgYVg=w40)
+![Label saying “Select type” above a series of chips, with “Extra soft” selected.](../../_assets/gkYkp2thJm8NuXg0WkQDTthTjMCckk44U7U8HKxA322oYbQbIfE60aLw8mRpl4zG3yP9iM7xRKvISOEv-fe47c1316caf65486e39.png)
 
 Labels introducing a chip group can indicate that they are selectable
 
 -   Provide interactive page context, such as **Filter results**, indicating chips can be selected to narrow results
 
-![Page context saying “Filter results” above chips listing different categories.](https://lh3.googleusercontent.com/jEO4v0siZwhGUJRWwN3qHEggxZU7YO42T-yV1X2_7zuBm9bW_mHSE1cJ1U2YAh6fDxdvjv10zK9Jzn9tbNH7qdhR7ftNlEZUoNmMlN4oCjcPQg=w40)
+![Page context saying “Filter results” above chips listing different categories.](../../_assets/jEO4v0siZwhGUJRWwN3qHEggxZU7YO42T-yV1X2_7zuBm9bW_mHSE1cJ1U2YAh6fDxdvjv10zK9Jzn9t-5fc9b3078082a8ded799.png)
 
 Page context can indicate how search results will be narrowed by selecting chips
 
@@ -124,10 +124,10 @@ Page context can indicate how search results will be narrowed by selecting chips
 
 -   Include an interactive chip label, such as **Turn on lights**, or leading icon
 
-![A selectable chip with more pronounced outline stroke.](https://lh3.googleusercontent.com/3mkdqveEbxIinncg25_qmQvewzApIKUm8jK3Nml2ratbJLBLBhBUCNYcrGFsb-7nevBxFssZdACgsezFIgK8Rh_1MrIi8kmE2fxWpLg1iDSQ=w40)
+![A selectable chip with more pronounced outline stroke.](../../_assets/3mkdqveEbxIinncg25_qmQvewzApIKUm8jK3Nml2ratbJLBLBhBUCNYcrGFsb-7nevBxFssZdACgsezF-922c375e8bd63ded5052.png)
 
 Chips can show they are interactive with a darker outline color stroke
 
-![A chip labeled “Turn on lights” with a leading icon related to lights.](https://lh3.googleusercontent.com/-PJSF2Rl5Xam0GLsqoqkWXhm3VNqDgZh7B3Ck1pLkVFTuPzwhSR9H-DXgfQOVggcz-CaZrqh4kh8DAR0LsSUZuwOBKeyMN75JYf5L_e2rKigVQ=w40)
+![A chip labeled “Turn on lights” with a leading icon related to lights.](../../_assets/PJSF2Rl5Xam0GLsqoqkWXhm3VNqDgZh7B3Ck1pLkVFTuPzwhSR9H-DXgfQOVggcz-CaZrqh4kh8DAR0L-88a93d3777f81663217c.png)
 
 Chips can also use a leading icon or label to show interactivity

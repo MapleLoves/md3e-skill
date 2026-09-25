@@ -16,7 +16,7 @@ captured: 2026-09-14
 
 -   Place tabs next to each other as peers
 
-![A bar of primary tabs with destinations labeled Flights, Trips, and Explore. And a bar of secondary tabs with destinations labeled Overview and Specifications](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2kfqg9k-1.png?alt=media&token=0b9bbd9d-bec7-468e-8e83-1a7b6d08763a)
+![A bar of primary tabs with destinations labeled Flights, Trips, and Explore. And a bar of secondary tabs with destinations labeled Overview and Specifications](../../_assets/m2kfqg9k-1-427b5b265869d0bbb899.png)
 
 1.  Primary tabs
 2.  Secondary tabs
@@ -40,6 +40,6 @@ Close
 -   Color: New color mappings and compatibility with dynamic color Dynamic color takes a single color from a user's wallpaper or in-app content and creates an accessible color scheme assigned to elements in the UI. [More on dynamic color](/m3/pages/dynamic/choosing-a-source)
 -   Layout: Icons and labels are now vertically centered within the container
 
-![Bar of primary tabs with destinations labeled Flights, Trips, and Explore](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2k3okei-2.png?alt=media&token=cbbae98e-4d7c-4c85-8e63-1056f6e38129)
+![Bar of primary tabs with destinations labeled Flights, Trips, and Explore](../../_assets/m2k3okei-2-0b7c9e9b255fbeb13f29.png)
 
 Tab icons and labels are positioned in the vertical center of the container

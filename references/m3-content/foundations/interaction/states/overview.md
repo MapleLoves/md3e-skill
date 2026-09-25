@@ -24,11 +24,11 @@ captured: 2026-09-14
 2\. [Disabled](/m3/pages/interaction-states/applying-states#4aff9c51-d20f-4580-a510-862d2e25e931)
 A disabled state communicates an inoperable component or element.
 
-![Enabled button has a strong contrast between container and text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n4rwz-1p-Enabled%20button.png?alt=media&token=d51bf56c-de76-4d8c-bcb7-29ef54bf1dd8)
+![Enabled button has a strong contrast between container and text.](../../../_assets/ly2n4rwz-1p-Enabled-button-448ba388c9f2906f4035.png)
 
 Enabled button
 
-![Disabled button has low contrast grey text on grey container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n5ghx-1p-Disabled%20button.png?alt=media&token=29088245-b4e1-4c89-8be5-2bd64aafca55)
+![Disabled button has low contrast grey text on grey container.](../../../_assets/ly2n5ghx-1p-Disabled-button-35cdb5afef920fde7ce0.png)
 
 Disabled button
 
@@ -38,11 +38,11 @@ A hover state communicates when a user has placed a cursor above an interactive 
 4\. [Focused](/m3/pages/interaction-states/applying-states#bc6d6853-48ef-490e-8076-448e89e69f0f)
 A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice.
 
-![Cursor positioned over a button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2ndeib-1p-Hovered%20button.png?alt=media&token=82061a85-c778-492f-9faf-93ed72a377bf)
+![Cursor positioned over a button.](../../../_assets/ly2ndeib-1p-Hovered-button-5ef52d467c1dba2f592f.png)
 
 Hovered button
 
-![The focused button has a strong contrast between container and text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2negg3-1p-Focused%20button.png?alt=media&token=fd25e436-79cc-46fc-97f6-f0bc86545c5e)
+![The focused button has a strong contrast between container and text.](../../../_assets/ly2negg3-1p-Focused-button-6ed85ac8630e57ac6ea5.png)
 
 Focused button
 
@@ -52,10 +52,10 @@ A pressed state communicates a user tap.
 6\. [Dragged](/m3/pages/interaction-states/applying-states#c97582c4-5fef-42ce-9c34-71f8dcc5b8ad)
 A dragged state communicates when a user presses and moves an element.
 
-![The pressed button has a strong contrast between container and text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2qd3dz-1p-Pressed%20button.png?alt=media&token=dbcd674e-5bb0-4176-8362-e3451b8d538b)
+![The pressed button has a strong contrast between container and text.](../../../_assets/ly2qd3dz-1p-Pressed-button-66555f1a05200525cf6f.png)
 
 Pressed button
 
-![Dragged chip](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2qdrga-1p-Dragged%20chip.png?alt=media&token=84e211bb-d118-44c7-b4d9-cb4b86e9f884)
+![Dragged chip](../../../_assets/ly2qdrga-1p-Dragged-chip-d5af67699b296a4eeb5a.png)
 
 Dragged chip

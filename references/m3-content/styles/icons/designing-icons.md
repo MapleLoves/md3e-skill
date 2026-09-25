@@ -12,37 +12,37 @@ captured: 2026-09-14
 
 Icons are an essential element of any interface, packing an informative punch into a small form factor. They’re designed to be simple, modern, friendly, and sometimes quirky. To ensure consistency and readability, their limited size means that each icon must strictly adhere to guidance while still expressing essential characteristics. 
 
-![Front view of boat icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhi79a8-1.png?alt=media&token=451212d1-7de5-44e4-98e2-7f9985913116)
+![Front view of boat icon.](../../_assets/mlhi79a8-1-c50e03f4e9a8e85c0dc8.png)
 
 check Do
 
 Simplify icons for greater clarity and legibility
 
-![Boat image with sails, mast, and flag.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhi8n00-2.png?alt=media&token=40bea5d0-2d09-42d0-9b6a-b182fb7fb729)
+![Boat image with sails, mast, and flag.](../../_assets/mlhi8n00-2-88baf2a9e42d613cc8cb.png)
 
 close Don’t
 
 Don’t be overly literal. Avoid complex icons.
 
-![Use geometric, consistent shapes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhi9wll-3.png?alt=media&token=b19af771-b281-4d84-9ced-53cace623b7b)
+![Use geometric, consistent shapes.](../../_assets/mlhi9wll-3-bf3578df937aad9671cc.png)
 
 check Do
 
 Make icons graphic and bold
 
-![Detailed thumbs-up icon with contoured fingers in outline.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhiaure-4.png?alt=media&token=49b74c47-52cb-4ee0-b968-2bba4ea56225)
+![Detailed thumbs-up icon with contoured fingers in outline.](../../_assets/mlhiaure-4-8e9f5b0d87df8601f013.png)
 
 close Don’t
 
 Don’t use delicate or loose organic shapes
 
-![Four icons with a consistent style.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhibyvj-5.png?alt=media&token=bf9ab6d9-d86e-4014-8c9e-e60874027699)
+![Four icons with a consistent style.](../../_assets/mlhibyvj-5-f86b71af028c91deff74.png)
 
 check Do
 
 Use and maintain a consistent visual style throughout one icon set
 
-![Four icons with a inconsistent styles.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhicb7v-6.png?alt=media&token=e5a225b0-6388-4ac7-9799-c75ba995749d)
+![Four icons with a inconsistent styles.](../../_assets/mlhicb7v-6-914b7d39681067015d6e.png)
 
 close Don’t
 
@@ -54,11 +54,11 @@ Avoid mixing styles for one icon set
 
 Standard icons are displayed as 24dp x 24dp. For pixel-perfect accuracy, create icons for viewing at 100% scale. 
 
-![Icon at 100% scale on a 24dp grid.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhid657-7.png?alt=media&token=497fdf34-12ee-4ffb-9cad-6045cc3ee1f0)
+![Icon at 100% scale on a 24dp grid.](../../_assets/mlhid657-7-92b561659fe0303d2d0a.png)
 
 24dp grid at 100% scale
 
-![Icon at 1000% scale on a 24dp grid.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhiddsr-8.png?alt=media&token=5af129e8-c2b7-4719-8c75-1bcd4e19b568)
+![Icon at 1000% scale on a 24dp grid.](../../_assets/mlhiddsr-8-c94baed413c489d49034.png)
 
 24dp grid at 1000% scale
 
@@ -66,7 +66,7 @@ Standard icons are displayed as 24dp x 24dp. For pixel-perfect accuracy, create 
 
 Icons support additional sizes: 20dp, 40dp, and 48dp, with 20dp primarily for desktop, dense layouts, and small scale visuals, and 40dp and 48dp optimized for display or headline type, plus larger screen sizes.  
 
-![Four document icons shown at increasing scales.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhidx2o-9.png?alt=media&token=f2d1ca4b-09ee-43e2-b621-989695fdcdd5)
+![Four document icons shown at increasing scales.](../../_assets/mlhidx2o-9-564c88ac8ffa143b8ef0.png)
 
 Supported icon sizes: 20dp, 24dp, 40dp, and 48dp
 
@@ -76,31 +76,31 @@ Icon content should remain inside of the **live area**, which is the region of a
 
 If additional visual weight is needed, content may extend into the padding between the live area and the **trim area** (the complete size of a graphic). No parts of the icon should extend outside of the trim area.
 
-![A 24dp-by-24dp icon grid with the 20dp-by-20dp live area highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhienpf-10.png?alt=media&token=b8afbf0e-da99-4611-9ea4-0c338f77fb64)
+![A 24dp-by-24dp icon grid with the 20dp-by-20dp live area highlighted.](../../_assets/mlhienpf-10-d3620bde07c5a6661351.png)
 
 **Live area**
 
 Icon content is limited to the 20dp x 20dp live area, with 2dp of padding around the perimeter
 
-![A 24dp-by-24dp icon grid with the inner 2dp padding highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhievo4-11.png?alt=media&token=3b55c1d9-74e8-458b-91fb-0e1bce8fc9db)
+![A 24dp-by-24dp icon grid with the inner 2dp padding highlighted.](../../_assets/mlhievo4-11-ce97d7a1573bc12f1084.png)
 
 **Padding**
 
 2dp of padding surrounds the live area
 
-![A 24dp-by-24dp icon grid with the inner 2dp padding highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhifrut-12.png?alt=media&token=2defbe33-bf98-42f6-8f9c-7ede12b5bbc7)
+![A 24dp-by-24dp icon grid with the inner 2dp padding highlighted.](../../_assets/mlhifrut-12-945caa872564027923da.png)
 
 check Do
 
 Icon content is limited to the 20dp-x-20dp live area, with 2dp of padding around the perimeter
 
-![Icon using live area and trim area.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhig0cg-13.png?alt=media&token=f9cd0fc1-a871-4f36-a31f-a58277000c41)
+![Icon using live area and trim area.](../../_assets/mlhig0cg-13-75ab5a079d7e1c4f4153.png)
 
 exclamation Caution
 
 If additional visual weight is needed, content may extend into the padding between the live area and the trim area
 
-![Icon exceeding trim area.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhig8hf-14.png?alt=media&token=8563d22a-fac6-498d-a893-0578831ff8a7)
+![Icon exceeding trim area.](../../_assets/mlhig8hf-14-35b05bf378f6bc5fdb79.png)
 
 close Don’t
 
@@ -120,53 +120,53 @@ The icon grid establishes clear rules for the consistent, but flexible, position
 
 Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain consistent visual proportions across system icons.
 
-![A 24dp-by-24dp icon grid.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhihomb-15.png?alt=media&token=ebd0158f-8fe2-4d24-a545-76db96e9e9b4)
+![A 24dp-by-24dp icon grid.](../../_assets/mlhihomb-15-2ee8029ff8cdddc7db78.png)
 
 Grid
 
-![A 24dp-by-24dp grid of foundational icon keylines: square, circle, vertical rectangle, horizontal rectangle.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhihvvy-16.png?alt=media&token=005df028-43a6-40e9-b96a-caa0c370a21c)
+![A 24dp-by-24dp grid of foundational icon keylines: square, circle, vertical rectangle, horizontal rectangle.](../../_assets/mlhihvvy-16-9f140026b2d3ae12b8e9.png)
 
 24dp grid at 1000% scale
 
-![A 24dp-by-24dp grid of foundational icon keylines with the square keyline highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhiiy4c-17.png?alt=media&token=726aa27c-fd2b-4270-b76a-dc9f925bf1d8)
+![A 24dp-by-24dp grid of foundational icon keylines with the square keyline highlighted.](../../_assets/mlhiiy4c-17-122a43ee0c767e6ba254.png)
 
 Square height and width, 18dp
 
-![Add chart icon on square keyline.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhij5mm-18.png?alt=media&token=062e95df-32c7-44c3-b1f6-81731e1930dc)
+![Add chart icon on square keyline.](../../_assets/mlhij5mm-18-1e77a50aeab2cabd9c71.png)
 
 Icon drawn using square keyline
 
-![A 24dp-by-24dp grid of foundational icon keylines with the circle keyline highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhijf4f-19.png?alt=media&token=434a0acd-3f17-4b69-b37e-c53f2a611e08)
+![A 24dp-by-24dp grid of foundational icon keylines with the circle keyline highlighted.](../../_assets/mlhijf4f-19-e40df94b4071590c6f4e.png)
 
 Circle diameter, 20dp
 
-![Globe icon on circle keyline.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhijo1a-20.png?alt=media&token=57209aae-7be7-441b-b544-aec9b0ec96d3)
+![Globe icon on circle keyline.](../../_assets/mlhijo1a-20-e19938136d73cf0de6c5.png)
 
 Icon drawn using circle keyline
 
-![A 24dp-by-24dp grid of foundational icon keylines with the vertical rectangle keyline highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhikriz-21.png?alt=media&token=e3890dfe-5c76-4e55-9865-1e0b0b5a310f)
+![A 24dp-by-24dp grid of foundational icon keylines with the vertical rectangle keyline highlighted.](../../_assets/mlhikriz-21-e88b7986f3dbf7b291ce.png)
 
 Vertical rectangle height, 20dp, and width, 16dp
 
-![Document icon on vertical rectangle keyline.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhikzyl-22.png?alt=media&token=77cb7533-3aac-464c-afb1-e6965884d54a)
+![Document icon on vertical rectangle keyline.](../../_assets/mlhikzyl-22-eb89b3445caf7232ccf0.png)
 
 Icon drawn using vertical rectangle keyline
 
-![A 24dp-by-24dp grid of foundational icon keylines with the horizontal keyline highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhil8ui-23.png?alt=media&token=392b52f0-7446-477b-9a7a-aaaa42929690)
+![A 24dp-by-24dp grid of foundational icon keylines with the horizontal keyline highlighted.](../../_assets/mlhil8ui-23-c4f57387a548371b5c08.png)
 
 Horizontal rectangle height, 16dp, and width, 20dp
 
-![Envelope icon on horizontal rectangle keyline.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhilh5g-24.png?alt=media&token=9bcae434-7c41-4648-bdc7-71c73184885d)
+![Envelope icon on horizontal rectangle keyline.](../../_assets/mlhilh5g-24-a212c8c834227eec48a5.png)
 
 Icon drawn using horizontal rectangle keyline
 
-![Icon grid including a folder icon aligning to the grid. X and Y placement coordinates are shown using integers.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhilpjf-25.png?alt=media&token=9655e02a-a291-466e-b196-e45686e91762)
+![Icon grid including a folder icon aligning to the grid. X and Y placement coordinates are shown using integers.](../../_assets/mlhilpjf-25-3a86d34ec367410c8d51.png)
 
 check Do
 
 Position icons “on pixel” within the icon grid
 
-![Icon grid including a folder icon misaligned to the grid with X and Y placement coordinates shown using decimals.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhilynz-26.png?alt=media&token=183e6f8f-dc5d-42db-abd1-c410c172ae3e)
+![Icon grid including a folder icon misaligned to the grid with X and Y placement coordinates shown using decimals.](../../_assets/mlhilynz-26-26ee1230e3c375c4029c.png)
 
 close Don’t
 
@@ -176,7 +176,7 @@ Don’t place the icon on a coordinate that isn’t “on pixel”
 
 ### Anatomy
 
-![Diagram of a calendar icon on a grid highlighting six different elements.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhird2l-27.png?alt=media&token=c1bdaf8d-d963-42ad-95d5-33b07c5b7fd3)
+![Diagram of a calendar icon on a grid highlighting six different elements.](../../_assets/mlhird2l-27-a4269eac463b7d56f9bc.png)
 
 1.  Corner
 2.  Stroke terminal
@@ -191,21 +191,21 @@ Corner radii are 2dp by default. For the outlined style symbols, interior corner
 
 For the rounded style symbols, both exterior and interior corner radii are rounded and for the sharp style symbols, both exterior and interior corners radii reduce from 2dp to 0dp. 
 
-![Credit card symbol placed on grid with 2dp rounded exterior corners highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhiwgza-28.png?alt=media&token=f8095345-1164-4158-a4b8-a488954399de)
+![Credit card symbol placed on grid with 2dp rounded exterior corners highlighted.](../../_assets/mlhiwgza-28-5002e26be435a8461385.png)
 
 Exterior corners with 2dp corner radii
 
-![Credit card symbol placed on grid with 2dp linear interior corners highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhis0bd-29.png?alt=media&token=09785c23-d95d-44ff-bfc9-8a578597246a)
+![Credit card symbol placed on grid with 2dp linear interior corners highlighted.](../../_assets/mlhis0bd-29-e945cdb99e2871eec6f6.png)
 
 Interior corners shouldn’t be rounded
 
-![Document icon placed on grid with overly rounded corners highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhiswrw-30-caution.png?alt=media&token=8a81e237-d9a0-4bca-a394-cbbe5ba1e253)
+![Document icon placed on grid with overly rounded corners highlighted.](../../_assets/mlhiswrw-30-caution-433869e35cbf14cd9c60.png)
 
 exclamation Caution
 
 Overly round corners reduces the symbol’s legibility
 
-![‘Add more’ icon placed on grid with inconsistent rounded corners. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhit41a-31-dont.png?alt=media&token=69509827-8e53-4807-ab42-4a3a27beb3ec)
+![‘Add more’ icon placed on grid with inconsistent rounded corners. ](../../_assets/mlhit41a-31-dont-d22376bcc8e4f93b8c13.png)
 
 close Don’t
 
@@ -215,27 +215,27 @@ Don’t use inconsistent corner radii
 
 The recommended stroke weight for icons is 2dp or the regular weight (400), which includes curves, angles, and both interior and exterior strokes. Material Symbols can provide a range of weights between thin (100) and bold (700). 
 
-![Regular stroke weight timer icon placed on a grid.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhitcv2-32.png?alt=media&token=af72e2dc-24cc-4270-85a2-29674981fd86)
+![Regular stroke weight timer icon placed on a grid.](../../_assets/mlhitcv2-32-3f40df83d509f4e8679f.png)
 
 Timer icon at the regular stroke weight (400)
 
-![Weight timer symbols ranging from 100 to 700 weight.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhitln3-33.png?alt=media&token=96b4f7ef-c0d3-4af4-9ec4-1b329fc7dd5c)
+![Weight timer symbols ranging from 100 to 700 weight.](../../_assets/mlhitln3-33-97d6dd0f8a3b463fb611.png)
 
 Timer symbol shown across a 100–700 weight range
 
-![Arrow symbol placed on a grid with arrowhead terminals trimmed to 45 degrees highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhituxl-34.png?alt=media&token=bd07e3e4-b86c-4678-90e8-4472466df66a)
+![Arrow symbol placed on a grid with arrowhead terminals trimmed to 45 degrees highlighted.](../../_assets/mlhituxl-34-83f0bf885337f484ab67.png)
 
 Stroke terminal on an icon
 
-![Add circle symbol placed on grid with linear 2dp inner stroke highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhiu2ur-35.png?alt=media&token=99cda6a1-b2a6-466a-a76f-9f57176512f3)
+![Add circle symbol placed on grid with linear 2dp inner stroke highlighted.](../../_assets/mlhiu2ur-35-2ef1cb4cc301c7241675.png)
 
 Counter stroke on an icon
 
-![Add chart icon placed on grid with consistent stroke weights and squared stroke terminals.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhiucam-36.png?alt=media&token=ebb4def7-31ad-41f2-9dfd-a5607731a333)
+![Add chart icon placed on grid with consistent stroke weights and squared stroke terminals.](../../_assets/mlhiucam-36-ae8ba86dd0c588a4bff4.png)
 
 Use consistent stroke weights and squared stroke terminals
 
-![Add chart icon placed on grid showing inconsistent stroke weights and rounded stroke terminals.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhiukep-37.png?alt=media&token=d7e200f0-8f01-4faf-a18e-082577ff70b5)
+![Add chart icon placed on grid showing inconsistent stroke weights and rounded stroke terminals.](../../_assets/mlhiukep-37-b8c85109000e96ec70c3.png)
 
 Don’t use inconsistent stroke weights or rounded stroke terminals
 
@@ -243,21 +243,21 @@ Don’t use inconsistent stroke weights or rounded stroke terminals
 
 If an icon requires complex details, subtle adjustments can be made to improve its legibility. These adjustments are referred to as optical corrections. Any optical correction should use the geometric forms on which all other icons are based, without skewing or distorting those shapes.
 
-![Paperclip icon on grid with adjusted 1.5dp stroke highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhiv5yo-38.png?alt=media&token=e4097aa3-49e1-4863-8905-ce880ff6ba0b)
+![Paperclip icon on grid with adjusted 1.5dp stroke highlighted.](../../_assets/mlhiv5yo-38-e425b33d8b2261b45b83.png)
 
 The paperclip icon uses 1.5dp of the possible 2dp stroke area to fit multiple curves within the 24dp x 24dp icon space
 
-![Ramen bowl icon on grid with adjusted 1.5dp stroke highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhivf9f-39.png?alt=media&token=587c6da7-20c8-4218-8b30-5891309bab1f)
+![Ramen bowl icon on grid with adjusted 1.5dp stroke highlighted.](../../_assets/mlhivf9f-39-c6d4adf5a54246ead531.png)
 
 The ramen bowl icon uses 1.5dp stroke and 2dp stroke together within the 24 x 24dp icon space
 
-![Building icon using flat shapes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhivoad-40.png?alt=media&token=d6545fb0-79fa-4758-9827-4ba86b76f5aa)
+![Building icon using flat shapes.](../../_assets/mlhivoad-40-dc899f06c7def76ca62a.png)
 
 check Do
 
 Make icons face forward
 
-![Building icon in isometric perspective.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhivybg-41.png?alt=media&token=8482288f-dcff-4d02-91d1-f1d56fc2de0b)
+![Building icon in isometric perspective.](../../_assets/mlhivybg-41-30f95fa2617894c0d064.png)
 
 close Don’t
 

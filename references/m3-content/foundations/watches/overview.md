@@ -28,7 +28,7 @@ A new shape system with edge-hugging containers and buttons creates variety and 
 
 [More on shape system for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/apply)
 
-![Watch screenshots using rounded buttons, progress bars, and page indicators.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4amaej-01.png?alt=media&token=d01a0fa2-1252-427b-8022-49f1bfffba32)
+![Watch screenshots using rounded buttons, progress bars, and page indicators.](../../_assets/mp4amaej-01-6b8064f6e08e9a2ea6a6.png)
 
 Controls for smartwatches can adapt to the form factor
 
@@ -54,7 +54,7 @@ Dynamic color and deep tonal palettes are applied in a system of color roles Mat
 
 [More on color for Wear OS](https://developer.android.com/design/ui/wear/guides/styles/color)
 
-![A media player on a smartwatch displaying a song title, artist, and playback controls.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4aosfu-04%20alt.png?alt=media&token=1786de7a-3c31-4e74-9d9d-dfa3aba2baab)
+![A media player on a smartwatch displaying a song title, artist, and playback controls.](../../_assets/mp4aosfu-04-alt-406dc1cdf20c5b15c5bd.png)
 
 The color system includes three main colors and specific color roles to create depth and variety
 
@@ -68,6 +68,6 @@ Along with an updated and optimized [type scale](https://developer.android.com/d
 
 [More on typography for Wear OS](https://developer.android.com/design/ui/wear/guides/styles/typography)
 
-![3 smartwatch screens showing a fitness tracker, a timer, and a calendar notification using Roboto Flex.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4antdv-05.png?alt=media&token=e8e038e9-3a5b-4bc3-8a7e-c56445600f98)
+![3 smartwatch screens showing a fitness tracker, a timer, and a calendar notification using Roboto Flex.](../../_assets/mp4antdv-05-5930f04100171a1f47cd.png)
 
 The baseline type scale is optimized for round screens to keep text legible in a compact space

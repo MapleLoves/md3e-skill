@@ -61,7 +61,7 @@ For example, to apply fast, spatial, expressive motion, call the "expressive" mo
 
 Notice that the "expressive" scheme isn't part of the token itself. Rather, it's called at the product level and applied to all tokens. This makes it easier to swap schemes without changing assigned tokens.
 
-![A chart of the token structure. A scheme has 3 speeds. Each speed has a spatial token and an effects token.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8or28vc-5.png?alt=media&token=12806c6a-d624-4706-87bf-91cc61506aa1)
+![A chart of the token structure. A scheme has 3 speeds. Each speed has a spatial token and an effects token.](../../../_assets/m8or28vc-5-198549f58e52f69e1203.png)
 
 Each scheme (expressive, standard) has three speeds (fast, default, slow) for two types of movement (spatial, effects)
 

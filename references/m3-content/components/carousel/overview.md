@@ -59,7 +59,7 @@ Additional layouts and configurations:
 
 -   Multi-browse layout The multi-browse carousel layout shows at least one large, medium, and small carousel item at a time.
 
-![Items of different widths in an uncontained multi-aspect ratio layout.](https://lh3.googleusercontent.com/fVj4DyPx6HxKN7gxkVrxReCeNppE22Favi2407XaDtWc5AiUxr-xvwqelWFXfRaQ2AayTCiBEwL06duEvTEptd1dEt1FWREyAV1d_2kMAf-MHQ=w40)![Items of different widths in an uncontained multi-aspect ratio layout.](https://lh3.googleusercontent.com/fVj4DyPx6HxKN7gxkVrxReCeNppE22Favi2407XaDtWc5AiUxr-xvwqelWFXfRaQ2AayTCiBEwL06duEvTEptd1dEt1FWREyAV1d_2kMAf-MHQ=s0)
+![Items of different widths in an uncontained multi-aspect ratio layout.](../../_assets/fVj4DyPx6HxKN7gxkVrxReCeNppE22Favi2407XaDtWc5AiUxr-xvwqelWFXfRaQ2AayTCiBEwL06duE-705352ef6c11fe54e755.png)![Items of different widths in an uncontained multi-aspect ratio layout.](../../_assets/fVj4DyPx6HxKN7gxkVrxReCeNppE22Favi2407XaDtWc5AiUxr-xvwqelWFXfRaQ2AayTCiBEwL06duE-eae2f28b921a7e189aab.png)
 
 New carousel layout: uncontained multi-aspect ratio
 
@@ -71,7 +71,7 @@ This component is new in Material 3.
 -   **Motion**: Carousel items move at a different speed than their content, creating a parallax effect
 -   **Interaction**: When scrolled, carousel items snap into place to maintain the same layout. Hero carousels The hero carousel layout shows at least one large and one small item at a time. swipe through one item at a time. Multi-browse carousels The multi-browse carousel layout shows at least one large, medium, and small carousel item at a time. scroll through many items at once.
 
-![Carousel in a contained layout with a large item and a small item.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwur4ddz-3.png?alt=media&token=a42f76c5-c4fd-46fd-89a1-04b492638986)
+![Carousel in a contained layout with a large item and a small item.](../../_assets/lwur4ddz-3-b90f5744a72b996e944d.png)
 
 Hero carousels scroll through one large item at a time
 

@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 ## Variants
 
-![Various colors and shapes of standard and connected button groups.](https://lh3.googleusercontent.com/Zlys4Fta71zY-GAiCcT-oqug62NMk2muBeMcrPxVq_ZyoZhWxZrY5QlyYMHMI8wb6GSstakH8BmszYQQIEMg14U8WI6cX4v1uKZ_jSFIIYJGZA=w40)![Various colors and shapes of standard and connected button groups.](https://lh3.googleusercontent.com/Zlys4Fta71zY-GAiCcT-oqug62NMk2muBeMcrPxVq_ZyoZhWxZrY5QlyYMHMI8wb6GSstakH8BmszYQQIEMg14U8WI6cX4v1uKZ_jSFIIYJGZA=s0)
+![Various colors and shapes of standard and connected button groups.](../../_assets/Zlys4Fta71zY-GAiCcT-oqug62NMk2muBeMcrPxVq_ZyoZhWxZrY5QlyYMHMI8wb6GSstakH8BmszYQQ-713ac91f3b424287c566.png)![Various colors and shapes of standard and connected button groups.](../../_assets/Zlys4Fta71zY-GAiCcT-oqug62NMk2muBeMcrPxVq_ZyoZhWxZrY5QlyYMHMI8wb6GSstakH8BmszYQQ-bea260410ffd53df3ca4.png)
 
 1.  Standard button group
 2.  Connected button group
@@ -22,7 +22,7 @@ captured: 2026-09-14
 
 ## Configurations
 
-![Five sizes of button groups and two shapes of button groups.](https://lh3.googleusercontent.com/tXvGi5QNHXaEdYS0QIwTTJHGUdhlUv1s8dzEvt3yvdhs0CCvXGe3Y3bBOTJvHKv2VA3DPdHEWmLb9UAY_h5Gls6mTe6ihCadt0qIZbdLS7SY2g=w40)![Five sizes of button groups and two shapes of button groups.](https://lh3.googleusercontent.com/tXvGi5QNHXaEdYS0QIwTTJHGUdhlUv1s8dzEvt3yvdhs0CCvXGe3Y3bBOTJvHKv2VA3DPdHEWmLb9UAY_h5Gls6mTe6ihCadt0qIZbdLS7SY2g=s0)
+![Five sizes of button groups and two shapes of button groups.](../../_assets/tXvGi5QNHXaEdYS0QIwTTJHGUdhlUv1s8dzEvt3yvdhs0CCvXGe3Y3bBOTJvHKv2VA3DPdHEWmLb9UAY-3821a8be0bd1242f0f73.png)![Five sizes of button groups and two shapes of button groups.](../../_assets/tXvGi5QNHXaEdYS0QIwTTJHGUdhlUv1s8dzEvt3yvdhs0CCvXGe3Y3bBOTJvHKv2VA3DPdHEWmLb9UAY-fb7feff995b8e35d7125.png)
 
 Configurations for both variants of button groups:
 
@@ -56,7 +56,7 @@ Close
 
 Button groups are invisible containers that add padding between buttons and modify button shape. They don’t contain any buttons by default.
 
-![The container outlined on both variants of button groups.](https://lh3.googleusercontent.com/909fUN1vEim33Fg-tzKVqEEl_EQRq_GsNWP9dPCSA181-jk63D2BmlLmh8pisBn2zBlyE581QGQUAggrzVLnD1e2dAv10jtBVs8_BMY5XsItOQ=w40)![The container outlined on both variants of button groups.](https://lh3.googleusercontent.com/909fUN1vEim33Fg-tzKVqEEl_EQRq_GsNWP9dPCSA181-jk63D2BmlLmh8pisBn2zBlyE581QGQUAggrzVLnD1e2dAv10jtBVs8_BMY5XsItOQ=s0)
+![The container outlined on both variants of button groups.](../../_assets/909fUN1vEim33Fg-tzKVqEEl_EQRq_GsNWP9dPCSA181-jk63D2BmlLmh8pisBn2zBlyE581QGQUAggr-8254e9bf215741bda57d.png)![The container outlined on both variants of button groups.](../../_assets/909fUN1vEim33Fg-tzKVqEEl_EQRq_GsNWP9dPCSA181-jk63D2BmlLmh8pisBn2zBlyE581QGQUAggr-e41cffbd3284f5e36da6.png)
 
 1.  Container
 
@@ -64,7 +64,7 @@ Button groups are invisible containers that add padding between buttons and modi
 
 Mix and match buttons and icon buttons for different scenarios.
 
-![4 common layouts of button groups.](https://lh3.googleusercontent.com/mB9JxUhRXlbUJhjAnZciD7yqHtJQpwyqJME-B-dTSOz6AQVQbdOHskFsAM7E60jDTOOPx9qjA7YiJt_46pxLrbnr8_wHmIAWBts0Nl1sd0IloA=w40)![4 common layouts of button groups.](https://lh3.googleusercontent.com/mB9JxUhRXlbUJhjAnZciD7yqHtJQpwyqJME-B-dTSOz6AQVQbdOHskFsAM7E60jDTOOPx9qjA7YiJt_46pxLrbnr8_wHmIAWBts0Nl1sd0IloA=s0)
+![4 common layouts of button groups.](../../_assets/mB9JxUhRXlbUJhjAnZciD7yqHtJQpwyqJME-B-dTSOz6AQVQbdOHskFsAM7E60jDTOOPx9qjA7YiJt_4-74e47f193cacb61153bb.png)![4 common layouts of button groups.](../../_assets/mB9JxUhRXlbUJhjAnZciD7yqHtJQpwyqJME-B-dTSOz6AQVQbdOHskFsAM7E60jDTOOPx9qjA7YiJt_4-8181fe6c23e109778dd5.png)
 
 1.  Label buttons
 2.  Label buttons and icon buttons
@@ -75,7 +75,7 @@ Mix and match buttons and icon buttons for different scenarios.
 
 Button groups have no color properties. They can use the default button or toggle button color styles, like filled, tonal, and outlined. Avoid using standard icon buttons or text buttons, as they have no container treatment.
 
-![The container outlined on both variants of button groups.](https://lh3.googleusercontent.com/9hbmv_ziBEblvbLNhjPIK994tZijzcHgGhHBn_z-e52FBeulOHrdGeVlk4y0G8YWkUVABgf5EvmfpWPJnsSxad4N_QjZ5bW-x3LJ4xRqO0s=w40)![The container outlined on both variants of button groups.](https://lh3.googleusercontent.com/9hbmv_ziBEblvbLNhjPIK994tZijzcHgGhHBn_z-e52FBeulOHrdGeVlk4y0G8YWkUVABgf5EvmfpWPJnsSxad4N_QjZ5bW-x3LJ4xRqO0s=s0)
+![The container outlined on both variants of button groups.](../../_assets/9hbmv_ziBEblvbLNhjPIK994tZijzcHgGhHBn_z-e52FBeulOHrdGeVlk4y0G8YWkUVABgf5EvmfpWPJ-288d285eeacbf617448f.png)![The container outlined on both variants of button groups.](../../_assets/9hbmv_ziBEblvbLNhjPIK994tZijzcHgGhHBn_z-e52FBeulOHrdGeVlk4y0G8YWkUVABgf5EvmfpWPJ-2ab2c876dae6919862be.png)
 
 1.  Filled
 
@@ -105,7 +105,7 @@ A selected button changes shape without affecting adjacent buttons
 
 When a button is pressed, standard button groups modify the width and shape of that button and adjacent buttons.
 
-![5 states of a standard button group.](https://lh3.googleusercontent.com/gQSD-N83stSwtNWu4Vgei7se_1vFmSqc8L7QyZ_u66ja9ZsX_71o7I8800O7qg8TBICKzr6L2vBtv09cuWq4NAzoND8_lIYAS0DqxkrOh6tM=w40)
+![5 states of a standard button group.](../../_assets/gQSD-N83stSwtNWu4Vgei7se_1vFmSqc8L7QyZ_u66ja9ZsX_71o7I8800O7qg8TBICKzr6L2vBtv09c-557f001c2dce4d6a4d2e.png)
 
 1.  Enabled
 2.  Disabled
@@ -115,7 +115,7 @@ When a button is pressed, standard button groups modify the width and shape of t
 
 When a toggle button is selected in a standard button group, its shape should change between square and round. The color should change according to the [button specs](/m3/pages/common-buttons/specs).
 
-![5 states of a standard button group with toggle buttons.](https://lh3.googleusercontent.com/81FApYiTXho8D7eyhKVzVF5qhIRk02bF6rEp6QoLXRtnuW94g2EoBt1EQLLK7h2vRiKsRbNHUyYa3OCvVQRVW3jGBVlkBqaiNrK6oiVZEIad1w=w40)
+![5 states of a standard button group with toggle buttons.](../../_assets/81FApYiTXho8D7eyhKVzVF5qhIRk02bF6rEp6QoLXRtnuW94g2EoBt1EQLLK7h2vRiKsRbNHUyYa3OCv-2aadec00dd796c707ccf.png)
 
 1.  Enabled
 2.  Disabled
@@ -127,7 +127,7 @@ When a toggle button is selected in a standard button group, its shape should ch
 
 Connected button groups have different shape changes than standard button groups. Selecting a button does not affect adjacent buttons.
 
-![5 states of a segmented button group.](https://lh3.googleusercontent.com/zh7Dh6_ChlGUt5mWmhDpY_dTPHFXlFOmdfy2AJEpn013_utxmX5it3VZuG3iyveqk3N3Pj07dV4a2XtWhOkmn4FbvwvuPHUVa0YYRuTa6WJ3vw=w40)
+![5 states of a segmented button group.](../../_assets/zh7Dh6_ChlGUt5mWmhDpY_dTPHFXlFOmdfy2AJEpn013_utxmX5it3VZuG3iyveqk3N3Pj07dV4a2XtW-fe54e308658d5c68178a.png)
 
 Connected button group unselected states:
 
@@ -137,7 +137,7 @@ Connected button group unselected states:
 4.  Focused
 5.  Pressed
 
-![4 states of a segmented button group with toggle buttons.](https://lh3.googleusercontent.com/N09iT9pfuy2j_ZfeAqJIUzPo31zdiKwWd0P-BH5eVSj3QR3JWxULGnjVnTbavy0VNZX5lhBc9Dyw1NTBThW5rbaOUcJ25kePIXmYaKTB0Ikx=w40)
+![4 states of a segmented button group with toggle buttons.](../../_assets/N09iT9pfuy2j_ZfeAqJIUzPo31zdiKwWd0P-BH5eVSj3QR3JWxULGnjVnTbavy0VNZX5lhBc9Dyw1NTB-dfa42883d571171100f4.png)
 
 Connected button group selected states:
 
@@ -152,7 +152,7 @@ Connected button group selected states:
 
 Standard groups apply padding between all buttons. The amount of padding changes based on button size to ensure a minimum accessible target size of 48dp. More details on padding: [Button specs](/m3/pages/common-buttons/specs), [icon button specs](/m3/pages/icon-buttons/specs)
 
-![Standard button group padding measurements.](https://lh3.googleusercontent.com/RGY_WzbLD07B3K6DGITtC-0NcW5LQI1HS1L-g0O4Lt0wttv2BWMZQWR2LqpG39dzWUHBNqCx12noXUfNGg2PKUhJVJcW-ndLNWd0LJ-H8wVW=w40)
+![Standard button group padding measurements.](../../_assets/RGY_WzbLD07B3K6DGITtC-0NcW5LQI1HS1L-g0O4Lt0wttv2BWMZQWR2LqpG39dzWUHBNqCx12noXUfN-eb8188fc0a71ea45c200.png)
 
 Standard button group inner padding:
 
@@ -166,7 +166,7 @@ Standard button group inner padding:
 
 For all connected button groups, use 2dp padding. This provides visual consistency at scale. 
 
-![Connected button group padding and corner radius measurements.](https://lh3.googleusercontent.com/tyj4mLRYzA86JWOUFPOV0mFMQxD7ckw1kX2zjPh0iOs4KV_jy6SCEtBmeQASzBTE9ULLNl0NY_jT32BX76pcZDRzLsRJ4PQgdvoi0IfOyLs=w40)
+![Connected button group padding and corner radius measurements.](../../_assets/tyj4mLRYzA86JWOUFPOV0mFMQxD7ckw1kX2zjPh0iOs4KV_jy6SCEtBmeQASzBTE9ULLNl0NY_jT32BX-a56b98db956d29dadf19.png)
 
 Round connected button group inner padding is 2dp at every size. The outer shape is fully round, and the inner shape remains square with the following corner sizes:
 
@@ -176,7 +176,7 @@ Round connected button group inner padding is 2dp at every size. The outer shape
 4.  L: 16dp
 5.  XL: 20dp
 
-![Connected button group padding and corner radius measurements for square buttons.](https://lh3.googleusercontent.com/DiysV2VqS8bJV3jH34XtaPeeGGi2Svo6ZIFJhmjAeYH0zOw7-6P-5qgZeRy2A6CoXA2mgQ0WMXanpp3k0FqLX7ez6AhGTGnztpRBRiqQzND0=w40)
+![Connected button group padding and corner radius measurements for square buttons.](../../_assets/DiysV2VqS8bJV3jH34XtaPeeGGi2Svo6ZIFJhmjAeYH0zOw7-6P-5qgZeRy2A6CoXA2mgQ0WMXanpp3k-01bde558b93f4f8c7647.png)
 
 Square connected button group inner padding is 2dp at every size. The outer shape has the following corner sizes:
 
@@ -190,7 +190,7 @@ Square connected button group inner padding is 2dp at every size. The outer shap
 
 Extra small and small connected button groups have 48dp target areas and a minimum width of 48dp.
 
-![48x48dp accessible target areas on the XS and S connected button groups.](https://lh3.googleusercontent.com/3YpaF7-0WXRLTv6vxHgKCSJBsLTOFIaTw5JZ5795oi7393Y_y8hlC-gNbJh57zwFbM8SJ6VsaQMH9dVZW3E6RTF2ZtysUXJaufAilOko_hZV=w40)
+![48x48dp accessible target areas on the XS and S connected button groups.](../../_assets/3YpaF7-0WXRLTv6vxHgKCSJBsLTOFIaTw5JZ5795oi7393Y_y8hlC-gNbJh57zwFbM8SJ6VsaQMH9dVZ-bf54c28758abb19c586b.png)
 
 1.  Extra small
 2.  Small
@@ -199,6 +199,6 @@ Extra small and small connected button groups have 48dp target areas and a minim
 
 Button groups adapt to density of the buttons inside. [More on density](/m3/pages/grids-spacing/density)
 
-![Connected button groups at 0, -1, -2, and -3 density.](https://lh3.googleusercontent.com/yW6GJfPC6vob2O0uaXXiMDGwKXMv7majvHsxv9MEQGBjXCtZg0YERe27DGduNwB1ofpRLw4evKy_CZWsciavxwo6bvOHrDwnL_tjvUGXmB6t=w40)
+![Connected button groups at 0, -1, -2, and -3 density.](../../_assets/yW6GJfPC6vob2O0uaXXiMDGwKXMv7majvHsxv9MEQGBjXCtZg0YERe27DGduNwB1ofpRLw4evKy_CZWs-86daea149ece780bfa5e.png)
 
 Button groups adapt to the height of the buttons inside, including when density is applied

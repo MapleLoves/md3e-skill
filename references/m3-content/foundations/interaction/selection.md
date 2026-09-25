@@ -37,7 +37,7 @@ Selections are inherited by the following components: 
 -   Sliders
 -   Switch
 
-![Seven types of selected  components.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm1qhf1tb-1.png?alt=media&token=f7a2e8d1-09f7-4b98-acfb-ee5b4536933b)
+![Seven types of selected  components.](../../_assets/m1qhf1tb-1-70fe9c1e77cf84ceb526.png)
 
 Selected components:
 
@@ -58,7 +58,7 @@ The following components use an active indicator to represent which item is curr
 
 The color and shape of the active indicator varies between components. In these components, only one item should be selected at a time.
 
-![Tabs and navigation drawer with one destination item selected. Selection is identified with an active indicator.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvowprh-2.png?alt=media&token=92cf2e82-6fc5-4fd0-a0a3-815191a386ca)
+![Tabs and navigation drawer with one destination item selected. Selection is identified with an active indicator.](../../_assets/lwvowprh-2-0d94b318f636d9204403.png)
 
 Selected components with active indicators:
 

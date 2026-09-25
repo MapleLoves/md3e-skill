@@ -6,7 +6,7 @@ captured: 2026-09-14
 
 # Checkbox
 
-![A list of burger additions represented with checkboxes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0yt1n6-1.png?alt=media&token=e687e377-f0e9-4a8c-8323-97b6f3b03b2d)
+![A list of burger additions represented with checkboxes.](../../_assets/mg0yt1n6-1-1019b10763b68ad0f281.png)
 
 Checkboxes in a list of items
 
@@ -19,19 +19,19 @@ Use checkboxes to: 
 -   Turn an item on or off in a desktop environment
 -   Visually group similar options together
 
-![List of 80's songs indicating choice through checkbox selection.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vnl39-2.png?alt=media&token=a6b2f259-cb48-4e43-9699-e20e94c0d737)
+![List of 80's songs indicating choice through checkbox selection.](../../_assets/mg0vnl39-2-6277a0e091615d90cb55.png)
 
 Checkboxes select multiple, related options
 
 Checkboxes should be used instead of switches Switches toggle the state of an item on or off. [More on switches](/m3/pages/switch/overview) if multiple, related options can be selected from a list. Checkboxes visually group similar items effectively and take up less space than switches.
 
-![List indicating choice with checkbox selection.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vok05-3_do.png?alt=media&token=6dd5d04d-babd-45cf-b7f8-a5e95ab275ff)
+![List indicating choice with checkbox selection.](../../_assets/mg0vok05-3_do-12583b42ad5c60bffd8b.png)
 
 check Do
 
 Checkboxes let users select one or more options from a list. A parent checkbox allows for easy selection or deselection of all items.
 
-![A list with multiple switches selected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vwf9n-4_dont.png?alt=media&token=049701a4-cc33-442f-8e4e-db9c79aa40fa)
+![A list with multiple switches selected.](../../_assets/mg0vwf9n-4_dont-ec9ee588ff43d6a656f7.png)
 
 close Don’t
 
@@ -47,17 +47,17 @@ Checkboxes, radio buttons Radio buttons let people select one option from a set 
 
 -   Use switches to select standalone or more verbose options in a list, like settings.
 
-![Diagram of 2 radio buttons, one selected and one unselected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcypcjyf-5.png?alt=media&token=e0bb850c-365e-424b-aaa7-703285e8a6ea)
+![Diagram of 2 radio buttons, one selected and one unselected.](../../_assets/mcypcjyf-5-288f471059160527c91f.png)
 
 Radio buttons
 
-![Diagram of 2 switches, one selected and one unselected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vwj88-6.png?alt=media&token=9323d5db-9e97-4df0-a4b0-2cf2136cf1d2)
+![Diagram of 2 switches, one selected and one unselected.](../../_assets/mg0vwj88-6-d4c733cb28599d834590.png)
 
 Switches
 
 ## Anatomy
 
-![Diagram of checkbox indicating the 2 parts of its anatomy.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcypfx6t-7.png?alt=media&token=5f2b1048-7e0f-45f5-8f9b-3f09fab4e910)
+![Diagram of checkbox indicating the 2 parts of its anatomy.](../../_assets/mcypfx6t-7-8de2720d398b39abbb86.png)
 
 1\. Container
 
@@ -67,7 +67,7 @@ Switches
 
 In expanded breakpoints Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) , placing checkboxes within a contained region such as a side sheet Side sheets show secondary content anchored to the side of the screen. [More on side sheets](/m3/pages/side-sheets/overview) can help group related controls and available actions.
 
-![Desktop screen showing music albums and a side sheet containing checkboxes for filtering music genres.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vp83b-8.png?alt=media&token=ccabbf13-9b61-4bec-938e-708c502111b0)
+![Desktop screen showing music albums and a side sheet containing checkboxes for filtering music genres.](../../_assets/mg0vp83b-8-da5ec4e4893abbc092ad.png)
 
 A side sheet can group related controls on larger screens
 

@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Side sheets show secondary content anchored to the side of the screen
 
-![Side by side comparison of a standard and a modal side sheet.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqqqohk-01.png?alt=media&token=51d3df6c-574b-4aaf-bd7a-b70c47c82c6a)
+![Side by side comparison of a standard and a modal side sheet.](../../_assets/meqqqohk-01-13c02ec3c4c927d5a741.png)
 
 1.  Standard side sheet
 2.  Modal side sheet
@@ -25,7 +25,7 @@ Common uses include:
 
 -   Displaying supplemental content and features 
 
-![Standard side sheet showing supplementary information about a photo.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqr6mnd-02.png?alt=media&token=8c90dc20-b3b0-4725-9130-ba118c870255)
+![Standard side sheet showing supplementary information about a photo.](../../_assets/meqr6mnd-02-fe7358410aeb61712f58.png)
 
 Information about a photo in a standard side sheet
 
@@ -33,7 +33,7 @@ Modal side sheets Modal side sheets appear in front of app content, disabling al
 
 They can display the same kinds of content as standard side sheets, but must be dismissed in order to interact with the underlying content.
 
-![Modal side sheet showing filter controls.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqrab5f-03.png?alt=media&token=0729930f-cd91-430a-ad7a-3c74997f4771)
+![Modal side sheet showing filter controls.](../../_assets/meqrab5f-03-64ab6c6644155b3749f5.png)
 
 Modal side sheet with filter controls
 
@@ -41,13 +41,13 @@ Side sheets have a fixed width and typically span the height of the screen. 
 
 Their dimensions depend on how the app’s layout Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/understanding-layout/overview) is subdivided into UI regions.
 
-![A modal sheet at the right of a screen, with the correct inset.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqrlvws-04-do.png?alt=media&token=1a29c903-cb7f-4b43-917f-8a584edc828b)
+![A modal sheet at the right of a screen, with the correct inset.](../../_assets/meqrlvws-04-do-53b5af8e0c1b180916fc.png)
 
 check Do
 
 Place side sheets along the edge of the screen, usually on the right side to avoid interference with any navigational components on the left edge. They can be slightly inset by 16dp.
 
-![A modal side sheet at the right of the screen with the wrong inset.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqrngv8-05-don't.png?alt=media&token=6167c058-b004-42fb-a408-c1f3f8bdea12)
+![A modal side sheet at the right of the screen with the wrong inset.](../../_assets/meqrngv8-05-don-t-eb24d8c243304778ae13.png)
 
 close Don’t
 
@@ -55,14 +55,14 @@ Don’t inset a side sheet from the screen edges far beyond the recommended marg
 
 ## Anatomy
 
-![4 elements of a standard side sheet.  ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqrqfpt-06.png?alt=media&token=b39ae6aa-ee8b-45cb-9d9b-c3aab1f16a67)
+![4 elements of a standard side sheet.  ](../../_assets/meqrqfpt-06-45a5449651867e40ffc1.png)
 
 1.  Divider (optional)
 2.  Headline
 3.  Container
 4.  Close icon button
 
-![7 elements of a modal side sheet.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqrrjh7-07.png?alt=media&token=989dc9f2-073d-4b86-8889-02ea9651aaf1)
+![7 elements of a modal side sheet.](../../_assets/meqrrjh7-07-e3ad6ec359ff33dccbd2.png)
 
 1.  Back icon button (optional)
 2.  Headline
@@ -78,7 +78,7 @@ Side sheet containers hold all side sheet elements. Their size is determined by 
  
 The container is the only required element of a side sheet.
 
-![A modal side sheet’s container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqsampe-08.png?alt=media&token=6de272f2-1434-4002-8037-f40e904d54b8)
+![A modal side sheet’s container.](../../_assets/meqsampe-08-3055603658f7731db885.png)
 
 1.  Container
 
@@ -88,7 +88,7 @@ Icon buttons Icon buttons help people take minor actions with one tap. [More on 
 
 Because the primary content behind or beside a side sheet is always visible, it’s important to provide affordances for leaving a side sheet and returning to the primary content.
 
-![Back icon button on the upper left of a modal side sheet.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqsgqgs-09.png?alt=media&token=77f536ad-a501-4715-9655-d5b7fdcab733)
+![Back icon button on the upper left of a modal side sheet.](../../_assets/meqsgqgs-09-88e4eafab0758487dd2a.png)
 
 1.  Back icon button
 
@@ -98,7 +98,7 @@ A close affordance provides a consistent method for dismissing a side sheet. 
 
 A close icon button is highly recommended, increases accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/overview/principles) , and makes focused A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice. [More on focused state](/m3/pages/interaction-states/applying-states#bc6d6853-48ef-490e-8076-448e89e69f0f) side sheets easier to close.
 
-![Close icon button on the upper right of a modal side sheet.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqsns8t-10.png?alt=media&token=94c3975a-172e-42aa-b2ab-a335f9c9e858)
+![Close icon button on the upper right of a modal side sheet.](../../_assets/meqsns8t-10-7f3eab6695a12a4ddeea.png)
 
 1.  Close icon button
 
@@ -108,7 +108,7 @@ Buttons Buttons let people take action and make choices with one tap. [More on b
 
 Use elevation Elevation is the distance between two surfaces on the z-axis [More on elevation](/m3/pages/elevation/overview) , fill, and tone Tone is how light or dark a color appears. Tone is sometimes also referred to as luminance. [More on hue, chroma, and tone](/m3/pages/color/how-the-system-works#dc7848f3-b094-4f9a-9e50-bfa5a5029617) to call attention to specific actions.
 
-![Save and cancel buttons at the bottom of a modal side sheet.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqsw3fe-11.png?alt=media&token=4452e717-8e08-4dc3-b1aa-a63252feeae1)
+![Save and cancel buttons at the bottom of a modal side sheet.](../../_assets/meqsw3fe-11-4f8b7ade2ba123215965.png)
 
 1.  Action buttons
 
@@ -122,7 +122,7 @@ Use a divider to separate:
 
 -   User-generated content from system-generated content
 
-![Horizontal divider on a modal side sheet.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqsz2ma-12.png?alt=media&token=7c14f328-775a-4c98-9513-1600f48affbe)
+![Horizontal divider on a modal side sheet.](../../_assets/meqsz2ma-12-e0b584e61dc7fc6c3276.png)
 
 1.  Divider
 
@@ -130,7 +130,7 @@ Use a divider to separate:
 
 Side sheets can display a wide variety of content and layouts Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/understanding-layout/overview) , ranging from a list Lists are continuous, vertical indexes of text and images. [More on lists](/m3/pages/lists/overview) of actions to supplemental content in a tabular layout.
 
-![2 side sheets with different content displayed side by side.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqt0pai-13.png?alt=media&token=9a10a8aa-ec40-4657-9bd9-b0447cbbb01e)
+![2 side sheets with different content displayed side by side.](../../_assets/meqt0pai-13-723d17e8bbff621495f4.png)
 
 Form controls shown in a side sheet for app settings
 
@@ -148,7 +148,7 @@ Entrance of standard side sheets will cause the body area to adjust and accommod
 
 In right-to-left (RTL) languages, side sheets should appear on the left edge of the window with all elements reversed.
 
-![Side sheet along the left edge of a screen. All buttons and icons are reversed.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmeqwb27c-16.png?alt=media&token=5b9ae114-f5ae-4f03-ada2-88ffe3f7f5c1)
+![Side sheet along the left edge of a screen. All buttons and icons are reversed.](../../_assets/meqwb27c-16-fe62d001a210ee79b658.png)
 
 Side sheet elements are reversed in RTL languages
 
@@ -164,7 +164,7 @@ check Do
 
 Side sheets can vertically scroll internally when their content exceeds the screen height
 
-![A side sheet appears to scroll horizontally.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8z3x56-19_don't.png?alt=media&token=b2f8c1b7-ea55-4f8a-b3de-6b9b51be72f9)
+![A side sheet appears to scroll horizontally.](../../_assets/lw8z3x56-19_don-t-524a747f0836191b01ee.png)
 
 close Don’t
 

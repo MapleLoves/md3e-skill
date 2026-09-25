@@ -28,7 +28,7 @@ Use an additional indicator that an item is selected such as:
 
 -   A visual style not related to color, like underlined text
 
-![A selected list item with a colored background, and a check as the leading icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif14iza-01.png?alt=media&token=140fabe0-eda0-43e7-8c49-95c7213f08f3)
+![A selected list item with a colored background, and a check as the leading icon.](../../_assets/mif14iza-01-b2a64cb06827ece903c2.png)
 
 Use two visual cues to show a list item is selected, like a leading checkmark and filled color
 
@@ -44,11 +44,11 @@ A ripple appears when a person taps on a list item to select it
 
 When hovered, the hover A hover state communicates when a user has placed a cursor above an interactive element. [More on hover state](/m3/pages/interaction-states/applying-states#71c347c2-dd75-485b-892e-04d2900bd844) state provides a visual cue that a list item is interactive.
 
-![A list with the second item visually altered while hovered over, with a cursor and darker fill.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif1lpwx-03.png?alt=media&token=fde07ebe-f294-4921-b6b3-fcbe40f28691)
+![A list with the second item visually altered while hovered over, with a cursor and darker fill.](../../_assets/mif1lpwx-03-40e667aec6e9e56961dd.png)
 
 Cursor: Hover
 
-![Selected list item with cursor, colored fill, and checked box.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif1n85t-04.png?alt=media&token=2e422eae-b219-462c-91d2-76f6af7da235)
+![Selected list item with cursor, colored fill, and checked box.](../../_assets/mif1n85t-04-8fd346b1e46a70bd26ed.png)
 
 Cursor: Selected
 
@@ -74,7 +74,7 @@ Swipe alternatives can be:
 
 -   Other single-point interactions 
 
-![A list item has a “more” button selected to reveal additional actions.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmshqfb4p-07-key04.png?alt=media&token=f428a79a-6ad9-40d6-9e3f-15b192c633f1)
+![A list item has a “more” button selected to reveal additional actions.](../../_assets/mshqfb4p-07-key04-4d22f8c1d56a2fa550b6.png)
 
 List items can reveal more actions from swiping or using an accessible secondary action such as a double tap
 
@@ -86,11 +86,11 @@ The first element in a list should always receive focus, unless the list has a s
 
 After an element is focused A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice. [More on focused state](/m3/pages/interaction-states/applying-states#bc6d6853-48ef-490e-8076-448e89e69f0f) , a person should be able to navigate within the list using arrow keys.
 
-![The first list item is automatically focused.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif1yik5-08.png?alt=media&token=e925d117-187b-4db5-a5fe-e21b9cab01ff)
+![The first list item is automatically focused.](../../_assets/mif1yik5-08-26c9eab5ec4a706e07d1.png)
 
 **Tab** key focuses on the first item or the selected item
 
-![A second list item focused using an arrow key.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif1z0du-09.png?alt=media&token=11096c65-8976-4b29-83d6-d0e6649c71f5)
+![A second list item focused using an arrow key.](../../_assets/mif1z0du-09-c1b1798ae1f2818c7423.png)
 
 **Arrow** keys navigate up and down through list items
 
@@ -98,7 +98,7 @@ All list items must be able to be activated using the **Space** or **Enter** key
 
 [More on single-action lists](/m3/pages/lists/guidelines#3e45f939-457a-44a8-8551-a2354c521d26)
 
-![List item with focus indicator and filled checkbox, selected using the Space or Enter key.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif21ldt-10.png?alt=media&token=36809b25-a375-4a87-9942-b8f1dda63fa4)
+![List item with focus indicator and filled checkbox, selected using the Space or Enter key.](../../_assets/mif21ldt-10-cff0cd3f6317f33dd61f.png)
 
 **Space** or **Enter** keys activate an element in a list
 
@@ -118,23 +118,23 @@ The list item as a whole isn't selectable; only the individual actions are.
 
 [More on multi-action lists](/m3/pages/lists/guidelines#db85439b-0e67-43b0-a2dc-61395738af64)
 
-![The first element in a multi-action list is focused automatically.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8um9bl-11-VQA.png?alt=media&token=6a474f8b-d3ef-4f9f-b356-3c5f87f3662f)
+![The first element in a multi-action list is focused automatically.](../../_assets/mi8um9bl-11-VQA-59309f122e0a520ee1bb.png)
 
 **Tab** brings the focus to the first action
 
-![The list action, a bookmark, is focused using the Down or Right arrow.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8uomf0-12-VQA.png?alt=media&token=c7508f6b-dd4b-4972-af0d-34a6010d313a)
+![The list action, a bookmark, is focused using the Down or Right arrow.](../../_assets/mi8uomf0-12-VQA-91f802c748e8d4380f83.png)
 
 **Down** and **Right** arrow keys move focus to the next action of the list item, or to the first action in the next item
 
-![A trailing bookmark icon is focused in the second list item.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8uwmgu-13-VQA.png?alt=media&token=28964eee-ac95-4e56-947c-73a2864ec3cf)
+![A trailing bookmark icon is focused in the second list item.](../../_assets/mi8uwmgu-13-VQA-8a128623ee19aee8b5d8.png)
 
 **Up** and **Left** arrow keys move focus to the previous action of the list item
 
-![Label text and supporting text of the second list item is in focus using the Up or Left arrow.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8v0dqs-14-VQA.png?alt=media&token=dba9d2e6-ae72-4a63-ae46-a5f5df07c3b6)
+![Label text and supporting text of the second list item is in focus using the Up or Left arrow.](../../_assets/mi8v0dqs-14-VQA-33015bc5016770dd5b91.png)
 
 If the focus is on a list item’s first action, the **Up** and **Left** arrows move focus back to the last action of the previous item
 
-![The Space or Enter key activates an overflow menu on a list item.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8v14y1-15-VQA.png?alt=media&token=288e0e31-8107-42b1-917f-061f6ef3e824)
+![The Space or Enter key activates an overflow menu on a list item.](../../_assets/mi8v14y1-15-VQA-401386007c1a7cf4ebe3.png)
 
 The **Space** or **Enter** key activates a selected action in a list
 
@@ -155,7 +155,7 @@ The accessibility label for a list item is typically the same as the **label tex
 
 Some labels, roles, and states are [dependent on platform](/m3/pages/lists/accessibility#09e32b7d-78a1-45c1-be12-4c6646cfe1d1).
 
-![List item selected to show label of “Bread, sourdough or wheat”.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif3ecf9-16.png?alt=media&token=f3d78d78-8ba2-402e-a069-ca0552ca6868)
+![List item selected to show label of “Bread, sourdough or wheat”.](../../_assets/mif3ecf9-16-8477b1783f68aa5cf388.png)
 
 A list item’s **label text** and **supporting text** is used for its accessibility label
 
@@ -179,7 +179,7 @@ A list item’s **label text** and **supporting text** is used for its accessibi
 
 On web, a list container’s accessibility label describes the type of selection that can be made, and the role is **List box**.
 
-![A list container is selected, showing a label of “Select either bread, pita, or rice” and role of “List box.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8wfvkj-17.png?alt=media&token=6abe0d86-e89d-46bf-b644-9c29820e651f)
+![A list container is selected, showing a label of “Select either bread, pita, or rice” and role of “List box.”](../../_assets/mi8wfvkj-17-5f704c9644e355f64612.png)
 
 On web, a list container’s role is **List box**
 
@@ -187,7 +187,7 @@ On Jetpack Compose, the role applies to the list item as a whole.
 
 If a list isn't selectable, the label text is read out without a role.
 
-![A selected list item shows a label of “Bread, sourdough, or wheat” and role of “Checkbox.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8wgxsf-18.png?alt=media&token=f2da7dd9-7edb-4a4e-ba75-861c0b9191bb)
+![A selected list item shows a label of “Bread, sourdough, or wheat” and role of “Checkbox.”](../../_assets/mi8wgxsf-18-444bf42ea1071c4b4e41.png)
 
 When selectable, the role **Checkbox** applies to the entire list item on Jetpack Compose
 
@@ -197,6 +197,6 @@ On Android Views (MDC-Android), components contained within the list should be l
 
 -   [Radio button](/m3/pages/radio-button/accessibility)
 
-![Checkbox of a selected list item shows label of “Bread, sourdough or wheat” and role of “Checkbox.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif3mprn-19.png?alt=media&token=eb532a0d-fff0-43bc-a056-3452ef435faf)
+![Checkbox of a selected list item shows label of “Bread, sourdough or wheat” and role of “Checkbox.”](../../_assets/mif3mprn-19-fd585658c5337b376809.png)
 
 On Android Views (MDC-Android), the accessibility label and role are applied to the interactive component by default

@@ -12,7 +12,7 @@ captured: 2026-09-14
 
 All layouts are made up of 1–3 panes. The type of layout and amount of panes you choose should depend on the  breakpoint Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints)  (previously window size classes) and the type of product being built.
 
-![A two-pane layout on desktop.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3nyytv-13-key01.png?alt=media&token=db27e96e-eb52-49b9-bb50-345e485da060)
+![A two-pane layout on desktop.](../../../_assets/mp3nyytv-13-key01-446eae9d32e53faccbe1.png)
 
 Layouts often include multiple panes that work together
 
@@ -34,7 +34,7 @@ Panes can be:
 
 All layouts need at least one flexible pane.
 
-![A device with 2 panes: 1 fixed and 1 flexible. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3o5axo-01.png?alt=media&token=0cec90da-3b69-4d39-9d38-0ac403866224)
+![A device with 2 panes: 1 fixed and 1 flexible. ](../../../_assets/mp3o5axo-01-2b134f435e40b4529dae.png)
 
 1.  Fixed pane
 
@@ -42,7 +42,7 @@ All layouts need at least one flexible pane.
 
 Panes can be permanent or temporary. Temporary panes can appear and be dismissed when necessary, affecting the layout and size of other panes.
 
-![2 permanent panes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3o6q96-02.png?alt=media&token=0a6d1b28-52cd-42ee-b280-e31226b49c42)
+![2 permanent panes.](../../../_assets/mp3o6q96-02-d273db4954cd9adfffa2.png)
 
 Panes can be displayed permanently side by side
 
@@ -52,7 +52,7 @@ Temporary panes can be dismissed
 
 Single-pane layouts use one flexible pane that extends to fit the available space in a layout’s width. They can be used at any breakpoint Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) , but are recommended for compact Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) and medium Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) .
 
-![A mobile screen with 1 flexible pane.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3oanue-04.png?alt=media&token=51c37f6b-9879-4f51-b2b8-7692175c9963)
+![A mobile screen with 1 flexible pane.](../../../_assets/mp3oanue-04-1cf62d83906d68b2852d.png)
 
 A single flexible pane adapts to fit any breakpoint
 
@@ -64,13 +64,13 @@ A split-pane layout keeps the spacer visually centered. It’s best for foldable
 
 When a navigation rail Navigation rails let people switch between UI views on mid-sized devices. [More on navigation rails](/m3/pages/navigation-rail/overview) or drawer Navigation drawers let people switch between UI views on larger devices. In the expressive update, use an expanded navigation rail. [More on navigation drawers](/m3/pages/navigation-drawer/overview) is present, it only reduces the size of one pane. The other pane remains at 50% of the window width.
 
-![2 flexible panes in a split-pane layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3ocqkb-05.png?alt=media&token=11e0471f-55e9-4358-86e1-4d1b53a07e1a)
+![2 flexible panes in a split-pane layout.](../../../_assets/mp3ocqkb-05-b695630d26a675edc074.png)
 
 The navigation and first pane should be 50% of the window width to keep the spacer centered
 
 With a navigation bar Navigation bars let people switch between UI views on smaller devices. [More on navigation bars](/m3/pages/navigation-bar/overview) , or no navigation, both panes span 50% of the window width by default.
 
-![2 flexible panes at 50% width, with a navigation bar below them spanning the whole window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3oeb3e-06.png?alt=media&token=389164ff-277f-4ec5-8572-f480d2badcea)
+![2 flexible panes at 50% width, with a navigation bar below them spanning the whole window.](../../../_assets/mp3oeb3e-06-6ccb7c8fa11506f4e0eb.png)
 
 With no navigation rail visible, split-pane layouts set each pane to 50% width by default
 
@@ -80,7 +80,7 @@ This layout is common for expanded Window widths 840dp to 1199dp, such as a tabl
 
 The fixed pane is often temporary, and used for side sheets or lists with light information density.
 
-![Fixed and flexible panes arranged 2 different ways.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3ogbeu-07.png?alt=media&token=d5605ccb-16b9-4a61-bd35-3b7a25e5a1cb)
+![Fixed and flexible panes arranged 2 different ways.](../../../_assets/mp3ogbeu-07-f06d9bb8d11c0714dac5.png)
 
 1.  Fixed pane
 
@@ -92,7 +92,7 @@ While less common, the extra-large breakpoint supports using a standard side she
 
 Note: Fixed panes at this breakpoint are recommended to be 412dp, but side sheets have a default maximum width of 400dp. 
 
-![Extra large breakpoint with 2 panes and a side sheet acting as a third pane.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3ojkaq-08.png?alt=media&token=b50cca85-884b-44aa-9e63-66adb80f855a)
+![Extra large breakpoint with 2 panes and a side sheet acting as a third pane.](../../../_assets/mp3ojkaq-08-aa7d9059762d4cf52617.png)
 
 1.  A standard side sheet can be used as a third pane
 
@@ -150,15 +150,15 @@ Multiple panes can be displayed in three ways: co-planar, floating, or docked. T
 
 -   Docked: A small pane pinned to the edge of a window. For example, a bottom sheet Bottom sheets show secondary content anchored to the bottom of the screen. [More on bottom sheets](/m3/pages/bottom-sheets/overview) can be docked to show additional actions.
 
-![A foldable open screen with 2 co-planar panes displayed side by side.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3ow4kk-15.png?alt=media&token=3d9d909d-60dd-45df-9a01-f46405e18a80)
+![A foldable open screen with 2 co-planar panes displayed side by side.](../../../_assets/mp3ow4kk-15-0f106a2b5f0e842f86d3.png)
 
 Co-planar: Panes are displayed side by side
 
-![ A foldable open screen with a floating pane displayed above other elements. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3oxadg-16.png?alt=media&token=be699075-a53f-4149-ba51-7f0d41116d9e)
+![ A foldable open screen with a floating pane displayed above other elements. ](../../../_assets/mp3oxadg-16-d6be2dc9ef5cae21c4c1.png)
 
 Floating: A pane is displayed above other panes or content, like a dialog
 
-![A foldable open screen with a docked pane to the bottom of the screen displayed above other elements. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3oxtwa-17.png?alt=media&token=8ec788eb-43eb-4a88-9ed9-12ae8a069de4)
+![A foldable open screen with a docked pane to the bottom of the screen displayed above other elements. ](../../../_assets/mp3oxtwa-17-01484513af4657e68b65.png)
 
 Docked: A pane is displayed above other panes and one of its edges extends beyond one side of the screen, like a bottom sheet
 
@@ -192,7 +192,7 @@ On large screens:
 
 -   The scrim behind a floating pane is optional
 
-![2 ways of showing floating panes on large screens, with and without a scrim.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3p9uz9-20.png?alt=media&token=7fab1453-4041-4c55-9e7b-e6390c603dcf)
+![2 ways of showing floating panes on large screens, with and without a scrim.](../../../_assets/mp3p9uz9-20-172bfba9fe4384993648.png)
 
 1.  Floating pane with a scrim
 
@@ -210,7 +210,7 @@ A docked pane can also adapt into a co-planar pane at medium and expanded breakp
 
 On large screens, consider changing docked panes into co-planar panes.
 
-![A docked pane on mobile and a co-planar pane on a tablet.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3riptw-23.png?alt=media&token=292b9430-835a-4518-94f0-e1172ff96b6a)
+![A docked pane on mobile and a co-planar pane on a tablet.](../../../_assets/mp3riptw-23-63052cc2edebdde7361c.png)
 
 1.  A compact screen can have a docked pane
 
@@ -234,7 +234,7 @@ On XR devices, pane layouts can be presented in disconnected  spatial panels In
 
 The content in a spatial panel can use implicit grouping Implicit grouping uses close proximity and open space to group related items. [More on implicit grouping](/m3/pages/grids-spacing/spacing#f3b19166-fead-462f-8adb-7153cd72af6b)  when the pane has an explicit container to distinguish it from the environment.
 
-![2-pane layout in XR with implicit content grouping and a virtual reality background. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3sp9gc-07-key01.png?alt=media&token=f06756e6-8045-4f55-8f3a-8b0874db7445)
+![2-pane layout in XR with implicit content grouping and a virtual reality background. ](../../../_assets/mp3sp9gc-07-key01-81024d7af27c7d613d30.png)
 
 When a pane uses explicit containment, content can use implicit grouping
 

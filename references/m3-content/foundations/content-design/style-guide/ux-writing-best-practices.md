@@ -12,13 +12,13 @@ captured: 2026-09-14
 
 Emphasize the results of the user’s potential action in neutral, direct language. Avoid cautions or warnings that might sound alarming, intimidating, or condescending. Focus instead on communicating the consequences of a function.
 
-!["Move to trash?" dialog with the message "Big birthday bash will be deleted after 30 days."](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvw0frl1-1_do.png?alt=media&token=fd980a50-2317-4d04-9c5e-edc4ec3b3ac9)
+!["Move to trash?" dialog with the message "Big birthday bash will be deleted after 30 days."](../../../_assets/lvw0frl1-1_do-076bb82626715c9c73c9.png)
 
 check Do
 
 Tell users what will happen if they take an action and how they can undo it
 
-!["Are you sure you want to move to trash?"dialog with the message "You'll be able to find "Big birthday bash" in your trash for 30 days."](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvw0g6jb-2_don't.png?alt=media&token=19fd1b16-a8ba-48d9-8f93-65784477a8a1)
+!["Are you sure you want to move to trash?"dialog with the message "You'll be able to find "Big birthday bash" in your trash for 30 days."](../../../_assets/lvw0g6jb-2_don-t-42db2593b1195a4a8463.png)
 
 close Don’t
 
@@ -28,7 +28,7 @@ Don’t misrepresent consequences or try to influence a user’s decision
 
 People scan UI text in search of the most meaningful content to them. Help by using specific titles and headings that clearly describe a topic. When users are skimming or hurrying through an action, this organization helps them avoid mistakes and unintentional actions.
 
-![Easily scannable content with different headings and subheadings on a card.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvw0gqx5-3.png?alt=media&token=143261b0-d6e9-413f-bfe8-a84897a2a764)
+![Easily scannable content with different headings and subheadings on a card.](../../../_assets/lvw0gqx5-3-d0ce36621bfa59bbd07d.png)
 
 Use headings and subheads to prioritize and group information
 
@@ -38,13 +38,13 @@ Unless otherwise specified, use sentence-style capitalization, where only the fi
 
 Products and branded terms may also be capitalized.
 
-![Sentence-style capitalization used for the title and consequence statement  in a dialog.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvw0hrme-4_do.png?alt=media&token=b558696c-198b-49f7-a82e-a07be8c4d4e3)
+![Sentence-style capitalization used for the title and consequence statement  in a dialog.](../../../_assets/lvw0hrme-4_do-a7e272d6811b714d526a.png)
 
 check Do
 
 Capitalize the first word of a sentence or phrase
 
-![Title casing used for the title  in a dialog.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvw0i4xj-5_don't.png?alt=media&token=eb1102dc-9681-481a-82f6-d437960d87f9)
+![Title casing used for the title  in a dialog.](../../../_assets/lvw0i4xj-5_don-t-b72811e611d83fafa129.png)
 
 close Don’t
 
@@ -54,13 +54,13 @@ Don’t use title case capitalization. Instead, use sentence case.
 
 Spell out words whenever possible. Shortened forms of words can be difficult for people to understand and screen readers to read. Avoid Latin abbreviations in UI text such as e.g. or etc. Instead, use full phrases like "for example," or "and more."
 
-![AM and PM abbreviations used on a clock app.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvw0j9q3-6_do.png?alt=media&token=0bcd700a-5234-48c1-9c4d-bbfb26f20012)
+![AM and PM abbreviations used on a clock app.](../../../_assets/lvw0j9q3-6_do-c93780d459de2fe2117a.png)
 
 check Do
 
 When an abbreviation is appropriate, make sure it’s formatted and spelled correctly to avoid confusion
 
-![Abbreviations used for months and days on buttons when there is enough space to spell them out.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvw0jnlb-7_don't.png?alt=media&token=47375e5f-03fb-42a9-982b-93472c06b359)
+![Abbreviations used for months and days on buttons when there is enough space to spell them out.](../../../_assets/lvw0jnlb-7_don-t-c521fda05a5c1da62c5a.png)
 
 close Don’t
 

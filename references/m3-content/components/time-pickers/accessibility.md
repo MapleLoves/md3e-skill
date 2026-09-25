@@ -24,7 +24,7 @@ If a screen is not large enough to display the dial selector, consider displayin
 
 The input selector should be accessible from the dial selector via the keyboard icon. This interaction allows multiple input methods and makes the time picker accessible for assistive technology users.
 
-![Time picker with active manual text input for hours.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd2w3xxn-01.png?alt=media&token=84c832db-808d-448c-a8dd-9d89620c4d1f)
+![Time picker with active manual text input for hours.](../../_assets/md2w3xxn-01-7f2c9604eb682af00f77.png)
 
 For time selection that doesn’t require a dial view, make a time input picker the default option
 
@@ -32,7 +32,7 @@ For time selection that doesn’t require a dial view, make a time input picker 
 
 Targets for dial selectors should be 48x48dp.
 
-![Time picker dial selector specs, selecting hour 7.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd2w61b9-02.png?alt=media&token=92a4708a-fda3-4fca-b285-153413dd00b4)
+![Time picker dial selector specs, selecting hour 7.](../../_assets/md2w61b9-02-bcb07c228dd39f6410e7.png)
 
 Dial selector targets should be 48x48dp
 
@@ -47,13 +47,13 @@ Dial selector targets should be 48x48dp
 
 If the input text is correctly linked, assistive tech like a screenreader will read the component’s role first, then the UI text.
 
-![Accessibility tags on the time picker's hour input field.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd2w8i4o-03.png?alt=media&token=da4a19d6-ee3a-4eaf-bce3-256e3d0681b1)
+![Accessibility tags on the time picker's hour input field.](../../_assets/md2w8i4o-03-5da0ba0cfe1ac824919a.png)
 
 The hour and minute fields have the text input role
 
 The dial selector will read a selection of total hours, such as **Hour 7 of 12**.
 
-![Accessibility tag on the time picker's dial selector.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd2w9ugu-04.png?alt=media&token=07079a68-62a9-49fd-ab7f-2638edda3047)
+![Accessibility tag on the time picker's dial selector.](../../_assets/md2w9ugu-04-edeb1fe47525a8792f1e.png)
 
 A screen reader reads the text label of a dial selector
 

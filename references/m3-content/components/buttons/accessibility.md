@@ -23,7 +23,7 @@ Enabled buttons need a 3:1 contrast ratio with the background to meet accessibil
 
 This is measured from the container for elevated, filled, and tonal button styles, and the label text for outlined and text button styles.
 
-![Diagram of color contrast ratios for buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm13hkn-01.png?alt=media&token=430a76cd-fd79-4d94-9524-a728d101de7e)
+![Diagram of color contrast ratios for buttons.](../../_assets/mmm13hkn-01-31a5e2cce7d387901f28.png)
 
 Higher contrast helps differentiate elements
 
@@ -33,7 +33,7 @@ Avoid excessive text wrapping or truncation by choosing concise strings. 
 
 On Android, button labels should be kept concise enough to fit within two lines after the text size is increased to 200%. If a button label exceeds this limit and gets truncated, provide an alternative way to access the full content in a single tap.
 
-![200% text size on a mobile screen. The overly long button text wraps to a second line: “Download playlist for offline access”.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm14hok-02-caution.png?alt=media&token=0bccb054-e80b-44a1-9602-edbfc79ccbe0)
+![200% text size on a mobile screen. The overly long button text wraps to a second line: “Download playlist for offline access”.](../../_assets/mmm14hok-02-caution-e55f05ede969cdef99d3.png)
 
 exclamation Caution
 
@@ -58,4 +58,4 @@ The accessibility Accessible design makes products usable for people with all ki
 
 It can contain extra contextual information if necessary.
 
-![Accessibility tags for a text-only button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm17kt7-03.png?alt=media&token=90f85f9d-911a-4ad5-9a83-495e6e6445e3)
+![Accessibility tags for a text-only button.](../../_assets/mmm17kt7-03-bb288e8e7f9111771fb9.png)

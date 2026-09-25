@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Text fields let users enter text into a UI
 
-![A side by side view of a filled and a outlined text field.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flyqb5o7k-1%20\(1\).png?alt=media&token=3e8505af-c89e-46f1-a165-4150245058a6)
+![A side by side view of a filled and a outlined text field.](../../_assets/image-f105286fa0baa4e663e9.png)
 
 Filled and outlined text fields
 
@@ -16,7 +16,7 @@ Filled and outlined text fields
 
 Use a text field when someone needs to enter text into a UI, such as filling in contact or payment information.
 
-![Mobile UI of contact form with several text fields. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31ssyn-1.png?alt=media&token=17fe50a8-ccc7-491b-b8b2-a8c3bd1487f3)
+![Mobile UI of contact form with several text fields. ](../../_assets/lx31ssyn-1-e12fe4baa6093991fa63.png)
 
 Contact form using outlined text fields
 
@@ -28,11 +28,11 @@ There are two variants of text fields:
 
 Both variants of text fields use a container to provide a visual cue for interaction and provide the same functionality.
 
-![Side by side view of a populated and unpopulated filled text field. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31t4yp-2.png?alt=media&token=4a6e26a3-72f3-46d2-8372-47fc1cf66d7e)
+![Side by side view of a populated and unpopulated filled text field. ](../../_assets/lx31t4yp-2-bc3b290ff3020545cc93.png)
 
 Filled text field
 
-![Side by side view of a populated and unpopulated outlined text field. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31tc9a-3.png?alt=media&token=db27205f-c078-450b-b330-00c1afd09444)
+![Side by side view of a populated and unpopulated outlined text field. ](../../_assets/lx31tc9a-3-17ead9bfb9813207dadc.png)
 
 Outlined text field
 
@@ -40,7 +40,7 @@ Outlined text field
 
 Outlined text fields have less visual emphasis than filled text fields Filled text fields have more visual emphasis than outlined text fields. They're often used in dialogs and short forms where their style draws more attention. . When they appear in places like forms (where many text fields are placed together), their reduced emphasis helps simplify the  layout Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/understanding-layout/overview) .
 
-![App screen with 1 focused and 1 unfocused outlined text field.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31u7r0-4.png?alt=media&token=bb9357e8-b1d0-4ff8-890f-b21939e78de0)
+![App screen with 1 focused and 1 unfocused outlined text field.](../../_assets/lx31u7r0-4-ec21b18cefe0461d754b.png)
 
 Login screen with outlined text fields
 
@@ -58,11 +58,11 @@ Choose the variant that:
 
 -   Is most distinct from other components (like buttons Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) ) and surrounding content
 
-![Mobile UI of a contact form with several filled text fields. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31v0nn-5.png?alt=media&token=205be2fa-2142-46e3-81fd-c69273b0601d)
+![Mobile UI of a contact form with several filled text fields. ](../../_assets/lx31v0nn-5-de6802c4c592d393ecc8.png)
 
 Mobile form using filled text fields
 
-![Mobile UI of a contact form with several outlined text fields. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31vds5-6.png?alt=media&token=cfac905f-bbb9-4917-86cb-75d405a82628)
+![Mobile UI of a contact form with several outlined text fields. ](../../_assets/lx31vds5-6-e32fd1281c85c5bd759b.png)
 
 The same mobile form using outlined text fields
 
@@ -72,13 +72,13 @@ If both variants of text field are used in a UI, they should be used consistentl
 
 For example, use outlined text fields Outlined text fields have less visual emphasis than filled text fields. They're often used in long forms where their reduced emphasis helps simplify the layout. in one section and filled text fields Filled text fields have more visual emphasis than outlined text fields. They're often used in dialogs and short forms where their style draws more attention. in another.
 
-![Mobile UI of a contact form with several filled text fields, and an open dialog on top using an outlined text field. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31vnye-7_do.png?alt=media&token=776ccb86-55c6-4c1c-abd2-fe2e99551f3e)
+![Mobile UI of a contact form with several filled text fields, and an open dialog on top using an outlined text field. ](../../_assets/lx31vnye-7_do-ed57cfadb92fe260594e.png)
 
 check Do
 
 When using both variants of text fields in a UI, separate them by region
 
-![Mobile UI of a contact form with a mix of outlined and filled text fields.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31vw2z-8_dont.png?alt=media&token=af4205b9-661c-4cb3-957c-a1fbda8d56ce)
+![Mobile UI of a contact form with a mix of outlined and filled text fields.](../../_assets/lx31vw2z-8_dont-789deab14337e7e6b38c.png)
 
 close Don’t
 
@@ -88,7 +88,7 @@ When using both variants of text fields, don't use both next to each other or wi
 
 ### Filled text field
 
-![Diagram of filled text field indicating the 10 parts of its anatomy.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2j3kn4a-9.png?alt=media&token=182bc4ba-6100-4b86-9c88-ab946296064e)
+![Diagram of filled text field indicating the 10 parts of its anatomy.](../../_assets/m2j3kn4a-9-0a5d141f151a79dc88b1.png)
 
 1.  Container
 
@@ -112,7 +112,7 @@ When using both variants of text fields, don't use both next to each other or wi
 
 ### Outlined text field
 
-![Diagram of an outlined text field indicating the 9 parts of its anatomy.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2j3kqed-10.png?alt=media&token=9dd5de19-42ba-4468-a2bc-843792fd7fc6)
+![Diagram of an outlined text field indicating the 9 parts of its anatomy.](../../_assets/m2j3kqed-10-9a41816dcf281d30cb2d.png)
 
 1.  Enabled container outline
 
@@ -142,7 +142,7 @@ A text field container has a fill and a stroke either around the entire containe
 **Rounded corners**
 The container of an outlined text field has rounded corners, while the container of a filled text field has rounded top corners and square bottom corners.
 
-![Side by side view of the containers of a filled and outlined text field.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31y44j-11.png?alt=media&token=7d4b4480-90b1-4bd6-b9db-a25f193c515a)
+![Side by side view of the containers of a filled and outlined text field.](../../_assets/lx31y44j-11-683c2efbea0dc652e241.png)
 
 Text field containers
 
@@ -156,11 +156,11 @@ Label text shouldn't be truncated or take up multiple lines. Keep it short, clea
 
 Label text should always be visible. When the field is selected, the label text moves from the middle of the text field to the top.
 
-![Text field with very long label text, too long to display fully display inside the text field container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31ykco-13_dont.png?alt=media&token=dc2a9d73-7d0f-42f0-aafa-072fcca98564)
+![Text field with very long label text, too long to display fully display inside the text field container.](../../_assets/lx31ykco-13_dont-e7111f817ebf0852285e.png)
 
 close Don’t Don’t truncate label text. Keep it short, clear, and fully visible.
 
-![Text field with very long label text split into 2 lines. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx320mke-14_dont.png?alt=media&token=13140173-2eba-4d08-bb46-a9fa6cba1a59)
+![Text field with very long label text split into 2 lines. ](../../_assets/lx320mke-14_dont-4735782795057d422c88.png)
 
 close Don’t
 
@@ -172,7 +172,7 @@ A text field doesn't require a label if the field's purpose is indicated by a se
 
 Adjacent labels should be aligned to the leading edge of the text field container.
 
-![Mobile UI of a contact form with label texts placed outside and on top of the text fields. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32132w-15.png?alt=media&token=7ec20bd3-7097-4d2e-85f5-eba578d7ce0f)
+![Mobile UI of a contact form with label texts placed outside and on top of the text fields. ](../../_assets/lx32132w-15-889b3667e6c3e69c9e0f.png)
 
 Text fields with adjacent labels
 
@@ -190,7 +190,7 @@ Additional best practices include:
 
 -   If required text has a particular color, use the same color for the asterisk
 
-![Mobile UI of a contact form showing supporting text below the text field, indicating an input is required. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx322ilp-16.png?alt=media&token=43feb129-a6b6-4277-b1a8-044d68325b3d)
+![Mobile UI of a contact form showing supporting text below the text field, indicating an input is required. ](../../_assets/lx322ilp-16-b20e1b59a29b0a57fe4f.png)
 
 Asterisk with required supporting text
 
@@ -204,7 +204,7 @@ Text fields can display input text in the following ways:
 -   **Multi-line** text fields grow to accommodate multiple lines of text
 -   **Text areas** are fixed-height fields
 
-![Text field with populated input text. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx322ww5-17.png?alt=media&token=fa62d7da-ffa4-49f8-bb0f-fa7273b6c4d2)
+![Text field with populated input text. ](../../_assets/lx322ww5-17-fae44945e682ee9b7ccc.png)
 
 Input text in a filled text field
 
@@ -218,7 +218,7 @@ In **multi-line** fields, overflow text causes the text field to expand, shiftin
 
 Text fields can contain prefix text such as currency symbol.
 
-![Text field with a currency prefix before the input text. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx323bkz-21.png?alt=media&token=105d405f-12d6-4edd-831c-aeb168ae8d20)
+![Text field with a currency prefix before the input text. ](../../_assets/lx323bkz-21-ef7f6d619aaee7cee866.png)
 
 A text field with a currency symbol text prefix
 
@@ -226,11 +226,11 @@ A text field with a currency symbol text prefix
 
 Text fields can contain suffix text such as unit of measurement or email domain.
 
-![Text field with a suffix after the input text indicating a maximum input of 100. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx323jpq-22.png?alt=media&token=0b58c2b9-439d-42b1-9ca3-f61852239672)
+![Text field with a suffix after the input text indicating a maximum input of 100. ](../../_assets/lx323jpq-22-1684de899efb846e961a.png)
 
 A text field with a grading scale as suffix
 
-![Text field with a suffix after the input text indicating an email address. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx3246iw-23.png?alt=media&token=1848c8cc-bb19-465d-bf22-2caea1371a3f)
+![Text field with a suffix after the input text indicating an email address. ](../../_assets/lx3246iw-23-d27adfae6fc7bf1b38ed.png)
 
 A text field with an email domain suffix
 
@@ -240,7 +240,7 @@ Supporting text conveys additional information about the input field, such as ho
 
 If there is a character or word limit, include a character or word counter. They display the ratio of characters used and the total character limit.
 
-![A side by side view of a text field with supporting text aligned with the trailing side, and a character counter aligned with the trailing side. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx324ofo-24.png?alt=media&token=309a0667-ded2-42a9-bd93-3b83d086f88f)
+![A side by side view of a text field with supporting text aligned with the trailing side, and a character counter aligned with the trailing side. ](../../_assets/lx324ofo-24-a0c0d6b77a7d066aac48.png)
 
 1.  Supporting text
 2.  Character counter
@@ -260,7 +260,7 @@ close Don’t
 
 Don't add error text in addition to supporting text, as their appearance will shift content
 
-![Mobile UI of a sign up form with an invalid text field entry. The error message wraps to 2 lines. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx325xha-27_caution.png?alt=media&token=56146424-2703-4db8-b848-8e986a620685)
+![Mobile UI of a sign up form with an invalid text field entry. The error message wraps to 2 lines. ](../../_assets/lx325xha-27_caution-9287973ab801f6918abf.png)
 
 exclamation Caution
 
@@ -272,7 +272,7 @@ It’s strongly recommended to show an error icon when the text field is in the 
 
 This highlights the error for people with visual impairments, and provides an additional sensory indicator.
 
-![2 text fields with error messages. The active text field has a thicker border. Both text fields have a trailing error icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm5vj8xje-28.png?alt=media&token=37a70518-0bc9-48c5-add8-ddef99bb85b8)
+![2 text fields with error messages. The active text field has a thicker border. Both text fields have a trailing error icon.](../../_assets/m5vj8xje-28-8f00f0645c415a65a8b3.png)
 
 The error icon is an important second visual indicator that a text field has an error
 
@@ -300,7 +300,7 @@ Images that are 24dp in height can be placed inside of text fields. This image h
 6.  **Image
     **An image can help contextualize the required input text such as a credit card number.
 
-![Side by side view of text fields with different icons and images as trailing elements within the container. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx3270td-28.png?alt=media&token=10a8c64f-9569-41f4-b334-66537b8c7930)
+![Side by side view of text fields with different icons and images as trailing elements within the container. ](../../_assets/lx3270td-28-b20542ce399dfdcb87aa.png)
 
 1.  Icon signifier
 2.  Valid or error icon 
@@ -315,11 +315,11 @@ Read-only text fields display pre-filled text that people cannot edit. 
 
 A read-only text field is styled the same as a regular text field and is clearly labeled as read-only.
 
-![Read only filled text field. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32b33u-29.png?alt=media&token=6200faed-0aab-45bd-af45-5dd7dff5020b)
+![Read only filled text field. ](../../_assets/lx32b33u-29-863ec78017c31614e66c.png)
 
 A filled read-only text field
 
-![Read only outlined text field. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32b91b-30.png?alt=media&token=d37f640d-c179-4935-ae4d-9e09c84a01cf)
+![Read only outlined text field. ](../../_assets/lx32b91b-30-454abf725bc9298f0c85.png)
 
 An outlined read-only text field
 
@@ -327,7 +327,7 @@ An outlined read-only text field
 
 As layouts adapt to larger screens and different breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) , apply flexible container dimensions to text fields. Set minimum and maximum values for margins Margins are the spaces between the edge of a nested element and its parent element, such as the space between a button's label text and the edge of its container. [More on margins](/m3/pages/understanding-layout/spacing#38a538d7-991f-4c39-8449-195d32caf397) , padding, and container dimensions as layouts scale so that typography adjusts for better reading experiences.
 
-![UI for creating a new album in a side by side view on mobile and tablet. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32c2h0-Full%20to%20max%20-%201P.png?alt=media&token=9b9c076b-53e3-4068-ae53-c050d0dbb37d)
+![UI for creating a new album in a side by side view on mobile and tablet. ](../../_assets/lx32c2h0-Full-to-max---1P-f2fc7a2788b398810d2d.png)
 
 For compact breakpoints, text fields can span the full width of the display. For medium and expanded breakpoints, text fields should be bound by flexible margins or other containers.
 
@@ -335,7 +335,7 @@ As text fields expand in fluid layouts, avoid maintaining fixed margins and typo
 
 For example, text fields should not span the full width of a large screen.
 
-![Tablet UI with text fields spanning the complete width of the screen. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32d5ny-responsive-layout-dont.png?alt=media&token=998e18d2-8016-4962-9652-e29fcfb4568b)
+![Tablet UI with text fields spanning the complete width of the screen. ](../../_assets/lx32d5ny-responsive-layout-dont-3ed321b3c5fa1b471eca.png)
 
 close Don’t
 
@@ -345,7 +345,7 @@ Don’t use fixed text field margins on large devices. Text fields shouldn’t s
 
 Dense text fields enable people to scan and take action on large amounts of information.
 
-![Tablet UI with desne text field as part of event creation form. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32dfqc-31.png?alt=media&token=a5b0b69e-bddf-49e4-9cfb-c30aae5f640d)
+![Tablet UI with desne text field as part of event creation form. ](../../_assets/lx32dfqc-31-c748022bcbbf4a07c2fc.png)
 
 A form with dense text fields
 

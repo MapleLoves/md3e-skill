@@ -15,15 +15,15 @@ captured: 2026-09-14
 -   Their apps and system UI change to a color pulled from their device wallpaper
 -   A product that looks personalized
 
-![Mobile screenshot of Google Photos](https://lh3.googleusercontent.com/nRGjsdrnAV37pnk6lndvtTpYveBb7FUID7JSKlCWTa8csqBEDNT4bS0J0vGIr7xLxTz0YTXnekJBLDhrKaOR2ioAiQj9C6WerRZaisgFjlCQ=s0)
+![Mobile screenshot of Google Photos](../../../_assets/nRGjsdrnAV37pnk6lndvtTpYveBb7FUID7JSKlCWTa8csqBEDNT4bS0J0vGIr7xLxTz0YTXnekJBLDhr-8b926d44d0308bff2e09.png)
 
 Dynamic color in a work app
 
-![Mobile screenshot of Gmail in light theme.](https://lh3.googleusercontent.com/iNathyd2eaBruZBmo0jpvBs3xxWgGCLJlgubjFw4KEnDTH5aG4m5ddQsDkaDwoJkiSEzeIcQf14jjcVScEH13jZbKZ5lsaMy9e_CtcvpBg31xw=s0)
+![Mobile screenshot of Gmail in light theme.](../../../_assets/iNathyd2eaBruZBmo0jpvBs3xxWgGCLJlgubjFw4KEnDTH5aG4m5ddQsDkaDwoJkiSEzeIcQf14jjcVS-b0c0a72e18de9b1e6665.png)
 
 Dynamic color in a work app
 
-![Mobile screenshot of Gmail.](https://lh3.googleusercontent.com/DeZMSmblekT7CJla66TuXekJ2mnhrENpzRb1Yjzusj0ZDNB553w6Jhq_gotbSMiyd5AcLLLC5Gn8w4W9EUYuzfYuf5gPsOm06ADeRr08Ly8=s0)
+![Mobile screenshot of Gmail.](../../../_assets/DeZMSmblekT7CJla66TuXekJ2mnhrENpzRb1Yjzusj0ZDNB553w6Jhq_gotbSMiyd5AcLLLC5Gn8w4W9-1e350090fb448db72529.png)
 
 Dynamic color in a work app
 

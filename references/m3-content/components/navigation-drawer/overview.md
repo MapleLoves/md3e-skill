@@ -24,7 +24,7 @@ The navigation drawer is no longer recommended in the Material 3 Expressive upda
 
 -   Put the most frequent destinations at the top and group related destinations together
 
-![2 variants of navigation drawers: standard and modal.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoorr6v-1.png?alt=media&token=884dcde5-fdd3-438c-9825-1f6668eef908)
+![2 variants of navigation drawers: standard and modal.](../../_assets/lwoorr6v-1-86197053537af369bdd8.png)
 
 1.  Standard navigation drawer
 2.  Modal navigation drawer
@@ -62,10 +62,10 @@ The navigation drawer is no longer recommended. Use the expanded navigation rail
 
 -   States States show the interaction status of a component or UI element. [More on states](/m3/pages/interaction-states/overview) : Updated color and shape for indicating selected state
 
-![M2 navigation drawer with 4 destinations in a mail app. The active destination “Inbox” is rectangular.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fldox2g48-navdrawer_OLD_M2.png?alt=media&token=192ac522-fc4c-4fd2-8fd2-ef6d0f6662e7)
+![M2 navigation drawer with 4 destinations in a mail app. The active destination “Inbox” is rectangular.](../../_assets/ldox2g48-navdrawer_OLD_M2-0c4f8699d0d7140ff5e8.png)
 
 M2: Navigation drawer had square corners and a rectangular shape indicating the active destination
 
-![M3 navigation drawer with 4 destinations in a mail app. The active destination “Inbox” has rounded corners.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flzdbjtd0-4.png?alt=media&token=8621f0a5-d2d3-41b1-bed8-3d5d6c5fdf34)
+![M3 navigation drawer with 4 destinations in a mail app. The active destination “Inbox” has rounded corners.](../../_assets/lzdbjtd0-4-4bef1d4e4ad29ac270e6.png)
 
 M3: Navigation drawer has rounded corners, new color mappings, and an updated style for indicating the active destination

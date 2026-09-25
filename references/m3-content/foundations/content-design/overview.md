@@ -11,7 +11,7 @@ captured: 2026-09-14
 -   UI text should be clear to anyone
 -   Follow [Associated Press (AP) Style](http://www.apstylebook.com) unless noted otherwise
 
-![UI content templates for various components.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvxen940-1p-Content%20design.png?alt=media&token=cff0a0a4-c060-46ee-9c61-6b2a01ae0b53)
+![UI content templates for various components.](../../_assets/lvxen940-1p-Content-design-a114d0b549c29a7facfa.png)
 
 ## Resources
 

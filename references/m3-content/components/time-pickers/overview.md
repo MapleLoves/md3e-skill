@@ -16,7 +16,7 @@ captured: 2026-09-14
 
 -   Make sure time can easily be selected by hand on a mobile device
 
-![Dial time picker dial and input time picker.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcyz4dh2-01.png?alt=media&token=726495da-d131-42f3-a766-cd787c29a235)
+![Dial time picker dial and input time picker.](../../_assets/mcyz4dh2-01-e604dc5583258d157ea9.png)
 
 1.  Time picker dial
 2.  Time picker input
@@ -42,10 +42,10 @@ Close
 
 -   Color: New color mappings and compatibility with dynamic color Dynamic color takes a single color from a user's wallpaper or in-app content and creates an accessible color scheme assigned to elements in the UI. [More on dynamic color](/m3/pages/dynamic/choosing-a-source)
 
-![Time picker’s old color mappings. The selected hour of 7 and AM text is purple, on a purple background.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcz00a3d-02.png?alt=media&token=195f2e65-d46e-466a-b952-e7cfa9761d48)
+![Time picker’s old color mappings. The selected hour of 7 and AM text is purple, on a purple background.](../../_assets/mcz00a3d-02-83e9f2b632c90780661e.png)
 
 M2: Time pickers had different color mappings
 
-![Time picker's new color mappings. The selected hour of 7 and AM text is black, with different background colors.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcz04x96-03.png?alt=media&token=a2f4ba54-7a25-4967-b3d9-bb113e40713e)
+![Time picker's new color mappings. The selected hour of 7 and AM text is black, with different background colors.](../../_assets/mcz04x96-03-b122a101d3320d130360.png)
 
 M3: Time pickers have new color mappings compatible with dynamic color

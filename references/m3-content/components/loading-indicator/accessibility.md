@@ -20,19 +20,19 @@ The active indicator, which displays progress, provides visual contrast of at le
 
 The indicator itself must have 3:1 contrast with the background, but the container does not.
 
-![Loading indicator with 3:1 color contrast.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmagv3srk-1.png?alt=media&token=85fc9e3b-7664-442d-940c-8d7b51cabda4)
+![Loading indicator with 3:1 color contrast.](../../_assets/magv3srk-1-aa4cedab2b70d0093621.png)
 
 The loading indicator provides visual contrast of at least 3:1 against most background colors
 
 When integrated into another component, such as a button, make sure that the active indicator provides a visual contrast of at least 3:1 against the other component.
 
-![Loading indicator with correct color contrast.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmaguuv6h-2_do.png?alt=media&token=8821caaf-6d1f-444d-8c96-12753282b334)
+![Loading indicator with correct color contrast.](../../_assets/maguuv6h-2_do-877a99e6770b900b50e3.png)
 
 check Do
 
 Ensure at least 3:1 contrast between the indicator and the surface it's on
 
-![Loading indicator with incorrect color contrast.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmaguuziu-3_dont.png?alt=media&token=e8157014-aaa8-47cf-ae70-c8c3b986b36e)
+![Loading indicator with incorrect color contrast.](../../_assets/maguuziu-3_dont-d8923baca6026e0a69ed.png)
 
 close Don’t
 
@@ -48,6 +48,6 @@ Since the loading indicator is a visual cue, it needs an accessibility label to 
 
 It should use the **progress bar** accessibility role. Write a label describing the purpose of the loading indicator, such as **loading news article** or **refreshing page**.
 
-![Loading indicator accessibility label and role.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0cb8rsa-5.png?alt=media&token=a2cd5924-9d13-4657-a26f-b5c6130d0c67)
+![Loading indicator accessibility label and role.](../../_assets/m0cb8rsa-5-5c282179ce15b4bd064d.png)
 
 Loading indicator labels should explain which items are loading

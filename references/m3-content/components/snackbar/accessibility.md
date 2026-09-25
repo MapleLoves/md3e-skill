@@ -24,13 +24,13 @@ Snackbars without actions can auto-dismiss after a sufficient amount of time, ho
 
 Each platform has its own requirements for auto-dismiss durations, however common acceptable durations are 4–10 seconds.
 
-![A snackbar saying "Email marked as read" with no button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0j72d-1.png?alt=media&token=fbcb708c-f8d8-4b0a-810f-f68a6bfcc444)
+![A snackbar saying "Email marked as read" with no button.](../../_assets/lwp0j72d-1-3c5be3b0373caa4cf3d9.png)
 
 Auto-dismissing snackbars should remain on screen long enough to read the information
 
 Snackbars use a color intended to stand out against UI elements. Use the default color mapping to avoid color conflict issues.
 
-![Snackbar with a dark container on a UI page in light theme.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0k0la-2.png?alt=media&token=0c86aabd-9c0f-47f6-9dcd-c872748ddfd2)
+![Snackbar with a dark container on a UI page in light theme.](../../_assets/lwp0k0la-2-a88447e0a773cca448b3.png)
 
 Snackbar should visually stand out
 
@@ -48,7 +48,7 @@ For example, update the label on a "Save" button to “Saved”, and trigger an 
 
 Alternatively, add actions to the snackbar so it doesn't dismiss until acted on. Actionable snackbars shouldn't auto-dismiss.
 
-![A "save" button changes to say "saved", alongside a snackbar that confirms changes were saved.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0kqjx-3.png?alt=media&token=cdc2d281-4288-4a6d-830f-8c72184d2dc8)
+![A "save" button changes to say "saved", alongside a snackbar that confirms changes were saved.](../../_assets/lwp0kqjx-3-1e8f998b1200af99889d.png)
 
 Communicate snackbar information near the action that triggered the snackbar
 
@@ -88,6 +88,6 @@ Snackbars should be announced once they appear on the screen, but shouldn’t gr
 
 If a snackbar appears when the app is launched, it should be announced after the page’s title, but not receive focus. 
 
-![Snackbar accessibility label examples.](https://lh3.googleusercontent.com/T_KwPf_rpSE3ree_3mFMt2C53xtXu1NZ67-FWB7-dRxb8jIeyk4T3J2-evC6G3Jly9WNV_gjKI-h98xqnBN3F_1npn_okXgBAUS4eo495UM=w40)
+![Snackbar accessibility label examples.](../../_assets/T_KwPf_rpSE3ree_3mFMt2C53xtXu1NZ67-FWB7-dRxb8jIeyk4T3J2-evC6G3Jly9WNV_gjKI-h98xq-e7aad678bda5abd7d611.png)
 
 Snackbars are announced when they appear, but don't trap focus

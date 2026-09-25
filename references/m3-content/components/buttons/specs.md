@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 ## Variants
 
-![Diagram comparing buttons with toggle buttons.](https://lh3.googleusercontent.com/aWhLmNGkz1dTgFMtkYbi73APlAcBdOgT9xviQJI1Riu10oLOdnakrGGJv6HBp6_9LHBw9lPT-lqF_xNp_Es_lsO2J0W-zT4MewEEILa9OQZZzw=s0)
+![Diagram comparing buttons with toggle buttons.](../../_assets/aWhLmNGkz1dTgFMtkYbi73APlAcBdOgT9xviQJI1Riu10oLOdnakrGGJv6HBp6_9LHBw9lPT-lqF_xNp-fd0b221f03b7d0bf35aa.png)
 
 1.  Default button
 
@@ -23,7 +23,7 @@ captured: 2026-09-14
 
 ## Configurations
 
-![Diagram showing configurations of buttons.](https://lh3.googleusercontent.com/qtqOoy4NuC3QFb7pfhfLLiZPXFCDrM-rLo38WY2V4ao1NGmIml-wNHF0Gk4ydIEttrZsWWGMlACpZAu5YiQZTrK5NaG52Zqr0PSE4IpQVBoi=w40)![Diagram showing configurations of buttons.](https://lh3.googleusercontent.com/qtqOoy4NuC3QFb7pfhfLLiZPXFCDrM-rLo38WY2V4ao1NGmIml-wNHF0Gk4ydIEttrZsWWGMlACpZAu5YiQZTrK5NaG52Zqr0PSE4IpQVBoi=s0)
+![Diagram showing configurations of buttons.](../../_assets/qtqOoy4NuC3QFb7pfhfLLiZPXFCDrM-rLo38WY2V4ao1NGmIml-wNHF0Gk4ydIEttrZsWWGMlACpZAu5-242a96a008aec002cc6e.png)![Diagram showing configurations of buttons.](../../_assets/qtqOoy4NuC3QFb7pfhfLLiZPXFCDrM-rLo38WY2V4ao1NGmIml-wNHF0Gk4ydIEttrZsWWGMlACpZAu5-66035cfbea364ed4ca31.png)
 
 1.  Size
 
@@ -55,7 +55,7 @@ Close
 
 ## Anatomy
 
-![Diagram labeling 3 parts of a button.](https://lh3.googleusercontent.com/Vd3wDLwuuQXUGiUdmogIFMY3V4WzpDIz9WvepaTJAmdJhaiKXTxshhrlEwJizdXlvsISt1vMjtSw5AdEr74lkf-uocBR-renjDhE95DrK05r=w40)![Diagram labeling 3 parts of a button.](https://lh3.googleusercontent.com/Vd3wDLwuuQXUGiUdmogIFMY3V4WzpDIz9WvepaTJAmdJhaiKXTxshhrlEwJizdXlvsISt1vMjtSw5AdEr74lkf-uocBR-renjDhE95DrK05r=s0)
+![Diagram labeling 3 parts of a button.](../../_assets/Vd3wDLwuuQXUGiUdmogIFMY3V4WzpDIz9WvepaTJAmdJhaiKXTxshhrlEwJizdXlvsISt1vMjtSw5AdE-e882873840c3f7090b98.png)![Diagram labeling 3 parts of a button.](../../_assets/Vd3wDLwuuQXUGiUdmogIFMY3V4WzpDIz9WvepaTJAmdJhaiKXTxshhrlEwJizdXlvsISt1vMjtSw5AdE-346501dc5351add9a24a.png)
 
 1.  Container
 
@@ -79,7 +79,7 @@ Note:
 
 These color roles were chosen to create design coherence and familiarity. Other color roles can be used as long as the container and text have a 3:1 contrast ratio. For example, tertiary and on tertiary.
 
-![Diagram shows dark and light color schemes for buttons.](https://lh3.googleusercontent.com/rniAgyk0C8Ys1AH7Lxciu7xnv8p_HA8iVm0AmoTKx5Ntedg_FdE0W66BG1udiPwCbGek3f0g8R2vlirupxprvRfYX8ID2uslj_bVROAMHgI=w40)
+![Diagram shows dark and light color schemes for buttons.](../../_assets/rniAgyk0C8Ys1AH7Lxciu7xnv8p_HA8iVm0AmoTKx5Ntedg_FdE0W66BG1udiPwCbGek3f0g8R2vliru-1df12fb64f6d3bc53969.png)
 
 A. Elevated, B. Filled, C. Tonal, D. Outlined, E. Text
 
@@ -107,7 +107,7 @@ The elevated button style has an elevation of 1 by default and 0 when disabled.
 
 #### Default
 
-![Elevated button states.](https://lh3.googleusercontent.com/n_5apeWPNXiSqDwG3UYvNY5A-FyHJOvbkdqH0Mq47KIxzVbHAq76C6DM1jG_TYTWiHgMPMjgdWA8N3zSKVM2ISe5HiS3MdV5P_u6A8rscjg=w40)
+![Elevated button states.](../../_assets/n_5apeWPNXiSqDwG3UYvNY5A-FyHJOvbkdqH0Mq47KIxzVbHAq76C6DM1jG_TYTWiHgMPMjgdWA8N3zS-17e0b0cab965910a6bc5.png)
 
 1.  Enabled
 2.  Disabled
@@ -117,7 +117,7 @@ The elevated button style has an elevation of 1 by default and 0 when disabled.
 
 #### Toggle
 
-![Toggle elevated button states.](https://lh3.googleusercontent.com/GQDxPmCDjJpgGWRA_VTNzseTsmouIs0lh8IVP8woIQk4cgCiAnDMZThBIfxG1GHEqTlUoL585KoCLj8c-1gmGB4OXQJs9qhHkSyjVB0ad6tE=w40)
+![Toggle elevated button states.](../../_assets/GQDxPmCDjJpgGWRA_VTNzseTsmouIs0lh8IVP8woIQk4cgCiAnDMZThBIfxG1GHEqTlUoL585KoCLj8c-85bcceb30515b572cd5e.png)
 
 A. Unselected, B. Selected
 
@@ -131,7 +131,7 @@ A. Unselected, B. Selected
 
 #### Default
 
-![Filled button states.](https://lh3.googleusercontent.com/RwG9SEB4yIRACbW517DyRW2mUveISG198EE64jJb0f277Q33MLyuP9uiKdCmeWhZeWKXDx_yRiSQtlWlpaFp2kRVRX7LlCN5TWc-QwwqszbX3Q=w40)
+![Filled button states.](../../_assets/RwG9SEB4yIRACbW517DyRW2mUveISG198EE64jJb0f277Q33MLyuP9uiKdCmeWhZeWKXDx_yRiSQtlWl-a7e29ab84a3f8e3edfd1.png)
 
 1.  Enabled
 2.  Disabled
@@ -141,7 +141,7 @@ A. Unselected, B. Selected
 
 #### Toggle
 
-![Toggle filled button states.](https://lh3.googleusercontent.com/oM057IT2WiygsF0GMglnN22051Pgx_Xop2in-So8huFo-CUC5_gyPnBYksLf-wCXu4r6pZJQ1Qg9tPTvn5MUNHjXHilHCB-dPu7kkAF4PhVc=w40)
+![Toggle filled button states.](../../_assets/oM057IT2WiygsF0GMglnN22051Pgx_Xop2in-So8huFo-CUC5_gyPnBYksLf-wCXu4r6pZJQ1Qg9tPTv-2d6b564bb774f1bdd49b.png)
 
 A. Unselected, B. Selected
 
@@ -155,7 +155,7 @@ A. Unselected, B. Selected
 
 #### Default
 
-![Tonal button states.](https://lh3.googleusercontent.com/wdF2kYSVD8W-FnPza7kOisTKCDc5FZKUskKzi8j3yZ0m7Ras4cKeoBCwUjpRr4EXjlSia_UfiRWFCCXl4VhbU9ZiwpbpVZetlqdtRGey0LU=w40)
+![Tonal button states.](../../_assets/wdF2kYSVD8W-FnPza7kOisTKCDc5FZKUskKzi8j3yZ0m7Ras4cKeoBCwUjpRr4EXjlSia_UfiRWFCCXl-4af291653fba6e7fefd7.png)
 
 1.  Enabled
 2.  Disabled
@@ -165,7 +165,7 @@ A. Unselected, B. Selected
 
 #### Toggle
 
-![Toggle tonal button states.](https://lh3.googleusercontent.com/SKh3_709LukNHRLX1h-4h3GWRx_g-PfrLaU28b33QM11qyAwNH2d-NPumu2KYhi9TECvF2QqeQ4ptDYUxgdMvdYTbcTiwmm-dsg6CS8Bd_0=w40)
+![Toggle tonal button states.](../../_assets/SKh3_709LukNHRLX1h-4h3GWRx_g-PfrLaU28b33QM11qyAwNH2d-NPumu2KYhi9TECvF2QqeQ4ptDYU-da67c3e50b2d18906505.png)
 
 A. Unselected, B. Selected
 
@@ -181,7 +181,7 @@ The outlined button’s container fill is invisible at rest, but the opacity and
 
 #### Default
 
-![Outlined button states.](https://lh3.googleusercontent.com/0RiSKbIPPzMC64WPAmZrA0Xi2bxyaBAQ8vmzHpEp1yjrhjSJqC0xv3_4jJgYaqh7v4BH7lAJZXkkN_HVyyIupF2JQQWfsYkCl5w2Pd_HEq90=w40)
+![Outlined button states.](../../_assets/0RiSKbIPPzMC64WPAmZrA0Xi2bxyaBAQ8vmzHpEp1yjrhjSJqC0xv3_4jJgYaqh7v4BH7lAJZXkkN_HV-a81df27ce145306fdd35.png)
 
 1.  Enabled
 2.  Disabled
@@ -191,7 +191,7 @@ The outlined button’s container fill is invisible at rest, but the opacity and
 
 #### Toggle
 
-![Outlined button states.](https://lh3.googleusercontent.com/U9yJ0EWfejvgr2j2FQRTLwN2Fk4H0pM4JxoYvRkql-jgBFGSqS26j--nqv_a23AL1Fhsjk5GAjgK4E1h_zDezwK_14acNyWL1Gy4_DWIgkY=w40)
+![Outlined button states.](../../_assets/U9yJ0EWfejvgr2j2FQRTLwN2Fk4H0pM4JxoYvRkql-jgBFGSqS26j--nqv_a23AL1Fhsjk5GAjgK4E1h-ec4ba82419419b0cc2cc.png)
 
 1.  Enabled
 2.  Disabled
@@ -203,7 +203,7 @@ The outlined button’s container fill is invisible at rest, but the opacity and
 
 The text button’s container is invisible at rest, but the opacity and state layers behave the same as other button styles when disabled, hovered, focused, or pressed. There is no toggle text button.
 
-![Default text button style states.](https://lh3.googleusercontent.com/BYjS_Tdp0yXd5Dh1aupX_ELYzONtiZU21cT0y1kA5Pb3ne2T43AcIQ85r6jYIkHW6yRp0kQb7TNPiw5qKB9OuAyLUK1GKAa84krq1YOktFnf=w40)
+![Default text button style states.](../../_assets/BYjS_Tdp0yXd5Dh1aupX_ELYzONtiZU21cT0y1kA5Pb3ne2T43AcIQ85r6jYIkHW6yRp0kQb7TNPiw5q-ca61a10accd9250f2c7d.png)
 
 1.  Enabled
 2.  Disabled
@@ -219,7 +219,7 @@ When pressed, buttons can morph to become more square. Both round and square but
 
 The corner radius value differs for each button size. [See full button corner measurements](/m3/pages/common-buttons/specs#b1f39738-6f3a-409b-8f08-4cab6d78d756)
 
-![Shape changes of a button.](https://lh3.googleusercontent.com/Si9asaI7X7SFuvDU46W5nHcZ9p9EVqCsu1Tb4Qfp1iPp2ho_kp85z_RXtK9EcyBqT5eoV-A4i8sJSQeDlY-tBGTl21KSLqLGpzM66hTvyZ67=w40)
+![Shape changes of a button.](../../_assets/Si9asaI7X7SFuvDU46W5nHcZ9p9EVqCsu1Tb4Qfp1iPp2ho_kp85z_RXtK9EcyBqT5eoV-A4i8sJSQeD-489c03c63e2946afb578.png)
 
 A. Round button, B. Square button
 
@@ -233,7 +233,7 @@ In addition to changing shape when pressed, toggle buttons also change the resti
 
 If the resting unselected shape is square, the selected shape should be round.
 
-![Shape changes of a toggle button.](https://lh3.googleusercontent.com/5hC5Vdz-txbFAuGYY8Bkij-tCNyyjHc1B2zDoFQ5WWkR9Aw6yCNB8hKYi3CO0DJ2xlNab2JbXSPsm4HrByy21SU6_KVLN7PYaiSOeDlSmsbc=w40)
+![Shape changes of a toggle button.](../../_assets/5hC5Vdz-txbFAuGYY8Bkij-tCNyyjHc1B2zDoFQ5WWkR9Aw6yCNB8hKYi3CO0DJ2xlNab2JbXSPsm4Hr-0624f24522c390ac7646.png)
 
 A. Round button, B. Square button
 
@@ -247,7 +247,7 @@ A. Round button, B. Square button
 
 ## Measurements
 
-![Diagram of measurements of all button sizes.](https://lh3.googleusercontent.com/JI2E9iCMwHgDDeC9fzCaTP1M974jPyBdpsV1OJoM83PKO0IINS4OUaPbdn9iT6ogQQqtFeBYb_IBT_sycEUkj3S6t4KEjZbGE1xT7-RL0JDX=w40)
+![Diagram of measurements of all button sizes.](../../_assets/JI2E9iCMwHgDDeC9fzCaTP1M974jPyBdpsV1OJoM83PKO0IINS4OUaPbdn9iT6ogQQqtFeBYb_IBT_sy-af89dfcd49affdde70a5.png)
 
 Padding and size measurements of each button size
 
@@ -265,7 +265,7 @@ Padding and size measurements of each button size
 
 Extra small and small icon buttons must have a target size of 48x48dp or larger to be accessible.
 
-![Diagram of small button target areas.](https://lh3.googleusercontent.com/35JMIvVuBd4UPv4LMpZ6rM_Hkn4S2UZlra92CcqY20cPp9334PxNr8KPaR-1P1d8q6Emonifwrp79hmxD5e2Ia_FQBDuKQhTKptbwn8uvPNZUQ=w40)
+![Diagram of small button target areas.](../../_assets/35JMIvVuBd4UPv4LMpZ6rM_Hkn4S2UZlra92CcqY20cPp9334PxNr8KPaR-1P1d8q6Emonifwrp79hmx-39c1cb05e2cbe2744ec5.png)
 
 A. Extra small  B. Small
 
@@ -275,7 +275,7 @@ A. Extra small  B. Small
 
 ### Corner sizes
 
-![Diagram of corner radii of buttons.](https://lh3.googleusercontent.com/sULNWNl9-8wPo3EiYHaqeFSTE3FnFXFotQmIJzabpV-JJPCaSWvwhK3u82A6CeaMqBYmQz3dyWBArTDULDf2FRWfTYV2ZtrX0IA2na9bdbJa=w40)
+![Diagram of corner radii of buttons.](../../_assets/sULNWNl9-8wPo3EiYHaqeFSTE3FnFXFotQmIJzabpV-JJPCaSWvwhK3u82A6CeaMqBYmQz3dyWBArTDU-7944ca3834701b8e16c9.png)
 
 |  | XS | S | M | L | XL |
 | --- | --- | --- | --- | --- | --- |

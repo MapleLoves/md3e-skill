@@ -14,7 +14,7 @@ captured: 2026-09-14
 
 -   Destinations don't change. They should be consistent across app screens.
 
-![Two navigation bars of different widths with 4 destinations.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fodjau-01.png?alt=media&token=2a83f14e-464f-4f96-9c01-eb770d98010e)
+![Two navigation bars of different widths with 4 destinations.](../../_assets/m0fodjau-01-d5c1b4b9c501bfd7b036.png)
 
 Navigation bar for compact and medium window sizes
 
@@ -62,7 +62,7 @@ Color:
 
 -   Active label changed from **on-surface-variant** to **secondary**
 
-![Navigation bar in M3 Expressive. It’s shorter than the baseline nav bar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmae7qe43-02.png?alt=media&token=52cdfa5b-8a10-45d5-af7c-0a92cc899672)
+![Navigation bar in M3 Expressive. It’s shorter than the baseline nav bar.](../../_assets/mae7qe43-02-5088cb9ce16aa86ea237.png)
 
 The flexible navigation bar is shorter and can be used in medium windows with horizontal nav items
 
@@ -74,10 +74,10 @@ The flexible navigation bar is shorter and can be used in medium windows with ho
 -   States: The active destination can be indicated with a pill shape in a contrasting color
 -   Name: Bottom navigation has been renamed **navigation bar**
 
-![M2 nav bar with a drop shadow and no active indicator.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0ddmjvm-03.png?alt=media&token=9e50be86-5460-46f5-90a7-0805ec3c9127)
+![M2 nav bar with a drop shadow and no active indicator.](../../_assets/m0ddmjvm-03-71a3d955e1874402f70d.png)
 
 M2: A drop shadow indicates placement on top of content. Filled and regular weight icons indicate active states.
 
-![M3 nav bar with a surface color and active indicator.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmae7pvz8-04.png?alt=media&token=98531a7d-df77-4d8e-a56b-7164db497bd9)
+![M3 nav bar with a surface color and active indicator.](../../_assets/mae7pvz8-04-3c2061c63604132ea79f.png)
 
 M3: Taller and no drop shadow. Filled icons and an active indicator indicate active state.

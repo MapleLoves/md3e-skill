@@ -13,7 +13,7 @@ captured: 2026-09-14
 -   Not used with extended FABs Extended floating action buttons (extended FABs) help people take primary actions. [More on extended FABs](/m3/pages/extended-fab/overview)
 -   Available in primary, secondary, and tertiary color sets
 
-![3 FAB menus in different color schemes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0aj37mw-01.png?alt=media&token=1ac9e775-2541-4a63-8818-d76cf8570699)
+![3 FAB menus in different color schemes.](../../_assets/m0aj37mw-01-eec0e1c35fb3fdad0fa8.png)
 
 The FAB menu comes in three color sets: primary, secondary, tertiary
 
@@ -54,16 +54,16 @@ Color:
 -   Supports dynamic color
 -   Compatible with any FAB color style
 
-![4 screens. The FAB menu is on the first, and 3 FABs of different sizes are on the others.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0aj3ip6-02.png?alt=media&token=fde56cc4-c285-45ef-9019-faa06da95454)
+![4 screens. The FAB menu is on the first, and 3 FABs of different sizes are on the others.](../../_assets/m0aj3ip6-02-29fdfb99679e0c22a85b.png)
 
 The FAB menu uses contrasting color and large items to focus attention. It can open from any size FAB.
 
 ## Differences from M2
 
-![M2 speed dial.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0aj3w24-Diff%20GM2.png?alt=media&token=e358569f-0a63-4ead-a844-ad98804cee2d)
+![M2 speed dial.](../../_assets/m0aj3w24-Diff-GM2-ef19a0eadc98f7dd7500.png)
 
 M2: The speed dial used small round FABs
 
-![GM3 FAB menu.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0aj42vs-Diff%20GM3%20Expressive.png?alt=media&token=b0d9f87d-66c0-48f4-9a11-e312b5b207ef)
+![GM3 FAB menu.](../../_assets/m0aj42vs-Diff-GM3-Expressive-e72b1f989f4ed40d9880.png)
 
 M3: The FAB menu uses dynamic color and a larger item size

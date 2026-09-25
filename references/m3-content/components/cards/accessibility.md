@@ -17,7 +17,7 @@ People should be able to do the following using assistive technology:
 
 A card can be a non-actionable container that holds actions like buttons Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) and links, or it can be directly actionable without any buttons or links. This is to avoid stacking actionable elements. An action shouldn’t be placed on an actionable surface.
 
-![2 possible card interaction behaviors.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuobzmz-1.png?alt=media&token=43522d6c-0a33-4b98-8cf8-3e7db99cd337)
+![2 possible card interaction behaviors.](../../_assets/lwuobzmz-1-05253f4916f8c71e03fd.png)
 
 1.  Non-actionable card with buttons
 2.  Directly actionable card with no buttons
@@ -40,7 +40,7 @@ Use containers like bottom sheets or menus to show single-pointer options
 
 It isn’t recommended to place menus on top of the card on the draggable state. If doing so is necessary, ensure that the interaction can be completed.
 
-![A menu over a card that doesn't totally obscure the card.](https://lh3.googleusercontent.com/UtnmXzj_hGKzI5R_xHaZroWQFz8QVFP84FZQS0iNVQIeJqE0-5q6CQGAszShyOylV59mHPIT3kyfXHFxAmJ34OD3CcE0yO1anFh0UoEwXXo=w40)![A menu over a card that doesn't totally obscure the card.](https://lh3.googleusercontent.com/UtnmXzj_hGKzI5R_xHaZroWQFz8QVFP84FZQS0iNVQIeJqE0-5q6CQGAszShyOylV59mHPIT3kyfXHFxAmJ34OD3CcE0yO1anFh0UoEwXXo=s0)
+![A menu over a card that doesn't totally obscure the card.](../../_assets/UtnmXzj_hGKzI5R_xHaZroWQFz8QVFP84FZQS0iNVQIeJqE0-5q6CQGAszShyOylV59mHPIT3kyfXHFx-1678c62ba906c27ba6b0.png)![A menu over a card that doesn't totally obscure the card.](../../_assets/UtnmXzj_hGKzI5R_xHaZroWQFz8QVFP84FZQS0iNVQIeJqE0-5q6CQGAszShyOylV59mHPIT3kyfXHFx-f8093881278da94b9693.png)
 
 exclamation Caution
 
@@ -72,11 +72,11 @@ All interactive elements of cards need a tab stop so they can be focused A focus
 
 For non-actionable cards, the card itself is not a tab stop. However, every actionable element in the card is a tab stop so they’re all visited before focus navigates to the next card.
 
-![The focus areas of a card with interactive elements.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuodgu3-5.png?alt=media&token=3f2cf54f-c991-49bf-bf2a-447a25e2657a)
+![The focus areas of a card with interactive elements.](../../_assets/lwuodgu3-5-b5d30b7b33e3652cb45e.png)
 
 Use **T****ab** to navigate through all buttons in a card
 
-![Cards forming a list on mobile and cards forming a gallery on tablet.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuoeob6-6.png?alt=media&token=be7c42c2-1676-4bb7-a654-8bdfcc83691b)
+![Cards forming a list on mobile and cards forming a gallery on tablet.](../../_assets/lwuoeob6-6-59c82666be61011c466c.png)
 
 Card layouts can change on different devices
 
@@ -95,7 +95,7 @@ Directly actionable cards can have the **button** or role, depending on how they
 
 Non-actionable cards are purely containers, so they don’t need a role.
 
-![Card elements annotated in the order that a screen reader tabs through them.](https://lh3.googleusercontent.com/kRZc33v7W2dec-MuK-hHKuYiBNxg2bd94Nl5lLgVpvf6JgZqUcU41USNzujmZqRUy3FjNddyFflMj37GqpyDMartw2BuUumFsfwjSxepog_T=w40)
+![Card elements annotated in the order that a screen reader tabs through them.](../../_assets/kRZc33v7W2dec-MuK-hHKuYiBNxg2bd94Nl5lLgVpvf6JgZqUcU41USNzujmZqRUy3FjNddyFflMj37G-f816eafd9efee201017a.png)
 
 Non-actionable card elements are navigable, focused in order, and verbalized when in focus. In this example, the order is:
 

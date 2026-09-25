@@ -23,7 +23,7 @@ Working with static color will be the most like other color workflows you may ha
 
 Material provides a static baseline color scheme including default color assignments and mappings.
 
-![Email UI in blue baseline scheme, shown in dark and light theme.](https://lh3.googleusercontent.com/j-JLmGXG9zrnK7fJ7-FsVu1lEpz9oLlYVlRAmaTA3tcI_BYxJETtJ2ukAB5EPokqWwzsKHdBEFBYY11G4tm4BmP64HNPxwybufl2eozWyTE=s0)
+![Email UI in blue baseline scheme, shown in dark and light theme.](../../_assets/j-JLmGXG9zrnK7fJ7-FsVu1lEpz9oLlYVlRAmaTA3tcI_BYxJETtJ2ukAB5EPokqWwzsKHdBEFBYY11G-ee9664440a891b830b2b.png)
 
 Colors are static in the baseline color scheme
 
@@ -55,7 +55,7 @@ Dynamic color will automatically create an accessible color scheme based on a sp
 
 Because the UI could end up with any number of different source colors, it's best to initially design it using the baseline color scheme so you can ensure the right color roles are mapped to the right components in your product. You'll use the Material Theme Builder Material Theme Builder (MTB) is a Figma plugin that allows markers to emulate the color extraction process for dynamic color and create custom tonal schemes. [Get the MTB](https://www.figma.com/community/plugin/1034969338659738588/material-theme-builder) to see how your UI mocks look across a range of source colors and adjust it as-needed.
 
-![Email UI changing from yellow, to red, to green color schemes,  shown in light and dark theme.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Flmb3ofmk-dynamic-color-animation.gif?alt=media&token=0a8efcba-e2a6-4424-836a-f1f1f2850c06)
+![Email UI changing from yellow, to red, to green color schemes,  shown in light and dark theme.](../../_assets/lmb3ofmk-dynamic-color-animation-fd32e176ad65f7a559c6.gif)
 
 While the actual colors may change, the color role mappings remain the same across dynamic color schemes
 

@@ -16,7 +16,7 @@ captured: 2026-09-14
 
 -   Three variants: FAB, medium FAB, large FAB
 
-![The 3 sizes of floating action buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkap9gay-01.png?alt=media&token=e8e925f7-45d2-4db6-8bfb-31ea3248ae1e)
+![The 3 sizes of floating action buttons.](../../_assets/mkap9gay-01-e1f1bece813d0566f00f.png)
 
 1.  FAB
 
@@ -82,16 +82,16 @@ Color:
 
 -   Surface color FABs are no longer recommended
 
-![4 FABs showing the colors available after the expressive update.](https://lh3.googleusercontent.com/Kyq0kFrZiQkyIGco9EHQ5yzaPCDzbUydpq5bcHqcin1vLOhBpnqAeAW6D86dFvHrexhyJvo5jK0Brc4PwckWVOtXFqRcMhUA-h05047nERg=w40)![4 FABs showing the colors available after the expressive update.](https://lh3.googleusercontent.com/Kyq0kFrZiQkyIGco9EHQ5yzaPCDzbUydpq5bcHqcin1vLOhBpnqAeAW6D86dFvHrexhyJvo5jK0Brc4PwckWVOtXFqRcMhUA-h05047nERg=s0)
+![4 FABs showing the colors available after the expressive update.](../../_assets/Kyq0kFrZiQkyIGco9EHQ5yzaPCDzbUydpq5bcHqcin1vLOhBpnqAeAW6D86dFvHrexhyJvo5jK0Brc4P-596125baf66b951bc0a7.png)![4 FABs showing the colors available after the expressive update.](../../_assets/Kyq0kFrZiQkyIGco9EHQ5yzaPCDzbUydpq5bcHqcin1vLOhBpnqAeAW6D86dFvHrexhyJvo5jK0Brc4P-4f9241410ab5cf515ed4.png)
 
 FABs have updated colors and sizes
 
 ## Differences from M2
 
-![M2 circular FAB with a plus icon.](https://lh3.googleusercontent.com/biMTAbEZ8apVSF9QNSr9S8V1F1DCCRCRckdBmlU0g9XLCrNJMwkw_cbBk_gvb6b0JbaulKKD9lAeDTQp4h3sZK5yKXP0CrSWlefMrFoTxK3T=w40)![M2 circular FAB with a plus icon.](https://lh3.googleusercontent.com/biMTAbEZ8apVSF9QNSr9S8V1F1DCCRCRckdBmlU0g9XLCrNJMwkw_cbBk_gvb6b0JbaulKKD9lAeDTQp4h3sZK5yKXP0CrSWlefMrFoTxK3T=s0)
+![M2 circular FAB with a plus icon.](../../_assets/biMTAbEZ8apVSF9QNSr9S8V1F1DCCRCRckdBmlU0g9XLCrNJMwkw_cbBk_gvb6b0JbaulKKD9lAeDTQp-bb71e8396045e5c9246e.png)![M2 circular FAB with a plus icon.](../../_assets/biMTAbEZ8apVSF9QNSr9S8V1F1DCCRCRckdBmlU0g9XLCrNJMwkw_cbBk_gvb6b0JbaulKKD9lAeDTQp-791c2c493fc0726a8467.png)
 
 M2: FABs are circles and always have a drop shadow
 
-![M3 rounded corner square FAB with an artist’s palette icon.](https://lh3.googleusercontent.com/eSZyi5bl8kk_aCpEVo6DV_KiYuZ3i_rEVB9y7rWbFd5SSILeUBlvQ3n2ztYzvPSTe1fyMK0LKDD_axvANAOOt6VLnf4GoSbWWSKy3j9bcRI=w40)![M3 rounded corner square FAB with an artist’s palette icon.](https://lh3.googleusercontent.com/eSZyi5bl8kk_aCpEVo6DV_KiYuZ3i_rEVB9y7rWbFd5SSILeUBlvQ3n2ztYzvPSTe1fyMK0LKDD_axvANAOOt6VLnf4GoSbWWSKy3j9bcRI=s0)
+![M3 rounded corner square FAB with an artist’s palette icon.](../../_assets/eSZyi5bl8kk_aCpEVo6DV_KiYuZ3i_rEVB9y7rWbFd5SSILeUBlvQ3n2ztYzvPSTe1fyMK0LKDD_axvA-fe1bbfbd1420591df49b.png)![M3 rounded corner square FAB with an artist’s palette icon.](../../_assets/eSZyi5bl8kk_aCpEVo6DV_KiYuZ3i_rEVB9y7rWbFd5SSILeUBlvQ3n2ztYzvPSTe1fyMK0LKDD_axvA-cef6666af0dd880665b8.png)
 
 M3: FABs have a boxier shape, can use dynamic color, and include a new large FAB variation

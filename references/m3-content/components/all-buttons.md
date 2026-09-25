@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 ##### There are 10 types of buttons in Material 3.
 
-![10 types of buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4kdl8gi-1.png?alt=media&token=78222465-efb0-405d-9e25-3a771b475e3a)
+![10 types of buttons.](../_assets/m4kdl8gi-1-40d4f9d443888b2eeaa2.png)
 
 1.  Button
 
@@ -56,7 +56,7 @@ Each screen should contain a single prominent button for the primary action. Thi
 
 A product can show more than one button at a time in a layout. Use different color styles to create visual hierarchy and indicate the importance of each button.
 
-![3 types of hierarchy: high emphasis, medium emphasis, and low emphasis.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0gpi7ar-2.png?alt=media&token=e31c5827-b4dd-4fdd-83de-d109e43641c7)
+![3 types of hierarchy: high emphasis, medium emphasis, and low emphasis.](../_assets/m0gpi7ar-2-de582a7b11ec0750e3be.png)
 
 A button’s level of emphasis helps determine its appearance, typography, and placement
 
@@ -64,7 +64,7 @@ A button’s level of emphasis helps determine its appearance, typography, and p
 
 Use a combination of button styles on the same screen to focus attention on a primary action, while offering alternatives.
 
-![Newsfeed screen with 3 different types of buttons following the emphasis hierarchy.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k8798m-3.png?alt=media&token=1f675b98-035f-4adf-97c2-a8375a437370)
+![Newsfeed screen with 3 different types of buttons following the emphasis hierarchy.](../_assets/m4k8798m-3-90f9e13b984a9e3c2a2c.png)
 
 1.  A filled button for a high-emphasis action
 
@@ -72,31 +72,31 @@ Use a combination of button styles on the same screen to focus attention on a pr
 
 3.  An extended FAB for the highest emphasis action
 
-![Text button to the left of a filled button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k87hb1-4.png?alt=media&token=e3effe4b-5a28-4eb6-89b9-2a4cc3fd5d17)
+![Text button to the left of a filled button.](../_assets/m4k87hb1-4-650fca98e0872e6cdf81.png)
 
 check Do
 
 For multiple actions, choose a higher-emphasis button for the more important action, such as a filled button next to a text button
 
-![Outlined button to the left of a filled button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k87km1-5.png?alt=media&token=2429b8b4-abef-4285-918f-fa59a525ce3a)
+![Outlined button to the left of a filled button.](../_assets/m4k87km1-5-e7fd8f9a00217da56900.png)
 
 check Do
 
 When using multiple buttons, you can place an outlined button (medium emphasis) next to a filled button (high emphasis)
 
-![Text button to the left of an outlined button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k87oz2-6.png?alt=media&token=2d9a1ec8-e9a8-4a8d-84b9-438e42016d16)
+![Text button to the left of an outlined button.](../_assets/m4k87oz2-6-04aefff4f438c481862b.png)
 
 check Do
 
 When using multiple buttons, you can place a text button (low emphasis) next to an outlined button (medium emphasis)
 
-![Single filled button at the bottom of a mobile screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k87stt-7.png?alt=media&token=7fa90222-a791-4276-944d-4122dc855061)
+![Single filled button at the bottom of a mobile screen.](../_assets/m4k87stt-7-6c5dfa76493f0d58927f.png)
 
 check Do
 
 Use a filled button on its own for a single important action
 
-![Filled button stacked above a text button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k87x4t-8.png?alt=media&token=804d28f2-8df3-4b20-a9cf-b279bf566bff)
+![Filled button stacked above a text button.](../_assets/m4k87x4t-8-36cb1ae61ba1e1499bbe.png)
 
 close Don’t
 

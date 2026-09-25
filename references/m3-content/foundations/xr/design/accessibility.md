@@ -74,6 +74,6 @@ Don’t overlap targets of different elements.
 
 Targets and icons should scale with their parent container or label text.
 
-![A gear icon with a 56dp target size and 4dp offset.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvwpjp-04.png?alt=media&token=63476ba4-7831-4848-9433-7b86f7f99e1e)
+![A gear icon with a 56dp target size and 4dp offset.](../../../_assets/mowvwpjp-04-ab4134681d7ebad80636.png)
 
 Use 56dp or larger target sizes for interactive elements

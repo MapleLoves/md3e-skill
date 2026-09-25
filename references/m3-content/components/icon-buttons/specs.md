@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 ## Variants
 
-![Side by side view of default and toggle icon buttons.](https://lh3.googleusercontent.com/eJRJf0S1ywGr8CdhzgukcRgQpKxbZOCEZ12g2HeJrldunvEVBgg_65CzvyHntvAMJWJYApy-BpompKTbjsHQl2sd6YGjoQriSC1O9nfooyw=s0)
+![Side by side view of default and toggle icon buttons.](../../_assets/eJRJf0S1ywGr8CdhzgukcRgQpKxbZOCEZ12g2HeJrldunvEVBgg_65CzvyHntvAMJWJYApy-BpompKTb-edeb7cb2c9cee2db5307.png)
 
 1.  Default icon button
 2.  Toggle icon button
@@ -22,7 +22,7 @@ captured: 2026-09-14
 
 ## Configurations
 
-![Side by side view of size, shape, color, and width variations.](https://lh3.googleusercontent.com/8uQEXQa18WJuSmuK5CLloUJ69m6TGCdj5C9FBDFAETglM5PWdtNDxW62KriOfOjurHZ9ThRY_yfM_pfRVEsYl-R5oeob6wY3nFADhcFPF5hk=s0)
+![Side by side view of size, shape, color, and width variations.](../../_assets/8uQEXQa18WJuSmuK5CLloUJ69m6TGCdj5C9FBDFAETglM5PWdtNDxW62KriOfOjurHZ9ThRY_yfM_pfR-2eade3069744a9023715.png)
 
 1.  Five sizes
 
@@ -50,7 +50,7 @@ Close
 
 ## Anatomy
 
-![Diagram indicating anatomy of filled icon button.](https://lh3.googleusercontent.com/awRYSAQ6XdaVBsLtLmUSRj56cqySERCiE8qj36eLHxsk8YXYMMkaU_tkx606qnJKv41RtQKLV9uSyAwkVXOmY4iJBuioKS30Lg9UvZEVFpW41w=w40)
+![Diagram indicating anatomy of filled icon button.](../../_assets/awRYSAQ6XdaVBsLtLmUSRj56cqySERCiE8qj36eLHxsk8YXYMMkaU_tkx606qnJKv41RtQKLV9uSyAwk-375c2254398ea20bc281.png)
 
 1.  Icon 
 2.  Container
@@ -67,7 +67,7 @@ Note:
 
 These color roles were chosen to create design coherence and familiarity. Other color roles can be used as long as the container and text have a 3:1 contrast ratio. For example, tertiary and on tertiary.
 
-![Color roles of default and toggle buttons in 4 visual styles.](https://lh3.googleusercontent.com/_CWKvmXvNaFk4LwtZcFhYyOOgq-OJEnRgXVifhpYTwewAHQXGsA8SAcHgpi4_BO2o6CIT-ERoIMpSI41hwGU2dvTE3OoJql9XZ_WQ6mxoPrK=w40)
+![Color roles of default and toggle buttons in 4 visual styles.](../../_assets/CWKvmXvNaFk4LwtZcFhYyOOgq-OJEnRgXVifhpYTwewAHQXGsA8SAcHgpi4_BO2o6CIT-ERoIMpSI41h-8fbcb80b687a8612848c.png)
 
 A: Filled, B: Tonal, C: Outlined, D: Standard
 
@@ -92,7 +92,7 @@ States States show the interaction status of a component or UI element. [More on
 
 #### Default
 
-![5 states of filled icon button.](https://lh3.googleusercontent.com/f_CiuCyosU5CvebQEKN5zF51JfbHKIee5oqSFrP2od51IfqDJ3SLx35_e9J-heZw83g2JpUqslKhGoeMeZfW-wcc0zeBqKRkbVzZ7249PjU=w40)
+![5 states of filled icon button.](../../_assets/f_CiuCyosU5CvebQEKN5zF51JfbHKIee5oqSFrP2od51IfqDJ3SLx35_e9J-heZw83g2JpUqslKhGoeM-33576596edfda409b474.png)
 
 1.  Enabled 
 2.  Disabled (10% state layer)
@@ -102,7 +102,7 @@ States States show the interaction status of a component or UI element. [More on
 
 #### Toggle
 
-![5 states of filled toggle icon button.](https://lh3.googleusercontent.com/Sv4DWzeNFz0bHgKddC2o6jcm4_Mg65zw0e9QF5y_PHOChQFHOkMGw_c05fE1srSoY50_RoTis4N2-bKguC9xAl8oGJaDeQGTOWWXI7SehwOD=w40)
+![5 states of filled toggle icon button.](../../_assets/Sv4DWzeNFz0bHgKddC2o6jcm4_Mg65zw0e9QF5y_PHOChQFHOkMGw_c05fE1srSoY50_RoTis4N2-bKg-91dfd4783965fd477863.png)
 
 A: Unselected. B: Selected
 
@@ -116,7 +116,7 @@ A: Unselected. B: Selected
 
 #### Default
 
-![5 states of tonal icon button.](https://lh3.googleusercontent.com/tgEuyiPL-Ux4Egj4kNTjvchlPIoplTaK_XukYj-4rC8T0MY8-7lsHzNq6wVpithFm43UqjQC-Ymy9Ek9CRxqm6805RePIN3eVccZY_92YFf8SA=w40)
+![5 states of tonal icon button.](../../_assets/tgEuyiPL-Ux4Egj4kNTjvchlPIoplTaK_XukYj-4rC8T0MY8-7lsHzNq6wVpithFm43UqjQC-Ymy9Ek9-037818b3b5a143e4c30c.png)
 
 1.  Enabled 
 2.  Disabled (10% state layer)
@@ -126,7 +126,7 @@ A: Unselected. B: Selected
 
 #### Toggle
 
-![5 states of tonal toggle icon button.](https://lh3.googleusercontent.com/3K-szMHugOwyybK3LjFoitWWxa6kcW8TKvzoBTvLDYFKK2hePutHe3uPnaZlY9-87q4g-CJ_cNUXZJF4SaZs44JyIk2K5RtADtMViVDZn-M=w40)
+![5 states of tonal toggle icon button.](../../_assets/3K-szMHugOwyybK3LjFoitWWxa6kcW8TKvzoBTvLDYFKK2hePutHe3uPnaZlY9-87q4g-CJ_cNUXZJF4-1bbe82f5ca21c6847f46.png)
 
 A: Unselected. B: Selected
 
@@ -140,7 +140,7 @@ A: Unselected. B: Selected
 
 #### Default
 
-![5 states of outlined icon button.](https://lh3.googleusercontent.com/yinTmVHDt3kOx1KIpfsX9V_-EkqnaUvj7hBjMWu90VQ3MgbEsjFJFPlV_-i4k9ACyP1Vt4uJMABCGejEbVBWDjKzhfkR9vpVrLhYJHB01srG=w40)
+![5 states of outlined icon button.](../../_assets/yinTmVHDt3kOx1KIpfsX9V_-EkqnaUvj7hBjMWu90VQ3MgbEsjFJFPlV_-i4k9ACyP1Vt4uJMABCGejE-0d026f138f58e627a6d3.png)
 
 1.  Enabled 
 2.  Disabled (10% state layer)
@@ -150,7 +150,7 @@ A: Unselected. B: Selected
 
 #### Toggle
 
-![5 states of outlined toggle icon button.](https://lh3.googleusercontent.com/BcxmjH6ecztV2npud8AveNazSZr__0H66nlq-j3xggQLcQvKLxLCXDbyXs13fVtB-A3l_zU1wq8aY84brugu8Mrtr2L_PRvoJBtDUAWT0-1H8w=w40)
+![5 states of outlined toggle icon button.](../../_assets/BcxmjH6ecztV2npud8AveNazSZr__0H66nlq-j3xggQLcQvKLxLCXDbyXs13fVtB-A3l_zU1wq8aY84b-112fe53aee01c01a2fa1.png)
 
 A: Unselected. B: Selected
 
@@ -166,7 +166,7 @@ The standard icon button’s container is invisible at rest, but visible when th
 
 #### Default
 
-![5 states of standard icon button.](https://lh3.googleusercontent.com/dwZOlhE1Y0s7U-eyHTYVA9aLYhUf9oSQBoay9bRBmlE-yPvG59Cu80jkcB3VNU6876dcNy34dIYjt_OCu5vwgkNcpiB104tJ89iIK72pYSk=w40)
+![5 states of standard icon button.](../../_assets/dwZOlhE1Y0s7U-eyHTYVA9aLYhUf9oSQBoay9bRBmlE-yPvG59Cu80jkcB3VNU6876dcNy34dIYjt_OC-0640fad3196139769df4.png)
 
 1.  Enabled 
 2.  Disabled (10% state layer)
@@ -176,7 +176,7 @@ The standard icon button’s container is invisible at rest, but visible when th
 
 #### Toggle
 
-![5 states of standard toggle icon button.](https://lh3.googleusercontent.com/Saes8VH33LRUx0xEd2BgfqFb39GzpjdT-z4HRzdjv3hST24J--BeF4JV_r0do5wk4jbPBb-AsSLMeWqIp9y8y8W8Jfa5zAJeK2WrBKNp4UE=w40)
+![5 states of standard toggle icon button.](../../_assets/Saes8VH33LRUx0xEd2BgfqFb39GzpjdT-z4HRzdjv3hST24J--BeF4JV_r0do5wk4jbPBb-AsSLMeWqI-ac4411ff3697741785f0.png)
 
 A: Unselected. B: Selected
 
@@ -196,7 +196,7 @@ Both round and square icon buttons should have the same pressed shape radius.
 
 The corner radius value differs for each button size. [See full icon button corner measurements](/m3/pages/icon-buttons/specs#b3df1f02-d313-44e9-9542-37f7e0e24dc7)
 
-![Shape changes for round and square icon buttons in 3 states.](https://lh3.googleusercontent.com/R4g7sI29Fu5i_IbuatO_g8K3lOfiXc5bWqBhR3s_5fhlg_yRXIbj6n26wEoi5SKZBszsh2CYiN6iioN9se4O1tXedkR6Lb5ANXj5oc45ZY0RQA=w40)
+![Shape changes for round and square icon buttons in 3 states.](../../_assets/R4g7sI29Fu5i_IbuatO_g8K3lOfiXc5bWqBhR3s_5fhlg_yRXIbj6n26wEoi5SKZBszsh2CYiN6iioN9-dc2149c0a528f6165ace.png)
 
 A. Round, B. Square
 
@@ -210,7 +210,7 @@ In addition to changing shape when pressed, toggle icon buttons also change the 
 
 If the resting shape is square, the selected shape should be round.
 
-![Shape changes for round and square toggle icon buttons in 3 states.](https://lh3.googleusercontent.com/BnUdAgpdenC-evMYsprXRd489dyTMpWrSuPeQgbXSYXyJipJESFG-v4OLvX9K0aWOHkWjS7-k7qXXmQjGaDhSW4a4CoPGZ6-1RcxxeL5cgY=w40)
+![Shape changes for round and square toggle icon buttons in 3 states.](../../_assets/BnUdAgpdenC-evMYsprXRd489dyTMpWrSuPeQgbXSYXyJipJESFG-v4OLvX9K0aWOHkWjS7-k7qXXmQj-ca66b9a22f6e5344388e.png)
 
 A. Round, B. Square
 
@@ -221,7 +221,7 @@ A. Round, B. Square
 
 ## Measurements
 
-![Diagram of 5 sizes of icon buttons in 4 widths.](https://lh3.googleusercontent.com/_jjXoUxycgTulKAlvK7SJG4QJ6ok6z-OJVsuMM4Q79_6fBauVYYA_TBTzTFzKa3-HvqYbWV9SR13zv35HwMK-BFmV8oFF6evAThLTcUCvA8=w40)
+![Diagram of 5 sizes of icon buttons in 4 widths.](../../_assets/jjXoUxycgTulKAlvK7SJG4QJ6ok6z-OJVsuMM4Q79_6fBauVYYA_TBTzTFzKa3-HvqYbWV9SR13zv35H-e354967e1d8595c16aad.png)
 
 A. Extra small  B. Small  C. Medium  D. Large  E. Extra large
 
@@ -234,7 +234,7 @@ A. Extra small  B. Small  C. Medium  D. Large  E. Extra large
 
 Extra small and small icon buttons must have a target size of 48x48dp or larger to be accessible.
 
-![Diagram of target sizes.](https://lh3.googleusercontent.com/elGowRNNI3axprldZYy7RbpofXNr_DB-TAdJep-DZ_sRF0WCCACN-pxCEBBeF6_5FJADjm_fVuRgRNNGdsvbAXi7Msuc6MjYF0pnW5rVzfmN3Q=w40)
+![Diagram of target sizes.](../../_assets/elGowRNNI3axprldZYy7RbpofXNr_DB-TAdJep-DZ_sRF0WCCACN-pxCEBBeF6_5FJADjm_fVuRgRNNG-3606bcdfd135a85e3c0e.png)
 
 A. Extra small icon button size  B. Small icon button size
 
@@ -244,7 +244,7 @@ A. Extra small icon button size  B. Small icon button size
 
 ### Button corner radius
 
-![Diagram of icon button corner radius.](https://lh3.googleusercontent.com/qbTMBYNLCAPi3CIr8hTDFwdc0GclxQmGaA67KohT7UMz509-iBAlMzevRQwXVvthTGyaA_7lA4DR060wRA3zc6dp2ztd7-WdJpUolTX3F1U=w40)
+![Diagram of icon button corner radius.](../../_assets/qbTMBYNLCAPi3CIr8hTDFwdc0GclxQmGaA67KohT7UMz509-iBAlMzevRQwXVvthTGyaA_7lA4DR060w-25182a051e4a4bc40b24.png)
 
 |  | XS | S | M | L | XL |
 | --- | --- | --- | --- | --- | --- |

@@ -25,12 +25,12 @@ Dialogs are purposefully interruptive. This means they appear in front of app co
 As such, dialogs should be used sparingly and only to provide critical information. Less critical information should be presented in a non-blocking way within the flow of app content.
 
 ![An inline tooltip doesn’t block a photo app’s content on a mobile screen.
-A modal dialog blocks the content of a photo app on a mobile screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8sgve0z-01_do.png?alt=media&token=15a731c6-5d4e-4b65-afb3-23b6275d0935)
+A modal dialog blocks the content of a photo app on a mobile screen.](../../_assets/m8sgve0z-01_do-c4ce5ffeac41a002d368.png)
 
 check Do Present non-critical information using other UI within the flow of app content
 
 ![A modal dialog blocks the content of a photo app on a mobile screen.
-A modal dialog blocks the content of a photo app on a mobile screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8sgvt7t-02_don't.png?alt=media&token=f88b6702-ef51-4b3b-97fc-c338539dc884)
+A modal dialog blocks the content of a photo app on a mobile screen.](../../_assets/m8sgvt7t-02_don-t-cea84b42587b6b1090bd.png)
 
 close Don’t Avoid putting non-critical information in a dialog
 
@@ -40,7 +40,7 @@ Avoid excessive text wrapping or truncation by choosing concise strings. 
 
 On Android, headlines should be kept concise enough to fit within **four** lines after the text size is increased to 200%. If a headline exceeds this limit and gets truncated, provide an alternative way to access the full content in a single tap.
 
-![A dialog with 200% text wraps multiple times in the header and description. It covers most of the mobile screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8sh8mb2-03_caution.png?alt=media&token=f2a9bb8e-dfb7-46a9-a33f-20f895f8a834)
+![A dialog with 200% text wraps multiple times in the header and description. It covers most of the mobile screen.](../../_assets/m8sh8mb2-03_caution-a875a029e2cef8bc0732.png)
 
 exclamation Caution
 
@@ -56,7 +56,7 @@ Some common examples include:
 2.  Typography Material's typography follows a type scale with accessibility considerations baked in. [More on typography](/m3/pages/text-fields/accessibility)
 3.  Buttons Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview)
 
-![3 elements of a full-screen dialog.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8x3m4cu-04.png?alt=media&token=4e645417-fc9a-48de-a66f-a3b5c5d16723)
+![3 elements of a full-screen dialog.](../../_assets/m8x3m4cu-04-3d3cde0719fa7b664fd1.png)
 
 Full-screen dialogs can contain various elements such as (1) text fields, (2) typography, and (3) buttons, which each may have their own accessibility guidelines
 
@@ -64,11 +64,11 @@ Full-screen dialogs can contain various elements such as (1) text fields, (2) ty
 
 When a dialog appears, focus should automatically land on the first interactive element within the dialog.
 
-![A modal dialog titled “Permanently delete?” whose second interactive element is focused by selecting the Tab key.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8wqpp2r-05.png?alt=media&token=d5214cf8-9fa2-458f-9e17-5db4e07235ba)
+![A modal dialog titled “Permanently delete?” whose second interactive element is focused by selecting the Tab key.](../../_assets/m8wqpp2r-05-98094c1a02613434b096.png)
 
 Initial focus lands on the first interactive element within a dialog. The tab key moves focus through the next interactive elements in a cycle.
 
-![A modal dialog titled “Permanently delete?” whose previous interactive element is focused on by selecting both the Shift and Tab keys.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8wqq56l-06.png?alt=media&token=2eae0221-4a71-4ca5-b873-6d3bf94cbd23)
+![A modal dialog titled “Permanently delete?” whose previous interactive element is focused on by selecting both the Shift and Tab keys.](../../_assets/m8wqq56l-06-7e69ef57285eb8792815.png)
 
 The shift and tab keys together move focus in the opposite direction. The space or enter key triggers or commits the action of the focused element.
 
@@ -87,7 +87,7 @@ The accessibility Accessible design makes products usable for people with all ki
 
 On web, basic dialogs should have the **alert dialog** role.
 
-![An alert dialog with a title “Set up traffic updates?”  Its label is “Set up traffic updates?” and its role as “Alert Dialog.”](https://lh3.googleusercontent.com/lBX7M9XMiL98P1lM9cobZ7GLCzqaLJANo3iKDKkfG_RQRKbKZepzwsjLHXEDveGR3zjduX9QaCz-UIsW7qyHc2TqlHp_B-4RSR1BrYnZAPh-iw=w40)
+![An alert dialog with a title “Set up traffic updates?”  Its label is “Set up traffic updates?” and its role as “Alert Dialog.”](../../_assets/lBX7M9XMiL98P1lM9cobZ7GLCzqaLJANo3iKDKkfG_RQRKbKZepzwsjLHXEDveGR3zjduX9QaCz-UIsW-e99fe218635c0132208a.png)
 
 Basic dialogs are known as alert dialogs on web
 
@@ -98,6 +98,6 @@ For common examples, see:
 -   Buttons Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/specs)
 -   Text fields Text fields let users enter text into a UI. [More on text fields](/m3/pages/text-fields/overview)
 
-![A full-screen dialog titled “New event” containing a “Save” button and a text field, both with their own accessibility labels.](https://lh3.googleusercontent.com/XhxNfz1cPdhx_FBTjgzNKRYc047mN_rLn5N3jQsdL7OCeMe61us_nf42-JVISOD0ZDkjPuXfKLMkPbfxfxPVEBmDdG_L2P1TvSx72RXXkGUV=w40)
+![A full-screen dialog titled “New event” containing a “Save” button and a text field, both with their own accessibility labels.](../../_assets/XhxNfz1cPdhx_FBTjgzNKRYc047mN_rLn5N3jQsdL7OCeMe61us_nf42-JVISOD0ZDkjPuXfKLMkPbfx-f98c9fa3abd168602221.png)
 
 Elements within a dialog should be labeled according to their guidelines

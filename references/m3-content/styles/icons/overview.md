@@ -28,7 +28,7 @@ captured: 2026-09-14
 
 You can now copy and paste icons from [Google Fonts](http://fonts.google.com/icons). Once you search for and select the desired icon, options will appear in the right-hand panel to resize, recolor, and copy the customized icon to clipboard.
 
-![Panel showing options to size, recolor, and copy selected icon.](https://lh3.googleusercontent.com/22GVNk1VPRz-ISGnqAWll3lQ1nCH-kIK4N9CAFuruMLmLbBhfiK67Twx6vavp11C7h4SwEWEV5AThbbwL-4Bo41mAiFFUuncTmVeJkOe7_M=s0)
+![Panel showing options to size, recolor, and copy selected icon.](../../_assets/22GVNk1VPRz-ISGnqAWll3lQ1nCH-kIK4N9CAFuruMLmLbBhfiK67Twx6vavp11C7h4SwEWEV5AThbbw-a90a7e90978167732029.png)
 
 Icons can now be copied with a single click
 
@@ -36,7 +36,7 @@ Icons can now be copied with a single click
 
 The new variable icon font set supports three styles: **outlined**, **rounded**, and **sharp**. All Material Symbols are newly drawn to be pixel-crisp and modernized.
 
-![Twelve icons depicted in three styles: outlined, with rounded corners, and sharp.](https://lh3.googleusercontent.com/d6OqHaOBaWELWCZotRLSIUZAo3C27dSi5_Ua9M7sbngYx9g96UT_XvYygJu91McSeg9kIYWoQKsFUFpce-GSzZ00z1-xIteXDMCnwQqTL_F2=w40)
+![Twelve icons depicted in three styles: outlined, with rounded corners, and sharp.](../../_assets/d6OqHaOBaWELWCZotRLSIUZAo3C27dSi5_Ua9M7sbngYx9g96UT_XvYygJu91McSeg9kIYWoQKsFUFpc-f5384dc26f8d5b4212ff.png)
 
 1.  Outlined 
 2.  Rounded 
@@ -52,6 +52,6 @@ A range of symbols shown with the same weight, fill, grade, and optical sizes
 
 Easily [incorporate Material Symbols](http://goo.gle/material-symbols-figma) into your latest designs on Figma.
 
-![Screenshot of Material Symbols plugin in Figma.](https://lh3.googleusercontent.com/j5g_ja2YLi2k6-LT8owV2linpliKOgfo9TTNB8GpatQsvf27fKW-Bg-rugLEb-YV7-_gmlMkSVagJAxOxNLwROlkOOX3lgPmNV5p7x99fBADJQ=w40)
+![Screenshot of Material Symbols plugin in Figma.](../../_assets/j5g_ja2YLi2k6-LT8owV2linpliKOgfo9TTNB8GpatQsvf27fKW-Bg-rugLEb-YV7-_gmlMkSVagJAxO-76e141dd45280688c4d0.png)
 
 Figma Symbols plugin

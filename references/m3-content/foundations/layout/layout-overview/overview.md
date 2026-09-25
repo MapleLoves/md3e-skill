@@ -20,7 +20,7 @@ captured: 2026-09-14
 
 -   Material layout guidance is implemented on Android and applies to web
 
-![7 elements of layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3ukjvm-01.png?alt=media&token=6f4fdd25-559d-4ed3-964a-ffb0c5f7b5f7)
+![7 elements of layout.](../../../_assets/mp3ukjvm-01-b340bf4b5a7602f0a4ae.png)
 
 1.  Column
 
@@ -69,7 +69,7 @@ Naming:
 
 -   Responsive layout renamed to [adaptive design](/m3/pages/layout-overview/adaptive-design)
 
-![Compact and expanded layouts for differently sized screens.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3uxdvt-02.png?alt=media&token=a4cf0742-9a81-4697-8963-46b936eeb5f3)
+![Compact and expanded layouts for differently sized screens.](../../../_assets/mp3uxdvt-02-0294b76da6118ae215a3.png)
 
 The Material layout scaffold enables layouts to adapt across different screen sizes
 

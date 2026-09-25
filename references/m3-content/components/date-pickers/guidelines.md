@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Date pickers let people select a date, or a range of dates
 
-![A date picker opens in a form UI.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5o0x3j-01.png?alt=media&token=2fde5553-057a-47ca-9e87-19b956f2ad78)
+![A date picker opens in a form UI.](../../_assets/md5o0x3j-01-6e5275896f1bc433bbb8.png)
 
 Docked date picker on desktop
 
@@ -22,7 +22,7 @@ Date pickers can be embedded into:
 
 2.  Text field Text fields let users enter text into a UI. [More on text fields](/m3/pages/text-fields/overview) drop-downs on medium and expanded breakpoints Window widths 840dp to 1199dp, such as a tablet or foldable in landscape orientation, or desktop. [More on expanded breakpoints](/m3/pages/breakpoints/expanded) like tablet and desktop
 
-![2 date picker variations: a dialog on mobile and a dropdown within a text field on desktop.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5sha07-02.png?alt=media&token=4d9b7796-166a-4e83-8a17-abf61a83c6ae)
+![2 date picker variations: a dialog on mobile and a dropdown within a text field on desktop.](../../_assets/md5sha07-02-fe524b8ae9fd2bc4ba56.png)
 
 1.  Date picker dialog on mobile
 2.  Date picker text field dropdown on desktop
@@ -35,15 +35,15 @@ There are three variants of date pickers:
 
 3.  Modal date input
 
-![A docked date picker component.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5si8zx-03.png?alt=media&token=84db16d1-ec55-415e-b2d1-76214fa1336a)
+![A docked date picker component.](../../_assets/md5si8zx-03-e59479bf3d09d954e10f.png)
 
 1\. Docked date picker
 
-![A modal date picker component.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5sj3v5-04.png?alt=media&token=9c5f5c53-5d9c-4fc0-98ec-417a001994a1)
+![A modal date picker component.](../../_assets/md5sj3v5-04-2f4e326bf3deccf46ea6.png)
 
 2\. Modal date picker
 
-![A modal date input component.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme1yy2eb-05.png?alt=media&token=eb5f6437-120f-4436-8382-78df0df143f8)
+![A modal date input component.](../../_assets/me1yy2eb-05-0deef76f50dd8f4409c3.png)
 
 3\. Modal date input
 
@@ -51,7 +51,7 @@ There are three variants of date pickers:
 
 ### Docked date picker
 
-![7 elements of a docked date picker.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5skthv-06.png?alt=media&token=4ef9f1b3-6e99-4787-8150-6c64b1808315)
+![7 elements of a docked date picker.](../../_assets/md5skthv-06-0c59546a18673c71bd1f.png)
 
 1.  Text field
 2.  Menu button
@@ -61,7 +61,7 @@ There are three variants of date pickers:
 6.  Text buttons
 7.  Container
 
-![3 elements of a docked date picker.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5slanf-07.png?alt=media&token=fbc898d0-972d-46fb-a595-ecb0db8f514c)
+![3 elements of a docked date picker.](../../_assets/md5slanf-07-f17674d414f43b19e25f.png)
 
 1\. Text field 
 2\. Menu button 
@@ -69,7 +69,7 @@ There are three variants of date pickers:
 
 ### Modal date picker
 
-![12 elements of a modal date picker.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5sma00-08.png?alt=media&token=1723a5d5-4cdc-4758-a1bc-bb362780ad84)
+![12 elements of a modal date picker.](../../_assets/md5sma00-08-50d7b1cfd14bb60d6529.png)
 
 1.  Headline 
 2.  Supporting text
@@ -84,7 +84,7 @@ There are three variants of date pickers:
 11.  Menu button
 12.  Divider
 
-![9 elements of a modal date picker.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5smpl6-09.png?alt=media&token=e4cbb084-d156-4210-a569-37fcda9a9ad4)
+![9 elements of a modal date picker.](../../_assets/md5smpl6-09-d75e9fbefc9e1cc8d9d4.png)
 
 1.  Headline
 2.  Supporting text
@@ -98,7 +98,7 @@ There are three variants of date pickers:
 
 ### Modal date input
 
-![7 elements of a modal date input.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5sng56-10.png?alt=media&token=5d099ed8-e13b-4f7d-8148-7564dd7c636e)
+![7 elements of a modal date input.](../../_assets/md5sng56-10-548d3b96e577aa03df16.png)
 
 1\. Headline 
 2\. Supporting text
@@ -110,7 +110,7 @@ There are three variants of date pickers:
 
 ### Full-screen date picker
 
-![14 elements of a full-screen date picker.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5srxxg-11.png?alt=media&token=342f4eea-5c39-4b69-b4f5-32d5ae50042b)
+![14 elements of a full-screen date picker.](../../_assets/md5srxxg-11-a3949bbf44b7de2ad568.png)
 
 1\. Headline
 2\. Supporting text
@@ -135,7 +135,7 @@ Docked date pickers allow the selection Selection lets users choose specific ite
 
 Docked date pickers are ideal for navigating dates in both the near future or past and the distant future or past, as they provide multiple ways to select dates.
 
-![Docked date picker on a desktop screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhhvs4s-12.png?alt=media&token=b3de10d4-789a-4203-b950-97a19de11e56)
+![Docked date picker on a desktop screen.](../../_assets/lwhhvs4s-12-acfcb689223460d7a625.png)
 
 Docked date picker on desktop
 
@@ -143,7 +143,7 @@ Docked date picker on desktop
 
 Dates can be added by using a keyboard or by navigating the calendar UI; both options are immediately available when the docked date picker is accessed.
 
-![Docked date picker with a text field and the UI picker showing the selected date. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5swv36-13.png?alt=media&token=e9e8a585-7d28-4714-b57c-8ad56ad35932)
+![Docked date picker with a text field and the UI picker showing the selected date. ](../../_assets/md5swv36-13-a4dd3241a690e74efdb6.png)
 
 Docked date picker
 
@@ -155,7 +155,7 @@ The year selection menu replaces the calendar view
 
 Month selection Selection lets users choose specific items to act on. [More on selection](/m3/pages/selection) can be navigated with the corresponding back and next arrows or by tapping the dropdown menu.
 
-![Docked date picker with a list of months May through September. August is selected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5sxs60-16.png?alt=media&token=8e25c888-0ff4-41b3-bc49-bcb15ee42958)
+![Docked date picker with a list of months May through September. August is selected.](../../_assets/md5sxs60-16-b93774499f1cb6c20813.png)
 
 Docked date picker month selection
 
@@ -163,7 +163,7 @@ Docked date picker month selection
 
 Year selection can be navigated with the corresponding back and next arrows or by tapping the dropdown menu.
 
-![Docked date picker with a list of years 2025 to 2029. 2025 is selected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5t0t93-17.png?alt=media&token=62987e8d-906f-4598-bc57-2b24c75d6f99)
+![Docked date picker with a list of years 2025 to 2029. 2025 is selected.](../../_assets/md5t0t93-17-3bebf1cc5063e9b95deb.png)
 
 Docked date picker year selection
 
@@ -205,17 +205,17 @@ Modal date range picker with vertical scroll
 
 Modal date inputs allow the manual entry of dates using the numbers on a keyboard. People can input a date or a range of dates in a dialog.
 
-![A modal date input component.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5t2vbx-22.png?alt=media&token=c323b202-962d-44d8-b4b5-fd7e3c3cf2f6)
+![A modal date input component.](../../_assets/md5t2vbx-22-c39de4ba2013d6e25e6f.png)
 
 Modal date with manual input
 
-![A modal date input component showing a day in 1979, which would be difficult to choose using UI.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5t44vn-23-do.png?alt=media&token=ef86d677-f014-4215-877c-dc501c32eae2)
+![A modal date input component showing a day in 1979, which would be difficult to choose using UI.](../../_assets/md5t44vn-23-do-e1b2afd6816b375d8f26.png)
 
 check Do
 
 For dates that don’t require a calendar view, the modal date input can be the default view
 
-![A modal date input with hint text for entering the date.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5t675k-24-do.png?alt=media&token=335d8130-c5c5-4080-a5c4-ba8454108840)
+![A modal date input with hint text for entering the date.](../../_assets/md5t675k-24-do-ead7d027416919e25ac8.png)
 
 check Do
 
@@ -233,7 +233,7 @@ Switching from a modal date picker to a modal date input for selecting a single 
 
 On compact [breakpoints](/m3/pages/breakpoints/overview), such as mobile, a full-screen modal date picker Modal date pickers extend full-screen. They're often used for selecting a date range. [More on modal date picker](/m3/pages/date-pickers/overview) is recommended to increase readability and touch target size. It can cover the entire screen.
 
-![A full-screen view of modal date picker on a mobile device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5t84q0-27.png?alt=media&token=05e79f57-4608-4f32-96b6-3731d33645ee)
+![A full-screen view of modal date picker on a mobile device.](../../_assets/md5t84q0-27-33404469b62d75a299eb.png)
 
 A full-screen modal date picker on mobile
 
@@ -243,7 +243,7 @@ The docked date picker works best for medium and expanded breakpoints. It displa
 
 Docked date pickers are ideal for navigating dates in both the near future or past, and in the distant future or past, as they provide multiple ways to select dates.
 
-![A docked date picker displaying a full calendar view on a large screen device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5t9e1o-28.png?alt=media&token=b002f7a4-2450-47c1-bba0-3475b334d19b)
+![A docked date picker displaying a full calendar view on a large screen device.](../../_assets/md5t9e1o-28-41aa087cfb7a6673492e.png)
 
 A docked date picker with a full calendar view is best used on larger devices
 
@@ -269,7 +269,7 @@ Interacting with the input for a docked date picker makes the calendar view appe
 
 The sizing of the docked and modal date picker components don’t scale responsively to different breakpoints.
 
-![Docked date picker enlarged on a large screen responsively.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5tb2d5-32.png?alt=media&token=ab567470-5b68-45ed-a913-8c80288f7894)
+![Docked date picker enlarged on a large screen responsively.](../../_assets/md5tb2d5-32-98b940a3d4cc3ebe5df5.png)
 
 close Don’t
 

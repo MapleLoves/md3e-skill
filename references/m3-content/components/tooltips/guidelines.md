@@ -6,7 +6,7 @@ captured: 2026-09-14
 
 # Tooltips
 
-![A plain tooltip labeling a button, and a rich tooltip announcing new settings available.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6qnzgx-01.png?alt=media&token=c4796854-42a4-4c7d-9431-f4328e29d320)
+![A plain tooltip labeling a button, and a rich tooltip announcing new settings available.](../../_assets/me6qnzgx-01-fc4acead35293664ec65.png)
 
 Plain and rich tooltips serve different purposes
 
@@ -22,30 +22,30 @@ Rich tooltips provide additional context about a UI element. They can optionally
 
 Rich tooltips are best used for longer text like definitions or explanations.
 
-![2 variants of tooltips.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6qs96y-02.png?alt=media&token=793c9573-a7f8-4a87-a6b5-a49f92a22c0b)
+![2 variants of tooltips.](../../_assets/me6qs96y-02-ea6a708d7ce66c03a3d3.png)
 
 1.  Plain tooltip
 2.  Rich tooltip
 
-![Plain tooltip labeling an icon-only button in Google Meet as "Present now".](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6qu5gx-03-do.png?alt=media&token=54c7e12c-059a-40ad-b68f-e4f3b1946ff6)
+![Plain tooltip labeling an icon-only button in Google Meet as "Present now".](../../_assets/me6qu5gx-03-do-a30e9e6b742cb9ad4ad1.png)
 
 check Do
 
 Use plain tooltips to label icon-only buttons
 
-![Button with an icon and label text saying "Edit". It has a plain tooltip on hover that also says "Edit".](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6quvhe-04-dont.png?alt=media&token=466cc2dc-80ff-4403-8acb-f6b0d41e053d)
+![Button with an icon and label text saying "Edit". It has a plain tooltip on hover that also says "Edit".](../../_assets/me6quvhe-04-dont-9047d1d8b3dc18c58a61.png)
 
 close Don’t
 
 Plain tooltips aren't needed when the UI element already has label text
 
-![Rich tooltip describing a new button for adding people. It has a subhead, description, and a button to learn more.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6qx7on-05-do.png?alt=media&token=50c9d4d6-aadf-417e-a29e-81b9e1d2cc79)
+![Rich tooltip describing a new button for adding people. It has a subhead, description, and a button to learn more.](../../_assets/me6qx7on-05-do-d5d26372a50061698ef1.png)
 
 check Do
 
 Use rich tooltips to provide extra information and actions about a UI element or new feature
 
-![Rich tooltip explaining that an action is destructive and permanently deletes files.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6qywbu-6-dont.png?alt=media&token=c5310581-00d7-418b-bbe9-029a15177797)
+![Rich tooltip explaining that an action is destructive and permanently deletes files.](../../_assets/me6qywbu-6-dont-518f64e7585bdb8a4de2.png)
 
 close Don’t
 
@@ -55,20 +55,20 @@ Don't hide critical information within tooltips as it’s easy to miss. Use an i
 
 ### Plain tooltip
 
-![2 elements of a plain tooltip.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6r0a08-07.png?alt=media&token=2c7ae948-db69-4d73-afbd-3825d4d0435c)
+![2 elements of a plain tooltip.](../../_assets/me6r0a08-07-b73332c818aa03887942.png)
 
 1.  Container
 2.  Supporting text
 
 ### Supporting text
 
-![Plain tooltip for an icon-only button shaped like a gear. The tooltip text is "Settings".](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6r2ci0-08-do.png?alt=media&token=2c4dcc41-7aa5-4460-8420-5c5f7ed17184)
+![Plain tooltip for an icon-only button shaped like a gear. The tooltip text is "Settings".](../../_assets/me6r2ci0-08-do-c522afd8edd5ae8522cb.png)
 
 check Do
 
 Briefly describe a UI element
 
-![Plain tooltip for the account switcher. The supporting text includes the user's name and email address on new lines.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6r3rse-09-caution.png?alt=media&token=b4c31f25-226a-484f-8620-0972b9fa0e17)
+![Plain tooltip for the account switcher. The supporting text includes the user's name and email address on new lines.](../../_assets/me6r3rse-09-caution-797a6c984b1564973d02.png)
 
 exclamation Caution
 
@@ -76,7 +76,7 @@ Avoid wrapping text to multiple lines or including many pieces of information
 
 ### Rich tooltip
 
-![4 elements of a rich tooltip.](https://lh3.googleusercontent.com/Qrg3y9UWvNZtKfeefdMriNm0BUWNB_4KL5lW4pDAdtSVGnRbdnJq_bOmpBVvYt7o6eS-pUOtaKvGpPpVvtZqoueoaGb3xCJjE1zXjuYvf1o3=w40)
+![4 elements of a rich tooltip.](../../_assets/Qrg3y9UWvNZtKfeefdMriNm0BUWNB_4KL5lW4pDAdtSVGnRbdnJq_bOmpBVvYt7o6eS-pUOtaKvGpPpV-6fde6498eb5e60362c55.png)
 
 1.  Subhead (optional)
 2.  Container
@@ -89,13 +89,13 @@ Keep subheads brief, ideally to one line. They should summarize or describe the 
 
 Subheads are important to include when the rich tooltip appears automatically, like when the page loads.
 
-![Rich tooltip with a brief subhead, supporting text, and a text button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6r9edz-11-do.png?alt=media&token=c560ef69-f81e-4510-ba45-8426d28f9236)
+![Rich tooltip with a brief subhead, supporting text, and a text button.](../../_assets/me6r9edz-11-do-15a35d12195cc9c48971.png)
 
 check Do
 
 Summarize the message in a few words
 
-![Rich tooltip with a subhead wrapping to multiple lines.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6ra39j-12-dont.png?alt=media&token=6ff1b6f2-1f88-4a08-8628-1f11e09ecf10)
+![Rich tooltip with a subhead wrapping to multiple lines.](../../_assets/me6ra39j-12-dont-e545adae6cb97c6bb92e.png)
 
 close Don’t
 
@@ -107,7 +107,7 @@ Rich tooltips can have up to two text buttons Buttons let people take action and
 
 Keep buttons short so they can be side by side. Avoid stacking them when possible.
 
-![Rich tooltip with 2 buttons stacked on each other.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6rdax0-13-Caution.png?alt=media&token=5ac76c53-02d0-4be4-aaf5-3387d8cf6672)
+![Rich tooltip with 2 buttons stacked on each other.](../../_assets/me6rdax0-13-Caution-c685790362e1a899621a.png)
 
 exclamation Caution
 
@@ -124,7 +124,7 @@ By default, plain tooltips are positioned directly above the parent element. 
 
 If the element is in an app bar App bars contain page navigation and information at the top of a screen. [More on app bars](/m3/pages/app-bars/overview) , the plain tooltip appears below the element at the same distance.
 
-![Plain tooltip appearing 4dp below a button with a clear visual boundary.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6rg1hz-14.png?alt=media&token=c2d92bab-3dc6-4be2-9bac-836c1d2ada4b)
+![Plain tooltip appearing 4dp below a button with a clear visual boundary.](../../_assets/me6rg1hz-14-78c616416f3701dde41b.png)
 
 Plain tooltip with a 4dp distance between the target and tooltip
 
@@ -138,7 +138,7 @@ The position of the tooltip adjusts in increments of 8dp to avoid going off-scre
 **Desktop placement**
 On desktop, tooltips may appear centered below the parent element and remain visible while moving within the target region.
 
-![A rich tooltip in 4 different corners. It   changes position to remain fully on screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6riq0z-15.png?alt=media&token=0b5c26d7-7287-4e8e-a53b-26450413f75a)
+![A rich tooltip in 4 different corners. It   changes position to remain fully on screen.](../../_assets/me6riq0z-15-52bddabe433754ee4e7a.png)
 
 Four different rich tooltip locations based on dynamic positioning
 
@@ -154,7 +154,7 @@ Triggering a new tooltip immediately closes any other open tooltip.
 
 Tooltips disappear after a 1.5 second delay when no other element is hovered
 
-![2 buttons both showing plain tooltips at once.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6ro0ii-17-dont.png?alt=media&token=41b0681c-f04b-4767-b998-67f6b140a4ce)
+![2 buttons both showing plain tooltips at once.](../../_assets/me6ro0ii-17-dont-66d16e207550014dca8a.png)
 
 close Don’t
 
@@ -173,7 +173,7 @@ When appearing on page load, the tooltip can introduce and explain new features 
 
 Avoid using persistent rich tooltips on icon buttons.
 
-![Persistent rich tooltip about a new sharing feature in the Photos app. The button says  "Learn more.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6rq50p-18-dont.png?alt=media&token=bd1b821d-c434-4c6d-8591-2e6ce417a95d)
+![Persistent rich tooltip about a new sharing feature in the Photos app. The button says  "Learn more.”](../../_assets/me6rq50p-18-dont-5cb93eeb9f5e9b455634.png)
 
 close Don’t
 

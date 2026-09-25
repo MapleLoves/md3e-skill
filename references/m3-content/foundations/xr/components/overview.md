@@ -34,6 +34,6 @@ The following Material components are adapted for XR:
 
 -   [Toolbars](/m3/pages/xr-components/toolbars)
 
-![Side view of an XR dialog showcasing spatial elevation.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxgb0ta-06.png?alt=media&token=b18f5559-f8f7-4203-b59e-c7ee2755b6b0)
+![Side view of an XR dialog showcasing spatial elevation.](../../../_assets/moxgb0ta-06-5168a90d962ddbbd8b3a.png)
 
 A dialog can be spatially elevated on the Z-axis above spatial panels

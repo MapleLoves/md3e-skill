@@ -12,7 +12,7 @@ captured: 2026-09-14
 -   Only use dividers if items can’t be grouped with open space
 -   Use dividers to group things, not separate individual items
 
-![Screen shot of five stacked dividers](https://lh3.googleusercontent.com/nt6TfZJ1hPz6HX6Pn1Lvf2_jMgg3cnIGfttwCupUGgry6V5DHR1JvdSdkkWIUdVopwjJ_BRzYTaANVIo4AczkVo0jKYD3B1J8NShIWhVlYY=s0)
+![Screen shot of five stacked dividers](../../_assets/nt6TfZJ1hPz6HX6Pn1Lvf2_jMgg3cnIGfttwCupUGgry6V5DHR1JvdSdkkWIUdVopwjJ_BRzYTaANVIo-3ab61b7a952f96193d4e.png)
 
 Dividers separating items in a list
 
@@ -35,6 +35,6 @@ Close
 -   Color: New color mappings and compatibility with dynamic color
 -   Configurations: Ability to have vertical dividers
 
-![Screen shot of three dividers](https://lh3.googleusercontent.com/XzLvQIFI1bPcY94jkG0wH0k2q5oq10abbZE3PxJTJv82onD1lYAfXmBbxIoicWGcqoYM2AKyvx95UTpFaVa20bDUBDfvIMwse1Q5SudzA8M9=w40)![Screen shot of three dividers](https://lh3.googleusercontent.com/XzLvQIFI1bPcY94jkG0wH0k2q5oq10abbZE3PxJTJv82onD1lYAfXmBbxIoicWGcqoYM2AKyvx95UTpFaVa20bDUBDfvIMwse1Q5SudzA8M9=s0)
+![Screen shot of three dividers](../../_assets/XzLvQIFI1bPcY94jkG0wH0k2q5oq10abbZE3PxJTJv82onD1lYAfXmBbxIoicWGcqoYM2AKyvx95UTpF-21f95404ed7524133f23.png)![Screen shot of three dividers](../../_assets/XzLvQIFI1bPcY94jkG0wH0k2q5oq10abbZE3PxJTJv82onD1lYAfXmBbxIoicWGcqoYM2AKyvx95UTpF-8c4bd3d33b2cde1b3942.png)
 
 Dividers have new color mappings

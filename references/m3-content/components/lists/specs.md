@@ -14,7 +14,7 @@ captured: 2026-09-14
 
 Use the expressive list variant for more flexible styling, highlighted selection states, and customizable slots.
 
-![2 expressive lists: a photos list on a tablet, and a song list on mobile.](https://lh3.googleusercontent.com/za34_v9MVYFLgx4_LMophxugdmjrYW0gWSPfWtA_ntmDC74Lx_qID9YyOa7IEqJ73xCrYnCAXghjFmDugBK86DdvpEUUKbkfWTYCA2pV5iwt=s0)
+![2 expressive lists: a photos list on a tablet, and a song list on mobile.](../../_assets/za34_v9MVYFLgx4_LMophxugdmjrYW0gWSPfWtA_ntmDC74Lx_qID9YyOa7IEqJ73xCrYnCAXghjFmDu-358ffe83bd1ff082e3e9.png)
 
 An **expressive list** has a segmented style and round corners
 
@@ -26,7 +26,7 @@ On web, expressive lists are built on top of baseline lists.
 
 [See baseline list specs](/m3/pages/lists/specs#94cf7f4d-fe29-4fab-9aae-a99e9b754329)
 
-![3 baseline list items with square corners.](https://lh3.googleusercontent.com/N4Dqm-y0qh8NW2KuKAqcRAmf_oyfUyeY2HgR3cHvoCwL-cM6j7fuAg97gGrX73Rs25WTv-POEG1ZSlXeyFPRkjhexmngaaSJMDJV0azeZXhV=s0)
+![3 baseline list items with square corners.](../../_assets/N4Dqm-y0qh8NW2KuKAqcRAmf_oyfUyeY2HgR3cHvoCwL-cM6j7fuAg97gGrX73Rs25WTv-POEG1ZSlXe-ec9eb2ca718ff955171f.png)
 
 **Baseline list items** have square corners and standard colors
 
@@ -41,7 +41,7 @@ On web, expressive lists are built on top of baseline lists.
 
 The standard and segmented styles are a visual choice, and don’t affect a list’s behavior.
 
-![A standard list and segmented list in dark mode.](https://lh3.googleusercontent.com/AjWZ3hS3wVVBYsai8chTl-DhNYum8MkyLgX24Q1dLLV43O6P2gRIbTqcrvQMXwyFG9Jai3R-zExVwkBZ5A3QZGW4EryAzfylOS6N0FB1brD8=w40)
+![A standard list and segmented list in dark mode.](../../_assets/AjWZ3hS3wVVBYsai8chTl-DhNYum8MkyLgX24Q1dLLV43O6P2gRIbTqcrvQMXwyFG9Jai3R-zExVwkBZ-547ea829c08386cc75f5.png)
 
 1.  Standard
 
@@ -51,19 +51,19 @@ The standard and segmented styles are a visual choice, and don’t affect a list
 
 A list can have only one selection mode at a time. For example, a single-action list can change to a multi-select list, but can’t be both at once.
 
-![A single-action list with 4 items and no additional actions.](https://lh3.googleusercontent.com/b5GgNFwCct9zCo3T-5FIclsjz95tsQWzwwptHqyfIs9ooGmMg8C4FLlknKKmivn_ho5bbYRLRnaxophUvZLmKrLqm1bkGF4tEyHNR4_CObV0og=w40)
+![A single-action list with 4 items and no additional actions.](../../_assets/b5GgNFwCct9zCo3T-5FIclsjz95tsQWzwwptHqyfIs9ooGmMg8C4FLlknKKmivn_ho5bbYRLRnaxophU-7d0cd1d51372a298ec1a.png)
 
 In a **single-action list**, each item is a single tappable area
 
-![A list with 4 items. Each item has 2 trailing icons for additional actions.](https://lh3.googleusercontent.com/YZNJPefhDxEZHejO2AZtRcJlJmExP5SKLT5whDkHInauUNxfIgYBOXhlhXukAnjNfZRDhVUlk5fRz8QNgGAWqUaDPYkKANg3ZJ1vyK0GXZA=w40)
+![A list with 4 items. Each item has 2 trailing icons for additional actions.](../../_assets/YZNJPefhDxEZHejO2AZtRcJlJmExP5SKLT5whDkHInauUNxfIgYBOXhlhXukAnjNfZRDhVUlk5fRz8QN-9fc86c03e7049ba4dca6.png)
 
 **Multi-action list** items include a primary action, and one or more secondary actions
 
-![A list with 1 item selected.](https://lh3.googleusercontent.com/N1XQO63f9X32oDtv-OfmhY2QXVt4JpIIbZVk7BmB_2FcLR7QDWORgKJOQkA81-R5pujkxNiZHTMRgjMuAcytlrMERtLFsohNDJDu888bY3g=w40)
+![A list with 1 item selected.](../../_assets/N1XQO63f9X32oDtv-OfmhY2QXVt4JpIIbZVk7BmB_2FcLR7QDWORgKJOQkA81-R5pujkxNiZHTMRgjMu-47d62696f486a3fd081d.png)
 
 A **single-select list**
 
-![A list with 2 items selected.](https://lh3.googleusercontent.com/ANybLHYX4h2Z9SkeL_p_Pp1K3Wg9plho_Lbg3-Z5d7NwszrsXTlRm434BJIm0mbM1Km5s9XFun2jYrYZqVcj3vRF0rRY-Dk3ZpeQLYrzooMq=w40)
+![A list with 2 items selected.](../../_assets/ANybLHYX4h2Z9SkeL_p_Pp1K3Wg9plho_Lbg3-Z5d7NwszrsXTlRm434BJIm0mbM1Km5s9XFun2jYrYZ-ba10fa2ce2250758c19f.png)
 
 A **multi-select list**
 
@@ -79,7 +79,7 @@ Lists can:
 
 A list can **expand** to include multiple items
 
-![A list item is swiped, and reveals 3 more actions.](https://lh3.googleusercontent.com/7CIUKy6Fim2680D81iGn6XanxNoVlnFioAJfyYiwtTyF2xh2_RvyyLsLSFZoUj6LRfn6MVEyvaHyv_W0q2Al0pNkZL2JYjKuWHfF8q1vLvk=w40)
+![A list item is swiped, and reveals 3 more actions.](../../_assets/7CIUKy6Fim2680D81iGn6XanxNoVlnFioAJfyYiwtTyF2xh2_RvyyLsLSFZoUj6LRfn6MVEyvaHyv_W0-73fd4a8bd79980c5f5d4.png)
 
 A list item can be **swiped** to reveal more actions
 
@@ -104,7 +104,7 @@ Close
 
 ## Anatomy
 
-![Diagram with 10 elements that can be included in lists.](https://lh3.googleusercontent.com/Sa8xghsBnkEPnF8eS5BsRjuohsdTmqbkr_f1sENLSXj6Vvj60a-fAE32n9nUI8ErJeIbxkQPPl7wExD8qwxOM1aUbjPPV60s-E5vfR6EN6i7=w40)
+![Diagram with 10 elements that can be included in lists.](../../_assets/Sa8xghsBnkEPnF8eS5BsRjuohsdTmqbkr_f1sENLSXj6Vvj60a-fAE32n9nUI8ErJeIbxkQPPl7wExD8-67fbe476aeb9a01ffd46.png)
 
 Container and label text are required. All other elements are optional:
 
@@ -146,7 +146,7 @@ Slots are not accessible by default. Consider the following:
 
 [More on required accessibility guidelines](/m3/pages/lists/accessibility#538f23f7-689c-4516-bfc8-5f6933a43f5e)
 
-![A diagram with leading, content, and trailing slots.](https://lh3.googleusercontent.com/xpDca9BbXlTiv20zpU4gfBwt6MkKXaY5ZNLRcxAljGC5QsVXgH3mKaHiaEI6okSs2gUhacnLEdM2zCIC5raKpqBZl476yJ8Qchx5bxvt6Kywwg=w40)
+![A diagram with leading, content, and trailing slots.](../../_assets/xpDca9BbXlTiv20zpU4gfBwt6MkKXaY5ZNLRcxAljGC5QsVXgH3mKaHiaEI6okSs2gUhacnLEdM2zCIC-93dd347d15b50377be9c.png)
 
 exclamation Caution
 
@@ -188,7 +188,7 @@ The **leading** and **trailing** slot positions must be a smaller width than the
 
 -   Selection controls: Checkbox, radio button, or switch
 
-![Slot diagram showing slot placement in the middle of the list.](https://lh3.googleusercontent.com/jx4zxtSR4RN6N-1sCYapnbcg_EJOMuolnJBIPdx5aR9tEJ3PB1VtfNmemVGd-IKUMyPhpg1xj2FOUwBYzeekhv1rOIX4bE33jmMPNbV10RTL8w=w40)
+![Slot diagram showing slot placement in the middle of the list.](../../_assets/jx4zxtSR4RN6N-1sCYapnbcg_EJOMuolnJBIPdx5aR9tEJ3PB1VtfNmemVGd-IKUMyPhpg1xj2FOUwBY-58f97aebb3617e6f020d.png)
 
 The content slot must be the largest section, placed in the middle of the list item
 
@@ -196,13 +196,13 @@ The content slot must be the largest section, placed in the middle of the list i
 
 For selection lists, use only one selection interaction per list item.
 
-![A selected list item with a checkmark in the leading slot.](https://lh3.googleusercontent.com/_cCLtqaTv3_VJ2Su5-NcT91PPqYvyAFZeK-5w0av-NbLChQrKPvD3HSBWsc6adlc9M1DQGkIVd_eisASsmoVyA_2nO23ObPXfcuLp6O9sMU=w40)
+![A selected list item with a checkmark in the leading slot.](../../_assets/cCLtqaTv3_VJ2Su5-NcT91PPqYvyAFZeK-5w0av-NbLChQrKPvD3HSBWsc6adlc9M1DQGkIVd_eisASs-272ae959598a1f45e57e.png)
 
 check Do
 
 Use only one selection interaction per list item
 
-![A selected list item with both a checkmark in the leading slot and a bookmark in the trailing slot.](https://lh3.googleusercontent.com/7ikqKMFSD3KqUsrjy_D0FguVESN7UimX34YCtDgR8Cqm5sbof9nysVBBnBgjQukuuXjAQooDRC5mtopWMuGcpNL6TIQDNjGzQ3fkSDJVFfLZrg=w40)
+![A selected list item with both a checkmark in the leading slot and a bookmark in the trailing slot.](../../_assets/7ikqKMFSD3KqUsrjy_D0FguVESN7UimX34YCtDgR8Cqm5sbof9nysVBBnBgjQukuuXjAQooDRC5mtopW-ac8469d51179fd274611.png)
 
 close Don’t
 
@@ -212,7 +212,7 @@ Don't use multiple selection interactions in one item
 
 Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. [Learn more about design tokens](/m3/pages/design-tokens/overview)
 
-![10 list element color roles in light mode and dark mode.](https://lh3.googleusercontent.com/ARd2jFHJp7QY8tjQqnTd9qITF5sD6WqWXpapVsC25_-ej0okbpB1kkGYkJ8V7jSl-iFv0cW18ZGseOUM3x1CqZflXxkdU7T4znEQ0bJ3qCvx=w40)
+![10 list element color roles in light mode and dark mode.](../../_assets/ARd2jFHJp7QY8tjQqnTd9qITF5sD6WqWXpapVsC25_-ej0okbpB1kkGYkJ8V7jSl-iFv0cW18ZGseOUM-574e2376d756b7a9307c.png)
 
 List color roles used for light and dark themes:
 
@@ -244,7 +244,7 @@ States are visual representations used to communicate the status of a component 
 
 ### Default list items
 
-![6 default list states in light and dark mode.](https://lh3.googleusercontent.com/WfsQdzz9ydTMtaG8lRdHEb8GmuDilZ3RVX7fNys6QemgIc3Euv0bnB2eKnFMZNxvApj-l2ZNNVTtCrgdS3CfuR6FmBFEv8ppLObmmykaM6yO=w40)
+![6 default list states in light and dark mode.](../../_assets/WfsQdzz9ydTMtaG8lRdHEb8GmuDilZ3RVX7fNys6QemgIc3Euv0bnB2eKnFMZNxvApj-l2ZNNVTtCrgd-964e78de5e124aa157d6.png)
 
 1.  Enabled
 
@@ -260,7 +260,7 @@ States are visual representations used to communicate the status of a component 
 
 ### Selected list items
 
-![6 selected list states in light and dark mode.](https://lh3.googleusercontent.com/plktb9RXA8a9SyxyQIpnF8qX_hMwZP0_SIXh-vuSRreRX9e8DbpLs90qXW4rIrtZyNyTmEbJTYmenlpK0EjS_q6HyaoZmb4ERojsZU2trNc=w40)
+![6 selected list states in light and dark mode.](../../_assets/plktb9RXA8a9SyxyQIpnF8qX_hMwZP0_SIXh-vuSRreRX9e8DbpLs90qXW4rIrtZyNyTmEbJTYmenlpK-cded887936bcfc6fe55e.png)
 
 1.  Enabled
 
@@ -276,7 +276,7 @@ States are visual representations used to communicate the status of a component 
 
 ## Measurements
 
-![Size and padding measurements for list items.](https://lh3.googleusercontent.com/i93JWmCnwH8J71-rjNfpGP1SCy_v1gjfHOkLAph3y86kvhmpo9uT_x75vfDsKz_NxDbnt9C5GWA4xX0rba-hRzTmxtfWPw-zncFBcbmzKiLm=w40)
+![Size and padding measurements for list items.](../../_assets/i93JWmCnwH8J71-rjNfpGP1SCy_v1gjfHOkLAph3y86kvhmpo9uT_x75vfDsKz_NxDbnt9C5GWA4xX0r-e06d2e2c7259153b4937.png)
 
 List item alignment, padding, and size measurements. The icon button height is dynamic, and automatically adjusts to fill the list item height.
 
@@ -288,11 +288,11 @@ When a list item is selected, the corner shape changes to highlight the active i
 
 -   Selected corner radius: 16dp
 
-![A 3-item list. The middle item is unselected, with a 4dp corner radius.](https://lh3.googleusercontent.com/ZP5JjdhEst35JLSuCdpnHvXs58yyjQdBREYdsNON0wtg-iHRjNtjvaPF6ekO3e3ceRrJWfJrP0ZfMVZ2EKbIqmfaRTuupnuHkDOkn1zwGORY=w40)
+![A 3-item list. The middle item is unselected, with a 4dp corner radius.](../../_assets/ZP5JjdhEst35JLSuCdpnHvXs58yyjQdBREYdsNON0wtg-iHRjNtjvaPF6ekO3e3ceRrJWfJrP0ZfMVZ2-d25937649d29a078486d.png)
 
 Unselected list items have a 4dp inner corner radius, and 16dp outer corner radius
 
-![A 3-item list. The middle item is selected, with a 16dp corner radius.](https://lh3.googleusercontent.com/UeCgyEiHh76y34mk1S7ebdWal471s5Yjj34uWFbNb0sEgl-iICDps6JeHuje-47Lb8h1F1ii1GsWSra-8nEeqSH5Mp1R4KVCD_ff9IU9Bagi=w40)
+![A 3-item list. The middle item is selected, with a 16dp corner radius.](../../_assets/UeCgyEiHh76y34mk1S7ebdWal471s5Yjj34uWFbNb0sEgl-iICDps6JeHuje-47Lb8h1F1ii1GsWSra--0386508a5c4f2b7f5dd5.png)
 
 Selected list items have a 16dp corner radius all around
 
@@ -314,7 +314,7 @@ Close
 
 Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. [Learn more about design tokens](/m3/pages/design-tokens/overview)
 
-![9 baseline list element color roles in light and dark mode.](https://lh3.googleusercontent.com/c7bwcYNZe1HFiYuQW2r1uEEhDr_8PMPrgH911ney_P2AQnEZ64a34YKs47JbQnNjPbrtMfhw0FA7oQ3T1Euqx9HQ45ItoppUNl_7LUN5dX8=w40)
+![9 baseline list element color roles in light and dark mode.](../../_assets/c7bwcYNZe1HFiYuQW2r1uEEhDr_8PMPrgH911ney_P2AQnEZ64a34YKs47JbQnNjPbrtMfhw0FA7oQ3T-9091eae45eea818c4c35.png)
 
 List color roles used for light and dark themes:
 
@@ -340,7 +340,7 @@ List color roles used for light and dark themes:
 
 States are visual representations used to communicate the status of a component or interactive element.
 
-![6 baseline list states in light and dark mode.](https://lh3.googleusercontent.com/5lf9R5VeSpT9MZ52tQ1Gr9G6LJSo3T61BAkwRTHYYL4e0_ymdXq3TFfAieV8fBpokbyEkAP1dql3Z23YsmOgHwTzZclYa1v5eLG9J7lTYcJu=w40)
+![6 baseline list states in light and dark mode.](../../_assets/5lf9R5VeSpT9MZ52tQ1Gr9G6LJSo3T61BAkwRTHYYL4e0_ymdXq3TFfAieV8fBpokbyEkAP1dql3Z23Y-687256746f29c863377f.png)
 
 1\. Enabled
 
@@ -358,31 +358,31 @@ States are visual representations used to communicate the status of a component 
 
 #### One-line lists
 
-![Alignment, padding, and size specifications for baseline list items with 1 line of text.](https://lh3.googleusercontent.com/z9QvwXHZzQCURyxwHxCKWIzN9bFCueiLYqnmwebzTymL8CQV6SfHPmE39ptDMlyCdxfAYa3ymS7TFM3eWfJEHnzXOq7ndUBAoqGr211VXq-K=w40)
+![Alignment, padding, and size specifications for baseline list items with 1 line of text.](../../_assets/z9QvwXHZzQCURyxwHxCKWIzN9bFCueiLYqnmwebzTymL8CQV6SfHPmE39ptDMlyCdxfAYa3ymS7TFM3e-77b2b22a16795f0e5e8c.png)
 
 Baseline one-line list alignment, padding, and size measurements
 
-![Measurements for a 3-item list with 1 line each.](https://lh3.googleusercontent.com/khpu5JdGUDNFXqPEgOJ5ZWoXXvptYxD57jKRlck-ECQ1ge8a4pIcPdajOsbR3theeOCNLC8HoON7F71IWL5LsM5dFl_74zbveiiwPsZnriIqtQ=w40)
+![Measurements for a 3-item list with 1 line each.](../../_assets/khpu5JdGUDNFXqPEgOJ5ZWoXXvptYxD57jKRlck-ECQ1ge8a4pIcPdajOsbR3theeOCNLC8HoON7F71I-f8df620388e08869b017.png)
 
 Baseline list item measurements and padding
 
 #### Two-line lists
 
-![Alignment, padding, and size specifications for baseline list items with 2 lines of text.](https://lh3.googleusercontent.com/LxLM2jQt0STwJFF6mM7jaAxeP09Gu8KXxM8a2gg_tCprAziEoUSMbqhONXIWU-yKoahTjXATtmhpqTaSxfe7x7UoAhhTD157g0YkJwJS-tse=w40)
+![Alignment, padding, and size specifications for baseline list items with 2 lines of text.](../../_assets/LxLM2jQt0STwJFF6mM7jaAxeP09Gu8KXxM8a2gg_tCprAziEoUSMbqhONXIWU-yKoahTjXATtmhpqTaS-d526a9134a7067eb3bb7.png)
 
 Baseline two-line list alignment, padding, and size measurements
 
-![Measurements for a 3-item list with 2 lines each.](https://lh3.googleusercontent.com/UIM_5cKOrqy1Jgy2wF6ND6qMT0cXmrXlqkqpSr1hUtJoShVECpFJt1jn39e7aoczco9L3ABwR7O4gd366Fdwg7tfQnWGas_8LRAM0LWM7z0NRg=w40)
+![Measurements for a 3-item list with 2 lines each.](../../_assets/UIM_5cKOrqy1Jgy2wF6ND6qMT0cXmrXlqkqpSr1hUtJoShVECpFJt1jn39e7aoczco9L3ABwR7O4gd36-836f71330b09da4a1eca.png)
 
 Baseline list item measurements and padding
 
 #### Three-line lists
 
-![Alignment, padding, and size specifications for baseline list items with 3 lines of text.](https://lh3.googleusercontent.com/eoubrmM-Nl9VlpagzZuJBlQ7Ze1c-LjzmdIfk2sIxw16gjTgSUXdPTTLa1P1o1klSZk9SP6JZjG3BrVkBCnvatvekRTyo1Qkq2SoN5eSHEWy=w40)
+![Alignment, padding, and size specifications for baseline list items with 3 lines of text.](../../_assets/eoubrmM-Nl9VlpagzZuJBlQ7Ze1c-LjzmdIfk2sIxw16gjTgSUXdPTTLa1P1o1klSZk9SP6JZjG3BrVk-ae29f2a17f5d3935377d.png)
 
 Baseline three-line list alignment, padding, and size measurements
 
-![Measurements for a 3-item list with 3 lines each.](https://lh3.googleusercontent.com/mX9bAsTDGyRcmgR60R9k2JBak4FqR4Iq5BHj_D9vHhsd3GwzcWjsnjvUzz4UDdrcd4KZE27gqKYtovW1ejGeDrnmqzdeoUULLnR8dLqTLZsf=w40)
+![Measurements for a 3-item list with 3 lines each.](../../_assets/mX9bAsTDGyRcmgR60R9k2JBak4FqR4Iq5BHj_D9vHhsd3GwzcWjsnjvUzz4UDdrcd4KZE27gqKYtovW1-2f58234a10af43b73e95.png)
 
 Baseline list item measurements and padding
 
@@ -411,7 +411,7 @@ Baseline list item measurements and padding
 
 #### Leading avatar
 
-![1, 2, and 3-line list items with and without a leading avatar and trailing checkbox, in dark mode.](https://lh3.googleusercontent.com/YtV6g40j9-XQCPCAVu67QZhyyBxdzXse8Aq4zgVnIWxg5eL0YP-62b5XRWhoQFLGZ77XDbPLnnLnc6cQrbdVy0vdd5Qop9rt2L0vbVMrGlw=w40)
+![1, 2, and 3-line list items with and without a leading avatar and trailing checkbox, in dark mode.](../../_assets/YtV6g40j9-XQCPCAVu67QZhyyBxdzXse8Aq4zgVnIWxg5eL0YP-62b5XRWhoQFLGZ77XDbPLnnLnc6cQ-97e625dd3de56c46384b.png)
 
 1.  With leading avatar
 
@@ -419,7 +419,7 @@ Baseline list item measurements and padding
 
 #### Leading image or thumbnail
 
-![1, 2, and 3-line list items with and without a leading image and trailing checkbox, in dark mode.](https://lh3.googleusercontent.com/7K4R5eQvQLtvBGZ8iDlPrwl6-HftUdcPx0S6MRj8QLMuQMLlHQXj0EYkvlawvcIQOlaTsf1CAq8GIXC-zPanjI8B5o0Wznt8P_Os0Bir_Fq92A=w40)
+![1, 2, and 3-line list items with and without a leading image and trailing checkbox, in dark mode.](../../_assets/7K4R5eQvQLtvBGZ8iDlPrwl6-HftUdcPx0S6MRj8QLMuQMLlHQXj0EYkvlawvcIQOlaTsf1CAq8GIXC--8f32b3d01ddad6fae72e.png)
 
 1.  With leading image
 
@@ -427,7 +427,7 @@ Baseline list item measurements and padding
 
 #### Leading video
 
-![1, 2, and 3-line list items with and without a leading video and trailing checkbox, in dark mode.](https://lh3.googleusercontent.com/811g1L2vKGQ0BTtqAoZPO-jApLgGPEDiV-7oi308iwDk-GrwrWTuQmCkNSok5-5XqCp7iNaldpc6cnpOL2Xe1RfUSfURXuucBF8O5k5WUomf=w40)
+![1, 2, and 3-line list items with and without a leading video and trailing checkbox, in dark mode.](../../_assets/811g1L2vKGQ0BTtqAoZPO-jApLgGPEDiV-7oi308iwDk-GrwrWTuQmCkNSok5-5XqCp7iNaldpc6cnpO-04a91f9416e9d70dbd37.png)
 
 1.  With leading video
 
@@ -435,7 +435,7 @@ Baseline list item measurements and padding
 
 #### Leading icon
 
-![1, 2, and 3-line list items with and without a leading icon and trailing checkbox, in dark mode.](https://lh3.googleusercontent.com/F_D2HGWtWYSMxDVgfkIRpfgvy8O26m5Gq1uzE8tvEuo9m9sMLfRhcnuVfZSE6hyxoICYNuSzjIfA1yRVpcXvaJG1b02lEpkYn-l0scGCQTmt=w40)
+![1, 2, and 3-line list items with and without a leading icon and trailing checkbox, in dark mode.](../../_assets/F_D2HGWtWYSMxDVgfkIRpfgvy8O26m5Gq1uzE8tvEuo9m9sMLfRhcnuVfZSE6hyxoICYNuSzjIfA1yRV-09ccb9d8eba8b4004ee7.png)
 
 1.  With leading icon
 
@@ -443,7 +443,7 @@ Baseline list item measurements and padding
 
 #### Text-only
 
-![1, 2, and 3-line text only list items with and without a trailing checkbox, in dark mode.](https://lh3.googleusercontent.com/0D-xONvUbyoPV0EMlMrBItgWHQXbW1IV2dBVpIslSFeHc0mUoHbJsP3y9on5ym7Ch1ICbFcFH7026UzSdnQvTABrsRQhYe8yRiG2imFaK00=w40)
+![1, 2, and 3-line text only list items with and without a trailing checkbox, in dark mode.](../../_assets/0D-xONvUbyoPV0EMlMrBItgWHQXbW1IV2dBVpIslSFeHc0mUoHbJsP3y9on5ym7Ch1ICbFcFH7026UzS-46242d85fb5f17970ea6.png)
 
 1.  With text only
 
@@ -451,7 +451,7 @@ Baseline list item measurements and padding
 
 #### Leading checkbox
 
-![1, 2, and 3-line list items with and without a leading checkbox and trailing text, in dark mode.](https://lh3.googleusercontent.com/3pOgKx-2m1N3ewCJ-joHRZ0IFwf-GHaxzimTyF_4-SYx_80TL6UnaBywa7ogFoCCil_KQgEFXoNmwKuXP_6dGsFC0uMqCLGE5qQpUqHOGdrxZQ=w40)
+![1, 2, and 3-line list items with and without a leading checkbox and trailing text, in dark mode.](../../_assets/3pOgKx-2m1N3ewCJ-joHRZ0IFwf-GHaxzimTyF_4-SYx_80TL6UnaBywa7ogFoCCil_KQgEFXoNmwKuX-d609943f35a2e4c4948d.png)
 
 1.  With leading checkbox
 
@@ -459,7 +459,7 @@ Baseline list item measurements and padding
 
 #### Leading radio button
 
-![1, 2, and 3-line list items with and without a leading radio button and trailing text, in dark mode.](https://lh3.googleusercontent.com/-Eph6i5PJ8k8D5ABIpITkh-WLe2a-gMsM-sq2qCDM1cFBVfQN3FGAYAwiryrXRkrF8-8Q3Exypco2Ir4iP0s0IRbZ_n-ZvFI2ZTuNUzz7bs=w40)
+![1, 2, and 3-line list items with and without a leading radio button and trailing text, in dark mode.](../../_assets/Eph6i5PJ8k8D5ABIpITkh-WLe2a-gMsM-sq2qCDM1cFBVfQN3FGAYAwiryrXRkrF8-8Q3Exypco2Ir4i-0969f70ed73ce7766b07.png)
 
 1.  With leading radio button
 
@@ -467,7 +467,7 @@ Baseline list item measurements and padding
 
 #### Trailing switch
 
-![1, 2, and 3-line list items with and without a leading icon and trailing switch, in dark mode.](https://lh3.googleusercontent.com/6qcPlbTkPuUN2vByfw3QiZU3_haTWYgitgstbbYGI9ugO1r8LknZ2RPovveQ18B9EOKQNu5robyVqrQs0AvZchLuQXeckUeWZEn2meby2vkA=w40)
+![1, 2, and 3-line list items with and without a leading icon and trailing switch, in dark mode.](../../_assets/6qcPlbTkPuUN2vByfw3QiZU3_haTWYgitgstbbYGI9ugO1r8LknZ2RPovveQ18B9EOKQNu5robyVqrQs-2869e52d0638dc4c8363.png)
 
 1.  With trailing switch
 

@@ -24,7 +24,7 @@ captured: 2026-09-14
 |  | [Spacing system & tokens](/m3/pages/spacing) | Available |
 | Implementation | [Jetpack Compose: Rulers](https://developer.android.com/reference/kotlin/androidx/compose/ui/layout/Ruler) | Available |
 
-![2 diagrams of mobile and desktop layouts, identifying the parts of a scaffold.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3n7x8n-01.png?alt=media&token=ed620772-fcdc-4d4b-8ff5-afd727a51f5d)
+![2 diagrams of mobile and desktop layouts, identifying the parts of a scaffold.](../../../_assets/mp3n7x8n-01-0a7544d16089719c20ec.png)
 
 1.  Safety region
 

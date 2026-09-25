@@ -26,7 +26,7 @@ Note:
 
 Color and elevation for spatial dialogs aren’t available in Jetpack Compose yet. These need to be customized manually.
 
-![2 spatially elevated dialogs with surface-container-high and surface-container-highest color roles.](https://lh3.googleusercontent.com/EjSLZTrL4uodRu2zxhzKEha1u7_lD_9F6-U3c1_IoEMey42K7eFCP-emC0YOBvl-xcHnJuNoSk_h-Nb-hvJAhQmBKbZTt-Xqt-H60sClLJ6cgw=s0)
+![2 spatially elevated dialogs with surface-container-high and surface-container-highest color roles.](../../../_assets/EjSLZTrL4uodRu2zxhzKEha1u7_lD_9F6-U3c1_IoEMey42K7eFCP-emC0YOBvl-xcHnJuNoSk_h-Nb--1e5b823ec4e8f414e6a8.png)
 
 1.  Surface container high
 2.  Surface container highest
@@ -35,7 +35,7 @@ For effective visual hierarchy, a dialog should be the most prominent element. 
 
 Add a scrim behind a dialog to improve its visibility. Scrims prevent other content from being selected until the dialog action is complete.
 
-![Dialog with surface-container-highest color and a scrim.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox7g5yi-02.png?alt=media&token=7a21ccfd-5b6b-4840-a471-7dd6e803a83f)
+![Dialog with surface-container-highest color and a scrim.](../../../_assets/mox7g5yi-02-351b97cee0bbe0d5d501.png)
 
 check Do
 
@@ -45,7 +45,7 @@ The dialog should have the highest elevation in the product.
 
 For example, if the dialog is **surface container high**, don’t use **surface container highest** for any other elements.
 
-![Dialog with surface-container-high color and no scrim. An orbiter is at a higher elevation than the dialog.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox7nrut-03.png?alt=media&token=91aeb244-3d82-4210-bcfc-a4588dafbd4a)
+![Dialog with surface-container-high color and no scrim. An orbiter is at a higher elevation than the dialog.](../../../_assets/mox7nrut-03-ddf84f7cca0268a86966.png)
 
 close Don’t
 
@@ -55,13 +55,13 @@ If a dialog’s color is **surface container high**, don’t use **surface conta
 
 Only use [basic dialogs](/m3/pages/dialogs/guidelines#97ac3858-3932-4084-ae8e-73e42b7cb752) in XR. This keeps the required action in the person’s [field of view](https://developer.android.com/design/ui/xr/guides/spatial-ui#where-place). 
 
-![Basic dialog in XR.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox7s3sr-04.png?alt=media&token=5665a385-4ac8-4c18-a89d-7d3857645d09)
+![Basic dialog in XR.](../../../_assets/mox7s3sr-04-0dfe9ac63e56e23a28b0.png)
 
 check Do
 
 A basic dialog elevated above an app in home space
 
-![Full-screen dialog in XR.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox7ytt7-05.png?alt=media&token=592b5c9f-8a12-46d1-9660-eae5205e2334)
+![Full-screen dialog in XR.](../../../_assets/mox7ytt7-05-44649890a60981d17476.png)
 
 close Don’t
 
@@ -71,7 +71,7 @@ Avoid using full-screen dialogs in XR. Required actions could appear beyond a pe
 
 In full space Full space is Android XR’s immersive mode and supports spatial components. [More on full space](https://developer.android.com/design/ui/xr/guides/foundations#modes) , dialogs can be elevated spatially Spatial elevation displays a component above an app on the Z-axis. [More on spatial elevation](<https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation >) via [overrides](https://developer.android.com/develop/xr/jetpack-xr-sdk/material-design#use-enablexrcomponentoverrides). This helps dialogs stand out from their background in XR.
 
-![Side view of basic dialog showcasing spatial elevation.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox83eps-06.png?alt=media&token=dda2abbf-f23a-4c77-bb5d-bd5e429707e1)
+![Side view of basic dialog showcasing spatial elevation.](../../../_assets/mox83eps-06-42964cde623f2dcbfa05.png)
 
 Side view of a basic dialog with spatial elevation in full space
 

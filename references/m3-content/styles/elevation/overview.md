@@ -17,7 +17,7 @@ captured: 2026-09-14
 
 Elevation is measured as the distance between components along the z-axis in density-independent pixels (dps).
 
-![1 diagram shows a light purple square and a darker purple square. A second one shows a side view of the squares in elevation, showing that the light square is lower in elevation than the dark square.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykafum-1.png?alt=media&token=686eda7a-aed0-4d34-a749-0b01f2a50a86)
+![1 diagram shows a light purple square and a darker purple square. A second one shows a side view of the squares in elevation, showing that the light square is lower in elevation than the dark square.](../../_assets/lwykafum-1-6f55e88115bb8a2e9c5f.png)
 
 Elevation represents the distance between elements. The product applies color to represent elevation.
 
@@ -41,11 +41,11 @@ Elevation represents the distance between elements. The product applies color to
 -   Color: New color mappings and compatibility with dynamic color
 -   Levels: Elevation is now described in terms of levels
 
-![Diagram of 2 concentric squares. The inner square is at 12dp and has a larger shadow than the outer square, which is at 3dp.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykc8yv-2.png?alt=media&token=7c4a4e4e-ff37-47d2-a375-579c3f945893)
+![Diagram of 2 concentric squares. The inner square is at 12dp and has a larger shadow than the outer square, which is at 3dp.](../../_assets/lwykc8yv-2-63a552ded98beb079552.png)
 
 M2: Shadows applied at all levels
 
-![Diagram of 2 concentric squares without shadows. Instead, the inner square is at level and tonally darker than the outer square, which is at level 2.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykckey-3.png?alt=media&token=fd1c5548-7048-4d2c-9123-17308e339731)
+![Diagram of 2 concentric squares without shadows. Instead, the inner square is at level and tonally darker than the outer square, which is at level 2.](../../_assets/lwykckey-3-30643f63b738fe11c5c1.png)
 
 M3: Using color instead of shadows to communicate elevation
 
@@ -65,7 +65,7 @@ Elevation can be depicted using shadows or other visual cues, such as surface fi
 
 All components have a default resting elevation. Avoid changing the default elevation of Material components.
 
-![A floating action button with a shadow.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykcxkh-5.png?alt=media&token=d0b226cf-0e17-4719-9f5c-8a186936d003)
+![A floating action button with a shadow.](../../_assets/lwykcxkh-5-1932356f444d201ade4e.png)
 
 All components have a default elevation which should be used
 

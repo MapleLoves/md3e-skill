@@ -84,10 +84,10 @@ The **contained** search style features a persistent, filled search container
 
 -   Variants: Two official variants of search components: search bar and search view
 
-![M2 open search bar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlb1gn7s-04.png?alt=media&token=dc445e20-469e-40b2-9175-8d198effc998)
+![M2 open search bar.](../../_assets/mlb1gn7s-04-c48e5ac4dad19154588e.png)
 
 M2 open search bars were square and elevated
 
-![M3 search bar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlb1hcrs-05.png?alt=media&token=ae55f13c-75fb-4b39-bc09-f503ea5b156a)
+![M3 search bar.](../../_assets/mlb1hcrs-05-3964f838fd78b03051b6.png)
 
 M3 search bars are rounded, use tonal surface, and support dynamic color

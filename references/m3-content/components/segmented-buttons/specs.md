@@ -14,7 +14,7 @@ Note:
 
 Segmented buttons are no longer recommended in the Material 3 expressive update. For those who have updated, use the [connected button group](/m3/pages/button-groups/overview/) instead, which has mostly the same functionality but with an updated visual design.
 
-![Diagram of segmented button indicating 3 parts of its anatomy.](https://lh3.googleusercontent.com/C6AHlXtNzhGMs8gghgCKSba6mwIpYO0fiDnecohrFF3YJraSvBsQL-eXZnCvQJIU9AqRNgtrrvetX0I4UXwI1JyPxy4_rLYmSlkmsr73D_o=s0)
+![Diagram of segmented button indicating 3 parts of its anatomy.](../../_assets/C6AHlXtNzhGMs8gghgCKSba6mwIpYO0fiDnecohrFF3YJraSvBsQL-eXZnCvQJIU9AqRNgtrrvetX0I4-f8c9ae7ed9a4e9ef491a.png)
 
 1.  Container
 2.  Icon (optional for unselected state) 
@@ -34,7 +34,7 @@ Close
 
 Color values are implemented through design tokens Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code. [More on tokens](/m3/pages/design-tokens/overview) . For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. [Learn more about design tokens](/m3/pages/design-tokens/overview)
 
-![Diagram of segmented button indicating its color mappings](https://lh3.googleusercontent.com/YDundjWkMlYTm9ZC1RERNdV1PS0i86yel8Qe8OjWM7OEoMRC2frzBJzmqAywQu1BSW2eAP2ITtJk4A5aKZTS8GtaMqkR4uipO8VZMqGvMzAg=s0)
+![Diagram of segmented button indicating its color mappings](../../_assets/YDundjWkMlYTm9ZC1RERNdV1PS0i86yel8Qe8OjWM7OEoMRC2frzBJzmqAywQu1BSW2eAP2ITtJk4A5a-d6f487791a0487c13d46.png)
 
 Segmented button color roles used for light and dark schemes:
 
@@ -49,7 +49,7 @@ States States show the interaction status of a component or UI element. [More on
 
 ### Unselected
 
-![Side by side view of segmented buttons with 5 unselected states.](https://lh3.googleusercontent.com/-uNJiGxEkqwavKi0rqCcQ6_NTV7HdAQ9_eZ9b40fw_6Ij00V60BU3iLu88EgzvFUO0prwPdmKRKoc6KiuVmTZLUTsStYc8PArd4Y2C6G6ts=w40)
+![Side by side view of segmented buttons with 5 unselected states.](../../_assets/uNJiGxEkqwavKi0rqCcQ6_NTV7HdAQ9_eZ9b40fw_6Ij00V60BU3iLu88EgzvFUO0prwPdmKRKoc6Kiu-2fe1dbf62156a1e5318b.png)
 
 Unselected button states:
 
@@ -61,7 +61,7 @@ Unselected button states:
 
 ### Selected
 
-![Side by side view of segmented buttons with 4 selected states.](https://lh3.googleusercontent.com/PMYMRAaXu4kiEdyI_9iuWFzh9CDRnmy7VqZ7H34w8Y2jeJy0KUUZekkTUR35ISHPJxnChOXSeLwkG2VHsL8vT3CayNNfqNbNr1ptUwhBbG4=w40)
+![Side by side view of segmented buttons with 4 selected states.](../../_assets/PMYMRAaXu4kiEdyI_9iuWFzh9CDRnmy7VqZ7H34w8Y2jeJy0KUUZekkTUR35ISHPJxnChOXSeLwkG2VH-b0f858f80679a754b631.png)
 
 Selected button states:
 
@@ -72,7 +72,7 @@ Selected button states:
 
 ## Measurements
 
-![Diagram indicating layout values, paddings, and target size for segmented buttons](https://lh3.googleusercontent.com/0shX8UYtu_19Pa79pXEjmEc2GW6UOTINXPAw9K9HoaRUWiUqDJsLbSBiPTvL3Nd315qjZapICkjO0AaTXM93Vx9H_0EOocZddx1YsbmzG38_=w40)
+![Diagram indicating layout values, paddings, and target size for segmented buttons](../../_assets/0shX8UYtu_19Pa79pXEjmEc2GW6UOTINXPAw9K9HoaRUWiUqDJsLbSBiPTvL3Nd315qjZapICkjO0AaT-64e6affaa993548e20ea.png)
 
 1.  Padding and container size 
 2.  Target size
@@ -92,6 +92,6 @@ Selected button states:
 
 Density can be used in denser UIs where space is limited. Density is only applied to the height. 
 
-![Side by side view of segmented buttons with 4 different density heights](https://lh3.googleusercontent.com/gaOReQpJgFqk-nmLLFHu7hpIFV9BQ6hqnVt8oSC0ZsgpMaeDzc9y-FIcDnkTciniAxMCpPfWD4RMFaEsz33-jSVweXp8mTxgiiL1tPiAATSUWw=w40)
+![Side by side view of segmented buttons with 4 different density heights](../../_assets/gaOReQpJgFqk-nmLLFHu7hpIFV9BQ6hqnVt8oSC0ZsgpMaeDzc9y-FIcDnkTciniAxMCpPfWD4RMFaEs-01f608b2fe6fef30ab94.png)
 
 Each step down in density removes 4dp from the height

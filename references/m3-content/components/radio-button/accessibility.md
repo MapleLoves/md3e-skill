@@ -42,11 +42,11 @@ When outside the radio group, **Tab** moves focus directly to the selected radio
 
 Use the **arrows** to navigate between options.
 
-![The Tab key focuses on the first of 2 stacked radio buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmc94qafr-02.png?alt=media&token=638e9dfc-3ae8-41e6-932c-be168461fa20)
+![The Tab key focuses on the first of 2 stacked radio buttons.](../../_assets/mc94qafr-02-7f9f78f1db189621e4d9.png)
 
 Tab brings the focus to the initially selected item or the initial radio option
 
-![The up and down arrow keys move through a list of stacked radio buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0z51u6-03.png?alt=media&token=3d528eb7-dbb4-4460-a556-b4660f3bc8f0)
+![The up and down arrow keys move through a list of stacked radio buttons.](../../_assets/mg0z51u6-03-9b45af1cbfc92989f06b.png)
 
 Arrows move to next element in a list
 
@@ -65,12 +65,12 @@ If the UI text is correctly linked to the radio button, assistive tech such as a
 
 The accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/overview/principles) label for a group of radio buttons is typically the same as its title. The role is **Radio group**.
 
-![Accessibility tags for a radio button group.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd3jpo7w-04.png?alt=media&token=1f68a095-10b8-4914-9273-7f58c99a7f5e)
+![Accessibility tags for a radio button group.](../../_assets/md3jpo7w-04-3a99c8d291c52f0087cb.png)
 
 Label the radio group based on the category title
 
 The accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/overview/principles) label for an individual radio button is typically the same as its adjacent text label.
 
-![Accessibility tags for a radio button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0z56zm-05.png?alt=media&token=eff0ba7d-34fe-434b-b962-755ddac009ad)
+![Accessibility tags for a radio button.](../../_assets/mg0z56zm-05-bfcb6be762d08ad4d851.png)
 
 Label the radio button based on its label text

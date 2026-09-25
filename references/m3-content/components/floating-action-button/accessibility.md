@@ -24,13 +24,13 @@ Don't disable the FAB. If the action represented in the FAB is unavailable, the 
 
 Ensure the icon has a minimum 3:1 contrast ratio with the container.
 
-![FAB with highly contrasting bright container and dark icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalo050e-1.png?alt=media&token=629253b6-a62b-4c25-87fb-42aaf3c80457)
+![FAB with highly contrasting bright container and dark icon.](../../_assets/malo050e-1-fa63fb000f1b3dbebbfb.png)
 
 check Do
 
 FAB icons are above the 3:1 contrast ratio
 
-![FAB with low-contrasting dark container and dark icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalo08ew-2.png?alt=media&token=ab0762a5-4c94-484c-bfd8-93529cb6309b)
+![FAB with low-contrasting dark container and dark icon.](../../_assets/malo08ew-2-bc648ebecb4ac96fc93e.png)
 
 close Don’t
 
@@ -44,7 +44,7 @@ On mobile, the focus order may start with the app bar App bars contain page navi
 
 Consider displaying a tooltip when the FAB is focused. This is supported on web.
 
-![A focused FAB with a tooltip saying “Compose” appearing below it.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaqbeez-03.png?alt=media&token=b4e21a7b-5097-4c6b-95b9-83953c9baf7e)
+![A focused FAB with a tooltip saying “Compose” appearing below it.](../../_assets/mkaqbeez-03-1e02e1076c2fd1df2e5d.png)
 
 Tooltips surface the FAB’s label when focused
 
@@ -54,11 +54,11 @@ To make it easier for users of screen readers to reach a primary action such as 
 
 However, it’s critical to test placement options with users to see if the upper left region is the best position in all browser windows. For compact Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) and medium breakpoints Window widths from 600dp to 839dp, such as a tablet or foldable in portrait orientation. [More on medium breakpoints](/m3/pages/breakpoints/medium) , the best place for the FAB is the lower right corner of a screen.
 
-![FAB in the lower right region of a small screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaqbxv8-04.png?alt=media&token=c3a789b3-1207-4157-a96c-49aeba908511)
+![FAB in the lower right region of a small screen.](../../_assets/mkaqbxv8-04-2d0ca3d016c640ddb2af.png)
 
 In compact windows, place the FAB in the bottom trailing edge
 
-![FAB in the upper left region of a large screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaqcdup-05.png?alt=media&token=f735b608-ff59-4ef5-b166-b7ab5542cb36)
+![FAB in the upper left region of a large screen.](../../_assets/mkaqcdup-05-e39ff5d8e41cd667e5b9.png)
 
 In expanded windows, place the FAB in the navigation rail
 
@@ -66,13 +66,13 @@ To ensure accessibility for keyboard users on the web, avoid positioning the FAB
 
 It’s okay to partially cover the desired element, as long as the focus indicators are still visible.
 
-![FAB in the lower right region doesn’t obscure the focus indicator of an actionable icon.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaqcwm1-06.png?alt=media&token=4f93ecbf-6872-4178-baf9-9d2ab17ede1c)
+![FAB in the lower right region doesn’t obscure the focus indicator of an actionable icon.](../../_assets/mkaqcwm1-06-7cc6048b4c82cd6711e5.png)
 
 check Do
 
 The FAB can partially cover an actionable element, as long as the focus indicator is still clearly visible
 
-![FAB in the lower right region obscures an actionable icon and its focus indicator.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkbecw5o-07.png?alt=media&token=2ead9370-39e9-4c15-b531-c63385f17621)
+![FAB in the lower right region obscures an actionable icon and its focus indicator.](../../_assets/mkbecw5o-07-bb91a4302cde5542c0b1.png)
 
 close Don’t
 
@@ -89,6 +89,6 @@ Don’t completely obscure an actionable element and its focus indicator
 
 The accessibility label should describe the action that the button is performing, such as **Compose a new message**.
 
-![Accessibility label and accessibility role of a FAB.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaqdy3m-08.png?alt=media&token=c5296e63-0972-4391-8fc3-4577544c8c31)
+![Accessibility label and accessibility role of a FAB.](../../_assets/mkaqdy3m-08-32a55d4d1d322fecdc0f.png)
 
 The accessibility label of the FAB with a pencil icon describes the action of composing a new message

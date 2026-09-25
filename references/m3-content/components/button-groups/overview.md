@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   Support for single-select, multi-select, and selection-required
 
-![A standard button group and a segmented button group.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4sskpfx-1_alt.png?alt=media&token=9de29e7b-e0c9-442c-84df-2ad6a90d5f04)
+![A standard button group and a segmented button group.](../../_assets/m4sskpfx-1_alt-9d31dcf7ad0e3c08cbaf.png)
 
 Button groups can contain buttons and icon buttons
 
@@ -60,6 +60,6 @@ Configurations:
 
 -   Applies default shape to all buttons: round or square
 
-![Standard button group in 3 of 5 available sizes, and segmented button group with just icon buttons and just common buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0ca0qix-1.png?alt=media&token=36ca89da-91f7-443b-800d-a35bd8744481)
+![Standard button group in 3 of 5 available sizes, and segmented button group with just icon buttons and just common buttons.](../../_assets/m0ca0qix-1-000c5a02decfdc2aacf6.png)
 
 Button groups are containers that hold buttons of many shapes and sizes

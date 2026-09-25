@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Snackbars show short updates about app processes at the bottom of the screen
 
-![Snackbar at the bottom of a mobile device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6a9x4e1-1.png?alt=media&token=a139356b-4222-4b76-9c80-cfefdb00ced0)
+![Snackbar at the bottom of a mobile device.](../../_assets/m6a9x4e1-1-fc6da0d2c294c6f417dc.png)
 
 ## Usage
 
@@ -22,7 +22,7 @@ Only one snackbar may be displayed at a time.
 **Actions**
 A snackbar can contain a single action. "Dismiss" or "cancel" actions are optional.
 
-![Snackbar showing 'Email archived' text with an 'Undo' text button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6a9y0k8-2.png?alt=media&token=e904bf19-99d6-4d22-9a44-1f986f1574c8)
+![Snackbar showing 'Email archived' text with an 'Undo' text button.](../../_assets/m6a9y0k8-2-cd3c915e581942a82aaf.png)
 
 ### Similar components
 
@@ -30,7 +30,7 @@ Dialogs Dialogs provide important prompts in a user flow. [More on dialogs](/m3/
 
 Choose the right component based on the importance of the message. This component messaging strategy can help avoid overusing snackbars.
 
-![Dialog on a phone requiring the user to sign in to continue. Dismissing prevents them from progressing.](https://lh3.googleusercontent.com/-tiKvQVJlOCfknFRqwRFth2PAQgditPIXPneNZWGR_W7XuQHEfYzHpyZR8lkb7gDWylZmqw6jVl9ExMk2sIrWV5SJEDrph3YWse2wdx1X5fc=s0)
+![Dialog on a phone requiring the user to sign in to continue. Dismissing prevents them from progressing.](../../_assets/tiKvQVJlOCfknFRqwRFth2PAQgditPIXPneNZWGR_W7XuQHEfYzHpyZR8lkb7gDWylZmqw6jVl9ExMk2-7d0e3e48ef6a57086f07.png)
 
 Dialogs require immediate action
 
@@ -56,13 +56,13 @@ For example, update the label on a "Save" button Buttons let people take action 
 
 Alternatively, add actions to the snackbar so it doesn't dismiss until acted on.
 
-![A button labelled "Save" changes to "Saved" after a moment. A snackbar confirms all changes are saved.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoxyec0-5.png?alt=media&token=ba932f45-20b3-4494-b4e9-0bd9ff22208e)
+![A button labelled "Save" changes to "Saved" after a moment. A snackbar confirms all changes are saved.](../../_assets/lwoxyec0-5-e74646f749e8d1ae17e9.png)
 
 Also communicate snackbar information near the action that triggered the snackbar
 
 ## Anatomy
 
-![4 elements of a snackbar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoy0ibw-6.png?alt=media&token=e4018d28-38b2-4af5-b7b0-d6f07688ee41)
+![4 elements of a snackbar.](../../_assets/lwoy0ibw-6-9214dba87d5e12d86661.png)
 
 1.  Container
 2.  Supporting text
@@ -73,29 +73,29 @@ Also communicate snackbar information near the action that triggered the snackba
 
 Snackbars contain a text label that directly relates to the process being performed. In compact breakpoints Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) , the text label can contain up to two lines of text.
 
-![Snackbar on a mobile device reading: "Saved in Vacation album".](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoy1q93-7.png?alt=media&token=cc87fff5-d0bc-4790-a163-98557189a683)
+![Snackbar on a mobile device reading: "Saved in Vacation album".](../../_assets/lwoy1q93-7-64e54e95e4a54d2a88f1.png)
 
 Text labels are short, clear updates on processes that have been performed
 
-![Snackbar on mobile with one line of content.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoy2p4f-8.png?alt=media&token=afb9be61-cec7-4121-a176-37c0909a64e8)
+![Snackbar on mobile with one line of content.](../../_assets/lwoy2p4f-8-5df8dba9854376b05e47.png)
 
 check Do
 
 Keep the snackbar text label to one line long when possible
 
-![Snackbar on mobile with two lines of content.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoy3zcx-9.png?alt=media&token=8e9c9a97-1872-447b-8a36-36afb1bcef62)
+![Snackbar on mobile with two lines of content.](../../_assets/lwoy3zcx-9-059a50d6e5d62c82a7c4.png)
 
 check Do
 
 On mobile, the text label can be up to two lines long
 
-![Snackbar on mobile with an icon and one line of content.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoy4zjx-10.png?alt=media&token=4b2e802b-b450-4558-9e80-15d0ea989e1a)
+![Snackbar on mobile with an icon and one line of content.](../../_assets/lwoy4zjx-10-f3313f185da1a6f2c696.png)
 
 exclamation Caution
 
 Avoid adding icons to snackbars. If your message needs an icon, consider using a different component such as a dialog.
 
-![Snackbar on mobile with bolded and hyperlinked words.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoy6dj7-11.png?alt=media&token=5d757758-41ea-418e-854b-ce251f747327)
+![Snackbar on mobile with bolded and hyperlinked words.](../../_assets/lwoy6dj7-11-16a84c6dce3a214cad09.png)
 
 close Don’t
 
@@ -105,35 +105,35 @@ Avoid using stylized text or inline links in snackbars; they can add unwanted co
 
 Snackbars are displayed in rectangular containers with a grey background. Containers should be completely opaque, so that text labels remain legible.
 
-![Snackbar showing a light text label on a black color container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoy7luk-12.png?alt=media&token=6127148e-439e-4246-80fa-0a72d1ab71f8)
+![Snackbar showing a light text label on a black color container.](../../_assets/lwoy7luk-12-f0a5eef448a22b7e39e5.png)
 
 Snackbar containers use a solid background color with a shadow to stand out against content
 
-![A snackbar with button text the same color as supporting text.](https://lh3.googleusercontent.com/4ZjkkltqgNzA13m457i7C95ZkoGaUoXwgffmVQBnSzhDn_qqntogMKz1zoZ3atzRsf9Iu83GJ9KxWN36I8FPXrBHeStry3i6Y-QPP1AAcSL5RQ=w40)
+![A snackbar with button text the same color as supporting text.](../../_assets/4ZjkkltqgNzA13m457i7C95ZkoGaUoXwgffmVQBnSzhDn_qqntogMKz1zoZ3atzRsf9Iu83GJ9KxWN36-0292dae733da2201053d.png)
 
 close Don’t
 
 The text label shouldn’t share the same color as the text button
 
-![A snackbar with the action in elevated style.](https://lh3.googleusercontent.com/b3InMdZt65Rjhh2v0XIVdSSStbaGd_Hzb2lnxzGsqpOgwaGnTk-i5f4uZrNBwjViXGXis6FZhuu7ZbP73NMc0fLH6jPdDIgemxqSwr4ImN-P=w40)
+![A snackbar with the action in elevated style.](../../_assets/b3InMdZt65Rjhh2v0XIVdSSStbaGd_Hzb2lnxzGsqpOgwaGnTk-i5f4uZrNBwjViXGXis6FZhuu7ZbP7-458d77488174869da1f7.png)
 
 close Don’t
 
 Don’t use a filled or elevated button in a snackbar, as it draws too much attention
 
-![An extended snackbar on tablet with a long text label. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoyabsh-13.png?alt=media&token=1ecad806-a4f9-4fcc-bcec-f3909c59e4d6)
+![An extended snackbar on tablet with a long text label. ](../../_assets/lwoyabsh-13-62ecc32ea445b46d977a.png)
 
 check Do
 
 In wide layouts, extend the container width to accommodate longer text labels
 
-![Snackbar with a slightly transparent container and a clearly visible text label.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoyc9yp-14.png?alt=media&token=30ca81d2-71b7-4ac3-9adb-3be7c41313d4)
+![Snackbar with a slightly transparent container and a clearly visible text label.](../../_assets/lwoyc9yp-14-a585df56b0d5e8f7c0c5.png)
 
 exclamation Caution
 
 An app can apply slight transparency to the container background, as long as text remains clearly legible
 
-![](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoydoed-15.png?alt=media&token=5695ca2c-49c2-4a86-b11e-b415266f6ad5)
+![](../../_assets/lwoydoed-15-918ea7936272d504a5f2.png)
 
 close Don’t
 
@@ -143,23 +143,23 @@ Avoid significantly altering the shape of a snackbar container
 
 Snackbars can display a single text button that lets users take action on a process performed by the app. Snackbars shouldn’t be the only way to access a core use case, to make an app usable.
 
-![A snackbar container with rounded corners.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoyf085-16.png?alt=media&token=dc457470-6654-493b-b1fa-633c991d9a61)
+![A snackbar container with rounded corners.](../../_assets/lwoyf085-16-101ee617ca97ec0af576.png)
 
 To distinguish the action from the text label, text buttons should display colored text
 
-![Snackbar with a long text button displayed on a third line.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxktjsxn-19.png?alt=media&token=89f6106f-fd53-4132-815f-8b6ed99b52be)
+![Snackbar with a long text button displayed on a third line.](../../_assets/lxktjsxn-19-bfc40f3e621e41ccf4d9.png)
 
 check Do
 
 If an action is long, it can be displayed on a third line
 
-![Snackbar with a single text button labeled undo.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoz8scg-20.png?alt=media&token=6539a4cf-fb1c-47d4-9e71-59a2b10dca6b)
+![Snackbar with a single text button labeled undo.](../../_assets/lwoz8scg-20-f8c58749cc1f44f316cb.png)
 
 check Do
 
 To allow users to amend choices, display an "Undo" action
 
-![Snackbar with a single text button labeled dismiss.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoza8yz-21.png?alt=media&token=131c7a24-1324-4fef-880e-3d62d1156345)
+![Snackbar with a single text button labeled dismiss.](../../_assets/lwoza8yz-21-d02b7f2baf30de95b17b.png)
 
 exclamation Caution
 
@@ -173,13 +173,13 @@ Snackbars should be placed at the bottom of a UI, in front of the main content. 
 
 Avoid placing a snackbar in front of frequently used touch targets or navigation.
 
-![Snackbar appearing in front of photo content. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6aa5hcy-22.png?alt=media&token=28ca12e4-37a3-42ef-910a-77f7e93539d8)
+![Snackbar appearing in front of photo content. ](../../_assets/m6aa5hcy-22-aa76215baccb1b71f0cd.png)
 
 check Do
 
 Place a snackbar in front of the main content
 
-![Snackbar placed in front of the navigation components.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6aa6688-23.png?alt=media&token=f80dfa9d-e09c-4d14-a503-34133ee3754b)
+![Snackbar placed in front of the navigation components.](../../_assets/m6aa6688-23-c2118cc6811eb01b472a.png)
 
 close Don’t
 
@@ -187,13 +187,13 @@ Avoid placing snackbars in front of navigation components
 
 To ensure accessibility for keyboard users on the web, avoid positioning the snackbar in a way that completely obscures actionable elements. Blocking elements makes it difficult to know what is being focused and selected.
 
-![Thin snackbar in front of a focused element that is still visible.](https://lh3.googleusercontent.com/vg5GlpuWuNMO4YWdc0KGUyWNHahzYhB8tTa-uXWzkLg62Et6WGYvmeoY4A8iT5fW17tRL3aeUfWxEpl6Wyaz6hqqqfFp3ZuYeuhjmDhRvgSx=w40)
+![Thin snackbar in front of a focused element that is still visible.](../../_assets/vg5GlpuWuNMO4YWdc0KGUyWNHahzYhB8tTa-uXWzkLg62Et6WGYvmeoY4A8iT5fW17tRL3aeUfWxEpl6-2a4bcc879fd2ba974d2c.png)
 
 check Do
 
 Adjust the size of the snackbar to avoid blocking elements in focus
 
-![Larger snackbar that is obscuring a focused element.](https://lh3.googleusercontent.com/kpbBuDWBK_Ys0lIMzxCNuXCENtyVH4hR1fZew7Plf3CLFO6w5xF-w_3BdgmDkR2FUBahDMfcS1Hj9KqjAmhyog4PmEHnUy9tF9BBS92Y13Q=w40)
+![Larger snackbar that is obscuring a focused element.](../../_assets/kpbBuDWBK_Ys0lIMzxCNuXCENtyVH4hR1fZew7Plf3CLFO6w5xF-w_3BdgmDkR2FUBahDMfcS1Hj9Kqj-43f6caae602d12154eba.png)
 
 close Don’t
 
@@ -203,7 +203,7 @@ Snackbars can span the entire width of the screen only when a UI does not use pe
 
 Snackbars that span the entire width of a UI can push up FABs Floating action buttons (FABs) help people take primary actions. [More on FABs](/m3/pages/fab/overview) when they appear.
 
-![Snackbar spanning the width of a mobile device is placed in front of the navigation components and FAB.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6aa171j-26.png?alt=media&token=0ca0a009-f201-4574-9c7f-1b37050bc6b5)
+![Snackbar spanning the width of a mobile device is placed in front of the navigation components and FAB.](../../_assets/m6aa171j-26-8ba9baaf9f872f558861.png)
 
 exclamation Caution Snackbars can span the entire width of a UI. However, they should not appear in front of navigation or other important UI elements like floating action buttons.
 
@@ -211,17 +211,17 @@ exclamation Caution Snackbars can span the entire width of a UI. However, they s
 
 Snackbars should appear above FABs Floating action buttons (FABs) help people take primary actions. [More on FABs](/m3/pages/fab/overview) .
 
-![Snackbar placed above a FAB on a mobile device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6aa25mm-27.png?alt=media&token=b110ee1b-9457-4f9a-a789-13eee60b7ef5)
+![Snackbar placed above a FAB on a mobile device.](../../_assets/m6aa25mm-27-3892d29c5f2d91c87400.png)
 
 Snackbar above a FAB
 
-![Snackbar placed in front of a FAB on a mobile device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6aa35y8-28.png?alt=media&token=7bbf8d02-d6da-4fff-b9c1-9407d260d303)
+![Snackbar placed in front of a FAB on a mobile device.](../../_assets/m6aa35y8-28-ff337915c3d532473897.png)
 
 close Don’t
 
 Don’t place a snackbar in front of a FAB
 
-![Snackbar placed behind a FAB on a mobile device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6aa41vd-29.png?alt=media&token=196c1cfa-db40-4a5c-88fe-3c1e175670af)
+![Snackbar placed behind a FAB on a mobile device.](../../_assets/m6aa41vd-29-f1b5ee5cbc428a941a13.png)
 
 close Don’t
 
@@ -233,7 +233,7 @@ Don’t place a snackbar behind a FAB
 
 In compact breakpoints Window widths smaller than 600dp, such as a phone in portrait orientation. [More on compact breakpoints](/m3/pages/breakpoints/compact) , snackbars should expand vertically from 48dp to 64dp to accommodate one or two lines of text, while maintaining a  fixed distance from the leading, trailing, and bottom edges of the screen.
 
-![Snackbar with its label text extending to the second line and maintaining fixed distance from the edges of a mobile device.  ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxktk5oy-28.png?alt=media&token=62ea237a-9fb2-4b02-af6a-6a1d860be406)
+![Snackbar with its label text extending to the second line and maintaining fixed distance from the edges of a mobile device.  ](../../_assets/lxktk5oy-28-6cb9be415d7b3067741e.png)
 
 ### Medium & expanded breakpoints
 
@@ -241,26 +241,26 @@ On medium Window widths from 600dp to 839dp, such as a tablet or foldable in por
 
 Snackbars use a flexible distance from the trailing edge of the screen. Whenever possible, snackbars on medium and large displays should aim for a single line of text with an  optional button Buttons let people take action and make choices with one tap. [More on buttons](/m3/pages/common-buttons/overview) .
 
-![A horizontally expanded snackbar placed at the bottom of screen on a medium-size device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoztb40-29.png?alt=media&token=6f2bb46d-080a-4fdf-b1ef-136b1a0e52d0)
+![A horizontally expanded snackbar placed at the bottom of screen on a medium-size device.](../../_assets/lwoztb40-29-7cc5e59d26dab0c25175.png)
 
 In wider layouts Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/understanding-layout/overview) , snackbars can be left-aligned or center-aligned if they are consistently placed on the same spot at the bottom of the screen.
 
-![A left-aligned snackbar placed at the bottom of screen on a medium-size device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwozw4lz-30.png?alt=media&token=1e5ae92c-43f8-4c9c-ab67-b51993825dd7)
+![A left-aligned snackbar placed at the bottom of screen on a medium-size device.](../../_assets/lwozw4lz-30-bf3ff7dacaf9423fa604.png)
 
 Left-aligned snackbar
 
-![A center-aligned snackbar placed at the bottom of screen on a medium-size device.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwozx768-31.png?alt=media&token=488159aa-db6a-467d-a7ee-01503dacf742)
+![A center-aligned snackbar placed at the bottom of screen on a medium-size device.](../../_assets/lwozx768-31-0e751edc6745d3a13956.png)
 
 Center-aligned snackbar
 
 ![Snackbar displayed at the left edge of the screen, near the bottom, on a medium-sized device.
-](https://lh3.googleusercontent.com/31lW1WIYT75nNWrdmMIpaPc3F1li8pdovxS-wfb4EPMkAyZOwTPcOhw2EmNvQ7IsBKjkF-BnlA8ciLYiewbuRaf_A7fM3279CbPZEZkhgEw-=w40)
+](../../_assets/31lW1WIYT75nNWrdmMIpaPc3F1li8pdovxS-wfb4EPMkAyZOwTPcOhw2EmNvQ7IsBKjkF-BnlA8ciLYi-ac7f256d33eafa7415b3.png)
 
 close Don’t
 
 Don’t place snackbars flush to one edge of the layout
 
-![2 snackbars placed side-by-side at the bottom of the screen on a medium-size device.](https://lh3.googleusercontent.com/OfYvxPiin9tChm76P70MCXk-eBs2mdE5Lg-EIsARo0YiUY5UDsthxozOFefNXX0RhhW-SJ7mKpeHpofakdr6uN5i2XBdNcNYjgv_MNXvlCT4=w40)
+![2 snackbars placed side-by-side at the bottom of the screen on a medium-size device.](../../_assets/OfYvxPiin9tChm76P70MCXk-eBs2mdE5Lg-EIsARo0YiUY5UDsthxozOFefNXX0RhhW-SJ7mKpeHpofa-55a8f92d7629446134d1.png)
 
 close Don’t
 

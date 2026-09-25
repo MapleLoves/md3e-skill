@@ -44,17 +44,17 @@ A layout’s spacing dimensions, including margins, spacers, and padding, can ch
 
 Consider density settings in the context of a device. Although a person may prefer a denser layout for desktop, they may not for mobile. Density shouldn’t automatically change across breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) or orientation unless a person changes it.
 
-![2 layouts: 1 with low density and 1 with high density.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5bjd4j-03.png?alt=media&token=f2d98641-43b3-4be6-813e-b788a638eadf)
+![2 layouts: 1 with low density and 1 with high density.](../../../_assets/mp5bjd4j-03-c75aa85965a64fd1c426.png)
 
 check Do
 
 Consider using higher density information design when people need to scan lots of information
 
-![News website on desktop displaying a high information density. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5bh69d-04.png?alt=media&token=83e62cde-d2ca-451d-8b01-339cab7fa6af)
+![News website on desktop displaying a high information density. ](../../../_assets/mp5bh69d-04-8088a95ed0ef09a301e4.png)
 
 Consider the amount and priority of information on-screen. Higher density can be useful for data-rich products where people expect to scan lots of information quickly. Examples: News, financial portals, dashboards
 
-![News website on desktop displaying a low information density.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5bi6cs-05.png?alt=media&token=8dc0f800-b3aa-4927-bfc5-585d0f7a8513)
+![News website on desktop displaying a low information density.](../../../_assets/mp5bi6cs-05-cc4e107e53d6c34200cc.png)
 
 Lower density can be better for sites prioritizing aesthetics, a focused message, less information, or easier navigation
 
@@ -66,7 +66,7 @@ The density scale is numbered, starting at 0 for a component’s default density
 
 Higher density is typically applied by decreasing the top and bottom padding or overall height by 4dp.
 
-![3 buttons with densities  of 0, -1, -2.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5b9chq-07.png?alt=media&token=38a1cee0-2071-46f7-9bf5-acf853ad4775)
+![3 buttons with densities  of 0, -1, -2.](../../../_assets/mp5b9chq-07-29a86cba929e48d30c70.png)
 
 Apply component density based on the needs and layout of a design
 
@@ -74,21 +74,21 @@ Center the grouped element within the component container.
 
 Text size shouldn’t change as the container size scales.
 
-![Text field showing 20dp between label and input](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5b68d4-08.png?alt=media&token=8c5cc11c-001b-42bc-b0f5-dbf7714e503a)
+![Text field showing 20dp between label and input](../../../_assets/mp5b68d4-08-68493922f64d7d6968d3.png)
 
 The measurement between the label and input is 20dp
 
-![Parent container showing label above input.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5b7f5f-09.png?alt=media&token=f56f5d6f-18cd-4244-8ad2-219b353925a1)
+![Parent container showing label above input.](../../../_assets/mp5b7f5f-09-ba0897910e991148272f.png)
 
 The label and input are centered within their parent container
 
-![Dropdown menu with high density items and selectable space height of 38dp.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5b2pqp-10-dont.png?alt=media&token=bc17826a-5b44-4cc5-84e1-70357fe2e69a)
+![Dropdown menu with high density items and selectable space height of 38dp.](../../../_assets/mp5b2pqp-10-dont-7528bf2a13bdf198ceab.png)
 
 close Don’t
 
 Don’t increase density in UIs that involve focused tasks, such as selecting from a menu. It reduces usability by limiting selectable space.
 
-![Single-line snackbar with high density.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5b47ji-11-dont.png?alt=media&token=e5339b42-6c49-4881-9d69-9b2886f21bf3)
+![Single-line snackbar with high density.](../../../_assets/mp5b47ji-11-dont-2462dfafc05a728ec7dc.png)
 
 close Don’t
 
@@ -108,7 +108,7 @@ People can opt in to dense layouts in settings
 
 Dense components can be less accessible because interactive elements are smaller, so use caution when increasing information density.
 
-![Selectable target of only 40dp.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp58kiob-13-caution.png?alt=media&token=f0e95ca4-7692-4b33-9fa8-79198007756b)
+![Selectable target of only 40dp.](../../../_assets/mp58kiob-13-caution-2c933cf869cd5a9a7940.png)
 
 exclamation Caution
 
@@ -116,11 +116,11 @@ Use caution when applying component scaling where selectable targets will be red
 
 Use caution when applying density to interaction targets. Accessible targets should retain a minimum of 48x48dp, even if the visual element, such as an icon, is smaller.
 
-![Settings button icon is 24x24dp, but has interaction target of 48x48dp.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp58gdij-14.png?alt=media&token=9eb2d101-aabf-47e8-9e84-254391cfffce)
+![Settings button icon is 24x24dp, but has interaction target of 48x48dp.](../../../_assets/mp58gdij-14-f2e83cd61354422772a4.png)
 
 The target should remain 48x48dp, even if the icon is smaller
 
-![Button with height of 36dp and interaction target of 48dp.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp58i79t-15.png?alt=media&token=29992fdf-bc4e-46c2-afde-7d477b3bd803)
+![Button with height of 36dp and interaction target of 48dp.](../../../_assets/mp58i79t-15-4eaa3f116fd9cdbd6e96.png)
 
 The interaction target of a common button can be larger, as long as it meets the 48x48dp minimum size
 
@@ -132,11 +132,11 @@ To calculate pixel density:
 
 Pixel density = Screen width (or height) in pixels / Screen width (or height) in inches
 
-![Magnified UI element  showing a high number of pixels in the focus area.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp586kzq-16.png?alt=media&token=635b6806-b358-48bf-927b-670a1c848fde)
+![Magnified UI element  showing a high number of pixels in the focus area.](../../../_assets/mp586kzq-16-60e62e8ca1cfc346db4d.png)
 
 High-density elements have more pixels per inch
 
-![Magnified UI element  showing a low number of pixels in the focus area.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp587qzn-17.png?alt=media&token=e2b7ead4-9211-4000-9a76-9596875282b4)
+![Magnified UI element  showing a low number of pixels in the focus area.](../../../_assets/mp587qzn-17-bdb1d5ac980973e4c8cf.png)
 
 Low-density elements have fewer pixels per inch
 
@@ -149,11 +149,11 @@ A dp is equal to one physical pixel on a screen with a density of 160.
 To calculate dp:
 dp = (width in pixels \* 160) / screen density
 
-![Screen with grid representing a low number of pixels.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp57upl7-18.png?alt=media&token=d73cdac2-1ff8-4a67-8808-f40ba6ffc395)
+![Screen with grid representing a low number of pixels.](../../../_assets/mp57upl7-18-7294e26c094ebf3af297.png)
 
 Low-density screen displayed with density independence
 
-![Screen with grid representing a high number of pixels.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp57w9fy-19.png?alt=media&token=8a92b118-e18b-40fb-a4a5-4a740ce3ac69)
+![Screen with grid representing a high number of pixels.](../../../_assets/mp57w9fy-19-8b70ea9969682da9fa2c.png)
 
 High-density screen displayed with density independence
 

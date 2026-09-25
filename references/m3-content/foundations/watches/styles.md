@@ -27,7 +27,7 @@ GM3 Expressive adds two type styles specially designed for watches. [More on the
 
 Numeral text styles display numbers, usually only a few digits at a time. This text can take on more expressive properties at larger display sizes without the accommodations usually required by text that must be localized.
 
-![A watch face with an indication for the numeral text style used to show the time.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4bxhlf-22.png?alt=media&token=2ff2bd35-9cd1-4f00-bacf-a5f7398c7f13)
+![A watch face with an indication for the numeral text style used to show the time.](../../_assets/mp4bxhlf-22-c0f9c2102f66ea7eea6e.png)
 
 1.  Numeral Large
 
@@ -35,7 +35,7 @@ Numeral text styles display numbers, usually only a few digits at a time. This t
 
 Arc text is specially designed for text following a curved path on a round screen, such as page titles, confirmation overlays, or a call to action. It optimizes character spacing for text displayed along a curve at the top or bottom of a round screen.
 
-![A close-up of a watch face with arc text showing “check your phone” hugging the bottom bevel of a round screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4byceo-23.png?alt=media&token=a50fa393-d91d-41d6-832c-7a2f0c8b89ce)
+![A close-up of a watch face with arc text showing “check your phone” hugging the bottom bevel of a round screen.](../../_assets/mp4byceo-23-5ba545927e860316f362.png)
 
 1.  Arc Large
 
@@ -47,7 +47,7 @@ Material for Wear OS provides a custom [color system](https://developer.android.
 
 Watches are designed with a black background, instead of the tinted background that phones use.
 
-![2 watch screens showing sleeping app and a number picker.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4bz1nw-1.png?alt=media&token=d1c14f18-c914-47fd-8d9d-32154507faef)
+![2 watch screens showing sleeping app and a number picker.](../../_assets/mp4bz1nw-1-958d9e390c652b75b1ef.png)
 
 Watches use a black background to conserve battery
 
@@ -57,13 +57,13 @@ Since watches are used throughout the day, color tokens Design tokens are the bu
 
 [More on color roles for Wear OS](https://developer.android.com/design/ui/wear/guides/styles/color/roles-tokens)
 
-![3 examples of “Accept” and “Decline” buttons that are legible.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4bzy9c-21.png?alt=media&token=aca53443-d026-4313-8e71-465fe89b3b1d)
+![3 examples of “Accept” and “Decline” buttons that are legible.](../../_assets/mp4bzy9c-21-96bdd4ed4538273fb2a4.png)
 
 check Do
 
 Buttons with (2) **on primary** on (1) **primary** and (4) **on** **primary container** on (3) **primary container** stay legible as the contrast level changes
 
-![Buttons with (2) primary dim on (1) primary or (4) primary dim on (3) primary container become illegible as contrast levels shift](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4c1f7y-22.png?alt=media&token=62f3d1b4-8389-4d0b-b6b2-7534316edd3b)
+![Buttons with (2) primary dim on (1) primary or (4) primary dim on (3) primary container become illegible as contrast levels shift](../../_assets/mp4c1f7y-22-87a67962bb588a73a61b.png)
 
 close Don’t
 
@@ -79,19 +79,19 @@ Below are some common color pairings that can help establish priority, function,
 
 -   Use **secondary** and **primary container** to show two equally important options or containers, while maintaining contrast
 
-![Three buttons, with the center one in Primary and side ones in Primary Dim. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4c3ekq-23.png?alt=media&token=a831349d-6b4f-4625-8714-ea0a653dcf47)
+![Three buttons, with the center one in Primary and side ones in Primary Dim. ](../../_assets/mp4c3ekq-23-b314e0754cef4ed1831e.png)
 
 1.  Primary
 
 2.  Primary dim
 
-![ A number pad with most keys in Primary Dim and the pressed key in Tertiary. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4c4fsb-24.png?alt=media&token=b86e622b-f8de-4115-979c-3bd3c2b9e187)
+![ A number pad with most keys in Primary Dim and the pressed key in Tertiary. ](../../_assets/mp4c4fsb-24-b893f4e53772bec8aff3.png)
 
 1.  Primary dim
 
 2.  Tertiary
 
-![Call button in tertiary color, open button in primary color and open on phone button in secondary-container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4c72hg-28.png?alt=media&token=21b40ca1-7517-4ed9-840f-d4e442b69f8a)
+![Call button in tertiary color, open button in primary color and open on phone button in secondary-container.](../../_assets/mp4c72hg-28-fa005f9d0df5631a37c0.png)
 
 1.  Tertiary
 
@@ -99,7 +99,7 @@ Below are some common color pairings that can help establish priority, function,
 
 3.  Secondary container
 
-![accept button in primary and delete button in primary container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4c6oau-30.png?alt=media&token=0b3a838a-4390-4f00-97f3-c8db07afd08d)
+![accept button in primary and delete button in primary container.](../../_assets/mp4c6oau-30-5026900648f1c8731c65.png)
 
 1.  Primary
 
@@ -107,13 +107,13 @@ Below are some common color pairings that can help establish priority, function,
 
 3.  Primary container
 
-![Plus button in primary color, date button is in tertiary color and appointment summary is in primary container color.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4cam7e-27.png?alt=media&token=3ed8ef43-e3b5-479d-a71d-fde18a157042)
+![Plus button in primary color, date button is in tertiary color and appointment summary is in primary container color.](../../_assets/mp4cam7e-27-6b354aad495297ec9cac.png)
 
 1.  Primary dim
 
 2.  Tertiary dim
 
-![Bicycle button in primary, weight button in tertiary dim.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4c7zvn-31.png?alt=media&token=705e310c-fa24-4148-9c48-984c58b82536)
+![Bicycle button in primary, weight button in tertiary dim.](../../_assets/mp4c7zvn-31-3fe3e3de36ae4b7554eb.png)
 
 1.  Primary
 
@@ -139,6 +139,6 @@ Use system-defined patterns and tokens (when available) to reinforce interaction
 
 [More on haptics for Wear OS](https://developer.android.com/develop/ui/views/haptics/haptics-principles)
 
-![2 watch faces with lines indicating haptics for a payment being accepted and scrolling through notifications.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4c8vp7-x.png?alt=media&token=be98fca9-818a-438f-a010-844b5648e1a9)
+![2 watch faces with lines indicating haptics for a payment being accepted and scrolling through notifications.](../../_assets/mp4c8vp7-x-28ef84515132ff6bd653.png)
 
 Use stronger haptics for key interactions and subtler feedback for precision interactions

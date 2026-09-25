@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   Can animate on and off screen with another bar of controls, like a row of chips Chips help people enter information, make selections, filter content, or trigger actions. [More on chips](/m3/pages/chips/overview)
 
-![4 configurations of app bars stacked vertically to show differences.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlktxqjf-01.png?alt=media&token=fe608fa5-00d5-4278-a2a5-2edcdbb248d0)
+![4 configurations of app bars stacked vertically to show differences.](../../_assets/mlktxqjf-01-3f91d2e3e3fd92771295.png)
 
 1.  Search app bar
 2.  Small
@@ -88,7 +88,7 @@ Variants and naming:
 
     -   More flexible elements for imagery and filled buttons
 
-![4 total app bar configurations.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlku5356-05.png?alt=media&token=76ad704f-5607-425a-83a1-0f2ae2ca8f2e)
+![4 total app bar configurations.](../../_assets/mlku5356-05-53e994347ad340694fa6.png)
 
 1.  Search app bar
 2.  Small
@@ -102,10 +102,10 @@ Variants and naming:
 -   Typography: Larger default text
 -   Layout: Smaller default height
 
-![M2 top app bar with elevation to separate it from main content.](https://lh3.googleusercontent.com/cBekWt7xDa8xEu5XXaem1OHo1sbSYkWtpPf8V_6QeBgGzxia-Ba6WoZDfUkaUvywiflh3J89oatLV3Zpqv4DupaDfVyy41vXxkxpDAnEqvaGtw=w40)
+![M2 top app bar with elevation to separate it from main content.](../../_assets/cBekWt7xDa8xEu5XXaem1OHo1sbSYkWtpPf8V_6QeBgGzxia-Ba6WoZDfUkaUvywiflh3J89oatLV3Zp-044378bf3934b2ef996f.png)
 
 M2: Elevation and a drop shadow raise the top app bar when content is present underneath
 
-![M3 app bar with subtle color difference from main content.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlkui2vk-07.png?alt=media&token=ab974573-5f3b-469a-9779-173b3101e1f0)
+![M3 app bar with subtle color difference from main content.](../../_assets/mlkui2vk-07-c57ef9bfe14b15865a4a.png)
 
 M3: On scroll, a color fill overlay separates the app bar from the content beneath

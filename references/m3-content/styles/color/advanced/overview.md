@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 From changing a component’s default color mapping to creating additional color roles, advanced customizations fall within one of three general actions: applying, defining, or adjusting colors.
 
-![Collage of green primary color mapped to a custom volume component; a custom teal tertiary color role applied to a weather widget; a custom orange caution color; and an illustration of an avatar in yellow, red, and green color themes](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwt29uqj-1.png?alt=media&token=a2b1ddc3-8cfa-4ea7-850a-517495cb2297)
+![Collage of green primary color mapped to a custom volume component; a custom teal tertiary color role applied to a weather widget; a custom orange caution color; and an illustration of an avatar in yellow, red, and green color themes](../../../_assets/lwt29uqj-1-da7f16e2a9127cddd21c.png)
 
 Advanced customizations include the ability to remap colors on components; define new colors in addition to the scheme; define custom color roles; and apply dynamic color to imagery.
 

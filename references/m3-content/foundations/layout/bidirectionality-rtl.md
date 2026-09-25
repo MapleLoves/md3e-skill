@@ -18,7 +18,7 @@ When a layout is changed from LTR to RTL (or vice-versa), or flipped horizontall
 
 Not all elements mirror with RTL languages. For example, graphs and charts maintain a LTR directionality for Persian and Urdu.
 
-![Layout in LTR and mirrored for RTL language.](https://lh3.googleusercontent.com/7bXPlBNYMf6eu5JeDb4znscEjXxoaiFtisaLzKCORSaxEZXYMj2NCoh96x0V6Wk-gFKp6SIYCEwmRBuWgKQldV24NNlKgP7d7gzBXJjiulk=w40)![Layout in LTR and mirrored for RTL language.](https://lh3.googleusercontent.com/7bXPlBNYMf6eu5JeDb4znscEjXxoaiFtisaLzKCORSaxEZXYMj2NCoh96x0V6Wk-gFKp6SIYCEwmRBuWgKQldV24NNlKgP7d7gzBXJjiulk=s0)
+![Layout in LTR and mirrored for RTL language.](../../_assets/7bXPlBNYMf6eu5JeDb4znscEjXxoaiFtisaLzKCORSaxEZXYMj2NCoh96x0V6Wk-gFKp6SIYCEwmRBuW-ca64a231b6295b83a36c.png)![Layout in LTR and mirrored for RTL language.](../../_assets/7bXPlBNYMf6eu5JeDb4znscEjXxoaiFtisaLzKCORSaxEZXYMj2NCoh96x0V6Wk-gFKp6SIYCEwmRBuW-629387b5cc368ee6fe1a.png)
 
 A mirrored layout in an RTL language reverses the alignment and ordering of elements
 
@@ -36,7 +36,7 @@ Common issues with RTL language rendering are text entry, cursor position, punct
 
 Improperly rendering text in RTL languages can create cognitive overload and negatively impact user sentiment and trust.
 
-![Text field incorrectly displaying the word order of an email address and cursor placement.](https://lh3.googleusercontent.com/JVlDFjXgPxdC_zdlgXhCZp49ZeyjAiDRVsACglR2IUEhVHPkJA_PlIndveJatddV_T_zwlTWN_IN5nKkI1Hs3pz6VqtL-_9Ir2tid-1vOzc=s0)
+![Text field incorrectly displaying the word order of an email address and cursor placement.](../../_assets/JVlDFjXgPxdC_zdlgXhCZp49ZeyjAiDRVsACglR2IUEhVHPkJA_PlIndveJatddV_T_zwlTWN_IN5nKk-6e2961958530f518b508.png)
 
 close Don’t
 
@@ -44,7 +44,7 @@ Don't reverse the order of the email username and domain (@google.com). The doma
 
 Note: This example isn’t translated to illustrate a common issue with text rendering.
 
-![Dialog window incorrectly displaying word order decreasing readability.](https://lh3.googleusercontent.com/3-tex9271iuyBH7y1kYRePlY5qW2WEXDag00pyBIZR1qPfwVL_sOjVMK1XbF-5cuFVZxw8_Ubf7_1jF3gtB6HZKZH7Mjgj-XEU32nVYJfj9v=s0)
+![Dialog window incorrectly displaying word order decreasing readability.](../../_assets/3-tex9271iuyBH7y1kYRePlY5qW2WEXDag00pyBIZR1qPfwVL_sOjVMK1XbF-5cuFVZxw8_Ubf7_1jF3-fba768e08e9f8b1e14be.png)
 
 close Don’t
 
@@ -58,11 +58,11 @@ In RTL languages, directional UI icons, like back and forward, should be mirrore
 
 The meaning of icons and symbols can vary significantly across cultures. For additional guidance, refer to [design principles for icons](/m3/pages/icons/designing-icons#5f0e344b-17f8-4b91-b0e4-45671b9900f4).
 
-![Back and forward icons in LTR and RTL.](https://lh3.googleusercontent.com/GvIIi9efFFifgSytQkM_LydZ9nagyoByO85kHfVyJHacgAAmCSEJfCUkJq69A4m4emhH0Icajp8dCaO61qfMg21QJC-VVjI8hdr1hD5OWpPu2Q=w40)![Back and forward icons in LTR and RTL.](https://lh3.googleusercontent.com/GvIIi9efFFifgSytQkM_LydZ9nagyoByO85kHfVyJHacgAAmCSEJfCUkJq69A4m4emhH0Icajp8dCaO61qfMg21QJC-VVjI8hdr1hD5OWpPu2Q=s0)
+![Back and forward icons in LTR and RTL.](../../_assets/GvIIi9efFFifgSytQkM_LydZ9nagyoByO85kHfVyJHacgAAmCSEJfCUkJq69A4m4emhH0Icajp8dCaO6-40771ac80962a2ec2d13.png)![Back and forward icons in LTR and RTL.](../../_assets/GvIIi9efFFifgSytQkM_LydZ9nagyoByO85kHfVyJHacgAAmCSEJfCUkJq69A4m4emhH0Icajp8dCaO6-904fdb7457ae552c4193.png)
 
 Back and foward icons are mirrored in RTL
 
-![Send and question mark icons in LTR and RTL.](https://lh3.googleusercontent.com/lV7W9uPzT_HnFVhfZXBOhEO-XmWh6ZyboXsV3lO2ieRQJOGrdI7rhGG_ukjK0iqnZ10P5DBGLwMniRh3faP4fiUj524hRHVdFRLurxr5oC8g=w40)![Send and question mark icons in LTR and RTL.](https://lh3.googleusercontent.com/lV7W9uPzT_HnFVhfZXBOhEO-XmWh6ZyboXsV3lO2ieRQJOGrdI7rhGG_ukjK0iqnZ10P5DBGLwMniRh3faP4fiUj524hRHVdFRLurxr5oC8g=s0)
+![Send and question mark icons in LTR and RTL.](../../_assets/lV7W9uPzT_HnFVhfZXBOhEO-XmWh6ZyboXsV3lO2ieRQJOGrdI7rhGG_ukjK0iqnZ10P5DBGLwMniRh3-6d45254355d9ae464243.png)![Send and question mark icons in LTR and RTL.](../../_assets/lV7W9uPzT_HnFVhfZXBOhEO-XmWh6ZyboXsV3lO2ieRQJOGrdI7rhGG_ukjK0iqnZ10P5DBGLwMniRh3-d4bb63f535f3986edccb.png)
 
 Send buttons are mirrored in RTL. Help icons are mirrored in some RTL languages, like Urdu and Persian.
 
@@ -74,7 +74,7 @@ Linear progress indicators should move from right to left for most RTL languages
 
 Circular representations of time remain the same.
 
-![RTL linear progress indicator filling from right to left and circular progress indicator filling clockwise.](https://lh3.googleusercontent.com/g91ADNfx-kybwW9djnX_Bg0UgVl-GDlqK0oTZLyZx2K_TriXig4XZlZZMbo8eCE2gFNudXJg4N-WzHr--RBJoM-sBWZ-qbB9-nQuNX7X7T4=w40)
+![RTL linear progress indicator filling from right to left and circular progress indicator filling clockwise.](../../_assets/g91ADNfx-kybwW9djnX_Bg0UgVl-GDlqK0oTZLyZx2K_TriXig4XZlZZMbo8eCE2gFNudXJg4N-WzHr--8615f272ead8f646c1d9.png)
 
 1.  RTL linear progress indicator starts to fill progress from the right 
 
@@ -84,7 +84,7 @@ Circular representations of time remain the same.
 
 Media controls for video or audio players are always LTR.
 
-![Media player with control and progress in LTR and all other content is RTL.](https://lh3.googleusercontent.com/s6HIEi9IqqJ1FCd5-qqE4UXx8fyPymG4ac6GBJP--4aCUkk-1USxO5X5nojks0V99BBMsENc11m0-N6CzFWppLEeLF-Jk7I1QFNTN1n2QoU=w40)
+![Media player with control and progress in LTR and all other content is RTL.](../../_assets/s6HIEi9IqqJ1FCd5-qqE4UXx8fyPymG4ac6GBJP--4aCUkk-1USxO5X5nojks0V99BBMsENc11m0-N6C-9efef53a21e873827397.png)
 
 In Urdu, controls and progress for media and a podcast title are shown in LTR, while all other content is RTL
 
@@ -94,11 +94,11 @@ For RTL languages, the directionality of time remains LTR, and clocks still turn
 
 Clock icons, circular refresh icons, and progress indicators with arrows pointing clockwise shouldn’t be mirrored.
 
-![24-hour clock in RTL.](https://lh3.googleusercontent.com/Wq16Adx940iD1dbLpZPHmNzXEXT4qYJALgLTyECNIPsEjGJvmakDWq3d2TKe4ui1OGnX41Dx7wX-w2O1uWrn_6Tw5M-Gl_KZA5WRn9cCNJcsBw=w40)
+![24-hour clock in RTL.](../../_assets/Wq16Adx940iD1dbLpZPHmNzXEXT4qYJALgLTyECNIPsEjGJvmakDWq3d2TKe4ui1OGnX41Dx7wX-w2O1-971e2458cf335b0102d8.png)
 
 24-hour clocks in RTL move clockwise, but mirror elements such as buttons
 
-![12-hour clock in RTL.](https://lh3.googleusercontent.com/4UhQyg-neULcpAl8ueDg_qS_DmeIbWoMGfFrQFz-z6ePNZWCpGmLlfc0yFm_zJ2EXv84t2sMOBTWmc0oGl7wnjVVV6j6f_yRrktLGC8_TOXx=w40)
+![12-hour clock in RTL.](../../_assets/4UhQyg-neULcpAl8ueDg_qS_DmeIbWoMGfFrQFz-z6ePNZWCpGmLlfc0yFm_zJ2EXv84t2sMOBTWmc0o-f23a74bd92afd0ae7209.png)
 
 12-hour clocks in RTL move clockwise, but mirror UI elements such as AM/PM and buttons
 
@@ -114,7 +114,7 @@ The [list-detail layout](/m3/pages/canonical-examples/list-detail):
 
 -   Is mirrored in RTL
 
-![RTL list layout on mobile.](https://lh3.googleusercontent.com/HKDWDsXNp_CJb84ZQEHNwuu-0oxpPLppPnaJ3o--ObAB4yVeU2kgQWlDryzjDuSgN9aOEaJD_NHPbwA_8bOpkC5oaK_stNeM3ZVLowOFeqGt=w40)
+![RTL list layout on mobile.](../../_assets/HKDWDsXNp_CJb84ZQEHNwuu-0oxpPLppPnaJ3o--ObAB4yVeU2kgQWlDryzjDuSgN9aOEaJD_NHPbwA_-eb7e35cced26164eaa28.png)
 
 List-detail mirrored for RTL, where text and other elements are aligned to the right and flow from right to left
 
@@ -122,7 +122,7 @@ List-detail mirrored for RTL, where text and other elements are aligned to the r
 
 Use a [feed layout](/m3/pages/canonical-examples/feed) to arrange content elements like cards in a configurable grid for quick, convenient viewing of a large amount of content. The feed layout is mirrored in RTL.
 
-![RTL feed layout.](https://lh3.googleusercontent.com/JhU530pRqL1O4OoAUKD8KzfKbTWTZ0ppUOZj3oKpLcg2kuBaZUjR9mu465H24RkNMdV11EITG38Q_OJc7vS9HkYGlgh20wMmZLzRjV8imQCp=w40)
+![RTL feed layout.](../../_assets/JhU530pRqL1O4OoAUKD8KzfKbTWTZ0ppUOZj3oKpLcg2kuBaZUjR9mu465H24RkNMdV11EITG38Q_OJc-910d952da64ee3949cfb.png)
 
 Feed layout mirrored for RTL, where the order of text, grid, and other elements align to the right and flow from right to left
 
@@ -130,7 +130,7 @@ Feed layout mirrored for RTL, where the order of text, grid, and other elements 
 
 Use the [supporting pane layout](/m3/pages/canonical-examples/supporting-pane) to organize content into primary and secondary display areas. The supporting pane layout is mirrored in RTL.
 
-![RTL supporting pane in an RTL language.](https://lh3.googleusercontent.com/NhwHSdtr5w_V2xLINEl8iHRTubLt8Y07M7LPH-I6FMVLPYpJAhWHJcUqv6svxL1sxdFjcj4Uu7q5l-qFBg9bafWTETDibDawcayYJnhRkZI=w40)
+![RTL supporting pane in an RTL language.](../../_assets/NhwHSdtr5w_V2xLINEl8iHRTubLt8Y07M7LPH-I6FMVLPYpJAhWHJcUqv6svxL1sxdFjcj4Uu7q5l-qF-389d3aa1ed8311873765.png)
 
 Supporting pane to the left of the primary content. Text and other elements within the pane are aligned to the right and flow from right to left.
 
@@ -140,11 +140,11 @@ Supporting pane to the left of the primary content. Text and other elements with
 
 Change the position and alignment of [badges](/m3/pages/badges/overview) for RTL languages.
 
-![Small badge on the top left of a folder icon.](https://lh3.googleusercontent.com/tLzukatL9UErk2NIb17_gZki0BAQ-Zuopc4FaP9-rWXW2EMerWK-zxDClC9eQzQEq5BGsFjRkUU1aqQwb7tkHlTL3YUjEHcYpRdrWC1XBuo=w40)
+![Small badge on the top left of a folder icon.](../../_assets/tLzukatL9UErk2NIb17_gZki0BAQ-Zuopc4FaP9-rWXW2EMerWK-zxDClC9eQzQEq5BGsFjRkUU1aqQw-307b66cc8dc76816ce05.png)
 
 Small badge appears on the top left of the icon
 
-![Large badge on the top left of an image icon.](https://lh3.googleusercontent.com/N8FZIDMnkJ3weBDFn0JAV59SMdEjVb2CarDw0rvc-1HcelsLX67gFgp84kK3CfoVJuVrofnOUAPTcOHjh6sdO9KYSRaS-hod0IbgDwF49WZ2=w40)
+![Large badge on the top left of an image icon.](../../_assets/N8FZIDMnkJ3weBDFn0JAV59SMdEjVb2CarDw0rvc-1HcelsLX67gFgp84kK3CfoVJuVrofnOUAPTcOHj-c02437d94c93af0b0b7c.png)
 
 Large badge appears on the top left of the icon
 
@@ -152,7 +152,7 @@ Large badge appears on the top left of the icon
 
 [Toolbars](/m3/pages/toolbars/overview) provide actions related to the current page. For RTL languages, mirror the order of the tools.
 
-![RTL floating toolbar. ](https://lh3.googleusercontent.com/uUGwZbEfNTrxp-8LV3l6MoSn0mUU_zOoFFHZQTIMgOlcTJiaW4Kh9MVk_0dgRy1CQWJDVHncwlYRPfVHUlKccJmsf_GIS1Hj2baYBV9iwX41=w40)
+![RTL floating toolbar. ](../../_assets/uUGwZbEfNTrxp-8LV3l6MoSn0mUU_zOoFFHZQTIMgOlcTJiaW4Kh9MVk_0dgRy1CQWJDVHncwlYRPfVH-3d29201554828450d18f.png)
 
 Mirrored floating toolbar, where the FAB appears on the left
 
@@ -164,7 +164,7 @@ Mirrored floating toolbar, where the FAB appears on the left
 
 -   Flip appropriate icons, such as arrows
 
-![4 app bars in RTL.](https://lh3.googleusercontent.com/mpn0hTVDPqfH-Bp9h3FZB4UuqaSuWelq_XMeIUfdhVztf7JYwTektgf-TAlKdl7LZlRm_lP7ZmbFf_4iE1MaXFqguYKi-bNXrbXtVMl_TwgZsA=w40)
+![4 app bars in RTL.](../../_assets/mpn0hTVDPqfH-Bp9h3FZB4UuqaSuWelq_XMeIUfdhVztf7JYwTektgf-TAlKdl7LZlRm_lP7ZmbFf_4i-5684fad813062de6ae65.png)
 
 1.  RTL center-aligned, small app bars 
 
@@ -176,7 +176,7 @@ Mirrored floating toolbar, where the FAB appears on the left
 
 The [navigation rail](/m3/pages/navigation-rail/overview) is placed on the leading edge of the screen, on the left side for LTR, and on the right for RTL.
 
-![Nav rail on the right side for an RTL language, and left side for LTR.](https://lh3.googleusercontent.com/1U-nHFdJxzu17VrF15b_140InoPHof7BeklNesALpU-DvyXkM8f7bP-t0gNVhC_NykZAGJhX315jpc8sS3dhiaFlnPegKYa2OKgOQCgqlMQ=w40)
+![Nav rail on the right side for an RTL language, and left side for LTR.](../../_assets/1U-nHFdJxzu17VrF15b_140InoPHof7BeklNesALpU-DvyXkM8f7bP-t0gNVhC_NykZAGJhX315jpc8s-5ba73a22a70f88f96a6f.png)
 
 Based on the language, a navigation rail is set on a screen’s leading edge:
 
@@ -188,7 +188,7 @@ Based on the language, a navigation rail is set on a screen’s leading edge:
 
 Expanded navigation rails that open from the side are always placed on the leading edge of the screen, on the left for LTR languages, and on the right for RTL.
 
-![RTL expanded navigation rail, including mirrored icons.](https://lh3.googleusercontent.com/OcbxhQe0dc56YbktUpDHooMEAagt7sqqVp4e58ShtGfStoesFg0yUvuOJzMLoNAXe0Pt51oapqytgAqZzere5V559HKL02hyotzh7qN2BDg=w40)
+![RTL expanded navigation rail, including mirrored icons.](../../_assets/OcbxhQe0dc56YbktUpDHooMEAagt7sqqVp4e58ShtGfStoesFg0yUvuOJzMLoNAXe0Pt51oapqytgAqZ-06dbd580272f8589d183.png)
 
 RTL expanded navigation rails open from the leading edge and should include mirrored icons
 
@@ -196,7 +196,7 @@ RTL expanded navigation rails open from the leading edge and should include mirr
 
 Icons in [text fields](/m3/pages/text-fields/guidelines#5c8a5f07-b1a5-455f-bf76-7ff0d724f6b0) are optional. Leading and trailing icons change their position based on LTR or RTL contexts.
 
-![Text fields in RTL with leading and trailing icons.](https://lh3.googleusercontent.com/ZpQXQ588tQws77tpIHt4DazARMZVa-25ZbMGhT39qqfrD_LSARVYeC5QNZPWbE2M9K2O7OX2eDigXF-x1VtIDTs4a0fGtEZShUa6Cz3ROMwH=w40)
+![Text fields in RTL with leading and trailing icons.](../../_assets/ZpQXQ588tQws77tpIHt4DazARMZVa-25ZbMGhT39qqfrD_LSARVYeC5QNZPWbE2M9K2O7OX2eDigXF-x-e833b9803e6342de4d00.png)
 
 Icons, symbols, and label text for RTL: 
 
@@ -218,7 +218,7 @@ The leading icon of input chips can be an icon, logo, or circular image.
 
 The trailing icon is always aligned to the end side of the container. It’s placed on the right for LTR and on the left for RTL.
 
-![Filter chips with checkmark icons in RTL layout.](https://lh3.googleusercontent.com/Mu7Bv9--8PIV0Ipxqn8cVeyO1Jb0SjSGgRw96abLHus4DhJ1bY56xeaT_P32YRxa12piY8d7EaAtKSvw4HjHlkwoWd2a-bXF_p5ZkBiTGWjt=w40)
+![Filter chips with checkmark icons in RTL layout.](../../_assets/Mu7Bv9--8PIV0Ipxqn8cVeyO1Jb0SjSGgRw96abLHus4DhJ1bY56xeaT_P32YRxa12piY8d7EaAtKSvw-4376f8c24684ae3bac5f.png)
 
 Filter chips shown in an RTL layout. Note: This example is not translated to help illustrate mirroring.
 
@@ -230,7 +230,7 @@ People can navigate horizontally between peer views like tabs and to complete ac
 
 RTL swiping and gestures should mirror their counterparts in LTR. If a product includes a delete icon revealed when swiped from the right for LTR languages, the same should be possible on the left for RTL languages. 
 
-![RTL list layout with swipe gesture revealing additional actions.](https://lh3.googleusercontent.com/Cj3dR33eshqEQLZi7uUpXo6GIWl5Gqyjy1jXiuN4gba27J7z7Y9BF99mwyqnDjzmYsk2vuDrF1gunUgtN4VW8kYL7bB5466Itb2kbgVNINk=w40)
+![RTL list layout with swipe gesture revealing additional actions.](../../_assets/Cj3dR33eshqEQLZi7uUpXo6GIWl5Gqyjy1jXiuN4gba27J7z7Y9BF99mwyqnDjzmYsk2vuDrF1gunUgt-479a712d6d12e5e58574.png)
 
 Swiping reveals additional action in RTL list layout
 

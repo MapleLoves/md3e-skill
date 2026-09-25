@@ -12,7 +12,7 @@ captured: 2026-09-14
 
 Assistive technology helps increase, maintain, or improve the functional capabilities of individuals with disabilities. People can live more independently by engaging with technology through devices like keyboards, screen readers, and braille displays, as well as tracking input, magnifiers, and voice input.
 
-![Examples of icons with target sizes indicated beyond the actual size of the icon](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qv6git-3-3p.png?alt=media&token=58747de8-c1f4-4f0d-8b47-50b05385a705)
+![Examples of icons with target sizes indicated beyond the actual size of the icon](../../_assets/m0qv6git-3-3p-9b9d7067bb41a1823b93.png)
 
 Icons are one example of interactive elements that require an understanding of different input methods and user needs. In this example the target area of the icon is identified to show how the expanded icon perimeter makes interacting with an action more accessible.
 

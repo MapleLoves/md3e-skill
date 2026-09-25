@@ -44,11 +44,11 @@ Interactive elements should have focus rings
 
 Focus should initially land on the leading button, since it’s the first interactive element of the app bar.
 
-![The tab button is used to navigate from the first button to the second button in the app bar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlos7r6g-04.png?alt=media&token=2389b948-f4b3-420d-9e6e-34f543525c2f)
+![The tab button is used to navigate from the first button to the second button in the app bar.](../../_assets/mlos7r6g-04-aa6417c5da2c7692d251.png)
 
 Use **Tabs** to navigate through interactive items
 
-![The space or enter button activates the second action.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlos8gq8-05.png?alt=media&token=bafd0e8c-7cfe-4ee8-844e-d45367dc8a61)
+![The space or enter button activates the second action.](../../_assets/mlos8gq8-05-1373dbf8e98fdf64b83c.png)
 
 Use **Space** or **Enter** to activate actions
 
@@ -63,13 +63,13 @@ On darker backgrounds, search bar containers can use the **surface bright** role
 
 If mapping to other color roles, make sure the text and container have 3:1 contrast to ensure readability.
 
-![A search app bar with default dark text on a light container background.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlos5etv-06-do.png?alt=media&token=e55a083f-5a33-4ecc-9fef-d5946838d02d)
+![A search app bar with default dark text on a light container background.](../../_assets/mlos5etv-06-do-6b0fd9d811feb3d8f90a.png)
 
 check Do
 
 Make sure search bars and their labels have at least 3:1 contrast. Use the default colors when possible.
 
-![A search app bar with custom light text on a light container background.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlos65h6-07-dont.png?alt=media&token=0281bfc2-6d34-4c43-b2d3-e55f3b4e1e07)
+![A search app bar with custom light text on a light container background.](../../_assets/mlos65h6-07-dont-8953f21dd0c6fede8ac6.png)
 
 close Don’t
 
@@ -85,12 +85,12 @@ The accessibility label for a title should be the same as the content within the
 
 Screen readers will read the UI text followed by the component’s role.
 
-![The headline has accessibility role “Title”.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlos1na5-08.png?alt=media&token=ad772624-922f-47f4-9bba-45c4e4129396)
+![The headline has accessibility role “Title”.](../../_assets/mlos1na5-08-6157248f9f759092208f.png)
 
 An app bar’s accessibility label can incorporate its UI text as well as additional context
 
 Label icon buttons according to their [accessibility guidelines](/m3/pages/icon-buttons/accessibility).
 
-![The app bar icon button has the accessibility role “Button”.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlos0avb-09.png?alt=media&token=ea50a8f1-f6ec-4c0d-9693-c381e6b86ed0)
+![The app bar icon button has the accessibility role “Button”.](../../_assets/mlos0avb-09-2a8c28045e3813d5da26.png)
 
 An icon button should be clearly labeled on the action it takes, like **View on map**

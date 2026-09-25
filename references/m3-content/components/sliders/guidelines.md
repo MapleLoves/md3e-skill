@@ -15,7 +15,7 @@ Sliders can adjust values in real time, such as image attributes
 Sliders are used to select values along a track. They’re ideal for adjusting settings such as volume and brightness, or changing the intensity of image filters.
 Sliders can use icons or labels to represent a numeric or relative scale. 
 
-![Sound settings screen with continuous sliders labeled call volume and alarm volume.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmabg8tbj-02.png?alt=media&token=ada3febd-596c-46d4-ae20-0aa3b4228c1e)
+![Sound settings screen with continuous sliders labeled call volume and alarm volume.](../../_assets/mabg8tbj-02-e11b1ef17fd5ff0d257a.png)
 
 Use sliders to pick a value from a range, like volume loudness
 
@@ -27,21 +27,21 @@ There are three different variants of sliders: **standard**, **centered**, and *
 
 Standard sliders select one value from a range of values. Use this when the slider should start from zero or the beginning of a sequence.
 
-![Horizontal standard slider with an end stop indicator.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lk01w5-04.png?alt=media&token=6cd6a040-a82f-4ef7-8d4b-badc8c6eb27b)
+![Horizontal standard slider with an end stop indicator.](../../_assets/m7lk01w5-04-c5315155e153d477b26f.png)
 
 Horizontal standard slider
 
-![Vertical standard slider  with an end stop indicator.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lk1j0t-05.png?alt=media&token=3b884058-21ca-4d72-ba5e-5afdb59fa01e)
+![Vertical standard slider  with an end stop indicator.](../../_assets/m7lk1j0t-05-1cfca454d06ac03267a3.png)
 
 Vertical standard slider
 
 Centered sliders select a value from a positive and negative value range. Use this when zero, or the default value, is in the middle of the range.
 
-![Horizontal centered slider with a negative value and visible stop indicators at each end.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lk3lyv-06.png?alt=media&token=eeb21a3d-5711-46a4-8751-5995fadab337)
+![Horizontal centered slider with a negative value and visible stop indicators at each end.](../../_assets/m7lk3lyv-06-11664060d5298b5ad27d.png)
 
 Horizontal centered slider
 
-![Vertical centered slider with a negative value and visible stop indicators at each end.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lk4tsn-07.png?alt=media&token=55d86dc7-7b06-47fa-9d1a-7ae9dff73c91)
+![Vertical centered slider with a negative value and visible stop indicators at each end.](../../_assets/m7lk4tsn-07-c6637e756c356cca37a8.png)
 
 Vertical centered slider
 
@@ -49,13 +49,13 @@ Range sliders select two values on one slider to create a range. Use this when d
 
 Avoid using range sliders vertically, as this can add too much cognitive load. People are used to most sliders being horizontal.
 
-![Horizontal range selection slider with 2 values selected, and a stop indicator at each end.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lk6981-08.png?alt=media&token=67bf8680-0cc1-4109-aee0-b50e319a3ae9)
+![Horizontal range selection slider with 2 values selected, and a stop indicator at each end.](../../_assets/m7lk6981-08-2257dd269168bb156d33.png)
 
 check Do
 
 Horizontal range slider
 
-![Vertical range slider with 2 values selected, and a stop indicator at each end.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7ln45vm-09%20-%20don't.png?alt=media&token=bb49eedd-2d76-45c9-99ab-8e9be6103673)
+![Vertical range slider with 2 values selected, and a stop indicator at each end.](../../_assets/m7ln45vm-09---don-t-e8c810f9569a644638a5.png)
 
 close Don’t
 
@@ -63,7 +63,7 @@ Because of the additional cognitive load of a range slider, avoid using it in ve
 
 ## Anatomy
 
-![6 elements of a slider.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7m553sk-04-1.png?alt=media&token=03f97ae2-c5e8-41b8-8416-ba8201534a1b)
+![6 elements of a slider.](../../_assets/m7m553sk-04-1-ae12298d12c3d9031d69.png)
 
 1.  Value indicator (optional)
 2.  Stop indicators (optional)
@@ -81,7 +81,7 @@ The track shows the full range of values that can be selected on the slider. It 
 
 For left-to-right (LTR) languages, the values increase from left to right. For right-to-left (RTL) languages, this is reversed.
 
-![Sliders for font size and display size with stop indicators along the track.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lk9dsb-11.png?alt=media&token=ac3c7b80-ec76-498e-931e-6f6b573be9c6)
+![Sliders for font size and display size with stop indicators along the track.](../../_assets/m7lk9dsb-11-98fcb53569262d577c81.png)
 
 The track on a slider shows the available range
 
@@ -93,11 +93,11 @@ When sliders have two handles, the handles choose the minimum and maximum values
 
 The handle changes shape to indicate when it’s pressed.
 
-![The handle is a vertical line on the current value of the slider. It shrinks in width when selected.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lkaurk-12.png?alt=media&token=8ee46da2-b5f5-4990-a851-44f5acaadba6)
+![The handle is a vertical line on the current value of the slider. It shrinks in width when selected.](../../_assets/m7lkaurk-12-410e88c176fa5b011c88.png)
 
 A handle changes shape when it's being pressed or dragged
 
-![2 unselected handles on a slider with range selection.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lkbdhm-13.png?alt=media&token=bc2bb7bf-9f18-4ff2-988b-34a85bdc8084)
+![2 unselected handles on a slider with range selection.](../../_assets/m7lkbdhm-13-43dd7ea80d4bf5b7abf1.png)
 
 Two handles are used for sliders with range selection
 
@@ -111,11 +111,11 @@ A value appears when interacting with the corresponding handle. For range slider
 
 If the value is shown elsewhere, the indicator is not required.
 
-![A value of 50 is above a slider handle in the middle of the track.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx1s2vu5-13.png?alt=media&token=94e8f2b1-9fac-4303-ab60-acb9e7a32bd9)
+![A value of 50 is above a slider handle in the middle of the track.](../../_assets/lx1s2vu5-13-29e6da7912073c502822.png)
 
 A value can appear while the handle is being pressed or dragged
 
-![A value of 75 is above the pressed range slider handle. The unselected slider doesn’t show the value.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lkclo7-14.png?alt=media&token=68ab779d-bed3-4d20-a2fb-e9f742ee269c)
+![A value of 75 is above the pressed range slider handle. The unselected slider doesn’t show the value.](../../_assets/m7lkclo7-14-1aecbcb46ceb89b8ca29.png)
 
 For range sliders, the value only appears on one handle at a time
 
@@ -133,13 +133,13 @@ Avoid having too many stop indicators on a slider, because it can become visuall
 
 All sliders have stops at the end of the inactive track to ensure at least a 3:1 contrast with the background. If the inactive track has this level of contrast already, the end stops can be removed.
 
-![Stop indicators are equally spaced out on a slider.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx1s1ozg-10.png?alt=media&token=313ed48c-5478-4e59-9e89-4baf04fa38fd)
+![Stop indicators are equally spaced out on a slider.](../../_assets/lx1s1ozg-10-8a6ac13c1deec0e4ea49.png)
 
 Stop indicators show each available value on a slider
 
 Icons or text can be added outside the slider to indicate the range of values and make the slider more accessible. This can be used instead of a stop indicator.
 
-![Plus and minus icons on each end of the slider.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lkfou6-17.png?alt=media&token=1a441aac-51d1-452b-8a1a-ec87e9f5dafd)
+![Plus and minus icons on each end of the slider.](../../_assets/m7lkfou6-17-657de37f4f86a51c40d1.png)
 
 Plus and minus icons, or text, can be added to the left and right of the slider
 
@@ -147,11 +147,11 @@ Plus and minus icons, or text, can be added to the left and right of the slider
 
 Sliders can be oriented either horizontally or vertically, depending on what is best for your use case.
 
-![Horizontal slider.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lkhuu1-18.png?alt=media&token=9195aa36-4723-4ce8-91c3-c74694c2824e)
+![Horizontal slider.](../../_assets/m7lkhuu1-18-e2f40b9867c370c53f95.png)
 
 Standard slider in horizontal orientation
 
-![Vertical slider. Zero is at the bottom.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lkj1b8-19.png?alt=media&token=09bb620d-8745-48b4-8b03-34cbdc78d9a2)
+![Vertical slider. Zero is at the bottom.](../../_assets/m7lkj1b8-19-e8e299ea03ffdbba93d0.png)
 
 Standard slider in vertical orientation
 
@@ -163,13 +163,13 @@ When there’s not enough space for the icon on the active track, like at a low 
 
 Consider swapping which icon is displayed at zero, like a volume icon becoming a mute icon.
 
-![Inset icon on the active track when the handle is at 50%, and on the inactive track when the handle is at 0.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lkmte8-20.png?alt=media&token=fef6e46e-5b1c-42fe-bf92-904ef3d1611a)
+![Inset icon on the active track when the handle is at 50%, and on the inactive track when the handle is at 0.](../../_assets/m7lkmte8-20-ab08d4362b09b9bd16ce.png)
 
 check Do
 
 Inset icons change placement based on the handle
 
-![An inset icon on an XS slider. The icon bounds are cut off by the slider container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lni1k4-21%20-%20don't.png?alt=media&token=f36c7b22-9cce-489e-a73e-42d3a6dcae59)
+![An inset icon on an XS slider. The icon bounds are cut off by the slider container.](../../_assets/m7lni1k4-21---don-t-44dc4faaa4b86c123124.png)
 
 close Don’t
 
@@ -178,14 +178,14 @@ Don’t use an inset icon with sliders that have track thicknesses under 40dp
 Don’t use inset icons on centered or range sliders. It makes it unclear where the start of the slider is.
 
 ![Centered slider with an inset icon on one end, and a stop indicator on the other.
-](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lnlfie-22%20-%20don't.png?alt=media&token=2deb8b76-5ccd-4412-81ba-a098a903d102)
+](../../_assets/m7lnlfie-22---don-t-0f4998d06b0e6d28386e.png)
 
 close Don’t
 
 Don’t use an inset icon on a centered slider
 
 ![Range slider with an inset icon on one end, and a stop indicator on the other.
-](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lnor7e-23%20-%20don't.png?alt=media&token=6de66860-09fe-425f-b6b9-c6aa960411cc)
+](../../_assets/m7lnor7e-23---don-t-86ad75aaa08367471585.png)
 
 close Don’t
 
@@ -197,7 +197,7 @@ Sliders come in different sizes: XS, S, M, L, and XL. Use larger sizes to increa
 
 The active and inactive tracks should always be the same size.
 
-![5 sizes of sliders.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lkolpk-24.png?alt=media&token=f87a9fd7-2914-4706-bcce-9edf4814fbc1)
+![5 sizes of sliders.](../../_assets/m7lkolpk-24-2cb7c46a91b8ed3b0f34.png)
 
 1.  XS: 16dp
 2.  S: 24dp
@@ -207,7 +207,7 @@ The active and inactive tracks should always be the same size.
 
 XL sliders should be reserved for hero moments, where the slider itself is the most important element on the page.
 
-![An XL slider used to adjust living room temperature on mobile. No other controls are on screen.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lkr4j4-25.png?alt=media&token=e382cedc-e5ef-4cd5-9fd8-eb0dd4b0e729)
+![An XL slider used to adjust living room temperature on mobile. No other controls are on screen.](../../_assets/m7lkr4j4-25-2b37c421db4fa2c4f32f.png)
 
 XL sliders should be the focus of the page
 

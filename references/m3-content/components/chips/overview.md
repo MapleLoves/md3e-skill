@@ -14,7 +14,7 @@ captured: 2026-09-14
 
 -   Chip elevation Elevation is the distance between two surfaces on the z-axis. [More on elevation](/m3/pages/elevation/overview) defaults to 0 but can be elevated if they need more visual separation
 
-![4 chip variants.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flzthj7vk-1.png?alt=media&token=87bf4249-1c98-406e-bf83-32e0e1b6d5a6)
+![4 chip variants.](../../_assets/lzthj7vk-1-94e7b51fb88770af8566.png)
 
 1.  Assist chip
 2.  Filter chip
@@ -41,7 +41,7 @@ Close
 
 Updated stroke color from **outline** to **outline variant**.
 
-![A chip with a clear outline is now a chip with a subtle outline.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8sdpshu-02.png?alt=media&token=66986121-1317-4638-8ba4-3119d622eada)
+![A chip with a clear outline is now a chip with a subtle outline.](../../_assets/m8sdpshu-02-83589bd4c6c39bb220d5.png)
 
 The stroke color was softened to improve visual hierarchy between chips and buttons
 
@@ -53,10 +53,10 @@ The stroke color was softened to improve visual hierarchy between chips and butt
 
 -   Variants: Action chips have been separated into assist chips Assist chips represent smart or automated actions that can span multiple apps, such as opening a calendar event from the home screen. and suggestion chips Suggestion chips help narrow a user’s intent by presenting dynamically generated suggestions, such as suggested responses or search filters. . Choice chips are now a subset of filter chips Filter chips use tags or descriptive words to filter content. They can be a good alternative to toggle buttons or checkboxes.
 
-![M2 chip variants.](https://lh3.googleusercontent.com/2QvL9BG6dybkEq8-MxokwRvnU_5-Yxey0SZtSxa9o6KlczyP2t5hAtUxTyZRJbGF9i7m6oOrZCWKJT4CQikVZP3D0cxsKj0yYaMJT4QjnE5q=w40)![M2 chip variants.](https://lh3.googleusercontent.com/2QvL9BG6dybkEq8-MxokwRvnU_5-Yxey0SZtSxa9o6KlczyP2t5hAtUxTyZRJbGF9i7m6oOrZCWKJT4CQikVZP3D0cxsKj0yYaMJT4QjnE5q=s0)
+![M2 chip variants.](../../_assets/2QvL9BG6dybkEq8-MxokwRvnU_5-Yxey0SZtSxa9o6KlczyP2t5hAtUxTyZRJbGF9i7m6oOrZCWKJT4C-7e071157c865ef68abc3.png)![M2 chip variants.](../../_assets/2QvL9BG6dybkEq8-MxokwRvnU_5-Yxey0SZtSxa9o6KlczyP2t5hAtUxTyZRJbGF9i7m6oOrZCWKJT4C-b5b5da3a1ad1f4421690.png)
 
 M2: Variants of chips are input, choice, filter, and action chips
 
-![M3 chip variants.](https://lh3.googleusercontent.com/3W0HJhJSBgfi_3TWYvZlXCPDg42elT_0VwxJmTTK5l61ZFdC9l9mPQPqPcUOBXNIce2r3aDWGNECHLcoe41RXvv2rr1bjDL6BsCCvjkxUto=w40)![M3 chip variants.](https://lh3.googleusercontent.com/3W0HJhJSBgfi_3TWYvZlXCPDg42elT_0VwxJmTTK5l61ZFdC9l9mPQPqPcUOBXNIce2r3aDWGNECHLcoe41RXvv2rr1bjDL6BsCCvjkxUto=s0)
+![M3 chip variants.](../../_assets/3W0HJhJSBgfi_3TWYvZlXCPDg42elT_0VwxJmTTK5l61ZFdC9l9mPQPqPcUOBXNIce2r3aDWGNECHLco-ce07c0aadde927c7b2fc.png)![M3 chip variants.](../../_assets/3W0HJhJSBgfi_3TWYvZlXCPDg42elT_0VwxJmTTK5l61ZFdC9l9mPQPqPcUOBXNIce2r3aDWGNECHLco-5f1e1a7e7b21af62857d.png)
 
 M3: Variants of chips updated to assist, filter, input, and suggestion chips

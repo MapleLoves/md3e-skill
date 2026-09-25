@@ -17,7 +17,7 @@ Like user-generated color, the image is digitally analyzed through quantization,
 -   The product (and possibly system UI) change to a color corresponding to on-screen imagery
 -   A product that looks "smart"
 
-![Screenshot of a messaging app on a tablet screen.](https://lh3.googleusercontent.com/qkzrtqlq4iJp60o9QNG7Fbl3e8HH4RZHlxkc45WwtZXK29xc19mxYYMsnvfRB0lurUrJSJ3h0wyPqnLj0tcomAV3cPhi3B-QxT7CBGicj86k=s0)
+![Screenshot of a messaging app on a tablet screen.](../../../_assets/qkzrtqlq4iJp60o9QNG7Fbl3e8HH4RZHlxkc45WwtZXK29xc19mxYYMsnvfRB0lurUrJSJ3h0wyPqnLj-0000ec588357ce3ede18.png)
 
 Messaging app with content-based color
 

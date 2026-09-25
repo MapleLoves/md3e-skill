@@ -44,7 +44,7 @@ This article uses the general term accessibility label to refer to several diffe
 
 [Accessibility labels](/m3/pages/alt-text) assist users who cannot rely on a product's visual interface. Thoughtful labels help make the text-based experience as usable as the visual experience. Labels should concisely describe an element's content, purpose and behavior. 
 
-![Diagram showing the labels and roles assigned to on-screen icon buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm5r5d64m-9%20\(1\).png?alt=media&token=1dba85e2-6cc0-4d57-b63f-63de0da2c708)
+![Diagram showing the labels and roles assigned to on-screen icon buttons.](../../_assets/image-01d161014c1a1027e252.png)
 
 Example: The accessibility labels for these icons describe their purpose—NOT what the icon looks like (for example, "magnifying glass")
 
@@ -56,13 +56,13 @@ Add labels to visuals that convey meaning or enhance content. 
 
 This applies to infographics and other instructive images found in support docs. 
 
-![A microphone icon with the accessibility label "Voice Search."](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm5r5dvfi-10%20\(1\).png?alt=media&token=8b8ea120-72d0-4eec-9c95-24c19b76edc1)
+![A microphone icon with the accessibility label "Voice Search."](../../_assets/image-0298c1ac886f9b5beeb7.png)
 
 check Do
 
 The label “voice search” describes the user task (search) paired with the input method (voice)
 
-![A microphone icon with the accessibility label "Microphone."](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj47jj9-11.png?alt=media&token=3a943687-0a16-42c7-9c58-612febe88641)
+![A microphone icon with the accessibility label "Microphone."](../../_assets/lwj47jj9-11-dbbec9b8ced2355ee7c5.png)
 
 close Don’t Don't include the element type (button, menu, etc.) in your label. This will automatically be added by assigning the element the proper role.
 
@@ -70,7 +70,7 @@ close Don’t Don't include the element type (button, menu, etc.) in your label.
 
 Decorative icons and images that don't enhance the experience for a visually-impaired user should be annotated as decorative in order to hide them in code. 
 
-![Group of icons in a menu collectively described by the accessibility label N/A Hide Images.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm5r5epn6-12.png?alt=media&token=95690b3d-3cd2-4355-aaa6-10bee0a06677)
+![Group of icons in a menu collectively described by the accessibility label N/A Hide Images.](../../_assets/m5r5epn6-12-4f577782a8fef29bc3ee.png)
 
 Mark decorative visual elements to "hide"
 
@@ -85,7 +85,7 @@ Assign ARIA roles (web) or component type (mobile) to communicate desired intera
 
 Defining an interactive element's category by assigning it a role helps users of assistive technology establish expectations for how to interact with that element and anticipate what is likely to happen upon interaction.
 
-![Element with the label "Got it button" and the role "Button."](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwkb4332-13.png?alt=media&token=1bc56ada-bfa2-4d87-9f79-9a97e1895d0f)
+![Element with the label "Got it button" and the role "Button."](../../_assets/lwkb4332-13-e4fe1882584f50fc2fe6.png)
 
 close Don’t
 

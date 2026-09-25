@@ -16,7 +16,7 @@ captured: 2026-09-14
 
 -   Side sheets can contain a back icon for navigation
 
-![The 2 variants of side sheets.](https://lh3.googleusercontent.com/5DQn6-h3w6BIR9DoXAncCck22WNg-86e7uh4meG22SsqcvVMb966220Fp-Ooiwui3eekiqk8p_Uq9BpNZ4wUYSQFPwovt6b_fOdpiU008vQ0Lw=s0)
+![The 2 variants of side sheets.](../../_assets/5DQn6-h3w6BIR9DoXAncCck22WNg-86e7uh4meG22SsqcvVMb966220Fp-Ooiwui3eekiqk8p_Uq9BpN-3482acd699593c6b8b94.png)
 
 1.  Standard side sheet
 2.  Modal side sheet
@@ -54,6 +54,6 @@ Close
 
 -   Shape: Modal side sheets Modal side sheets appear in front of app content, disabling all other app functionality when they appear, and remaining on screen until confirmed, dismissed, or a required action has been taken. They're often used in compact breakpoints, like mobile, due to limited screen size. have a 16dp corner radius
 
-![A modal side sheet showing the 16dp corner radius.](https://lh3.googleusercontent.com/NcjJRXvRM56DuF0hrulvw3eixw8QXtodshjuhM6OgLXuC54E06Ov7JGxPSynfQiwGnaQspHgMps2all60Y81-oRaznUym7yDF1bg53VC-so8ag=w40)![A modal side sheet showing the 16dp corner radius.](https://lh3.googleusercontent.com/NcjJRXvRM56DuF0hrulvw3eixw8QXtodshjuhM6OgLXuC54E06Ov7JGxPSynfQiwGnaQspHgMps2all60Y81-oRaznUym7yDF1bg53VC-so8ag=s0)
+![A modal side sheet showing the 16dp corner radius.](../../_assets/NcjJRXvRM56DuF0hrulvw3eixw8QXtodshjuhM6OgLXuC54E06Ov7JGxPSynfQiwGnaQspHgMps2all6-e71b0888229c7d1f3669.png)![A modal side sheet showing the 16dp corner radius.](../../_assets/NcjJRXvRM56DuF0hrulvw3eixw8QXtodshjuhM6OgLXuC54E06Ov7JGxPSynfQiwGnaQspHgMps2all6-8372f883d3687cea1a6a.png)
 
 Side sheets have new color mappings to support dynamic color

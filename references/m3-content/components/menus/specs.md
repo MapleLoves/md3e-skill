@@ -14,7 +14,7 @@ captured: 2026-09-14
 
 Use vertical menus for a more expressive look and feel, including rounded corners, standard and vibrant color styles, more selection states, and submenu motion.
 
-![2 vertical menus use shape and color to indicate selected state.](https://lh3.googleusercontent.com/ryW1crRfja9xt_7sPlT_XlF64XPHQjHmk6HkJ91EP23gfGW2Z1TNt8V1RsaAEt4bzOOow6wEtTrB4tk32rzhd4WL2dVMKVlbh3x6ZD3oqdK7=s0)
+![2 vertical menus use shape and color to indicate selected state.](../../_assets/ryW1crRfja9xt_7sPlT_XlF64XPHQjHmk6HkJ91EP23gfGW2Z1TNt8V1RsaAEt4bzOOow6wEtTrB4tk3-07f156ae6f48c029e2b2.png)
 
 1.  Vertical menu with gap
 2.  Vertical menu with divider
@@ -23,7 +23,7 @@ Use vertical menus for a more expressive look and feel, including rounded corner
 
 In M3 Expressive, baseline Baseline variants are the original M3 component designs. They may not have the latest features introduced in M3 Expressive, like updated motion, shapes, type, and styles. [More on M3 Expressive](https://m3.material.io/blog/building-with-m3-expressive) menu is still available to use, but doesn’t have the latest shapes, color styles, selection states, and motion. [See baseline menu specs](/m3/pages/menus/specs#a80df2f9-8610-4ce0-b3a3-b9ee749d5c98)
 
-![A baseline menu variant with square corners and standard colors.](https://lh3.googleusercontent.com/I8AoQRDKlS29lSyVHYVs4-2PKXVQUXC_wlPJx5IT1hWiga7bEC7DZUlNH_OEoICZN5hCf8ii45dpApcg23TY6JhadwCluvznISW6HNfGKHUc=s0)
+![A baseline menu variant with square corners and standard colors.](../../_assets/I8AoQRDKlS29lSyVHYVs4-2PKXVQUXC_wlPJx5IT1hWiga7bEC7DZUlNH_OEoICZN5hCf8ii45dpApcg-558cafd72c211b808b57.png)
 
 A baseline **menu** has square corners, as compared to a **vertical menu’s** round corners and expressive styling
 
@@ -36,7 +36,7 @@ A baseline **menu** has square corners, as compared to a **vertical menu’s** r
 
 ### Vertical menus layout
 
-![2 menus: 1 standard, and 1 with a gap, creating groups.](https://lh3.googleusercontent.com/fJlPTJ2NqSiweyHvIr8M0iPk67mplnSmEnq_2SEOW1OvhT31iv4txdTlYrXWpNvmmBVVfJJzaE_lPSakS5hW51-I3oC8XuRu0l2lxGxm7zXi=w40)![2 menus: 1 standard, and 1 with a gap, creating groups.](https://lh3.googleusercontent.com/fJlPTJ2NqSiweyHvIr8M0iPk67mplnSmEnq_2SEOW1OvhT31iv4txdTlYrXWpNvmmBVVfJJzaE_lPSakS5hW51-I3oC8XuRu0l2lxGxm7zXi=s0)
+![2 menus: 1 standard, and 1 with a gap, creating groups.](../../_assets/fJlPTJ2NqSiweyHvIr8M0iPk67mplnSmEnq_2SEOW1OvhT31iv4txdTlYrXWpNvmmBVVfJJzaE_lPSak-564d9a0d14c6d374d4f4.png)![2 menus: 1 standard, and 1 with a gap, creating groups.](../../_assets/fJlPTJ2NqSiweyHvIr8M0iPk67mplnSmEnq_2SEOW1OvhT31iv4txdTlYrXWpNvmmBVVfJJzaE_lPSak-f635f1dc7a9e58c24926.png)
 
 1.  Standard
 2.  Grouped
@@ -62,7 +62,7 @@ Close
 
 ### Vertical menus
 
-![A diagram of a vertical menu.](https://lh3.googleusercontent.com/AfTrO7v-T_4xnHi8Fa-xmOOn21wmjYQWZ9CqSCVGaG910Nd8K4lS3FqfcNgYQ0iF4FSY12e_AEjX1WNsFOOM02AuYBuTSGrwaTpCPKxUNBAQ=w40)
+![A diagram of a vertical menu.](../../_assets/AfTrO7v-T_4xnHi8Fa-xmOOn21wmjYQWZ9CqSCVGaG910Nd8K4lS3FqfcNgYQ0iF4FSY12e_AEjX1WNs-ddf5f9532200db059a4b.png)
 
 1.  Menu item 
 2.  Leading icon (optional)
@@ -87,14 +87,14 @@ Menus have two color mappings:
 
 These mappings provide options for lower or higher visual emphasis. Vibrant menus are more prominent so should be used sparingly.
 
-![2 vertical menus: 1 with lower visual emphasis, and 1 vibrant menu with bold shades.](https://lh3.googleusercontent.com/UQTohIy6KP6b1-pM2Mvhf_SyQW6J3ibpKvf3Z5T8dI48XoYQ6DqhwG5ILCidkiXxCje50h4Tdx6VPzv1-2LVN2sSo_4JfItM9mhfrHEdHV8H=w40)
+![2 vertical menus: 1 with lower visual emphasis, and 1 vibrant menu with bold shades.](../../_assets/UQTohIy6KP6b1-pM2Mvhf_SyQW6J3ibpKvf3Z5T8dI48XoYQ6DqhwG5ILCidkiXxCje50h4Tdx6VPzv1-294cfe51cccdcbf47be2.png)
 
 1.  Standard color scheme
 2.  Vibrant color scheme
 
 ### Standard colors
 
-![2 vertical menus with standard color roles mapped to 11 elements.](https://lh3.googleusercontent.com/nA4wviKihXfkWje8PlNIZNpYajfpoudcjVm30OYpC8UdMEdquwj9QeSziFOs7KjJ3IR-fioXjTLMlZsyKMaUgi3Bfy70RpHTCCsGaJX5hWkc=w40)
+![2 vertical menus with standard color roles mapped to 11 elements.](../../_assets/nA4wviKihXfkWje8PlNIZNpYajfpoudcjVm30OYpC8UdMEdquwj9QeSziFOs7KjJ3IR-fioXjTLMlZsy-ce4461ea28565fb8994b.png)
 
 Vertical menus color roles used for light and dark themes:
 
@@ -112,7 +112,7 @@ Vertical menus color roles used for light and dark themes:
 
 ### Vibrant colors
 
-![2 vertical menus with vibrant color roles mapped to 11 elements.](https://lh3.googleusercontent.com/6B9lmZdfYRC5nkKI-x6hS9U37bZC1o0jRWDkYe90mc-TV-OjPicvEckz5sYKYsoyP2hRO_hR3An76jKHGR-b8qAYp_56q49AgW4kMo8Ez98=w40)
+![2 vertical menus with vibrant color roles mapped to 11 elements.](../../_assets/6B9lmZdfYRC5nkKI-x6hS9U37bZC1o0jRWDkYe90mc-TV-OjPicvEckz5sYKYsoyP2hRO_hR3An76jKH-e912d7129759b00e3b06.png)
 
 Vertical menus color roles used for light and dark themes:
 
@@ -134,7 +134,7 @@ States States show the interaction status of a component or UI element. [More on
 
 Shape morphing in vertical menus creates an expressive active state. As focus moves between submenus, the corner shape changes to highlight the active menu. [More on menu focus](/m3/pages/menus/guidelines#7cc1d01b-a454-48c7-8306-e60347ffd17f)
 
-![6 vertical menu states in light and dark themes.](https://lh3.googleusercontent.com/9y63FlzafeIP9Tth6PTh9NKO6wwrYUZqCs6PTUKqIQPfYd7apIWRsvYx91maUHu43E0GoIkm7nDVC_DZA6K-15ItBpV-1KJ550QZCGSHlzo8=w40)
+![6 vertical menu states in light and dark themes.](../../_assets/9y63FlzafeIP9Tth6PTh9NKO6wwrYUZqCs6PTUKqIQPfYd7apIWRsvYx91maUHu43E0GoIkm7nDVC_DZ-772e7d53ed81f19332ec.png)
 
 1.  Enabled
 2.  Disabled
@@ -145,7 +145,7 @@ Shape morphing in vertical menus creates an expressive active state. As focus mo
 
 ## Measurements
 
-![Vertical menu marked with spacing and padding measurements.](https://lh3.googleusercontent.com/SyybBdmLyz7BXoGoAF1kjCwXx7BiZvB0e_I7bpFAIDO-W4YGSJ21CKgtu5PdH7J49aZfYEJbVPyjVFN2E9fWBLfUXDP44mP90E_Unc-g3c8=w40)
+![Vertical menu marked with spacing and padding measurements.](../../_assets/SyybBdmLyz7BXoGoAF1kjCwXx7BiZvB0e_I7bpFAIDO-W4YGSJ21CKgtu5PdH7J49aZfYEJbVPyjVFN2-2400e3fcfaf26e84b9b0.png)
 
 Vertical menu padding and size measurements
 
@@ -165,7 +165,7 @@ Close
 
 ### Anatomy
 
-![Diagram of 6 elements of a baseline menu.](https://lh3.googleusercontent.com/j5d1I8gfzjOWuHT_-hl99nkZRsYTe7HewZawtXqtHSrfZhzBSF92oFrF4O2icV5C3AUdsRZTxRIgSGBhA37l-s5SWozyvwe70RLG6OwzZUSoQw=w40)
+![Diagram of 6 elements of a baseline menu.](../../_assets/j5d1I8gfzjOWuHT_-hl99nkZRsYTe7HewZawtXqtHSrfZhzBSF92oFrF4O2icV5C3AUdsRZTxRIgSGBh-ec46f67f209c130dcc6e.png)
 
 1.  List item 
 2.  List item leading icon 
@@ -176,7 +176,7 @@ Close
 
 ### Color
 
-![9 color roles of a baseline menu in light and dark themes.](https://lh3.googleusercontent.com/1vrmeDpf2FtiP2c9fRq9p_aeqONtRV3zqmzYfkoIOaJesocpZ19K_ZUuMj99rTWJxwAW_r9WSMEHiVvKYKjwvUcpYtdJ5Vz60I5nTjnhGSR5=w40)
+![9 color roles of a baseline menu in light and dark themes.](../../_assets/1vrmeDpf2FtiP2c9fRq9p_aeqONtRV3zqmzYfkoIOaJesocpZ19K_ZUuMj99rTWJxwAW_r9WSMEHiVvK-c2bf74d3d6f62f291226.png)
 
 Baseline menu color roles used for light and dark themes:
 
@@ -194,7 +194,7 @@ Baseline menu color roles used for light and dark themes:
 
 #### Default menu items
 
-![Diagram numbering the 5 default states of a baseline menu.](https://lh3.googleusercontent.com/9WZ8E98mBPsfeJqGE1w6ExWLXo1jACCCgppiykccySkhqcZCqFfrTs87Gp_XAlUNSqxRdv04cO62X2W3LQamj64dSRw2mEkG86v7cJaYZAI=w40)
+![Diagram numbering the 5 default states of a baseline menu.](../../_assets/9WZ8E98mBPsfeJqGE1w6ExWLXo1jACCCgppiykccySkhqcZCqFfrTs87Gp_XAlUNSqxRdv04cO62X2W3-7a3b27ac2497f9357916.png)
 
 1.  Enabled
 2.  Disabled
@@ -204,7 +204,7 @@ Baseline menu color roles used for light and dark themes:
 
 #### Selected menu items
 
-![5 states of a selected baseline menu item.](https://lh3.googleusercontent.com/Eg2mSAl6lckNeGZn60i3N6b7ltjvGCbssGUhr-LWmLpa2HDbKhgxvA72PVKqTsT0ho7uQZWaK_buL-Y81PKV7_GpS90CXSbLfCU9JqkRq-Y=w40)
+![5 states of a selected baseline menu item.](../../_assets/Eg2mSAl6lckNeGZn60i3N6b7ltjvGCbssGUhr-LWmLpa2HDbKhgxvA72PVKqTsT0ho7uQZWaK_buL-Y8-e68e393a758963857364.png)
 
 1.  Enabled
 2.  Disabled
@@ -216,7 +216,7 @@ Baseline menu color roles used for light and dark themes:
 
 ### Measurements
 
-![Diagram of a baseline menu’s padding, text alignment, height, and width.](https://lh3.googleusercontent.com/MRcY8zpznxkaZVmDq-MvnNSUQnLDJ3uftXolOX1MZ7ZczEmBCp4nro5uy3WDlxm8De9S3E9m7yoHTUtCD1IJmm-KOI975AQnrXOePAhR8TWM=w40)
+![Diagram of a baseline menu’s padding, text alignment, height, and width.](../../_assets/MRcY8zpznxkaZVmDq-MvnNSUQnLDJ3uftXolOX1MZ7ZczEmBCp4nro5uy3WDlxm8De9S3E9m7yoHTUtC-ac51278a8e61918ae284.png)
 
 Baseline menu padding and size measurements
 
@@ -246,4 +246,4 @@ A few examples:
 3.  Icon button Icon buttons help people take minor actions with one tap. [More on icon buttons](/m3/pages/icon-buttons/overview)
 4.  Selected text
 
-![Examples of 4 baseline menu inputs.](https://lh3.googleusercontent.com/qaQR6Vom4qUYAtiLZOaGC34kpj4PCzx3--sowDis88NJ1VOQiwhipAIlwryE8_cYmOrso8ZXJ8O56o-PeU4ZC0SvopP5Ej5WB23rBIQmn9kL=w40)
+![Examples of 4 baseline menu inputs.](../../_assets/qaQR6Vom4qUYAtiLZOaGC34kpj4PCzx3--sowDis88NJ1VOQiwhipAIlwryE8_cYmOrso8ZXJ8O56o-P-efd9cfdc1f39e3c593cb.png)

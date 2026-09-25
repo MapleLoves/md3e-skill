@@ -22,7 +22,7 @@ People should be able to use assistive technology to:
 
 Users should be able to select either the text label or the checkbox to select an option.
 
-![In a list, checkboxes for 2 items are selected via their text labels.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vkh7s-1.png?alt=media&token=7e1977e6-bb1a-4a66-b82b-3e0fddb18e2f)
+![In a list, checkboxes for 2 items are selected via their text labels.](../../_assets/mg0vkh7s-1-5dd9c8412960f2a1bb31.png)
 
 A checkbox selected via the text label
 
@@ -32,7 +32,7 @@ Checkboxes can be selected or unselected regardless of the state of the other ch
 
 If some, but not all, child checkboxes are checked, the parent checkbox becomes indeterminate. Selecting an indeterminate parent checkbox will check all of its child checkboxes.
 
-![In a list, a child checkbox for 1 item is selected and the parent checkbox is in indeterminate state.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcyq4z51-2.png?alt=media&token=e2bf5c82-a9b2-403d-a5cd-fe09f708969a)
+![In a list, a child checkbox for 1 item is selected and the parent checkbox is in indeterminate state.](../../_assets/mcyq4z51-2-b8f750f0d780fd2c164c.png)
 
 An indeterminate selection indicating that at least one checkbox is selected within a group
 
@@ -57,6 +57,6 @@ If the UI text is correctly linked to the checkbox, assistive tech (such as a sc
 
 The accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/overview/principles) label for an individual checkbox is typically the same as its adjacent text label.
 
-![Accessibility labels of a checkbox.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vlqi0-3.png?alt=media&token=991b19e5-257d-4db0-9f2b-bc0ab092eeda)
+![Accessibility labels of a checkbox.](../../_assets/mg0vlqi0-3-c3c3f254950d3dd7dd20.png)
 
 The accessibility label clearly states the text label of the checkbox

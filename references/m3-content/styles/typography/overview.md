@@ -12,7 +12,7 @@ captured: 2026-09-14
 -   Use variable fonts for more control over expression in editorial treatments
 -   Use Material tokens to easily define font, line height, size, tracking, weight, and more
 
-![Type at different scales.](https://lh3.googleusercontent.com/Ow6KY2aDdXx4z-a13GYltf1azIa1Z7_G14M0uTeS0FODRiM87ScDy0_7hf5FPWHi3K2FhNto9ddP94U7DQ6SxWXOODeYz2gmfdaiz1amwgc=s0)
+![Type at different scales.](../../_assets/Ow6KY2aDdXx4z-a13GYltf1azIa1Z7_G14M0uTeS0FODRiM87ScDy0_7hf5FPWHi3K2FhNto9ddP94U7-5965f1d24650a3ba137e.png)
 
 ## Availability & resources
 
@@ -42,7 +42,7 @@ Components can then adapt their size based on these language heights.
 
 [More on language height](/m3/pages/typography/type-scale-tokens#fcae9063-6c70-4512-87f9-3b6e0d8aea04)
 
-![Different line heights produced by different languages using Roboto Flex.](https://lh3.googleusercontent.com/Ql7ueWNCFSLsuK7NfReD5y3mNiMYG7Aj4ElKQwULjQnV8N5GNXa6o9sDVnvlmeC_wKTtiYaZ4OijJ40_TP0ciTxk7siIfp_iC9uCszHMijCkUw=w40)![Different line heights produced by different languages using Roboto Flex.](https://lh3.googleusercontent.com/Ql7ueWNCFSLsuK7NfReD5y3mNiMYG7Aj4ElKQwULjQnV8N5GNXa6o9sDVnvlmeC_wKTtiYaZ4OijJ40_TP0ciTxk7siIfp_iC9uCszHMijCkUw=s0)
+![Different line heights produced by different languages using Roboto Flex.](../../_assets/Ql7ueWNCFSLsuK7NfReD5y3mNiMYG7Aj4ElKQwULjQnV8N5GNXa6o9sDVnvlmeC_wKTtiYaZ4OijJ40_-808c1d1d6345ce344801.png)![Different line heights produced by different languages using Roboto Flex.](../../_assets/Ql7ueWNCFSLsuK7NfReD5y3mNiMYG7Aj4ElKQwULjQnV8N5GNXa6o9sDVnvlmeC_wKTtiYaZ4OijJ40_-3e77a1a5400b2d5590e4.png)
 
 Line heights for styles like display large can automatically adapt to language height
 
@@ -62,7 +62,7 @@ Roboto Flex can be used on its own to show a range of emotional states, but is n
 
 [More on M3 Expressive](https://m3.material.io/blog/building-with-m3-expressive)
 
-![Type scale showing roles for “display”, “headline,” “title,” “label,” and “body.”](https://lh3.googleusercontent.com/H7HQemhAdElVd6cCDlOyh0FhU3h8iD8kugnlLUFn1ScP8us3nqj1FslGURTVbbimZIHOCkIrjq5jOek3D3ixq8KMwNug0qPwL0lTzv_IgSFFjQ=w40)
+![Type scale showing roles for “display”, “headline,” “title,” “label,” and “body.”](../../_assets/H7HQemhAdElVd6cCDlOyh0FhU3h8iD8kugnlLUFn1ScP8us3nqj1FslGURTVbbimZIHOCkIrjq5jOek3-788a89f8083d4fd399fa.png)
 
 The expressive type scale includes fifteen baseline type styles and fifteen emphasized type styles
 
@@ -74,7 +74,7 @@ Emphasized tokens allow for clearer hierarchies and prioritized components withi
 
 Type roles describe size—such as small, medium, and large—enabling them to adapt and respond to the device or context.
 
-![Close crop of markdown text showing type scales referenced as “display-large” and “display-large-emphasized.”](https://lh3.googleusercontent.com/FtpfhAnHzRkv9v64Ec7o6iT9LCg4Jz4rj6beaUd0tsyefFzccM8XPfIk8KUC3sKxmzAo86-JF6bqX9KbIDd9hKgLJssWwzkR_qv84q6XKLtGww=w40)
+![Close crop of markdown text showing type scales referenced as “display-large” and “display-large-emphasized.”](../../_assets/FtpfhAnHzRkv9v64Ec7o6iT9LCg4Jz4rj6beaUd0tsyefFzccM8XPfIk8KUC3sKxmzAo86-JF6bqX9Kb-5e732006ec2eae7c4354.png)
 
 Typography tokens describe scalable size that adapts to devices or settings, including updating the style on boldness
 
@@ -94,7 +94,7 @@ Google Sans Flex can morph into an impressive range of styles, powered by its si
 
 Updated considerations for using variable fonts and different combinations of their customizable axes An axis refers to an attribute of a font, such as weight or width, that can be altered to create visual variations. [Learn more about variable fonts](https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts) , including grade, width, weight, slant, and optical size.
 
-![Roboto Flex, Roboto Mono, and Roboto Serif type rendered in different weights.](https://lh3.googleusercontent.com/we3vYf_MjDkGtTCWCHtjyBnTR8ZxGvmuFuINerK11qOETI1nPgsP4BGjVzHed9z-fxsd3CrRow9ZZZ_yiNszFXJ28JMSJXxiHB2dHLoJVeT84g=w40)
+![Roboto Flex, Roboto Mono, and Roboto Serif type rendered in different weights.](../../_assets/we3vYf_MjDkGtTCWCHtjyBnTR8ZxGvmuFuINerK11qOETI1nPgsP4BGjVzHed9z-fxsd3CrRow9ZZZ_y-8d00926732eb98c9f56f.png)
 
 Roboto Flex, Roboto Serif, and Roboto Mono have a fluid range of axes, like weight, across all optical sizes
 
@@ -104,6 +104,6 @@ Type styles are defined by five roles: display, headline, title, body, and label
 
 These names are more descriptive, allowing for easier matching of type style to use case.
 
-![Different examples of Roboto scaled to their respective roles: display, headline, title, body, and label.](https://lh3.googleusercontent.com/1ln7XGlJMAaZg3R5bogSK2Zon8ogE5VFdjtWg8khP2lcT9mS6Vf7zocKBH0gFLcSYCeAPhxsTK0QibKMM8dJpFD7E13YaNMv-JrAO42Gt59I=w40)
+![Different examples of Roboto scaled to their respective roles: display, headline, title, body, and label.](../../_assets/1ln7XGlJMAaZg3R5bogSK2Zon8ogE5VFdjtWg8khP2lcT9mS6Vf7zocKBH0gFLcSYCeAPhxsTK0QibKM-22fb9b7890bf3e4b146a.png)
 
 M3 has five distinct type styles: display, headline, title, body, and label

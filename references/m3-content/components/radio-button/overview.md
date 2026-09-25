@@ -12,7 +12,7 @@ captured: 2026-09-14
 -   Label should be scannable
 -   Selected items are more prominent than unselected items
 
-![1 radio button is selected from a list of 4 radio buttons of different ringtones.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmc92gkg1-01.png?alt=media&token=0ba6a2e1-d3f9-4777-8968-53de4d72a0e4)
+![1 radio button is selected from a list of 4 radio buttons of different ringtones.](../../_assets/mc92gkg1-01-50b703f12dfd8e50ee3d.png)
 
 Radio buttons can be selected
 
@@ -34,6 +34,6 @@ Close
 
 -   Color: New color mappings and compatibility with dynamic color Dynamic color takes a single color from a user's wallpaper or in-app content and creates an accessible color scheme assigned to elements in the UI. [More on dynamic color](/m3/pages/dynamic-color/overview)
 
-![App screen with 1 active button selected from list of 3 buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0z3b8a-02.png?alt=media&token=77e20fc8-fe1b-4715-a652-ac4eaed7eda5)
+![App screen with 1 active button selected from list of 3 buttons.](../../_assets/mg0z3b8a-02-e7d75149072f298d4a11.png)
 
 Radio buttons feature new color mappings

@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Dividers are thin lines that group content in lists or other containers
 
-![Diagram of divider set on horizontal line](https://lh3.googleusercontent.com/oj7KVyynAuq1UwXg5w1-mMew6K5ScAJ6p3N8AitVYbECX8ZoEZM6gDLGiHWOvokrG3F4SRpj-DAJNsg0AiWRxqvLfsoWAyCPYh6vi2B1pjl5=w40)![Diagram of divider set on horizontal line](https://lh3.googleusercontent.com/oj7KVyynAuq1UwXg5w1-mMew6K5ScAJ6p3N8AitVYbECX8ZoEZM6gDLGiHWOvokrG3F4SRpj-DAJNsg0AiWRxqvLfsoWAyCPYh6vi2B1pjl5=s0)
+![Diagram of divider set on horizontal line](../../_assets/oj7KVyynAuq1UwXg5w1-mMew6K5ScAJ6p3N8AitVYbECX8ZoEZM6gDLGiHWOvokrG3F4SRpj-DAJNsg0-a68090016ec9ebace842.png)![Diagram of divider set on horizontal line](../../_assets/oj7KVyynAuq1UwXg5w1-mMew6K5ScAJ6p3N8AitVYbECX8ZoEZM6gDLGiHWOvokrG3F4SRpj-DAJNsg0-4d4e523c20d39b470faf.png)
 
 1.  Divider
 
@@ -26,7 +26,7 @@ Close
 
 Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. [Learn more about design tokens](/m3/pages/design-tokens/overview/825906c9-6eed-47d1-8812-450910c1356e)
 
-![Divider on light background and dark background.](https://lh3.googleusercontent.com/nAdfpj-iAPZ7Zohh6rLalqf_NXmdrLUmqhQTZkfAgJdp7OJdRTb82SMH0U5GOJF-yTm3P8nRpycQDWiJVXBCuwNwgNRaqZ8Jf9tNNZFs0-1nBw=w40)![Divider on light background and dark background.](https://lh3.googleusercontent.com/nAdfpj-iAPZ7Zohh6rLalqf_NXmdrLUmqhQTZkfAgJdp7OJdRTb82SMH0U5GOJF-yTm3P8nRpycQDWiJVXBCuwNwgNRaqZ8Jf9tNNZFs0-1nBw=s0)
+![Divider on light background and dark background.](../../_assets/nAdfpj-iAPZ7Zohh6rLalqf_NXmdrLUmqhQTZkfAgJdp7OJdRTb82SMH0U5GOJF-yTm3P8nRpycQDWiJ-4f550ffd203fb1f23382.png)![Divider on light background and dark background.](../../_assets/nAdfpj-iAPZ7Zohh6rLalqf_NXmdrLUmqhQTZkfAgJdp7OJdRTb82SMH0U5GOJF-yTm3P8nRpycQDWiJ-4e2014e7fca2f4dcc567.png)
 
 Divider color roles used for light and dark schemes:
 
@@ -34,7 +34,7 @@ Divider color roles used for light and dark schemes:
 
 ## Measurements
 
-![Divider's measurement.](https://lh3.googleusercontent.com/nlIs7BqldeOjL6zGRe-b05BxdussoGedN4o35xv0KouVO0agDSZ_X4Zza-CK00qaH3gG-EGfemhgjOYIpr5ikHHaXvlswDJPLMQpZXC6Q1q-hw=w40)![Divider's measurement.](https://lh3.googleusercontent.com/nlIs7BqldeOjL6zGRe-b05BxdussoGedN4o35xv0KouVO0agDSZ_X4Zza-CK00qaH3gG-EGfemhgjOYIpr5ikHHaXvlswDJPLMQpZXC6Q1q-hw=s0)
+![Divider's measurement.](../../_assets/nlIs7BqldeOjL6zGRe-b05BxdussoGedN4o35xv0KouVO0agDSZ_X4Zza-CK00qaH3gG-EGfemhgjOYI-7e4b224296a6371fd8ec.png)![Divider's measurement.](../../_assets/nlIs7BqldeOjL6zGRe-b05BxdussoGedN4o35xv0KouVO0agDSZ_X4Zza-CK00qaH3gG-EGfemhgjOYI-b538ce90a96228dec01f.png)
 
 Measurements
 

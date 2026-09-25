@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   Cards have flexible layouts Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/understanding-layout/overview) and dimensions based on their contents
 
-![3 variants of cards](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuilyza-1.png?alt=media&token=f4bfb5e7-e96f-41b7-8c6e-e00ab2260001)
+![3 variants of cards](../../_assets/lwuilyza-1-bdabb758a5474a682610.png)
 
 1.  Elevated card
 2.  Filled card
@@ -36,6 +36,6 @@ Close
 
 -   Variants: Three official card variants – elevated Elevated cards have a drop shadow, providing more separation from the background than filled cards, but less than outlined cards , filled Filled cards provide subtle separation from the background. This has less emphasis than elevated or outlined cards. , and outlined Outlined cards have a visual boundary around their container. This can provide greater emphasis than the other types.
 
-![M3-style card](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuimnd8-2.png?alt=media&token=c9ef2b3a-985a-487b-b521-de02ce44c8e0)
+![M3-style card](../../_assets/lwuimnd8-2-2caa2687aaf9c5859ee7.png)
 
 Cards have updated colors, elevation, and variants

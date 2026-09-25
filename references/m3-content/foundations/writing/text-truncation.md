@@ -25,13 +25,13 @@ Content, understandability, and functionality must not be lost when users modify
 -   “Wrapped” text extends from one line to another, increasing the height of the text container
 -   Text should be wrapped when it’s critical, to ensure understandability, or when there’s space in the component
 
-![Body copy  text wrapped  inside a dialogue with an option to expand content.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5ao0k-18.png?alt=media&token=9823f564-5494-43f3-85ad-21af8dd5b024)
+![Body copy  text wrapped  inside a dialogue with an option to expand content.](../../_assets/lwj5ao0k-18-e229e5cc3f664ac8fa47.png)
 
 check Do
 
 Wrap text, and if it still doesn’t fit, provide a way for users to see more
 
-![Body copy  text wrapped  inside a dialogue, cut off at the bottom, without an option to expand.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5b36c-19.png?alt=media&token=f638592f-e9a7-446c-b7e3-84ef22c0d79c)
+![Body copy  text wrapped  inside a dialogue, cut off at the bottom, without an option to expand.](../../_assets/lwj5b36c-19-ac20efad34f3da353f78.png)
 
 close Don’t
 
@@ -41,13 +41,13 @@ Don’t cut off text without providing a way for users to view it
 
 -   Some components can extend vertically or horizontally for more text
 
-![Layout of UI- cards of different sizes organized in a stacked grid.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5bfye-20.png?alt=media&token=fa20bfc7-0b26-4ed1-a256-8cb933dbacb4)
+![Layout of UI- cards of different sizes organized in a stacked grid.](../../_assets/lwj5bfye-20-3b873d197d14d3670640.png)
 
 check Do
 
 Use flexible component containers that change size to fit their content
 
-![A stretched UI card  with a small headline and a large photograph. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5c5w5-21.png?alt=media&token=76cd69f0-f8db-4e21-8a38-221cd4d51984)
+![A stretched UI card  with a small headline and a large photograph. ](../../_assets/lwj5c5w5-21-20a328394471eb1c8384.png)
 
 close Don’t
 
@@ -64,7 +64,7 @@ check Do
 
 Use links to reveal truncated text when space is limited, such as the ability to click a linked card to see an expanded view of its text
 
-![On a multiple selection list, the marked checkbox’s label is truncated by an ellipsis.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qvmgvh-24.png?alt=media&token=db765429-c069-476c-85ef-f831e9bc6bd7)
+![On a multiple selection list, the marked checkbox’s label is truncated by an ellipsis.](../../_assets/m0qvmgvh-24-713796caf353782a9788.png)
 
 close Don’t
 

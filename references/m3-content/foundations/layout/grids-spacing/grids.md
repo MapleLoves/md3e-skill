@@ -20,17 +20,17 @@ captured: 2026-09-14
 
 Grids adapt across breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) . As the size increases, column count, width, and spacing change as well.
 
-![A mockup of grid columns, showing compact, medium/expanded, and large/extra-large breakpoints.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp54500h-03.png?alt=media&token=2dcb98ec-a57d-4d9b-a4f9-44227e456977)
+![A mockup of grid columns, showing compact, medium/expanded, and large/extra-large breakpoints.](../../../_assets/mp54500h-03-bc2847d8da88cbb51eb0.png)
 
 The number and size of columns changes based on breakpoints
 
 When moving between sizes, column count may increase to show more content or controls.
 
-![A course listing on a compact screen, with 4 columns.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp54dby8-04.png?alt=media&token=04b776f7-e5bc-4a68-9143-464df6e33251)
+![A course listing on a compact screen, with 4 columns.](../../../_assets/mp54dby8-04-f8fb942cbc96d4ed78bb.png)
 
 On compact screens, fewer columns are used to create a focused layout
 
-![A course listing on a foldable screen, with 8 columns.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp54ejyh-05.png?alt=media&token=acde1184-80ae-4066-853d-4e2e21443b45)
+![A course listing on a foldable screen, with 8 columns.](../../../_assets/mp54ejyh-05-186c1e2c922627f7038e.png)
 
 As screen size increases, for example when a foldable screen is unfolded, additional columns allow for a richer layout
 
@@ -42,11 +42,11 @@ Populate regions of the layout scaffold A scaffold is a fundamental UI design st
 
 -   Components like toolbars Toolbars display frequently used actions relevant to the current page. [More on toolbars](/m3/pages/toolbars/overview) and app bars App bars contain page navigation and information at the top of a screen. [More on app bars](/m3/pages/app-bars/overview)
 
-![A compact screen with a toolbar highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp55v0r6-06.png?alt=media&token=06b7ed36-86b6-4a5f-9e72-3d43ed36524f)
+![A compact screen with a toolbar highlighted.](../../../_assets/mp55v0r6-06-a0bacf544f4a6f5c93a9.png)
 
 The bar region can contain a toolbar
 
-![A large screen with a leading navigation rail highlighted.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp55w2g9-07.png?alt=media&token=6bc41919-a8f2-481a-8bad-f463479cdfb8)
+![A large screen with a leading navigation rail highlighted.](../../../_assets/mp55w2g9-07-7b99d1c77ba7a032e985.png)
 
 The rail region on larger screens usually contains a navigation rail
 
@@ -56,7 +56,7 @@ Next, populate the main region of the screen with panes with content and compone
 
 See the [canonical layout examples](/m3/pages/canonical-examples) for ideas on which panes are appropriate for a product.
 
-![Mobile UI with 1 pane. Foldable UI with 2 panes in a supporting pane layout.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp55yqda-08.png?alt=media&token=2b0b4c87-9448-4a1a-b576-55c2a08e20ba)
+![Mobile UI with 1 pane. Foldable UI with 2 panes in a supporting pane layout.](../../../_assets/mp55yqda-08-12e546757c11e463b84e.png)
 
 1.  Primary pane
 
@@ -68,7 +68,7 @@ Rulers are a set of recommended global alignment lines that help create consiste
 
 [How to implement rulers in Compose](https://developer.android.com/reference/kotlin/androidx/compose/ui/layout/Ruler)
 
-![1 compact and 1 desktop UI mapping rulers.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp56n0pg-09.png?alt=media&token=aaa37678-f50e-45b3-a64d-09d126bfb433)
+![1 compact and 1 desktop UI mapping rulers.](../../../_assets/mp56n0pg-09-d0b9b7553bdd9801d3ad.png)
 
 1.  Margin
 
@@ -94,7 +94,7 @@ Bar and safety rulers reserve space for [system UI](https://developer.android.co
 
 They ensure actionable content like app bars App bars contain page navigation and information at the top of a screen. [More on app bars](/m3/pages/app-bars/overview) aren’t covered by system UI.
 
-![2 mobile UIs showing bar and safety rulers at the top and bottom.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp573btr-10.png?alt=media&token=8cb7f6fd-802a-4ac4-b0f8-e78c29f4acc1)
+![2 mobile UIs showing bar and safety rulers at the top and bottom.](../../../_assets/mp573btr-10-327557c0ee27a8afdf59.png)
 
 Bar and safety rulers align to the edges of a screen’s usable space, providing a reference for where system UI like the status bar or gesture navigation appear
 
@@ -102,7 +102,7 @@ Bar and safety rulers align to the edges of a screen’s usable space, providing
 
 The title ruler creates consistency for the screen’s title, aligning the text, icons, and other components in an app bar.
 
-![1 mobile and 1 desktop UI showing title rulers.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp574ab3-11-key02%20-%20TO%20PUBLISH.png?alt=media&token=24881915-d4ed-4466-9fab-8a8462a27df3)
+![1 mobile and 1 desktop UI showing title rulers.](../../../_assets/mp574ab3-11-key02---TO-PUBLISH-10e51b980f57f18f2746.png)
 
 The title ruler aligns with the title in an app bar
 
@@ -114,7 +114,7 @@ Use content rulers to align and anchor key content, such as headlines and carous
 
 -   Secondary rulers: Determine where supplementary text or actions begin
 
-![1 mobile and 1 desktop UI showing content rulers.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp575wo3-12-key02%20-%20TO%20PUBLISH.png?alt=media&token=615dfb4c-55b3-48fb-aad7-218ee4af69d6)
+![1 mobile and 1 desktop UI showing content rulers.](../../../_assets/mp575wo3-12-key02---TO-PUBLISH-55ce23cb0b81058bd76b.png)
 
 Content rulers offer flexible alignment options to help create a consistent layout across a product
 
@@ -130,6 +130,6 @@ Margin rulers can adjust to create more or less negative space
 
 Rulers can also be used to create more immersive experiences. For example, a photo grid can take the full width of the screen, while components like search Search lets people enter a keyword or phrase to get relevant information. [More on search](/m3/pages/search/overview) use wider margins.
 
-![Mobile UI for a photo app showing a full-width image grid and a search bar with wide margins.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp579mwo-15.png?alt=media&token=38c06930-bb63-44ef-8ff7-ec7d3a3d49af)
+![Mobile UI for a photo app showing a full-width image grid and a search bar with wide margins.](../../../_assets/mp579mwo-15-14d999b5ee887e69e0ab.png)
 
 Rulers allow components and media to use different margin widths

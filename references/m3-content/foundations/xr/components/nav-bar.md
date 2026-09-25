@@ -18,7 +18,7 @@ Extended reality (XR) interfaces have special design requirements, like showing 
 
 ## Anatomy
 
-![Diagram of navigation bar orbiter identifying 7 internal elements of the component.](https://lh3.googleusercontent.com/klVeOaaaMwxNa_W3IC8bbQPBzm2px87bnuY0WeMxdlt-V2oqj-7FMUFQ19AOe84qGspMekq2coIMmERquGEMzaWB4-emdoM_BrcxyGzrnQt76w=s0)
+![Diagram of navigation bar orbiter identifying 7 internal elements of the component.](../../../_assets/klVeOaaaMwxNa_W3IC8bbQPBzm2px87bnuY0WeMxdlt-V2oqj-7FMUFQ19AOe84qGspMekq2coIMmERq-93d8eb8b31aa765bfdc5.png)
 
 1.  Container
 2.  Icon
@@ -32,7 +32,7 @@ Extended reality (XR) interfaces have special design requirements, like showing 
 
 On XR, color is used to highlight elevated UI elements and orbiters Orbiters are floating elements that control the content within spatial panels. [More on orbiters](https://developer.android.com/design/ui/xr/guides/spatial-ui#orbiters) . With [spatial elevation](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation), the navigation bar displays above the spatial panel In Android XR, a spatial panel is a container for UI elements, interactive components, and immersive content. [More on spatial panels](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-panels) , on the Z-axis. Color communicates elevation on UI elements and orbiters. Elevated nav bars can use any of these color options:
 
-![4 versions of elevation color strategy.](https://lh3.googleusercontent.com/ErJmjTcE4AIy4dr7PHYehMqYEn0UI580rBDsKd6qUXYRysNmAT-b3rynVJESfaxN0Hiz_u_13CrGH2uZSgOiHMTHcYH720nqpUj0owOCb18g=w40)![4 versions of elevation color strategy.](https://lh3.googleusercontent.com/ErJmjTcE4AIy4dr7PHYehMqYEn0UI580rBDsKd6qUXYRysNmAT-b3rynVJESfaxN0Hiz_u_13CrGH2uZSgOiHMTHcYH720nqpUj0owOCb18g=s0)
+![4 versions of elevation color strategy.](../../../_assets/ErJmjTcE4AIy4dr7PHYehMqYEn0UI580rBDsKd6qUXYRysNmAT-b3rynVJESfaxN0Hiz_u_13CrGH2uZ-f339e9f473c927a9234e.png)![4 versions of elevation color strategy.](../../../_assets/ErJmjTcE4AIy4dr7PHYehMqYEn0UI580rBDsKd6qUXYRysNmAT-b3rynVJESfaxN0Hiz_u_13CrGH2uZ-d38d959bc0cf712c46d8.png)
 
 1.  Surface container
 2.  Surface container high
@@ -41,7 +41,7 @@ On XR, color is used to highlight elevated UI elements and orbiters Orbiters are
 
 ## Measurements
 
-![Measurements and padding for navigation bar orbiter.](https://lh3.googleusercontent.com/BcrwOJqRJbnxwXFBGwH96tPEyUbd-dcc-t6Kl466KmDu-pe0M40HvWFGkBlPtX2CdKWIRafPD43o-xTvsNexNEt-mYCZ7FEAqPXBZMkSGy_i=w40)
+![Measurements and padding for navigation bar orbiter.](../../../_assets/BcrwOJqRJbnxwXFBGwH96tPEyUbd-dcc-t6Kl466KmDu-pe0M40HvWFGkBlPtX2CdKWIRafPD43o-xTv-332f866461363a954e01.png)
 
 Navigation bar orbiter padding and measurements
 

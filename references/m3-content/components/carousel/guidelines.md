@@ -8,7 +8,7 @@ captured: 2026-09-14
 
 > Carousels show a collection of items that can be scrolled on and off the screen
 
-![Carousel items adapting dynamically to device size by shrinking and reducing in number.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwusb1kq-1.png?alt=media&token=31e0f0e5-44dc-40dc-88a3-810d49d9d32a)
+![Carousel items adapting dynamically to device size by shrinking and reducing in number.](../../_assets/lwusb1kq-1-f1bf561ca3a6248668ee.png)
 
 Carousel items adapt dynamically based on breakpoint
 
@@ -30,7 +30,7 @@ Carousels can scroll in two ways:
 -   **Default**: Standard scrolling. Recommended for uncontained layouts.
 -   **Snap-scrolling**: Scrolled items snap to the carousel's layout. Recommended for multi-browse, hero, and full-screen layouts
 
-![Contained carousel with a large, medium, and small item. Text is hidden on the small item.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwusbuoo-2.png?alt=media&token=fe9b4940-fc2b-453f-b10c-1eb4f1bb5250)
+![Contained carousel with a large, medium, and small item. Text is hidden on the small item.](../../_assets/lwusbuoo-2-4038d91f833a77b216e5.png)
 
 A carousel can contain different sized items
 
@@ -46,13 +46,13 @@ Choose the best carousel layout for your product. Some layouts are more visual-f
 
 Carousel items must be fully visible on-screen (except for the uncontained layout The uncontained carousel layout show items that scroll to the edge of the container. ). When scrolled, items automatically change size and snap into place to maintain the same layout.
 
-![Multi-browse carousel with all images and text easily legible.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuscosc-3-do.png?alt=media&token=ddae19a2-c2a5-4a4f-a57a-89ebf9924d44)
+![Multi-browse carousel with all images and text easily legible.](../../_assets/lwuscosc-3-do-8bf1d3ef8df30f228e1b.png)
 
 check Do
 
 Set the large carousel item size to ensure the images and text are easy to read and recognize
 
-![Multi-browse carousel with a very thin small item, making the image unrecognizable.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwusd3wu-3-don't.png?alt=media&token=9d93fc2f-8f36-44df-b19e-3b541f3dc539)
+![Multi-browse carousel with a very thin small item, making the image unrecognizable.](../../_assets/lwusd3wu-3-don-t-de3c3b569b9b03233900.png)
 
 close Don’t
 
@@ -84,7 +84,7 @@ At compact breakpoints Window widths smaller than 600dp, such as a phone in port
 
 If you need to show more than three items, make sure the images and content are easy to understand and recognize.
 
-![Carousel on a phone. 2 large, 1 medium, and 1 small item are fully visible but thin. The items don't have text.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwusga4v-6.png?alt=media&token=79689475-2747-4ee9-839c-b8c1eecba850)
+![Carousel on a phone. 2 large, 1 medium, and 1 small item are fully visible but thin. The items don't have text.](../../_assets/lwusga4v-6-8cc6d2996eff5f1e410f.png)
 
 exclamation Caution
 
@@ -138,7 +138,7 @@ Full-screen carousels fill the entire content area of the screen
 
 ## Anatomy
 
-![4 elements of a carousel.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwushw0z-11.png?alt=media&token=0ec8f8d6-6910-47b8-af5e-aec914857c5e)
+![4 elements of a carousel.](../../_assets/lwushw0z-11-cbee1502b7b560716826.png)
 
 Multi-browse carousel (left) and hero carousel (right):
 
@@ -151,7 +151,7 @@ Multi-browse carousel (left) and hero carousel (right):
 
 The carousel container holds all carousel items. The number of carousel items visible in the container can change based on the carousel layout Layout is the visual arrangement of elements on the screen. [More on layout](/m3/pages/layout-overview) and  breakpoint Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) .
 
-![An empty rectangle representing a carousel container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwusikhn-12.png?alt=media&token=e53338c0-9e12-4500-a02a-6a3fa00a5be7)
+![An empty rectangle representing a carousel container.](../../_assets/lwusikhn-12-37e31fc5133585e18bc3.png)
 
 The carousel container is a rectangle. It can be used in many ways and stretched to any size.
 
@@ -159,7 +159,7 @@ The carousel container is a rectangle. It can be used in many ways and stretched
 
 Carousel items hold content. A carousel item has no fixed width; it changes width depending on the breakpoint or its position in the carousel's layout. There are three dynamic widths an item can be: **large**, **medium**, and **small**.
 
-![3 sizes of carousel items.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwusj1ii-13.png?alt=media&token=a8d53996-8396-4e21-a972-c74335739543)
+![3 sizes of carousel items.](../../_assets/lwusj1ii-13-a072ecfff7b801257dd1.png)
 
 1.  Large carousel item
 2.  Medium carousel item
@@ -171,14 +171,14 @@ Medium items adjust width dynamically to the carousel size and available space.�
 
 Small items have a width range of 40–56dp.
 
-![2 sizes of carousel items for hero layouts.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwusjjti-14.png?alt=media&token=405ab913-2f35-4d0e-aa46-07e957c4e947)
+![2 sizes of carousel items for hero layouts.](../../_assets/lwusjjti-14-c9ca0e84ca44c34a8b73.png)
 
 1.  Large item
 2.  Small item
 
 When the large item's max width is narrow enough, more items can be shown on screen at once. At compact breakpoints, this is only recommended for carousels with simple imagery.
 
-![3 sizes of carousel items for multi-browse layouts. 2 large items are visible.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuslefr-15.png?alt=media&token=93b132b6-bb28-4e57-9a57-f1c02ac20115)
+![3 sizes of carousel items for multi-browse layouts. 2 large items are visible.](../../_assets/lwuslefr-15-de103322d26313122577.png)
 
 1.  Large item
 2.  Medium item
@@ -190,7 +190,7 @@ Carousel items are primarily visual. Item text is optional and should be brief.�
 
 If your carousel items require a lot of text, consider using the **uncontained layout The uncontained carousel layout show items that scroll to the edge of the container.** , which can show more information, or use a series of cards Cards display content and actions about a single subject. [More on cards](/m3/pages/cards/overview) instead.
 
-![Contained carousel items with 5 lines of content: a title, a description, and a label.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwusmns4-16.png?alt=media&token=11d776e8-048f-4e1e-81d9-1a265271a7a6)
+![Contained carousel items with 5 lines of content: a title, a description, and a label.](../../_assets/lwusmns4-16-d9ea342e700cc66459b0.png)
 
 exclamation Caution
 
@@ -200,7 +200,7 @@ Content within a carousel item can adapt dynamically based on the container and 
 
 Text should always be understandable at each size. Consider adapting the text to use brief labels on smaller carousel items.
 
-![A carousel item at 3 different sizes to show  how text changes at each size.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwusqbrm-17.png?alt=media&token=bcc4c752-6b49-4820-960e-c22af7c9591b)
+![A carousel item at 3 different sizes to show  how text changes at each size.](../../_assets/lwusqbrm-17-e19c4aa1ad315cdfbc19.png)
 
 1.  Large carousel item with the full title and label text
 2.  Medium carousel item hiding the title text
@@ -216,7 +216,7 @@ At larger breakpoints, more carousel items are added and scale in size.
 
 Full-screen carousels The full-screen carousel layout shows one edge-to-edge large item at a time and scrolls vertically. only ever show one item at once.
 
-![8 carousel items visible at once on a tablet in landscape orientation.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuso0q8-18.png?alt=media&token=1ca63117-b627-4361-afb1-6730a8ee93d3)
+![8 carousel items visible at once on a tablet in landscape orientation.](../../_assets/lwuso0q8-18-bf073011795f5fbd265a.png)
 
 Carousels can show more items at once on larger screens
 
@@ -236,7 +236,7 @@ In full-screen layouts, make sure the carousel items snap to the edges of the ca
 
 Full-screen layouts must use snap-scrolling.
 
-![Full-screen carousel with items stopping halfway off screen once scrolled.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuspl2g-20-don't.png?alt=media&token=71d2bacf-deaf-4fc7-84f2-7b8f5fd86747)
+![Full-screen carousel with items stopping halfway off screen once scrolled.](../../_assets/lwuspl2g-20-don-t-76b6e4d7d747145b4851.png)
 
 close Don’t
 

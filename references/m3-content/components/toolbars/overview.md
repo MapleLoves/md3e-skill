@@ -16,7 +16,7 @@ captured: 2026-09-14
 
 -   Don’t show at the same time as a navigation bar
 
-![2 variants of toolbars.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0aionfm-01.png?alt=media&token=0f1d71f5-1d22-4820-859d-fd952e995cf9)
+![2 variants of toolbars.](../../_assets/m0aionfm-01-6dea4095537c542ec938.png)
 
 Configurations of floating toolbars
 
@@ -48,7 +48,7 @@ Variants and naming:
 
 -   **Bottom app bar** is still available, but not recommended
 
-![2 examples of toolbar variants.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0aiswog-02.png?alt=media&token=e5523e45-647f-4168-b257-c773be63adf6)
+![2 examples of toolbar variants.](../../_assets/m0aiswog-02-35a2711acc417ecf40ba.png)
 
 1.  Floating, vibrant color scheme and paired with FAB
 2.  Docked with embedded primary action instead of FAB
@@ -59,10 +59,10 @@ Variants and naming:
 -   Elevation: No shadow
 -   Layout: Container height is taller and the FAB is now contained within the app bar container
 
-![M2 bottom app bar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e7liab-2.png?alt=media&token=16c3ad53-7e83-4079-85ad-9b096bbb56fc)
+![M2 bottom app bar.](../../_assets/m0e7liab-2-3d8f2c2e16034a7f59de.png)
 
 M2: Bottom app bar had higher elevation of 8dp and didn't contain the FAB
 
-![M3 bottom app bar.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e7mh6v-3.png?alt=media&token=9dfb6612-f40c-4d4c-a773-463109db7c5f)
+![M3 bottom app bar.](../../_assets/m0e7mh6v-3-3625883ba25e4321e974.png)
 
 M3: Bottom app bar has new colors, a taller container, no elevation or shadow, and contains the FAB

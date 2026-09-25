@@ -20,17 +20,17 @@ To make it easier for users of screen readers to reach a primary action such as 
 
 In smaller windows, the best place for the extended FAB is the lower right corner of a screen.
 
-![On a large screen, the Compose FAB is placed on the upper left region in an email app with the expanded window on the right.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e5baky-01.png?alt=media&token=d4a320d5-298d-43a8-9e13-834adb34a1bf)
+![On a large screen, the Compose FAB is placed on the upper left region in an email app with the expanded window on the right.](../../_assets/m0e5baky-01-a8085282db6ea59e83ab.png)
 
 Extended FABs can be placed in the expanded navigation rail
 
-![In a compact window, the Compose FAB is placed on the lower right region in an email app.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dmgu83-02.png?alt=media&token=898399c4-2a45-4bb4-8089-5a869da143bb)
+![In a compact window, the Compose FAB is placed on the lower right region in an email app.](../../_assets/m0dmgu83-02-b2df21d6436bb4c06dbf.png)
 
 check Do
 
 Place extended FABs in an easy-to-reach place that doesn’t obstruct other actions
 
-![In a compact window, the Compose FAB is overlapping other buttons in an email app.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dmhng1-03.png?alt=media&token=8f726c4c-3cc6-4fec-8518-403650fba64a)
+![In a compact window, the Compose FAB is overlapping other buttons in an email app.](../../_assets/m0dmhng1-03-b024adb53e3009a1d9dc.png)
 
 close Don’t
 
@@ -45,13 +45,13 @@ On mobile, the focus order may start with the app bar App bars contain page navi
 When using an extended FAB, both the visible label and icon should be treated as one focusable element. The extended FAB doesn’t need a tooltip because it already has a visible label.
 
 ![A focused extended FAB in the lower right region of a mobile screen.
-](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dmis8z-04.png?alt=media&token=bf33f207-5a42-437b-a1d6-df3b1f8c34c6)
+](../../_assets/m0dmis8z-04-6b5da0539dd727f3f681.png)
 
 check Do
 
 Ensure extended FABs get focus when navigating with assistive technology
 
-![A focused extended FAB with a tooltip matching the text label.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dmjod6-05.png?alt=media&token=1f36adfa-b3b3-459e-b692-aa1deb2855f1)
+![A focused extended FAB with a tooltip matching the text label.](../../_assets/m0dmjod6-05-a904cf72d67ae8e7bf73.png)
 
 close Don’t
 
@@ -72,6 +72,6 @@ The icon and text label combination should have one distinct purpose.
 
 The accessibility label must include the same first word as the visible label. For example, if the visible button is **Create**, then the accessibility label might say **Create a new invite**. 
 
-![Accessibility labels of an extended FAB.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dmmjzu-06.png?alt=media&token=88489b92-fd7e-4f30-a6da-a6b4b9962f55)
+![Accessibility labels of an extended FAB.](../../_assets/m0dmmjzu-06-e25bbdd1da1773cb4906.png)
 
 The accessibility label reads **Compose** to match the extended FAB's displayed label

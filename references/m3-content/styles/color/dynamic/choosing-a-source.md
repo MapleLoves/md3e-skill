@@ -26,7 +26,7 @@ Choose a user-generated color source if:
 
 [**Get started with user-generated color**](/m3/pages/dynamic/user-generated-source)
 
-![Thumbnail of a floral red wallpaper with a line pointing to an app screen with a red color scheme.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flnc8u840-01.png?alt=media&token=2a28a37a-c566-4ebf-a20f-5b92b16e5b66)
+![Thumbnail of a floral red wallpaper with a line pointing to an app screen with a red color scheme.](../../../_assets/lnc8u840-01-5825ec311011a4978631.png)
 
 An app colored with a dynamic user-generated scheme sourced from the user's red wallpaper.
 
@@ -41,7 +41,7 @@ Choose a content-based color source if:
 
 [**Get started with content-based color**](/m3/pages/dynamic/content-based-source)
 
-![A thumbnail of a teal album art with a line pointing to an app screen with a teal color scheme.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Fln4j2i04-02.png?alt=media&token=ef023ff4-6763-48d9-bab6-9ec0aa078ca0)
+![A thumbnail of a teal album art with a line pointing to an app screen with a teal color scheme.](../../../_assets/ln4j2i04-02-552d13583b2dedf486f9.png)
 
 An app colored with a dynamic content-based scheme sourced from the in-app album art.
 
@@ -56,7 +56,7 @@ Choose to use multiple color sources if:
 
 ![Thumbnail of green plants with a line (1) indicating green edit buttons in a photo app.
 Thumbnail of red wallpaper with a line (2) indicating red share buttons in the same photo app.
-](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Fln4j3qu9-03.png?alt=media&token=e06645b9-aa5e-4cf7-9ecc-e04edc9de657)
+](../../../_assets/ln4j3qu9-03-0c556dedddd2d887534b.png)
 
 An app colored with schemes from multiple sources.
 

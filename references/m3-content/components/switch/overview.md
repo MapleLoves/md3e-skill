@@ -14,7 +14,7 @@ captured: 2026-09-14
 
 -   Make sure the switch’s selection Selection lets users choose specific items to act on. [More on selection](/m3/pages/selection) (on or off) is visible at a glance
 
-![A switch in two states, off and on.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwa9bnl5-1.png?alt=media&token=8a4b85d3-5a30-49e2-b32d-927fc4c6fc2d)
+![A switch in two states, off and on.](../../_assets/lwa9bnl5-1-d6c2a0e6ec317471f125.png)
 
 Switches can be toggled on and off
 
@@ -32,10 +32,10 @@ Close
 
 -   Layout: Track is taller and wider
 
-![M2 switches in off and on states.](https://lh3.googleusercontent.com/8Q9gMTX5nAY3wJyezAw1JEzmJ6MbTAT3FkVUc7BIO9RUJ485PUwFFlXz7pAutMPh1eI0ScCnGFUd3nuAEfSb_Uo89uV3wfTPotf3njzsUwfo=s0)
+![M2 switches in off and on states.](../../_assets/8Q9gMTX5nAY3wJyezAw1JEzmJ6MbTAT3FkVUc7BIO9RUJ485PUwFFlXz7pAutMPh1eI0ScCnGFUd3nuA-3fe924ca2c755e9bd3f9.png)
 
 M2: Switches have a circular handle that extends beyond the edge of the track
 
-![M3 switch shown toggled off and toggled on. When switched on, it has a checkmark icon.](https://lh3.googleusercontent.com/P_nhLNZtpt8oAPTScTR_d6oBLsidBWX0xG96t9fCkTURwNMReQpP9Etrpw4rc439wBfOAJBUeGZ39O8goRmRcPk_Ehhnq_wj7qNKFR4Sf70=s0)
+![M3 switch shown toggled off and toggled on. When switched on, it has a checkmark icon.](../../_assets/P_nhLNZtpt8oAPTScTR_d6oBLsidBWX0xG96t9fCkTURwNMReQpP9Etrpw4rc439wBfOAJBUeGZ39O8g-48ff8582bac4a17df58b.png)
 
 M3: Switches have a taller and wider track, new color mappings, and the ability to show an icon in the handle

@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 Layouts for compact breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) are for **screen widths smaller than 600dp.**
 
-![Messaging app at a compact breakpoint.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40sit1-01.png?alt=media&token=3d76ba96-6280-4b8b-a919-fd862be5b400)
+![Messaging app at a compact breakpoint.](../../../_assets/mp40sit1-01-d94825af14c9a24c1f48.png)
 
 A compact breakpoint focuses on a single view
 
@@ -20,7 +20,7 @@ Use a navigation bar or modal expanded navigation rail.
 
 Place navigation components close to the edge of the screen where they’re easier to reach.
 
-![Navigation bar and FAB are close to the bottom of a mobile app in a compact window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40u2kw-02.png?alt=media&token=e0de0306-c6ca-4033-b1fa-057417bcf335)
+![Navigation bar and FAB are close to the bottom of a mobile app in a compact window.](../../../_assets/mp40u2kw-02-fc0a9576ba85bcc3f9a6.png)
 
 Place navigation elements near the bottom of a compact window so they’re easy to reach
 
@@ -28,7 +28,7 @@ Place navigation elements near the bottom of a compact window so they’re easy 
 
 Use a single pane in compact layouts.
 
-![The single pane consumes most of the area in a compact window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40uzbp-03.png?alt=media&token=d9808393-8b19-4eb0-a251-2124305c919a)
+![The single pane consumes most of the area in a compact window.](../../../_assets/mp40uzbp-03-5f60d0fd686c9d689e20.png)
 
 1.  Single-pane layouts work best for compact breakpoints
 
@@ -36,7 +36,7 @@ Use a single pane in compact layouts.
 
 Margins are 16dp from the leading and trailing edge of the window.
 
-![The left and right margins of a compact window pane are 16dp.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40vzj4-04.png?alt=media&token=f7545d66-d29a-41bd-b117-c322e09c4135)
+![The left and right margins of a compact window pane are 16dp.](../../../_assets/mp40vzj4-04-4a688a71dca83fc5c1b2.png)
 
 In compact layouts, use 16dp margins
 
@@ -54,6 +54,6 @@ A compact layout will need to transition dynamically to a medium or expanded lay
 
 -   A free-form window is resized
 
-![2 mobile layouts showing a messaging app with a 1-pane list and an expanded navigation rail.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp40wssg-05.png?alt=media&token=2a61b218-8ae0-46c9-89c1-5e8ad487d518)
+![2 mobile layouts showing a messaging app with a 1-pane list and an expanded navigation rail.](../../../_assets/mp40wssg-05-5db8272143c39be1997e.png)
 
 Compact layouts should dynamically transition to larger layouts when a device is unfolded or rotated

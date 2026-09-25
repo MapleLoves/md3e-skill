@@ -16,7 +16,7 @@ Close
 
 ## Filled text field
 
-![Diagram of a filled text field indicating the 10 parts of its anatomy.](https://lh3.googleusercontent.com/X9POJ7yw_vGiALE8gBKfttJ_56zdy0ncjv5fYNyJVl1Y8SzdDbDA2VCVqWZDA0BYUfjgn3o1jfQ__CB1_3HLphvEi-u8Vex9Q1VZjqkR1HOG=s0)
+![Diagram of a filled text field indicating the 10 parts of its anatomy.](../../_assets/X9POJ7yw_vGiALE8gBKfttJ_56zdy0ncjv5fYNyJVl1Y8SzdDbDA2VCVqWZDA0BYUfjgn3o1jfQ__CB1-01ff3895efa8536bd3a3.png)
 
 1.  Container
 
@@ -42,7 +42,7 @@ Close
 
 Color values are implemented through design tokens Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code. [More on tokens](/m3/pages/design-tokens/overview) . For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. [Learn more about design tokens](/m3/pages/design-tokens/overview)
 
-![Diagram of a filled text field indicating its color mappings. ](https://lh3.googleusercontent.com/3QvK6g9HSsTheSVwbJnhS3xny_okcH05M7S-VzIzT8Y20T1azDNw3ab6oTjCFDJDqfz8rgA9If_Ra96-wTC9GoAVkjS1XvSfbPyAgiT3LHQcdw=s0)
+![Diagram of a filled text field indicating its color mappings. ](../../_assets/3QvK6g9HSsTheSVwbJnhS3xny_okcH05M7S-VzIzT8Y20T1azDNw3ab6oTjCFDJDqfz8rgA9If_Ra96--2f4844214eb269b49128.png)
 
 Filled text field color roles used for light and dark schemes:
 
@@ -70,7 +70,7 @@ Filled text field color roles used for light and dark schemes:
 
 States are visual representations used to communicate the status of a component or interactive element. [Learn more about interaction states](/m3/pages/interaction-states/overview)
 
-![Side by side view of empty and populated filled text fields across different states, showing the differences between enabled, focused, hovered, and disabled. ](https://lh3.googleusercontent.com/oKmfNMCJ_ViUQMDGqTLkxCQj9pqlu69kIuzt96fo0YC7mb_vceZF4LQUwYQViUk_oDf38-KSOFZVsM8Car1RCvjy6JPXVv92WCZIJzbEwNuJ_g=w40)
+![Side by side view of empty and populated filled text fields across different states, showing the differences between enabled, focused, hovered, and disabled. ](../../_assets/oKmfNMCJ_ViUQMDGqTLkxCQj9pqlu69kIuzt96fo0YC7mb_vceZF4LQUwYQViUk_oDf38-KSOFZVsM8C-8c9f48c16510f80fbfb3.png)
 
 1.  Enabled (empty)
 2.  Focused (empty)
@@ -85,7 +85,7 @@ States are visual representations used to communicate the status of a component 
 
 Error states States show the interaction status of a component or UI element. [More on states](/m3/pages/interaction-states/overview) are visual representations used to communicate the status of a component or interactive element. An error message can display instructions on how to fix it. Error messages are displayed below the text field as supporting text until fixed.
 
-![Side by side view of empty and populated filled text fields across different error states, showing the differences between enabled, focused, hovered. ](https://lh3.googleusercontent.com/nuNzqyBbqzPQww1YvytMccqt-cGwmw0Brm79oYB6w-Z1am626wYtqGd6pN2nx393wXxEIJRPia-Fb3WuFB61iDiuXmt4F5ERiaV8fcDWYDqs=w40)
+![Side by side view of empty and populated filled text fields across different error states, showing the differences between enabled, focused, hovered. ](../../_assets/nuNzqyBbqzPQww1YvytMccqt-cGwmw0Brm79oYB6w-Z1am626wYtqGd6pN2nx393wXxEIJRPia-Fb3Wu-c3fed180df5e1675449b.png)
 
 1.  Enabled (empty)
 2.  Focused (empty)
@@ -96,15 +96,15 @@ Error states States show the interaction status of a component or UI element. [M
 
 ### Filled text field measurements
 
-![Diagram showing layout values and paddings for filled text fields without icons. ](https://lh3.googleusercontent.com/2AoiwzxCOioxZi9xQyWBalI9wO_Q2Xvt-udVeaI-UDY00zFWxtWZHUvOZa5PFbRwRJrOOQDlMra63kpmnbLyU0GxAKCCL4d-ZlhN50HdtSPn=w40)
+![Diagram showing layout values and paddings for filled text fields without icons. ](../../_assets/2AoiwzxCOioxZi9xQyWBalI9wO_Q2Xvt-udVeaI-UDY00zFWxtWZHUvOZa5PFbRwRJrOOQDlMra63kpm-2785789c9a07575d72d6.png)
 
 Padding and size measurements without icons
 
-![Diagram showing layout values and paddings for outlined text fields with leading and trailing icons. ](https://lh3.googleusercontent.com/hG_Z6Lx5Jfmhqu7Rnds8d_Ia4DGHtlVW1oCZbwwqD29FtoXf2_g24bzr81cvy3i7nQxSxDzTXYqKrZ4kKSRIB8yz4QSOK1wDfR1jy2psSypxyQ=w40)
+![Diagram showing layout values and paddings for outlined text fields with leading and trailing icons. ](../../_assets/hG_Z6Lx5Jfmhqu7Rnds8d_Ia4DGHtlVW1oCZbwwqD29FtoXf2_g24bzr81cvy3i7nQxSxDzTXYqKrZ4k-52e3f06e7d63eb92bbfc.png)
 
 Padding and size measurements with icons
 
-![A diagram showing layout values and paddings for supporting text, and supporting text in combination with a character count. ](https://lh3.googleusercontent.com/QbiBv3lVHm9nL8hoQllo5jKgQ6AA37Ngmcd3R0DuB37MAANtap_k0woqbUvLxZJqDgPznP0tIBzy1o0GTKPCp9Omo-StlisHHInPTWMcl9vN=w40)
+![A diagram showing layout values and paddings for supporting text, and supporting text in combination with a character count. ](../../_assets/QbiBv3lVHm9nL8hoQllo5jKgQ6AA37Ngmcd3R0DuB37MAANtap_k0woqbUvLxZJqDgPznP0tIBzy1o0G-431fbc7ef9f4ead2a94f.png)
 
 Padding and size measurements with supporting text and character count
 
@@ -123,7 +123,7 @@ Padding and size measurements with supporting text and character count
 
 ### Filled text field configurations
 
-![Side by side view of filled text fields in different configurations.](https://lh3.googleusercontent.com/KpOprJPDbuBUSURPtov109LS7MrNCFY0Ek20qjx5tGAzycWbhUb1YSwjT7Bc7KEu3_7woFXY5msSf47VLtW_WDLOBO-g298eC7JmWKfvuXNOGQ=w40)
+![Side by side view of filled text fields in different configurations.](../../_assets/KpOprJPDbuBUSURPtov109LS7MrNCFY0Ek20qjx5tGAzycWbhUb1YSwjT7Bc7KEu3_7woFXY5msSf47V-545464f7a4c582634917.png)
 
 Empty and populated filled text fields with:
 
@@ -143,7 +143,7 @@ Empty and populated filled text fields with:
 
 ## Outlined text field
 
-![Diagram of an outlined text field indicating the 9 parts of its anatomy](https://lh3.googleusercontent.com/juT_ZbiIpoR4u-rL6ab7C0pqjMMp9nEOCEx43GdSNJ0jPkt4RAwIeOy3k047QwD4VLaHhkG4Xc7ZW5tN_AjXfY75D7vByomGUGoz5Y9JfBxyTQ=w40)
+![Diagram of an outlined text field indicating the 9 parts of its anatomy](../../_assets/juT_ZbiIpoR4u-rL6ab7C0pqjMMp9nEOCEx43GdSNJ0jPkt4RAwIeOy3k047QwD4VLaHhkG4Xc7ZW5tN-872c20f2c7b84ffc0d88.png)
 
 1.  Enabled container outline
 
@@ -167,7 +167,7 @@ Empty and populated filled text fields with:
 
 Color values are implemented through design tokens Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code. [More on tokens](/m3/pages/design-tokens/overview) . For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. [Learn more about design tokens](/m3/pages/design-tokens/overview)
 
-![Diagram of an outlined text field indicating its color mappings ](https://lh3.googleusercontent.com/QRrrzuYpe5zpPsCu6AbhllIu1DaJBehUTcv2cIVtd6O7bLdl-ZuUnukzJePt9Y4_-szZKPRj8u0vgwnRAsGDeXih4qprDvoIvyh1_ST_UQUM=w40)
+![Diagram of an outlined text field indicating its color mappings ](../../_assets/QRrrzuYpe5zpPsCu6AbhllIu1DaJBehUTcv2cIVtd6O7bLdl-ZuUnukzJePt9Y4_-szZKPRj8u0vgwnR-22fdcc9209d99a48da63.png)
 
 Outlined text field color roles used for light and dark schemes:
 
@@ -185,7 +185,7 @@ Outlined text field color roles used for light and dark schemes:
 
 States are visual representations used to communicate the status of a component or interactive element. [Learn more about interaction states](/m3/pages/interaction-states/overview)
 
-![Side by side view of empty and populated outlined text fields across different states, showing the differences between enabled, focused, hovered, and disabled. ](https://lh3.googleusercontent.com/7ChV4X-ZSeY8_BCyeu3u3qdlGOmI9fGOOM00iO7V4hK0Ci3rwp_hy9EoMRpsX5t-SnO-nesLg-wBoom_2uX0Ix15ZtmzEQJZFf1ufQaSCWY=w40)
+![Side by side view of empty and populated outlined text fields across different states, showing the differences between enabled, focused, hovered, and disabled. ](../../_assets/7ChV4X-ZSeY8_BCyeu3u3qdlGOmI9fGOOM00iO7V4hK0Ci3rwp_hy9EoMRpsX5t-SnO-nesLg-wBoom_-3e628ac5c97a7c694848.png)
 
 1.  Enabled (empty)
 2.  Focused (empty)
@@ -200,7 +200,7 @@ States are visual representations used to communicate the status of a component 
 
 Error states States show the interaction status of a component or UI element. [More on states](/m3/pages/interaction-states/overview) are visual representations used to communicate the status of a component or interactive element. An error message can display instructions on how to fix it. Error messages are displayed below the text field as supporting text until fixed.
 
-![Side by side view of empty and populated filled text fields across different error states, showing the differences between enabled, focused, hovered. ](https://lh3.googleusercontent.com/JzpL2KJVz10gQRdqaY43CbT_rimzZySTQc-l3ZSUVIdVIYgAXeOvtbuBqIpR3MUIV7uGKVPnHPzTZ8N0SMaRGCeKf7dpiLc4AhE9kxWWdLYp=w40)
+![Side by side view of empty and populated filled text fields across different error states, showing the differences between enabled, focused, hovered. ](../../_assets/JzpL2KJVz10gQRdqaY43CbT_rimzZySTQc-l3ZSUVIdVIYgAXeOvtbuBqIpR3MUIV7uGKVPnHPzTZ8N0-905c3c753ec6e11bd64f.png)
 
 1.  Enabled (empty)
 2.  Focused (empty)
@@ -211,15 +211,15 @@ Error states States show the interaction status of a component or UI element. [M
 
 ### Outlined text field measurements
 
-![A diagram showing layout values and paddings for outlined text fields without icons. ](https://lh3.googleusercontent.com/fbPahcRVZOrZP4b6Iro8dbT09lSK22S5Fy_Pi_z0Kjiqd_11BD-7MOoRsO3qcXo5x--D8HprVru2ChlRr2BSl-OxHPE5TqKZaVVsMXXD7tJz=w40)
+![A diagram showing layout values and paddings for outlined text fields without icons. ](../../_assets/fbPahcRVZOrZP4b6Iro8dbT09lSK22S5Fy_Pi_z0Kjiqd_11BD-7MOoRsO3qcXo5x--D8HprVru2ChlR-7f9f8825423720519238.png)
 
 Padding and size measurements without icons
 
-![A diagram showing layout values and paddings for outlined text fields with leading and trailing icons. ](https://lh3.googleusercontent.com/IPC3bKvB5geLDysQJQQsC4IYzNggiZUaqGguykwiwZvUKkNbtAH4_QXRM2MRS3kK04txiDciUgwDAPqLOfunUBEFJBw3lyXuoJPln5nweeyo=w40)
+![A diagram showing layout values and paddings for outlined text fields with leading and trailing icons. ](../../_assets/IPC3bKvB5geLDysQJQQsC4IYzNggiZUaqGguykwiwZvUKkNbtAH4_QXRM2MRS3kK04txiDciUgwDAPqL-fd1edd82ed1b95193cd6.png)
 
 Padding and size measurements with icons
 
-![A diagram showing layout values and paddings for supporting text, and supporting text in combination with a character count. ](https://lh3.googleusercontent.com/_JjJwZsUzwXoqZBtCVcypOsMMq3BPaHVC11s604XWSrXVgPsm5_Jd2mFcMk0lbxVFr2XZSOrtwQeGZAytx0F6sDF42Dz15nNf0_vLAbNBLI=w40)
+![A diagram showing layout values and paddings for supporting text, and supporting text in combination with a character count. ](../../_assets/JjJwZsUzwXoqZBtCVcypOsMMq3BPaHVC11s604XWSrXVgPsm5_Jd2mFcMk0lbxVFr2XZSOrtwQeGZAyt-ae0f14e224646ef6c733.png)
 
 Padding and size measurements with supporting text and character count
 
@@ -238,7 +238,7 @@ Padding and size measurements with supporting text and character count
 
 ### Outlined text field configurations
 
-![A side by side view of outlined text fields in different configurations.](https://lh3.googleusercontent.com/-FpsbRTgumDQyTLpD4LAvrmPPGOU5CXnJFFxPPHNWfN6Fml9KUbuwsV-Uzz7EWlfTKXjfUnGqwv0l1HqTXO7EcMtHgY2BEkZ-XLYOYew_7Nn=w40)
+![A side by side view of outlined text fields in different configurations.](../../_assets/FpsbRTgumDQyTLpD4LAvrmPPGOU5CXnJFFxPPHNWfN6Fml9KUbuwsV-Uzz7EWlfTKXjfUnGqwv0l1HqT-4d674151b36e6f48abbe.png)
 
 Empty and populated outlined text fields with:
 

@@ -79,6 +79,6 @@ Don't use Space/Enter for navigating tabs. Space/Enter is only used for completi
 
 When the visible UI text is ambiguous, or there is no visible UI text, accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/overview) labels need to be more descriptive. For example, an icon button Icon buttons help people take minor actions with one tap. [More on icon buttons](/m3/pages/icon-buttons/overview) that visually represents a “video camera” requires additional information in its accessibility label to clarify the icon’s intent.
 
-![Small device screen  with the tab highlighted and the label and role illustrated.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2k3h2mn-7.png?alt=media&token=47b7122f-9754-488f-8436-39a6b015175a)
+![Small device screen  with the tab highlighted and the label and role illustrated.](../../_assets/m2k3h2mn-7-bd9981a61d5f65048f77.png)
 
 While the icon visually represents a “Video camera,” the accessibility label for this tab clarifies its function: “Video format media content”

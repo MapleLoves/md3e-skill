@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   [More details on grid & spacing design principles](/m3/pages/grids-spacing)
 
-![Bottom padding of small and large buttons is space200 and space400. Leading padding is space300 and space600.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp45pjnu-01.png?alt=media&token=4bc20db7-589b-4e9f-8a41-6ef0912181bf)
+![Bottom padding of small and large buttons is space200 and space400. Leading padding is space300 and space600.](../../_assets/mp45pjnu-01-a612533a0c03d4649d4e.png)
 
 Spacing should adapt to component size, layout, form factor, and other contexts
 
@@ -34,7 +34,7 @@ Spacing should adapt to component size, layout, form factor, and other contexts
 
 Spacing units follow an 8dp scale. Rather than defining every value, Material only defines the most recommended spacing unit values on the scale. The system can be extended to add more spacing units and patterns as needed. [More on spacing tokens](/m3/pages/spacing/tokens/)
 
-![A spacing scale shows 2, 4, 6, and 8 at the bottom range and 48, 56, 64, and 72 at the top of the range.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp46hu30-02.png?alt=media&token=8c945825-e613-4d44-8b78-754d4f368664)
+![A spacing scale shows 2, 4, 6, and 8 at the bottom range and 48, 56, 64, and 72 at the top of the range.](../../_assets/mp46hu30-02-dcafbd32258d9a9d8bda.png)
 
 Spacing units are are created as a multiplier from the baseline unit of 8dp, which is space100
 
@@ -42,7 +42,7 @@ Spacing units are are created as a multiplier from the baseline unit of 8dp, whi
 
 In **components**, spacing units define the padding and gaps between individual elements of a component, such as text, icons, and controls.
 
-![Padding and gaps applied to a mobile layout and 2 components.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp46iygv-03.png?alt=media&token=1ffbf4cf-d3d8-492a-bf87-543363d09c2a)
+![Padding and gaps applied to a mobile layout and 2 components.](../../_assets/mp46iygv-03-4a66287c14c881aec98c.png)
 
 Spacing concepts for components:
 
@@ -64,7 +64,7 @@ Layouts use:
 
 -   Padding and gaps to organize content within the panes.
 
-![Padding and gaps applied to a mobile layout and 2 components.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp46qg1t-04.png?alt=media&token=de6ad9a3-9fd4-419c-afb9-845b48380977)
+![Padding and gaps applied to a mobile layout and 2 components.](../../_assets/mp46qg1t-04-7168e6faf3830a12f53e.png)
 
 Spacing concepts for layouts:
 
@@ -100,11 +100,11 @@ For example, the [search](/m3/pages/search/specs) container has:
 
 -   24dp horizontal margins (12dp when focused)
 
-![Default search spacing.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp46u5o7-05.png?alt=media&token=ec9f8771-d0f9-40dc-bda9-5de5123f3961)
+![Default search spacing.](../../_assets/mp46u5o7-05-88c4ec0277e4813f9df5.png)
 
 Search horizontal margins are 24dp by default to ensure accurate placement from the screen edge
 
-![Active search spacing.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp46ujx2-06.png?alt=media&token=117fe589-68f0-4c73-b242-a6f6e0970b13)
+![Active search spacing.](../../_assets/mp46ujx2-06-15e81f87ffd6749330a9.png)
 
 Search margins change to 12dp when focused, while the container padding and horizontal gaps remain the same
 
@@ -112,7 +112,7 @@ Search margins change to 12dp when focused, while the container padding and hori
 
 Padding is the spacing inside an element. It adds a buffer from the container edge to the content, like text and icons.
 
-![Examples of each possible padding value.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmpcmizsr-07.png?alt=media&token=64b66712-c4a1-49fc-96a2-462fbe2cb910)
+![Examples of each possible padding value.](../../_assets/mpcmizsr-07-e2d1111ef751284d0e2e.png)
 
 Padding can be horizontal or vertical, or on a specific edge: leading, trailing, top, or bottom
 
@@ -124,7 +124,7 @@ Use a **horizontal gap** and **vertical gap** for simple components where gaps a
 
 Complex components with many different gaps should define them by the elements on each side, like an **icon-label gap.**
 
-![Examples of each possible gap value.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp46wxwi-08.png?alt=media&token=2aa763aa-37db-4c60-8ebe-ed2c068891ac)
+![Examples of each possible gap value.](../../_assets/mp46wxwi-08-328f908cde5bb16a281d.png)
 
 Gaps can be horizontal, vertical, or defined by the elements around it
 
@@ -138,17 +138,17 @@ Margins are the spacing outside an element. They add a buffer between the elemen
 
 -   Only use margins to apply further spacing beyond the parent container’s padding, or in layouts
 
-![Examples of each possible margin value.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp46ywq1-09.png?alt=media&token=c7d6c7ca-77f2-4f73-b0bb-1f47c60f09c1)
+![Examples of each possible margin value.](../../_assets/mp46ywq1-09-58407636d9eb7c6cccd6.png)
 
 Margins can be horizontal or vertical, or on a specific edge: leading, trailing, top, or bottom
 
-![Button with uniform container horizontal padding.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp46yjrr-10.png?alt=media&token=7a66f957-b8d4-491d-939a-1bac71e540c7)
+![Button with uniform container horizontal padding.](../../_assets/mp46yjrr-10-c111f090449c9f616fd0.png)
 
 check Do
 
 Define padding and gaps on the parent container to organize all elements inside
 
-![Button icon with different leading and trailing margin values.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp46z9b3-11.png?alt=media&token=16464639-7f1c-4c21-a46b-7126cd037463)
+![Button icon with different leading and trailing margin values.](../../_assets/mp46z9b3-11-3d78ce7cc136f2761009.png)
 
 close Don’t
 

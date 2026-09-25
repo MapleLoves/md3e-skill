@@ -17,7 +17,7 @@ captured: 2026-09-14
 
 Usability helps create digital products that are easy to use and engaging. By leveraging M3 Expressive [design tactics](https://m3.material.io/blog/building-with-m3-expressive#what-rsquo-s-in-the-update) like containment, size, shape, color, and typography, designers can guide users through experiences and emphasize key actions to create intuitive, usable products.
 
-![](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejie2v2-Hero%20image.png?alt=media&token=9d9dc1ff-3bcb-45e4-bbaf-78b24bd19945)
+![](../../_assets/mejie2v2-Hero-image-f2410487f3ca2fb81385.png)
 
 ## What is usability?
 
@@ -55,13 +55,13 @@ Tip: Material Design’s dynamic [color roles](/m3/pages/color-roles) automatica
 
 More on [Color](https://m3.material.io/styles/color/system/overview?utm_source=homepage&utm_medium=referral&utm_campaign=IO25) & [color contrast](/m3/pages/designing/color-contrast)
 
-![Light purple, dark purple, yellow and dark green colors on a light purple background](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejighrd-Contrast.png?alt=media&token=d99c8cef-57cd-43b0-b165-ae5a1ab018f1)
+![Light purple, dark purple, yellow and dark green colors on a light purple background](../../_assets/mejighrd-Contrast-300a9c8d840553084aea.png)
 
 ### Containment & grouping content
 
 Group related elements in subtle containers to make them easier to understand. Break content into manageable sections using containment, [spacing](/m3/pages/grids-spacing/spacing), and headings.
 
-![Four different rectangular shapes with round or rounded corners](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejiivyt-Visual%20Hierarchy.png?alt=media&token=8e1f750f-ee5a-4775-87cc-b96b9b26b95b)
+![Four different rectangular shapes with round or rounded corners](../../_assets/mejiivyt-Visual-Hierarchy-b4cc0f0b4f3d593b3d1f.png)
 
 ### [Motion](/m3/pages/motion-overview/how-it-works)
 
@@ -91,7 +91,7 @@ Every shape can morph into another in the set. Shape morph is also applied when 
 
 More on [shape](/m3/pages/shape/overview-principles#579dd4ba-39f3-4e60-bd9b-1d97ed6ef1bf) & [shape morph](/m3/pages/shape/shape-morph)
 
-![Five shapes from the Material Shape set](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejiksvb-Shape.png?alt=media&token=e496fdad-065e-49c1-8197-b13aa00e9fef)
+![Five shapes from the Material Shape set](../../_assets/mejiksvb-Shape-1118a8e361db2b34a25e.png)
 
 ### Size
 
@@ -99,7 +99,7 @@ The size and scale of elements shows their level of importance. The most importa
 
 Using larger sizes for key actions dramatically increases usability and makes products more efficient. Users are satisfied, they make fewer errors, and find the products to be more learnable.
 
-![Small, medium, and large soft burst](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejimbjk-Size.png?alt=media&token=052597d9-80f5-4bb9-affe-41ee1af815b5)
+![Small, medium, and large soft burst](../../_assets/mejimbjk-Size-a38750a7610cbf1bbd36.png)
 
 ### Typography 
 
@@ -113,7 +113,7 @@ Type can separate different hierarchies of information. More important informati
 
 [More on typography](/m3/pages/typography/overview)
 
-![Different weights and width of letters](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejin9xv-Typography.png?alt=media&token=e057bb09-e023-4c19-85f1-e0d98e847b99)
+![Different weights and width of letters](../../_assets/mejin9xv-Typography-d87ff2824e25548ca173.png)
 
 ## Design based on primary goals
 

@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 ## Variants
 
-![3 variants of sliders.](https://lh3.googleusercontent.com/-UgZpnEJ6uET5STSdzpCWEydsoa9cfqtNAbzpuKX9-4jQ3d8IdU0EjRtpfgizjIX8I7XM-ETfXPEnfKi7XNZSQWJTTyKrLHjS95bsb6ZQc7smQ=s0)
+![3 variants of sliders.](../../_assets/UgZpnEJ6uET5STSdzpCWEydsoa9cfqtNAbzpuKX9-4jQ3d8IdU0EjRtpfgizjIX8I7XM-ETfXPEnfKi7-cd3da47aad765bc0033f.png)
 
 1.  Standard
 
@@ -27,12 +27,12 @@ captured: 2026-09-14
 
 ## Configurations
 
-![Orientation and size configurations of sliders.](https://lh3.googleusercontent.com/PUKZpvA88_wvpKTUHRmGx0XIOjDEUAFWbO14A9AMUDyX-mu0w9qTo7ywQTKCcm8ERhdQHoohHwHt3Z-Tqo29eVw4_KyVf3pn-Z-UIcsszrYc=s0)
+![Orientation and size configurations of sliders.](../../_assets/PUKZpvA88_wvpKTUHRmGx0XIOjDEUAFWbO14A9AMUDyX-mu0w9qTo7ywQTKCcm8ERhdQHoohHwHt3Z-T-48ea2cebffadcb04ddf3.png)
 
 1.  Orientation: Horizontal, vertical
 2.  Size: XS, S, M, L, XL
 
-![Optional anatomy configurations of sliders.](https://lh3.googleusercontent.com/QFc1hXc78XHCuqhH4no1fQLDRvSzLaW1K8El5jIW1v3K3sNXjMquxEGcaq22u48Mq5kCqGRoPSCD7m8H37sAwyP_XyI6xY4AJp2GGW3e7-hs=w40)![Optional anatomy configurations of sliders.](https://lh3.googleusercontent.com/QFc1hXc78XHCuqhH4no1fQLDRvSzLaW1K8El5jIW1v3K3sNXjMquxEGcaq22u48Mq5kCqGRoPSCD7m8H37sAwyP_XyI6xY4AJp2GGW3e7-hs=s0)
+![Optional anatomy configurations of sliders.](../../_assets/QFc1hXc78XHCuqhH4no1fQLDRvSzLaW1K8El5jIW1v3K3sNXjMquxEGcaq22u48Mq5kCqGRoPSCD7m8H-a437a1884c47d0dcebff.png)![Optional anatomy configurations of sliders.](../../_assets/QFc1hXc78XHCuqhH4no1fQLDRvSzLaW1K8El5jIW1v3K3sNXjMquxEGcaq22u48Mq5kCqGRoPSCD7m8H-dbdea3ad97728cc1b4ca.png)
 
 1.  Inset icon
 2.  Stops 
@@ -63,7 +63,7 @@ Close
 
 ## Anatomy
 
-![6 elements of a slider.](https://lh3.googleusercontent.com/Tj-xqiQbRv2zhsiRQmk6ZkdhFwQgK6qEZx40m4TMy8W7B8ulEiPsHemm1KcY6ejMeYjYFnJF2GHGnWzVq-v8yDHTRon1k-oZGg9VuIa2C4Q=w40)
+![6 elements of a slider.](../../_assets/Tj-xqiQbRv2zhsiRQmk6ZkdhFwQgK6qEZx40m4TMy8W7B8ulEiPsHemm1KcY6ejMeYjYFnJF2GHGnWzV-9b9d4718f8bd4befbe45.png)
 
 1.  Value indicator (optional)
 2.  Stop indicators (optional)
@@ -74,7 +74,7 @@ Close
 
 ## Color
 
-![9 color roles of a slider.](https://lh3.googleusercontent.com/CV3PfOlQdK3A_3O8RLyu_r-GjqW7NK-qgzQmKuo5M5tWBmI6eDGdNfq7p8bTvQbP1jYCpk8WaRktgSsCrKD9Lp1vbaeCtE2einRTw6e1J7dbGA=w40)
+![9 color roles of a slider.](../../_assets/CV3PfOlQdK3A_3O8RLyu_r-GjqW7NK-qgzQmKuo5M5tWBmI6eDGdNfq7p8bTvQbP1jYCpk8WaRktgSsC-230cbcb635e02da9ca5c.png)
 
 Slider color roles used for light and dark schemes:
 
@@ -90,7 +90,7 @@ Slider color roles used for light and dark schemes:
 
 ## States
 
-![5 states of sliders in light and dark schemes.](https://lh3.googleusercontent.com/PgYCQrkBSJUOlzQMXu0BmIe16Fho4X9NdvdYYSOtE1tIl0aucZejoImkNIfdTpbPity3lWJxxg2WSoilrjogEOWTcVhxyGN0aYZl0sRWQuMpJA=w40)
+![5 states of sliders in light and dark schemes.](../../_assets/PgYCQrkBSJUOlzQMXu0BmIe16Fho4X9NdvdYYSOtE1tIl0aucZejoImkNIfdTpbPity3lWJxxg2WSoil-965871787aeeb9d247d7.png)
 
 1.  Enabled
 2.  Disabled
@@ -100,11 +100,11 @@ Slider color roles used for light and dark schemes:
 
 ## Measurements
 
-![Common slider padding and size measurements.](https://lh3.googleusercontent.com/WLMws1Xen6XFUKvbCJS2NM4jwTMVmQxFlh8QhTslZGI-TR2eoFPXUp-ck8i0FhO_U2cy0cW5qnNP6Qkrsu1kJ-eztl1sJ_o5lHzXSUtr4FAMPw=w40)
+![Common slider padding and size measurements.](../../_assets/WLMws1Xen6XFUKvbCJS2NM4jwTMVmQxFlh8QhTslZGI-TR2eoFPXUp-ck8i0FhO_U2cy0cW5qnNP6Qkr-e6bdbc5b3a1bb055ce3e.png)
 
 Padding and size measurements for common sliders
 
-![Slider padding and size measurements at each size configuration, XS to XL.](https://lh3.googleusercontent.com/FH3TsHZ1NpVLh--XKKb2ygB9rd0bgZ6ig1vGxWhQu5HOFVbk_8CXIxMAVdJnPxKj3fojh8jFh6qDqm41tD0R3YRaK0luWcktoURO5RZfBsuO=w40)
+![Slider padding and size measurements at each size configuration, XS to XL.](../../_assets/FH3TsHZ1NpVLh--XKKb2ygB9rd0bgZ6ig1vGxWhQu5HOFVbk_8CXIxMAVdJnPxKj3fojh8jFh6qDqm41-c1ec4c61c9c3ce9efd76.png)
 
 Padding and size measurements for XS, S, M, L, and XL sliders
 

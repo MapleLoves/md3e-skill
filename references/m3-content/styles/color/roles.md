@@ -19,7 +19,7 @@ Color roles are like the "numbers" in a paint-by-number canvas. They're the conn
 -   **Color roles are tokenized**
     Roles are implemented in design and code through tokens. A design token Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code. [More on tokens](/m3/pages/design-tokens/overview) represents a small, reusable design decision that’s part of a design system's visual style.
 
-![Example color swatches for all 45 color roles including Primary, Secondary, Tertiary, Error, Surfaces, Inverse roles, Scrim and Shadow roles.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2ms4t2-1.png?alt=media&token=722d8f55-45a4-4340-98ad-9ae1aa71b7ae)
+![Example color swatches for all 45 color roles including Primary, Secondary, Tertiary, Error, Surfaces, Inverse roles, Scrim and Shadow roles.](../../_assets/ly2ms4t2-1-1a32091256d821acb336.png)
 
 Diagram of all Material color roles, including optional add-on roles for surface colors and fixed accent colors
 
@@ -39,13 +39,13 @@ To ensure accessible visual contrast in your app, apply colors only in the inten
 
 Combining colors improperly may break contrast necessary for visual accessibility, particularly when colors are adjusted through dynamic color Dynamic color takes a single color from a user's wallpaper or in-app content and creates an accessible color scheme assigned to elements in the UI. [More on dynamic color](/m3/pages/dynamic/choosing-a-source) features such as user-controlled contrast User-controlled contrast is a dynamic color feature enabling users to choose from one of three levels of color contrast: standard, medium, and high. [More on user-controlled contrast](/m3/pages/color/how-the-system-works/#a360c176-b99e-4804-8034-9884833009c8) .
 
-![Pair of buttons shown at three different contrast levels. At every level, the text on the button is legible because the color roles are properly applied to the buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2msstb-2.png?alt=media&token=1e401465-0ddb-4506-bc85-8e943e993490)
+![Pair of buttons shown at three different contrast levels. At every level, the text on the button is legible because the color roles are properly applied to the buttons.](../../_assets/ly2msstb-2-426dc53eee9205f25d24.png)
 
 check Do
 
 Pair and layer color roles as intended to ensure expected visual results and accessibility. In this example, the two buttons mapped with (1) **primary**, (2) **on primary**, (3) **secondary container**, and (4) **on secondary container** stay legible as the contrast level changes.
 
-![Pair of buttons shown at 3 different contrast levels. The text on the button becomes illegible because the color roles are improperly applied to the buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2mt0z5-3.png?alt=media&token=4129b18b-0f80-4b92-b2cc-f6d2abeb4947)
+![Pair of buttons shown at 3 different contrast levels. The text on the button becomes illegible because the color roles are improperly applied to the buttons.](../../_assets/ly2mt0z5-3-0bf1cfa38c448ea92442.png)
 
 close Don’t
 
@@ -61,7 +61,7 @@ Accent color roles include primary, secondary, and tertiary. Assign them to elem
 
 -   **Tertiary roles** are for smaller elements that need special emphasis but don't require immediate attention, such as a badge or notification.
 
-![A mail app showing a mix of primary, secondary, and tertiary accent colors used across the screen.](https://lh3.googleusercontent.com/zBAGamdJZfsDyiTUOll5jETI5pAQCimbOVfWX3IOqit-JKa_213YRHjLwhlcDDFt5CE5ACu6NDc_jAO3EWPiQ0hhV_jAnipweoAiUcZ8OyU=w40)
+![A mail app showing a mix of primary, secondary, and tertiary accent colors used across the screen.](../../_assets/zBAGamdJZfsDyiTUOll5jETI5pAQCimbOVfWX3IOqit-JKa_213YRHjLwhlcDDFt5CE5ACu6NDc_jAO3-bdbaf49768976ba5b063.png)
 
 1.  Primary colors are used for the most important elements, like a starred message and FAB to start a new message
 
@@ -81,16 +81,16 @@ Use primary roles for the most prominent components across the UI, such as the F
 
 -   **On primary container:** Text and icons against primary container
 
-![4 color swatches: primary, on primary, primary container and on primary container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2mtbil-4.png?alt=media&token=77137c3b-3782-4366-9d88-729623c2d6c1)
+![4 color swatches: primary, on primary, primary container and on primary container.](../../_assets/ly2mtbil-4-2e23ad3b61c8bb9acd95.png)
 
 Primary color roles include **primary** and **primary container**, with their respective “On” colors
 
-![Primary color used for filled button, and "on primary" color used for the text within that button.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2muo2k-5.png?alt=media&token=8ba5fb9a-6079-4dbb-9023-77f1f169e4f8)
+![Primary color used for filled button, and "on primary" color used for the text within that button.](../../_assets/ly2muo2k-5-2acc40d6d8ea59f96756.png)
 
 1.  On primary 
 2.  Primary
 
-!["Primary container" color used for FAB and "on primary container" color used for the text and icon within.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2kwfth2-6.png?alt=media&token=53da80e7-f3f8-4279-9e7c-0400302889fc)
+!["Primary container" color used for FAB and "on primary container" color used for the text and icon within.](../../_assets/m2kwfth2-6-08f251bbbb8030857378.png)
 
 1.  On primary container 
 2.  Primary container
@@ -109,11 +109,11 @@ There are four secondary roles:
 
 -   **On secondary container:** Text and icons against secondary container
 
-![4 color swatches: secondary, on secondary, secondary container, and on secondary container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2mvccz-7.png?alt=media&token=942165b4-8244-4142-8165-aa7667e4a662)
+![4 color swatches: secondary, on secondary, secondary container, and on secondary container.](../../_assets/ly2mvccz-7-ab898d9befa3ff3228fd.png)
 
 Secondary color roles include **secondary** and **secondary container**, with their respective "On" colors
 
-![An icon button using "secondary container" color, and an icon using "on secondary color."](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2mvlj0-8.png?alt=media&token=1443111c-0408-4584-98a9-34980437c35b)
+![An icon button using "secondary container" color, and an icon using "on secondary color."](../../_assets/ly2mvlj0-8-077a888057ccec4d1e3e.png)
 
 1.  Icon: On secondary container 
 2.  Button: Secondary container
@@ -132,13 +132,13 @@ There are four tertiary roles:
 
 -   **On tertiary container:** Text and icons against tertiary container
 
-![4 color swatches: tertiary, on tertiary, tertiary container, and on tertiary container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2mzjt8-9.png?alt=media&token=9a14358b-d46f-4bbf-854b-8110f14af4e6)
+![4 color swatches: tertiary, on tertiary, tertiary container, and on tertiary container.](../../_assets/ly2mzjt8-9-d815f4cedf277c64c6e9.png)
 
 Tertiary color roles include **tertiary** and **tertiary container**, with their respective "On" colors
 
 The tertiary color roles can be applied at the designer's discretion. They're intended to support broader color expression.
 
-![A selected element using Tertiary Container as a background color and On Tertiary Container for text. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n0pba-10.png?alt=media&token=c8225d06-dcbd-47da-aa77-b275550f4002)
+![A selected element using Tertiary Container as a background color and On Tertiary Container for text. ](../../_assets/ly2n0pba-10-11a1daef333ea602258c.png)
 
 1.  On tertiary container
 2.  Tertiary container
@@ -159,7 +159,7 @@ There are four error roles:
 
 Error is an example of a static color (it doesn't change even in dynamic color schemes). Error color roles are made static by default with any dynamic color scheme. They still adapt to light and dark theme.
 
-![4 color swatches: Error, On error, Error container and On error container roles.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n10jv-11.png?alt=media&token=2894bbf7-1507-46e4-af6d-a69436f2f89c)
+![4 color swatches: Error, On error, Error container and On error container roles.](../../_assets/ly2n10jv-11-f71d478674b55f5d2325.png)
 
 Error color roles include **error** and **error container** with their respective "On" colors.
 
@@ -175,7 +175,7 @@ There are three surface roles:
 
 -   **On surface variant:** Lower-emphasis color for text and icons against any **surface** or **surface container** color
 
-![3 color swatches: Surface, On surface and On surface variant.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n1cbu-12.png?alt=media&token=622ece1d-3225-4c06-ba60-ab3d5ae4f717)
+![3 color swatches: Surface, On surface and On surface variant.](../../_assets/ly2n1cbu-12-4a9f09b6e69529be40f7.png)
 
 **Surface** and **on surface** roles in light theme
 
@@ -199,14 +199,14 @@ The most common combination of surface roles uses **surface** for a background a
 
 Text and icons typically use **on surface** and **on surface variant** on all types of surfaces.
 
-![Email app using Surface for the main background color and Surface Container for the navigation bar background](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n20l4-14.png?alt=media&token=0b8d1cc2-2a4f-4c58-ab0e-393b0cd1996a)
+![Email app using Surface for the main background color and Surface Container for the navigation bar background](../../_assets/ly2n20l4-14-4ec5661d372a88617e10.png)
 
 1.  Surface
 2.  Surface container
 
 All color mappings – but especially surface colors – should remain the same for layout regions across breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) . For example, the body area will use the **surface** color and the navigation area will use the **surface container** color on both mobile and tablet.
 
-![Mobile and tablet screens both using Surface for main background and surface container for navigation background.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n2btl-15.png?alt=media&token=1cd58070-3840-4e53-b160-df4309cbf43b)
+![Mobile and tablet screens both using Surface for main background and surface container for navigation background.](../../_assets/ly2n2btl-15-fdf945671117d620c08f.png)
 
 1.  Surface
 2.  Surface container
@@ -217,7 +217,7 @@ In this example, the body and navigation regions have the same color roles acros
 
 By default, neutral-colored components such as navigation bars, menus, or dialogs are mapped to specific surface container roles, but these [roles can be remapped](/m3/pages/advanced/overview) by makers to suit user needs.
 
-![Surface container low applied to an elevated button and card, surface container applied to the top and bottom bar, surface container high applied to the FAB and basic dialog, surface container highest applied to an input label and off switch.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n2wcp-17.png?alt=media&token=b86187a0-00e2-4546-9a5f-35593b0297a8)
+![Surface container low applied to an elevated button and card, surface container applied to the top and bottom bar, surface container high applied to the FAB and basic dialog, surface container highest applied to an input label and off switch.](../../_assets/ly2n2wcp-17-4043b4d5d33b15bce9b3.png)
 
 Default surface container roles applied to components:
 
@@ -236,11 +236,11 @@ Inverse roles are applied selectively to components to achieve colors that are t
 
 -   **I****nverse primary:** Actionable elements, such as text buttons, against inverse surface
 
-![3 color swatches: Inverse surface, inverse on surface and inverse primary roles.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n4uvc-24.png?alt=media&token=a0ac78ab-206a-4017-a93b-65caa80157c6)
+![3 color swatches: Inverse surface, inverse on surface and inverse primary roles.](../../_assets/ly2n4uvc-24-a83edae48197f5213c6e.png)
 
 **Inverse surface**, **inverse on surface**, and **inverse primary** roles in the color scheme, shown in light theme
 
-![Snackbar component using inverse surface for its background, inverse on surface for its text and inverse primary of its text button, shown in light theme](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n6f78-25.png?alt=media&token=f536573c-5c9a-440d-bac9-723c7a65c094)
+![Snackbar component using inverse surface for its background, inverse on surface for its text and inverse primary of its text button, shown in light theme](../../_assets/ly2n6f78-25-a234fd00a30a2e99c932.png)
 
 A snackbar which uses:
 
@@ -256,30 +256,30 @@ There are two outline colors to be used against a surface:
 
 -   **Outline variant:** Decorative elements, such as dividers, and when other elements provide 4.5:1 contrast
 
-![2 color swatches: Outline and outline variant](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n6s89-18.png?alt=media&token=42a74524-96ff-451f-ab8f-2ea1de7ba188)
+![2 color swatches: Outline and outline variant](../../_assets/ly2n6s89-18-84fe2656893b170de715.png)
 
 **Outlin****e** and **outline variant** roles in the color scheme, shown in light theme
 
-![Diagram comparing used of outline and outline variant.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n7081-19.png?alt=media&token=8b2ad35a-0b3b-4652-8de4-204c51723221)
+![Diagram comparing used of outline and outline variant.](../../_assets/ly2n7081-19-25ea4346e130534fcbc0.png)
 
 1.  A text field which uses **outline** for its container border
 2.  A list item which uses **outline variant** for its divider line
 
-![Outline color incorrectly used for dividers](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n7i8q-20_dont.png?alt=media&token=accae0d3-0a04-49f5-8f74-10eb22452dc6)
+![Outline color incorrectly used for dividers](../../_assets/ly2n7i8q-20_dont-957e6a129478b7babe78.png)
 
 close Don’tDon’t use the **outli****ne** color for dividers since they have different contrast requirements. Instead, use **outline variant**. 
 
-![Outline color incorrectly used for cards.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n7yd0-21_dont.png?alt=media&token=10fb9ebd-55e3-4afc-9081-8682017fcbdd)
+![Outline color incorrectly used for cards.](../../_assets/ly2n7yd0-21_dont-07a4ab854ac9d8ef837c.png)
 
 close Don’tDon’t use the **outline** color for components that contain multiple elements, such as cards. Instead, use **outline variant**. 
 
-![Outline variant color incorrectly used for input and filter chips.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm38uvq2h-23_dont.png?alt=media&token=294e6a8a-6a3a-4dc0-aac8-eeea104c7115)
+![Outline variant color incorrectly used for input and filter chips.](../../_assets/m38uvq2h-23_dont-e3b33d98e1db078f5e4f.png)
 
 close Don’t
 
 Don’t use the **outline variant** color to create visual hierarchy or define the visual boundary of targets. Instead, use the **outline** color or another color providing 3:1 contrast with the surface color.
 
-![Outline variant incorrectly color used for chips.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4iofvjf-23_caution.png?alt=media&token=be594ca5-e4d1-47e5-a2d6-850e59b1720a)
+![Outline variant incorrectly color used for chips.](../../_assets/m4iofvjf-23_caution-06c1100e1f7f133868e0.png)
 
 exclamation Caution
 
@@ -295,32 +295,32 @@ Most products won't need to use these add-on color roles. However, some products
 
 The **primary fixed dim**, **secondary fixed dim**, and **tertiary fixed dim** roles provide a stronger, more emphasized tone relative to the equivalent fixed color. They may be used where a deeper color but the same fixed behavior is desired.
 
-![6 color swatches: Primary, secondary and tertiary fixed swatches, along with their darker Dim counterparts, shown in both light and dark theme.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n8qum-26.png?alt=media&token=15044478-5a62-4704-a373-6ba69cbceebd)
+![6 color swatches: Primary, secondary and tertiary fixed swatches, along with their darker Dim counterparts, shown in both light and dark theme.](../../_assets/ly2n8qum-26-6f8447030fb9661cb39d.png)
 
 **Fixed** and **fixed dim** color roles for the **primary**, **secondary**, and **tertiary** color groups, shown in both light and dark themes. Note how the colors stay the same between themes.
 
-![FAB in light and dark theme, using the primary fixed role for its container fill color.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n922v-27.png?alt=media&token=0cd22363-7942-4433-876f-89a575543901)
+![FAB in light and dark theme, using the primary fixed role for its container fill color.](../../_assets/ly2n922v-27-b1c059d91857be70e2ef.png)
 
 A FAB which uses **primary fixed** (1) for its container fill color, shown in light and dark themes. Note how the container color stays the same between themes.
 
-![FAB in light and dark theme, using the primary container role for its container fill color.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n9b76-28.png?alt=media&token=c3e3b6d1-90d1-41ca-b96e-7e9461474217)
+![FAB in light and dark theme, using the primary container role for its container fill color.](../../_assets/ly2n9b76-28-bec115238814d046841a.png)
 
 For comparison, a FAB which uses **primary container** (2) for its container fill color, shown in light and dark themes. Note how the container color changes tone between themes.
 
-![2 email app screens using primary fixed and primary fixed dim.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n9m0g-29.png?alt=media&token=a35b823b-bde5-4421-83df-d71bc48954f5)
+![2 email app screens using primary fixed and primary fixed dim.](../../_assets/ly2n9m0g-29-ff1b97465633938e6f24.png)
 
 Examples of fixed and fixed dim colors in use:
 
 1.  **Primary fixed** for a FAB container color
 2.  **Primary fixed dim** for an icon button container
 
-![Permissions screen with Surface used for the background and Primary Fixed incorrectly used for the button fill.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2n9vnb-30_dont.png?alt=media&token=2139b6e3-d8c3-4839-8c39-58d2884edd3a)
+![Permissions screen with Surface used for the background and Primary Fixed incorrectly used for the button fill.](../../_assets/ly2n9vnb-30_dont-4f995ddea403bac3c910.png)
 
 close Don’t
 
 Fixed colors don't change based on light or dark theme, so they're likely to cause contrast issues. Avoid using them where contrast is necessary.
 
-![Permissions screen with Surface used for the background and Primary correctly used for the button fill.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2na1i9-31_do.png?alt=media&token=f9e9816f-4017-47ac-9f00-2ca0300ed145)
+![Permissions screen with Surface used for the background and Primary correctly used for the button fill.](../../_assets/ly2na1i9-31_do-55ac7e29374085100f04.png)
 
 check Do
 
@@ -332,11 +332,11 @@ Use **primary**, **secondary**, and **tertiary** roles for accent colors where c
 
 **On fixed variant** colors are used for text and icons needing lower emphasis against the corresponding fixed color. For example, **on primary fixed variant** is used for low emphasis text and icons against the **primary fixed** color. The same usage applies for the equivalent secondary and tertiary colors.
 
-![6 color swatches for on fixed and on fixed variant](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nacto-32.png?alt=media&token=07de8ed6-affe-40e8-a005-5f358f0e1f6a)
+![6 color swatches for on fixed and on fixed variant](../../_assets/ly2nacto-32-d2689c8ccbcf3527c7a1.png)
 
 **On fixed** and **on fixed variant** color roles for the **primary**, **secondary**, and **tertiary** accent groups, shown in both light and dark themes
 
-![Banner in a news app using on primary fixed variant and on primary fixed](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nappf-33.png?alt=media&token=560dab4a-68fc-4c3a-8690-00fb04297739)
+![Banner in a news app using on primary fixed variant and on primary fixed](../../_assets/ly2nappf-33-8c77a7dce6c6a28ebd2a.png)
 
 A customized banner which uses **on primary fixed variant** (1) for its deemphasized text and (2) **on primary fixed** for its emphasized text
 
@@ -347,11 +347,11 @@ There are two add-on surface roles:
 -   **Surface dim:** Dimmest surface color in light and dark themes
 -   **Surface bright:** Brightest surface color in light and dark themes
 
-![3 color swatches: Surface dim, surface, and surface bright](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nb208-34.png?alt=media&token=66472140-f56e-4ea0-a435-d96321b728ee)
+![3 color swatches: Surface dim, surface, and surface bright](../../_assets/ly2nb208-34-06281861d2a39bae96a0.png)
 
 **Surface dim**, **surface**, and **surface bright** in light theme
 
-![3 color swatches: Surface dim, surface, and surface bright](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nbbzl-35.png?alt=media&token=48ac623d-4455-4246-a766-ca4042d7d5f7)
+![3 color swatches: Surface dim, surface, and surface bright](../../_assets/ly2nbbzl-35-a1fd3c62ac0b4db05ed7.png)
 
 **Surface dim**, **surface**, and **surface bright** in dark theme
 
@@ -359,35 +359,35 @@ While the default **surface** color automatically inverts between light and dark
 
 For example, in an interface using the default **surface** role, the mapped area is the brightest in light theme and the dimmest in dark theme. In an interface using the **surface bright** role, the mapped area is the brightest in both light and dark theme.
 
-![UI with surface role applied to the body area and surface container applied to the navigation area, shown in light theme.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nf2l7-36.png?alt=media&token=e51168a4-cbb7-4898-9d6a-c3e2a1853fef)
+![UI with surface role applied to the body area and surface container applied to the navigation area, shown in light theme.](../../_assets/ly2nf2l7-36-109e00d05a752e3eb89f.png)
 
 Light theme
 
 1.  **Surface**
 2.  **Surface container**
 
-![UI with surface role applied to the body area and surface container applied to the navigation area, shown in dark theme.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nfaia-37.png?alt=media&token=e5e708b8-7301-4d1a-ac38-698439225653)
+![UI with surface role applied to the body area and surface container applied to the navigation area, shown in dark theme.](../../_assets/ly2nfaia-37-668e405887dff319c9a6.png)
 
 Dark theme
 
 1.  **Surface**
 2.  **Surface container**
 
-![UI with surface bright role applied to the body area and surface container applied to the navigation area, shown in light theme.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nfhyc-38.png?alt=media&token=0f6d4117-d6b2-4816-83f0-9b012fa748cd)
+![UI with surface bright role applied to the body area and surface container applied to the navigation area, shown in light theme.](../../_assets/ly2nfhyc-38-dacf21bca0ddf4fc392d.png)
 
 Light theme
 
 1.  **Surface bright**
 2.  **Surface container**
 
-![UI with surface bright role applied to the body area and surface container applied to the navigation area, shown in dark theme.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nep5x-39.png?alt=media&token=067cab0d-8d1c-4c8b-b730-d144aa368d0f)
+![UI with surface bright role applied to the body area and surface container applied to the navigation area, shown in dark theme.](../../_assets/ly2nep5x-39-0f4a124e4a614b5edf54.png)
 
 Dark theme
 
 1.  **Surface bright**
 2.  **Surface container**
 
-![Large screen chat UI. The surface dim role is applied to the left navigation rail and the surface bright role is applied to the chat window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nfqah-40.png?alt=media&token=562063ff-97b5-470c-8664-92eed7f843d5)
+![Large screen chat UI. The surface dim role is applied to the left navigation rail and the surface bright role is applied to the chat window.](../../_assets/ly2nfqah-40-dc2cd2e6c5108aa395e3.png)
 
 1.  Navigation rail with **surface dim** background
 2.  Chat window with **surface bright** background

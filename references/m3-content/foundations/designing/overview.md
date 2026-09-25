@@ -16,7 +16,7 @@ The three stages described in these tabs help **translate a visual UI into a tex
 
 Accessibility markup is an integral part of creating documentation for design specs. 
 
-![Diagram of switches showing the Tab key changing the focus to the second switch and Space/Enter corresponding to changing the state of the switch. ](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3q0f4-1.png?alt=media&token=a37bea3d-6f1d-4f44-bd40-37433f843681)
+![Diagram of switches showing the Tab key changing the focus to the second switch and Space/Enter corresponding to changing the state of the switch. ](../../_assets/lwj3q0f4-1-411f00b5774d14be0764.png)
 
 > 1\. Switch in the on state with visible focus 
 
@@ -26,12 +26,12 @@ Accessibility markup is an integral part of creating documentation for design sp
 
 By using standard platform controls and semantic HTML (on the web), apps automatically contain the markup and code needed to work well with a platform’s assistive technology. Meeting each platform's accessibility standards and supporting its assistive technology (including shortcuts and structure) gives users an efficient experience.
 
-![A dialog in a UI screen requesting user confirmation to discard calendar event](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3qgpa-12.png?alt=media&token=c1a60c5e-df52-4743-ae61-26db3a690601)
+![A dialog in a UI screen requesting user confirmation to discard calendar event](../../_assets/lwj3qgpa-12-d7acf0b9b075655d9943.png)
 
 check Do
 
 Use native elements, such as the standard platform dialog
 
-![A banner requesting user confirmation to discard a calendar event](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3qva4-13.png?alt=media&token=f5d055ea-4af3-47f2-b0bf-aa5da473b342)
+![A banner requesting user confirmation to discard a calendar event](../../_assets/lwj3qva4-13-c8b0293193f30323efba.png)
 
 close Don’t Be wary of using non-standard elements, such as a non-standard platform dialog to perform a standard dialog task. It requires extra testing to work well with assistive technology.

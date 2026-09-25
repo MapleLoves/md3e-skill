@@ -20,7 +20,7 @@ For example, if the enabled style uses the **secondary container** color for the
 
 If the enabled style uses the **surface** color for the container and the **primary** color role for content, then the state layer will be an overlay using the **primary** color.
 
-![State layer sandwiched between the container and content.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2qh1yi-1p_State%20Layers_1.png?alt=media&token=40e0a636-b5f9-4547-a0ad-90cccc333d70)
+![State layer sandwiched between the container and content.](../../../_assets/ly2qh1yi-1p_State-Layers_1-f5d12d9567f60be465d9.png)
 
 1.  Container
 2.  State layer
@@ -28,7 +28,7 @@ If the enabled style uses the **surface** color for the container and the **prim
 
 The size of state layers is 40dp while the interactive target size is 48dp.
 
-![Interaction target is larger than the state layer.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2qhye4-1p_State%20Layers_2.png?alt=media&token=772b1316-6175-4fb3-bae0-d523c06b125b)
+![Interaction target is larger than the state layer.](../../../_assets/ly2qhye4-1p_State-Layers_2-70bd8fc28627b1a2d814.png)
 
 1.  State layer
 2.  Interactive target
@@ -41,7 +41,7 @@ An [on color](/m3/pages/color-roles#19e75989-7485-4f5b-a769-940c4e4364bc) is a
 
 For example, if a container color is **secondary container**, the content will use the **on secondary container** color role. 
 
-![State layer sandwiched between  the content and container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2qisol-1p_on_colors.png?alt=media&token=8c883e0d-7010-4c6e-8a25-fc4aa4d92370)
+![State layer sandwiched between  the content and container.](../../../_assets/ly2qisol-1p_on_colors-42256eb932d7855ff50e.png)
 
 Order of surface layers shows the state layer (2) between the container (1) and content (3) layers
 
@@ -49,7 +49,7 @@ Order of surface layers shows the state layer (2) between the container (1) and 
 
 The state layer uses a fixed percentage for the opacity for each state. A state layer uses the color used by content (usually the [on color](/m3/pages/color-roles#19e75989-7485-4f5b-a769-940c4e4364bc)) and the percentage opacity for its respective state. 
 
-![The opacity values of four overlay states.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2qnx2g-1p_state_layer_tokens%26value.png?alt=media&token=bf0becab-a73a-4693-bd6b-bd89c858de30)
+![The opacity values of four overlay states.](../../../_assets/ly2qnx2g-1p_state_layer_tokens-value-76fafd900c26327689a6.png)
 
 Four overlay states and their values:
 

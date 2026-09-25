@@ -24,11 +24,11 @@ The edit icon indicates the ability to switch to the modal date input Modal date
 
 Interactive targets for all elements meet Material's 48x48dp minimum touch target requirement. Increasing density would negatively impact accessibility Accessible design makes products usable for people with all kinds of abilities. [More on accessibility](/m3/pages/overview/principles) by limiting tappable/clickable targets.
 
-![Date picker with the edit icon focused.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5tcq2g-01.png?alt=media&token=c53d3a22-1ce5-4bfb-bf36-77548890bd4a)
+![Date picker with the edit icon focused.](../../_assets/md5tcq2g-01-7fce4b897815da028e32.png)
 
 The edit icon indicates the ability to switch to the modal date input
 
-![Touch target used to select September 17 to 23 on a date picker.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5tdrn3-02.png?alt=media&token=2770d845-5def-4bc1-a7a9-22b8d83f43ef)
+![Touch target used to select September 17 to 23 on a date picker.](../../_assets/md5tdrn3-02-75a291fbdac9b1620d31.png)
 
 Touch targets are 48x48dp
 
@@ -45,7 +45,7 @@ This improves efficiency for a screen reader and other keyboard users, as it mak
 
 Each input is a separate tab stop, which improves discoverability of the control.
 
-![Text input field next to a date picker icon provides a choice of how to enter the date.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhl9jct-3.png?alt=media&token=ec79be27-46b7-4560-8c67-2ff253e3b94d)
+![Text input field next to a date picker icon provides a choice of how to enter the date.](../../_assets/lwhl9jct-3-e8780951f42a812c9238.png)
 
 Entering a date either through direct text entry or the date picker
 
@@ -55,7 +55,7 @@ Automatically format the date after the user hits “Enter“ or navigates out o
 
 To reduce errors, accept a range of formats including dashes, spaces, slashes, dots, and 0 to the left of a single digit month/day. This is especially helpful for assistive technology users who might be more prone to errors when interacting with complex inputs.
 
-![Numeric entry 08172323 automatically formatted to 08/17/2023.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5tjcxl-04.png?alt=media&token=5fa49d5e-5f45-4258-b90e-390d8e9aa4ed)
+![Numeric entry 08172323 automatically formatted to 08/17/2023.](../../_assets/md5tjcxl-04-32b6cd04198d9f00d71e.png)
 
 The text field's logic can adapt to the user's actual input format, applying the correct formatting after the user has completed their text entry
 
@@ -63,7 +63,7 @@ The text field's logic can adapt to the user's actual input format, applying the
 
 If it's not needed for your use case, remove the **Clear** button from the screen to reduce the number of tab stops for keyboard users.
 
-![Optional clear button on lower left corner of a date picker.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5tl1kf-05.png?alt=media&token=2c6fd134-3e07-439b-a93f-1ae9cec2a1bf)
+![Optional clear button on lower left corner of a date picker.](../../_assets/md5tl1kf-05-be6fff7475a384336060.png)
 
 Remove non-critical actions to reduce the number of tab stops for keyboard users
 
@@ -73,7 +73,7 @@ Ensure keyboard shortcuts are readily available for keyboard and screen reader u
 
 As shown here, the previous year button is interactive and can therefore be focused via the keyboard. Upon focus A focused state communicates when a user has highlighted an element, using an input method such as a keyboard or voice. [More on focused state](/m3/pages/interaction-states/applying-states#bc6d6853-48ef-490e-8076-448e89e69f0f) , the tooltip explains the behavior of the button and shows the shortcut key.
 
-![Shift + Page up is the keyboard shortcut to go to the previous year on a date picker.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5tmhkf-06.png?alt=media&token=78a780bd-c455-4e42-a20d-fcb0ef5b1e3f)
+![Shift + Page up is the keyboard shortcut to go to the previous year on a date picker.](../../_assets/md5tmhkf-06-b6ead49c4126f01d1e05.png)
 
 Keyboard tooltip example for date picker
 
@@ -83,7 +83,7 @@ Truncating labels isn't ideal, but tooltips allow the full text to be shown on h
 
 Days of the week are not interactive and are therefore not focusable via keyboard, yet the tooltip is available on hover. The date picker relies on the conventionality of these abbreviations for some assistive technology users.
 
-![A pointer hover over the “T” day on a date picker produces the tooltip “Tuesday.”](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5tnt2t-07.png?alt=media&token=af48202f-5abc-49e2-8988-43052d0c84e0)
+![A pointer hover over the “T” day on a date picker produces the tooltip “Tuesday.”](../../_assets/md5tnt2t-07-1df34a213252b582e1b4.png)
 
 Days of the week are not navigable via keyboard, so the tooltip is shown only on pointer hover
 
@@ -91,7 +91,7 @@ Days of the week are not navigable via keyboard, so the tooltip is shown only on
 
 Dates should have contrast of at least 4.5:1 between the link text colors and the background.
 
-![A date picker’s label text passes the color contrast minimum of 4.5:1.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5tp1fs-08.png?alt=media&token=f5cf6a07-9a3b-400a-9cc6-7183fdc69832)
+![A date picker’s label text passes the color contrast minimum of 4.5:1.](../../_assets/md5tp1fs-08-8a3ca6b527031228c6be.png)
 
 Dates pass the 4.5:1 contrast minimum
 
@@ -113,7 +113,7 @@ The text field's accessibility label should clearly state the purpose of the inp
 
 The helper text (below the text field) should specify the date format (for example, MM/DD/YYYY or YYYY/MM/DD) and act as a description for the text field. The default helper text is "MM/DD/YYYY," but this can be customized.  
 
-![Text field accessibility labels.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5tqs6i-09.png?alt=media&token=b7d6086d-5892-421e-96ed-a8da8de62ec7)
+![Text field accessibility labels.](../../_assets/md5tqs6i-09-d8bc1d7a894e96477f63.png)
 
 The accessibility label clearly states the kind of input as an event date
 
@@ -128,6 +128,6 @@ The accessibility label clearly states the kind of input as an event date
 
 To support screen reader users, labels are used to enumerate the complete date. This allows screen reader users to hear the full context of "Monday, August 17” instead of just part of the date.
 
-![Current date label providing day, month, and year for screen reader accessibility.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd5tw17z-10.png?alt=media&token=43c1af13-8f5b-439f-b238-443d703699d5)
+![Current date label providing day, month, and year for screen reader accessibility.](../../_assets/md5tw17z-10-2cc678db0f9cf0679d5d.png)
 
 Screen readers will state the full day, month, date, and year instead of just the number 17

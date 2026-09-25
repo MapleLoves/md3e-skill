@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 Material components use a corner radius scale to define all rectangular shapes, such as buttons, carousels, and dialogs.
 
-![Illustration of range of shapes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c80f7i-1.png?alt=media&token=2bf0cf29-448a-4c9e-a5cf-6b61020ff7ed)
+![Illustration of range of shapes.](../../_assets/m0c80f7i-1-7f14dca9228abff28901.png)
 
 M3 defines corner radii using a shape scale. This can be used to create both uniform and asymmetrical shapes.
 
@@ -37,15 +37,15 @@ The Material 3 shape system uses a size-based scale with ten styles. Styles are 
 
 [Apply shape styles using tokens](/m3/pages/design-tokens/overview)
 
-![10 corner radii styles.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c881mj-1.png?alt=media&token=fcb5e003-c5d3-4208-af8a-8766b55ad7ee)
+![10 corner radii styles.](../../_assets/m0c881mj-1-faba2a67c419b5a16e08.png)
 
 Steps on the scale are named for the amount of roundedness applied to the corner
 
-![Components illustrating the old 3-level shape scale.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fc5xxg-3.png?alt=media&token=874497dc-6354-4952-9e46-cc37c088b431)
+![Components illustrating the old 3-level shape scale.](../../_assets/m0fc5xxg-3-6ce86af8892afffaf7d5.png)
 
 M2: Three-level shape scale based on the size of the component container
 
-![Components illustrating the new 10-level shape scale.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fc5nak-4.png?alt=media&token=76b165c6-fa5b-448c-abd8-cc7aef1c6bb4)
+![Components illustrating the new 10-level shape scale.](../../_assets/m0fc5nak-4-27ea88511062690ce360.png)
 
 M3: Ten-level shape scale based on the roundedness of shape corners
 
@@ -57,7 +57,7 @@ Both symmetric and asymmetric shapes use the same 10-step scale.
 
 Asymmetrical shapes are used in M3 components with closely-grouped items, such as menus and split buttons. These are called **inner corners**.
 
-![3 shapes illustrating symmetrical and asymmetrical styles.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c8fgh9-2.png?alt=media&token=e9d62c5c-3f8c-44b3-b487-bfe8c1cc0d6c)
+![3 shapes illustrating symmetrical and asymmetrical styles.](../../_assets/m0c8fgh9-2-0d71b34fe3313cb42edf.png)
 
 **Inner corner** component tokens always map to individual corner shape tokens
 
@@ -91,13 +91,13 @@ exclamation Caution
 
 Be careful not to apply large or full corners to information-dense components, such as cards
 
-![Carousel with images with rounded corners.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c9cdvx-8.png?alt=media&token=563b34cc-3146-49fc-bb3f-0f10e7721697)
+![Carousel with images with rounded corners.](../../_assets/m0c9cdvx-8-17c3f7203627e93c5827.png)
 
 check Do
 
 Shapes can be intentionally rounder to add more visual variety
 
-![Carousel with full rounded shapes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c9bsb5-9.png?alt=media&token=659af9fc-48eb-4dde-9246-1537ca7ca5fb)
+![Carousel with full rounded shapes.](../../_assets/m0c9bsb5-9-b918f8ea8e4cc5c66f17.png)
 
 check Do
 
@@ -112,19 +112,19 @@ Instead, adjust the corner radii to be proportional to each other; this is calle
 -   Outer radius - padding = inner radius
 -   For example: 48dp - 14dp = 34dp
 
-![3 parts of corner radii to adjust.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c9fged-6-1.png?alt=media&token=e35e86ab-c7d6-4ade-bba4-9c151eb561f8)
+![3 parts of corner radii to adjust.](../../_assets/m0c9fged-6-1-521853b9c21aaaec973c.png)
 
 1.  Padding
 2.  Outer radius
 3.  Inner radius
 
-![Nested carousel with optical roundness.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c9h8uv-6.png?alt=media&token=896b2204-2886-49ac-82a3-bcd76cfce14e)
+![Nested carousel with optical roundness.](../../_assets/m0c9h8uv-6-f4a3658c32cdd376ebe4.png)
 
 check Do
 
 Use different corner radii values for nested components so they have optical roundness
 
-![Nested radii with the same roundness as its container.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c9j8dt-7.png?alt=media&token=56cb6075-ef00-4915-8792-6a95257a4d6d)
+![Nested radii with the same roundness as its container.](../../_assets/m0c9j8dt-7-ccb0abf734b86de380e3.png)
 
 close Don’t
 
@@ -136,6 +136,6 @@ The Material 3 shape library can be used to create more interesting containers. 
 
 Shapes should be used sparingly to provide a stronger emphasis and moments of delight.
 
-![Unexpected shapes in carousel.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c9mtiu-Frame%202134280407.png?alt=media&token=b4a4f136-7509-4d92-b9f7-4c1e11e1a27e)
+![Unexpected shapes in carousel.](../../_assets/m0c9mtiu-Frame-2134280407-ad5b1d799b45c5439d43.png)
 
 Leverage the Material shape library for moments of delight

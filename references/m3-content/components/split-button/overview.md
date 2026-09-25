@@ -52,6 +52,6 @@ Color styles:
 -   Tonal
 -   Outlined
 
-![5 sizes of split buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dmjd8r-2.png?alt=media&token=62fdcac6-024e-4e46-8b38-7c4e6da472a8)
+![5 sizes of split buttons.](../../_assets/m0dmjd8r-2-c056937aed3c6c30b7ec.png)
 
 Split buttons have the same five recommended sizes as label and icon buttons

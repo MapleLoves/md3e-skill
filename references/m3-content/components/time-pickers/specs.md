@@ -16,7 +16,7 @@ Close
 
 ### Time picker dial
 
-![Diagram indicating the 14 elements of a time picker dial.](https://lh3.googleusercontent.com/fEL90tTIe0i1cDIA4nKzUlbA5mbzo5VJxmQrzgNnf2RF1SiZXQ3szYwn4PancFx48zU5hY-Kx_GL_I1INZgv-o0h_V26mxPc_Zk3SVECTT9p0w=s0)
+![Diagram indicating the 14 elements of a time picker dial.](../../_assets/fEL90tTIe0i1cDIA4nKzUlbA5mbzo5VJxmQrzgNnf2RF1SiZXQ3szYwn4PancFx48zU5hY-Kx_GL_I1I-5c33252764dea6d4c8ab.png)
 
 1.  Headline
 2.  Time selector separator
@@ -35,7 +35,7 @@ Close
 
 ### Time picker input
 
-![Diagram indicating the 10 elements of a time picker input.](https://lh3.googleusercontent.com/oh1OcUsaz4lc3Bj48OezLBgBFvrMsglz1zYFK0mO9Cf8GuLmflhif0VpKC57fGOLp8xxpj2C9Vp9Dm4e9qFvNVOLuoXtlfobCQmFE0ov-7gIiQ=w40)![Diagram indicating the 10 elements of a time picker input.](https://lh3.googleusercontent.com/oh1OcUsaz4lc3Bj48OezLBgBFvrMsglz1zYFK0mO9Cf8GuLmflhif0VpKC57fGOLp8xxpj2C9Vp9Dm4e9qFvNVOLuoXtlfobCQmFE0ov-7gIiQ=s0)
+![Diagram indicating the 10 elements of a time picker input.](../../_assets/oh1OcUsaz4lc3Bj48OezLBgBFvrMsglz1zYFK0mO9Cf8GuLmflhif0VpKC57fGOLp8xxpj2C9Vp9Dm4e-5864ce113b7ffc86a0e9.png)![Diagram indicating the 10 elements of a time picker input.](../../_assets/oh1OcUsaz4lc3Bj48OezLBgBFvrMsglz1zYFK0mO9Cf8GuLmflhif0VpKC57fGOLp8xxpj2C9Vp9Dm4e-6b88b950d0a2e5562baf.png)
 
 1.  Headline
 2.  Time input field seperator
@@ -54,7 +54,7 @@ Color values are implemented through design tokens Design tokens are the buildin
 
 ### Time picker dial color
 
-![Side-by-side diagram indicating the 17 different color elements of a time picker dial.](https://lh3.googleusercontent.com/2yPFvDOYGLJVQZMR6u6XxQe0yKZcdjOxZisoE_nNHnj72E4dyq2I8vSihXm2jbqhEwmtUaHOdrrcangbqbKufbxy97LWIppPA4hGW5E7KJaP=w40)
+![Side-by-side diagram indicating the 17 different color elements of a time picker dial.](../../_assets/2yPFvDOYGLJVQZMR6u6XxQe0yKZcdjOxZisoE_nNHnj72E4dyq2I8vSihXm2jbqhEwmtUaHOdrrcangb-2410c838bbd6d8e217f2.jpg)
 
 Time picker dial color roles used for light and dark themes:
 
@@ -78,7 +78,7 @@ Time picker dial color roles used for light and dark themes:
 
 ### Time picker input color
 
-![Side-by-side diagram indicating the 13 different color elements of a time picker input.](https://lh3.googleusercontent.com/5OUv797RnNR2XL9-3tT1sy3rKIjyxF2D4rnITJ4nURQm20-jzkT7Mygba3MDoShEFegMNRkNUE38mRg_kleVh970WS3cOJcm0KzkB1j8SEiIaA=w40)
+![Side-by-side diagram indicating the 13 different color elements of a time picker input.](../../_assets/5OUv797RnNR2XL9-3tT1sy3rKIjyxF2D4rnITJ4nURQm20-jzkT7Mygba3MDoShEFegMNRkNUE38mRg_-75d0e8d5a4cbefe01d21.jpg)
 
 Time picker input color roles used for light and dark themes:
 
@@ -98,7 +98,7 @@ Time picker input color roles used for light and dark themes:
 
 ## States
 
-![Diagram showing the 4 interactive states of a time picker, in both light theme and dark theme.](https://lh3.googleusercontent.com/tS5QmHOdLQaGFzVS3OBV8hKVk1lcswec2uan7b-7CS_hhmglq3X45gYIkux28kcLyIRqYhetBz8xNkv8oi7LgI20dj-XT-jX2W4rJkdrAsFZ1g=w40)
+![Diagram showing the 4 interactive states of a time picker, in both light theme and dark theme.](../../_assets/tS5QmHOdLQaGFzVS3OBV8hKVk1lcswec2uan7b-7CS_hhmglq3X45gYIkux28kcLyIRqYhetBz8xNkv8-401c2ef900be04a853cc.png)
 
 1.  Enabled
 2.  Hover
@@ -111,7 +111,7 @@ Time picker input color roles used for light and dark themes:
 
 ### Time picker dial - vertical
 
-![Diagram of vertical time picker dial measurements.](https://lh3.googleusercontent.com/FgpC_ZjE7NOxcqQBBUWoNg2IzyW6Wa2fUmWzGFf8nvuKlW2ZDSNovmYN5K645AAEsF9aGQKd904yRzx_fg9J6i0FHSroG9VFb6KmVvRd6ys=w40)
+![Diagram of vertical time picker dial measurements.](../../_assets/FgpC_ZjE7NOxcqQBBUWoNg2IzyW6Wa2fUmWzGFf8nvuKlW2ZDSNovmYN5K645AAEsF9aGQKd904yRzx_-391e5e5436a294a9c11c.png)
 
 Vertical time picker dial padding and size measurements
 
@@ -136,7 +136,7 @@ Vertical time picker dial padding and size measurements
 
 ### Time picker dial - horizontal
 
-![Diagram of horizontal time picker dial measurements.](https://lh3.googleusercontent.com/MwlBqM5KsVnml1NDvUxDoQA_7yMRkFhQYxC5VMUBe1FPGKPR0t1b7y9pIT5Rn-gjTZX3O6ju0vY7IC-ze75NYNACZagvjaTWeN8PBu9jXbxO=w40)
+![Diagram of horizontal time picker dial measurements.](../../_assets/MwlBqM5KsVnml1NDvUxDoQA_7yMRkFhQYxC5VMUBe1FPGKPR0t1b7y9pIT5Rn-gjTZX3O6ju0vY7IC-z-cc6782c2b596da84f89c.png)
 
 Horizontal time picker dial padding and size measurements
 
@@ -161,7 +161,7 @@ Horizontal time picker dial padding and size measurements
 
 ### Time picker input
 
-![Diagram of time picker input measurements.](https://lh3.googleusercontent.com/pTsIaFUPD07juD1tkEAvb1p0JJU1I0QmuQdvKL7rBgtjB7hWWTAGzoRFAag-kQi9AYqTpJixai14sAwU1UsBFsAJY4izUkwetewV66_oVBcw=w40)
+![Diagram of time picker input measurements.](../../_assets/pTsIaFUPD07juD1tkEAvb1p0JJU1I0QmuQdvKL7rBgtjB7hWWTAGzoRFAag-kQi9AYqTpJixai14sAwU-ce3f6dc5ece623cd9cff.png)
 
 Time picker input padding and size measurements
 
@@ -181,21 +181,21 @@ Time picker input padding and size measurements
 
 ### Vertical orientation and horizontal orientation
 
-![Comparing vertical and horizontal time picker dials.](https://lh3.googleusercontent.com/WmiYd7XEBckVcinYGeo-3xr2eeeOOIIWF9dZ0VTU4ajlR6R63EP3LMH9AakmYwtl5XlTulsT_uJXym_dOmVCWgTCX49b0aTPPU_3U66z8Ro=w40)
+![Comparing vertical and horizontal time picker dials.](../../_assets/WmiYd7XEBckVcinYGeo-3xr2eeeOOIIWF9dZ0VTU4ajlR6R63EP3LMH9AakmYwtl5XlTulsT_uJXym_d-125061203d564c84d4a4.png)
 
 1.  Vertical layout (default on mobile)
 2.  Horizontal layout
 
 ### 24-hour time picker dial
 
-![2 24-hour time picker dials with vertical and horizontal layouts.](https://lh3.googleusercontent.com/SWtG7bnOOsaGYyC_KZbnqnO2SdcEIquR2TiLO6WAIdja0IDe8P8OQ9OehHUxTYAhf1vXNKGrjkMeJdgKkFfG-PqUTsDcH8sZ625V3ngYp1CFMA=w40)
+![2 24-hour time picker dials with vertical and horizontal layouts.](../../_assets/SWtG7bnOOsaGYyC_KZbnqnO2SdcEIquR2TiLO6WAIdja0IDe8P8OQ9OehHUxTYAhf1vXNKGrjkMeJdgK-1b9dac4e3cbc387fe73d.png)
 
 1.  24h dial in vertical layout (default on mobile)
 2.  24h dial in horizontal layout
 
 ### 12-hour and 24-hour time picker inputs
 
-![Compare 12-hour and 24-hour time picker inputs.](https://lh3.googleusercontent.com/YLwHepIx8fINPXo6ZMe0kk0nFoE45b4o9Rvtdre11V6KVm_pbkSMOb4Ltiu4Sgk-NyG0M5t1Cs5ghFF62FC4iAImZ1o-zi-1jM1rilN5756f=w40)
+![Compare 12-hour and 24-hour time picker inputs.](../../_assets/YLwHepIx8fINPXo6ZMe0kk0nFoE45b4o9Rvtdre11V6KVm_pbkSMOb4Ltiu4Sgk-NyG0M5t1Cs5ghFF6-3ab4c0d931e6a5ca4704.png)
 
 1.  12h input
 2.  24h input

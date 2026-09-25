@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 ## Variants
 
-![An icon on the container of a FAB, medium FAB, and large FAB.](https://lh3.googleusercontent.com/CdTXXgPJ5XavoUEXtTKTczb0ENYt1VwreirVIJMyIYnwI6gFCYn1S4LCQyptGlF6EzKq9xL2hzPOQKv2RdKrhf6kTIj5vkcNY2u-VuQRqghs=s0)
+![An icon on the container of a FAB, medium FAB, and large FAB.](../../_assets/CdTXXgPJ5XavoUEXtTKTczb0ENYt1VwreirVIJMyIYnwI6gFCYn1S4LCQyptGlF6EzKq9xL2hzPOQKv2-6534eaa511e5ae8b1813.png)
 
 1.  FAB
 2.  Medium FAB
@@ -20,7 +20,7 @@ captured: 2026-09-14
 
 The small FAB is still available, but no longer recommended. [Jump to baseline specs](/m3/pages/fab/specs#cd336045-e97d-4a6d-ac23-f778fa695e3c)
 
-![An icon on the container of a small FAB.](https://lh3.googleusercontent.com/LVMfvx2rKsoVM1_1Pq9CQ8o0dDyfSQtfCxYgle_57GhDKX0oDkNepZr0yvyqmoI6mL-0QfWWfFkmVJV5RwLbJVGJ4YGXZBTcT9JW2-IPRQNpVg=s0)
+![An icon on the container of a small FAB.](../../_assets/LVMfvx2rKsoVM1_1Pq9CQ8o0dDyfSQtfCxYgle_57GhDKX0oDkNepZr0yvyqmoI6mL-0QfWWfFkmVJV5-a5405ae7d5ee7431cf21.png)
 
 1\. Small FAB
 
@@ -52,7 +52,7 @@ Close
 
 ## Anatomy
 
-![2 elements of the FAB.](https://lh3.googleusercontent.com/ANFTHcXuJZA9FSSl3I315pOU3UzwgUh_BZgfudPuvatQY4tLh2hREtb6ESAQZulQZBDe8iHcqQ548uZe2aJd2UGGv-8q2XXCBeGLdERRlXs=w40)
+![2 elements of the FAB.](../../_assets/ANFTHcXuJZA9FSSl3I315pOU3UzwgUh_BZgfudPuvatQY4tLh2hREtb6ESAQZulQZBDe8iHcqQ548uZe-e4a4d9d38d00ffe37375.png)
 
 1\. Container
 
@@ -66,7 +66,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 FABs can use several combinations of **color** and **on-color** styles, such as **primary** and **on-primary**. The following color mappings provide the same legibility and functionality, so the color mapping you use depends on style alone.
 
-![6 FAB color styles in light and dark themes. Each style has 2 color roles, 1 for the container and icon.](https://lh3.googleusercontent.com/ZwUAoGfKU_nKPy45dUL885gk5_UbUfDoN2lY0oreRhS7vnkY12iBhnT3a1Fm1LydwMZVkqFYkQhYjVbGHx_hHsPwlmEm2KWwSQ75kOOKSkCsEA=w40)
+![6 FAB color styles in light and dark themes. Each style has 2 color roles, 1 for the container and icon.](../../_assets/ZwUAoGfKU_nKPy45dUL885gk5_UbUfDoN2lY0oreRhS7vnkY12iBhnT3a1Fm1LydwMZVkqFYkQhYjVbG-d5310d7a412837914698.png)
 
 1.  Primary container & On primary container (default)
 2.  Secondary container & On secondary container
@@ -79,7 +79,7 @@ FABs can use several combinations of **color** and **on-color** styles, such as 
 
 Surface FAB color styles are still available, but no longer recommended.
 
-![Baseline FAB style in all 3 sizes.](https://lh3.googleusercontent.com/Yt-382N_6b_TEqwyVAFZY_PG3zCmejVTFm6-tfbkUGpTqwgeECy2CNFH8n0bV1Spc6qU-ruc9l-Qja0_LpTeeYatxSxOi7qyzjF5tSeeXuEU=w40)
+![Baseline FAB style in all 3 sizes.](../../_assets/Yt-382N_6b_TEqwyVAFZY_PG3zCmejVTFm6-tfbkUGpTqwgeECy2CNFH8n0bV1Spc6qU-ruc9l-Qja0_-13e58aa1e4ae114c7fca.png)
 
 1.  Surface FABs
 
@@ -89,7 +89,7 @@ States are visual representations used to communicate the status of a component 
 
 When using a non-default color mapping for FABs, make sure the state layer color is the same as the icon color. For example, the state layer color for the **primary** color style should be md.sys.color.primary.
 
-![4 states of a FAB shown in light and dark themes.](https://lh3.googleusercontent.com/zCVGIf6lxv-ExBpOFiRo9G2yv-hIzjqPkEG0HKniNMzlBuWcEI8tXSvAndc3RL7Q0OOG56i6xP36k1rP1E-Fz92l4TGPZlkzdbNCF67rj2M=w40)
+![4 states of a FAB shown in light and dark themes.](../../_assets/zCVGIf6lxv-ExBpOFiRo9G2yv-hIzjqPkEG0HKniNMzlBuWcEI8tXSvAndc3RL7Q0OOG56i6xP36k1rP-327e9c0a1467013a18ff.png)
 
 1.  Enabled
 2.  Hovered (8% state layer) - elevation 4
@@ -100,31 +100,31 @@ When using a non-default color mapping for FABs, make sure the state layer color
 
 ### FAB
 
-![FAB size measurements.](https://lh3.googleusercontent.com/bY4SJyZCamFkqUakHco1-HsHBRJ55wn7zAWPhJCBlE9W4aA7wFnRywl8NSl_e7oToqU6JODtUnjeguVn7BJd5irT8DYnHQmq1lQKEvgN3g3Q=w40)
+![FAB size measurements.](../../_assets/bY4SJyZCamFkqUakHco1-HsHBRJ55wn7zAWPhJCBlE9W4aA7wFnRywl8NSl_e7oToqU6JODtUnjeguVn-8e8130fbace1af4ba3f1.png)
 
 FAB size measurements
 
-![FAB padding measurements.](https://lh3.googleusercontent.com/beevX-JBo5BT5oaSR6WnfIvvspxwDFUOsGg0TBWuDEAgjCYevFNjOhNnz6om1Pbxkal9dwoBR5HwAeyyn7LB8z1N-NrDjH_F9ZcxN_lEL60=w40)
+![FAB padding measurements.](../../_assets/beevX-JBo5BT5oaSR6WnfIvvspxwDFUOsGg0TBWuDEAgjCYevFNjOhNnz6om1Pbxkal9dwoBR5HwAeyy-3c22a911592654ddb981.png)
 
 FAB padding measurements
 
 ### Medium FAB
 
-![Medium FAB size measurements.](https://lh3.googleusercontent.com/l-yip97Leh5bLumalSFuxS1DEMG6p3xJlXkUCTioixjvr0uXlzTaKK85zQzLnZPpgD9E72Zajd1yO9VMW1FKpSUVCWXbP5XIxIz6dUiubWALJw=w40)
+![Medium FAB size measurements.](../../_assets/l-yip97Leh5bLumalSFuxS1DEMG6p3xJlXkUCTioixjvr0uXlzTaKK85zQzLnZPpgD9E72Zajd1yO9VM-b8d8f3f19562fa79efa3.png)
 
 Medium FAB size measurements
 
-![Medium FAB padding measurements.](https://lh3.googleusercontent.com/qQZXXxZh9x9LRJyZI_2tblBDG7aMd-Rx3HQVX-ssihAGa-xSIGuOA2FZNPKeHgfbI-q19SD0IIUCT-xnLHk4Q-P2KSb-KnSm95tRPJQs2rKx=w40)
+![Medium FAB padding measurements.](../../_assets/qQZXXxZh9x9LRJyZI_2tblBDG7aMd-Rx3HQVX-ssihAGa-xSIGuOA2FZNPKeHgfbI-q19SD0IIUCT-xn-ad5eb620e69c70559c32.png)
 
 Medium FAB padding measurements
 
 ### Large FAB
 
-![Large FAB size measurements.](https://lh3.googleusercontent.com/_1q2AqUdfZfCbC9aKRbQaXHO48GA5OSdH6ywXyyosvlIznXjrr0Wx-WM9xomavwT1qj6RA42qG01crP9I7GQPJ92BWnvJqijQ01UxjQKKcgS=w40)
+![Large FAB size measurements.](../../_assets/1q2AqUdfZfCbC9aKRbQaXHO48GA5OSdH6ywXyyosvlIznXjrr0Wx-WM9xomavwT1qj6RA42qG01crP9I-71cfd559d7d526042f4f.png)
 
 Large FAB size measurements
 
-![Large FAB padding measurements.](https://lh3.googleusercontent.com/PsH6GvakYnsKOw9X05rxaShBXItlCIc3qS-LGjmdITmzFgAnhxdiyhzUEM34i8B0MGtZoBoDdXE7eA1hYAFqcWEqFyipPBdhE0TirWp_HMWxTA=w40)
+![Large FAB padding measurements.](../../_assets/PsH6GvakYnsKOw9X05rxaShBXItlCIc3qS-LGjmdITmzFgAnhxdiyhzUEM34i8B0MGtZoBoDdXE7eA1h-1599c292f83f86ceead4.png)
 
 Large FAB padding measurements
 

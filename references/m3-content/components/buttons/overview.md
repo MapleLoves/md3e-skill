@@ -18,7 +18,7 @@ captured: 2026-09-14
 
 -   Keep labels concise and use sentence case
 
-![5 variants of buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1qv5u-01.png?alt=media&token=70d30001-94b9-4bc2-a894-3b71a78dfb2e)
+![5 variants of buttons.](../../_assets/mmm1qv5u-01-108b24f85d53ecb0d190.png)
 
 1.  Elevated button
 
@@ -72,7 +72,7 @@ New padding for **small** buttons:
 
 -   24dp (no longer recommended)
 
-![4 button changes in the expressive update.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1tos0-03.png?alt=media&token=dd50e746-4e7b-41f5-8e51-1f26afb86139)
+![4 button changes in the expressive update.](../../_assets/mmm1tos0-03-015c1315a60fc2d89c8a.png)
 
 1.  Five sizes
 
@@ -90,10 +90,10 @@ New padding for **small** buttons:
 
 -   Shape: Fully-rounded corner radius and additional height options
 
-![Rectangular M2 buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1vatd-04.png?alt=media&token=9224dca7-f21c-4dff-812d-3dfb3fa035e6)
+![Rectangular M2 buttons.](../../_assets/mmm1vatd-04-8feba5852b6ed6951eff.png)
 
 M2: Buttons have a height of 36dp and slightly rounded corner radius
 
-![Round-cornered M3 buttons.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1vtk3-05.png?alt=media&token=1f0e0136-6117-4e71-8d6c-d006b6ef3804)
+![Round-cornered M3 buttons.](../../_assets/mmm1vtk3-05-22971d1e1b5a36878fcf.png)
 
 M3: Default buttons are taller at 40dp and have fully rounded corners

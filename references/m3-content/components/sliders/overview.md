@@ -42,7 +42,7 @@ New configurations: 
 
 -   Sizes: XS (existing default), S, M, L, XL
 
-![3 M3 Expressive sliders.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lii3kv-02.png?alt=media&token=315a4297-8491-4398-9ceb-ee02c42bce76)
+![3 M3 Expressive sliders.](../../_assets/m7lii3kv-02-34a17fb72cd200f39d61.png)
 
 1.  Standard slider
 2.  Centered slider
@@ -62,7 +62,7 @@ New configurations: 
 
 -   **Color:** Refreshed color mappings
 
-![M3 visually-refreshed slider.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lirx37-03.png?alt=media&token=938a41c7-a272-4f54-b226-a138dbc77dbd)
+![M3 visually-refreshed slider.](../../_assets/m7lirx37-03-6604484a6dab57ca6ce7.png)
 
 M3 visual refresh: Sliders have a stop indicator, larger label text, and a vertical handle that narrows when pressed. Centered sliders start from the middle instead of the leading edge.
 
@@ -70,10 +70,10 @@ M3 visual refresh: Sliders have a stop indicator, larger label text, and a verti
 
 -   **Color**: New color mappings and compatibility with dynamic color Dynamic color takes a single color from a user's wallpaper or in-app content and creates an accessible color scheme assigned to elements in the UI. [More on dynamic color](/m3/pages/dynamic/choosing-a-source)
 
-![M2 slider.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7livqfr-04.png?alt=media&token=04f22602-6e80-4772-84e6-e36473774b80)
+![M2 slider.](../../_assets/m7livqfr-04-473523e04531750727f5.png)
 
 M2: Sliders have a circular handle and a small label when pressed
 
-![Original M3 slider.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7liwct9-05.png?alt=media&token=92017b6d-1e41-4639-9a31-6e78d744afe0)
+![Original M3 slider.](../../_assets/m7liwct9-05-804b7e48b94f28b58525.png)
 
 M3: Sliders have new color mappings and support dynamic color

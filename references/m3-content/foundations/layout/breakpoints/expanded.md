@@ -10,7 +10,7 @@ captured: 2026-09-14
 
 Layouts for expanded breakpoints Breakpoints are opinionated window sizes where a layout changes to match available space, device conventions, and ergonomics (previously window size classes). [More on breakpoints](/m3/pages/breakpoints) are for **screen widths from 840dp to 1199dp.**
 
-![Supporting pane layout of a video app. The large, primary pane has the video, title, and actions. The secondary pane has queued videos.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp41hvbo-01.png?alt=media&token=a0987d8d-bee6-446b-9533-8bad300ec920)
+![Supporting pane layout of a video app. The large, primary pane has the video, title, and actions. The secondary pane has queued videos.](../../../_assets/mp41hvbo-01-7ecd7c73eea687d69302.png)
 
 Two-pane layouts are often best for expanded breakpoints
 
@@ -22,7 +22,7 @@ The navigation rail can be hidden in secondary destinations as long as the prima
 
 For sorting, filtering, or secondary navigation, use tabs or other components directly in the pane.
 
-![The navigation area is a vertical bar at the left of the screen. To its right, the body pane fills the rest of the window.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp41iro5-02.png?alt=media&token=d61c1d3f-5835-4afa-8577-c5e0f27eedb8)
+![The navigation area is a vertical bar at the left of the screen. To its right, the body pane fills the rest of the window.](../../../_assets/mp41iro5-02-666ff5fdf6a7c4a30f70.png)
 
 1.  Navigation area
 
@@ -34,7 +34,7 @@ Use a single-pane or two-pane layout.
 
 A two-pane layout is often best for expanded breakpoints. However, a single-pane layout can work when displaying visually- or information-dense content, such as videos.
 
-![A single pane covers most of the expanded screen except for the navigation area and margins.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp41jkb5-03.png?alt=media&token=6ba22cd5-a9b7-4c62-9c8a-90049d3742b3)
+![A single pane covers most of the expanded screen except for the navigation area and margins.](../../../_assets/mp41jkb5-03-17067ab3b08baf5de9a6.png)
 
 At an expanded breakpoint, reserve single-pane layouts for information-dense content
 
@@ -52,7 +52,7 @@ Expanded layouts have a leading and trailing margin of 24dp.
 
 The spacer between panes is 24dp.
 
-![2 pane layout with 24dp margins and 24dp space between panes.](https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5l3xgt-06.png?alt=media&token=7bf8133f-ef0c-4377-8cd4-abe7cb6c41d8)
+![2 pane layout with 24dp margins and 24dp space between panes.](../../../_assets/mp5l3xgt-06-3f6372275b5307c1576a.png)
 
 Use 24dp for margins and spacer in an expanded layout
 
